@@ -1,0 +1,1302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Liber I, Distinctio 17, Quaestio 3</title>
+				<author>Alphonsus Toletanus Vargas</author>
+				<editor>Luciana Cioca</editor>
+				<respStmt>
+					<name>Jeffrey C. Witt</name>
+					<resp>TEI Encoder</resp>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="0.0.0-dev">
+					<date when="2016-09-14">September 14, 2016</date>
+				</edition>
+			</editionStmt>
+			<publicationStmt>
+				<authority>THESIS project</authority>
+				<availability status="free">
+					<p>Public Domain</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="P" n="Paris1490">Paris1490</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+			<schemaRef n="lbp-critical-1.0.0"
+				target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/1.0/critical.rng"> </schemaRef>
+			<editorialDecl>
+				<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+					guidelines for a critical edition</p>
+			</editorialDecl>
+		</encodingDesc>
+		<revisionDesc status="draft">
+			<listChange>
+				<change when="2016-09-02" who="#JW" status="draft" n="0.0.0">
+					<p>Created file for the first time.</p>
+				</change>
+			</listChange>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:lang="la">
+		<front>
+			<div xml:id="includeList">
+				<xi:include
+					href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+					xpointer="worksCited"/>
+				<xi:include
+					href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+					xpointer="prosopography"/>
+			</div>
+			<div xml:id="starts-on">
+				<pb ed="#P" n=""/>
+				<cb ed="#P" n=""/>
+			</div>
+		</front>
+		<body>
+			<div xml:id="atv-l1d17q3">
+				<head>Liber I, Distinctio 17, Quaestio 3</head>
+
+
+				<p>Tertio quero utrum caritas augeatur per additionem partis ad partem, utraque parte
+					remanente.</p>
+				<div type="rationes-principales">
+					<head>Rationes principales</head>
+					<p>Et videtur primo quod non, quia, si caritas sic augeretur per additionem partis ad
+						partem utraque remanente, sequeretur quod caritas non augeretur, et sic augeretur et non
+						augeretur, quod est aperta contradictio. Consequentia probatur, quia non augeretur pars
+						precedens, quia illa non fit maior quam primo fuerit. Ex hoc enim quod aliquid additur
+						alteri non fit cui additur maius quam prius, nec augeretur pars sequens, quia non
+						prefuit in principio augmentationis, nec fuit mota augmentatione, nec augmentatione, nec
+						augeretur aggregatum ex utrisque propter eandem rationem, nec quia fuit in principio
+						augmentationis sicut nec pars sequens, nec in tota augmentatione, et per consequens
+						caritas non augeretur.</p>
+
+					<p>Contra, quia, sicut est in augmento quantitativo, ita videtur esse in augmento
+						qualitativo, sed augmentum quantitativum sit per additionem partis ad partem utraque
+						parte remanente; ergo et augmentum qualitativum cuiusmodi est augmentum caritatis vel
+						cuiuscumque forme intensibilis sit per additionem partis ad partem utraque parte
+						remanante. Maior videtur mota et minor apparet, nam augmentum quantitativum sit corporeo
+						adveniente, ut patet I <name>De generatione</name>, cum ergo corpus magnum augeatur per
+						additionem parve quantitatis, utputa per additionem unius grani milii vel quantitas
+						precedens manet vel corrumpitur. Si manet, habetur propositum, scilicet quod augmentum
+						quantitativum sit per additionem partis ad partem utraque parte remanente. Si vero detur
+						quod corrumpatur, sequitur quod cum corpus magnum au-[114ra]-getur per quantitatem unius
+						grani milii quod tota quantitas precedens destruitur et non manet nisi quantitas unius
+						grani milii, sed cum magnum transmutatur a quantitate magna ad quantitatem unius grani
+						milii, tunc non augetur, sed minuitur, igitur, si in augmento quantitativo quantitas
+						precedens corrumperetur, sequitur quod illud quod augeretur non augeretur, sed magis
+						diminueretur, quod est evidenter falsum.</p>
+				</div>
+				<div>
+					<head>Divisio quaestionis</head>
+					<p>In ista questione erunt quattuor articuli. Primo ponam dubitationis materiam et
+						occasionem, secundo quattuor conclusiones. Tertio movebo dubia. Quarto respondebo.</p>
+				</div>
+				<div type="articulus">
+					<head>Articulus primus</head>
+
+					<p>Ad primum est advertendum quod dupliciter potest intelligi caritatem vel aliam formam
+						intensibilem augeri per additionem partis ad partem. Uno modo, quia pars additur parti
+						sicut in augmento vini vel aque. Videmus sensibiliter quod una pars alteri additur. Alio
+						modo, quia pars addit ad partem, id est supra partem, sicut videmus in augmento dierum
+						quod dies additur ad diem id est supra diem, quia dies una est maior alia. Et iuxta
+						membra huius distinctionis sunt circa materiam istam due solemnes oppositiones que
+						reddunt questionem illam merito dubitabilem. Dicunt enim aliqui quod caritas et
+						universaliter omins forma intensibilis augetur, quia pars additur parti sic quod ex
+						utraque parte simul una forma perfectior sive maior intensive, sicut videmus aquam
+						augeri, quia ex duabus aquis, quarum una additur alteri, sit una extensive et secundum
+						istam opinionem caritas et universaliter omnis forma intensibilis augetur per additionem
+						partis ad partem utraque remanente. Quidam vero dicunt quod nec caritas nec aliqua forma
+						intensibilis augetur, quia pars additur parti, sed pars addit supra partem, id est quia
+						pars sive gradus forme perfectior succedit in subiecto parti sive gradui forme minus
+						perfecto, sicut videmus dies augeri, quia maior succedit minori et secundum istam
+						opinionem nulla forma intensibilis augetur per additionem partis ad partem utraque parte
+						remanante, quia in augmento cuiuslibet tota forma prima corrumpitur et alia perfectior
+						generatur. Primam continens in virtute diversitas igitur harum opinionum et difficilia
+						motiva eorum que inferius adduceretur reddunt questionem propositam non solum dubiam,
+						sed valde difficilem.</p>
+				</div>
+				<div type="articulus">
+					<head>Secundus articulus</head>
+					<div>
+						<head><supplied>Conclusio prima</supplied></head>
+
+						<p>Quantum ad secundum: prima conclusio est quod in augmento caritatis non corrumpitur
+							caritas preexistens, nec in augmento bonitatis bonitas preexistens, et sic de ceteris
+							formis permanentibus intensibilibus quibuscumque. Istam conclusionem deduco primo de
+							aliis formis a caritate, secundo de caritate. </p>
+
+						<p>De aliis arguo primo sic: si in augmento caritatis corrumperetur calor precedens,
+							sequitur quod ignis unius gradus posset causare calorem in quocumque gradu vel quod
+							augmentum caloris non esset augmentum caloris, quorum quodlibet est impossibile et
+							evidenter falsum. Consequentiam deduco, pro cuius deductione pono quod ignis 10
+							graduum causet calorem 10 graduum in aliquo subiecto et quod ignis unius gradus
+							augmentet calorem illum per unum gradum, quod est bene possibile. Isto casu possibili
+							posito quero an calor ille preexistens 10 graduum corrumpatur vel non. Si non, habetur
+							propositum principale quod in augmento caloris non corrumpitur calor precedens. Si
+							sic, quero ulterius an in subiecto illo posito casu dato. Sit calor 11 graduum, autem
+							non. Si sic, sequitur quod ignis unius gradus causaverit calorem 11 graduum. Ista
+							consequentia patet, quia calor ille 11 gra-[114rb]-duum qui nunc conceditur esse in
+							subiecto illo est noviter causatus ex quo primus fuit totaliter corruptus et non nisi
+							ab igne unius gradus, quia pono quod pro tunc nil aliud causaverit calorem in illo
+							subiecto, et per consimilem rationem probabitur quod ignis ille poterit causare
+							calorem in quocumque gradu que fuit prima pars consequentis. Si vero dicatur quod casu
+							isto posito calor ille non erit 11 graduum, patet quod calor ille non fuit
+							augmentatus, quia primo erat 10 graduum, et per consequens augmentum caloris non erit
+							augmentum caloris que erat secunda pars consequentis, et ulterius pari ratione qua
+							calor ille non esset 11 graduum, nec 10, quia, sicut repugnant igni unius gradus
+							causare calorem 11 graduum, ita repugnat sibi causare calorem 10 graduum, et per
+							consequens augmentatio caloris non solum non esset augmentatio, immo esset diminutio
+							caloris, quod est contradictio manifesta. Et confirmatur, quia, si in augmento caloris
+							non manet gradus precedens, sequitur quod ignis 10 graduum, immo 100 vel 1000, non
+							posset causare calorem ita perfectum quin ignis unius gradus posset causare
+							perfectiorem, quod nullus sane mentis diceret. Consequentiam probo ut prius uno
+							addito. Pono namque quod ignis 10 graduum causet calorem perfectiorem quam potest et
+							sit calor ille 10 graduum gratia exempli et quod ignis unius gradus augmentet illum
+							calorem per unum gradum ut prius. Quo posito sequitur per deductionem precedentem quod
+							ignis unius gradus causaverit calorem 11 graduum vel quod calor non sit augmentatus,
+							quod est contra positum, et per consequens ignis 10 graduum non potuit causare calorem
+							ita perfectum quin ignis unius gradus causaverit perfectiorem et similiter potest
+							argui de igne 100 vel 1000 graduum; ergo etc.</p>
+
+						<p>Secundo ad principale sic: in remissione forme non corrumpitur tota forma precedens,
+							igitur nec in eius intensione et, si in intensione non corrumpitur tota forma
+							precedens, evidens est quod nec aliquid eius, et per consequens tota manet. Prima
+							consequentia patet, quia non minus manet tota forma precedens in intensione quam in
+							eius remissione etiam per tenentes conclusionem oppositam. Antecedens vero a quo
+							dependet tota deductio probatur. </p>
+
+						<p>Primo sic: ponatur quod una forma contraria remittat aliam, utpote calor frigiditatem
+							in uno gradu vel duobus. Et tunc quero an tota frigiditas illa corrumpatur aut non. Si
+							non, patet quod in remissione forme non corrumpitur forma precedens, quod fuit
+							antecedens declarandum. Si sic, quero ulterius an noviter causetur aliqua frigiditas
+							vel non. Si non, sequitur quod remissio frigiditatis in uno gradu vel duobus non erit
+							remissio frigiditatis, sed totalis corruptio et amotio ipsius a subiecto, et per
+							consequens fridigum nunquam poterit remitti in aliquo gradu quin totaliter desinat
+							esse frigidum, cuius oppositum experientia manifestat. Si sic, cum illa frigiditas
+							noviter causata non causetur a Deo, nec a celo, nec ab aliquo alio, quia pono quod pro
+							tunc nil aliud a calore causet frigiditatem, sequitur quod calor oppositus per se
+							causabit frigiditatem, quod est omnino impossibile. </p>
+
+						<p>Secundo sic: possibile est voluntatem per actum suum remittere actum intellectus. Hoc
+							patet, quia potest ipsum totaliter corrumpere ammovendo intellectum ab eo. Ponatur
+							ergo inesse de facto et arguo sic: hec volitio remissiva intellectionis necessario
+							presupponit intellectionem aliquam priorem, igitur intellectio illa que ponitur
+							remitti per eam non corrumpitur tota. Consequentia est clara, quia talis volitio non
+							necessario presupponit aliquam intellectionem priorem aliam ab intellectione que
+							remittitur per ipsam. Antecedens vero probatur, quia hec volitio necessario
+							presupponit aliquam intellectionem, aliter voluntas posset ferri in incognitum, quod
+							est contra <name>beatum Augustinum</name> X [114va] <title>De Trinitate</title> per
+							totum, nec aliquam posteriorem que sequatur ipsam patet de se ergo aliquam priorem que
+							precedit.</p>
+
+						<p>Tertio ad principale sic: sensibiliter apparet quod, si una candela illuminante aerem
+							alicuius domus apponatur alia fit lumen intensius, ponatur quod aliqua candela
+							illuminante aerem ponatur alia tante virtutis precise ad illuminandum aerem, sicut
+							prima vel minoris et quero an lumen preexistens causatum a prima candela corrumpatur
+							vel non. Si non, propositum, quia sequitur quod ex intensione luminis non corrumpitur
+							lumen preexistens. Si sic, sequuntur duo inconvenientia manifesta. Primum est quod
+							opposita secunda candela lumen non esset intensius, quod est contra positum et contra
+							sensum. Consequentia patet, quia secunda candela non causat, nec causare potest
+							perfectius lumen quam prima, cum sit tante virtutis precise ex supposito vel minoris,
+							igitur, si lumen preexistens causatum a prima eorum pariter secunda illuminante aerem,
+							evidens est quod lumen non erit intensius quam prius erat.</p>
+
+						<p>Secundum est quod subtracta candela manente tantum secunda lumen non esset remissius,
+							cuius oppositum patet ad sensum. Consequentia est clara, quia, si lumen causatum a
+							prima candela corrumpitur adveniente secundam ad ammotionem, non sequitur remissio
+							luminis. Patet igitur assumpra conclusio de aliis formis a caritate. De caritate vero
+							probo conclusionem. </p>
+
+						<p>Primo sic: possibile est caritatem augeri priori caritate manente, igitur credendum
+							est ipsam sic augeri de facto. Antecedens patet, quia caritas potest augeri sicut
+							cetere forme que, ut patet ex dictis, augentur priori forma manente. Consequentia
+							probatur, quia cum Deus et natura nil faciant frustra. non est credendum in augmento
+							caritatis Deum facere aliquid frustra, sed frustra annichilaret caritatem precedentem.
+							Si caritas potest augeri ipsa manente, ergo etc. Et confirmatur, quia, si caritas
+							potest augeri sicut cetere forme priores caritate manente cum ratio non convincat
+							oppositum, nec auctoritas credendum est sic fieri.</p>
+
+						<p>Secundo sic: impossibile est quod in eodem instanti in quo viator per actum caritatis
+							meretur sue caritatis augmentum augetur sibi caritas. Quo posito quero an caritas
+							preexistens desinat esse pro eodem instanti vel non. Si non, propositum, quia sequitur
+							quod gradus caritatis adveniens et precedens sunt simul pro eodem instanti, et pari
+							ratione potuerunt simul esse pro toto tempore. Si sic, cum actus ille quo meretur non
+							sit meritorius nisi per caritatem precedentem, si in illo instanti non sit caritas
+							precedens, actus ille qui ponitur meritorius, non esset meritorius, quod
+							contradictionem implicat. Forte dicetur ad istam rationem quod Deus non potest augere
+							caritatem in illo instanti in quo habetur actus meritorius quo quis meretur sue
+							caritatis augmentum. Sed ad veritatem hec evacuatio est nulla, quia dicere quod Deus
+							non potest augere caritatem pro illo instanti est ad placitum et sine ratione dictum,
+							quia, si ponatur in esse nulla, sequitur contradictio nisi aliquis vellet pro libito
+							voluntatis fingere contradictionem. Et confirmatur, quia, si augmentum caritatis fiat
+							in instanti et Deus non possit augere caritatem in illo instanti in quo quis meretur
+							sue caritatis augmentum, sequitur quod in alio et cum inter quecumque duo instantia
+							sit tempus medium, sequitur quod Deus non poterit augere caritatem illius quin
+							necessario transierit aliquod tempus, quod non videtur bene dictum.</p>
+					</div>
+					<div>
+						<head><supplied>Conclusio secunda</supplied></head>
+
+						<p>Secunda conclusio est quod caritas et universaliter omnis forma intensibilis augetur
+							per acquisitionem nove realitatis sive nove partis eiusdem forme. Istam conclusionem
+							deduco. </p>
+
+						<p>Primo sic: terminus ad quem cuiuslibet motus realis est aliquid reale. Hoc
+							pa-[114vb]-tet, quia motus, secundum <name>Aristotelem</name> III et VII
+								<title>Physicorum</title>, specificatur a termino ad quem, quod non esset verum nisi
+							terminus ad quem in omni motu reali esset aliquid reale, sed motus augmenti caritatis
+							terminus ad quem est realis et cuiuslibet alterius forme realis est vere realis,
+							igitur eius terminus motus non est aliqua realitas se tenens a parte subiecti, utputa
+							dispositio subiecti vel radicatio forme in subiecto, ut patet ex prima questione huius
+							distinctionis, nec est realitas sive pars forme precedens, quia impossibile est
+							terminum ad quem alicuius motus precedere motum, igitur est aliqua realitas sive pars
+							forme noviter acquisite.</p>
+
+						<p>Confirmatur, quia impossibile est esse motum sine termino, cum non sit nisi via ad
+							terminum, igitur impossibile est esse motum realem sine termino reali, sed motus
+							augmenti sive intensionis forme est motus realis, igitur eius terminus est realis, sed
+							eius terminus est aliqua qualitas et non dispositio subiecti, nec participatio
+							qualitatis aliter alteratio non esset motus ad qualitatem et non qualitas precedens,
+							ut patet ex dictis, ergo aliqua qualitas adveniens, et sic propositum.</p>
+
+						<p>Confirmatur ulterius, quia per omnem motum realem acquiritur aliquid reale, ut patet
+							ex dictis universaliter, igitur illud reale quod acquiritur in motu augmenti et
+							intensionis forme est realitas sive pars precedens, autem alia. Non prima, quia illa
+							est iam acquisita, igitur alia, quia illa est secundum quam sit intensio forme.
+							Sequitur quod forma vere intenditur per acquisitionem nove partis sive nove realitatis
+							eiusdem.</p>
+
+						<p>Secundo, ad principale sic: nulla forma denominans aliquod subiectum denominatione
+							intrinseca et formali potest ipsum secundum magis et minus denominare nisi facta reali
+							mutatione in ipsa vel in subiecto. Hoc patet, quia, si forma et subiectum se habent
+							eodem modo, eodem modo subiectum denominabitur. Non enim est aliqua ratio quare nunc
+							denominetur aliter quam prius, sed caritas et omnis forma intensibilis denominat
+							subiectum in quo est secundum magis et minus denominatione intrinseca et formali, ergo
+							necesse est quod fiat aliqua realis mutatio in aliquo ipsorum. Sed hec mutatio non
+							est, nec potest esse in aliquo subiecto, ut patet ex dictis, ergo est in forma. Sed
+							realis mutatio non potest esse in forma ad propositum assignari nisi una pars eius
+							acquiratur; ergo etc.</p>
+
+						<p>Tertio sic: implicatio contradictionis est quod aliquid de novo realiter perficiatur
+							nisi adveniente reali aliquo ipsum perficiente, aliter posset dici quod materia
+							perficitur realiter sine realitate adveniente, et sic tolleretur omnis via ad
+							probandum distinctionem realem inter materiam et formam. Sed caritas intensa realiter
+							perficitur non est dubium, ergo necesse est novam realitatem advenire ipsam
+							perficientem. Et confirmatur, quia impossibile est quod idem sit realiter perfectius
+							se ipso. Constat quod forma intensa est realiter perfectior remissa, igitur
+							impossibile est quod sint idem penitus, et per consequens aliquid reale acquiritur
+							intensa ratione cuius non est idem penitus, sed differens a remissa. </p>
+
+						<p>Quarto sic: si caritas augetur et non per acquisitionem nove partis sive nove
+							realitatis, sequitur quod augmentans continue caritatem continue agit, quod tamen
+							nihil auget, quod est omnino impossibile, quia sequitur nihil auget, igitur nihil
+							agit. Et consequentia quantum ad primam partem consequentis est clara, quia certum est
+							quod augmentans continue caritatem continue agit. Quantum ad secundam partem probatur,
+							quia non facit formam preexistentem, nec aliquid aliud stante supposito, igitur nihil
+							agit, et sic potest argui de qualibet forma intensibili.</p>
+
+						<p>Quinto sic: sequitur in augmento forme non acquiritur aliqua realitas nova que sit
+							for-[115ra]-ma vel pars forme, igitur forma simul augetur et non augetur. Consequens
+							est impossibile et implicativum contradictionis, igitur et antecedens. Consequentia
+							probatur, quia illud non augetur quod non se habet aliter quam prius. Oppositum
+							predicati infert oppositum subiecti, sed, si in augmento forme non acquiritur aliqua
+							realitas nova que sit forma vel pars forme, tunc illa forma non se habet aliter quam
+							prius; igitur, si in augmento forme non acquiritur aliqua realitas nova que sit forma
+							vel pars forme, illa non augetur et tamen ponitur augeri, igitur simul augetur et non
+							augetur.</p>
+
+						<p>Sexto sic: omne excedens aliud per aliquid excedit illud, sed, si duo calores sint
+							nunc sub gradibus equalibus et unus eorum intendatur, altero non intenso calor
+							intensus excedit non intensum, igitur per aliquid excedit ipsum, sed non excedit ipsum
+							in aliqua realitate vel in parte caloris que prefuit, quia in illa est equalis et ex
+							supposito, igitur necessario excedit ipsum in aliqua realitate vel parte caloris
+							acquisita de novo, et per consequens necesse quod in augmento caloris noviter
+							acquiratur aliqua realitas vel aliqua pars caloris.</p>
+
+						<p>Ultimo sic: si sint Petrus et Paulus habentes caritatem omnino sub gradibus equalibus
+							et intendatur caritas Petri caritate Pauli sub eodem gradu manente, certum est quod
+							Petrus esset magis charus et acceptus Deo quam Paulo. Ratio huius est, quia prius
+							erant equaliter chari et accepti Deo, quia habentes caritates omnino equales et nunc
+							Petrus est magis acceptus Deo quam prius, quia eius caritas est intensior. Paulus
+							autem non, quia caritas eius sub eodem gradu manet quo prius. Tunc sic: caritas Petri
+							stante supposito habet aliquid intrinsece de natura caritatis quam prius non habuit
+							vel non. Si sic, cum nihil sit intrinsecum caritati nisi caritas vel pars caritatis,
+							sequitur quod cum caritas intenditur acquiritur nova caritas vel nova pars caritatis,
+							quod est propositum. Si non, sequitur quod Petrus et Paulus sunt equaliter chari et
+							accepti Deo et tamen Petrus est magis charus et acceptus Deo quam Paulus, quod est
+							impossibile et implicans contradictionem.</p>
+
+						<p>Ista consequentia probatur, quia, si caritas Petri non habet aliquid intrinsece de
+							natura caritatis quod prius non habuit, sequitur quod erat equalis in natura caritatis
+							caritate Pauli, quia prius erat equalis ei et nihil acquisivit de natura caritatis.
+							Sed sequitur quod caritas Petri est equalis caritati Pauli in natura caritatis, igitur
+							Petrus et Paulus sunt equaliter chari et accepti Deo, quia habentes caritates omnino
+							equales et tamen Petrus est magis charus et magis acceptus quam Paulo, quia eius
+							caritas est intensior ex supposito; igitur Petrus et Paulus simul erant equaliter
+							chari et accepti Deo et tamen Petrus erit magis charus et acceptus Deo quam Paulo, que
+							fuit consequentia declaranda.</p>
+
+						<p>Ex ista conclusione sequitur quod caritas et universaliter forma intensibilis, si sit
+							permanens, augetur per additionem partis ad partem sive quia pars addatur parti
+							utraque parte remanante quod principaliter querebatur. Deductio est evidens, quia
+							caritas et universaliter omnis forma intensibilis, si sit permanens, augetur per
+							acquisitionem nove partis priore non corrupta, igitur augetur per additionem partis ad
+							partem utraque parte remanente. Consequentia est nota et antecedens quantum ad
+							secundam partem patet ex prima conclusione et quantum ad primam patet ex secunda.</p>
+
+						<p>Et confirmatur ista propositio ad presens dupliciter. </p>
+
+						<p>Primo sic: ad sensum videmus quod, si una candela illuminando aerem apponatur alia,
+							lumen intenditur in ipso vel igitur candela noviter apposita causat aliquod lumen in
+							aere vel non. Secundum dari non potest, tum quia non posset assignari ratio cur lumen
+							esset inten-[115rb]-sius nunc quam prius, tum quia ad sensum videmus quod ammota prima
+							candela aer manet illuminatus, quod non esset possibile nisi candela secunda causaret
+							lumen in ipso. Relinquitur ergo primum et sic propositum, quia cum lumen causatum a
+							prima candela non corrumpatur, sed remaneat, ut patet ex prima conclusione, sequitur
+							quod intendatur per additionem luminis noviter causati priori lumine remanente et quia
+							idem iudicium est de qualibet alia forma intensibili, sequitur quod omnis talis
+							intendatur per additionem partis ad partem utraque remanente.</p>
+
+						<p>Confirmatur, quia experientia manifestat quod duo ignes, quorum quilibet sit 10
+							graduum vel 20 simul agentes in stuppam equaliter distantem ab utroque, causant
+							maiorem calorem in ipsa quam alter eorum precise, vel igitur uterque eorum causat
+							gradum caloris in ipsa, vel non. Si sic, propositum, quia sequitur quod ex gradu et
+							gradu caloris sit unus calor intensus, et per consequens calor intenditur per
+							additionem gradus ad gradum sive partis ad partem remanante utraque parte, quod
+							intendimus. Si non, sequitur quod illo ammoto qui non causat calorem in stuppa calor
+							stuppe non remittetur, cuius oppositum patet ad sensum. Et ulterius non apparet aliqua
+							ratio quare unus causabit calorem et alius non, cum sint equalis et inequali distantia
+							ex supposito.</p>
+
+						<p>Ultimo sic: caritas intensa habet plures gradus caritatis quam caritas remissa,
+							igitur caritas intenditur per additionem gradus ad gradum utroque remanente.
+							Consequentia nota. Oppositum enim consequentis infert oppositum antecedentis, quia
+							sequitur caritas non intenditur per additionem gradus ad gradum utroque remanente,
+							igitur ex gradu et gradu caritatis non sit caritas intensior, ergo caritas intensa non
+							habet plures gradus caritatis quam caritas remissa, quod est oppositum antecedentis.
+							Sed antecedens probatur, quia, si detur oppositum, sequitur quod caritas Christi non
+							fuit intensior caritate lini, quod non videtur ab aliquo catholico concedendum. Ista
+							consequentia patet, quia caritas Christi non est maior caritate lini, igitur nec
+							melior. Dicit <name>beatus Augustinus</name> VI <title>De Trinitate</title>, capitulo
+							22, de parvis, quod in his que non mole magna sunt, hoc est maius esse, quod est
+							melius esse, sed, si detur oppositum antecedentis, evidenter sequitur quod caritas
+							Christi in natura caritatis non sit maior caritate lini. </p>
+
+						<p>Tertia conclusio principalis est quod pars sive realitas adveniens in augmento
+							caritatis et cuiuslibet alterius forme intensibilis realiter distinguitur a priori. </p>
+
+						<p>Probatur primo sic: implicatio contradictionis est quod aliqua realitas sit realiter
+							prior non solum nam sed etiam duratione eo quod est idem realiter cum ipsa, sed
+							realitas forme precedentis est realiter prior realitate adveniente non solum natura,
+							sed etiam duratione, igitur ista realiter non est illa et quelibet earum est forma
+							intensa, igitur realiter distinguitur in ipsa. Nec valet si dicatur quod nulla istarum
+							realitatum est in actu, sed in potentia tantum cum sint partes unius forme, quia esse
+							sic in potentia non impedit distinctionem realem aliter duo semipalmi non
+							distinguerentur in palmo, quod est evidenter falsum. </p>
+
+						<p>Secundo ad principale sic: illa non sunt idem realiter, quorum unum potest realiter
+							esse altero non existente. Hoc patet per primum principium complexum. Et, si negatur,
+							perit omnis via probandi distinctionem realem inter quecumque, sed realitas forme
+							precedentis potest realiter esse alia realiter non existente, quia per modum
+							remissionis potest ab ipsa totaliter separari; ergo etc. Et confirmatur, quia quod pro
+							aliqua mensura est vel fuit et non est vel non fuit idem realiter cum aliquo pro nulla
+							mensura est idem realiter, cum ipso. Sed rea-[115va]-litas forme precedentis pro
+							aliqua mensura fuit pro qua non fuit idem realiter cum sequente, quia ante forme
+							intensionem realitas precedens fuit, et tamen non fuit idem realiter cum sequente,
+							quia nondum erat.</p>
+
+						<p>Tertio sic: vel quelibet istarum realitatum est idem realiter, cum tota forma, vel
+							non. Si sic, sequitur quod totum reale sit idem realiter cum sua parte, quod est
+							impossibile. Si non, igitur una earum realitatum non est idem realiter cum alia, quia
+							non dividitur a toto nisi ratione alterius.</p>
+
+						<p>Ultima conclusio est quod pars sive realitas adveniens in augmento caritatis et
+							cuiuslibet alterius forme intensibilis sunt eiusdem speciei specialissime cum priori
+							et universaliter omnes partes caritatis. Probatur sic: si pars adveniens in augmento
+							caritatis non esset eiusdem rationis specifice cum precedente, sequeretur quod caritas
+							intensa non esset eiusdem speciei cum caritate remissa. Consequens est falsum etiam
+							secundum omnes, igitur et antecendes. Consequentia probatur, quia constitutum ex
+							duobus alterius et alterius rationis non est eiusdem rationis specifice cum aliquo
+							ipsorum, sicut patet de homine respectu anime et corporis et similibus. Et
+							confirmatur, quia, si pars adveniens in augmento caritatis esset alterius rationis a
+							precedente, vel faceret aliquid per se unum cum ipsa, vel non. Si non, caritas intensa
+							non esset aliquid per se unum, quod non est verum. Si sic, necessario caritas intensa
+							variaret speciem, quia aliquid esset essentiale caritatis intense, quod tamen non
+							eiusdem rationis esset essentiale caritatis remisse.</p>
+
+						<p>Secundo sic: ex duobus accidentibus diversarum rationum, quorum neutrum alterum
+							informat, non constituitur essentia per se una. Patet de se, sed gradus precedens et
+							adveniens in augmento forme sunt duo accidentia, quorum neutrum alterum informat
+							secundum omnes, et ex ipsis constituitur essentia per se una, aliter forma intensa non
+							esset per se una quod nullus ponit, igitur isti gradus non sunt diversarum rationum.
+							Et hoc de secundo articulo.</p>
+					</div>
+				</div>
+				<div type="articulus">
+					<head>Tertius et quartus articuli</head>
+
+					<p>Quantum ad tertium et quartum articulos simul contra conclusiones istas movenda et
+						dissolvenda sunt dubia. Et primo contra primam et secundam propositionem quam ex prima
+						et secunda intuli correlarie est quedam opinio que ponit, sicut in primo articulo
+						tangebatur, quod impossibile est formam aliquam augeri per additionem partis ad partem
+						utraque parte remanente. Sed in augmento cuiuslibet, ut asserit hec opinio, tota forma
+						corrumpitur et nova alia perfectior generatur primam continens in virtute sic quod in
+						subiecto nunquam sunt simul alique forme due, quarum una realiter aliam in ipso
+						precedat.</p>
+
+					<p><name>Gualterus Burlee</name> in tractatu <title>De intensione et remissione</title>,
+						capitulo 1</p>
+
+					<p>Pro ista opinione quidam doctor noster arguit. </p>
+
+					<p>Primo sic: si intensio luminis fieret per additionem luminis ad lumen utroque
+						remanente, sequeretur quod lumen in aere esset infinitum intensive. Consequens est
+						falsum et contra omnes, igitur et antecedens. Consequentia probatur sic: ponatur quod
+						aliquod corpus luminosum causet lumen in aere vel in aliquo susceptivo luminis in
+						instanti <c>a</c> et quod continue post <c>a</c> moveatur ad illud susceptivum luminis
+						appropinquando illi susceptivo. Certum est quod in isto casu posito lumen in isto
+						susceptivo continue augmentatur. Si ergo augmentetur per additionem luminis ad lumen cum
+						corpus luminosum in quodlibet instanti temporis mensurantis illum, sed illam
+						appropinquationem causet tantum lumen in illo suscepti-[115vb]-vo quantum causavit in
+							<c>a</c> et infinita sunt instantia in tempore illius appropinquationis et omnia illa
+						lumina manent simul cum intensio forme per me fiat per additionem partis ad partem
+						utraque simul remanente, sequitur quod infinita lumina equalia in intensione erunt simul
+						in illo susceptivo. Sed illud quod habet infinitas partes equales per quarum additionem
+						sit eius intensio est infinitum intensive, ergo aliquod totale lumen est infinitum
+						intensive, quod autem corpus luminorum in quolibet instanti post <c>a</c> causaverit
+						tantum lumen quantum causavit in <c>a</c>. Probatur sic: quia quanto agens est perfectus
+						et propinquius passo equaliter vel magis disposito quam prius, tanto fortius agit et
+						perfectiorem effectum inducit. Sed corpus luminosum continue post a magis approximatur
+						susceptivo luminis quam prius et susceptivum est eque dispositum vel magis quam prius,
+						quia unum lumen disponit ad aliud vel saltem non reddit subiectum indispositum ad aliud
+						lumen ex quo diversa lumina possunt simul esse et facere unum, ergo corpus luminosum
+						continue post <c>a</c> causat tantum lumen quantum causavit in <c>a</c>. Et, si dicatur
+						quod continue post <c>a</c> causat maius lumen quam causaverit in <c>a</c>, adhuc
+						conceditur propositum, quia magis includunt equale, ergo, si causat maius lumen, causat
+						equale. Et iterum illud quod constituitur ex infinitis partibus formalibus intendentibus
+						ipsum quarum semper posterior est perfectior priore est infinitum intensive, ergo totum
+						illud lumen aggregatum ex infinitis erit infinitum intensive. Si vero dicatur quod
+						corpus luminosum in quolibet instanti post <c>a</c> causat minus de lumine quam prius,
+						ita quod quanto est propinquius susceptivo luminis tanto causet minus de lumine novo,
+						totum tamen lumen est maius quanto corpus luminosum magis appropinquat. Adhuc conceditur
+						propositum, quia accipiatur aliquod instans temporis mensurantis illam approximationem
+						et sit illud instans <c>d</c> in <c>d</c> instans corpus luminosum causat minus de
+						lumine quam in aliquo instanti priori, ergo in quolibet instanti inter <c>d</c> et
+							<c>a</c> causabitur tantum lumen in illo susceptivo quantum causatur in instanti
+							<c>d</c>, quia, si causatur maius, causatur et tantum sive equale tamen ergo infinita
+						instantia sint inter <c>d</c> et <c>a</c>, sequitur quod in <c>d</c> instans sunt
+						infinita lumina in illo susceptivo tante perfectionis vel intensionis quante est illud
+						lumen novum causatum in instanti <c>a</c>, quia omnia illa lumina manent et constituunt
+						unum lumen, ergo totum existens in illo susceptivo in instanti <c>d</c> erit infinitum
+						intensive cum componatur ex infinitis partibus equalibus in perfectione sive
+						intensione.</p>
+
+					<p>Preterea, ad principale secundo sic: illud quod non est intensius sua parte formali non
+						intenditur per additionem partis formalis ad partem formalem. Hoc patet, quia ex
+						opposito sequitur oppositum, quia, si aliquid intendatur per additionem partis ad
+						partem, tunc ex hoc quod est maius et plures partes habens est intensius, sed totum est
+						maius et plures partes habens quam pars aliqua; ergo, si aliquid intendatur per
+						additionem partis ad partem, illud erit intensius sua parte formali, ergo ex supposito
+						illud quod non est intensius sua parte formali illud non intenditur per additionem
+						partis ad partem, sed forma non est intensior sua parte formali, ergo forma non
+						intenditur per additionem partis formalis ad partem formalem. Maior patet ex dictis et
+						probatur minor sic: accipiatur calor intensissimus et sit <c>a</c>, et sint <c>b</c> et
+							<c>c</c> due medietates formales eius caloris. Tunc quero [116ra] an <c>b</c> sit
+						calor intensus, sicut <c>a</c> an est calor remissior si <c>b</c> sit calor ita
+						intensus, sicut <c>a</c> ergo tota forma intensa non est intensior sua parte formali,
+						quod est propositum. Si detur quod <c>b</c> est calor remissior quam <c>a</c> eadem
+						ratione medietas illius, <c>b</c> erit remissior illa medietate et medietas illius
+						medietatis remissior illa medietate etc, quousque sit deventum ad calorem remississimum
+						vel valde remissum. Cum ergo huiusmodi partes formales sint simul in eodem subiecto
+						adequato, sequitur quod in eodem subiecto adequato simul erunt calor intensissimus et
+						calor remississimus, quod videtur impossibile propter tria. </p>
+
+					<p>Primo, quia calidum summum et calidum remissum sunt incompossibilia ita quod non
+						possunt simul esse in eodem subiecto adequato; quod patet, quia, si ponantur in diversis
+						subiectis, agunt et patiuntur ad invicem. Calidum enim in summo approximatum calido
+						remisso agit in ipsum expellendo illum gradum remissum, sed illud quod expellit aliud
+						est incompossibile ei; ergo calor summus et remissus non possunt simul stare in eodem
+						subiecto adequato.</p>
+
+					<p>Secundo, quia forma habens contrarium non remittitur nisi per admixtionem contrarii. Si
+						ergo calor remissus sit, cum calore intenso cum calor non sit remississimus nisi per
+						admixtionem frigoris, sequitur calor intensissimus esset simul cum frigore, quod est
+						impossibile.</p>
+
+					<p>Tertio, quia forma intensissima non permixtit secum aliquod contrarium sibi, quia
+						qualitercumque sit contrarium facit quod forma contraria cui admiscetur non est pura,
+						nec per consequens intensissima. Sed calor remississimus aliquo modo contrariatur calori
+						intensissimo, ergo calor remississimus nullo modo potest esse cum calore intensissimo.
+						Istud argumentum, ut dicit iste doctor, potest evidentius fieri in aliis terminis,
+						scilicet in raritate intensissima et raritate remissa, quia accipiamus aliquod corpus
+						rarissimum. Et sit <c>a</c> sua raritas intensissima et sint <c>b</c>, <c>c</c>
+						medietates formales ipsius <c>a</c>. Tunc queritur: aut <c>b</c> est raritas ita intensa
+						sicut <c>a</c>, vel est magis remissa. Si sit ita intesa, tunc totum non est intensius
+						sua parte, et per consequens intensio non sit per additionem partis ad partem. Si vero
+							<c>b</c> sit raritas magis remissa quam <c>a</c>, eadem ratione medietas ipsius erit
+						magis remissa quam <c>b</c>, et sic de medietate medietatis et ita simul et adequate in
+						eodem subiecto erunt raritas intensissima vel valde remissa, quod est impossibile, quia
+						quanto raritas est remissior partes sui subiecti propinquius iacent et quanto raritas
+						est intensior, tanto partes sui subiecti medietate remotius iacent, ergo, si in eodem
+						subiecto adequato simul raritas intensissima et raritas remississima, sequitur quod
+						eedem partes simul iacebunt magis propinque et magis remote et minus remote, quod est
+						impossibile. </p>
+
+					<p>Tertio ad principale sic: illud quod non diminuitur per ablationem partis a parte, non
+						augetur per additionem partis ad partem. Hoc patet, quia augmentum et diminutio sunt
+						contraria, et per consequens habent fieri circa idem et modis contrariis, sed forma
+						suscipiens magis et minus non diminuitur per ablationem partis a parte, ergo non augetur
+						per additionem partis ad partem. Maior patet. Minor probatur sic: si forma suscipiens
+						magis et minus diminueretur per ablationem partis a parte, sequitur quod tota forma
+						simul perderetur, quod est per me falsum et repugnans antecedenti. Consequentia probatur
+						sic: quandocumque aliquod agens est equaliter approximatum duabus equalibus in virtute
+						ad resistendum illi agenti et medium est eque dispositum et non est aliquid
+						impedi-[116rb]-ens actionem agentis in unum magis quam reliquum istorum, nec est aliud
+						magis promovens actionem in unum magis quam reliquum stantibus omnibus istis
+						conditionibus paribus in eadem mensura in qua illud agens destruit unum et reliquum
+						ista, ut dicit, est de se nota, quia ex quo agens est eque propinquum utrique et omnia
+						alia sunt paria non est aliqua ratio propter quam magis excitius destruat unum quam
+						reliquum. Accipiamus ergo duas mediates qualitativas forme corrumpende et sint <c>a</c>
+						et <c>b</c> illa per me extenduntur simul secundum totam profunditatem sui subiecti, et
+						ita equaliter distant ab agente habente potestatem diminuendi et corrumpendi illam
+						formam. Iterum ille medietates sunt equales in virtute ad resistendum actioni agentis et
+						medium est eque dispositum, quia medium est omnino idem, nec est aliud impedimentum
+						quare non agit in unam illarum partium, sicut in reliquam ex quo omnia sunt paria, ergo
+						in eadem mensura in qua destruit unam medietatem destruit reliquam, et eodem modo potest
+						argui de omnibus medietatibus et de omnibus partibus, scilicet quod una medietas nec
+						aliqua pars corrumpitur ante aliam, ergo tota forma simul corrumpitur que fuit
+						consequentia declaranda.</p>
+
+					<p>Quarto ad principale sic: si forma intenditur per additionem partis ad partem, sequitur
+						quod due forme accidentales eiusdem generis sic se habeant quod una excedit aliam in
+						infinitum in perfectione. Consequens est impossibile, quia sequitur quod forma excedens
+						esset infinite perfectionis intensive, quod est impossibile. Consequentia probatur, pro
+						cuius probatione supponuntur duo communiter concessa. Primum est quod contraria
+						differunt specie, secundum quod impossibile est esse duas species equalis perfectionis
+						in universo, nec est impossibile duo individua duarum specierum esse eque perfecta.</p>
+
+					<p>His suppositis sic arguitur: sint <c>a</c> et <c>b</c> duo individua specierum
+						contrariarum et sit <c>a</c> individuum albedinis et <c>b</c> individuum nigredinis.
+						Tunc <c>a</c> excedit <c>b</c> in perfectione sine omni proportione, sed cuiuslibet
+						finiti ad infinitum est aliqua proportio; ergo etc. Quod autem <c>a</c> excedit <c>b</c>
+						in perfectione sine omni proportione probatur, quia <c>a</c> habet infinitas partes
+						qualitativas seu formales, secundum opinionem quam sequor. Tunc sic <c>a</c> excedit in
+						perfectione suam medietatem qualitativam in duplo et, si una medietas excedit <c>b</c>
+						cum sit perfectioris speciei quam <c>b</c>, ergo <c>a</c> excedit <c>b</c> in duplo. Et
+						eodem modo potest probari quod <c>a</c> excedit <c>b</c> in quadruplo, cum igitur
+							<c>a</c> secundum istam opinionem sit divisibilis in infinitum secundum tales partes
+						formales et totum excedit partem suam in perfectione. Sequitur quod <c>a</c> excedit
+						aliam eius partem in duplo, et aliam in triplo, et aliam in quadruplo, et sic in
+						infinitum et quelibet pars eius est perfectior in entitate quam ipsum <c>b</c> et quod
+						excedit perfectius excedit minus perfectum, sequitur quod <c>a</c> excedit <c>b</c> in
+						duplo, in triplo, in quadruplo et in infinitum, et per consequens <c>a</c> excedit
+							<c>b</c> in perfectione sive omni proportione.</p>
+
+					<p>Quinto ad principale sic: in quolibet instanti temporis mensurantis augmentum forme
+						acquiritur aliquid de forma. Si ergo prima forma non corrumpatur in adventu forme
+						posterioris, sequitur quod infinite forme eiusdem speciei quarum quelibet facit formam
+						intensiorem erunt simul adequate in eodem subiecto, quod est impossibile, quia, si sic
+						esset, illa forma esset infinita intensive.</p>
+
+					<p>Sexto arguitur sic: per cuius ablationem non minuitur forma, per eius additionem non
+						augetur, sed forma non minuitur per solam ablationem partis a parte; ergo non augetur
+						per solam additionem partis ad [116va] partem. Maior patet. Minor probatur sic: omnis
+						motus est a subiecto in subiectum. Hoc est ab aliquo positivo in aliud, ergo in omni
+						motu acquiritur aliquod positivum novum, sed per illam ablationem partis a parte non
+						acquiritur aliquod novum positivum; ergo per solam ablationem partis a parte non
+						diminuitur forma.</p>
+
+					<p>Septimo vero sic: termini motus sunt incompossibiles, sed partes forme sunt termini
+						motus alterationis, ergo partes forme sunt incompossibiles, sed incompossibilia non
+						possunt esse adequate simul, ergo intensio forme non sit per additionem partis ad partem
+						utraque parte remanante. Maior est manifesta. Minor probatur, quia, si fiat motus a
+						magis albo ad minus album, terminus a quo istius motus est albedo remissa et terminus ad
+						quem est albedo intensa.</p>
+
+					<p>Octavo: si forma intendatur per additionem partis ad partem, sequitur quod nulla forma
+						augetur, quia nec pars precedens augetur, nec pars sequens, nec aggregatum ex utrisque,
+						sicut fuit argumentum in proponendo questionem.</p>
+
+					<p>Novo sic: omne potens inducere aliquam formam in subiecto susceptivo forme potest
+						inducere consimilem formam in consimili gradu in subiecto eque vel magis disposito ad
+						consimilem formam stante consimili virtute agentis et stante equali approximatione
+						agentis ad passum. Si ergo forma intendatur per additionem partis ad partem, agens
+						potens inducere unam partem forme potest inducere aliam partem equalem in subiecto
+						equaliter vel magis disposito, cum ergo subiectum habita una parte forme non minus
+						dispositum sit ad aliam partem forme, immo magis quam erat antequam illa pars forme
+						induceretur. Sequitur quod agens potens inducere unam partem forme potest post
+						inductionem illius partis inducere aliam partem equalem partiprime inducte priori parte
+						remanente, et adhuc illa secunda parte inducta potest inducere aliam partem consimilem
+						remanentibus prius inductis et, cum additio partis ad partem intendat et augmentet
+						formam, sequitur quod agens potens inducere formam remissam potest inducere formam
+						intensam, et ita calidum remissum potens inducere aliquem gradum caloris poterit
+						inducere intensum gradum caloris, quod videtur inconveniens.</p>
+
+					<p>Decimo sic: si intensio forme fiat per additionem partis ad partem, tunc multe forme
+						absolute eiusdem speciei erunt simul adequate in eodem subiecto. Sed, si multe possunt
+						esse simul, sequitur quod infinite possunt esse simul, et ita non esset status in
+						formis, nec esset supremum nec infinitum, quia quacumque albedine data contingit ei
+						aliam albedinem addere.</p>
+
+					<p>Undecimo sic: motus naturalis sive velocitas motus naturalis intenditur in fine et
+						tamen non intenditur per additionem partis ad partem, ergo non omnis intensio forme sit
+						per additionem. Maior patet per <name>Philosophum</name> IV <title>Physicorum</title>.
+						Minor probatur sic: pars prior motus vel velocitas motus non manet in adventu
+						posterioris partis. Hoc enim est contra rationem successivi, scilicet quod pars prior et
+						posterior maneant simul.</p>
+
+					<p>Ultimo sic: lumen radii solaris quandoque intenditur et non per additionem partis ad
+						partem, probatur, quia continue ad motum solis sit radius in alio et alio subiecto, quia
+						sit continue in alio et in alio loco. Si enim radius quiesceret in eodem loco,
+						sequeretur quod sol quiesceret. Si ergo lumen radii solaris intenderetur per aditionem
+						partis ad partem, sequeretur quod aliqua pars luminis, que nunc est in ista parte aeris,
+						esset in alia parte aeris, quia lumen remissum fuit in alia parte aeris in qua non est
+						lumen eius intensum, quia ponamus quod aer in quo nunc est radius quiescat. Si ergo
+						lumen radii intendatur per additionem partis ad partem, sequitur quod ea-[116vb]-dem
+						pars luminis nunc est in uno subiecto et iam in alio et ita accidens migrat de subiecto
+						in subiectum, quod est falsum.</p>
+
+					<p>Ad rationes <name>Burleii</name></p>
+
+					<p>Ad primum istorum reduco rationem contra facientem, quia, si deductio illa sit bona,
+						sequitur quod quelibet magnitudo pertransita sit infinita, quod est evidenter falsum et
+						contra eum. Deductio patet per modum suum arguendi, quia ponatur quod aliquod mobile
+						moveatur continue super aliqua magnitudine accipiatur aliquod instans temporis
+						mensurantis illum motum. Et sit illud instans <c>a</c>. Tunc verum est dicere quod in
+						instanti <c>a</c> illud mobile acquisivit aliquid de spatio et continue ponitur moveri,
+						etiam post <c>a</c>. Verum est dicere quod in quolibet instanti post <c>a</c> acquisivit
+						aliquid de spatio, vel igitur quod acquisivit in quolibet instanti post <c>a</c> est
+						equale priori acquisito in instanti <c>a</c> aut maius aut minus, iuxta deductionem
+						suam. Si equale, cum infinita sint instantia, sequitur per eum quod in magnitudine illa
+						sint infinita spatia equalia sive infinite partes equales, et per consequens quod
+						nigredo illa sit extensive infinita, quia illud quod habet infinitas partes equales per
+						quarum additionem sit eius extensio, est infinitum extensione, sicut per eum illud quod
+						habet infinitas partes equales per quarum additiones sit eius intensio sit infinitum
+						intensive. Si maius, idem sequitur, quia per eum maius includit equale, et per
+						consequens, si acquisivit maius spatium, acquisivit equale. Si minus, idem sequitur per
+						modum suum arguendi, quia accipiatur aliquod instans illius temporis post <c>a</c> et
+						sit <c>d</c>, tunc verum est dicere quod in instanti <c>d</c> illud mobile acquisivit
+						minus de spatio quam in alio instanti priori, ergo in quolibet instanti intellectus
+							<c>d</c> et <c>a</c> acquisivit tantum de spatio quam in instanti <c>d</c>, quia, si
+						acquisivit maius, acquisivit equale cum ergo infinita instantia sint inter <c>d</c> et
+							<c>a</c>, sequitur quod in <c>d</c> instanti sunt infinita spatia acquisita tante
+						quantitatis sive extensionis quante est istud spatium novum acquisitum in instanti
+							<c>d</c> et quia omnia illa spatia manent in magnitudine pertransita, sequitur per eum
+						quod magnitudo illa sit infinita.</p>
+
+					<p>Iterum, si deductio illa sit bona et conclusio illius doctoris sit vera, sequitur
+						posito quod lumen in aere continue augmentetur, sicut ipse supponit in ratione sua quod
+						infinita lumina corrumpantur et infinita generentur, quorum quodlibet durat per solum
+						instans, quod non videtur rationabiliter dictum, nec bene possibile.</p>
+
+					<p>Consequentia: quantum ad primam partem consequentis patet per eum posito quod lumen in
+						aere continue intendatur per approximationem corporis luminosi causantis lumen in ipso;
+						corpus illud luminosum in quolibet instanti temporis mensurantis approximationem causat
+						lumen in aere et infinita sunt instantia in tempore eius approximationis, igitur corpus
+						illud luminosum causat in ipso infinita lumina et, quia per eum in augmento luminis
+						nunquam duo lumina manent simul, quia tunc lumen intenderetur per additionem partis ad
+						partem utraque parte remanente, quod negat, sequitur quod in tali augmento luminis
+						infinita lumina corrumpantur et infinita noviter generentur que sint prima pars
+						consequentis.</p>
+
+					<p>Ex hoc statim apparet consequentia quantum ad secundam partem consequentis, quia, si
+						aliquod lumen duraret plusquam per instans cum in quolibet instanti per eum, causetur
+						novum lumen; iam duo lumina essent simul in aere, cuius oppositum intendit. Et similiter
+						potest probari posito quod albedo in aliquo subiecto continue augmentetur quod infinite
+						albedines sunt corrupte et infinite generate in subiecto illo quarum nulla duravit nisi
+						tantum per instans et de qualibet [117ra] alia forma conformatur quod non videtur bene
+						dictum. Et adhuc sequitur ulterius quod aer sit illuminatus per aliquod tempus et quod
+						nullum lumen per tempus sit in ipso. Sequitur etiam quod aliquod subiectum per tempus
+						esset album et quod nulla albedo per tempus erit in eo, quod est impossibile, ut
+						videtur.</p>
+
+					<p>Preterea, si deductio illa sit bona et formarum intensio fiat, quia producitur forma
+						perfectior priori desinente esse, ut isti doctori videtur, adhuc sequitur lumen in aere
+						esse infinitum intensive, quod tamen est inconveniens ad quod deducit. Assumptum
+						declaro, pro cuius declaratione premitto aliquas propositiones communiter concessas. </p>
+
+					<p>Prima est quod omne lumen finitum intensius sive perfectius alio in aliqua determinata
+						proportione excedit illud. Hoc patet, quia omne lumen intensius alio excedit illud et,
+						si sit finitum, non excedit infinite, igitur in aliqua determinata proportione.</p>
+
+					<p>Secunda est quod cuicumque lumini quod exceditur tum ab aliquo in aliqua determinata
+						proportione potest fieri additio luminis secundum proportionem excessus luminis
+						excedentis. Ista propositio patet, quia, sicut est in excessu quantitativo, ita videtur
+						esse in excessu qualitativo, sed sic est in excessu quantitativo quod cuicumque
+						quantitati que exceditur ab alia in aliqua determinata proportione potest fieri additio
+						quantitatis secundum proportionem excessus quantitatis excedentis, quia, si una linea
+						excedit aliam in uno pede, sicut linea bipedalis excedit pedalem, certum est quod linee
+						excesse potest fieri additio linee pedalis, et sic de qualibet alia determinata
+						proportione, igitur sic erit in excessu qualitativo, quia cuicumque qualitati, et sic
+						lumini quod exceditur ab aliquo in aliqua proportione potest fieri additio.</p>
+
+					<p>Tertia est quod, si lumini excesso fiat additio luminis secundum proportionem excessus
+						luminis excedentis, ex his duobus luminibus fiat unum lumen equale punctualiter lumini
+						excedenti. Verbi gratia: sit lumen excessum <c>a</c> et lumen excedens <c>b</c> et
+						lumini <c>a</c> fiat additio luminis secundum proportionem excessus luminis <c>b</c> et
+						illud lumen additum sit <c>c</c> ex luminibus <c>a</c> et <c>c</c> fiet unum lumen
+						equale punctualiter lumini <c>b</c>. Hoc patet, quia, si lumen excedens sit perfectius
+						sive intensius in duplo et lumini excesso addatur lumen equale, evidens est quod ex hic
+						duobus fiet unum lumen punctualiter lumini excedenti et hoc evidenter apparet in excessu
+						quantitativo, quia, si linee pedali que exceditur a bipedali in duplo, si addatur alia
+						linea pedalis, certum est quod linea resultans ex his duabus erit punctualiter equalis
+						linee bipedali, quia ex duabus lineis pedalibus resultat linea bipedalis et, sicut est
+						in proportione dupla, sic etiam in qualibet alia.</p>
+
+					<p>Quarta propositio est quod possibile est quod intensio luminis fiat per additionem
+						luminis ad lumen utroque remanente et lumen non esse intensius quam si talis intensio
+						fiat per productionem perfectioris luminis priori desinente esse. Et hoc sequitur ex
+						precedentibus, quia illud lumen perfectius quod produceretur priori desinente esse
+						secundum istum doctorem sit <c>a</c>, tunc sic: lumen <c>a</c> in aliqua determinata
+						proportione excedit lumen quod nunc existit in aere nisi sit infinitum ex prima
+						propositione, igitur lumini excedenti potest fieri additio luminis secundum proportionem
+						excessus luminis <c>a</c>, ut patet ex secunda qua additione facta fiet unum lumen
+						equale punctualiter lumini <c>a</c>, ut patet ex tertia; igitur etc.</p>
+
+					<p>His propositionibus premissis declaro propositionem sic: possibile est quod intensio
+						luminis fiat per additionem luminis utroque remanente lumine et lumen non esse intensius
+						quam si talis additio fieret per productionem perfectioris luminis priori deficiente
+						esse, igitur, si ex primo, sequitur lumen in aere esse infinitum intensive et ex
+						secun-[117rb]-do. Antecedens est declaratum et consequentia est nota, quia ex opposito
+						consequentis evidenter infertur oppositum antecedentis. Confirmatur, quia posito quod in
+						infinitis instantibus infinita lumina sint addita lumini nunc existenti in aere per
+						continuam approximationem corporis luminosi ad ipsum, adhuc est possibile quod lumen non
+						sit intensius quam si in quolibet instanti illorum sit in aere aliud et aliud lumen,
+						quorum semper posterius sit perfectius priore, sicut isti doctori videtur. Hoc patet,
+						quia possibile est quod tale lumen non sit intensius quam lumen ultimo producendum
+						infinitis prioribus desinentibus esse, cum sit possibile intensionem luminis fieri per
+						additionem luminis ad lumen utroque remanente et lumen non esse intensius quam si talis
+						intensio fiat per productionem perfectioris luminis priori desinente esse, ut patet ex
+						dictis, ergo, si ad positionem meam sequitur lumen esse infinitum intensive, et ad suam
+						vel, si non ad suam, nec ad meam etc.</p>
+
+					<p>His premissis respondeo ad formam rationis et interimo consequentiam. Et ad probationem
+						dico quod procedit ex falsa imaginatione. Imaginatur enim iste doctor in ratione illa
+						quod in quolibet instanti temporis mensurantis approximatione corporis luminosi ad
+						susceptibilis luminis corpus luminosum causet aliquod lumen in ipso, quod non est verum,
+						quia in nullo motu continuo aliquid acquiritur in instanti, licet in instanti sit primo
+						acquisitum illud, quod in tempore immediato acquirebatur, cuius oppositum sequitur non
+						solum si corpus illud causaret aliud lumen in quolibet instanti illius temporis, sed
+						etiam si causaret aliquod lumen in quolibet instanti ipsius. Est igitur imaginandum
+						quod, sicut corpus illud luminosum quod ponitur continue approximari lumini susceptivo
+						non sit ei propinquius in instanti, sed in tempore, quia in instanti non acquirit
+						aliquod spatium, licet in instanti sit primo acquisitum spatium quod in tempore
+						immediato acquirebatur, sic etiam non causat aliquod lumen in illo susceptivo in
+						instanti, sed in tempore, licet in instanti sit primo causatum vel acquisitum illud
+						lumen quod in tempore immediato acquirebatur sive causabatur, et ideo, sicut non
+						sequitur ex infinitate instantium, quod spatium sive magnitudo pertransita sit infinita,
+						sic etiam nec sequitur quod lumen acquisitum sit infinitum.</p>
+
+					<p>Sed contra solutionem istam est directe ratio que adducebatur in arguendo, videlicet
+						quod quanto agens est propinquius passo equaliter vel magis disposito quam prius, tanto
+						fortius agit et perfectiorem effectum inducit. Hoc dico quod ista propositio non est
+						vera si agens illud fiat continue propinquius passo. Ratio huius est, quia in quolibet
+						instanti agens est propinquius passo et tamen in instanti non producit aliquem effectum,
+						quia in motu continuo non acquiritur aliquid in instanti, ut patet ex dictis. Sufficit
+						igitur quod agens illud perfectiorem effectum producat vel quod tunc primo perfectior
+						effectus sit ab ipso productus non quidem intelligendo cum exclusione, sed cum
+						inclusione prioris. Et in isto sensu concedo conclusionem, quia in quolibet instanti
+						post <c>a</c> verum est dicere quod in susceptivo illo sit primo maius lumen inductum
+						vel causatum, non quidem cum exclusione, sed cum inclusione luminis precedentis, quia
+						ante illud instans non fuit tantum lumen in ipso, sicut et in quolibet instanti verum
+						est dicere quod ab illo corpore maius spatium est pertransitum intelligendo semper cum
+						inclusione spatii precedentis, sed ex hoc non sequitur lumen illud esse infinitum, sicut
+						nec spatium pertransitum, ut declaratum est supra.</p>
+
+					<p>Ad secundam nego minorem et ad probationem concedo quod <c>b</c> est calor remissior
+						quam sit <c>a</c> intelligendo per <c>a</c> calorem intensissimum vel valde intensum, et
+						per <c>b</c> medie-[117va]-tatem formalem ipsius, sicut intelligit iste doctor, et
+						quando dicitur quod eadem ratione medietas formalis ipsius <c>b</c> esset remissior quam
+						ipsum <c>b</c> et medietas ipsius medietatis esset remissior illa medietate, et sic de
+						aliis. Concedo ex hoc tamen non sequitur quod possit devenire ad calorem remississimum
+						cum in quolibet calore quantumcumque remisso sint infiniti gradus sive infinite partes
+						intentionales, sicut in quolibet continuo quantumcumque parvo sunt infinite partes
+						continue. Concedo tamen quod potest deveniri ad calorem valde remissum et quando dicitur
+						ulterius quod, cum huiusmodi partes formales sint simul in eodem subiecto adequato,
+						sequitur quod in eodem subiecto adequato simul erunt calor intensissimus et
+						remississimus. Concedo quod in eodem subiecto adequato possunt simul esse calor simul
+						intensissimus, id est valde intensus et remississimus, id est valde remissus, quia
+						aliter non est dare calorem remississimum, ut patet ex dictis. Sic intelligendo quod
+						calor ille valde remissus sit pars formalis illius caloris intensissimi et quando
+						dicitur quod hoc est impossibile, nego et ad probationes respondeo.</p>
+
+					<p>Ad primam potest responderi dupliciter. Primo potest dici quod quamvis calidum summum
+						et calidum remissum sint incompossibilia in eodem, tamen calor intensissimus et calor
+						remissus non sunt incompossibiles eodem modo quo dictum est supra, quia non sequitur in
+						isto subiecto sunt calor intensissimus et remississimus qui est pars formalis caloris
+						intensissimi, igitur istud subiectum est summe calidum et remisse calidum, quia, licet
+						calor ille remissus, si esset per se, sic quod non esset pars caloris intensissimi,
+						daret subiecto esse calidum remisse, una tamen cum aliis partibus caloris, ex quibus una
+						cum ipso sit unus calor intensissimus, non dat ei, nec potest dare esse calidum remisse,
+						sed intense.</p>
+
+					<p>Secundo potest dici quod, si calor intensissimus et remississimus sint in diversis
+						subiectis, adhuc calor intensissimus approximatus calori remisso non ageret in ipsum
+						expellendo illum gradum remissum, sed isto manente causaret alium gradum caloris, ex
+						quibus fieret simul unus gradus caloris intensior, et sic calor intensissimus non
+						expelleret calorem remissum si essent in diversis subiectis, sed augmentaret ipsum, et
+						per consequens non sequitur quod sint incompossibiles in eodem.</p>
+
+					<p>Ad secundam patet ex precedenti conclusione quod forma habens contrarium non remittitur
+						per admixtionem.</p>
+
+					<p>Ad tertiam dico quod calor intensissimus non contrariatur calori remisso, nec etiam
+						remississime si posset dari cum sit eiusdem speciei specialissime.</p>
+
+					<p>Ex his patet quid dicendum ad argumentum si fiat in raritate et densitate, quia concedo
+						quod omnis raritas est intensior sua parte formali. Supposito quod raritas sit res
+						distincta a substantia et quantitate et concedo quod in eodem subiecto adequato sunt
+						simul raritas intensissima, id est valde intenssa et raritas remissa, id est valde
+						remissa. Sed ex hoc non sequitur quod partes iacebunt magis propinque et minus
+						propinque, quia, cum raritas illa remissa sit pars raritatis intense, non dat subiecto
+						in quo est esse rarum remisse. </p>
+
+					<p>Sed contra solutionem istam iste doctor arguit dupliciter. </p>
+
+					<p>Primo sic: causa formalis non potest separari ab effectu formali, nec econverso, sed
+						effectus formalis raritatis est facere distare partes seu remote ab invicem iacere; ergo
+						effectus formalis maioris raritatis est facere partes remotius iacere et effectus
+						minoris seu remissioris raritatis est facere partes minus remote iacere, ergo, si maior
+						raritas et minor raritas sint simul adequate in eodem subiecto adequato et in eodem
+						corpore, sequitur quod eedem partes iacebunt simul magis remo-[117vb]-te et minus
+						remote, quod est impossibile.</p>
+
+					<p>Secundo sic: et supponit duo: primum quod possibile est virtute divina quod una
+						medietas formalis raritatis auferatur a subiecto reliqua remanente non novam formam
+						addendo illi subiecto. Secundo supponit quod in raro partes mediate remotius iacent quam
+						in denso in aliqua determinata proportione. His suppositis arguit sic: ponamus quod in
+						raro partes mediate iaceant remotius quam in denso in proportione centupla. Tunc sic:
+						possibile est quod Deus auferat medietatem formalem illius raritatis remanente subiecto
+						nullam aliam formam addendo illi subiecto, tunc illud subiectum esset minus rarum in
+						duplo quam prius, et per consequens partes mediate eius iacebunt in duplo propinquius
+						quam prius, et adhuc potest auferri iterum medietas medietatis remanentis ab illo
+						subiecto, et tunc partes mediate eius iacebunt in quadruplo propinquius quam prius, et
+						sic iterum fiet ablatio centies, et tunc partes mediate illius subiecti iacebunt
+						propinquius in centuplo quam iacebant in primo raro a quo primo fiebat ablatio. Cum
+						igitur in denso non iaceant partes propinquius quam in primo raro nisi in centuplo,
+						sequitur quod partes eque propinque iacebunt in raro et denso, quod est impossibile. Et
+						sequitur adhuc maius impossibile, scilicet quod partes in raro iacebunt propinquius quam
+						in denso. Probatur, quia probatum est quod in aliquo raro iacent partes ita propinque
+						sicut in denso. Si ergo ab illo raro auferatur medietas formalis illius medietatis
+						reliqua mediate remanente nihil novum addendo illi subiecto, sequitur quod medietate
+						absoluta partes illius rari iacebunt in duplo propinquius quam in denso, et per idem
+						argumentum potest probari, ut dicit, quod possibile est quod partes rari iaceant in
+						centuplo propinquius quam in denso, quia fiat centies ablatio medietatis sicut prius.
+						Ista tamen non concludunt etc.</p>
+
+					<p>Ad primum igitur quicquid sit de maiori, quia in multis haberet instantiam, prout alias
+						declaravi de visione et videre et similibus, dico ad minorem quod effectus formalis
+						raritatis qui est totalis est facere partes distare secundum proportionem sue
+						intensionis, sed effectus formalis raritatis que est pars alterius raritatis non est
+						facere partes distare secundum proportionem sue intensionis precise, sed, sicut ex ipsa
+						et aliis partibus raritatis sit una raritas intensior, sic una cum aliis facit partes
+						distare secundum proportionem intensioris raritatis totalis.</p>
+
+					<p>Ad secundum supposito quod raritas et densitas sint forme absolute realiter distincte,
+						sicut <name>Commentator</name> videtur velle VII <title>Physicorum</title> dicens quod
+						raritas et densitas sunt qualitates consequentes calidum et frigidum, dico quod in raro
+						partes mediate remotus iacent quam in denso in aliqua determinata proportione ultra
+						proportionem que requiritur ad densum. Est enim imaginandum quod in denso partes mediate
+						iacent propinque in aliqua determinata proportione ultra quam si remotius iaceant non
+						esset densum, sed esset rarum, et per oppositum in raro partes mediate iacent remore in
+						aliqua determinata proportione citra quam, si propinquius iaceant, non esset rarum, sed
+						densum. Et, quia in raro partes mediate non distant infinite, verum est, quia tales
+						partes in ipso remotius iaceant quam in denso in aliqua determinata proportione ultra
+						proportionem illam que requiritur ad densum. Tunc ad rationes que dicitur quod, si Deus
+						auferat medietatem raritatis, partes mediate in raro iacebunt in duplo propinquius quam
+						prius, dico quod verum est intelligendo de propinquitate que est ultra proportionem
+						propinquitatis que requiritur ad densum, non autem de propinquitate simpliciter. Et, si
+						ulterius auferatur medietas illius raritatis, partes mediate iacebunt quadruplo
+						propinquius, non quidem simpliciter, sed ultra [118ra] proportionem propinquitatis que
+						requiritur ad densum. Et, si isto modo partes fiant propinquiores in raro etiam in
+						infinitum, patet quod nunquam erunt ita propinque sicut in denso. </p>
+
+					<p>Ad tertium principale nego minorem. Ad probationem nego consequentiam illam, quia non
+						sequitur forma diminuitur per ablationem partis a parte, ergo tota simul perditur. Et ad
+						probationem illius consequentie quando dicitur quandocumque aliquod agens est equaliter
+						approximatum etc., dico quod illa maior non est vera si illud agens non sit tante
+						virtutis quod simul possit omnia destruere, et sic est in proposito, quia quamvis
+						medietates qualificative forme corrumpende sint equalis intensionis et equales per
+						consequens ad resistendum actioni agentis, citius tamen destruitur una quam altera, quia
+						agens non est tante virtutis quod possit omnes simul destruere. Et, si dicatur quod non
+						est aliqua ratio propter quam magis vel citius destruat unam quam reliquam, potest dici
+						quod, quia illud agens potest unam destruere et non omnes simul, idcirco una prius
+						destrueretur quam alia, et tamen nec ista, nec illa necessario. Et, si omnino queratur
+						causa quare illa eorum prius destruatur quam alia, potest dici quod illa prius
+						destruitur quam Deus qui omnis regit administrat vult primo destrui. Potest etiam dici
+						sicut forte aliqui dicunt quod pars prius inductiva firmius radicatur in subiecto, et
+						ideo agens non potest ita cito destruere illam partem sicut aliam.</p>
+
+					<p>Ad quartum dico quod unam formam accidentalem excedere aliam eiusdem generis in
+						infinitum in perfectione potest intelligi dupliciter: simpliciter scilicet et secundum
+						quid. Simpliciter quidem, quia eius perfectio vel actio simpliciter est infinita.
+						Secundum quid vero quantumcumque intenderetur excessa nunquam veniet ad perfectionem
+						excedentis. In secundo sensu concedo consequens, et sic procedunt probationes sue, sed
+						ex hoc non sequitur quod forma accidentalis sit infinita in perfectione, aliter anima
+						mea esset infinita in perfectione, quia quantumcumque intenderetur musca, nunquam
+						veniret ad perfectionem ipsius et angulus rectus esset infinitus, quia quantumcumque
+						intenderetur angulus contingere, nunquam potest ei adequari, et sic de multis aliis. </p>
+
+					<p>In primo vero sensu nego consequentiam et ad probationem quando dicitur quod albedo
+						excedit nigredinem in perfectione sine omni proportione, dico sicut prius quod non est
+						verum simpliciter, sed solum secundum quid, scilicet quantum ad nobilitatem et
+						perfectionem specificam in sensu dato quod quantumcumque intendatur nigredo, nunquam
+						potest devenire ad perfectionem minime albedinis, quia, cum sint alterius et alterius
+						speciei, equalis perfectionis esse non possunt, et in isto sensu procedit ultima
+						probatio sua. Si aliquid concludit, ut patet, et per consequens ratio nulla, potest
+						etiam dici secundo quod ratio deficit in principali probatione qua non probat quod
+						albedo excedit nigredinem sine omni proportione. Non enim sequitur hec albedo excedit in
+						perfectione suam medietatem qualitativa in duplo et sua medietas excedit nigredinem in
+						duplo ratio est evidens, quia albedo non excedit suam medietatem in duplo quantum ad
+						nobilitatem et perfectionem suam specificam, sed solum quantum ad intensionem. Et ideo
+						non sequitur quod excedit nigredinem in duplo, quia non excedit suam medietatem in duplo
+						quantum ad illud in quo sua medietas excedit nigredinem, et ex hoc statim apparet quod
+						albedo non excedit nigredinem in duplo, et in triplo, et in quadruplo, et in infinitum,
+						sicut isti doctori videtur.</p>
+
+					<p>Potest etiam reduci ratio contra eum, quia secundum eum in intensione forme continue in
+						quolibet instanti est perfectior forma. Capio tunc albedinem remissam et arguo sic: hec
+						albedo excedit nigredinem in perfectione, ergo aliqua albedo excedit nigredinem in
+						infinitum, quod est inconveniens ad quod [118rb] deducit. Antecedens est suum. Et
+						consequentiam deduco ex dictis suis, quia per eum in intensione albedinis continue in
+						quolibet instanti est perfectior albedo, sed infinita sunt instantia, igitur infinite
+						erunt albedines quarum semper posterior est priore perfectior. Tunc sic: hec albedo
+						remissa excedit nigredinem in perfectione et a quacumque albedine sequente plus et plus
+						exceditur, quia semper posterior est priore perfectior et infinite sunt albedines
+						sequentes, igitur aliqua excedit nigredinem in infinitum imperfectione.</p>
+
+					<p>Ad quintum patet quid dicendum ex solutione prime rationis, quia non est verum quod in
+						quolibet instanti temporis mensurantis augmentum forme acquiratur aliquid de forma,
+						sicut dixi de mobili quod non acquirat aliquod spatium in instanti, licet in instanti
+						sit primo acquisitum spatium illud quod in tempore immediato acquirebatur. Et potest
+						ratio reduci contra eum satis evidenter, quia per eum in quolibet instanti illius
+						temporis acquiritur alia et alia forma quarum posterior est semper priore perfectior et,
+						cum infinita sint instantia, sequitur quod infinite tales forme sint acquisite, et per
+						consequens posterior, si deductio sua sit bona, erit infinita intensive.</p>
+
+					<p>Ad sextam rationem dico negando minorem et ad probationem dicitur communiter et bene
+						quod omnis motus acquisitivus est ab aliquo positivo in aliquod positivum, quia omnis
+						talis motus est ad aliquid novum, sed non est verum de motu deperditivo cuiusmodi est
+						motus diminutionis, quia talis non est ad aliquid novum.</p>
+
+					<p>Sed contra solutionem istam iste doctor arguit primo sic: <name>Philosophus</name> V
+							<title>Physicorum</title> distinguens motum a mutatione dicit quod omnis motus est a
+						subiecto in subiectum. Hoc est a positivo in positivum, sed nihil movetur ad illud quod
+						habet, quia habitibus presentibus in materia cessat motus, quia in omni motu acquiritur
+						aliquid novum. </p>
+
+					<p>Secundo sic: omnis mutatio est ab aliquo in aliud. Nam hoc sonat nomen, ut patet ex V
+							<name>Physicorum</name>. Omnis etiam motus est ab opposito in oppositum, ut patet
+						eodem V. Accipiatur ergo ille motus quem dico esse motum deperditionis ille motus est
+						mutatio, quia est genus motus, ergo est ab aliquo in aliud. Queritur tunc de termino
+						illius motus deperditionis. Cum enim omnis motus sit ab opposito in oppositum, oportet
+						quod termini motus deperditionis sint oppositi, aut ergo sunt oppositi relative, aut
+						contrarie, aut contradictorie, aut privative. Non relative patet de se, quia ad
+						relationem non est motus, nec contradictorie, nec privative, quia inter sic opposita non
+						est motus, sed mutatio subita, ut patet V <title>Physicorum</title>. Et ratio
+							<name>Philosophi</name> est: quia omnis motus est inter opposita mediata, nam motus
+						necessario requirit medium inter terminos motus, sed nec inter contradictoria, nec inter
+						privativa opposita est aliquod medium, relinquitur ergo quod motus deperditionis sit a
+						contrario in contrarium, sed certum est quod omnis deperditionis motus qui est a
+						contrario in contrarium est aliquid positivum novum; ergo motus deperditionis est ad
+						aliquid positivum novum, sed ista non concludunt.</p>
+
+					<p>Ad primum istorum dico quod <name>Philosophus</name> in illo loco loquitur de motu
+						acquisitivo. Talis enim semper est de positivo in positivum, cum sit ad aliquid novum.
+						Potest etiam dici, sicut aliqui dicunt, quod <name>Philosophus</name> in loco illo ponit
+						differentiam inter motum et mutationem, quia subiectum motus est ens actu, mutationis
+						autem materia prima que non est ens actu saltem loquendo de actu completo, et ideo dicit
+						quod omnis motus est a subiecto in subiectum, quia in omni motu, sive sit acquisitivus,
+						sive deperditivus, manet subiectum quod est ens actu. Per subiectum enim non intendit
+						terminum a quo et terminum ad quem, sicut isti doctori videtur.</p>
+
+					<p>Ad secundum dico quod non omnis mutatio est ab aliquo in aliud, quia motus deperditivus
+						est quedam mutatio, cum mutatio [118va] sit genus motus, etiam per eum; et tamen motus
+						deperditus non est ab aliquo in aliquid, ut dictum est supra, cum non sit ad aliquid
+						novum. Supponit ergo ratio quod debet probare, et per consequens petit principium.</p>
+
+					<p>Ad septimum principale dico quod non est istius doctoris, sed <name>Goffredi</name>
+						quem iste doctor sequitur in hac materia a diversis diversimode respondetur, quia quidam
+						dicunt quod in alteratione que est a minus albo ad magis album, terminus a quo non est
+						albedo remissa, sed privatio termini ad quem, scilicet privatio albedinis intense.
+						Quidam vero dicunt quod terminus a quo in tali alteratione non est privatio albedinis
+						intense, sed nigredo que est in albedine remissa et hec est incompossibilis albedini
+						intense. Quicquid tamen sit de solutionibus istis, quia saltem secunda videtur omnino
+						impossibilis, quia supponit contraria simul esse in eodem sub gradibus remissis, cuius
+						oppositum patet ex precedenti questione, concessa maiore illius rationis nego minorem,
+						quia partes forme non sunt termini per se intensioris forme, quod ostendo etiam per
+						istum doctorem, quia secundum cum omnis motus est a contrario in contrarium, sed partes
+						forme, utputa albedo remissa et albedo intensa sive albedo precedens et albedo
+						subsequens non sunt contraria cum sint eiusdem speciei specialissime, ergo. Dico tamen
+						quod termini intensionis forme per se non sunt forma remissa et forma intensa, sed esse
+						remissum et esse intensum. Verbi gratia: si fiat motus a minus albo ad magis album,
+						terminus a quo istius motus non est albedo remissa, sed esse album remisse et terminus
+						ad quem non est albedo intensa, sed esse intense album, et isti termini sunt omnino
+						incompossibiles, quia impossibile est aliquod subiectum simul esse remisse album et
+						intense album et quod illud sit verum apparet, quia iste motus sit a minus albo ad magis
+						album, ergo terminus a quo est minus album sive remisse album, quia idem est et terminus
+						ad quem est magis album sive intense album. </p>
+
+					<p>Ad octavum apparebit quid dicendum in respondendo ad argumenta principalia, quia istud
+						argumentum fuit factum in proponendo questionem. </p>
+
+					<p>Ad nonum nego ultimam consequentiam, quia expositione quam sequor non sequitur quod
+						agens potens inducere formam remissam possit inducere formam intensam, nec quod calidum
+						remissum possit inducere intensum gradum caloris. Et ad probationem quando dicitur quod
+						omne potens inducere aliquam formam in subiecto susceptivo forme potest inducere formam
+						consimilem sub consimili gradu in subiecto eque vel magis disposit, dico quod verum est
+						si in illo subiecto nondum induxit formam illam, sed, si induxit in ipsum gradum sibi
+						adequatum, non potest isto manente inducere gradum consimilem, quia inductus est gradus
+						sibi adequatus; et ideo non sequitur quod agens potens inducere unam partem forme possit
+						post inductionem illius illa manente aliam partem equalem inducere.</p>
+
+					<p>Ad decimum concedo quod multe forme absolute eiusdem speciei facientes unam formam
+						numero per se erunt simul et adequate in eodem subiecto et, si dicatur quod istud est
+						contra <name>Philosophum</name> V <title>Metaphysice</title>, ubi dicit quod duo
+						accidentia solo numero differentia in eodem subiecto primo esse non possunt, dico quod
+							<name>Aristoteles</name> loquitur de accidentibus non facientibus per se unum in actu,
+						et ideo dictum suum non est ad propositum. Et quando dicitur quod, si multe possunt esse
+						simul, sequitur quod infinite quicquid sit de consequentia concedo consequens in sensu
+						dato, quia, sicut quelibet magnitudo continua est divisibilis in infinitum, et per
+						consequens habet partes infinitas, sic et quelibet forma intensibilis suo modo. Omnes
+						tamen ille partes faciant unam formam numero per se unam, nec ex hoc sequitur formam
+						illam esse infinitam intensive, sicut nec sequitur quod magnitudo continua sit infinita
+						extensive. [118vb] </p>
+
+					<p>Potest etiam dici quod quia omnes partes forme faciunt per se unam formam numero non
+						remanent actu plures forme numero sicut etiam videmus quod quelibet albedo habet plures
+						partes secundum extensionem, quia tamen constituunt unam formam per se non conceditur
+						quod ille partes sint plures forme sive plures albedines numero, sed una tantum. Et, si
+						sic dicatur, non sequitur plures formas numero simul esse in eodem subiecto, quia partes
+						forme non sic remanent actu plures. </p>
+
+					<p>Ad undecimum dico quod non est contra me, quia posui conclusiones de formis
+						permanentibus. De motu vero et aliis successivis non loquor pro nunc, quia nondum
+						inquisivi qualis sit eorum entitas.</p>
+
+					<p>Ad ultimum primo reduco rationem contra eum, quia vel iste doctor per radium solarem
+						intelligit aliquam rem distinctam a lumine, vel non, sed precise luminem causatum a sole
+						in illa parte aeris quam sol respicit diametraliter. Si detur primum, ratio nihil
+						concludit, quia dicetur quod lumen radii solaris est in radio solari tanquam in
+						subiecto, et per consequens non sequitur quod migrat de subiecto in subiectum. Si detur
+						secundum, ratio est contra eum, quia ipse supponit in principio illius rationis quod
+						continue ad motum solis sit radius in alio et in alio subiecto, quia continue sit, ut
+						dicit in alio et alio loco, igitur, si radius non esset nisi lumen quod continue ad
+						motum solis, fiat lumen in alio et alio subiecto, et per consequens migrat de subiecto
+						in subiectum, quod est inconveniens ad quod deducit.</p>
+
+					<p>Ad rationem igitur potest diversimode respondere secundum quod de ratio solari diversi
+						diversimode opinantur. Verum, quia nondum inquisivi qualis sit eius entitas an
+						permanens, an successiva, an temporalis, an instantanea, pertranseo quousque pertractem
+						de materia ista, quia, si eius entitas non sit permanens sed successiva, patet rationem
+						non esse contra conclusionem meam. Aliqui tamen dicunt ad rationem illam quod licet
+						accidens intrinsecum et vocant accidens intrinsecum illud quod educitur de potentia
+						subiecti cuius est albedo non migrat de subiecto in subiectum naturaliter loquendo.
+						Accidens tamen extrinsecum potest migrare de subiecto in subiectum. Et extrinsecum
+						vocant illud quod non educitur de potentia subiecti. Eadem enim species, ut dicunt,
+						causatur ab obiecto et recipitur in medio et est postea recepta in organo vel in
+						potentia et quia lumen est accidens extrinsecum isto modo, quia non consurgit ex aere,
+						sed ex sole videtur posse concedi, ut dicunt, quod migret de subiecto in subiectum. Et
+						secundum hoc dicetur quod accidentia que non sunt in subiecto realiter, sed solum
+						intentionaliter, ut reale distinguitur contra intentionale, possunt migrare de subiecto
+						in subiectum etiam naturaliter.</p>
+
+					<p>Opinio <name>Sancti Thome</name> et <name>Egidii</name></p>
+
+					<p>Contra secundam conclusionem est opinio <name>sancti Thome</name> et doctoris nostri
+						domini <name>Egidii</name> quam ut plurimum doctores nostri sequuntur et potest ex
+						fundamentis eorum contra ipsam argui multipliciter. </p>
+
+					<p>Primo sic: augmentatio potest esse sine generatione, igitur forma potest augmentari
+						sine acquisitione nove partis eiusdem forme. Consequentia patet, quia sine generatione
+						non potest esse acquisitio eiusdem forme. Antecedens patet, quia augmentatio et
+						generatio sunt mutationes disparate, igitur augmentatio poterit esse sine
+						generatione.</p>
+
+					<p>Preterea, si forma augetur per acquisitionem nove partis etc, vel illa pars noviter
+						acquisita est essentialis forme specifice, vel accidentalis. Si essentialis, sequitur
+						quod forma preexistens cui additur non erit in specie illa per se, quia carebat eo quod
+						est essentiale illi speciei et quod caret eo quod est essentiale alicui speciei non est
+						in specie illa per se. Si accidentalis, sequitur quod non faciat per se unum cum forma
+						preexistente, et per consequens non augmentat ipsam.</p>
+
+					<p>Preterea, si forma augetur per acquisitionem nove partis eiusdem forme, sequeretur quod
+						unum individuum secundum essentiam suam esset perfectius alio individuo eiusdem. [119ra]
+						Consequens est falsum, quia in individuis eiusdem rationis non est ordo essentialis
+						secundum perfectionem, igitur et antecedens. Consequentia probatur, quia, si sint due
+						albedines equales omnino intensive, et una earum intendatur per acquisitionem nove
+						partis eiusdem forme, altera remanente ut prius, patet quod albedo intensa secundum suam
+						essentiam esset perfectior alia, et per consequens unum individuum secundum essentiam
+						suam perfectius alio eiusdem rationis.</p>
+
+					<p>Preterea, res alba potest fieri albior nulla parte albedinis noviter acquisita, igitur
+						albedo potest intendi sine acquisitione nove partis eiusdem forme. Consequentia patet,
+						quia nulla res est albior nisi quia eius albedo est intensior. Antecedens probatur, quia
+						ad sensum vidimus quod, cum res aliqua alba condensatur, ipsa sit albior et tamen non
+						acquiritur nova pars albedinis; ergo etc.</p>
+
+					<p>Preterea, ex minus calido fit magis calidum nulla parte caloris noviter acquisita,
+						igitur calor potest intendi sine acquisitione etc. Antecedens est
+							<name>Philosophi</name> IV <title>Physicorum</title> dicentis quod ex calido fit magis
+						calidum nullo facto in materia calido.</p>
+
+					<p>Responsio ad rationes <name>Ockham</name></p>
+
+					<p>Ad primum istorum dico quod generatio potest accipi tripliciter. Uno modo, pro
+						productione alicuius compositi per se existentis. Alio modo, pro productione forme seu
+						termini formalis secundum quamlibet sui partem. Tertio, pro productione cuiuscumque
+						novi. </p>
+
+					<p>Primo modo concedo quod augmentatio potest esse sine generatione et econverso, et etiam
+						secundo, immo naturaliter non potest esse augmentatio cum tali generatione, quia
+						augmentatio semper presupponit aliquam partem vel aliquem gradum forme que potest
+						augmentari et quod sic generatur secundum quamlibet sui partem producitur, sed sic
+						concesso antecedente patet quod non valet consequentia.</p>
+
+					<p>Tertio modo nego antecedens, quia impossibile est vera augmentationem esse sine tali
+						generatione, ut patet per deductionem conclusionis mee, licet talis generatio possit
+						esse sine tali augmentatione, et per hoc patet qualiter est concedendum quod augmentatio
+						et generatio sunt mutationes disparate et qualiter non.</p>
+
+					<p>Ad secundum dico quod illa pars forme noviter acquisita est individuum illius speciei,
+						sicut et precedens, et ideo isto modo et non alio quo precedens est essentialis vel
+						accidentalis illius speciei. Sed tunc ratio nihil concludit, quia, si concedatur quod
+						sit essentialis modo dicto, non sequitur quod forma preexistens cui additur non erat in
+						specie per se. Nec probatio valet, quia omnia individua unius speciei isto modo sunt
+						essentialia nature specifice, et tamen non sequitur hoc individuum caret illo, igitur
+						non est in specie per se. Si vero concedatur quod sit accidentalis modo predicto, patet
+						quod non sequitur quod non faciat per se unum cum forma preexistente, quia quelibet alia
+						est sic accidentalis nature specifice, et tamen potest facere per se unum cum alia. Dico
+						tamen ulterius ad maiorem declarationem quesiti quod illa pars noviter acquisita non est
+						essentialis parti preexistenti et tamen essentialis forme totali que ex ipsa et
+						preexistenti constituitur sicut preexistens.</p>
+
+					<p>Ad tertium concedo consequens quod albedo intensa secundum suam essentiam est
+						perfectior remissa et quando dicitur quod in individuis eiusdem rationis non est ordo
+						essentialis secundum perfectionem, dico quod non est verum absolute, sed sic
+						intelligendo quod in ipsis non est ordo essentialis qualis est in individuis alterius
+						speciei, et hoc est verum, quia in individuis alterius rationis est talis ordo
+						universaliter, quia non possunt dari duo individua alterius rationis quin unum sit
+						essentialiter perfectius altero. In individuis autem eiusdem rationis non est talis ordo
+						universaliter, quia multa talia individua sunt essentialiter eque perfecta. Iterum inter
+						individua alterius rationis est talis essentialis ordo quod minus perfectum per sui
+						intensionem nunquam poterit adequari perfectioni, non autem individua eiusdem rationis,
+						ut patet.</p>
+
+					<p>Ad quartum dico, sicut communiter solet dici, quod aliquid esse albius alio vel uno
+						tempore magis quam alio potest intelligi dupliciter: secundum veritatem scilicet et
+						existentiam vel solum secundum apparentiam. In secundo sensu concedo antecedens et
+						ne-[119rb]-go consequentiam, quia possibile est aliquam rem esse albiorem secundum
+						apparentiam eius albedine non intensa, sed in secundo nego antecedens et ad probationem
+						dico quod, si res alba que condensatur sit albior secundum veritatem, necesse est
+						aliquam partem albedinis esse noviter acquisita. Si vero res alba condensetur et nulla
+						pars albedinis de novo acquiratur, dico quod ipsa non est albior secundum veritatem, sed
+						solum apparentiam eo quod propter maiorem propinquitatem partium fortius movet
+						visum.</p>
+
+					<p>Ad ultimum dico sicut et ad precedens sic quod ex minus calido non fit magis calidum
+						secundum veritatem nulla parte caloris noviter acquisita. Et ad auctoritatem dico quod
+						non intelligit quod ex minus calido possit fieri magis calidum nulla parte caloris
+						noviter acquisita in parte subiecti que non est calida. Et hoc est dictum quod aliquid
+						potest fieri magis calidum intensive sine hoc quod fiat magis calidum extensive et quod
+						ista sit intentio <name>Philosophi</name> patet per verba immediate sequentia, quia, cum
+						dicit quod ex calido fit magis calidum nullo facto in materia calido, statim subdit quod
+						non esset calidum quando esset minus calidum quasi dicat quod ex minus calido fiat magis
+						calidum nulla parte facta calida que non esset prius calida quando illud erat minus
+						calidum, et hoc est verum.</p>
+
+					<p><name>Egidius</name></p>
+
+					<p>Contra tertiam conclusionem potest argui ex fundamento doctoris nostri. </p>
+
+					<p>Primo sic: quia, si gradus adveniens in augmento forme distingueretur realiter a
+						priori, sequeretur quod quanto forma esset intensior, tanto esset perfectior et quanto
+						esset remissior, tanto esset perfectior, quod est falsum secundum omnes. Consequentia
+						probatur, quia quanto forma est compositior, tanto est imperfectior et econverso, quanto
+						simplicior, tanto perfectior. Sed, si gradus adveniens in augmento forme distingueretur
+						realiter a priori quanto forma esset intensior, tanto esset compositior et quanto
+						remissior, tanto simplicior; ergo etc.</p>
+
+					<p>Preterea, si conclusio esset vera, sequeretur quod forma intensa non esset per se una,
+						quod est falsum et contra me. Consequentia probatur, quia nunquam ex aliquibus duobus
+						sit unum per se nisi unum illorum sit in potentia ad alterum, sed, si illa conclusio sit
+						vera, forma intensa constitueretur ex partibus realiter distinctis, quarum una non esset
+						in potentia ad alteram, cum forme non sit forma; ergo etc.</p>
+
+					<p>Confirmatur, quia ex duobus in actu non sit unum per se, VII
+						<title>Metaphysice</title>, sed quelibet pars forme est aliquid in actu, ergo partes
+						forme realiter distinguuntur in forma, et sic forma non erit per se una.</p>
+
+					<p>Ad rationes <name>Ockham</name></p>
+
+					<p>Ad primam nego consequentiam et ad probationem nego maiorem, quia non est verum quod
+						forma quanto est compositior, tanto est imperfectior, immo quanto est compositior isto
+						modo, tanto est perfectior et quanto simplicior, tanto imperfectior, nec est
+						universaliter verum quod omne simplex sit perfectius quolibet composito, aliter materia
+						hominis esset perfectior homine, quod est falsum; ergo etc.</p>
+
+					<p>Ad secundam nego consequentiam et ad probationem similiter nego maiorem. Si illa duo
+						sint in potentia ad unum tertium, quia, licet ex duobus quorum neutrum est in potentia
+						ad alterum, nec ambo ad tertium non fiat unum per se, ex duobus tamen quorum neutrum est
+						in potentia ad alterum potest fieri unum per se si ambo sint in potentia ad tertium et
+						hoc apparet ad sensum. Videmus enim quod ex duabus aquis fit una aqua ita per se una,
+						sicut erat quelibet illarum ex quibus componitur et tamen nulla illarum erat in potentia
+						ad alteram, sed quia ambe prius erant in potentia ad constituendum unam aquam totalem
+						fit ex ipsis una aqua per se. Et ad confirmationem <name>Philosophi</name> patet quod
+						propositio non est vera si sic intelligatur absolute, quia ex duabus aquis quarum
+						quelibet est aliquid in actu fit una aqua per se, ut notum est. Intelligenda est ergo
+						auctoritas <name>Aristotelis</name> de his que sic sunt duo in actu [119va] quod neutrum
+						est in potentia ad alterum, nec ambo ad unum tertium, et tunc non est ad propositum,
+						quia partes forme non sunt in potentia ad constituendum unam formam totalem sicut partes
+						aque ad constituendum unam aquam totalem.</p>
+
+					<p>Contra conclusionem quartam posset specialiter argui ex tertia, quia, si partes forme
+						realiter distinguuntur, ut asserit tertia conclusio, et sunt eiusdem speciei
+						specialissime, ut asserit quarta. Sequitur plura accidentia solo numero differentia
+						simul esse in eodem subiecto primo, quod non est verum, sed ad illud patet quid dicendum
+						ex solutione quarte rationis facte contra primam conclusionem.</p>
+				</div>
+				<div>
+					<head>Ad principalia</head>
+
+					<p>Ad primam reduco primo rationem contrafacientem, quia vel ipse habet pro inconvenienti
+						quod nulla forma augeatur, vel non. Si non, ratio est nulla, quia non deducit ad aliquod
+						incoveniens. Si sic, ratio est contra eum, quia per eum pars precedens non augetur, quia
+						non manet, nec sequens, quia non prefuit, nec totum aggregatum, quia per ipsum ex
+						utraque vel penitus aggregatur.</p>
+
+					<p>Ad rationem igitur dico quod formam augeri vel intendi potest intelligi dupliciter. Uno
+						modo, quia eadem forma numero que prius fuit minor, nunc sit maior. Alio modo, quod
+						forme preexistenti additur aliqua forma similis vel pars forme ex qua constituitur una
+						forma maior et perfectior intensive quam sit illa pars precise que prefuit. Et per
+						oppositum dupliciter potest intelligi formam diminui vel remitti. Uno modo, quia eadem
+						forma numero que prius fuit maior nunc fit minor. Alio modo, quia aliqua pars forme
+						tollitur a forma ratione cuius forma que remanet fit minor et imperfectior intensive
+						forma illa que prefuit. In primo sensu concedo quod nec caritas, nec aliqua forma mundi
+						potest augeri nec minui, quia impossibile est quod eadem caritas seu eadem albedo numero
+						nunc sit maior et prius fuit minor vel econverso. Et in isto sensu procedit illa ratio.
+						In secundo tamen sensu caritas et omnis forma consimilis quantum est ex se potest minui
+						vel augeri, et sic <name>beatus Augustinus</name> et doctores dicunt caritatem augeri,
+						quia caritas que nunc est in isto est maior caritate que prefuit in ipso, nec oppositum
+						probatur.</p>
+
+					<p>Secundam rationem, si bene deducatur, concedo concludere.</p>
+				</div>
+
+
+
+			</div>
+		</body>
+	</text>
+</TEI>

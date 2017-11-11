@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Liber I, Distinctio 3, Quaestio 2</title>
+				<author>Alphonsus Toletanus Vargas</author>
+				<editor>Luciana Cioca</editor>
+				<respStmt>
+					<name>Jeffrey C. Witt</name>
+					<resp>TEI Encoder</resp>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="0.0.0-dev">
+					<date when="2016-09-01">September 01, 2016</date>
+				</edition>
+			</editionStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="http://www.thesis-project.ro/">ERC-THESIS project n° 313339</ref>
+				</authority>
+				<availability status="free">
+					<p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref></p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="V" n="Venice1490">Venice1490</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+			<schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"> </schemaRef>
+			<editorialDecl>
+				<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+					guidelines for a critical edition</p>
+			</editorialDecl>
+		</encodingDesc>
+		<revisionDesc status="draft">
+			<listChange>
+				<change when="2016-09-02" who="#JW" status="draft" n="0.0.0">
+					<p>Created file for the first time.</p>
+				</change>
+			</listChange>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:lang="la">
+		<front>
+			<div xml:id="includeList">
+				<xi:include
+					href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+					xpointer="worksCited"/>
+				<xi:include
+					href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+					xpointer="prosopography"/>
+			</div>
+			<div xml:id="starts-on">
+				<pb ed="#V" n="79-r"/>
+				<cb ed="#V" n="a"/>
+			</div>
+		</front>
+		<body>
+			<div xml:id="atv-l1d3q2">
+				<head>Liber I, Distinctio 3, Quaestio 2</head>
+				<p>Secundo quero: utrum quelibet pars imaginis create sit totalis causa effectiva sui actus. </p>
+				<div type="rationes-principales">
+					<p>Et videtur primo quod non, quia intellectus creatus non est nota, quia intellectus est
+						pars imaginis create, ut patet ex questione precedenti. Antecedens probatur, quia, sicut
+						se habet sensus ad sensibile totalis causa effectiva sui actus, igitur nec quelibet pars
+						etc. Consequentia est nota, actum sentiendi sic se habet intellectus ad intelligibile et
+						ad actum intelligendi, ut patet per <name ref="#Aristotle">Philosophum</name> II et III <title ref="#deAnima">De
+							anima</title>, sed sensus non est totalis causa effectiva actus sentiendi, ut patet in
+						eodem secundo; ergo etc. </p>
+					<p>Contra: intellectus et voluntas que sunt partes imaginis create non minus causant
+						effective actus suos quam potentie inferioris. Hoc patet, quia esse causam dicit
+						perfectionem, et per consequens potentie perfectiori debet magis competere sed causant
+						etc; igitur etc. Probatur minor, quia potentia generativa motiva et calefactiva sunt
+						cause totales suorum actuum, ergo.</p>
+				</div>
+				<div>
+					<head>Divisio quaestionis</head>
+					<p>Respondeo. In ista questione erunt quattuor articuli, quia primo ponam aliquas
+						distinctiones, secundo conclusiones. Tertio movebo dubia et quarto respondebo.</p>
+				</div>
+				<div type="articulus">
+					<head>Articulus primus</head>
+
+					<p>Quantum ad primum intelligendo questionem de intellectu et voluntate que sunt partes
+						imaginis create, ut patet in questione precedenti, distinguo primo cum
+							<name ref="#Aristotle">Philosopho</name> III <title ref="#deAnima">De anima</title>, de intellectu possibile et agente
+						et suppono iuxta communiorem doctrinam quod intellectus agens et possibilis realiter
+						distinguuntur, cuius ratio ad presens potest esse, quia intellectus possibilis nullam
+						operationem habet previam intellectioni, cum nihil sit eorum que sunt ante intelligere,
+						ut patet III <title ref="#deAnima">De anima</title>, sed intellectus agens habet aliquam operationem
+						previam intellectioni, ut patet ibidem, igitur intellectus agens non est possibilis, nec
+						econverso.</p>
+					<p>Secundo distinguo de actu intelligendi, quia quidam est naturalis respectu cuius
+						intellectus possibilis est in potentia naturali, quidam supernaturalis respectu cuius
+						intellectus possibilis est in potentia obedibili. Primus cuasatur a causa naturali
+						quecumque sit illa, secundus a supernaturali. Et similiter potest distingui de actu
+						voluntatis. Et intelligo questionem de actu naturali intellectus et voluntatis, non de
+						supernaturali, quia cognitio et fruitio beatifica que sunt actus supernaturales
+						intellectus voluntatis non sunt ab eis active totaliter, nec partialiter, sed a solo
+						Deo, sicut fuit ostensum distinctione prima. Et hec de primo.</p>
+				</div>
+				<div type="articulus">
+					<head>Articulus secundus</head>
+
+					<p>Quantum ad secundum articulum, quia conformiter videtur mi-
+						
+						<pb ed="#V" n="79-r"/>
+						<cb ed="#V" n="b"/>
+						
+						-hi dicendum de
+						intellectu et voluntate, pono quattuor conclusiones de intellectu, ex quibus inferam
+						correlarie quattuor alias de voluntate. </p>
+					<div>
+						<head><supplied>Conclusio prima</supplied></head>
+
+						<p>Est igitur prima conclusio quod intellectus agens est aliquid anime. </p>
+						<p>Probatur primo sic: intellectus agens non est aliquid anime, igitur homo non potest
+							naturaliter intelligere cum voluerit, cuius oppositum docet experientia et
+								<name ref="#Aristotle">Aristoteles</name> II <title ref="#deAnima">De anima</title>. Consequentia probatur, quia
+							homo non potest naturaliter aliquid intelligere nisi previa operatione intellectus
+							agentis, igitur, si eius operatio non est in potestate voluntatis nec intellectio, sed
+							supposito quod non sit aliquid anime eius, operatio non est in potestate voluntatis,
+							ut patet; ergo etc.</p>
+						<p>Preterea, omne principium naturale universaliter requisitum ad propriam operationem
+							hominis inquantum homo est aliquid in homine. Intellectus agens est huiusmodi; ergo.
+							Maior patet, quia stante generali influentia Dei potest huiusmodi in suam propriam
+							operationem circumscripto omni eo quod non est ipse, nec aliquid eius. Minor probatur,
+							quia secundum <name ref="#Aristotle">Aristotelem</name> X <title ref="#Ethics">Ethicorum</title>, 
+							<quote>intelligere est
+							propria operatio hominis</quote> 
+							inquantum homo, sed intellectus agens univeraliter
+							requiritus ad intellectionem sicut eius naturale principium, ut patet III <title ref="#deAnima">De
+								anima</title>; igitur etc.</p>
+						<p>Preterea, si intellectus agens non esset aliquid anime, vel non esset dare
+							intellectum agentem, vel esset scientia Dei, ut videtur quibusdam, vel esset aliqua
+							substantia separata a nobis quantum ad esse virtute cuius sit intellectualis operatio,
+							vel secundum quandam unionem ipsius ad nos sicut posuit <name>Alexander</name> et
+								<name ref="#Averroes">Averrois</name>, vel per influxum formarum intelligibilium in nos sicut posuit
+								<name ref="#Avicenna">Avicenna</name>.</p>
+						<p>Primum est contra <name ref="#Aristotle">Philosophum</name> III <title ref="#deAnima">De anima</title> qui dividit
+							intellectum in possibilem et agentem, ut dictum est supra. Et confirmatur primo, quia
+							res inferioris ordinis vel nullo modo agunt in res superioris ordinis, vel, si agunt,
+							agunt virtute alicuius superioris, sed intellectus et omne que pertinent ad ipsum sunt
+							res superioris ordinis, cum sint spritualia et obiecta particularia sunt inferioris
+							ordinis cum sint corporalia, igitur vel obiecta particularia nullo modo causant actum
+							intelligendi in intellectu, vel causant virtute alicuius superioris. Si detur primum,
+							habetur intentum, quia oportet dare aliquid superioris ordinis quod causet actum
+							intelligendi et illud voco intellectum agentem. Si detur secundum, idem sequitur; ergo
+							etc. </p>
+						<p>Secundo, quia omnis operatio mentalis est a principio vitali, non solum receptive,
+							sed etiam effective totaliter vel saltem partialiter, aliter effectus esset nobilior
+							totali causa effectiva, quod non est verum, sed intelligere est operatio talis, ergo
+							oportet quod habeat aliquam causam vitalem, saltem partialiter, et hanc voco
+							intellectum agentem. Secundum etiam dari non potest, quia vel scientia Dei dicitur
+							intellectus agens, quia dat rebus naturam et virtutem movendi intellectum possibilem,
+							vel quia dat eis aliquam aliam virtutem specialem. Primum dari non potest, quia pari
+							ratione scientia Dei diceretur intellectus possibilis, quia dat ei naturam et virtutem
+							intelligendi et recipiendi actum intelligendi quod est inconveniens, nec secundum,
+							quia sic opinantes nullam talem virtutem assignant, tum quia per talem nulla res
+							moveret intellectum ad intelligendum.</p>
+						<p>Et confirmatur, quia vel obiecta particularia habent a scientia Dei influentiam
+							aliquam specialem, vel solum generalem. Non specialem, quia nullam talem assignant. Si
+							solum generalem, pari ratione dicetur quod potentia Dei est calefactiva, quia dat igni
+							potentiam calefaciendi, et sic de omni potentia activa, quod est absurdum.</p>
+						<p>Preterea, intellectus agens non est maioris ambitus quam possibilis, igitur non est
+							scientia Dei. Antecedens est <name ref="#Aristotle">Philosophi</name> III <title ref="#deAnima">De anima</title>,
+							dicens quod “sicut intellectus agens est omnia facere, ita possibilis omnia
+							fieri”.</p>
+						<p>Et confirmatur, quia aliter potentie active intellectus agentis non corresponderet in
+							natura potentia passiva vel econtra, quorum quodlibet est inconveniens et contra
+								<name ref="#Aristotle">Philosophum</name>, ibidem. Consequentia probatur, quia scientia Dei est
+							intellectus divinus qui in infi-
+							
+							<pb ed="#V" n="79-v"/>
+							<cb ed="#V" n="a"/>
+							
+							-nitum 
+							excedit intellectum possibilem in nobis;
+							ergo etc.</p>
+						<p>Nec potest ulterius dari tertium, quia talis unio illius intellectus ad nos vel
+							influxus ipsius in nos qualem posuerunt philosophi non consonat sane doctrine; ergo
+							etc.</p>
+						<p>Pro ista conclusione est <ref>articulus parisiensis 28</ref>, ubi dicitur quod intellectus agens
+							non copuletur nostro possibili et quod intellectus possibilis non uniatur nobis
+							secundum substantiam error. Hec est etiam expressa sententia <name ref="#Aristotle">Philosophi</name>
+							III <title ref="#deAnima">De anima</title>, ubi postquam ostendit quod in omni natura in qua est dare
+							aliquid quod est omnia fieri est dare aliquid quod est omnia facere, concludit quod
+							necesse est in anima has esse differentias, sed certum est quod iste due differentie
+							non essent in anima si intellectus agens non esset aliquid anime, ergo etc. </p>
+						<p>Ex ista conclusione et presertim ex deductione <name ref="#Aristotle">Aristotelis</name> infero
+							correlarie quod in natura rationali creata est dare voluntatem possibilem et agentem
+							sicut et intellectum. Deductio videtur mihi satis clara, quia ratio
+								<name ref="#Aristotle">Aristotelis</name> non minus probat hoc de voluntate quam de intellectu. Arguo
+							enim sicut et ipse in omni natura in qua est dare unum quod est omnia fieri est dare
+							unum quod est omnia facere, sed in natura rationali creata est dare voluntatem
+							possibilem que est omnia fieri, igitur in ipsa est dare voluntatem agentem que est
+							omnia facere. Maior est <name ref="#Aristotle">Philosophi</name> et minor est vera; igitur etc. Et
+							confirmatur, quia quicquid dicatur ad istam rationem dicetur ad rationem
+								<name ref="#Aristotle">Philosophi</name>, cum minor sit ita vera de voluntate sicut de intellectu,
+							igitur vel ratio <name ref="#Aristotle">Aristotelis</name> non concludit, vel, si illa concludit, et
+							ista.</p>
+						<p>Preterea, potentia equalis ambitus obiective et eiusdem immaterialitatis subiective,
+							quarum una est perfectior altera, si minus perfecta, habet virtutem agentem sui
+							generis et magis perfecta. Hoc patet, quia posse agere dicit perfectionem, sed
+							intellectus et voluntas in creaturis sunt equalis ambitus obiective, ut patet per
+								<ref><name ref="#Augustine">beatum Augustinum</name>, X <title ref="#deTrinitate">De Trinitate</title>, capitulo 11,</ref> et
+							eiusdem immaterialitatis subiective, quia sunt eiusdem subiecti primi et voluntas est
+							perfectior intellectu, ut patet ex questione precedenti, et intellectus habet virtutem
+							agentem sui generis ex conclusione statim deducta, igitur etc., voluntas.</p>
+					</div>
+					<div>
+
+						<head><supplied>Conclusio secunda</supplied></head>
+
+						<p>Secunda conclusio principalis est quod obiectum naturaliter conceptibile non est
+							totalis causa effectiva, nec partialis actus intelligendi. </p>
+						<p>Probatur primo sic: obiectum naturaliter sensibile non est totalis causa effectiva,
+							nec partialis actus sentiendi, igitur obiectum naturaliter intelligibile non est
+							totalis causa effectiva, nec partialis actus intelligendi. Consequentia est nota et
+							antecedens est <ref><name ref="#Augustine">beati Augustini</name> XII <title>Super Genesim ad
+								Litteram</title>, capitulo 29,</ref> ubi sic inquit: 
+							<quote>nec sanum putandum est facere quod
+							corpus in spiritu tanquam corpus corpori factibili mere vite subditur. Omni enim modo
+							prestantior est qui facit ea re de qua aliquid facit, nec ullo modo spiritu
+							prestantius est corpus</quote>. 
+							Et subdit immediate ad propositum: <quote>quamvis enim prius
+							videamus aliquod corpus quod antea non videramus atque inde incipiat imago eius esse
+							in spiritu nostro, tamen eandem eius imaginem non corpus in spiritu, sed ipse spiritus
+							in se ipso facit sterilitatem numerali</quote>. 
+							Et loquitur ad litteram de imagine que est
+							visio; ergo etc.</p>
+						<p>Et consimilem sententiam ponit in <ref>VI <title>Musice</title></ref> satis circa principium,
+							ubi sic ait: <quote>diligenter considerandum utrum revera nihil aliud sit quod dicitur
+							audire, nihil aliud a corpore in anima fieri, sed absurdum est fabricatori corpori
+							subiecta est materiam quo quomodo animam subdetur. Nunquam enim est anima corpore
+							deterior et omnis materia fabricatore deterior. Nullo ergo modo anima fabricatori
+							corpori subiecta est materies. Esset autem, si aliquos in ea numeros corpus operatur</quote>.
+							Hec <name>Augustinus</name>. Et modicum infra prosequens materiam istam subdit: <quote>et ut
+							longum faciam, videtur mihi anima cum sentit in corpore, non ab illo aliquid pati, sed
+							in eius passionibus attentius agere</quote>. 
+							Et quibusdam interpositis concludit: 
+							<quote>cum autem
+							anima ab operationibus suis aliquid patitur, a se ipsa patitur non a corpore</quote>. 
+							Et hec
+							est ratio potissima que me movet 
+							
+							<pb ed="#V" n="79-v"/>
+							<cb ed="#V" n="b"/>
+							
+							ad tenendum conclusionem istam propter dicta
+								<name ref="#Augustine">beati Augustini</name>. </p>
+						<p>Secundo potest sic argui: illud cui accidit ad hoc quod intelligatur ab intellectu
+							esse in actu, vel in potentia non est totalis causa effectiva nec partialis actus
+							intelligendi, sed obiecto naturaliter conceptibili accidit etc; igitur etc. Maior
+							patet ratione et auctoritate ratione quidem, quia quod omnipotentia non potest esse
+							causa effectiva actus realis in actu auctoritate, quia causa in actu et effectus in
+							actu simul sunt et non sunt, <ref>V <title ref="#Metaphysics">Metaphysica</title></ref>, igitur illud cui accidit
+							esse in actu non est causa effectiva actus realis in actu. Minor patet, quia non solum
+							intelligitur ens in actu, sed ens in potentia et econtra; igitur etc.</p>
+						<p>Tertio sic: illud cui accidit esse absolutum vel respectivum et intelligatur ab
+							intellectu non est totalis causa effectiva, nec partialis actus intelligendi obiecto
+							naturaliter conceptibile accidit etc; igitur etc. Maior patet, quia respectus non est
+							per se principium, nec terminus actionis, <ref>V <title ref="#Physics">Physicorum</title></ref>. Minor probatur
+							ut prius, quia et absolutum et respectivum intelliguntur ab intellectu; ergo etc.</p>
+						<p>Quarto sic: illud cui accidit quod sit ens reale vel rationis non est totalis causa
+							effectiva, nec partialis actus intelligendi. Hoc patet, quia causa actus realis
+							necessario est realis, sed obiecto naturaliter conceptibili accidit quod sit reale vel
+							rationis, quia non solum intelligitur ens reale, sed etiam rationis; ergo etc.</p>
+						<p>Ex ista conclusione infero correlarie quod obiectum voluntatis non est totalis causa
+							effectiva, nec partialis actus volendi. Deductio est satis nota, quia obiectum
+							voluntatis non magis causat actum volendi quam obiectum intellectus actum intelligendi
+							et potest deduci per easdem rationes. </p>
+						<p>Illis tamen dimissis confirmo conclusionem per rationes speciales, et quia conclusio
+							habet duas partes, primo probo primam, videlicet quod obiectum non sit totalis causa
+							etc. Et arguo sic: omnes actus volendi et nolendi ad quos voluntas est in potentia
+							naturali sunt in potestate voluntatis, ergo nullus talis causatur totaliter ab
+							obiecto. Antecedens patet, quia secundum <ref><name ref="#Augustine">beatum Augustinum</name> I
+								<title ref="#Retractationum">Retractationum</title>, capitulo 9</ref>: 
+							<quote>nihil tam in potestate voluntatis quam
+							ipsa voluntas</quote>, 
+							quod necessario intelligitur de actu, non de potentia. Consequentia
+							probatur, quia, si actus qui est in potestate voluntatis causatur totaliter ab obiecto
+							vel actio, talis obiecti est in potestate voluntatis, vel non. Si non, igitur nec
+							actus est in potestate voluntatis, quia in cuius potestate non est antecedens, nec
+							consequens, quod de necessitate sequitur ad antecedens, sed, si agens agit patiens
+							necessario patitur, igitur in cuius potestate non est actio agentis, nec passio
+							patientis. Si sic, igitur tale obiectum non poterit agere nisi voluntas velit ipsum
+							agere. Tunc quero vel actus ille volendi quo voluntas vult ipsum agere est effective
+							ab obiecto, vel a voluntate, vel ab alio. Non ab obiecto, quia talis actus est prior
+							actione obiecti et nullus effectus est prior actione per quam producitur si a
+							voluntate, pari ratione et alius quicumque erit a voluntate, cum non minus sit
+							quilibet aliorum in potestate voluntatis. Quo posito sequitur quod nullus sit
+							totaliter ab obiecto, quod est intentum. Si ab alio queram sicut prius vel actio
+							illius est in potestate voluntatis, vel non. Si non, actus non erit in potestate
+							voluntatis, nec per consequens per ipsum erit aliquid in eius potestate. Si sic,
+							revertetur questio et proceditur in infinitum, sed talis processus est vitandus
+							standum. Est igitur in primo. Et confirmatur, quia accipio primum actum qui est in
+							potestate voluntatis et vocetur <c>a</c> et peto pari ratione et alius quicumque, ut
+							patet ex supradictis, et per consequens nullus erit totaliter ab obiecto, quod est
+							propositum. 
+							
+							<pb ed="#V" n="80-r"/>
+							<cb ed="#V" n="a"/>
+							
+							Si non, vel est ab aliquo cuius actio est in potestate voluntatis
+							ex deductione precedenti, et per consequens primus actus qui est in potestate
+							voluntatis non est in potestate voluntatis, quod est contradictio. Si sic, vel eius
+							actio est in potestate voluntatis per istum actum <c>a</c> sic quod per eum voluntas
+							vult illud agere, vel per alium. Non per istum, quia iste est posterior actione
+							agentis, cum sit eius effectus. Prius autem non est in potestate posterioris si per
+							alium, vel ille erit prior actu <c>a</c>, vel non. Si non, adhuc per ipsum actus
+							illius agentis non erit in potestate voluntatis, cum ponatur posterior ipsa. Si sic,
+							vel talis actus est in potestate voluntatis, vel non. Si non, per ipsum nihil erit in
+							potestate voluntatis. Si sic, igitur actus <c>a</c> non est primus actus qui est in
+							potestate voluntatis, cuius oppositum est assumptum. Patet igitur prima pars
+							conclusionis. </p>
+						<p>Secundam vero, videlicet quod obiectum non sit causa partialis etc, deduco sic:
+							aliquis actus voluntatis non causatur ab obiecto partialiter, igitur nullus.
+							Consequentia est mihi evidens, quia non est maior necessitas quod unus actus
+							voluntatis causetur partialiter ab obiecti quam alius. Antecedens probatur, quia actus
+							volendi aliquam rem propter malitiam eius non causatur ab obiecto, quod est malum
+							totaliter vel partialiter. Hoc patet, quia malum solum habet rationem privativam, cum
+							non sit nisi privatio boni. Privatio autem nihil est, sicut expresse demonstrat
+							<ref>
+								<name ref="#Anselm">Anselmus</name> 
+								<title ref="#deConceptuVirginali">De conceptu virginis</title>, capitulo 5
+							</ref> 
+							et 
+							<ref>
+								<title>De casu diaboli</title>, 
+								capitulis 11 et 12
+							</ref>. 
+							Nihil autem non est totalis causa effectiva, nec partialis actus
+							realis.</p>
+					</div>
+					<div>
+						<head><supplied>Conclusio tertia</supplied></head>
+						<p>Tertia conclusio principalis est quod intellectus possibilis non est totalis causa
+							effectiva, nec partialis actus intelligendi. </p>
+						<p>Ista conclusio probatur communiter primo sic: si intellectus possibilis esset totalis
+							causa effectiva vel partialis actus intelligendi, unum et idem secundum idem et
+							respectu eiusdem esset in actu et in potentia quod rationi repugnat; et probatur
+							consequentia, quia, ut causaret actum, esset in actu et, ut reciperet ipsum, esset in
+							potentia, cum agens sit tale in actu quale patiens in potentia, 
+							<ref>III
+								<name ref="#Physics">Physicorum</name>
+							</ref> 
+							et 
+							<ref>
+								I <title ref="#OnGeneration">De generatione</title>
+							</ref>; 
+							igitur etc.</p>
+						<p>Secundo sic: si intellectus possibilis esset etc. eiusdem ad se ipsum, esset relatio
+							realis. Consequens est impossibile, igitur et antecedens. Consequentia patet, quia
+							activi ad passivum est relatio realis, 
+							<ref>
+								V <title ref="#Metaphysics">Metaphysice</title>
+							</ref>. 
+							Falsitas
+							consequentis probatur, quia realiter relativa sunt realiter opposita, sed eiusdem ad
+							se ipsum non est realis oppositio, igitur nec realis relatio.</p>
+						<!-- review paragraph and div division -->
+						<p>Sed ad istas rationes quidam doctor.</p>
+						<div>
+							<head><name>Scotus</name> in I, distinctione 3, parte 3, questione 2, articulo ultimo
+								respondet.</head>
+							<p>Ad primam, quod non est aliquod inconveniens quod unum et idem respectu eiusdem sit
+								in actu virtuali et in potentia formali, quia non eodem modo est in actu et in
+								potentia, et ideo quod idem sit virtualiter tale in actu et formaliter tale in
+								potentia, nulla est contradictio. Poterit igitur intellectus possibilis esse in actu
+								virtuali et in potentia formali, et per consequens se reducere ad actum formalem
+								sine contradictione.</p>
+							<p>Ad secundum dicit quod alique relationes opposite sunt incompossibiles in eadem
+								natura, alique in eodem supposito, alique nec in eodem supposito, nec in eadem
+								natura, unde ex ratione relationum in communi non potest concludi repugnantia earum
+								in eodem. Exemplum primi: causa et causatum in eadem natura et in eodem supposito
+								repugnant, aliter idem dependeret a se ipso sine sui divisione. Exemplum secundi
+								producens et productum non repugnant in eadem natura, ubi natura potest communicare
+								sine sui divisione, sicut patet in natura divina. Repugnat tamen in eodem supposito.
+								Exemplum tertii movens motum nec in eadem natura, nec in eodem supposito repugnant,
+								quia hic non ponitur dependentia essentialis qualem ponunt relationes cause et
+								causati, nec ponitur ibi quod idem sit antequam sit, quod videtur ponere relatio
+								producentis et producti, sed tantum ponitur hic quod idem dependeat a se quantum ad
+								actum accidentalem quem recipit ab eo. Incompossibilitatem igitur aliquarum
+								relationum oportet reducere ad aliquam incompossibilitatem priorem et, ubi illa
+								prior non invenitur, nec ista concludetur ibi, et sic est in proposito. Et declarat
+								ulterius ista responsio quod, sicut 
+								
+								<pb ed="#V" n="80-r"/>
+								<cb ed="#V" n="b"/>
+								
+								ille relationes producentis et producti
+								que sunt repugnantes in eodem supposito possunt fundari in eadem natura illimitata
+								sicut in essentia divina, ita ille relationes moventis et moti que multo minorem
+								habent repugnantiam possunt fundari in eadem natura aliqualiter illimitata. Quicquid
+								autem est in potentia formali ad aliquem actum et cum hoc habet actualitatem
+								virtualiter respectu illius, sicut est cum idem movet se aliqualiter illimitatum,
+								quia potentia non est tantum capax illius perfectionis, sed etiam causans eam,
+								igitur ibi propter aliqualem illimitationem bene compatiuntur se iste relationes
+								opposite.</p>
+						</div>
+						<div>
+							<head>Contra <name>Scotum</name></head>
+
+							<p>Iste tamen solutiones non videntur mihi sufficere. Non quidem primo, quia, si idem
+								secundum idem et respectu eiusdem potest esse in actu virtuali et in potentia
+								formali, idem secundum idem potest agere in se ipsum et pati a se ipso, cuius
+								oppositum <name ref="#Averroes">Commentator</name> reputat per se notum IX
+									<title>Metaphysice</title>, commento 2, ubi sic inquit: 
+								<quote>potentia agens est illud
+								quod est principium transmutationis in aliud, secundum quod est aliud, non in se,
+								cum sit manifestum quod nihil agit in se ipsum</quote>. 
+								Potentia vero passiva est illud
+								quod recipit transmutationem in se ex alio, secundum quod est aliud, etiam cum sit
+								manifestum, quod nihil patiatur a se ipso. Et confirmatur, quia
+									<name ref="#Aristotle">Aristoteles</name> V <title ref="#Metaphysics">Metaphysica</title> diffiniens potentiam activam
+								et passivam absolute, ut dicuntur de formali et virtuali, cum loquatur de potentia,
+								prout sequitur naturam entis inquantum ens sub quo continetur actus formalis et
+								virtualis et potentia similiter dicit quod potentia activa est principium
+								transmutandi aliud secundum aliud et potentia passiva principium transmutandi ab
+								alio secundum aliud, cum igitur nihil sit aliud a se ipso, nihil potest esse
+								secundum idem et respectu eiusdem in actu virtuali et in potentia formali.</p>
+							<p>Preterea, si aliqua una res possit esse in actu virtuali et potentia formali
+								respectu eiusdem, aliqua res posset agere in se ipsa formam quam non habet.
+								Consequentia est nota et consequens est contra <ref><name ref="#Augustine">beatum Augustinum</name>
+								expresse II <title ref="#DeLiberoArbitrio">De libero arbitrio</title>, capitulo 3</ref>, ubi sic inquit: 
+								<quote>nulla
+								res se ipsam formare potest, quia nulla res potest dare sibi quod non habet, et
+								utique ut habeat formam, formatur aliquid. Quapropter quelibet res si quam habet
+								formam, non eius opus est accipere quod habet. Si quam vero formam non habet, non
+								potest a se accipere quod non habet. Nulla igitur res, ut dixi, formare se potest</quote>.
+								Hec <name ref="#Augustine">Augustinus</name>. Et ista ratio potissime movet me ad impugnandum
+								solutionem istam et tenendum conclusionem principalem propter dicta <title ref="#Augustine">beati
+									Augustini</title>, 
+								quia, si intellectus possibilis esset totalis causa effectiva
+								vel partialis, actus intelligendi posset se ipsum formare et causare in se ipso
+								formam quam non habet, cuius oppositum vult <name ref="#Augustine">beatus Augustinus</name>
+								expresse.</p>
+							<p>Ex his patet quod secunda ratio non est soluta, quia, si movens et motum non
+								repugnant in eadem natura, nec in eodem supposito, idem secundum rem et respectu
+								eiudem esset in actu virtuali et potentia formali, cuius oppositum patet esse verum
+								ex dictis. Et ulterius illa solutio destruit se ipsam, ut videtur. Dicit enim quod
+								omnis natura in qua fundantur relationes moventis et moti est aliqualiter
+								illimitata, sed constat quod natura intellectus possibilis non est illimitata aliquo
+								modo, cum omnis intellectus creatus sit simpliciter finitus et nullo modo infinitus,
+								igitur in intellectu possibili relationes huiusmodi fundari non possunt, quod est
+								propositum; ergo etc. Et ulterius ista solutio contradicit principiis
+									<ref>
+										<name ref="#Aristotle">Philosophi</name> qui VIII <title ref="#Physics">Physicorum</title>
+									</ref> 
+								et 
+								<ref>
+									XII
+									<title ref="#Metaphysics">Metaphysice</title>
+								</ref> 
+								ad probandum primum motorem accipit pro principio quod
+								<quote>omne quod movetur ab alio movetur</quote>. 
+								Patet igitur rationes illas non esse solutas,
+								ut videtur. 
+								Patet etiam conclusionem esse de mente 
+								<name ref="#Augustine">beati Augustini</name> 
+								et <name ref="#Aristotle">Aristotelis</name> 
+								et sui <name ref="#Averroes">Commentatoris</name>. 
+							</p>
+							<p>Et potest ex dictis eorum confirmari primo sic: illud quod solum est pura potentia
+								in genere intelligibilium non est totaliter causa effectiva, nec partialis actus
+								intelligendi. Intellectus passibilis est huiusmodi, ergo. Maior patet, quia omne
+								agens agit secundum quod est 
+								
+								<pb ed="#V" n="80-v"/>
+								<cb ed="#V" n="a"/> 
+								
+								in actu. Illud ergo quod est pura potentia in
+								aliquo genere per exclusionem omnis actualitatis nullam activitatem habet in illo
+								genere. Minor est 
+								<ref><name ref="#Aristotle">Aristotelis</name> III <title ref="#deAnima">De anima</title></ref> 
+								dicens quod
+								<!-- possible quot here -->
+								intellectus possibilis non habet aliam naturam nisi quia possibilis vocatus est;
+								ergo etc.</p>
+							<p>Secundo sic: secundum 
+								<ref><name ref="#Averroes">Commentatorem</name> III <title>De anima</title>,
+									commento 5</ref>, 
+								<quote>sicut se habet materia prima ad formam vel formas sensibiles, sic
+								intellectus possibilis ad formas intelligibiles</quote>; 
+								sed materia prima, quia est pura
+								potentia simpliciter in genere entium, non est totalis causa effectiva nec partialis
+								alicuius forme sensibilis, igitur intellectus possibilis, quia est pura potentia in
+								genere intelligibilium, non est totalis causa effectiva, nec partialis actus
+								intelligendi. </p>
+							<p>Ex ista conclusione infero correlarie quod voluntas possibilis vel passiva non est
+								totalis causa effectiva, nec partialis actus volendi. Deductio patet per rationes
+								probantes conclusionem istam de intellectu que non minus concludunt de voluntate.
+							</p>
+						</div>
+					</div>
+					<div>
+						<head><supplied>Conclusio quarta</supplied></head>
+						<p/>
+						<p>Quarta conclusio principalis est quod intellectus agens est totalis causa effectiva
+							actus intelligendi et ad ponendum conclusionem istam movent me principaliter verba
+								<name ref="#Augustine">beati Augustini</name> qui ex una parte dicit quod “anima est activa suarum
+							operationum, ut patet per auctoritatem ipsius XII <title>Super Genesim ad
+								litteram</title> et in VI multas allegatas in secunda conclusione. Et ex alia parte
+							ponit quod nulla res potest producere in se ipsa formam quam non habet, ut patet per
+							auctoritatem ipsius II <title ref="#DeLiberoArbitrio">De libero arbitrio</title> allegatam in tertia. Et ex
+							istis sequitur quod in anima preter intellectum possibilem qui recipit intellectionem
+							sit aliqua virtus que sit activa ipsius et nulla potest assignari preter intellectum
+							agentem, immo quecumque detur illam voco intellectum agentem. Confirmo tamen
+							conclusionem sic: quandocumque activitas activi adequat passibilitatem passivi ad
+							quicquid se extendit passivitas passivi se extendit active activitas activi. Patet ex
+							terminis, sed activitas intellectus agentis adequat naturalem passibilitatem
+							intellectus possibilis, quia, sicut intellectus possibilis est omnis fieri, ita
+							intellectus agens est omnia facere per <name>Philosophum</name> III <title>De
+								anima</title> et intellectus possibilis est totalis causa receptiva, et sic passiva
+							actus intelligendi, igitur intellectus agens est totalis causa effectiva eiusdem.</p>
+						<p>Secundo sic: omnis operatio imanens est subiective sui principii activitati vel
+							alicuius immediate fundati in eodem cum suo principio activo, aliter operatio imanens
+							non esset perfectio agentis, quod est contra <name>Philosophum</name> IX
+								<title>Metaphysice</title>, sed intelligere est operatio imanens, ut patet ibidem,
+							et fundatur subiective in intellectu possibili, igitur causatur effective ab
+							intellectu possibili vel ab aliquo immediate fundato in eodem subiecto cum ipso, sed
+							non causatur effective ab intellectu possibili, ut patet ex tertia conclusione, igitur
+							causatur ab aliquo immediate fundato in eodem subiective cum ipso; sed constat quod
+							nihil aliud ab intellectu agente immediate fundatur in anima nostra cum intellectu
+							possibili a quo possit causari actus intelligendi; ergo etc.</p>
+						<p>Tertio sic: vel intellectus agens est totalis causa effectiva actus intelligendi, vel
+							nulla, vel partialis. Non nulla, nec partialis, ergo totalis. Non quidem nulla, aliter
+							intellectus agens non esset omnia facere, nec intelligere esset actio imanens, ut
+							patet ex dictis, nec partialis, quia illud quod cum eo concurreret vel esset obiectum,
+							vel species representativa ipsius vel intellectus possibilis. Hoc patet, quia istis
+							positis potest poni actus intelligendi nisi impedimentum occurrat, sed nullum istorum
+							potest dari. Non quidem primum, ut patet ex secunda conclusione, nec secundum, quia,
+							si obiectum non potest poni totalis causa effectiva, nec partialis actus intelligendi,
+							nec species representativa ipsius, nec tertium, ut patet ex conclusione
+							precedenti.</p>
+						<p>Ex ista conclusione infero correlarie quod voluntas agens est totalis causa effectiva
+							omnis actus volendi et nolendi ad quos possibilis est in potentia naturali. Deductio
+							est mihi evidens, quia non minus 
+							
+							<pb ed="#V" n="80-v"/>
+							<cb ed="#V" n="b"/> 
+							
+							voluntas agens est totalis causa effectiva
+							actus volendi quam intellectus agens actus intelligendi. Et potest ulterius deduci per
+							rationes probantes conclusionem istam de intellectu agente que non minus probant de
+							voluntate. </p>
+						<p>Confirmo tamen eam unica ratione sic: vel voluntas agens est totalis causa effectiva
+							etc, vel nulla, vel partialis. Non nulla, nec partialis, ergo totalis. Non quidem
+							nulla quod ostendo dupliciter. Primo, quia secundum <name>Anselmum</name>
+							<title>De concordia</title>, capitulo, “voluntas est active et facit omnes voluntarios
+							motus”, et talis non est voluntas passiva, ut patet ex conclusione precedenti, igitur
+							voluntas agens. Secundo, quia actus voluntatis est liber, igitur est a voluntate
+							active totaliter vel partialiter, cum libertas non consistat in mere pati et non est a
+							voluntate passiva sive possibili, igitur ab agente. Nec partialis, quia illud quod cum
+							ea concurreret vel esset obiectum, vel intellectus, vel actus intelligendi, vel
+							voluntas ipsa passiva. Hoc patet, quia istis solis positis potest poni actus
+							voluntatis, sed nullum istorum potest cum ipsa concurrere, ergo non quidem obiectum,
+							ut patet ex secunda conclusione, nec voluntas passiva, ut patet ex tertia, nec
+							intellectus, hoc non est dubium, nec actus intelligendi, sicut videtur quibusdam, quia
+							talis precise requiritur ut obiectum fiat presens voluntati; ergo etc. </p>
+						<p>Ad maiorem tamen declarationem huius conclusionis est advertendum quod per istam
+							conclusionem non intendo negare quin Deus concurrat active ad producendum omnem actum
+							intelligendi et volendi, sicut etiam concurrit cum omni causa secunda ad producendum
+							omnem eius effectus, nec intendo quod intellectus agens sit effectivum quod
+							intellectionis. Tale enim est anima vel angelus, sed intelligo quod intellectus agens
+							sit eis ratio agendi et effectivum, quo imaginor enim quod, sicut intellectus
+							possibilis non intelligit se est illud quo anima vel angelus intelligit, sic et
+							intellectus agens non causat actum, sed est illud quo anima vel angelus causat ipsum,
+							et idem intelligo de voluntate. Et hoc de secundo. </p>
+					</div>
+				</div>
+				<div type="articulus">
+					<head>Tertius et quartus articulus</head>
+
+					<p>Quantum ad tertium et quartum articulum simul movenda et dissolvenda sunt dubia contra
+						conclusiones istas. Et primo contra primam est quedam opinio cuiusdam reverendi doctoris
+						nostri...</p>
+					<!-- I don't understand this division -->
+					<p><name>Bernardus Oliverii</name> in I, distinctione 3, questione 8, articulo 1</p>
+
+					<p>…qui circa materiam illam ponit duas conclusiones. </p>
+					<div>
+						<head>Opinio Bernardi Oliverii</head>
+						<p>Prima est quod intellectus agens non est aliquid anime et ista directe contradicit
+							conclusioni mee. </p>
+						<p>Secunda: quod intellectus agens est ipsa scientia Dei que dicitur intellectus agens,
+							quia dat rebus virtutem movendi intellectum possibilem et causandi in ipso actum
+							intelligendi et hec contradicit ei indirecte.</p>
+						<p>Primam conclusionem que directe est ad propositum probat multipliciter. </p>
+						<p>Primo sic: nulla potentia existens in anima nostra est nobilior intellectu possibili
+							nisi forte voluntas, sed intellectus agens est nobilior intellectu possibili et non
+							est voluntas; igitur etc. Maior probatur, quia potentia intelligens formaliter est
+							nobilior formaliter potentia non intelligente formaliter, sed intellectus possibilis
+							est intelligens formaliter et nulla alia potentia existens in anima nostra est
+							intelligens formaliter, igitur intellectus possibilis est nobilior omni potentia
+							existente in anima nostra dimissa voluntate que, licet non sit formaliter intelligens,
+							est tamen formaliter volens. Minor autem patet, quia agens est nobilius patiente, sed
+							intellectus agens agit. Possibilis vero patitur; ergo etc.</p>
+						<p>Preterea, agens universale non minus distinguitur supposito et subiecto a passo quam
+							agens particulare. Hoc patet in omnibus inductive. Videmus enim quod sol qui est agens
+							universale magis distinguitur ab homine quam homo qui est agens particulare et idem
+							apparet in similibus quibuscumque, sed intellectus agens est agens universale. Obiecta
+							vero sunt agentia particularia, ergo magis distinguitur intellectus agens supposito et
+							subiecto a passo
+							
+							<pb ed="#V" n="81-r"/>
+							<cb ed="#V" n="a"/>
+							
+							quam ipsa obiecta, sed constat quod ipsa obiecta non sunt
+							aliquid anime, igitur multo minus intellectus agens. </p>
+						<p>Preterea, nullum accidens inherens alicui potest esse agens principale vel equinocum,
+							licet possit esse ratio agendi, sed, si intellectus agens esset aliquid anime, esset
+							accidens ei inherens, ergo non esset agens principale seu equivocum, et per consequens
+							non esset agens, cum non sit agens particulare. Hoc autem est falsum. Relinquitur ergo
+							quod non sit aliquid in anima.</p>
+						<p>Preterea, nullum agens particulare est nobilius agenti universali, sed, si
+							intellectus agens esset aliquid anime, agentia particularia essent ipso nobiliora, cum
+							tamen sit agens universale, igitur non est aliquid anime. Maior patet in omnibus
+							inductive, ut dicit iste doctor. Minor autem probatur, quia, si poneretur in anima,
+							esset accidens et multa agentia particularia sunt substantie et constat quod
+							substantia est nobilior omni accidente; ergo etc.</p>
+						<p>Preterea, omne agens particulare recipit influentiam ab universali, sed, si talis
+							intellectus esset in anima agentia particularia, non reciperent influentiam ab ipso,
+							igitur non debet poni in ipsa. Maior patet de Deo et creaturis de sole et animalibus,
+							et sic de aliis. Et minor videtur nota, quia talia obiecta non dependerent ab eo in
+							esse, nec in conservari, cum esset quedam qualitas tantum; igitur etc. Et ex his
+							sequitur oppositum propositionis quam intuli correlarie, quia, si in anima non sit
+							dare intellectum agentem, multo minus est dare voluntatem agentem. Et confirmatur,
+							quia nunquam philosophi fecerunt mentionem de voluntate agente, ut videtur rationale,
+							si sit dare voluntatem agentem sicut et intellectum.</p>
+					</div>
+					<div>
+						<head>Contra <name>Bernardum</name></head>
+
+						<p>Istis tamen non obstantibus videtur mihi quod nulla istarum conclusionum sit vera, ut
+							patet ex deductione conclusionis mee contra quam adducuntur. Et potest ulterius
+							confirmari quod, si intellectus agens non esset aliquid anime, intelligere non esset
+							actio imanens, cuius oppositum patet per <name>Aristotelem</name> IX
+								<title>Metaphysice</title>. Consequentia declaratur, quia nulla operatio dicitur
+							imanens cuius agens universale et particulare principale et instrumentale
+							distinguuntur supposito et subiecto ab operatione et subiecto operationis. Hec patet,
+							quia nulla talis operatio maneret in agente et omnis operatio imanens manet in agente
+							per <name>Aristotelem</name>, ubi supra. Sed, si intellectus agens non sit aliquid
+							anime, tam universale agens quam particulare, tam principale quam instrumentale,
+							distinguuntur supposito et subiecto ab operatione et subiecto operationis. Hoc patet,
+							quia tam intellectus agens qui ab ipso ponitur agens universale quam obiecta
+							extrinseca que ab ipso ponuntur agentia particularia casu posito distinguuntur
+							supposito et subiecto ab intellectione et subiecto intellectionis, igitur intelligere
+							non erit actio imanens. Et confirmatur, quia illa actio est transiens cuius agens
+							universale et particulare distinguuntur supposito et subiecto ab operatione et
+							subiecto operationis per <name>Philosophum</name> ubi supra, sed sic est in proposito.
+							Si intellectus agens sit scientia Dei et non aliquid in anima; igitur etc.</p>
+						<p>Preterea, contra conclusiones istas sunt expresse duo articuli parisienses preter
+							articulum quem adduxi in deductione conclusionis mee. Primus est articulus 119, ubi
+							dicitur quod substantia anime sit eterna et quod intellectus agens et possibilis sint
+							eterni error, sed constat quod intellectus agens est eternus si sit scientia Dei; ergo
+							etc.</p>
+						<p>Secundus est articulus 133, ubi dicitur quod intellectus agens est quedam substantia
+							separata superior ad intellectum possibilem et quod secundum substantiam potentiam et
+							operatione est separatus a corpore, nec est forma corporis humani error, sed constat
+							quod hec omnia verificantur de Deo si sit scientia Dei; ergo etc. Nec motiva istius
+							doctoris concludunt.</p>
+					</div>
+					<div>
+						<head>Responsio <name>Bernardi Oliverii</name></head>
+
+						<p>Ad primum, igitur, communiter negatur maior. Et ad probationem dicitur quod nobilius
+							est esse tale virtualiter quam formaliter, quia intellectus agens virtualiter continet
+							intellectionem quam causat, licet intellectus possibilis sit formaliter intelligens,
+							adhuc intellectus agens erit nobilior ipso. Ista tamen so-
+							
+							<pb ed="#V" n="81-r"/>
+							<cb ed="#V" n="b"/>
+							
+							-lutio, licet sit
+							communis, non videtur impedire ratione, quia iuxta regulam <name>Anselmi</name>
+							<title>Monologion</title>, capitulo 15, “licet in perfectionibus secundum quid
+							nobilius sit esse tale virtualiter quam formaliter, quia nobilius est posse creare
+							lapidem quam esse formaliter lapis in perfectionibus, tamen simpliciter nobilius est
+							esse tale formaliter quam virtualiter”. Et per hoc probat <name>Anselmus</name> quod
+							“omnis perfectio simpliciter convenit Deo formaliter”; sed intelligere est perfectio
+							simpliciter, quia in unoquoque melius est esse quam non esse, ut patet per
+								<name>Anselmum</name> ibidem; ergo etc. Et ideo quicquid sit de maiori nego minorem,
+							quia intellectus agens non videtur simpliciter nobilior intellectu passibili, licet
+							sit nobilior ipso secundum quid. Ratio huius est, quia illa potentia est simpliciter
+							nobilior cuius operatio perfectissima est nobilior, sed perfectissima operatio
+							intellectus possibilis est nobilior simpliciter perfectissima operatione intellectus
+							agentis, igitur intellectus possibilis est simpliciter nobilior intellectu agente.
+							Probatur minor, quia perfectissima operatio intellectus possibilis est visio Dei
+							beatifica quam non causat intellectus agens, sed Deus ipse; ergo etc. Nec probatio
+							valet, quia non semper agens est simpliciter nobilior eo in quo agit. Videmus enim
+							quod ignis agit in hominem, et tamen non oportet quod sit simpliciter nobilior homine.
+							Et per istum doctorem obiectum cognitum agit in intellectum, et tamen non oportet quod
+							quodlibet obiectum sit simpliciter nobilius intellectu, aliter albedo esset
+							simpliciter nobilior ipso subiecto, quod est manifeste falsum, et sic de aliis multis.
+							Sufficit enim quod agens sit nobilius passo secundum quid, scilicet inquantum
+							agens.</p>
+						<p>Ad secundum ratio supponit quod intellectus sit agens universale respectu
+							intellectionis et obiectum intelligibile agens particulare, quod non est verum, quia
+							obiectum naturaliter conceptibile non est totalis causa effectiva, nec particularis
+							actus intelligendi, ut patet ex secunda conclusione. Multi etiam concederent maiorem
+							in actionibus transeuntibus, non autem in imanentibus cuiusmodi est intelligere. </p>
+						<p>Ad tertium concedo conclusionem, quia intellectus agens non est principale agens, sed
+							ratio agendi principali agenti. Est enim illud quod angelus vel anima causat actum
+							intelligendi, ut dictum est supra.</p>
+						<p>Ad quartum potest dupliciter responderi. Primo, quidem interimendo maiorem, quia sol
+							est agens universale respectu omnium que infra spheram activorum et passivorum
+							naturaliter producuntur et homo est agens particulare, quia sol et homo generant
+							hominem, et tamen constat quod homo et de omne animatum est simpliciter nobilius sole.
+							Potest tamen universale agens secundum quid nobilius quam particulare, sed isto modo
+							non est inconveniens quod accidens sit nobilius aliquo subiecto. Secundo potest dici
+							quod obiectum non sit agens nec universale, nec particulare nisi cum anima intelligit
+							se, et ideo ratio nulla.</p>
+						<p>Ad quintum etiam eodem modo, quia supponitur in minori quod obiecta extrinseca sint
+							agentia particularia, quod non est verum. Ex his patet quid dicendum ad illud quod
+							infertur de voluntate agente. Et quando dicitur quod philosophi non fecerunt
+							mentionem, potest dici dupliciter. Primo, quidem dici potest quod locus ab auctoritate
+							non tenet negative, et ideo non sequitur philosophi non fecerunt mentionem de
+							voluntate agente, igitur non est dare voluntatem agentem. Secundo potest dici quod,
+							licet philosophi non fecerunt mentionem explicite de voluntate agente, fecerunt tamen
+							implicite, quia, sicut declaratum est superius, ratio quam facit
+								<name>Aristoteles</name> non minus probat voluntatem agentem quam intellectum.</p>
+						<p>Contra secundam conclusionem sunt duo modi dicendi famosi, quorum primus ponit quod
+							obiectum naturaliter conceptibile est totalis causa effectiva actus intelligendi.</p>
+						<p>Secunda vero quod sit eius causa partialis, licet non totalis, verum quia quilibet
+							eorum est directe contra conclusionem, idcirco non adduco rationes divisim. Ex
+							fundamentis igitur <name>Scoti</name> cuius est secundus modus dicendi quidam
+							doctor…</p>
+					</div>
+					<!-- division break is not clear to me -->
+					<div>
+						<head><name>Landulphus</name> in I, distinctione 4, questione 1, articulo 2</head>
+
+						<p>…arguit primo sic: a quocumque habet aliquid effe-
+							
+							<pb ed="#V" n="81-v"/>
+							<cb ed="#V" n="a"/>
+							
+							-ctive unde formaliter
+							distinguatur, illud est eius effectivum. Sed hoc habet actus intelligendi ab obiecto;
+							ergo. Maior patet, quia causa dans esse dat specificum esse per quod unumquodque ab
+							alio distinguitur. Minor probatur, quia distinctio obiectorum videtur causare
+							distinctionem actus per distincta obiecta. </p>
+						<p>Preterea, nihil est perfectius penes illius, quod non est causa sui, cum ab eodem
+							aliquid sit et perfectum sit, sed penes perfectiora obiecta sunt actus perfectiores,
+							quia <name>Philosophus</name> III <title>Ethicorum</title> ponit actum felicitatis
+							esse perfectissimum, quia est de perfectissimo obiecto, igitur impossibile est quin
+							obiectum sit causa actus.</p>
+						<p>Preterea, causa potens habere actus infinitos specie differentes est infinita nisi
+							concurrat cum ea aliud agens, sed intellectus potest habere infinitos actus specie
+							distinctos, ergo erit infinitus si non concurrat cum eo obiectum ad causandum. Maior
+							patet, quia causa prehabet omnes effectus maxime quando est causa equivoca, cui non
+							acquiritur potentia casandi eo quod causat, igitur, si prehabeat infinitos effectus,
+							erit infinita. Minor probatur, quia circa infinitum ens potest habere intellectus suum
+							actum, igitur nisi concurrat obiectum erit infinitus.</p>
+						<p>Preterea, ad idem arguitur communiter primo sic: illud quod est tale in actu qualis
+							intellectus est in potentia, et per consequens reductivum ipsius de potentia ad actum,
+							est necessario totalis causa effectiva vel partialis actus intelligendi, sed obiectum
+							naturaliter conceptibile est tale in actu qualis intellectus est in potentia et per
+							consequens; igitur etc. Maior patet, quia illud quod reducit aliquid de potentia ad
+							actum videtur necessario quod agat in illud. Probatur minor, quia intellectus est in
+							potentia ad intelligendum, aliter nunquam posset intelligere et obiectum est de se
+							actu intelligibile; igitur etc.</p>
+						<p>Preterea, illud quod necessario exigitur ad intellectionem et non sicut passivum, nec
+							sicut receptivum, illud requiritur sicut activum. Hoc patet, quia non apparet alia
+							ratio ad quam requiratur, sed obiectum necessario exigitur ad intellectionem et non
+							sicut pasivum, quia intellectus non agit in rem extra, nec sicut receptivum, quia non
+							recipit intellectionem, ut patet; igitur etc.</p>
+						<p>Preterea, omne recipiens aliquid absolutum in se non nisi existente quodam alio se
+							habet ad illud sicut recipiens ad agens, aliter nesciremus quod ignis agit calorem,
+							sed intellectus possibilis non recipit intellectionem ratione rei sensibilis nisi
+							coexistente eius similitudine per sensus administrata et causata a sensibili obiecto.
+							Intellectus igitur possibilis se habet ad obiectum sensibile sicut recipiens ad agens.
+							Et confirmatur ista positio auctoritate <name>beati Augustini</name> IX <title>De
+								Trinitate</title>, capitulo ultimo, ubi sic ait: “liquide tenendum est quod omnis
+							res quam cognoscimus aggenerat in nobis notitiam sui. Ab utroque enim paritur notiti,a
+							videlicet a cognoscente et cognito”; ergo etc.</p>
+					</div>
+					<div>
+						<head>Ad rationes <name>Scoti</name></head>
+
+						<p>Ad primum istorum primo reduco rationem contra suum auctorem assumpta eadem maiore a
+							quo habet aliquid effective unde formaliter distinguatur illud est eius effectivum.
+							Sed hoc habet propria passio a subiecto non minus quam actus intelligendi ab obiecto
+							cum subiectum ponatur in propria diffinitione passionis loco differentie, ut patet VII
+								<title>Metaphysice</title>, ergo propria passio causatur a proprio subiecto
+							effective, quod est contra doctorem eorum cum non distinguatur realiter ab eo, ut
+							dicunt.</p>
+						<p>Ad formam igitur rationis nego minorem. Nec probatio valet, quia non sequitur actus
+							distinguuntur per obiecta, igitur ab obiectis habent aliquid effective, ut formaliter
+							distinguantur, sicut non sequitur actus distinguuntur per suas proprias rationes
+							formales, igitur ab eis habent aliquid effective unde formaliter distinguantur, immo
+							sic arguendo committitur fallacia consequentis, quia proceditur a pluribus causis
+							veritatis ad unam. Concedo ergo quod actus distinguuntur per obiecta, quia circa aliud
+							et aliud obiectum intellectus causat alium et alium actum, nec adhuc requiritur
+							obiectum sicut 
+							
+							<pb ed="#V" n="81-v"/>
+							<cb ed="#V" n="b"/> 
+							
+							activum, sed solum sicut materia circa quam.</p>
+						<p>Ad secundum vel intelligit in maiori quod nihil est perfectius penes quod non est
+							causa sui effectiva, vel intelligit quod nihil est perfectius penes illud quod non est
+							causa sui in aliquo genere cause. Si secundo modo, non est ad propositum, quia ex hoc
+							non sequeretur quod obiectum esset causa effectiva actus intelligendi. Si primo modo,
+							propositio non est vera, quia quelibet res composita est nobilior alia per suam formam
+							et universaliter res per suam propriam entitatem est nobilior et perfectior alia, vel
+							imperfectior. Et tamen constat quod nulla res est causa effectiva sui ipsius, nec
+							aliqua forma est causa effectiva eius cuius est forma, igitur ratio nulla. Et potest
+							reduci contra eum sicut et precedens, quia penes perfectiora subiecta proprie
+							passiones sunt perfectiores, ut patet, et tamen per eos subiectum non potest esse
+							causa effectiva passionis.</p>
+						<p>Ad tertium primo reduco rationem contra eum et ostendo quod, si causa totalis potens
+							habere actus infinitos specie differentes est infinita, quod etiam causa partialis
+							potens etc. erit infinita, quod est contra eum et contra doctorem quem sequitur, quia,
+							si causa totalis potens etc. est infinita, hoc ideo est, quia maioris perfectionis est
+							posse habere duos effectus specie differentes quam unum tantum et posse habere tres
+							quam posse habere duos, et sic infinitum, sed, si hoc est verum in causa totali, etiam
+							verum erit in causa partiali, quia, licet causa partialis non sit tante perfectionis
+							sicut causa totalis, esse tamen causam partialem est alicuius perfectionis, et ideo,
+							si in causa totali est universaliter verum quod posse habere duos actus etc. est
+							maioris perfectionis quam posse habere unum tantum, verum erit etiam in causa partiali
+							conformiter loquendo. </p>
+						<p>Ad rationem igitur dico quod causa potens habere infinitos actus simul et pro simul
+							quantum est ex se est infinita a intensive. Non tamen causa potens habere infinitos
+							actus simul, sed non pro simul, quia, si sol efectus esset ab eterno, posset producere
+							successive effectus infinitos, et per consequens simul contineret eos, licet non pro
+							simul, et tamen propter hoc non esset infintus. Sic est in proposito, quia intellectus
+							non potest habere infinitos actus simul et pro simul, ut patet, et ideo ratio
+							nulla.</p>
+						<p>Ad primum aliorum dico quod maior non est totaliter vera, quia, licet obiectum sit
+							aliquo modo tale in actu qualis intellectus est in potentia, non tamen sequitur
+							propter hoc quod sit reductivum ipsius de potentia ad actum, quia poterit reduci ad
+							aliquam virtutem activam sui generis puta per intellectum agentem, ut patet ex quarta
+							conclusione. Ignis enim est in potentia ad conburendum. Conbustibile est in actu
+							quantum est de se conbustibile. Non tamen reducit ignem de potentia ad actum, sed
+							ignis per suum calorem est causa conbustionis. Et, si dicatur quod obiectum assimilat
+							sibi intellectum, igitur reducit ipsum de potentia ad actum. Nego consequentiam, quia
+							non assimiliat sibi intellectum effective, sed sicut materia circa quam.</p>
+						<p>Ad secundum nego maiorem. Exigitur enim obiectum solum sicut materia circa quam et
+							non sicut passivum, nec sicut receptivum. Finis enim preexigitur necessario in omni
+							actione naturali et non sicut activum, nec sicut passivum, nec sicut receptivum, sed
+							sicut illud ad quod alia ordinantur. Illa igitur maior non est sufficiens. </p>
+						<p>Ad tertium etiam nego maiorem, quia finis, ut statim fuit dictum, necessario
+							requiritur ad actionem cuiuslibet agentis naturaliter, et per consequens nihil
+							recipitur aut causatur naturaliter in aliquo nisi existente fine et cum recipiens non
+							se habet ad finem sicut agens, quia causa finalis non est effectiva et in proposito
+							intellectus possibilis non recipit actum intelligendi naturaliter nisi coexistentibus
+							intellectu agente et specie in fantasia et ipsamet fantasia, et tamen hec omnia non
+							ponuntur causare effective actum intelligendi. Dicendum ergo quod obiectum naturaliter
+							conceptibile non requiritur ad actum intelligendi sicut agens, sed sicut materia circa
+							quam. Ad auctoritatem vero concedo cum <name>beato Augustino</name> quod a cognoscente
+							et cognito paritur sive gignitur notitia a cognoscente quidem effective, a
+							co-
+							
+							<pb ed="#V" n="82-r"/>
+							<cb ed="#V" n="a"/>
+							
+							-gnito vero sicut ab eo quod necessario requiritur ad intellectionem non
+							sicut effectivum, sed sicut materia circa quam. Et hoc intendit <name>beatus
+								Augustinus</name>, aliter contradiceret sibi ipsi, ut patet per auctoritates ipsius
+							allegatas in deductione ipsius conclusionis. Nec est bona consequentia a cognoscente
+							et cognito notitia gignitur, igitur ab utroque effective, quia in plus se habet gigni
+							sicut et causari quam effective produci. Vult ergo <name>beatus Augustinus</name> quod
+							quodlibet istorum est causa notitie in aliquo genere cause cognoscens quidem in genere
+							cause efficientis. Cognitum vero in genere cause materialis non quod sit eius materia
+							in quo vel de qua, sed precise circa quam, et sic sunt exponende omnes auctoritates
+							qua videtur attribuere causalitatem obiecto respectu notitie.</p>
+						<p>Contra tertiam conclusionem sunt etiam duo modi dicendi quorum unus ponit quod
+							intellectus possibilis est totalis causa effectiva actus intelligendi, aliter vero
+							quod sit eius causa partialis, licet non totalis. Verum, quia quilibet eorum est
+							contra conclusionem quam teneo, non curo motiva eorum disiunctim adducere. Contra ergo
+							conclusionem arguit quidam doctor…</p>
+					</div>
+					<!-- division break unclear -->
+					<div>
+						<head><name>Landulphus</name></head>
+
+						<p>…ubi supra ex fundamentis Scoti cuius est secundus modus dicendi. </p>
+						<p>Primo sic: actus vitalis non debet esse totaliter a causa non vitali cum sit
+							imperfectior eo, sed actus intellectus est actus vitalis, ergo oportet quod habeat
+							causam vitalem, scilicet intellectum possibilem.</p>
+						<p>Preterea, omnis operatio intra manens manet in agente, ut agens est, cum sit
+							perfectio eius, ut patet per <name>Philosophum</name> IX <title>Metaphysice</title>,
+							sed intelligere est operatio intra manens, ut patet ibidem, ergo manet in agente ut
+							agens est, sed manet in intellectu possibili, igitur est ab eo active,</p>
+						<p>Preterea, perfectissimo enti non est removenda totalis causalitas sue operationis,
+							cum causalitas sit perfectio entis, sed intellectus est perfectissimum ens, ut patet X
+								<title>Metaphysice</title>, III <title>De anima</title> et X
+								<title>Ethicorum</title>, ergo habebit aliquam causalitatem respectu sue
+							operationis. </p>
+						<p>Preterea, habitus ponitur in intellectu possibili non solum ad patiendum, quia de se
+							summe est dispositus respectu actus, ergo ponitur in eo ad agendum. Et confirmatur
+							ista ratio, quia conditio agentis non ponitur in passo. Hoc patet, quia perfectio
+							agentis non est dispositio passi, sed habitus ponitur in intellectu possibili et
+							habitus est dispositio agentis, tum quia habitus est qui habentem perficit et opus
+							eius bonum reddit, ut dicitur II<title> Ethicorum</title>, tum quia habitui
+							attribuitur prompte et declarabitur operari, ergo intellectus possibilis non erit
+							materie passivus, et per consequens erit aliquo modo activus. </p>
+						<p>Preterea, reflexio super actum est actus operantis, sed ista reflextio convenit
+							intellectui possibili qui est potentia reflexiva, igitur intellectus possibilis
+							reflectendo se causat intellectionem.</p>
+						<p>Ad hoc ducuntur etiam auctoritates <name>beati Augustini</name> contra conclusionem
+							precedentem allegate, quibus videtur dicere quod intellectus possibilis qui est
+							formaliter cognoscens sit causa partialis intellectionis, quia a cognoscente et
+							cognito notitia gignitur etc.</p>
+					</div>
+					<div>
+						<head>Responsio ad rationes <name>Landulphi</name></head>
+
+						<p>Ad primum istorum concedo quod actus intelligendi habet causam vitalem, sed non
+							sequitur habet causam vitalem, igitur intellectum possibilem, quia intellectus agens
+							qui ponitur eius causa totalis est vitalis non minus quam possibilis.</p>
+						<p>Ad secundum distinguo de agente quo et quod, sicut est aliqualiter tactum supra et
+							concedo quod omnis operatio intra manens manet in agente quod, non autem in agente quo
+							sive in ratione agendi, quia omne producens aliquid in se ipso dividitur in duo,
+							quorum unum est ei ratio agendi, aliud ratio recipiendi, iuxta doctrinam
+								<name>Aristotelis</name> et etiam <name>beati Augustini</name>, aliter eadem res
+							formaret se ipsam, cuius oppositum intendit, ut allegatum est supra. Et sic est in
+							proposito, quia intellectio manet in anima et est effective ab ea tanquam a principio
+							quod et intellectus agens est ei ratio agendi, possibilis vero ratio recipiendi, et
+							ideo deducendo quartam conclusionem dicebatur quod omnis operatio imanens est
+							subiective sui principii activi vel alicuius immediate fundati in eo-
+							
+							<pb ed="#V" n="82-r"/>
+							<cb ed="#V" n="b"/>
+							
+							-dem cum
+							suo principio activo.</p>
+						<p>Ad tertium concedo quod oportet intellectum dare qui sit causa effectiva actus
+							intelligendi et hoc sufficit ad hoc quod intellectus sit ens perfectissimum in suo
+							genere, sed non sequitur oportet dare intellectum qui sit causa effectiva actus
+							intelligendi, igitur hic est intellectus possibilis, quia potest esse intellectus
+							agens.</p>
+						<p>Ad quartum posset diversimode responderi secundum diversas opiniones doctorum, quia
+							quidam dicunt quod habitus non facit ad substantiam actus, sed ad modus eius, quidam
+							vero econtra. Quicquid tamen sit de hoc concedo quod habitus intelligibilis aliquo
+							modo ponitur ad agendum et est ratio agendi non quidem intellectui possibili cum sit
+							pura potentia in genere intelligibilium, sed angelo vel anime que mediante tali habitu
+							per intellectum agentem tanquam per rationem agendi et principium actionis quo prompte
+							et delectabiliter causat actum. Et ad confirmationem concedo quod conditio agentis non
+							ponitur in passo ubi agens supposito et subiecto distinguitur a passo, quia tunc non
+							esset perfectio agentis, sed ubi agens supposito et subiecto non distinguitur a passo
+							conditio agentis potest poni in passo. Et sic est in proposito, quia intellectus agens
+							et possibilis fundatur immediate in essentia angeli vel anime. Et ulterius, non est
+							imaginandum quod habitus ponatur in intellectu possibili et quod intellectus agens per
+							illum habitum prompte et delectabiliter exeat in actum, sed imaginandum est quod
+							habitus ponitur in angelo vel in anima et per intellectum possibile tanquam per
+							rationem recipientis recipit ipsum. Quo posito potest per intellectum agentem tanquam
+							per rationem agendi et principium operandi quo prompte et delectabiliter actum
+							causare, et sic habitus est conditio agentis, quia conditio angeli vel anime
+							causantis.</p>
+						<p>Ad quintum concedo quod reflexio super actum est actus operantis, quia est actus
+							angeli vel anime qui mediantibus intellectu possibili tanquam ratione recipiendi et
+							intellectu agente tanquam ratione agendi reflecti possunt super actum, sed ad hoc non
+							oportet quod intellectus possibilis causet actum, quia proprie loquendo non reflectit
+							se super actum, sed est illud quo angelus vel anima reflectuntur super ipsum, non
+							quidem tanquam per rationem agendi, sed tanquam per rationem recipiendi precise.</p>
+						<p>Ad auctoritates vero concedo quod a cognoscente, id est ab angelo vel anima, causatur
+							effective actus intelligendi, et hoc intelligit <name>beatus Augustinus</name>.
+							Intellectus tamen possibilis non est ei ratio agendi, sed intellectus agens, sicut et
+							intellectus agens non est ei ratio recipiendi, sed intellectus possibilis.</p>
+						<!-- why is this above the Francisus de Maronis heading -->
+						<p>Contra quartam conclusionem quidam doctor…</p>
+					</div>
+					<div>
+						<head><name>Franciscus de Maronis</name>, ordinis minorum in I, distinctione 3,
+							questione 4, articulo 1</head>
+
+						<p>…arguit primo sic: posito totali activo et passivo debite approximatis et non
+							impeditis potest sequi effectus si sit a causa libera et necessario sequitur si sint
+							agentia naturalia quocumque alio circumscripto cum ab alio non dependeat talis
+							effectus; sed intellectus possibilis est totale receptum actus intelligendi, ergo, si
+							intellectus agens est totale activum obiecto non presente nec in se, nec in specie,
+							posset causari actus intelligendi, cuius oppositum experimur.</p>
+						<p>Preterea, nulla causa finita continet totaliter infinitos effectus specie distinctos
+							cum maioris perfectionis sit continere plures quam unum. Intellectus autem, si essent
+							infinita obiecta specie distincta, omnia posset intelligere; ergo etc.</p>
+						<p>Preterea, idcirco probamus ignem esse causam caloris et aquam non videntes eius
+							causationem quam cernimus quod approximata igni. Si non impediatur, sequitur talis
+							effectus. Et eadem ratio est in proposito, quia obiecto presente intellectui nisi
+							voluntas impediat causatur actus intelligendi, igitur obiectum est eius causa saltem
+							partialis, et per consequens intellectus agens non est causa totalis.</p>
+						<p>Preterea, si obiectum ponatur tantum causa sine qua non ad cuius presentiam, potentia
+							moveat se ipsam vel intellectus agens mo-
+							
+							<pb ed="#V" n="82-v"/>
+							<cb ed="#V" n="a"/>
+							
+							-veat possibilem effective, ita poterit
+							dici quod calor est causa sine qua non ad cuius presentiam aer vel aqua virtus in aere
+							calefacit se ipsum, quod est inconveniens.</p>
+					</div>
+					<div>
+						<head>Ad rationes <name>Francisci</name></head>
+
+						<p>Ad primum istorum, quia passivum reducitur ad genus cause materialis, distinguo de
+							materia, quia quedam est materia in qua quedam de qua et quedam circa quam, et concedo
+							quod posito totali activo et passivo, dum tamen sit materia non solum in qua, sed de
+							qua et circa quam debite approximatis etc. potest sequi effectus. Posito tamen totali
+							activo et passivo, quod solum est materia in qua non est tamen de qua nec circa quam,
+							non oportet quod sequatur effectus. Exemplum primi: posito igne et ligno conbustibili
+							debite approximatis etc., necessario sequitur conbustio, quia lignum est materia
+							conbustibilis non solum in qua, sed de qua et circa quam. Exemplum secundi: Deus
+							potest supplere causalitatem effectivam notitie intuitive possibilis naturaliter de
+							albedine presente. Albedine tamen ipsa corrupta vel annihilata non potest causare
+							notitiam intuitivam, secundum istum doctorem et doctorem quem sequitur, quia non esset
+							notitia rei presentis et existentis, ut existens est et hoc habent concedere omnes
+							illi qui non distinguunt inter notitiam intuitivam et intueri, sive inter visionem et
+							videre, quia, sicut extitit declaratum super prima distinctione, impossibile est
+							albedinem annihilatam videri, secundum istos. Posito totali activo et passivo quod
+							solum est materia in qua circumscripta materia de qua, vel circa quam, non oportet
+							quod sequatur effectus. Et tunc ad minorem dico quod intellectus possibilis est totale
+							passivum vel receptivum actus intelligendi, quia est materia eius in qua, non tamen de
+							qua, vel circa quam nisi eum intelligit se, et ideo non sequitur quod circumscripto
+							obiecto in se et in sua specie possit causari actus intelligendi. Et potest reduci
+							ratio contra eum accipiendo eandem maiorem et inferendo minorem, sed posito Deo
+							supplente causalitatem effectivam albedinis si quam habet in sensu ponitur totale
+							activum et passivum visionis possibilis haberi de albedine, igitur corrupta vel
+							annihilata albedine potest causari visio albedinis, cuius oppositum oportet ipsum
+							concedere et omnes illos qui non distinguunt inter visionem et videre.</p>
+						<p>Ad secundum patet quid dicendum ex solutione tertie rationis adducte contra secundam
+							conclusionem.</p>
+						<p>Ad tertium dico quod accipit causam diminute. Non enim probamus quod ignis causat
+							calorem tamen aqua effective et hoc precise quod approximato igne si non impediatur.
+							Sequitur talis effectus, sed ex hoc probamus quod ad productionem caloris necessario
+							requiritur ignis in aliquo genere cause et quod non potest reduci nisi ad genus cause
+							efficienter convincitur quod sit causa eius effectiva. In propositio autem non est
+							sic, quia obiectum reducitur ad genus cause materialis non quod sit materia
+							cognitionis in qua vel de qua, sed circa quam, ut dictum est supra.</p>
+						<p>Per idem patet quid dicendum ad quartum, quia obiectum non est tantum causa sine qua
+							non, sed vere reducitur ad aliquod genus cause materialis.</p>
+					</div>
+				</div>
+				<div>
+
+
+					<head>Ad argumenta principalia</head>
+
+					<p>Ad rationes principales. </p>
+					<p>Ad primam nego antecedens. Et ad probationem dico quod sensibile non causate effective
+						actum sentiendi totaliter nec partialiter, ut patet ex his que dicta sunt in secunda
+						conclusione. Et quando dicitur quod sensus non est totalis causa ipsius, secundum
+							<name>Philosophum</name>, concedo de sensu possibili sive passivo. Talis enim non est
+						totalis causa effectiva, nec partialis actus sentiendi, sicut nec intellectus possibilis
+						actus intelligendi, sed, sicut in anima nostra est dare intellectum agentem qui sit
+						totalis causa effectiva actus intelligendi, sic est dare sensum agentem qui sit totalis
+						causa effectiva actus sentiendi; et istam credo esse intentionem
+						<name>Philosophi</name>, quia ratio ista in omni natura etc. Non minus probat quod sit
+						dare sensum agentem in nobis qui scit omnia facere in genere suo
+						
+						<pb ed="#V" n="82-v"/>
+						<cb ed="#V" n="b"/>
+						
+						quam
+						intellectum. Et potest deduci ratio, sicut superius fuit deducta ad probandum voluntatem
+						agentem. </p>
+					<p>Ad secundam rationem concedo quod intellectus et voluntas causant effective actus suos
+						eo tamen modo quo dictum est in quarta conclusione.</p>
+
+				</div>
+
+			</div>
+		</body>
+	</text>
+</TEI>

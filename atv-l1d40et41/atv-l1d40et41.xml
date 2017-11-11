@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Liber I, distinctiones 40, 41, quaestio unica</title>
+                <author>Alphonsus Toletanus Vargas</author>
+                <editor>Luciana Cioca</editor>
+                <respStmt>
+                    <name>Jeffrey C. Witt</name>
+                    <name>Luciana Cioca</name>
+                    <resp>TEI Encoder</resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.0.0-dev">
+                    <date when="2017-11-11">November 2017</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <authority>
+                    <ref target="http://www.thesis-project.ro/">ERC-THESIS project n° 313339</ref>
+                </authority>
+                <availability status="free">
+                    <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref></p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="V" n="Venice1490">Venice1490</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+            <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"> </schemaRef>
+            <editorialDecl>
+                <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+                    guidelines for a critical edition</p>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc status="draft">
+            <listChange>
+                <change when="2017-11-11" who="#LC" status="draft" n="0.0.0">
+                    <p>Created file for the first time.</p>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="la">
+        <front>
+            <div xml:id="includeList">
+            </div>
+            <div xml:id="starts-on">
+                <pb ed="#V" n="156-r"/>
+                <cb ed="#V" n="b"/>
+            </div>
+        </front>
+        <body>
+            <div xml:id="atv-l1d40et41"> 
+                <head>Liber I, distinctiones 40, 41, quaestio unica</head>
+                <p>Predestinatio vero de bonis salutaribus. Circa istam distinctionem 40 et sequentem in quibus <name>Magister</name> principaliter agit de predestinatio et predestinatione, quero istam questionem: utrum omnis predestinatus ab eterno fuerit predestinatibus. </p>
+                <p>Et videtur quod non, quia tunc vel Deus predestinavit eos propter bonum usum liberi arbitrii et propter bona opera ab eterno a Deo precognita vel totaliter absque causa se tenente ex parte eorum. Hoc patet, quia nulla alia causa potest assignari eterne predestinationis saltem in adultis, sed nullum istorum potest dari; igitur. Probatur minor. Non enim potest dari primum, quia predestinationis non est aliqua causa nisi voluntas divina, ut communiter tenetur. Nec secundum, quia, si Deus absque causa tenente se ex parte hominum unum ordinaret ad gloriam, alterum vero ad penam ab eterno, sic esset acceptor personarum, quod non consonat catholice veritati.</p>
+                <p>Ad oppositum est omnium theologorum sententia, unde <name>Anselmus</name> <title>De concordia</title>, capitulo 8 ait cum ergo ait <name>Apostolus</name>: quia Deus sanctos suos vocavit, prescivit et predestinavit, vocavit, iustificavit, magnificavit nihil horum prius aut posterius apud eum, sed omnia simul eterno presenti sunt intelligenda.”</p>
+                <p>In ista questione primo ponam aliquas suppositiones, secundo conclusiones. Tertio movebo dubia. Quarto respondebo.</p>
+                
+                <div type="articulus">
+                    <head>Primus articulus</head>
+                    <p>Quantum ad primum. Hec est prima suppositio quod Deus nihil facit ignorans et hec nulli theologorum aut philosophorum est dubia, et ponit eam <name>beatus Augustinus</name> V <title>Super Genesim ad Litteram</title>, capitulo 18.</p>
+                    <p>Secunda est quod nihil novi sit in scientia Dei ut de novo aliquid incipiat scire et hanc etiam ponit <name>beatus Augustinus</name> <title>IV De Trinitate</title>, capitulo 6 et capitulo 27 et in multis aliis locis.</p>
+                    <p>Tertia est quod Deus non nisi volens facit quicquid facit, et hanc etiam ponit <name>Augustinus</name> <title>Enchiridion</title>, capitulo 7.</p>
+                    <p>Quarta est quod Deus nihil potest velle voluntatem nova accidente, et hanc ponit V <title>De Trinitate</title>, capitulo 37 et libro XV, capitulo 59. </p>
+                    <p>Et hoc de primo.</p>
+                </div>
+                
+                <div type="articulus">
+                    <head>Secundus articulus</head>
+                    <p>Quantum autem ad secundum, quia conformiter est dicendum in proposito de reprobatis et predestinatis, pono quattuor conclusiones. </p>
+                    
+                    <div>
+                        <head><supplied>Conclusio prima</supplied></head>
+                        <p>Prima est quod cuicumque dabit Deus vitam eternam, ab eterno cognoscit illam sibi dare. </p>
+                        <p>Probatur sic: nulli dabit Deus vitam eternam ignorans. Hoc patet ex prima suppositione, ergo cuicumque dabit Deus vitam eternam cognovit illam sibi dare et non cognitione nova, quia nil novi fit in eius scientia nec de novo incipit aliquid scire, ut patet ex secunda, igitur cognitione eterna et sic intentum.</p>
+                        
+                        <div>
+                            <head><supplied>Correlarium</supplied></head>
+                            <p>Ex ista conclusione infero correlarie quod Deus ab eterno cognovit determinate numeroum electorum. Deductio est evidens, quia omnibus electis Deus dabit vitam eternam et cuicumque dabit Deus vitam eternam, ab eterno cognovit illam sibi dare ex conclusione deducta.</p>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <head><supplied>Conclusio secunda</supplied></head>
+                        <p>Secunda conclusio est quod cuicumque Deus non dabit vitam eternam ab eterno cognovit illi non dare et hec potest deduci sicut correlarium precedens. Ex ista conclusione infero correlarie quod Deus ab eterno cognovit numerum reprobatorum. Deductio patet ex dictis.</p>
+                    </div>
+                    
+                    <div>
+                        <head><supplied>Conclusio tertia</supplied></head>
+                        <p>Tertia conclusio: cuicumque dabit Deus vitam eternam, ab eterno voluit illam sibi dare. </p>
+                        <p>Hanc probo primo sic: cuicumque Deus dabit vitam eternam, ab eterno voluit illam sibi dare, sed cuicumque dabit Deus vitam eternam volens dabit, quia non nisi volens quicquid facit, ut patet ex tertia suppositione et non voluntate accedente nova, ut patet ex secunda; igitur voluntate eterna, et sic propositum. Potest etiam ista conclusio deduci ex prima, sed pertranseo propter brevitatem. </p>
+                        <p>Ex illa conclusione infero correlarie quod omnis predestinatus ab eterno fuit predestinatus, quod principaliter querebatur. Deductio est nota, quia predestinatus est ille cui proponit dare vitam eternam, igitur, si cuicumque Deus dabit vitam eternam, ab eterno voluit, et per consequens proposuit illam sibi dare, et per 
+                            <pb ed="#V" n="156-v"/>
+                            <cb ed="#V" n="a"/> 
+                            consequens predestinatus ab eterno fuit predestinatus.</p>
+                    </div>
+                    
+                    <div>
+                        <head><supplied>Conclusio quarta</supplied></head>
+                        <p>Quarta conclusio est quod cuicumque Deus non dabit vitam eternam, ab eterno voluit illi non dare. Et potest deduci ratio sicut precedens. </p>
+                        
+                        <div>
+                            <head><supplied>Correlarium</supplied></head>
+                            <p>Ex ista conclusione infero correlarie quod omnis reprobatur ab eterno fuit reprobatus. Deductio patet ex dictis.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div type="articulus">
+                    <head>Tertius et quartus articulus</head>
+                    <p>Quantum ad tertium et quartum articulos contra conclusiones istas posset multipliciter instari. Verum, quia catholicis non sunt dubie et ad ea que possunt adduci contra eas patet quid dicendum ex precedenti questione, quia conformiter est loquendum de predestinatione et prescientia, cum predestinatio sit quedam species prescientie, igitur ad presens pertranseo.</p>
+                    
+                    <div>
+                        <head>Respondeo ad rationes principales</head>
+                        <p>Ad primam potest responderi, iuxta principia cuiusdam doctoris nostri, admittendo primam partem maioris, videlicet quod omnis predestinatus saltem adultus fuit ab eterno predestinatus propter bonum usum liberi arbitrii et bona opera futura a Deo ab eterno prius cognita. Et, ut clarius videatur ista responsio, doctor iste…</p>
+                    </div>
+                    
+                    <div>
+                        <head><name>Thomas de Argentina</name> in I, distinctione 41, questione 1, articulis 1 et 2</head>
+                        <p>…Circa materiam istam ponit quattuor conclusiones: duas de reprobatis et duas de predestinatis. </p>
+                        <p>Est igitur prima sua conclusio quod causa reprobationis quod ad adultos potest dici malus usus liberi arbitrii usque ad finem vite in ipsis duraturus ab eterno Deo predestinatus.</p>
+                        <p>Secunda est quod causa reprobationis quantum ad parvulos absque sacramento baptismatis potest dici ineptitudo vel inhabilitas ad recipiendum influxum gratie ab eterno a Deo precognita que in ipsis provenit vel ex causa naturali puta quia ex naturali sua complextione, quia tam cita moriuntur quod baptizari non possunt, et per consequens ab hac vita decedent cum originali culpa que animam reddit ineptam ad recipiendum gratiam vel ex causa voluntaria voluntate aliena puta qui nascuntur vel nutriuntur ab infidelibus qui eos nolunt baptizare.</p>
+                        <p>Tertia conclusio est, quia causa predestinationis quantum ad adultos est bonus usus liberi arbitrii ab eterno Deo precognitus, finaliter in ipsis duraturus. Et notanter ponitur in conclusione ista finaliter, quia nihil obstat quin reprobatus quandoque habeat bonum usum liberi arbitrii in presenti. Previdit tamen Deus quod sua libertate ab utendo ab huiusmodi bono usu se finaliter avertet, ideo gratiam nec finaliter habebit in presenti, nec gloriam in futuro. Et eodem modo predestinatus in presenti quandoque potest habere malum usum liberi arbitrii, scivit tamen Deus ab eterno quod in tali malo usu finaliter non manebit, et ideo, ut iste doctor dicit, proposuit Deus ab eterno tali homini dare gratiam finalem in presenti et gloriam in futuro.</p>
+                        <p>Quarta conclusio ipsius est quod causa predestinationis quantum ad parvulos est quedam aptitudo respectu baptismalis gratie quam Deus ab eterno previdens eos predestinavit ad vitam eternam et ista aptitudo convenit eis aliquo modo naturaliter puta quia non sunt a Deo infirme complexionis quin tantum possint durare in presenti vita donec baptizantur et aliquo modo voluntarie. Voluntate tamen aliena puta quia tales sunt parentes vel nutritores qui eos baptizare non prohibent, sed procurant. </p>
+                        <p>Primas duas conclusiones probat iste doctor multipliciter. Rationes tamen ad presens non repeto, quia conclusiones illas pro nunc pertractatur non intendo. Ultimas vero duas tripliciter probat. Primo sic: <name>Apostolus</name> <title>Ad Romanos</title> 8 ait: quos prescivit hos predestinavit, ergo prescientia alicuius boni tenentis se ex parte predestinati videtur fuisse causa vel ratio predestinationis.</p>
+                        <p>Secundo sic: <name>beatus Ambrosius</name> in <title>Glossa</title> <title>Ad Romanos</title> 9 super illo verbo: miserebor cui miserebor et misericordiam prestabo, cui miserebor dicit: mi-
+                            <pb ed="#V" n="156-v"/>
+                            <cb ed="#V" n="b"/> 
+                            -sericordiam prestabo, id est illi misericordiam dabo illi quem prescio ex toto corde reversurum, quod non esset verum nisi causa predestinationis quantum ad adultos esset bonus usus liberi arbitrii.</p>
+                        <p>Tertio sic: <name>beatus Augustinus</name> 83 <title>Questiones</title>, questione 68, ait: Deus cui vult miseretur et quem vult indurat. Per hoc tamen Dei bonitas iniusta esse non potest. Venit enim de occultissimis, et per consequens causa predestinationis eterne sunt merita vel bona opera futura, sic et reprobationis per oppositum futura de merita.</p>
+                    </div>
+                    
+                    <div>
+                        <head>Contra <name>Thomam</name></head>
+                        <p>Istis tamen et similibus non obstantibus iste modus dicendi et presertim quantum ad duas ultimas conclusiones videtur mihi dubius et dictis sanctorum dissonus. Et ideo contra eum pono aliquas conclusiones. </p>
+                        <p>Prima est quod Deus non predestinavit aliquem ab eterno propter actum credendi in eum quem previdit ipsum finaliter habiturum. Istam conclusionem non reputo catholicis dubiam, quia eius oppositam retractat <name>beatus Augustinus</name> expresse I <title>Retractationum</title>, capitulo 13, et eius retractationem de verbo ad verbum ponit <name>Magister</name> in littera distinctionis 41, capitulo 3, qua posita infert conclusionem assumptam dicens: non ergo propter fidem elegit Deus aliquod ab eterno vel apponit gratiam iustificationis in tempore. Retractationem <name>beati Augustini</name> non repeto, quia, ut statim dicebatur, de verbo ad verbum ponitur in littera.</p>
+                        <p>Secunda conclusio est quod Deus non predestinavit aliquem ab eterno propter bona opera futura quecumque sint illa que scivit ipsum finaliter facturum. Istam conclusionem deduco sic: Deus non predestinavit aliquem ab eterno propter actum credendi in eum quem prescivit ipsum finaliter habiturum, igitur nec propter aliqua bona operatio futura a que prescivit ipsum finaliter facturum. Antecedens patet ex precedenti conclusione et consequentia videtur nota, quia non est maior ratio cur Deus predestinaverit aliquem ab eterno propter aliqua bona opera futura que prescivit ipsum finaliter facturum quam propter actum credendi in eum quem prescivit ipsum finaliter habiturum, tum quia magis videtur quod aliquem predestinaverit propter actum credendi in eum quam propter bona opera futura, sicut patet per <name>beatum Augustinum</name> ubi supra, ubi faretur se questionem istam deduxisse ad hanc ratiocinationem, ut diceret: Deum non elegisse opera cuiuscumque que ipse daturus est, sed fidem in prescientia et quem sibi crediturum esse prescivit ipsum elegit, licet sententiam istam revocaverit ibidem, ut dictum est prius et hinc est quod multi tenuerunt antiquitus Deum multos predestinasse propter actum credendi in eum quem previdit ipsos finaliter habituros, licet non propter alia bona opera futura que prescivit ipsos finaliter facturos.</p>
+                        <p>Secundo deduco conclusionem expresse determinatione <name>Apostoli</name> <title>Ad Romanos</title> 9 ubi loquens de Iacob et Esau, dicit: cum nondum nati fuissent aut aliquid egissent boni, aut mali, ut secundum electionem propositum Dei maneret non ex operibus, sed ex vocatione dictum est quod maior serviret minori, sicut scriptum est Iacob dilexi, Esau autem odio habui. Ex quibus verbis evidenter apparet Iacob non fuisse ab eterno predestinatum ex operibus futuris. De talibus enim operibus loquitur <name>Apostolus</name> cum dicit: non ex operibus secundum omnes expositiones. Unde <title>Glossa</title> exponens verbum predictum sic inquit: sicut ostendit non pro meritis precedentibus illud fuisse dictum, ita nec pro futuris meritis amborum dictum fuisse. Hoc ostendit cum dicit non ex operibus, id est non ex precedentibus meritis illud dictum est. Item dico quod non ex operibus futuris bonis vel malis que bona vel mala non erant nisi apposita gratia vel subtracta et modicum infra super illo verbo quid ergo dicimus numquid iniquitas est apud Deum, absit. Dicit expresse <title>Glossa</title> quod, si bona futura huius vel mala illius que utique Deus presciebat, attenderet, non diceret, non ex operibus, sed ex futuris operibus. Et paucis interpositis subdit: nemo autem dicat Deum, quia futura opera 
+                            <pb ed="#V" n="157-r"/>
+                            <cb ed="#V" n="a"/> 
+                            previdebat alterum elegisse alterum reprobasse, ubi expresse ponitur assumpta conclusio.</p>
+                        <p>Tertio deduco conclusionem claris auctoritatibus <name>beati Augustini</name> et primo auctoritate illa vulgato in <title>De predestinatione sanctorum</title> quam <name>Magister</name> allegat in littera distinctionis 41, capitulo 3, ubi sic inquit <name>beatus Augustinus</name>: non quia futuros nos tales prescivit, ideo elegit, sed ut essemus tales per ipsam electionem gratie sue gratificavit nos in dilecto Filio suo. Item <title>Enchiridion</title>, capitulo 68 pertractans verba <name>Apostoli</name> predicta sic inquit: sentiens autem <name>Apostolus</name> quemadmodum posset hoc quod dictum est movere eos qui penetrare intelligendo non possunt hanc gratie altitudinem ait: quid ergo dicemus nunquid iniquitas est apud Deum, absit. Iniquum enim videtur ut sine nullis bonorum malorum ve operum meritis unum Deus diligat, alterum vero odiat qua iure, si opera futura vel huius bona, vel mala, illius vellent intelligi nequaquam diceret non ex operibus, sed ex futuris operibus eo modo quo istam solvet questionem, immo nullam quam solvi opus esset facere questionem. Nunc vero cum respondisset, absit, id est absit ut sit in iniquitas apud Deum mox, ut probaret nulla hec iniquitate Dei fieri. Inquit: Moysi enim dicit miserebor cui misertus ero et misericordiam prestabo cui misericors fuero. Quis enim nisi insipiens Deus iniquum putet sive iudicium penale ingerat digno, sive misericordiam prestet indigno. Hec omnia <name>Augustinus</name> ubi expresse ponit conclusionem assumptam et ostendit eam esse de mente <name>Apostoli</name> et ponuntur hec verba in <title>Glossa</title> pro maiori parte. Hec est determinatio <name>Magistri</name> in littera distinctionis 41, capitulo 2, ubi expresse ponit conclusionem istam dicens quod Deus elegit Iacob et Esau, reprobavit, non fuit per meritis ipsorum que tunc habuerunt, quia nulla habebant, quia nec ipsa existebant, nec propter merita futura que previderet ipsum elegit vel illum reprobavit. </p>
+                        <p>Tertia conclusio est quod Deus non predestinavit aliquem ab eterno propter bonum usum liberi arbitrii in quo cognovit ipsum finaliter duraturum. Ista conclusio sequitur ex precedentibus, quia bene sequitur Deus non predestinavit aliquem ab eterno propter actum credendi in eum quem previdit ipsum finaliter habiturum nec propter alia bona futura opera que prescivit ipsum facturum, igitur nec propter bonum usum liberi arbitrii in quo cognovit finaliter ipsum duraturum.</p>
+                        <p>Ex ista conclusione sequitur quod causa predestinationis quantum ad adultos non est bonus usus liberi arbitrii ab eterno Deo precognitus finaliter in ipso duraturus, cuius oppositum asserit tertia conclusio istius doctoris.</p>
+                        <p>Quarta conclusio est quod Deus non predestinavit aliquem ab eterno proper aliquam aptitudinem gratie baptismalis naturalem nec voluntariam voluntate aliena quam previdit ipsum termporaliter habiturum. Et sequitur ista conclusio evidenter ex precedenti, quia, si illud quod magis videtur inesse non inest nec illud quod minus, sed magis videtur quod predestinaverit aliquem ab eterno propter bonum usum liberi arbitrii in quo prescivit ipsum finaliter duraturum quam propter talem aptitudinem quam previdit ipsum temporaliter habiturum et non fecit, ut patet. Ex conclusione predicta sequitur quod causa predestinationis quantum ad parvulos non est aptitudo predicta, cuius oppositum ponit iste doctor in quarta conclusione sua.</p>
+                        <p>Quinta conclusio est quod quemcumque Deus predestinavit, gratis solum et miserabiliter predestinavit et, licet ista conclusio satis sequatur ex precedentibus, potest tamen confirmari multis auctoritatibus, unde <title>Glossa</title> super illo verbo <name>Apostoli</name> <title>Ad Romanos</title> 9 Moysi enim dixit Deus etc. Sic ait: Deus enim dixit Moysi, id est Deus inductus a Moyse dixit: miserebor vocando interius cui miserebor predestinando. Et immediate ad propositum subdit: ecce nulla merita prece-
+                            <pb ed="#V" n="157-r"/>
+                            <cb ed="#V" n="b"/>
+                            -dunt pro quibus eligatur, sed sola gratia predestinantis est ex qua vocatur aliquis et salvatur. Et hinc est quod <name>Apostolus</name> ubi supra predestinatos vocat vasa misericordie dicens ut ostenderet divitias glorie sue in vasa misericordie que preparavit in gloriam, super quo verbo dicit <title>Glossa</title>, cum igitur ex gratuita misericordia apponat gratiam quibus vult et liberet quos vult. Manifeste ostenditur dives et gloriosa bonitas sua in vasa misericordie que preparavit in gloriam futuram et modicum infra super illo verbo quos vocavit non solum ex iudeis dicit <title>Glossa</title> cum ostensum sit quod ex sola gratia sint Filii incipit probare per auctoritates <title>Prophetarum</title> quod hi sunt ex utroque populo <title>Prophetarum</title> et super illo verbo qui predestinavit nos in adoptionem filiorum per Ihesum Christum et cetera <title>Ad Ephesios</title> I ait <title>Glossa</title>: ipse utique predestinavit nos, id est sola gratia elegit, id est voluntate gratuita in adoptionem filiorum. Ex quibus omnibus evidenter apparet omnem predestinatum ex sola gratia Dei fore predestinatum.</p>
+                    </div>
+                    
+                    <div>
+                        <head>Ad rationes <name>Thome</name></head>
+                        <p>Nec rationes illius doctroris concludunt. Concedo igitur quod Deus quos prescivit hos predestinavit, sicut <name>Apostolus</name> dicit quod predestinatio sine prescientia esse non potest, sed ex hoc non sequitur quod prescientia alicuius boni se tenentis ex parte predestinati sit causa predestinationis, nec illa consequentia probatur per istum doctorem.</p>
+                        <p>Ad secundum concedo cum <name>Ambrosio</name> quod Deus dat illi misericordiam quem prescit toto corde reversurum ad se, sed illud non est causa predestinationis, sed fructus. Non est enim aliquis predestinatus, quia reversus, sed ideo reversurus, quia predestinatus, quia talis nullus electus est a Deo, quia talis futurus erat, sed ex electione talis est factus, ut patet per <name>Magistrum</name> in littera distinctionis 41, capitulo 3.</p>
+                        <p>Ad tertiam sufficienter, ut credo, respondit <name>Magister</name> in littera distinctionis qua supra capitulo 4 ubi auctoritatem illam adducit contra se et respondet distinctione quod credendum est <name>beatum Augustinum</name> verba illa retractasse cum retractavit conclusionem illam quam hactenus tenuerat, videlicet quod Deus aliquem predestinaverit propter fidem sive propter actum credendi in eum quem previdit ipsum habiturum. Et ratio <name>Magistri</name> est qui post verba predicta <name>beati Augustini</name> subdit: quedam alia que ibidem aperte tractat nec istam responsionem improbat iste doctor. Patet ergo ex dictis opinionem illius doctoris esse dubiam et dictis sanctorum dissonam, et per consequens patet solutionem datam ad primam rationem adductam in proponendo questionem esse nullam.</p>
+                        <p>Respondeo igitur aliter et concedo quod Deus sic gratis et misericorditer predestinavit quemcumque quod totaliter absque causa tenente se ex parte predestinati. Et quando dicitur quod tunc Deus esset acceptator personarum, nego loquendo de acceptione personarum vitiosa de qua loquitur <name>Apostolus Petrus</name> <title>Actuum</title> 4. Ratio huius est, quia non est acceptio personarum vitiosa ubi nulli sit iniustitia aut debitum denegatur. Bonum autem indebitum infertur malum, sicut est in proposito, unde <name>beatus Augustinus</name> in fine disputationis <title>De predestinatione contra Pelagianos</title> loquens ad illud propositum sic inquit: aliis datur nosse viam salutis, aliis non datur. Hoc tamen facit Deus non cum personarum acceptatione non iniustitia, sed iustitia inenarrabili et misericordia in dubia.</p>
+                        <p>Ad rationem secundam principalem non oportet respondere, quia vera est.</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+

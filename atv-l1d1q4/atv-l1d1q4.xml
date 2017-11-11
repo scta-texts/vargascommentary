@@ -1,0 +1,2172 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Liber I, Distinctio 1, Quaestio 4</title>
+				<author>Alphonsus Toletanus Vargas</author>
+				<editor>Luciana Cioca</editor>
+				<respStmt>
+					<name>Jeffrey C. Witt</name>
+					<resp>TEI Encoder</resp>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="0.0.0-dev">
+					<date when="2016-09-04">September 04, 2016</date>
+				</edition>
+			</editionStmt>
+			<publicationStmt>
+				<authority>THESIS project</authority>
+				<availability status="free">
+					<p>Public Domain</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="V" n="Venice1490">Venice1490</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+			<schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/1.0/critical.rng"> </schemaRef>
+			<editorialDecl>
+				<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+					guidelines for a critical edition</p>
+			</editorialDecl>
+		</encodingDesc>
+		<revisionDesc status="draft">
+			<listChange>
+				<change when="2016-09-04" who="#JW" status="draft" n="0.0.0">
+					<p>Created file for the first time.</p>
+				</change>
+			</listChange>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:lang="la">
+		<front>
+			<div xml:id="starts-on">
+				<pb ed="#V" n="42-v"/>
+				<cb ed="#V" n="b"/>
+			</div>
+		</front>
+		<body>
+			<div xml:id="atv-l1d1q4">
+				<head xml:id="atv-l1d1q4-Hd1e3505">Liber I, Distinctio 1, Quaestio 4</head>
+
+				<p xml:id="atv-l1d1q4-d1e3508">Quarto quero: utrum fruitio qua creatura rationalis nostre fruitur Deo beatifice ipsa
+					manente in creatura possit non esse fruitio sibi. </p>
+				<div xml:id="atv-l1d1q4-Dd1e3511" type="rationes-principales">
+					<p xml:id="atv-l1d1q4-d1e3513">Et videtur primo quod sic, quia nulla fruitio qua creatura non fruitur est fruitio
+						creature, sicut nulla cognitio qua creatura non cognoscit est cognitio creature. Sed
+						fruitio est qua creatura rationalis nunc fruitur etc., manente in creatura potest
+						creatura non frui, ut declarabitur infra; igitur etc.</p>
+					<p xml:id="atv-l1d1q4-d1e3516">Contra: si talis fruitio posset non esse fruitio creature, sequeretur quod esset
+						frustra in creatura. Consequens est falsum, quia Deus et natura nihil faciunt frustra,
+						
+						<pb ed="#V" n="43-r"/>
+						<cb ed="#V" n="a"/>
+						
+						igitur et antecedens. Consequentia probatur, quia fruitio sit et est ut per eam
+						beatus habens eam fruatur, quod casu posito non esset, ergo.</p>
+				</div>
+				<div xml:id="atv-l1d1q4-Dd1e3524">
+					<head xml:id="atv-l1d1q4-Hd1e3526">Divisio quaestionis</head>
+					<p xml:id="atv-l1d1q4-d1e3529">Respondeo. In ista questione erunt quattuor articuli, quia primo ponam aliquas
+						distinctiones, secundo conclusiones, tertio movebo dubia et ultimo respondebo.</p>
+				</div>
+				<div xml:id="atv-l1d1q4-Dd1e3533" type="articulus">
+					<head xml:id="atv-l1d1q4-Hd1e3535">Primus articulus</head>
+					<p xml:id="atv-l1d1q4-d1e3538">Quantum ad primum articulum distinguo primo de potentia Dei et creature. Et, licet de
+						utraque possit intelligi questionem, quia posset dubitari an quod queritur sit
+						possibilis de potentia Dei vel de potentia creature, intelligo tamen questionem precise
+						de potentia Dei, quia non videtur aliquo modo possibilis de creature potentia quod tali
+						fruitione manente creatura non fruatur et, si non est possibile quod non fruatur, non
+						est possibile quod non sit fruitio sibi.</p>
+					<p xml:id="atv-l1d1q4-d1e3541">Secundo distinguo de potentia Dei absolute et ordinata et intelligo questionem de
+						potentia Dei absoluta, quia de ordinata credimus quod creatura, que summo bono clare viso
+						in patria semel frui ceperit, eterna beata erit, et per consequens semper fruetur ipso
+						beatifice. Quo posito sequitur quod talis fruitio semper erit fruitio sibi. Et hoc de
+						primo.</p>
+				</div>
+				<div xml:id="atv-l1d1q4-Dd1e3546" type="articulus">
+					<p xml:id="atv-l1d1q4-d1e3548">Secundus articulus</p>
+					<p xml:id="atv-l1d1q4-d1e3551">Quantum ad secundum articulum pono quattuor conclusiones.  </p>
+
+					<div xml:id="atv-l1d1q4-Dd1e3554">
+						<head xml:id="atv-l1d1q4-Hd1e3556"><supplied>Conclusio prima</supplied></head>
+						<p xml:id="atv-l1d1q4-d1e3560">Et quia fruitio in dilectione
+							et delectatione consistit essentialiter, ut patet ex supradictis, prima conclusio est quod de potentia Dei absoluta creatura rationalis potest habere
+							dilectionem que nunc diligit Deum beatifice solum in voluntate et non diligere. Pro
+							deductione istius conclusionis premitto aliquas propositiones. </p>
+						<p xml:id="atv-l1d1q4-d1e3563">Prima est quod nulla dilectio in natura rationali creata est essentialiter cognitio.
+							Probatur primo sic: voluntas in natura rationali creata non est realiter intellectus,
+							nec per consequens potentia cognitiva, igitur volitioni creaturis non est
+							essentialiter cognitis. Consequentia est nota. Antecedens probatur auctoritate beati
+								<name> Augustini</name> IV <title>De Trinitate</title>, capitulo 58, de parvis,
+							ubi dicit expresse quod <quote xml:id="atv-l1d1q4-Qd1e3571">cum memoriam meam intellectum et voluntatem nomino singula
+							quidem nomina ad res singulas referuntur</quote>, igitur non ad unam. Quo posito sequitur
+							quod huiusmodi potentie non sunt una res, sed distincte. Et <title>De verbis
+								domini</title>, capitulo 62, postquam sic memoriam intellectum et voluntatem
+							separabiliter nominavit et inseparabiliter operari subdit: <quote xml:id="atv-l1d1q4-Qd1e3577">Ecce de illis tribus una
+							res nominata est, unius rei nomen dictum est. ‘Memoria’ nomen est unius rei ex illis
+							tribus, et tamen nomen unius ex illis tribus tria ipsa operata sunt</quote>. Hec
+								<name>Augustinus</name>. Ex qua auctoritate evidenter apparet quod voluntas in
+							natura rationali creata non est realiter intellectus, nec econverso.</p>
+						<p xml:id="atv-l1d1q4-d1e3585">Secundo sic: nulla cognitio in creaturis est actus voluntatis. Omnis volitio in
+							creaturis est actus voluntatis, igitur nulla volitio; et per consequens dilectio nulla
+							in creaturis est cognitio. Minor ab omnibus est concessa et maior patet per beatum
+								<name> Augustinum</name> XV <title>De Trinitate</title>, capitulo 14, ubi sic
+							ait: <quote xml:id="atv-l1d1q4-Qd1e3593">Sive memoriam dicamus in homine eiusdem notitiam et diligentiam sive memoriam
+							intellectum et voluntatem nihil mentis meminimus nisi per memoriam, nec intelligimus
+							nisi per intellectum, nec amamus nisi per voluntatem</quote>. Hec <name>Augustinus</name>. Ex
+							quibus verbis patet manifeste quod nulla cognitio est actus voluntatis in creaturis,
+							quia, si sic, non solum intelligimus per intellectum, sed per voluntatem, quod est
+							contra beatum <name> Augustinum</name>, igitur.</p>
+						<p xml:id="atv-l1d1q4-d1e3603">Secunda propositio est quod dilectio qua creatura rationalis diligit Deum beatifice
+							potest manere formaliter in ipsa de potentia Dei absolute sine omni cognitione. Istam
+							propositionem deduco sic: non minus, immo magis dependet accidens a substantia quam
+							dilectio a cognitione. Hoc patet, quia dilectio non dependet a cognitione nisi quia
+							cognitio est prior ipsa ordine nature. Accidens vero non solum naturaliter est
+							posterius substantia, sed eius esse est substantie in esse, quia accidentia non sunt
+							entia nisi quia entis, sicut patet per <name>Philosophum</name> VII
+								<title>Metaphysice</title> et per <name>Commentatorem</name>, ibidem, commento 2.
+							Sed non obstante huiusmodi dependentia de potentia Dei absoluta fieri potest et sit de
+							facto accidens sine omni substantia et subiecto, ut patet in sacramento altaris;
+							ergo.</p>
+						<p xml:id="atv-l1d1q4-d1e3616">Tertia propositio est quod per nullam potentiam finitam nec infinitam fieri potest
+							quod creatura rationalis diligat Deum actualiter vel aliquid aliud et nullum actum
+							cognitionis previum habeat circa illud. Ista propositio patet primo auctoritate beati
+								<name> Augustini</name> X <title>De Trinitate</title>, capitulo 1, dicens
+							expresse quod <quote xml:id="atv-l1d1q4-Qd1e3624">rem ignotam amare nullus potest</quote> et capitulo 3, de parvis, dicens
+							<quote xml:id="atv-l1d1q4-Qd1e3627">firmissime novimus non nisi nota amare posse</quote>. Et hoc declarat a primo libri usque ad
+							X, capitulo inclu-
+							
+							<pb ed="#V" n="43-r"/>
+							<cb ed="#V" n="b"/>
+							
+							-sive. Et quia adducit aliquas instantias contra se, concludit
+							in fine in capitulo: <quote xml:id="atv-l1d1q4-Qd1e3635">His causet videntur amare incognita qui scire quod volunt nihil
+							sciunt, sed quoniam res aliter habeat, nec omnino quid ametur incognitum arbitror me
+							suasisse verum intuentibus</quote>. Idem etiam vult in VIII, capitulo 16, de parvis, ubi
+							dicit: <quote xml:id="atv-l1d1q4-Qd1e3638">Sciri aliquid non diligi potest. Diligi autem quod nescitur quero utrum
+							possit</quote>. Et respondens ait quod <quote xml:id="atv-l1d1q4-Qd1e3641">si non potest nemo diligat Deum antequam sciat et
+							quid est Deum scire nisi mente conspicere firmeque percipe</quote>, quod etiam diffuse
+							pertractat usque ad 29, capitulo inclusive. Idem etiam vult <name>Anselmus</name>
+							<title>Monologion</title>, 69 et II <title>Cur Deus Homo</title>, capitulo 13, ubi per
+							hoc tanquam per medium notissimum probat Christum omnia nosce dicens: <quote xml:id="atv-l1d1q4-Qd1e3654">Si nihil amatur
+							nisi quod cognoscitur, sicut nihil erit boni quod non amet, ita nullum bonum quod
+							ignoret</quote>.</p>
+						<p xml:id="atv-l1d1q4-d1e3658">Secundo, propositio persuadetur ratione sic: implicatio contradictionis est quod
+							creature rationalis voluntas aliquid diligat et illud non sit sibi presens in ratione
+							obiecti. Hoc patet ex adequatione obiecti ad potentiam. Sed implicatio contradictionis
+							est quod aliquid sit presens voluntati in ratione obiecti nisi per actum cognitionis
+							previum; igitur implicatio contradictionis est quod voluntas rationalis creature
+							aliquid diligat et nullum actum cognitionis previum habeat circa illud, et per
+							consequens per nullam potentiam finitam, nec infinitam fieri potest etc.</p>
+						<p xml:id="atv-l1d1q4-d1e3661">Istis propositionibus sic deductis deduco conclusionem assumptam. </p>
+						<p xml:id="atv-l1d1q4-d1e3664">Primo sic: sequitur creatura rationalis diligit, ergo cognoscit. Hoc patet ex tertia
+							propositione. Sed dilectio qua creatura rationalis nunc diligit Deum beatifice de
+							potentia Dei absoluta potest manere formaliter in ea et ipsa non cognoscet, cum talis
+							dilectio non sit essentialiter cognitio, sicut patet ex prima propositione, et posset
+							manere formaliter in creatura sine omni cognitione, ut patet ex secunda; igitur
+							etc.</p>
+						<p xml:id="atv-l1d1q4-d1e3667">Secundo sic: non est maior repugnantia quod creatura rationalis habeat dilectionem
+							qua nunc diligit actualiter formaliter in voluntate et non diligat quam quod habeat
+							visionem qua nunc videt actualiter formaliter in visu et non videat. Sed secundum est
+							possibile de potentia Dei absoluta; igitur et primum. Pro deductione minoris pono
+							quod aliquid homo precise videat aliquam albedinem demonstratam et quod Deus de
+							potentia sua absoluta annihilaret albedinem illam conservato homine. Hoc enim est
+							possibile, cum visio illa sit res absolute distincta realiter ab albedine visa et
+							independens ab ea in omni genere cause quod Deus non potest supplere isto casu
+							possibili posito. Patet quod talis habebit visionem qua prius videbat formaliter in
+							visu et non videbit, quia non videbit albedinem illam, cum sit annihilata, nec aliquid
+							aliud, quia pono quod nihil novi videat et ex casu precise videbat albedinem quam nunc
+							non videt, ergo.</p>
+						<p xml:id="atv-l1d1q4-d1e3670">Et confirmatur, quia nihil videre et non videre equipollent. Tali autem casu posito
+							nihil videret, ergo. Sed ad istas duas rationes respondebatur per quosdam reverendos
+							patres et magistros meos qui mecum concurrebant.</p>
+						<p xml:id="atv-l1d1q4-d1e3674"><name>Magister Fernandus</name></p>
+						<p xml:id="atv-l1d1q4-d1e3678">Ad primum quidem dupliciter. Primo namque respondebat quidam reverendus dominus et
+							compatriota negando minor, quia dilectio, ut dicebat, est essentialiter cognitio, et
+							ideo non est possibile per aliquam potentiam quod sit formaliter in creatura rationali
+							et quod ipsa non cognoscat. Et ad probationes quibus probavi quod nulla dilectio in
+							creaturis est essentialiter cognitio respondebat. Ad primum negando antecedens, quia
+							voluntas et intellectus in creaturis non distinguuntur realiter, ut dicebatur; <unclear>est</unclear>
+							igitur.</p>
+						<p xml:id="atv-l1d1q4-d1e3684">Ad secundum negabat minorem, quia voluntas, ut dicebat, est potentia cognitiva et non
+							est verum quod nulla cognitio in creaturis sit actus voluntatis. Et ad auctoritates
+							beati <name> Augustini</name> quibus probavi oppositum utriusque respondebat dicente
+							quod voluntas a beato <name> Augustino</name> dupliciter accipitur: uno modo pro ipsa
+							anima volente, alio modo pro ipso actu volendi. Et illo secundo modo beatus <name>
+								Augustinus</name> accipit voluntatem in omnibus auctoritatibus quas adduxi, ut
+							dicebat, et ideo nihil concludo.</p>
+						<p xml:id="atv-l1d1q4-d1e3696">Contra <name>Magistrum Fernandum</name></p>
+						<p xml:id="atv-l1d1q4-d1e3701">Ista tamen responsio non satisfacit, quia non est verum aliqua dilectio in creaturis
+							sit essentialiter cognitio, nec rationes quibus probavi propositionem oppositam sunt
+							solute. Et ideo primo ostendam quod beatus <name> Augustinus</name> in auctoritatibus quas
+							adduxi non accepit 
+							
+							<pb ed="#V" n="43-v"/>
+							<cb ed="#V" n="a"/>
+							
+							voluntatem pro actu volendi, sed pro potentia volitiva, nec
+							intellectum pro actu intelligendi, sed pro potentia intellectiva in cuius opposito
+							fundatur eius responsio. </p>
+						<p xml:id="atv-l1d1q4-d1e3711">Secundo ostendam quod, si beatus <name> Augustinus</name> accipiat voluntatem pro actu
+							volendi, adhuc necessario sequitur quod nulla voluntas in creaturis sit essentialiter
+							cognitio cuius oppositum intendit. Et tertio confirmo propositionem.</p>
+						<p xml:id="atv-l1d1q4-d1e3718">Primum deduco ex dictis beati <name> Augustini</name> sic in auctoritatibus allegatis
+							per me. Beatus <name> Augustinus</name> accipit memoriam, intellectum, et voluntatem
+							prout sunt partem imaginis create, sicut patet videntibus textum eius. Sed actus
+							istarum potentiarum non sunt partes imaginis create, nec in actibus anime ratio
+							imaginis consistit, secundum <name>Augustinum</name> ipso dicendum <title>De
+								Trinitate</title> XIV, capitulo 7: <quote xml:id="atv-l1d1q4-Qd1e3732">Absit autem ut cum anime natura sit imortalis,
+							nec ab initio quo creata est, nunquam deinceps esse desistat id quo nihil inclinatio
+							habet, nam cum eius imortalitate perduret. Quid vero melius in eius natura creatum est
+							quam quod ad sui creatoris imaginem facta est, non igitur in fidei intentis
+							contemplatione dilectione que non erunt semper, sed in eo quod semper erit invenienda
+							est quam dici oporteat imaginem Dei</quote>. Hec <name>Augustinus</name>. Igitur in his
+							auctoritatibus non accipit memoriam, intellectum, et voluntatem pro actibus, sed pro
+							potentiis que semper manent cum anima. Secundum vero, scilicet quod si accipiatur
+							voluntas pro actu volendi, adhuc necessario sequitur quod nulla volitio, et per
+							consequens quod nulla dilectio in creaturis sit essentialiter cognitio, patet per
+							auctoritatem quam adduxi ad probandum maiorem secunde rationis, quia beatus <name>
+								Augustinus</name> in auctoritate illa universaliter vult quod sic intelligimus per
+							intellectum quod non per memoriam, nec per voluntatem, et sic amemus per voluntatem
+							quod non per intellectum, nec per memoriam. Et in hoc, ut dicit, differt trinitas in
+							nobis a trinitate que Deus est. Et ideo immediate, cum dicit quod <quote xml:id="atv-l1d1q4-Qd1e3742">non intelligimus nisi
+							per intellectum, nec amamus nisi per voluntatem</quote>. Subdit: <quote xml:id="atv-l1d1q4-Qd1e3745">Ac vero in illa trinitate quis
+							audeat dicere Patrem nec se ipsam, nec Filium, nec Spiritum Sanctum intelligere nisi
+							per Filium, nec diligere nisi per Spiritum Sanctum. Per se autem meminisse tantummodo
+							vel sui vel Filii vel Spiritus Sancti</quote>; igitur, si beatus <name> Augustinus</name>
+							accipit voluntatem pro actu volendi, sequitur evidenter quod per actum volendi sic
+							volumus quod nullo modo intelligimus, nec cognoscimus, quod est propositum. Et
+							confirmatur, quia, si per amorem intelligimus, non sequitur quod, si sic esset in
+							trinitate creata sicut est in increata, quod Pater non intelligeret nec se ipsam, nec
+							Filium, nec Spiritum Sanctum, nisi per Filium, immo totum oppositum, quia sequeretur
+							quod intelligeret per Spiritum Sanctum, quod contradicit beatum <name>
+								Augustinum</name>. Et ulterius in hoc non esset differentia inter trinitatem creatam
+							et increatam, cuius oppositum concludit beatus <name> Augustinus</name>. Exclusa igitur
+							ista ratione, confirmo conclusionem primo de dilectione beatifica de qua principaliter
+							est secundo modo sic: dilectio beatifica creature est essentialiter cognitio, igitur
+							creatura potest esse perfecta beata sine omni cognitione distincta realiter a
+							dilectione. Consequens repugnat determinationi ecclesie, sicut patet per illam
+							decretalem extravagantem Domini Benedicti <title>De visione animarum</title>, igitur et antecedens.
+							Consequentia patet, quia circumscripta omni tali cognitione adhuc creatura per
+							dilectionem ipsam cognosceret et diligeret Deum beatifice. Et certum est quod istis
+							positis posset in ipso summe delectari, et sic est perfecte beata. Et confirmatur ex
+							dictis suis, quia eo ipso quod dilectio beatifica creature est essentialiter
+							delectatio, ut dicebat, frustra poneretur in ipsa aliqua delectatio distincta realiter
+							a dilectione, igitur a simili si dilectio beatifica creature est essentialiter
+							cognitio, frustra poneretur in ipsa aliqua cognitio a dilectione distincta. Quo posito
+							sequitur quod in creatura rationalis potest esse dilectio, immo sequitur quod sit de
+							facto perfecte beata sine omni cognitione distincta realiter a dilectione, quod tamen
+							est falsum et contra determinationem ecclesie, igitur.</p>
+						<p xml:id="atv-l1d1q4-d1e3762">Preterea, si dilectio in creaturis esset essentialiter cognitio, frustra laborasset beatus
+								<name> Augustinus</name> in toto X <title>De Trinitate</title> ad ostendendum
+							quod <quote xml:id="atv-l1d1q4-Qd1e3770">non possumus rem ignotam amare</quote>. Sufficiebat enim dicere dilectio est cognitio
+							essentialiter, igitur quicquid diligitur cognoscitur, et per consequens non possumus
+							rem ignotam amare. Et tamen costat videntibus textum eius quod non ita processit, nec
+							sic solvit istantias quas adducit contra se. Manet igitur propositio, videlicet quod
+							nulla dilectio in creaturis sit essentialiter cognitio. Quo posito patet rationem non
+							esse solutam. Et ideo respondebat ad ipsam secundo quidam alius socius et magister
+							reve-
+							
+							<pb ed="#V" n="43-v"/>
+							<cb ed="#V" n="b"/>
+							
+							-rendus neganda minor, quia, licet dilectio beatifica non sit essentialiter
+							cognitio, sicut ponebat precedens responsiorum, non potest esse formaliter in creatura
+							etiam de potentia Dei absoluta sine omni cognitione. Et ad probationem respondebam
+							dupliciter. Primo quidem dicebam quod ratio magistri <name> Iohannis Ferrati</name> non
+							probat conclusionem quam intendo, quia tantum probat ut patet cuicumque causa intuenti
+							quod dilectio potest esse sine cognitione, sed non est bona consequentia, immo
+							fallacia consequentis est. Arguendo sic dilectio potest esse sine cognitione, igitur
+							dilectio beatifica potest esse sine cognitione, quia dilectio beatifica, cum sit
+							perfectissima, repugnat esse sine cognitione.</p>
+						<p xml:id="atv-l1d1q4-d1e3782">Secundo respondebam interimendo maiorem, quia non est verum quod magis dependeat
+							accidens a substantia quam dilectio a cognitione, ut dicebat. Ratio huius est, quia
+							cognitio et dilectio habent essentialem ordinem prioritatis et posterioritatis, saltem
+							de potentia Dei ordinata, substantia autem et accidens non. Et quando probatur quod
+							accidentia non sunt entia inferior entis quod est substantia de quod illa propositio
+							vel auctoritas non debet intelligi formaliter et quiditative, sed materialiter et
+							subiective, sed actum vel saltem, secundum aptitudinem.</p>
+						<p xml:id="atv-l1d1q4-d1e3785">Contra solutionem magistri <name> Iohannis Ferrati</name></p>
+						<p xml:id="atv-l1d1q4-d1e3790">Sed nec illa solutio sufficit, ut videtur, quia concesso quod dilectio beatifica non
+							sit essentialiter cognitio, sicut conceditur, non videtur benedictum quod non possit
+							formaliter esse in creatura de potentia Dei absoluta sine omni cognitione. Et ideo
+							primo ostendam rationem quam adduxi ad probandum propositionem oppositam non esse
+							solutam. Secundo confirmabo propositionem illam.</p>
+						<p xml:id="atv-l1d1q4-d1e3793">Quantum ad primum ostendo quod nulla illarum solutionum sufficit. Non quidem prima,
+							quia non magis, immo minus dependet dilectio qua creatura rationalis nunc diligit Deum
+							beatifice a cognitione creata quam accidens a substantia. Hoc patet, quia dilectio
+							predicta non dependet a cognitione creata in aliquo genere cause extrinsece nec
+							intrinsece, igitur non magis, immo minus dependet ab ipsa quam accidens a substantia.
+							Ista consequentia patet, quia accidens in aliquo genere dependet a substantia.
+							Antecedens quantum ad primam partem patet de se. Quantum ad secundam probatur, quia
+							non dependet ab ipsa in genere cause efficienter, cum sit a solo Deo effective, ut
+							suppono pro nunc, quia ex intentione declarabitur infra, nec in genere cause finalis,
+							quia dilectio non est propter cognitionem, sed potius econverso, ut patet per
+								<name>Anselmum</name> II <title>Cur Deus homo</title>, capitulo 1, aut fuit
+							allegatum in questione precedente. Sed non obstante huiusmodi dependentia potest fieri
+							a Deo et sit a Deo accidens sine omni substantia et subiecto; igitur.</p>
+						<p xml:id="atv-l1d1q4-d1e3803">Et confirmatur, quia, si talis dilectio non posset esse formaliter in creatura de
+							potentia Dei absoluta sine omni cognitione, vel hoc esset quia est dilectio, vel quia
+							est beatifica. Non quia est dilectio, quia tunc non magis repugnaret sibi quam alteri,
+							quod est contra solutionem illa, quia tunc hec non esset bona consequentia. Dilectio
+							potest esse sine cognitione, igitur dilectio beatifica potest esse sine cognitione,
+							quod negat illa solutio. Nec quia beatifica, quia casu posito non beatificaret, quia
+							habens substantiam non diligeret per causam.</p>
+						<p xml:id="atv-l1d1q4-d1e3806">Preterea, maior illius rationis non solum probatur indiffinite, sed universaliter,
+							quia non solum est verum de aliqua dilectione, sed de omni quod non dependet a
+							cognitione nisi quia cognitio est prior ipsa ordine nature, nec ille socius assignat
+							aliquam aliam dependentiam, igitur conclusio que sequitur gratia forme erit
+							universalis, et per consequens de omni dilectione, et sic de beatifica probatur quod
+							possit esse de potentia Dei absoluta sine cognitione. Patet igitur quod prima solutio
+							non satisfacit, nec etiam secunda. Probatur, quia accidens et substantia habent
+							essentialem ordinem prioris et posterioris naturaliter non minus quam dilectio et
+							cognitio, ut patet discurrendo ad omnes modos prioris et posterioris traditos a
+								<name>Philosopho</name>. Et non est dubium quod <name>Philosophus</name> reputasset
+							maius impossibile quod accidens esset sine substantia quam quod dilectio esset sine
+							cognitione. Secundo, quia non sequitur: dilectio et cognitio habent essentialem ordinem
+							prioris et posterioris de potentia Dei ordinata, igitur non possunt ab invincem
+							separari de potentia Dei absoluta, quia multa sunt possibilia de potentia Dei absoluta
+							que non sunt possibilia de potentia Dei ordinata.</p>
+						<p xml:id="atv-l1d1q4-d1e3815">Exclusis igitur istis solutionibus confirmo propositionem illam primo sic: omnis res
+							absolute distincta realiter ab alia independens ab ea in omni genere cause quod Deus
+							potest supplere, potest fieri et conservari sine illa de potentia Dei absoluta. Sed
+							dilectio qua creatura rationalis nunc diligit Deum beatifice est absoluta res
+							distincta realiter ab omni cognitione creata 
+							
+							<pb ed="#V" n="44-r"/>
+							<cb ed="#V" n="a"/>
+							
+							et independens etc; igitur etc.
+							Maior est nota et minor est satis clara quantum ad omnes partes, quia certum est quod
+							talis dilectio est res absoluta, non respectiva, cum sit de genere qualitatis
+							distincta realiter ab omni cognitione, cum ipsa non sit essentialiter cognitio, ut
+							patet ex supradictis et independens ab ea etc. Et non dependet ab aliqua cognitione
+							creata in aliqua genere cause intrinsece, nec etiam extrinsece, ut declaratum est
+							supra, igitur. Et confirmatur, quia certum est quod dilectio beatifica non dependet ab
+							aliqua cognitione creata in genere cause formalis, nec materialis, sicut nec aliqua
+							alia, igitur non dependet ab ea in aliquo genere cause intrinsece, igitur solum
+							extrinsece. Si dependet, hanc autem Deus potest supplere, igitur. </p>
+						<p xml:id="atv-l1d1q4-d1e3822">Secundo sic: Deus potest facere quicquid non implicat contradictionem formaliter, nec
+							per illationem. Sed, si talis dilectio sit et cognitio non sit, non implicat
+							contradictio formaliter, quia esse et non esse non verificatur de eadem re, nec per
+							illationem, quia talis dilectio non dependet ab aliqua cognitione creata in fieri, cum
+							sit a solo Deo effective, ut suppono ad presens, nec in conservari saltem necessario,
+							quia a solo Deo poterit conservari; igitur. Et confirmatur, quia quando aliqua res
+							absoluta se habet ad aliam rem absolutam, non sicut causa per se et intrinseca, sed
+							precise sicut causa sine qua non et extrinseca sine implicatione contradictione
+							poterit Deus ponere in effectu illam rem creatam absque tali causa. Patet ex terminis,
+							sed cognitio se habet ad dilectionem beatificam, non sicut causa per se et intrinseca,
+							sed solum sicut causa sine qua non et extrinseca, eo quod est prior ipsa in ordine
+							nature; igitur etc. Patet igitur quod dilectio qua creatura rationalis nunc diligit
+							Deum beatifice potest manere formaliter in ipsa de potentia Dei absoluta sine omni
+							cognitione, et per consequens patet rationem non esse solutam.</p>
+						<p xml:id="atv-l1d1q4-d1e3825">Istis tamen solutionibus dimissis, adhuc potest responderi ad rationem ex dictis
+							quorumdam doctorum nostrorum qui dicunt:</p>
+						<p xml:id="atv-l1d1q4-d1e3828"><name>Alexander de Sancto Elipidio</name> et <name>Forestarius</name></p>
+						<p xml:id="atv-l1d1q4-d1e3836">Quod de potentia Dei absoluta fieri potest quod creatura rationalis diligat Deum
+							beatifice sine omni cognitione et, si illud sit verum, patet maiorem illius rationis
+							esse falsam.</p>
+						<p xml:id="atv-l1d1q4-d1e3839">Sed ad veritatem ista solutio est expresse contra doctrinam beati <name>
+								Augustini</name> qui simpliciter reputat impossibile rem ignotam amari, ut patet
+							videntibus X <title>De Trinitate</title>. Et ulterius posito quod aliquis posset Deum
+							aliquo modo diligere sine cognitio, quod tamen est falsum, adhuc non posset ipsum
+							diligere beatifice sine cognitione, sicut isti doctores concedunt quod nullus diligit
+							Deum beatifice, cui non constat an diligat Deum vel creaturam vel purum nihil. Hoc
+							patet, quia diligere Deum beatifice est diligere ipsum perfectissime quod tali
+							dilectioni repugnat. Sed nullum actum cognitionis habenti non constat an diligat Deum
+							vel creaturam vel purum nihil, immo non constat sibi an diligat vel non diligat;
+							igitur nullus talis diligit Deum beatifice. Manet igitur prima ratio insoluta, ut
+							videtur. </p>
+						<p xml:id="atv-l1d1q4-d1e3848">Ad secundam vero respondebatur per quosdam reverendos socios etiam dupliciter.</p>
+						<p xml:id="atv-l1d1q4-d1e3851">Quidam ordinis predicatorum</p>
+						<p xml:id="atv-l1d1q4-d1e3854">Primo quidem respondebat bachalarius predicatorum interimendo maiorem. Et ad
+							probationem admisso casu dicebat quod talis non videbat nihil, sed aliquod, quia
+							videbat albedinem. Et quando dicitur quod albedo casu posito non est, quia ponatur
+							quod sit annihilata, conceditur. Nec requiritur quod sit ad hoc quod terminet actum
+							videndi et videatur quod talis terminatio non est realis, sed secundum rationem, ut
+							dicebat, licet requiratur quod sit adhuc quod causet actum, sed istam causalitatem
+							Deus potest supplere, quia potest causare et conservare omnem effectum cause secunde
+							sine causa secunda.</p>
+						<p xml:id="atv-l1d1q4-d1e3857">Contra predicatorem</p>
+						<p xml:id="atv-l1d1q4-d1e3861">Ista tamen solutio non videtur satisfacere propter tria minus vera que ponit. Primum
+							est quod videns albedinem annihilatam non videt nihil, sed aliquid. Secundum est quod
+							obiectum visus non terminet actum videndi realiter, sed secundum rationem tantum. Sed
+							tertium est quod albedo annihilata potest videri. Et ideo propter eius impugnationem
+							pono tres propositiones oppositas. </p>
+						<p xml:id="atv-l1d1q4-d1e3864">Prima est quod implicatio contradictionis est, ut videtur, quod videns albedinem
+							annihilatam non videat nihil, sed aliquid, etiam supposito quod albedo annihilata
+							possit videri. Istam propositionem deduco, quia vel albedo annihilata est aliquid, vel
+							nihil. Si aliquid, non est annihilata, quod est contra positum. Si nihil, videns
+							albedinem annihilatam non videt aliquid, sed nihil, igitur implicatio contradictionis
+							est dicere quod talis videat albedinem annihilatam et quod non videat nihil, sed
+							aliquid.
+							
+							<pb ed="#V" n="44-r"/>
+							<cb ed="#V" n="b"/>
+							
+							</p>
+						<p xml:id="atv-l1d1q4-d1e3871">Responsio predicatoris</p>
+						<p xml:id="atv-l1d1q4-d1e3874">Ad istam rationem iste reverendus pater respondit. Et primo reducit rationem contra
+							me dupliciter. Primo sic: rosa non existente vel annihilata aliquis potest fantasiari
+							rosam. Tunc sic: vel rosa annihilata est aliquid, vel nihil. Si aliquid, non est
+							annihilata. Si nihil, quod fantasiatur, sed per me sequitur nihil videt, ergo non
+							videt, ergo sequitur nihil fantasiatur, ergo non fantasiatur, quod est contra
+							positum.</p>
+						<p xml:id="atv-l1d1q4-d1e3877">Secundo sic: intellectus cum intelligit privationem et non ens aut intelligit
+							aliquid, vel nihil. Si aliquid, ergo non ens et privatio sunt aliquid, quod est
+							falsum. Si nihil, ergo non intelligit, quia nihil intelligere et non intelligere
+							equippollent per me. </p>
+						<p xml:id="atv-l1d1q4-d1e3880">Ex his infert quod forma arguendi non est bona.</p>
+						<p xml:id="atv-l1d1q4-d1e3884">Secundo respondeo ad rationem dupliciter. Primo dicit quod, licet albedo annihilata
+							est nihil realiter in se, est tamen aliquid secundum rationem inquantum est cognitio
+							eius sive intellectiva, sive fantastica, sive sensitiva casu posito quod cognitio
+							terminatur ad ipsam secundum rationem solum. Et isto modo privatio et non ens sunt
+							entia inquantum sunt cognita. Secundo dicit quod, licet albedo nihil sit in se, est
+							tamen aliquid in suo representativo, quod conservatur in oculo virtute divina.</p>
+						<p xml:id="atv-l1d1q4-d1e3887">Contra rationem predicatoris</p>
+						<p xml:id="atv-l1d1q4-d1e3890">Sed, licet ista sint pulchre dicta, non sufficiunt tamen rationi. Ostendo ergo primo
+							rationem non esse solutam. Secundo respondebo ad rationes factas contra eam.</p>
+						<p xml:id="atv-l1d1q4-d1e3893">Quantum ad primum prima solutio non satisfacit. Quod patet primo, quia albedo
+							annihilata non est magis vel minus ens quam privatio etiam per eum in illa solutione,
+							igitur non magis repugnat uni illarum videri quam alteri. Sed impossibile est
+							privationem videri visione corporali de qua nunc loquimur; igitur impossibile est
+							albedinem annihilatam sic videri, quod est propositum. </p>
+						<p xml:id="atv-l1d1q4-d1e3896">Secundo, quia qui videt et non videt aliquod ens reale nec rationis, non videt
+							aliquid, sed nihil. Hoc patet, quia omne ens est reale vel rationis. Sed videns
+							albedinem annihilatam videt secundum eum et non videt aliquod ens reale, quia albedo
+							annihilata non est aliquid realiter, ut asserit illa solutio, nec aliquod ens
+							rationis. Et posito quod albedo annihilata sit aliquid secundum rationem, quia nullum
+							ens rationis potest videri visione corporali, aliter chimera posset videri visione
+							corporali, cum non magis repugnat sic videri unienti rationis quam alteri; igitur
+							videns albedinem annihilatam non videt aliquid, sed nihil, quod est propositum.</p>
+						<p xml:id="atv-l1d1q4-d1e3899">Tertio, quia, si albedo annihilata esset aliquid secundum rationem inquantum est
+							visio eius, vel illud esse rationis est ipsamet visio qua videbatur albedo nihilata
+							secundum eum, vel aliquid alius ex quo non est nihil, sed aliquid. Si detur primum,
+							sequitur quod albedo annihilata non solum est aliquid secundum rationem, sed vere
+							realiter, quia talis visio ex supposito vere est aliquid realiter. Et hoc est contra
+							potentiam. Et ulterius, si videns albedinem annihlatam, non videt nihil, sed aliquid,
+							quia ipsa est aliquid secundum rationem et illud aliquid non est nisi visio. Sequitur
+							quod videns albedinem annihilatam videt visionem suam et nihil aliud, quod nihil est
+							dicere. Si detur secundum, non solvitur ratio principalis, quia, si tale esse sit
+							aliquid aliud a visione, sive sit reale, sive ratione, ex quo non est nihil, Deus
+							poterit ipsum annihilare conservando visionem in homine. Quo posito sequitur quod
+							talis habebit actum visionis et non videbit, quia nec videbit aliquid reale, nec
+							aliquid secundum rationem et sic intellectus; ergo etc. </p>
+						<p xml:id="atv-l1d1q4-d1e3903">Patet igitur quod prima solutio non satisfacit, nec etiam secunda que dicit quod
+							albedo annihilata est aliquid in suo representativo etc. Quod patet primo, quia non
+							minus potest Deus annihilare representativum albedinis conservato homine et actu
+							visionis in homine quam esse reale ipsius annihilet, ergo Deus illud representativum
+							et sequitur quod talis habebit actum visionis et non videbit, quia non videbit
+							albedinem in se, nec in suo representativo, ergo. </p>
+						<p xml:id="atv-l1d1q4-d1e3906">Secundo, quia vel annihilato corpore quod videtur eius representativum manet in oculo
+							naturaliter, vel miraculose. Non naturaliter, quia cum non minus maneat de tracto
+							corpore quam annihilato de tracto corpore esset naturaliter visio corporis si sola
+							illa sit bona, quod est expresse contra beatum <name>Augustinum</name> XI <title>De
+								Trinitate</title> per totum et contra experientiam. Si miraculose, non solvitur
+							ratio principalis, quia in casu intelligitur quod annihilaretur albedo conservato
+							homine et actu visionis in homine, nullo facto alio miraculo. </p>
+						<p xml:id="atv-l1d1q4-d1e3915">His igitur so-
+							
+							<pb ed="#V" n="44-v"/>
+							<cb ed="#V" n="a"/>
+							
+							-lutionibus impugnantis respondeo ad deductiones suas. </p>
+						<p xml:id="atv-l1d1q4-d1e3922">Ad primum quando dicitur 'rosa non existente vel annihilata aliquis potest
+							fantasticari rosam' etc., dico quod deficit dupliciter. Primo, quia vel intelligit quod
+							rosa sit in se et in suo representativo annihilata, vel in se tantum. Si primo modo,
+							non poterit fantasticari, ut patet per beatum <name>Augustinum</name> XI <title>De
+								Trinitate</title> per totum, quod est contra positum. Si secundo modo, concedo quod
+							rosa fantasticata sit nihil in se et aliquid in suo representativo, quod in proposito
+							non satisfacit, ut patet per impugnationem secunde solutionis sue. Secundo deficit,
+							quia non est simile de actu videndi et fantasticandi, quia actus videndi requirit
+							actualem presentiam obiecti, ut patet per beatum <name>Augustinum</name>, ubi supra.
+							Actus autem fantasticandi non.</p>
+						<p xml:id="atv-l1d1q4-d1e3934">Ad secundum autem quando dicitur quod 'cum intellectus intelligit privationem et non
+							ens', vel intelligit aliquid, vel nihil. Respondet <name>Anselmus</name>
+							<title>De casu diaboli</title>, capitulo 11, dicens quod <quote xml:id="atv-l1d1q4-Qd1e3942">cum intelligo privationem
+							vel nihil sive non ens, aliquid intelligo non quidem constituendo, sed destruendo,
+							quia cum privatio non sit nisi negatio habitus debiti inesse, non potest intelligi nisi
+							per habitum; et cum nihil sive non ens non sit nisi negatio habitus debiti inesse,
+							non potest intelligi nisi per habitum; et cum nihil sive non ens non sit nisi
+							privatio omnium que sunt aliquid et ens non potest intelligi nisi per ens</quote>. Et ideo
+							quicumque intelligit privationem et non ens, aliquid intelligit non quidem
+							constituendo, sed destruendo, quod in proposito dici non potest, quia cum albedo per
+							se videatur et non per aliud, ex II <title>De anima</title>. Videns albedinem
+							annihilatam non potest videre aliquid destruendo. Patet igitur rationem mean non esse
+							solutam et deductiones suas non esse ad propositum. </p>
+						<p xml:id="atv-l1d1q4-d1e3949">Secunda propositio est quod obiectum visus terminat actum videndi realiter et non
+							solum secundum rationem. Ista propositio patet primo, quia circumscripto omni ente et
+							omni actu rationis, adhuc obiectum visus terminat actum videndi realiter et non solum
+							secundum rationem. Secundo, quia quicquid realiter videtur, realiter terminat actum
+							videndi. Sed obiectum visus realiter videtur et non solum secundum rationem; ergo etc.
+							Tertio, quia relatio realis requirit fundamentum et terminum realem. Sed visionis ad
+							rem visam est relatio realis, ut patet per <name>Philosophum</name> V
+								<title>Metaphysice</title>; ergo etc. Sed ad ista respondebat reverendus pater
+							predictus.</p>
+						<p xml:id="atv-l1d1q4-d1e3959">Responsio predicatoris ad ista</p>
+						<p xml:id="atv-l1d1q4-d1e3962">Ad primum dicebat quod circumscripto omni ente et omni actu rationis obiectum visus
+							terminat actum videndi solum fundamentaliter sicut circumscripto omni actu intellectus
+							adhuc res eadem est sibi presens, sed non refertur formaliter.</p>
+						<p xml:id="atv-l1d1q4-d1e3965">Ad secundum negabat maiorem, quia nihil aliud est dicere quod aliquod realiter
+							videtur nisi quia est realis actus videndi ipsum quo se ipso terminatur realiter, sed
+							obiectum solum secundum rationem, unde, si maior illa esset vera, argueretur sic:
+							quicquid realiter intelligitur, realiter terminat actum intelligendi. Sed privatio
+							realiter intelligitur a Deo; igitur realiter terminat, quod est falsum. </p>
+						<p xml:id="atv-l1d1q4-d1e3968">Ad tertium quando dicitur in minori quod 'visionis ad rem visam est relatio realis',
+							dicebat quod non est relatio realis secundum quod obiectum terminat, sed secundum quod
+							movet vel causat actum videndi.</p>
+						<p xml:id="atv-l1d1q4-d1e3971">Contra responsionem istius predicatoris</p>
+						<p xml:id="atv-l1d1q4-d1e3974">Iste tamen solutiones non satisfaciunt et ideo insto contra eas. Et primo contra
+							primam, quia, si illa solutio sit bona, sequitur quod albedo annihilata nullo modo
+							possit videri saltem circumscripto omni ente et omni actu rationis, quod est
+							principale propositum. Probo, quia quicquid videtur, terminat actum videndi formaliter
+							vel saltem fundamentaliter, sicut omnis res est eadem sibi formaliter vel saltem
+							fundamentaliter et per exemplum suum. Sed albedo annihilata non terminat actum videndi
+							fundamentaliter, quia non est, nec formaliter circumscripto omni ente et actu rationis
+							ex solutione data; igitur non videtur etc., et sic intellectum. Patet igitur quod
+							prima ratio est non soluta. Nec secunda, quia impossibile est aliquid realiter videri
+							in se ipso, ut nunc loquimur, et actum videndi realiter non terminare, quia quicquid
+							videtur in se ipso est terminus visionis. Nec aliud intelligimus nomine termini nisi
+							quis velit abuti vocabu-
+							
+							<pb ed="#V" n="44-v"/>
+							<cb ed="#V" n="b"/>
+							
+							-lis, igitur quicquid videtur realiter in se ipso,
+							realiter est terminus visionis, et per consequens realiter terminat actum videndi.</p>
+						<p xml:id="atv-l1d1q4-d1e3982">Preterea, quicquid realiter terminat actum videndi, realiter videtur. Sed actus
+							videndi realiter terminat se ipsum secundum istam solutionem que concedit quod talis
+							actus se ipso terminatur realiter; igitur actus videndi realiter videtur, quod est
+							falsum et contra experientiam. Nec istantia sua valet, quia privatio non cognoscitur
+							per se, sed per habitum, ut patet ex supradictis. In proposito vero loquitur de
+							obiecto quod per se videtur. Tertia ratio etiam non est soluta, quia visionis ad
+							obiectum est relatio realis etiam per eum et non secundum quod obiectum causat actum,
+							quia non causat ipsum, ut suppono pro nunc, quia ex intentione declarabitur infra,
+							igitur ut terminat ipsum, quod est propositum. Rationes igitur non sunt solute, ut
+							videtur.</p>
+						<p xml:id="atv-l1d1q4-d1e3985">Tertia propositio est quod simpliciter est impossibile et contradictionem implicat
+							albedinem annihilatam videri. Ista propositio patet primo, quia quicquid videtur est
+							obiectum visus. Sed albedo annihilata non est obiectum visus, quia non est ens; ergo
+							etc. Secundo, quia, si albedo annihilata posset videri, notitia intuitiva vera posset
+							esse sine actuali presentia obiecti, quod est implicatio, quia tunc non esset
+							intuitiva. Tertio, quia visionis ad id quod videtur est relatio realis. Entis autem ad
+							non ens non est relatio realis; ergo etc.</p>
+						<p xml:id="atv-l1d1q4-d1e3988">Responsio predicti predicatoris</p>
+						<p xml:id="atv-l1d1q4-d1e3991">Sed adhuc respondebat predictus pater et magister. Ad primum negabat minorem, quia,
+							licet albedo annihilata non sit obiectum movens, est tamen terminans, ut dicebat. </p>
+						<p xml:id="atv-l1d1q4-d1e3994">Ad secundum respondebat dupliciter. Primo, quia multi dicerent quod in hoc non
+							consistit ratione intuitive notitie, sed in hoc quod sit talis notitia que naturaliter
+							de necessitate non exigat aliam priorem.</p>
+						<p xml:id="atv-l1d1q4-d1e3997">Secundo dicebat quod intuitivum et abstractivum non sunt differentie cognitionis in
+							se, sed ex parte obiecti. Et ideo non est inconveniens variato obiecto cognitione
+							eadem remanente esse intuitivam et abstractivam virtute divina. </p>
+						<p xml:id="atv-l1d1q4-d1e4001">Ad tertium dicebat, ut supra, quod visionis ad illud quod videtur non est relatio
+							realiter secundum quod terminat actum.</p>
+						<p xml:id="atv-l1d1q4-d1e4004">Contra responsionem dicti predicatoris</p>
+						<p xml:id="atv-l1d1q4-d1e4007">Sed iste solutiones non satisfaciunt, ut videtur. Non quidem prima propter duo. </p>
+						<p xml:id="atv-l1d1q4-d1e4010">Primo, quia non minus repugnat ei quod est omnino nihil esse obiectum visus
+							terminativum quam motivum, cum terminare, sicut et movere, presupponat esse, ut patet
+							ex supradictis. </p>
+						<p xml:id="atv-l1d1q4-d1e4013">Secundo, quia non est de ratione obiecti quod moveat potentiam ad actum, quia sive
+							moveat sive non, dum tamen terminet actum vere est obiectum. Si igitur non repugnat
+							albedini annihilate terminare actum videndi, albedo annihilata vere erit obiectum
+							visus, quod est absurdum, quia tunc obiectum eius adequatum esset aliquod commune enti
+							et non enti, quod nullus diceret. </p>
+						<p xml:id="atv-l1d1q4-d1e4016">Patet igitur quod prima ratio non est soluta, nec etiam secunda, quia nec prima
+							solutio satisfacit, nec secunda. Ratio quidem prima, quia non est verum quod omnis
+							notitia que de necessitate non coexigit aliam priorem sit intuitiva, quia notitia
+							intuitiva non necessario est prior abstractiva, ergo abstractiva non necessario
+							coexigit aliam priorem. Consequentia est nota, quia, si coexigeret, non nisi
+							intuitivam. Antecedens probatur, quia, si detur oppositum, sequitur quod Iohannes
+							Baptista in utero matris sue non habuisset de Christo cognitionem abstractivam, cum
+							nullam intuitivam precedentem habuerit de ipso, quod tamen est falsum, quia certum est
+							quod habuit de ipso aliquam notitiam, iuxta doctrinam evangelii, et non intuitivam,
+							nec aliam quam abstractivam, ut patet; igitur etc. </p>
+						<p xml:id="atv-l1d1q4-d1e4020">Nec secunda solutio satisfacit, quia posito quod aliqua visio corporalis
+							
+							<pb ed="#V" n="45-r"/>
+							<cb ed="#V" n="a"/>
+							
+							possit esse abstractiva, quod tamen communiter non tenetur, licet mihi non videatur
+							impossibile, adhuc ratio mea non solvitur, quia Deus poterit annihilare
+							representativam albedinis sicut et albedinem, et per consequens illa visio, supposito
+							quod sit, non erit abstractiva, sed intuitiva. Quo posito sequitur quod notitia
+							intuitiva vera poterit esse sine actuali presentia obiecti, sicut ratio deducebat
+							tertio. Ratio etiam non est soluta, quia non est verum quod visionis ad id quod
+							videtur non sit relatio realis secundum quod terminat actum, ut patet ex supradictis.
+							Patet igitur rationes non esse solutas, et per consequens manet illa propositio,
+							scilicet quod simpliciter est impossibile et contradictionem implicat albedinem
+							annihilata videri. Et quia hoc est quasi totum fundamentum principalis rationis,
+							confirmo eam sic: non minus repugnat videri albedini annihilate quam absenti realiter
+							existenti. Sed albedini absenti realiter existenti repugnat omnino videri, ut docet
+							experientia; igitur etc. Hec est sententia <name>Anselmi</name>
+							<title>De libero</title> 12, capitulo 4, ubi sic ait: <quote xml:id="atv-l1d1q4-Qd1e4032">Nullam potestatem habens, ut
+							puto, que sola sibi sufficiat ad actum</quote>. Et quibusdam paucis interpositis subdit ad
+							propositum: <quote xml:id="atv-l1d1q4-Qd1e4036">Habet in potestatem et instrumentum videndi montem qui visum habet. Et
+							tamen, si mons abest et dicis: vide montem, respondet tibi: non possum, quia abest. Si
+							adesset, possem videre</quote>. Et modicum infra dicit: <quote xml:id="atv-l1d1q4-Qd1e4039">Potestas videndi aliquod corpus alia
+							est in vidente, alia est in re visa, alia in medio et ea que est in medio alia est in
+							non impediente, alia in adiuvante</quote>. Et subdit: <quote xml:id="atv-l1d1q4-Qd1e4042">Quattuor sunt igitur iste potestates
+							quarum, si una deest, alie tres nec singule, nec omnes simul aliquid possunt efficere</quote>.
+							Hec <name>Anselmus</name>. Sed constat quod annihilata albedine una istarum deficit;
+							ergo. Patet illa igitur propositio, et per consequens patet quod solutio data non
+							satisfacit prime rationi.</p>
+						<p xml:id="atv-l1d1q4-d1e4049">Magister <name>Alphonsus de Portugalia</name></p>
+						<p xml:id="atv-l1d1q4-d1e4054">Et ideo respondebat ad eam quidam alius reverendum pater et magister dupliciter.
+							Primo interimendo minorem qua dicebatur quod creatura rationalis de potentia Dei
+							absoluta potest habere actum visionis sive visione que nunc videt actualiter
+							formaliter in visu et non videre. Et ad probationem dicebat quod, si ly ‘precise’
+							excludat omne esse obiectivum perspicuum sive apparens, casus est impossibilis, quia
+							implicatio est. Si vero excludat omne aliud esse reale, sic ita. Et quando dicitur
+							quod 'Deus potest annihilare albedinem conservatis' etc., dicebat quod casu posito talis
+							videbit visione falsa, quia per visionem illam poneretur res que non est in esse
+							apparenti. Et cum queritur quid videbit, respondebat quod videbit albedinem que non
+							est in se et realiter posita, sed in esse apparenti secundum quid et diminute. Et
+							quando dicitur quod 'talis albedo nihil est', verum est in esse reali et tamen aliquid
+							est in esse obiectivo et apparenti. Et ad confirmationem quando dicebatur quod 'nihil
+							videre et non videre equipollent', dicebat quod verum est per negotium prepositam, sed
+							videre nihil non equipollet cum non videre. </p>
+						<p xml:id="atv-l1d1q4-d1e4057">Secundo respondebat negando casu, quia non est possibile quod annihiletur obiectum
+							visus et conservetur visio qua videbatur. Si fundamenta mea sunt vera, quia per me
+							implicatio contradictionis est propter adequationem obiecti ad potentiam quod voluntas
+							aliquid diligat et illud non sit sibi presens in ratione obiecti, igitur a simili
+							implicatio contradictionis est quod homo aliquid videat et illud non sit sibi presens
+							in ratione obiecti, sed idem iudicium est de visione et videre, cum tamen sint idem,
+							vel saltem inseparabiliter se consequuntur, igitur.</p>
+						<p xml:id="atv-l1d1q4-d1e4060">Contra magistrum <name>Alphonsum</name></p>
+						<p xml:id="atv-l1d1q4-d1e4065">Sed, licet iste solutiones sint satis subtiles et pulchre, non satisfaciunt tamen
+							rationi. Non quidem prima pro cuius impugnatione pono quattuor propositiones. </p>
+						<p xml:id="atv-l1d1q4-d1e4069">Prima est quod res visa non ponitur per actum videndi in aliquo esse intentionali
+							perspicuo et apparenti, prout imaginatur illa solutio. Ista propositio ex intentione
+							declarabitur inferius. Ad presens tamen deduco eam sic: si res visa per actum videndi
+							ponatur etc., ponatur quod aliquid videat albedinem. Et quero ac tale videat esse reale
+							albedinis an esse intentionale precise, vel utrumque simul. Si detur primum, esse
+							intentionale superfluit. Si secundum, superfluit esse reale, et posset fieri notitia
+							intuitiva vera sine aliquo obiecto reali, quod tamen est falsum. Si detur tertium,
+							eadem visio numero habebit duo obiecto adequata simul, quod est impossibile, quia
+							nullum eorum adequaret. Consequentia apparet, quia quicquid videtur esse obiectum,
+							videtur esse obiectum visus. Et confirmatur, quia vel res visa potest videri sine isto
+							esse perspicuo et apparenti,
+							
+							<pb ed="#V" n="45-r"/>
+							<cb ed="#V" n="b"/>
+							
+							vel non. Si sic, frustra ponitur. Si non, cum istud
+							esse sit aliquid, prout aliquid distinguitur nihil et sit aliquid distinctum a vidente
+							et ab actu videndi et re visa poterit annihilari per divinam potentiam ceteris omnibus
+							conservatis, quia nullus eorum dependet ab ipso in aliquo genere cause quod Deus non
+							possit supplere. Quo posito patet quod talis habebit actum videndi et re visibili
+							presente et tamen non videbit, quod est principale propositum. </p>
+						<p xml:id="atv-l1d1q4-d1e4076">Secunda propositio est quod detracta re visibili, etiam si per actum videndi ponatur
+							aliquo tali esse, nulla remanet visio in homine que possit videre, cuius oppositum
+							asseritur. Ista propositio patet per beatum <name> Augustinum</name> XI <title>De
+								Trinitate</title>, capitulo 4, de parvis, ubi dicit expresse quod <quote xml:id="atv-l1d1q4-Qd1e4084">re visibili
+							detracta nulla est nec ulla omnino potest esse visio si corpus non sit quod videri
+							possit</quote>. Et capitulo sequenti dicit quod <quote xml:id="atv-l1d1q4-Qd1e4087">informatio sensus que visio dicitur a solo
+							imprimitur corpore quod videtur, id est a re aliqua visibili qua detracta nulla
+							remanet forma que inhereat sensui, dum adesset illud quod videbatur, velut in aqua
+							vestigium tamdiu est, donec ipsum corpus quod imprimitur inest, quo ablato nullum
+							est</quote>. Hec <name>Augustinus</name>. Nec valet si dicatur quod beatus <name>
+								Augustinus</name> est contra me sicut et contra ipsum, quia et in ratione mea
+							supponitur quod detracta, immo annihilata re visibili conservetur visio propter duo.
+							Primo, quia beatus <name>Augustinus</name> loquitur de visione qua aliquid videtur,
+							sicut patet intuenti librum illum. Ego vero loquor de visione que nihil videtur,
+							secundo quia beatus <name>Augustinus</name> loquitur de facto et de potentia naturali,
+							sicut et iste socius et doctor quem sequitur in hac materia contra quem in primo
+							articulo prime questionis huius prologi adduxi auctoritates istas et quasdam alias.
+							Ego vero loquor de possibili et de potentia Dei absoluta. </p>
+						<p xml:id="atv-l1d1q4-d1e4104">Tertia propositio est quod, si albedo realiter annihilata possit videri in tali esse
+							apparenti et diminuto, prout asserit illa solutio, adhuc non solvitur ratio mea. Istam
+							propositionem deduco primo sic: non minus potest Deus annihilare esse apparens et
+							diminutum albedinis conservato homine et actu visionis in homine quam esse reale
+							ipsius annihilet, ergo Deus istud esse sicut superius dicebatur de representativo
+							albedinis sequitur quod talis habebit actum videndi et non videbit, quia nec videbit
+							albedinem in esse reali, nec in esse apparenti. Secundo sic: supposito quod albedo
+							ponatur naturaliter per actum videndi in tali esse apparenti, adhuc Deus poterit
+							videnti albedine ad hoc non cooperari, quo posito albedo non erit posita in aliquo tali
+							esse. Isto casu posito annihilet Deus albedinem conservato homine et actu visionis in
+							homine et sequitur quod talis habebit actum visionis et non videbit ut prius. </p>
+						<p xml:id="atv-l1d1q4-d1e4107">Quarta propositio est quod non solum non videre et nihil videre equipollent, sed
+							etiam videre nihil et non videre, cuius oppositum asseritur in hac solutione. Ista
+							propositio probatur primo, quia sequitur video nihil, ergo nihil videtur a me, sicut
+							sequitur video albedinem, ergo albedo videtur a me. Sed sequitur nihil videtur a me,
+							igitur non videtur, sicut sequitur nihil amatur a me, igitur non amo, ut patet per beatum
+								<name> Augustinum</name> IX <title>De Trinitate</title>, capitulo 4, ubi
+							expresse dicit quod <quote xml:id="atv-l1d1q4-Qd1e4115">ubi nihil amatur, nullus est amor</quote> et loquitur de amore quo
+							habens ipsum amat vel est amans, ut patet videntibus precedentem litteram et
+							sequentem. Secundo, quia sequitur video nihil, ergo nihil video. Sed per eum sequitur
+							nihil video, ergo non video. Probatur maior, quia cum video nihil vel nihil video, vel
+							aliquid video. Secundum dari non potest propter implicationem contradictionis.
+							Relinquitur ergo primum, quod est propositum. Et confirmatur, quia bene sequitur video
+							aliquid, ergo aliquid video, ergo sequitur video nihil, ergo nihil video. Tertio, quia
+							vel potest videri quod caret omni esse tam reali quam apparenti, vel non. Primum dari
+							non potest, iuxta solutionem datam et doctrinam doctoris quam sequitur. Relinquetur
+							ergo secundam et quartam esse reale quam apparens est aliquid, prout aliquid
+							distinguitur contra nihil secundum eum. Sequitur video, ergo video aliquid, et per
+							consequens sequitur video nihil, ergo non video a destructione antecedentis. </p>
+						<p xml:id="atv-l1d1q4-d1e4119">Ex his patet quod prima solutio non satisfaciat, ut videtur. Nec secunda videtur
+							satisfacere propter duo. Primo, quia casus est possibilis et probavi
+							possibilita-
+							
+							<pb ed="#V" n="45-v"/>
+							<cb ed="#V" n="a"/>
+							
+							tem eius et ad probationem non fuit responsum secundo, quia non
+							sequitur dictis meis quod casus sit impossibilis, sicut assumitur, quia, licet sit
+							implicatio contradictionis propter adequationem obiecti ad potentiam quod homo aliquid
+							videat et illud non sit sibi presens in ratione obiecti, non est tamen idem iudicium
+							de visione et videre. Ratio illius est, quia visio est quidam qualitas absoluta non
+							includens respectum essentialiter et intrinsece. Videre vero includit essentiali
+							respectum attingentie ad obiectum. Exclusis igitur istis solutionibus confirmo
+							conclusionem principalem sic: omne accidens absolutum quod est in una voluntate Deus
+							potest ponere in quadam alia de potentia sui absoluta. Patet illa propositio, quia, si
+							ponatur in esse, nulla sequitur contradictio. Ponatur ergo Deus dilectionem qua beatus
+							nunc diligit ipsum beatifice in voluntate creature non cognoscentur actualiter, utputa
+							alicuius hominis dormientis vel alicuius nondum habentis usum rationis. Isto casu
+							possibili posito patet quod talis habebit dilectionem formaliter in voluntate et tamen
+							non diliget, quia non cognoscet ex supposito, ergo. Et sic patet prima. </p>
+					</div>
+					<div xml:id="atv-l1d1q4-Dd1e4127">
+						<head xml:id="atv-l1d1q4-Hd1e4129"><supplied>Conclusio secunda</supplied></head>
+						<p xml:id="atv-l1d1q4-d1e4133">Secunda conclusio principalis est quod creatura rationalis de potentia Dei absoluta
+							potest habere delectationem qua nunc actualiter delectatis in Deo vel de Deo beatifice
+							formaliter in voluntate, et tamen non delectari. Pro cuius deductione premitto aliquas
+							propositiones. </p>
+						<p xml:id="atv-l1d1q4-d1e4136">Prima est quod nulla delectatio in creaturis est essentialiter cognitio, nec
+							econverso. Ista propositio patet ex supradictis. Primo, quia delectatio non magis
+							identitatis cognitioni quam dilectio et nulla dilectio in creaturis est essentialiter
+							cognitio, ut patet ex dictis, ergo. Secundo, quia omnis cognitio in creaturis est
+							actus potentie cognitive et nulla est actus potentie appetitive. Hoc patet ex
+							supradictis, <unclear>sed nulla</unclear> delectatio creata est actus potentie cognitive et omnis
+							cognitio est actus vel passio potentie appetitive, ut patet ex precedentis questione;
+							igitur etc. Tertio, quia, si aliqua delectatio creata esset essentialiter cognitio,
+							hoc maxime esset delectatio beatifica. Sed ista non; ergo nulla. Probatur minor, quia,
+							si sic, cum talis delectatio sit aliquid fruitionis beatifice essentialiter et
+							intrinsece, ut patet ex secunda questione huius distinctionis, cognitio esset etiam
+							aliquid eius essentialiter et intrinsece, quod non est verum, ut patet ex tertia
+							questione.</p>
+						<p xml:id="atv-l1d1q4-d1e4142">Secunda propositio est quod nulla delectatio in creaturis est essentialiter dilectio,
+							nec econverso. Et ista fuit sufficienter declarata in prima questione huius
+							distinctionis.</p>
+						<p xml:id="atv-l1d1q4-d1e4145">Tertia propositio est quod delectatio qua creatura rationalis nunc actualiter
+							delectatur de Deo beatifice potest esse formaliter in eius voluntate de potentia Dei
+							absoluta omnis cognitione et dilectione ab eadem circumscripta. Ista propositio patet
+							per rationes quibus probavi quod dilectio qua creatura rationalis nunc diligit Deum
+							beatifice potest manere formaliter in ipsa de potentia Dei absoluta sine omni
+							cognitione.</p>
+						<p xml:id="atv-l1d1q4-d1e4149">Preterea, quia supposita distinctione reali cognitionis, dilectionis, et delectationis
+							in creaturis patet non magis dependet delectatio a cognitione et dilectione previor
+							quam accidens a substantia. Secundo, quia talis delectatio est res absoluta ab omni
+							cognitione et dilectione creata realiter distincta et independens in omni genere
+							cause quod Deus non potest supplere. Tertio, quia, si talis delectatio sit, et
+							cognitio et dilectio non sit, nulla sequitur contradictio; ergo etc. </p>
+						<p xml:id="atv-l1d1q4-d1e4152">Quarta propositio est quod per nullam potentiam finitam vel infinitam est possibile
+							quod creatura rationalis delectetur de Deo beatifice et nullum actum cognitionis, nec
+							dilectionis habeat circa ipsum. Ista propositio patet, quia diligere non magis
+							presupponit cognitionem quam sic delectari delectationem vel saltem cognitionem. Sed
+							per nullam potentiam potest incognitum diligi, ut patet ex supradictis; ergo. </p>
+						<p xml:id="atv-l1d1q4-d1e4155">Istis propositionibus sic deductis deduco conclusionem principalem. Primo sic:
+							sequitur creatura rationalis delectatur de Deo beatifice, igitur diligit vel cognoscit
+							Deum. Hoc patet ex propositione immediate precedenti, sed delectatio qua creatura
+							talis nunc delectatur de Deo beatifice formaliter potest esse in eius voluntate et
+							ipsa non diliget, nec cognoscet, cum non sit essentialiter cognitio, nec dilectio, ut
+							patet ex premissis duabus propositionibus. Et possem manere formaliter in creatura
+							sine omni cognitione et dilectione, ut patet ex tertia; igitur etc.</p>
+						<p xml:id="atv-l1d1q4-d1e4158">Secundo sic: non est maior repugnantia quod creatura sic rationalis habeat
+							delectationem qua nunc delectatur beatifice de Deo formaliter in voluntate et non
+							delectetur quam quod habeat dilectionem qua nunc diligit ipsum beatifice et non
+							diligat. Sed secundum possibile est de potentia Dei absoluta
+							
+							<pb ed="#V" n="45-v"/>
+							<cb ed="#V" n="b"/>
+							
+							ex precedenti
+							questione; igitur.</p>
+						<p xml:id="atv-l1d1q4-d1e4165">Ex istis duabus conclusionibus et earum probationibus videtur sequi alique
+							propositiones correlarie. </p>
+						<p xml:id="atv-l1d1q4-d1e4168">Prima est quod creatura rationalis damnata de potentia Dei absoluta potest habere
+							odium quo nunc actualiter odit Deum formaliter in voluntate et non odire. Ista
+							propositio patet, quia non magis repugnat quod creatura rationalis damnata habeat
+							odium quo nunc actualiter odit Deum formaliter in voluntate et non odiat quam quod
+							creatura rationalis beata habeat dilectionem qua nunc diligit Deum actualiter et non
+							diligat, sed secundum potest fieri de potentia Dei absoluta, ut patet ex prima
+							conclusione, igitur et primum. </p>
+						<p xml:id="atv-l1d1q4-d1e4172">Secunda propositio est quod creatura rationalis de potentia Dei absoluta potest
+							habere cognitionem qua nunc actualiter cognoscit formaliter in intellectu et non
+							cognoscere. Hoc patet per eandem deductionem, quia non est maior repugnantia quod
+							habeat cognitionem qua nunc actualiter cognoscit formaliter in intellectu et non
+							cognoscat quam quod habeat dilectionem qua nunc acutaliter diligit formaliter in
+							voluntate et non diligat et visionem qua nunc actualiter videtur formaliter in visu et
+							non videat. Sed ultima duo sunt possibilia de potentia Dei absoluta; igitur etc. Nunc
+							declaratum est supra, igitur etc.</p>
+						<p xml:id="atv-l1d1q4-d1e4175">Tertia propositio est quod creatura rationalis de potentia Dei absoluta potest habere
+							actum cognitionis formaliter intellectu et non cognoscere et actu dilectionis vel odii
+							formaliter in voluntate et non diligere, vel odire, et sic de aliis similibus
+							quibuscumque. Deductio videtur clara, quia actus cognitionis non est nisi cognitio qua
+							creatura cognoscit actualiter, et actus dilectionis non est nisi dilectio qua diligit
+							actualiter, et actus odii non est nisi odium quo odit actualiter, essentialiter, et in
+							recto. Sed cognitio qua talis creatura cognoscit actualiter potest esse formaliter in
+							eius intellectu et ipsa non cognoscit et dilectio in eius voluntate et ipsa non
+							diligit et similiter de odio non quidem intendo in sensu composito, sed diviso, ut
+							patet ex supradictis; ergo.</p>
+						<p xml:id="atv-l1d1q4-d1e4178">Quarta propositio est quod creatura rationalis potest fieri de vidente non videns, de
+							intelligente non intelligens, et econverso, nulla facta mutatione circa ipsam in
+							aliquo absoluto. Deductio patet evidenter ex illa ratione principali pro prima
+							conclusione. </p>
+						<p xml:id="atv-l1d1q4-d1e4181">Quinta propositio est quod creatura rationalis damnata de potentia Dei absoluta
+							potest habere tristitiam qua nunc tristatur damnabiliter in voluntate formaliter et
+							non tristari. Et hec sequitur ex secunda conclusione principali, quia non magis
+							repugnat quod creatura rationalis damnata habeat tristitiam qua nunc tristatur
+							damnabiliter formaliter in voluntate et non tristetur quam quod habeat delectationem
+							qua nunc delectatur beatifice et non delectetur. Sed secundum est possibile de
+							potentia Dei absoluta, ut patet ex conclusione illa; igitur etc.</p>
+						<p xml:id="atv-l1d1q4-d1e4184">Sexta propositio est quod ista consequentia non est simpliciter necessaria: creatura
+							rationalis habeat actus dilectionis et delectationis quibus nunc diligit et delectatur
+							beatifice formaliter in voluntate, igitur est beata. Ista propositio patet, quia
+							sequitur creatura rationalis non cognoscit, nec delectatur, nec diligitur, igitur non
+							est beata, sed potest habere actus dilectionis et delectationis predictos formaliter
+							in voluntate non cognoscere, nec diligere, nec delectari, ut declaratum est supra;
+							igitur etc.</p>
+						<p xml:id="atv-l1d1q4-d1e4187">Septima propositio est quod nec ista consequentia est simpliciter necessaria:
+							creatura rationalis habet odium et tristitia quibus nunc ipsa vel saltem alia odit et
+							tristatur damnabiliter, igitur est damnata. Hec patet, quia, si odium et tristitia
+							quibus aliud damnatus non odit et tristatur damnabiliter ponantur formaliter in
+							voluntate alicuius hominis viatoris, sic tamen quod talis non odiat, nec tristetur
+							quod fieri potest de potentia Dei absoluta, ut patet ex supradictis, patet quod talis
+							habebit odium et tristitiam quibus aliquis nunc odit et tristatur damnabiliter, et
+							tamen non erit damnatus. </p>
+						<p xml:id="atv-l1d1q4-d1e4191">Octava et ultima propositio est quod creatura rationalis de potentia Dei absoluta
+							potest habere fruitionem qua nunc fruitur Deo beatifice formaliter in voluntate, et
+							tamen non frui. Deductio est evidens, quia talis fruitio non est nisi dilectio et
+							delectatio quibus nunc beatifice diligit et delectatur, ut declaratum est questione
+							secunda huius distinctionis. Sed ista possunt esse formaliter in eius voluntate de
+							potentia Dei absoluta et ipse non diliget, nec delectabitur, ut patet ex dictis;
+							ergo.</p>
+					</div>
+					<div xml:id="atv-l1d1q4-Dd1e4195">
+						<head xml:id="atv-l1d1q4-Hd1e4197"><supplied>Conclusio tertia</supplied></head>
+						<p xml:id="atv-l1d1q4-d1e4201">Tertia conclusio principalis est quod dilectio qua creatura rationalis nunc diligit
+							Deum beatifice ipsa manente in creatura non potest non esse dilectio sibi.</p>
+						<p xml:id="atv-l1d1q4-d1e4204">Pro deductione istius conclusionis premitto aliquas propositiones. </p>
+						<p xml:id="atv-l1d1q4-d1e4207">Prima est quod implicatio contradictionis est quod dilectio sit et non sit dilectio.
+							Istam propositionem deduco primo sic: implicatio contra-
+							
+							<pb ed="#V" n="46-r"/>
+							<cb ed="#V" n="a"/>-
+							
+							dictionis est quod homo
+							sit et non sit homo, igitur implicatio contradictionis est quod dilectio sit et non
+							sit dilectio. Consequentia est nota, quia utrobique est similis repugnantia.
+							Antecedens probatur, quia sequitur homo est et non est homo, igitur homo est et non
+							est animal rationale, igitur homo est et non est animal irrationale. Istud secundum
+							consequens implicat contradictionem, igitur et primum antecedens. Prima consequentia
+							tenet per locum a diffinitione. Secunda probatur, quia homo qui ponitur esse vel est
+							aliquid et ens, vel non est aliquid nec ens. Si non est aliquid nec ens, igitur non
+							est, cuius oppositum est suppositum. Si est aliquid et ens, cum omne ens sit
+							substantia vel accidens et homo qui ponitur esse non sit accidens, sequitur quod sit
+							substantia, quia omnis substantia est corporea vel incorporea. Cum non sit incorporea,
+							sequitur quod sit corpus per consimilem discursum, sequitur quod sit alias, sed omne
+							animal est rationale vel irrationale; igitur, si homo qui ponitur esse non est animal
+							rationale, sequitur quod sit irrationale. Et hec fuit secunda consequentia; igitur
+							etc.</p>
+						<p xml:id="atv-l1d1q4-d1e4214">Et confirmatur, quia dilectio est quedam qualitas determinata ab omni qualitate que
+							non est dilectio specifice distincta, sicut homo est quedam substantia determinata ab
+							omni substantia que est homo specifice distincta, igitur dilectionis, sicut et
+							hominis, est aliqua diffinitio. Quecumque sit illa, verum, quia diffinitiones rerum
+							sunt nobis ignote. Ponatur quod dilectio diffinitive sit qualitas mentis spiritualis,
+							ita quod, sicut diffinitio hominis est animal rationale, ita diffinitio dilectionis
+							est qualitas spiritualis. Et, sicut animal dividitur per rationale et irrationale
+							tanquam per differentias oppositas, sic qualitas per spiritualem et corporalem. Tunc
+							sic sequitur dilectio est et non est dilectio, igitur dilectio est et non est qualitas
+							spiritualis, igitur dilectio est et non est qualitas corporalis. Istud secundum
+							consequens implicat contradictionem ex supposito, sicut et istud ‘homo est et <supplied>non</supplied> est
+							animal irrationale’, igitur et primum antecedens. Prima consequentia tenet per locum a
+							diffinitione. </p>
+						<p xml:id="atv-l1d1q4-d1e4221">Secundo probatur, quia dilectio que ponitur esse vel est aliquid, vel nihil. Si
+							nihil, igitur non est, quod est contra positum. Si aliquid, cum omne tale sit
+							substantia vel accidens et dilectio que ponitur esse non est substantia, sequitur quod
+							sit accidens et, cum omne accidens sit quantitas vel qualitas etc., cum non sit
+							quantitas nec aliquod aliorum, sequitur quod sit qualitas. Sed omnis qualitas est
+							corporalis vel spiritualis; igitur, si dilectio que ponitur esse non sit qualitas
+							spiritualis, sequitur quod sit qualitas corporalis. Et hec fuit secunda consequentia;
+							igitur etc.</p>
+						<p xml:id="atv-l1d1q4-d1e4224">Sed forte dicetur ad istam rationem interimendo consequentiam, quia ille terminus
+							‘homo’ non est terminus connotativus, sicut ille terminus ‘dilectio’. Et ideo, licet
+							sit implicatio contradictionis quod homo sit et non sit homo, non est tamen implicatio
+							quod dilectio sit et non sit dilectio. Et ex eodem fundamento posset responderi ad
+							confirmationem, quia non est verum quod dilectio sit quedam qualitas determinata,
+							sicut homo est quedam substantia, quia, licet ille terminus 'dilectio' principaliter et
+							in recto significet talem qualitatem, connotat tamen terminum quod non facit ille
+							terminus ‘homo’, et ideo non est simile de utroque.</p>
+						<p xml:id="atv-l1d1q4-d1e4227">Sed ad veritatem illa evasio est nulla propter duo. Primo, quia non est verum quod
+							ille terminus 'dilectio' sit terminus connotativus, quia, licet 'diligere' sit terminus
+							connotativus, non tamen 'dilectio', ut declarabitur infra. Secundo, quia posito quod
+							dilectio sit terminus connotativus, adhuc est implicatio quod dilectio sit et non sit
+							dilectio, quia omnis propositio in qua predicatur idem de se ipso est necessaria sive
+							termini illius sint connotativi, sive non, igitur ista propositio 'hec dilectio est
+							dilectio demonstrata dilectione que ponitur esse' est necessaria, etiam supposito quod
+							'dilectio' sit terminus connotativus.</p>
+						<p xml:id="atv-l1d1q4-d1e4230">Istam rationem facit <name>Anselmus</name> ad probandum quod necesse est omne futurum
+							esse futurum, <title>De concordia prescientie et predestinationis</title>, capitulo 4,
+							ubi sic ait: <quote xml:id="atv-l1d1q4-Qd1e4238">Itaque cum dicitur futurum de futuro necesse est esse quod dicitur sicut
+							quotiens, idem dicimus de eodem. Cum enim dicimus quod omnis homo est homo, aut si est
+							homo est homo aut omne album est album et, si est album, album est. Necesse est esse,
+							quod dicitur, quia non potest aliquid simul esse et non esse</quote>. Hec
+								<name>Anselmus</name>. Ex quibus verbis apparet quod omnis propositio in qua
+							predicatur idem de eodem est necessaria, sive termini sint connotativi, sive non.</p>
+						<p xml:id="atv-l1d1q4-d1e4245">Et confirmatur, quia posito quod dilectio
+							
+							<pb ed="#V" n="46-r"/>
+							<cb ed="#V" n="b"/>
+							
+							sit, vel illa dilectio est dilectio,
+							vel illa dilectio non est dilectio. Si detur primum, cum idem iudicium sit de alia
+							quacumque, sequitur quod omnis dilectio sit dilectio, et per consequens implicatio
+							contradictionis est quod dilectio sit et non sit dilectio. Si detur secundum, sequitur
+							quod aliqua propositio in qua idem predicatur de se ipso non sit vera. Secunda
+							propositio est quod implicatio contradictionis est quod res que nunc est dilectio sit
+							et non sit dilectio. Ista propositio patet, quia implicatio contradictionis est quod
+							res que nunc est dilectio sit et dilectio non sit. Hoc patet, quia non potest aliquid
+							simul esse et non esse, ergo sequitur res que est dilectio est, ergo dilectio est. Sed
+							sequitur dilectio est, ergo est dilectio; igitur etc.</p>
+						<p xml:id="atv-l1d1q4-d1e4252">Istis propositionibus declaratis deduco conclusionem principalem sic: dilectio qua
+							creatura rationalis nunc diligit Deum beatifice ipsa manente non potest non esse
+							dilectio sibi, igitur ipsa manente in creatura non potest non esse dilectio sibi.
+							Antecedens patet, quia ipsa manente dilectio est vel saltem res que est dilectio est.
+							Et quocumque istorum dato sequitur quod ipsa sit dilectio, ut patet ex propositionibus
+							iam deductis. Et consequentia est nota, quia opposita conclusio non potest habere nisi
+							duas causas veritatis. Prima est quod talis dilectio ipsa manente possit non esse
+							dilectio, cuius oppositum assumitur in antecedente. Secunda est quod talis dilectio
+							non sit in creatura, cuius oppositum ponitur in consequente; igitur etc. Et
+							confirmatur, quia omnis dilectio qua creatura nunc diligit ipsa manente in creatura
+							est aliquid creature et non nisi dilectio, quia nihil est aliud quam dilectio,
+							igitur.</p>
+					</div>
+					<div xml:id="atv-l1d1q4-Dd1e4257">
+						<head xml:id="atv-l1d1q4-Hd1e4259"><supplied>Conclusio quarta</supplied></head>
+						<p xml:id="atv-l1d1q4-d1e4263">Quarta conclusio est quod delectatio que creatura rationalis nunc delectatur
+							beatifice ipsa manente in creatura non potest non esse delectatio sibi. Ista conclusio
+							patet sicut et precedens. Confirmo tamen eam sic: si aliqua delectatio creature ipsa
+							manente in creatura potest non esse delectatio sibi, ponatur quod delectatio que nunc
+							est in Gabriele non sit delectatio sibi. Et quero an ista delectatio et delectatio que
+							nunc est delectatio Michaelis sit eiusdem speciei specialissime vel non. Si sic, cum
+							delectatio Michaelis sit specifice delectatio, delectatio Gabrielis erit specifice
+							delectatio. Quo posito sequitur quod sit delectatio sibi, quod est propositum. Ista
+							consequentia patet, quia non potest sibi esse, nisi quod est et ipsa est ex supposito
+							delectatio. Si non, igitur non manet, quod est contra positum. Et consequentia patet,
+							quia unaquaque res ponitur in specie per suum proprium genus et per suam propriam
+							differentiam vel igitur delectatio illa que non est delectatio Gabrieli manet quantum
+							ad suum proprium genus et suam propriam differentiam, vel non. Si non, igitur non
+							manet, quia nulla res manet cuius proprium genus vel propria differentia non manent.
+							Et sic patet consequentia. Si sic, igitur est eiusdem speciei, cuius erat prius. Sed
+							prius erat eiusdem speciei cum delectatione Michaelis; igitur et nunc cuius oppositum
+							est concessum; igitur etc.</p>
+						<p xml:id="atv-l1d1q4-d1e4266">Ex istis conclusionibus et earum deductionibus sequuntur alique propositiones
+							correlarie. Prima: quod cognitio qua nunc creatura cognoscit ipsa manente in creatura
+							non potest esse cognitio sibi. Hoc patet, quia non est maior repugnantia de cognitione
+							quam de dilectione et delectatione. Idem etiam sequitur de odio quo nunc creatura odit
+							et de tristitia qua nunc tristatur, et sic de his quibuscumque.</p>
+						<p xml:id="atv-l1d1q4-d1e4269">Secunda propositio est quod illa generalis imaginatio quorundam qua dicitur quod
+							filio non existente Pater est, et sic de aliis similibus est omnino irrationalis et
+							puerilis. Deductio patet ex dictis, quia omnis propositio in qua idem dicitur de se
+							ipso est necessaria et eius opposita impossibilis, ut patet etiam per
+								<name>Anselmum</name> superius allegatum.</p>
+						<p xml:id="atv-l1d1q4-d1e4275">Tertia propositio est quod fruitio qua creatura rationalis nunc fruitur Deo beatifice
+							ipsa manente in creatura non potest non esse fruitio sibi et hec responsiva ad
+							questionem in forma. Deductio est clara, quia talis fruitio non est dilectio et
+							delectatio quibus nunc diligit et delectatur beatifice. Sed istis manentibus in
+							creatura non possunt non esse dilectio et delectatio sibi, ut declaratum est supra;
+							igitur etc.</p>
+						<p xml:id="atv-l1d1q4-d1e4279">Quarta propositio est ista: consequentia est nulla 'hac fruitione creatura non
+							fruitur, igitur non est fruitio creature’. Hoc patet per nullam potentiam est
+							possibile quod fruitio qua creatura rationalis nunc fruitur Deo beatifice ipsa manente
+							in creatura non sit fruitio sibi, ut patet
+							
+							<pb ed="#V" n="46-v"/>
+							<cb ed="#V" n="a"/>
+							
+							ex propositione precedenti. Sed per
+							aliquam potentiam est possibile quod talis fruitio maneat in creatura et ipsa non
+							fruatur; ergo etc.</p>
+						<p xml:id="atv-l1d1q4-d1e4286">Et ex istis apparet universaliter quod illa consequentia est nulla 'hac dilectione
+							creatura non diligit, igitur non est dilectio sibi'. Et similiter de delectatione et
+							cognitione, et sic de aliis quibuscumque. Ratio istorum est quod diligere et dilectio,
+							cognoscere et cognitio, et sic de similibus non sunt penitus idem, quia dilectio est
+							precise una res absoluta et similiter cognitio. Diligere autem dicit dilectionem et
+							cognoscere cognitionem non absolute, sed cum respectu attingentie ad obiectum, et sic
+							de aliis, ut clarius apparebit inferius. Et hoc de articulo secundo.</p>
+					</div>
+				</div>
+				<div xml:id="atv-l1d1q4-Dd1e4291">
+					<head xml:id="atv-l1d1q4-Hd1e4293">Tertius et quartus articulus</head>
+					<p xml:id="atv-l1d1q4-d1e4296">Quantum ad tertium et quartum articulum simul contra conclusiones istas movenda et
+						dissolvenda sunt dubia. Et primo contra primam. Verum, quia conclusio illa dependet ex
+						tribus propositionibus primis. Primo movebo dubia propositiones et secundo contra
+						conclusionem. </p>
+					<p xml:id="atv-l1d1q4-d1e4299">Quantum ad primum contra propositionem primam qua dicebatur quod nulla dilectio in
+						creaturis est essentialiter cognitio est quedam opinio que ponit:</p>
+					<p xml:id="atv-l1d1q4-d1e4302"><name>Adam</name> in I, distinctione 1, questione 3, articulo 2</p>
+					<p xml:id="atv-l1d1q4-d1e4307">Quod omnis actus appetendi et odiendi et fruendi et universaliter omnis amor et omnis
+						volitio est essentialiter cognitio, licet non econverso. Arguitur primo sic: omnis
+						experientia alicuius obiecti est quedam cognitio eiusdem, sed omnis actus appetitus est
+						quedam experientia sui obiecti, id est quo anima experitur tale obiectum, quia omnis
+						actus vitalis est quedam experientia, aliter non plus esset actus vitalis anime quam
+						species previa omni actui <unclear>sicut</unclear> ponatur. Sed omnis volitio et etiam nolitio est actus
+						vitalis; igitur etc.</p>
+					<p xml:id="atv-l1d1q4-d1e4314">Preterea, non magis inconveniens est ponere omnem volitionem quamdam esse cognitionem,
+						licet non omnis cognitio sit actus appetendi quam quod omnis assensus sit apprehensio
+						quedam, licet non omnis apprehensio sit assensus vel dissensus. Sed illud non est
+						inconveniens; ergo nec illud.</p>
+					<p xml:id="atv-l1d1q4-d1e4317">Preterea, aliqua una operatio est ultimus finis hominis et nulla nisi cognitio et
+						dilectio; ergo etc. Probatio minoris, quia, si sit cognitio que non sit dilectio, Deus
+						posset ipsam conservare sine dilectione, et tunc homo posset esse beatus quando Deum non
+						diligeret. Nec potest esse dilectio que non sit cognitio, quia tunc cum beatitudine
+						staret quod Deus non esset cognitus.</p>
+					<p xml:id="atv-l1d1q4-d1e4320">Preterea, si omnis dilectio non esset cognitio, anima posset amare incognitum, quod non
+						videtur verum. Falsitas consequentis probatur per <name>Augustinum</name> IX <title>De
+							Trinitate</title>, capitulo 4 et <name>Magistrum</name> allegatum ipsum tertia
+						distinctione. <quote xml:id="atv-l1d1q4-Qd1e4331">Deus</quote>, inquit in principio capitulo, <quote xml:id="atv-l1d1q4-Qd1e4334">amare se ipsum non potest nisi se
+						ipsum moverit, nam quomodo amat quod nescit. Et alibi invisa possumus diligere,
+						incognita nequaquam</quote>. Consequentia patet, quia, si essent absoluta realiter distincta,
+						Deus posset facere unum sine reliquo.</p>
+					<p xml:id="atv-l1d1q4-d1e4338">Preterea, si nullus actus voluntatis esset cognitio, tunc voluntas esset ceca, quia
+						nihil cognosceret per actum suem de obiecto.</p>
+					<p xml:id="atv-l1d1q4-d1e4341">Preterea, tunc posset aliquis esse beatus, et tamen non videret Deum, nec
+						cognosceret.</p>
+					<p xml:id="atv-l1d1q4-d1e4344">Preterea, impossibile est simpliciter incognitum placere voluntati. Sed posito solo
+						actu amandi quocumque alio circumscripto placet obiectum dilectivum; igitur etc.</p>
+					<p xml:id="atv-l1d1q4-d1e4348">Ista conclusio confirmatur multis auctoritatibus. Primo auctoritate beati<name>
+							Augustini</name> IX <title>De Trinitate</title>, capitulis multis 3, 8 et deinceps et
+							<name>Magister</name> allegat ipsum tertia distinctione, 1, ubi dicit quod <quote xml:id="atv-l1d1q4-Qd1e4359">amor quo
+						mens amat se et alia et notitia qua novit se et alia sunt unus spiritus et una
+						essentia</quote>, ergo amor non distinguitur ab omni cognitione, tunc in 12, capitulo 3. Inveni
+						scriptum esse in libro <name>Iohanni</name> sancto viro loquente: Ecce pietas est
+						sapientia. Abstinere autem a malis scientia. In hac differentia intelligendum est ad
+						contemplationem sapientiam et ad actionem scientiam pertinere. Pietatem quidem hoc loco
+						ponit Dei cultum et quis cultus est eius nisi amor eius quo nunc desideramus cum videre,
+						igitur a primo ad ultimum iste cultus qui est amor Dei est sapientia. Et quasi
+						formaliter idem habetur <name>Enchiridion</name>, capitulo 1 de sapientia et pietate,
+						etc.</p>
+					<p xml:id="atv-l1d1q4-d1e4370">Item libro XV, capitulo 64: <quote xml:id="atv-l1d1q4-Qd1e4372">Nunquid dicturi sumus voluntatem nostram quando recta est
+						nescire quid agat? Porro si sic inest
+						
+						<pb ed="#V" n="46-v"/>
+						<cb ed="#V" n="b"/>
+						
+						ei quedam sua scientia. An vero audiendus
+						est quispiam dicente caritatem nescire quod agat que non agat perperam?</quote> Et capitulo
+						65: <quote xml:id="atv-l1d1q4-Qd1e4379">Amor meus meminit atque intelligit quid appetere debeat, quid vitare</quote>. Item
+							<name>Gregorius</name>, Omilia 27 <title>Super Iohannem</title>: <quote xml:id="atv-l1d1q4-Qd1e4388">Quecumque audivi a
+						Patre meo nota feci vobis.</quote> Dum audita servavi, amare iam novi, quia amor ipse notitia
+						est.</p>
+					<p xml:id="atv-l1d1q4-d1e4392">Responsio ad rationes <name>Adam</name></p>
+					<p xml:id="atv-l1d1q4-d1e4397">Ad primum istorum supponendo quod proprie loquatur de experientia admissa maiore, nego
+						minorem. Et ad probationem 'qui vellet ire ad voluntatem magis quam ad rem, sicut et ipsi
+						communiter faciunt', admitteret consequens, quia species previs omni actui non est actus,
+						igitur non est actus vitalis, et per consequens nullus actus vitalis anime est magis vel
+						minus actus vitalis quam ipsa. Ex hoc tamen non sequitur quod volitio non sit actus
+						vitalis sicut et cognitio. Verum, quia non debet esse disputatio de nominibus ubi
+						constat de rebus. Respondeo ad intentionem arguentis que est quod si volitio non sit
+						essentialiter experientia alicuius obiecti, non erit actus vitalis anime, sicut nec
+						species previa omni actui si ponatur. Et interimo consequentiam, quia non omnis actus
+						vitalis est essentialiter experientia. Ridere enim est actus vitalis et ambulare, et
+						tamen constat quod nullus istorum actuum est essentialiter experientia, nec cognitio. Et
+						ideo non sequitur volitio non est experientia, nec cognitio, igitur non est actus
+						vitalis. Nec oportet quod, si anima experitur suam volitionem, quod experiamur eam per
+						ipsamet volitionem, nec per voluntatem, quia sufficit quod experiamur eam per alium
+						actum quam sit volitio et per aliam potentiam quam sit voluntas, quia per intellectum et
+						actus eius. </p>
+					<p xml:id="atv-l1d1q4-d1e4400">Ad secundum multi dicerent quod assensus non est apprehensio proprie loquendo de
+						apprehensione, quia fides secundum aliquos non est cognitio, nec assentire est
+						cognoscere. Et, si ita sit, patet quod minor sit falsa. Si tamen minor est vera, sicut
+						est in bono intellectu, etiam per eum maior est omnino neganda, nec probatur ab eo.</p>
+					<p xml:id="atv-l1d1q4-d1e4403">Ad tertium vel intelligit quod aliqua una operatio est ultimus finis hominis sic quod
+						illa sola est beatitudo hominis, vel sic quod illa sola est suprema perfectio hominis. Si
+						primo modo, sicut innuunt probationes, propositio non solum est falsa, sed erronea, quia
+						beatitudo formalis non consistit totaliter in aliquo uno actu, sicut patet per illam
+						decretalem domini <name>Benedicti</name> <title>De visione animarum</title> pluries allegatam. Si secundo modo, non
+						est verum quod talis operatio sit cognitio et dilectio, immo non est verum quod sit
+						cognitio; nec dilectio, quia talis est delectatio beatifica, ut declaratum est supra.</p>
+					<p xml:id="atv-l1d1q4-d1e4413">Et ulterius posito quod talis esset cognitio que non est dilectio, sicut videtur
+						quibusdam, non sequitur quod homo posset esse beatus quando Deum non diligeret, quia
+						beatitudo non consistit totaliter in tali operatione. Et posito quod esset dilectio que
+						non est cognitio, adhuc non sequitur quod cum tali beatitudine staret quod Deus non
+						esset cognitus, ut patet ex dictis. Immo, si talis dilectio esset in aliquo sine
+						cognitione, ille non esset beatus totaliter, nec particulariter, quia non cognosceret,
+						nec diligeret, prout in precedenti articulo extitit declaratum.</p>
+					<p xml:id="atv-l1d1q4-d1e4416">Ad quartum patet ex prima conclusione quod non sequitur quod anima possit amare
+						incognitum, sed quod possit habere actum amor et non amare. </p>
+					<p xml:id="atv-l1d1q4-d1e4419">Ad quintum concedo quod voluntas est ceca ad secundum datum, id est quod nihil cognoscit
+						per actum suum de obiecto, quia sic cognoscimus per intellectum quod non per voluntatem,
+						secundum sanctum <name>Augustinum</name> superius allegatum. </p>
+					<p xml:id="atv-l1d1q4-d1e4425">Ad sextum nego consequentiam, quia non sequitur volitio non est cognitio, ergo alius
+						non potest esse beatus et non videre, nec cognoscere Deum, sed bene sequitur quod
+						aliquis potest habere volitionem sive dilectionem que nunc diligit Deum beatifice et non
+						cognoscere, nec videre. Sed talis non esset beatus, quia nec cognosceret, nec
+						amaret.</p>
+					<p xml:id="atv-l1d1q4-d1e4428">Ad septimum nego minorem, quia non est verum quod posito solo actu amandi aliquid
+						placeat voluntati, nec est verum quod posito solo actu amandi obiectum sit delectivum,
+						sed casu posito talis haberet actum amandi et non amaret.</p>
+					<p xml:id="atv-l1d1q4-d1e4431">Ad auctoritates 
+						
+						<pb ed="#V" n="47-r"/>
+						<cb ed="#V" n="a"/>
+						
+						vero respondeo ad primam quam in toto illo libro non ponit
+						beatus<name> Augustinus</name> formaliter sicut adducitur, licet possit ex diversis
+						locis haberi. Finaliter dico quod in auctoritate illa beatus <name> Augustinus</name> non
+						accipit notitiam et amorem pro actibus intelligendi et amandi, sicut istis videtur, sed
+						pro potentiis intellectiva et volitiva. Et quod ita sit patet ex dictis suis. Ipse enim
+						in illo IX, ubi allegatur capitulo 8, loquens de notitia et amore dicit quod <quote xml:id="atv-l1d1q4-Qd1e4443">sicut
+						duo quedam sunt mens et amor eius cum se amat, ita quedam duo sunt mens et notitiam eius
+						cum se novit</quote>. Et subdit immediate: <quote xml:id="atv-l1d1q4-Qd1e4447">Ipsa igitur mens et amor et notitia eius tria
+						quedam sunt et hec tria unum sunt</quote>. Et capitulo 10 dicit quod <quote xml:id="atv-l1d1q4-Qd1e4450">amor et cognitio non
+						insunt menti sicut in subiecto, sed substantialiter</quote>. Et capitulo 13 dicit: <quote xml:id="atv-l1d1q4-Qd1e4453">Quomodo
+						autem illa tria, scilicet mens, amor et notitia eius non sunt eiusdem essentie, non
+						video</quote>. Et facta quadam deductione concludit unius ergo eiusdemque essentie sunt hec
+						tria, sicut nec aliter invenitur in illo libro quod notitia et amor sint unus spiritus
+						et una essentia. Et constat quod in istis auctoritatibus non accipit beatus <name>
+							Augustinus</name> notitias et amores pro actibus, quia, si sic, sequitur non solum
+						etiam iuxta deductionem eorum quod amor sit essentialiter cognitio, sed quod actus
+						amandi et cognoscendi distinguantur essentialiter ab anima, quod non est solum falsum,
+						sed erroneum. Consequentia est nota, quia non solum dicit beatus <name> Augustinus</name>
+						quod amor et notitia sint una substantia sive essentia, sed quod mens et amor et notitia
+						eius sunt unum et una substantia et quod amor et cognitio non sunt in mente sicut in
+						subiecto, sed solum substantialiter. Patet igitur quod beatus <name> Augustinus</name>
+						non accipit notitiam et amorem pro actibus, sed pro potentiis, et sic exponit cum
+							<name>Magistro</name> III, distinctione 1, utrum autem ex hoc sequitur quod
+						intellectus et voluntas sint idem realiter inter se et cum essentia anime vel non; quod
+						credo verum esse declarabitur supra distinctionem tertiam.</p>
+					<p xml:id="atv-l1d1q4-d1e4471">Ad secundum patet per verbamet auctoritatis quod non est intentio beati <name>
+							Augustini</name> quod amor sit essentialiter sapientia, quia, sicut dicit quod pietas
+						est sapientia, ita dicit quod abstinere a malis est scientia. Sed tamen constat quod
+						abstinere a malis non est essentialiter scientia. Et ideo beatus <name> Augustinus</name>
+						immediate declarat qualiter hec verba sunt intelligenda dicens quod <quote xml:id="atv-l1d1q4-Qd1e4479">in hac differentia
+						intelligendum est ad contemplationem sapientiam et actionem scientiam pertinere</quote>. Non
+						ergo intelligit quod amor Dei sit essentialiter sapientia, sicut nec intelligit quod
+						abstinere a malis sit essentialiter scientia, sed intelligit quod sermo de tali amore
+						pertinet ad sapientiam. Sermo vero de rebus operabilibus a quibus abstinendum est ad
+						scientiam pertinet. Et quod ita sit patet per verba sequentia, quia postquam dixit quod
+						Dei cultus non est nisi amor eius etc., concludit de his atque huiusmodi sermo ipsemet
+						videtur esse sermo sapientie. <quote xml:id="atv-l1d1q4-Qd1e4482">Abstinere autem a malis quam Iob scientiam dixit esse,
+						rerum procul dubio temporalium est, quoniam secundum prout in malis sumus a quibus
+						abstinere debemus, ut ad illa bona eterna veniamus</quote>.</p>
+					<p xml:id="atv-l1d1q4-d1e4486">Ad tertium auctoritas est ad oppositum, quia, si dilectio esset essentialiter cognitio
+						voluntati per se sumpte, ut prescindit a memoria et intellectu, inesset sua quedam
+						scientia, cuius oppositum asserit <name>Augustinus</name> in auctoritate illa dicens
+						quod <quote xml:id="atv-l1d1q4-Qd1e4491">non potest ei inesse sine memoria et intelligentia</quote>, licet ista verba dimmitantur
+						in auctoritate allegata. Est igitur advertendum, iuxta doctrinam beati <name>
+							Augustini</name>, quod nec intellectus intelligit, nec voluntas vult, accipiendo
+						intellectum et voluntatem pro potentiis, unde in capitulo immediate sequenti dicit quod
+						<quote xml:id="atv-l1d1q4-Qd1e4497">tria ista memoria, intellectus, et amor non sunt sua, sed mea, nec sibi, sed mihi agunt,
+						quod agunt, immo ego per illa. Ego enim memini per memoriam intelligo per intellectum,
+						amo per amorem</quote>. Et II <title>De libero arbitrio</title>, capitulo 36, dicit quod
+						<quote xml:id="atv-l1d1q4-Qd1e4504">potentiis operatur homo, non autem operantur ipse potentie</quote>. Et ideo beatus <name>
+							Augustinus</name> aliquotiens accipit voluntate pro principio volitionis quo videlicet
+						pro potentia volitiva qua proprie loquendo non vult, sed est id quo anima vel homo vult
+						aliquotiens pro principio volitionis quod videlicet pro anima ipsa vel homine volente,
+						et sic accipit voluntatem in auctoritate illa, quia dicit eam scire et operari. Potentie
+						autem non operantur secundum eum. Concedo ergo quod anime, cum recte vult, inest quedam
+						sua scientia, non quia volitio sit cognitio, sed quia inest sibi distincta
+						
+						<pb ed="#V" n="47-r"/>
+						<cb ed="#V" n="b"/>
+						
+						cognitio. Et ideo subdit <name>Augustinus</name> quod <quote xml:id="atv-l1d1q4-Qd1e4517">sine memoria et intelligentia esse
+						non potest</quote>. Et ad confirmationem quando dicitur quod 'amor meus meminit atque intelligit
+						quid appetere debeat quid vitare', si compleretur, auctoritas appareret non esse ad
+						propositum, sed ad oppositum, quia in primo capitulo, sicut statim dicebatur beatus
+							<name> Augustinus</name> vult ostendere quod nec intellectus intelligit, nec
+						memoria meminit, nec voluntas vult, sed anima vel homo per illam. Et ideo facta quedam
+						deductione subdit ipse: <quote xml:id="atv-l1d1q4-Qd1e4524">Quoque amor meus, cum meminit atque intelligit quid appetere
+						debeat quid vitare per meam non per suam memoriam meminit et per intelligentiam meum non
+						suam quicquid intelligit amat intelligenter</quote>. Et statim concludit et breviter dici
+						potest: <quote xml:id="atv-l1d1q4-Qd1e4527">Ego per omnia illa tria memini ego intelligo, ego diligo, qui nec memoria, nec
+						intelligentia, nec dilectio, sed hec habeo volente per voluntatem memorante per memoriam
+						et intelligente per intellectum</quote>.</p>
+					<p xml:id="atv-l1d1q4-d1e4531">Ad ultimam que est <name>Gregorii</name> dico quod <name>beatus Gregorius</name>
+						intelligit quod amor sit notitia non quidem essentialiter, sed per concomitantiam ad
+						istum sensum, quia omnis qui amat, cognoscit, et sic possunt etiam exponi omnes
+						auctoritates qui vellet breviter respondere. Patet igitur rationes non concludere et
+						auctoritates non esse ad propositum, et per consequens manet prima propositio, videlicet
+						que nulla dilectio in creaturis est essentialiter cognitio.</p>
+					<p xml:id="atv-l1d1q4-d1e4540">Contra secundam propositionem. Opinio communis</p>
+					<p xml:id="atv-l1d1q4-d1e4543">Contra secundam vero qua dicebatur quod dilectio qua creatura nunc diligit Deum
+						beatifice potest manere formaliter in ipsa de potentia Dei absoluta sine omni
+						cognitione, arguitur communiter, quia, si sic, posset incognitum diligi, quod est omnino
+						impossibile. Sed ista deductio non est contra me, quia, sicut patet per conclusionem
+						principalem, creatura potest habere dilectionem formaliter in voluntate et non diligere,
+						et quia fere omnes doctores rationes contra propositionem istam reducuntur ad istam
+						difficultatem que non est contra me et que non distinguunt inter dilectionem et
+						diligere, dimitto eas.</p>
+					<p xml:id="atv-l1d1q4-d1e4546"><name>Magister Iohannes Ferrati</name></p>
+					<p xml:id="atv-l1d1q4-d1e4551">Arguebat tamen in speciali quidam reverendus socius qui mecum concurrebat in lectura.
+						Primo sic: implicatio contradictionis est quod voluntas creature rationalis habeat actum
+						dilectionis circa aliquid et illud non sit sibi presens ratione obiecti. Hoc patet ex
+						adequatione obiecti ad potentiam, sicut et illa propositio mea qua dixi quod implicatio
+						contradictionis est quod voluntas aliquid diligat et illud non sit sibi presens etc. Sed
+						implicatio contradictionis est quod aliquid sit presens voluntati in ratione obiecti
+						nisi per actum cognitionis previum etiam per me; ergo etc.</p>
+					<p xml:id="atv-l1d1q4-d1e4554">Preterea, nullus habet actum dilectionis beatifice circa Deum cui non constat an
+						diligat Deum vel creaturam, vel purum nihil. Hec patet, quia dilectio Dei beatifica est
+						perfectissima quod tali dilectioni repugnat etiam per me. Sed non nisi per actum
+						cognitionis constat an diligat; igitur etc.</p>
+					<p xml:id="atv-l1d1q4-d1e4557">Preterea, per nullam potentiam est possibile quod creatura rationalis habeat actum
+						fruitionis beatifice circa Deum et nullum actum cognitionis habeat circa ipsum, igitur
+						per nullam potentiam est possibile quod habeat actum dilectionis beatifice sine omni
+						cognitione. Consequentia patet, quia <quote xml:id="atv-l1d1q4-Qd1e4559">frui est amore inherere</quote> etc., secundum
+							beatum<name> Augustinum</name>. Antecedens probatur, quia cognitio est aliquid
+						fruitionis essentialiter et intrinsece, quia in illa diffinitione fruitionis data a
+							beato<name> Augustino</name> X <title>De Trinitate</title>, <quote xml:id="atv-l1d1q4-Qd1e4571">fruimur cognitis</quote> etc.,
+						ponitur cognitio; ergo etc.</p>
+					<p xml:id="atv-l1d1q4-d1e4575">Responsio ad rationes <name>Iohannis Ferrati</name></p>
+					<p xml:id="atv-l1d1q4-d1e4580">Ad primum istorum potest uno modo dici quod conclusio que sequitur gratia forme non est
+						contra me, quia non sequitur nisi quod implicatio contradictionis est quod voluntas
+						creature rationalis habeat actum dilectionis circa aliquid et nullum actum cognitionis
+						previum habeat circa illud. Et posito quod illud sit verum non est contra me, quia, si
+						dilectio qua creatura nunc diligit Deum
+						
+						<pb ed="#V" n="47-v"/>
+						<cb ed="#V" n="a"/>
+						
+						beatifice esset formaliter in ipsa sine
+						omni cognitione, talis dilectio proprie loquendo non esset circa aliquid, quia nihil
+						attingeret per eam. Secundo potest dici quod voluntas creature rationalis potest habere
+						actum dilectionis qui nunc est circa aliquid et illud non est sibi presens in ratione
+						obiecti. Sed tunc non erit circa illud, quia tunc illud non diligeret, ut prius. Nec
+						oppositum potest probari ex adequatione obiecti ad potentiam, quia per talem actum
+						potentia non attingeret obiectum. Et in isto sensu concedo quod creatura rationalis
+						potest habere actum dilectionis beatifice circa Deum et non cognoscere, id est actum
+						dilectionis beatifice qui nunc est circa Deum, sed tunc non erit proprie circa Deum.</p>
+					<p xml:id="atv-l1d1q4-d1e4587">Tertio potest dici sive esse quod actus dilectionis potest dupliciter esse circa Deum,
+						actualiter scilicet, vel aptitudinaliter. Primo modo non est circa Deum nisi quando per
+						ipsum Deus diligitur. Secundo modo potest esse circa Deum, etiam si per ipsum nihil
+						diligatur, quia tamen actus dilectionis est aptitudinaliter circa aliquid, quando per
+						ipsum potest aliquid diligi, licet non diligatur positis, tamen aliis que necessario
+						requiruntur ad hoc quod voluntas diligat. His premissis concedo maiorem et totam
+						rationem in primo sensu, sed tunc non est contra me, quia, si creatura rationalis
+						haberet actum dilectionis sine cognitione, non diligeret. Sed in secundo sensu nego
+						maiorem. Nec potest probari ex adequatione obiecti ad potentiam sicut et mea, quia per
+						talem actum potentia non attingeret obiectum, ut dictum est prius.</p>
+					<p xml:id="atv-l1d1q4-d1e4591">Ad secundum potest eodem modo responderi primo quidem dicendo quod, si actus
+						dilectionis quo creatura nunc diligit Deum beatifice esset formaliter in ipsa sive
+						cognitione, talis non esset proprie circa Deum, nec circa aliquid aliud. Secundo negando
+						maiorem si intelligatur de actu dilectionis qui nunc est circa Deum vel que est
+						aptitudinaliter circa Deum eo modo quo dictum est. Nec probatio valet, quia talis
+						dilectio non esset beatifica sic quod actu beatificaret, quia habens ipsam non diligeret
+						per eam.</p>
+					<p xml:id="atv-l1d1q4-d1e4594">Ad tertiam etiam similiter, quia in antecedente ponitur circa Deum. Si vero formaretur
+						aliter ratio dicendo quod per nullam potest entiam est possibile quod creatura
+						rationalis habeat actum fruitionis quo nunc fruitur Deo beatifice formaliter in
+						voluntate sine omni cognitione. Patet antecedens esse falsum ex secundi articuli
+						precedenti. Nec probatio valet, quia non est verum quod cognitio sit aliquid fruitionis
+						essentialiter et intrinsece. Et quando dicitur quod in diffinitive fruitionis ponitur
+						cognitio, patet quod non ponitur ex parte fruitionis, sed sicut aliquid necessario
+						requisitum ex parte obiecti ad hoc quod voluntas possit frui, et ideo dicitur <quote xml:id="atv-l1d1q4-Qd1e4596">fruimur
+						cognitis</quote> etc.</p>
+					<p xml:id="atv-l1d1q4-d1e4600">Contra tertiam propositionem qua dicebatur quod per nullam potentiam potest incognitum
+						diligi multi doctores nostri sunt quibus videtur oppositum esse possibile de potentia
+						Dei absoluta.</p>
+					<p xml:id="atv-l1d1q4-d1e4603"><name>Alex de sancto Elipidio</name> quondam generalis in questionibus ordinariis.</p>
+					<p xml:id="atv-l1d1q4-d1e4608">Et pro conclusione ista quidam eorum arguunt primo sic: si Deus non posset creare actum
+						voluntatis sine actu intellectus, hoc esset propter aliquid trium, aut propter
+						habitudinem quam habet obiectum ad potentiam in genere cause efficientis aut finalis,
+						aut propter ordinem potentiarum adinvicem. Non propter primum, quia Deus potest supplere
+						causalitatem omnis efficientis cause, ut communiter. Nec propter secundum, quia obiectum
+						est finis actus volendi secundum esse, quod habet extra animam, ut dicit
+							<name>Commentator</name> XII <title>Metaphysice</title>. Nec propter tertium, quia hoc
+						videmus posse fieri non solum in potentiis diversorum ordinum, ut quod possit moveri
+						intellectus potentia divina seu motiva sua motione facta in sensu, sed etiam eiusdem
+						ordinis. Posset enim moveri fantasia sine motione facta in sensu a quo tamen semper
+						naturaliter habet moveri, igitur virtute divina poterit moveri voluntas nulla facta
+						motione in intellectu.</p>
+					<p xml:id="atv-l1d1q4-d1e4617">Preterea, secundum <name>Commentatorem</name> XII <title>Metaphysice</title>, omne
+						compositum quorum unum potest per se esse possibile est et alterum esse per se nisi sit
+						compositio substantie et ac-
+						
+						<pb ed="#V" n="47-v"/>
+						<cb ed="#V" n="b"/>
+						
+						-cidentis. Exemplum: idromellis componitur ex aqua et
+						melle et invenitur mel sine aqua et aqua sine melle. Sed potest inveniri bonum divinum
+						cognitum et non volitum divina potentia, ut communiter tenetur, et invenit cognitum et
+						volitum simul; igitur divina potentia poterit inveniri volitum et non cognitum.</p>
+					<p xml:id="atv-l1d1q4-d1e4631">Preterea, intentio voluntatis coiungens parentem proli in cognitione sensitiva
+						naturaliter potest esse sine actu intellectus, igitur multo fortius supernaturaliter
+						poterit esse actus voluntatis sine actu intellectus.</p>
+					<p xml:id="atv-l1d1q4-d1e4634"><name>Michael de Massa</name> in I, distinctione 1, questione 4</p>
+					<p xml:id="atv-l1d1q4-d1e4639">Preterea, ad idem quidam alius arguit primo sic: non implicatur contradictio quod
+						obiectum fruibile sit presens voluntati in ratione obiecti moventis sine actu
+						intelligendi. Nec etiam implicatur contradictio quod sit sibi presens in ratione obiecti
+						terminantis actum voluntatis sine actu intellectus, ergo de potentia Dei asboluta potest
+						fieri quod voluntas habeat actum fruitionis circa obiectum fruibile non visum per
+						intellectum actualiter. Consequentia est nota, quia ad actum per se loquendo nihil plus
+						requiritur nisi quod agens sufficiens sit presens potentie disposite et obiectum in
+						ratione termini secundum omnes. Sed antecedens probatur quantum ad duas partes eius. </p>
+					<p xml:id="atv-l1d1q4-d1e4642">Primo, quod obiectum fruibile quod est ipse Deus sit presens in ratione moventis absque
+						actu intelligendi, quia illud cuius virtus motiva sufficiens in activa est immediatior
+						ad ipsam voluntatem quam sit actus intelligendi potest esse presens in ratione moventis
+						sine actu intelligendi, quia da oppositam virtus eius motiva sufficiens ad movendum non
+						erit immediatior quam sit actus intelligendi. Sed virtus divine voluntatis motiva et
+						activa voluntatis create est immediatiori voluntati quam sit ipse actus intelligendi,
+						quia, secundum sententiam sanctorum, Deus dicitur intimior cuilibet rei non solum
+						quacumque alia re, sed intimior se ipsa. Nunc autem Deus et sua motiva virtus ad agendum
+						idem sunt. Et ex hoc statim probatur quantum ad secundam partem, videlicet quod possit
+						esse presens in ratione terminantis actum voluntatis sine actu intellectus, quia omne
+						illud quod potest esse presens alicui potentie in ratione moventis se ipso sine actu
+						intelligendi potest esse presens se ipso in ratione terminantis sine actu intelligendi,
+						dummodo actus intelligendi non sit formaliter inclusus in obiecto terminante. Hoc patet,
+						quia, sicut dictum est ad actum, ista sufficiunt potentia disposita et agens presens in
+						ratione moventis et obiecto in ratione termini. Sed, ut probatum est, Deus potest esse
+						presens in ratione moventis ipsi voluntati sine actu intellectus et actus intellectus
+						non includitur formaliter in obiecto fruibili; igitur etc.</p>
+					<p xml:id="atv-l1d1q4-d1e4645">Preterea, Deus potest annihilare intellectum conservando essentiam anime cum voluntate
+						et, quamvis voluntas habens se sine intellectu, non sit appetitus intellectivus
+						actualiter sequens intellectum. Esset tamen pro tunc appetitus intellectivus
+						aptitudinaliter sequens intellectum, tunc simul, isto casu posito, aut Deus potest
+						movere voluntatem ad actum fruitionis circa obiectum fruibile, aut non. Si sic, igitur
+						non esse implicatio contradictionis quod voluntas habeat actum fruitionis circa obiectum
+						fruibile non visum actualiter preter intellectum, quod est propositum. Si dicatur quod
+						non, contra Deus potest movere potentiam dispositam posito obiecto ad quod possit
+						terminari actus. Sed voluntas annihilato intellectu adhuc remanet disposita, vel per se
+						ipsum, vel per habitum supernaturalem. Item ponitur obiectum quod potest actus
+						terminari; igitur etc.</p>
+					<p xml:id="atv-l1d1q4-d1e4648">Preterea, quod potest supplere vicem actus representati potest facere obiectum presens
+						sine suo proprio representativo. Sed Deus potest supplere vicere actus intelligendi in
+						representando quantumcumque obiectum non sit cognitum; igitur. Maior supponitur. Minor
+						probatur quod quamvis possint esse plura representativa eiusdem rei que non sunt
+						eiusdem ordinis in essendo, tamen in representando potest unum supplere vicere alterius
+						et cum hoc representare perfectius obiectum, sicut videmus quod actus intelligendi non
+						minus perfecte representat rem quam faciat species. Et, si actus intelligendi
+						
+						<pb ed="#V" n="48-r"/>
+						<cb ed="#V" n="a"/>
+						
+						posset semper continuari esse, semper representaret obiectum suo modo sine specie.</p>
+					<p xml:id="atv-l1d1q4-d1e4656">Item, essentia divina representat intellectui nostro perfectiori modo quam faciant
+						proprie species acquisite vel infuse sic etiam quamvis actus intelligendi representet
+						aliquo modo essentiam divinam ipsi voluntati, tamen longe perfectiori modo essentia
+						divina representat ipsi voluntati se ipsam; igitur etc. Et additur quod de facto, sicut
+						ex parte intellectus non potest poni, secundum doctrinam que communius tenetur, aliqua
+						species creata que representet essentiam divinam, quia essentia per se ipsam presens
+						est, ita nec ex parte voluntatis potest poni aliquod representativum creatum quod faciat
+						essentiam divinam presentem voluntati, sed ipsa per se ipsam est immediate presens
+						voluntati. Nec etiam de facto presupponitur actus intelligendi circa obiectum fruibile
+						nisi quoddam ordine effectuum pro quanto actus voluntatis sequitur ad actum intellectus,
+						quod totum est per accidens, sed per se loquendo. Nec actus beatificus intellectus
+						precedit actum beatificum voluntatis, nec econverso. </p>
+					<p xml:id="atv-l1d1q4-d1e4659">Et confirmatur ista ratio, quia non apparet contradictio quod Deus faceret quoddam
+						representativum perfectius quam sit actus intellectus mediante quo voluntas attingeret
+						obiectum suum, sicut modo attingit mediante actu intelligendi. Et ulterius non apparet
+						contradictio quod actus voluntatis simul cum ipsa voluntate fieri annihilata essentie
+						anime et intellectu cum omni actu suo.</p>
+					<p xml:id="atv-l1d1q4-d1e4662"><name>Forestarius</name> in prima distinctione, prima questione, articulo 3</p>
+					<p xml:id="atv-l1d1q4-d1e4667">Preterea, ad idem arguit quidam alius doctor sic: quandocumque aliqua potentia est apta
+						nata moveri naturaliter ab obiecto sub duplici modo essendi simul, sic tamen quod
+						obiectum sub uno illorum modorum est magis per se motivum potentie quam sub alio. Si
+						virtute divina potest illa potentia moveri ab obiecto sub illo modo essendi sub quo
+						naturaliter obiectum est minus per se motivum potentie absque alio modo multo fortius
+						econverso. Exemplum: intellectus noster possibilis movetur naturaliter ab obiecto sub
+						duplici modo essendi per statum presentis vite, quorum primus est modus essendi in
+						fantasia, secundum modus abstractionis per intellectum agentem, ita tamen quod obiectum
+						est magis per se motivum intus sub esse abstracto, quod habet ab intellectu agente quam
+						sub esse fantastico. Idcirco, si virtute divina possit fieri quod intellectus possibilis
+						intelligeret obiectum fantasticum absque abstractione intellectus agentis, multo fortius
+						posset fieri quod intelligeret obiectum abstractum absque actu fantasie. Sed voluntas
+						est apta nata moveri ab obiecto suo sub duplici modo essendi, videlicet sub esse in re
+						extra et sub esse apprehenso per intellectum, secundum <name>Commentatorem</name> XII
+							<title>Metaphysice</title> et obiectum est magis per se motivum voluntatis secundum
+						quod habet in re extra quam secundum esse apprehensum quod habet in intellectu. Sed
+						virtute divina fieri potest quod voluntas movetur ab obiecto quod nullum esse habet in
+						re extra, sed tantum in apprehensione; igitur multo fortius fieri posset quod moveatur
+						ab obiecto quod nullum esse habet apprehensum in intellectu, sed tantum in re extra.
+						Minor habet tres partes. </p>
+					<p xml:id="atv-l1d1q4-d1e4676">Prima est quod voluntas movetur ab obiecto secundum esse quod habet in re extra et in
+						apprehensione. Et hoc patet per <name>Commentatorem</name>. </p>
+					<p xml:id="atv-l1d1q4-d1e4682">Secunda est quod obiectum est magis per se motivum voluntatis secundum esse quod habet
+						in re extra. Et hoc patet etiam per <name>Commentatorem</name> in eodem 12, dicens quod
+						<quote xml:id="atv-l1d1q4-Qd1e4687">balneum secundum esse quod habet in anima est agens desiderium</quote>. Sed secundum esse quod
+						habet in re extra est finis desiderii. Sed magis est finis per se motivus voluntatis
+						quam agens, nec aliquid aliud; igitur etc. </p>
+					<p xml:id="atv-l1d1q4-d1e4692">Tertia pars est quod virtute divina fieri potest quod voluntas moveatur ab obiecto
+						quod nullum esse habet in re extra. Hoc patet, quia certum est quod Deus potest facere
+						multa que non sunt, nec unquam erunt nec in se, nec in suo simili. Ponamus ergo quod
+						Deus revelaret alicui intellectui bonitatem alicuius rei que ab eo possibilis est fieri,
+						et tamen numquam fiet statim voluntas potest velle et considerare tale bonum, quod tamen
+						nullum esse habet in re,
+						
+						<pb ed="#V" n="48-r"/>
+						<cb ed="#V" n="b"/>
+						
+						nec unquam habebit, sed solum in intellectu. Et sic
+						patet minor, et per consequens tota ratio.</p>
+					<p xml:id="atv-l1d1q4-d1e4699"><name>Thomas de Argentina</name> in prima distinctione, articulo 4</p>
+					<p xml:id="atv-l1d1q4-d1e4704">Preterea, ad idem quidam alius arguit sic primo: quando due potentie sic se habet quod
+						differunt ab invincem re absoluta, Deus per suam omnipotentiam potest unam esse servare
+						cum actu suo alia suspensa a sua operatione. Sed voluntas differt ab intellectu re
+						absoluta; igitur etc.</p>
+					<p xml:id="atv-l1d1q4-d1e4707">Preterea, bonum quod est motivum voluntatis non requirit esse cognitum nisi ut movet in
+						genere cause efficientis. Sed Deus virtutem cuiuscumque cause efficientis per se ipsum
+						potest supplere; igitur immediate per se ipsum circumscripto omni esse cognito poterit
+						movere voluntatem. Minor est ab omnibus concessa et maior per <name>Commentatorem</name>
+						XII <title>Metaphysice</title>, ubi dicit quod <quote xml:id="atv-l1d1q4-Qd1e4715">res apprehensibilis habet duplex esse,
+						unum in re extra, et sic est finis desiderii et terminat actum voluntatis, aliud in
+						intellectu, et sic agit desiderium et movet voluntatem</quote>.</p>
+					<p xml:id="atv-l1d1q4-d1e4719">Preterea, cognitio intellectiva in volendo non requiritur nisi ad presentandum obiectum
+						volibile ipsi voluntati. Sed secundum <name>Augustinum</name> in libro
+							<title>Confessionum</title>, <quote xml:id="atv-l1d1q4-Qd1e4727">Deus per se ipsum est intimior et presentiabilior
+						voluntati quam voluntas sibi ipsi</quote>; ergo per se ipsum immediate poterit movere
+						voluntatem.</p>
+					<p xml:id="atv-l1d1q4-d1e4731">Preterea, intellectu existente in actu recto aliquod intelligibile cognoscendo voluntas
+						vult cum intelligere, quia, si voluntas non vellet cum intelligere ipsum, ad nullum
+						momentum in tali intellectione posset se continuare. Sed planum est quod intellectus
+						nondum se intelligit intelligere, quia tunc esset in actu reflexo simul cum actu recto;
+						igitur non videtur quod repugnet voluntati aliquid velle quod intellectus nondum videtur
+						intelligere.</p>
+					<p xml:id="atv-l1d1q4-d1e4735">Ad rationes <name>Alexandri</name></p>
+					<p xml:id="atv-l1d1q4-d1e4740">Ad primum istorum potest uno modo dici quod ratio non probat nisi quod Deus potest
+						causare actum voluntatis sine actu intellectus, quod concedo. Sed ex hoc non sequitur
+						quod voluntas possit velle incognitum quia per talem actum non vellet, ut declaratum
+						est supra, sed quia ratio videtur velle concludere quod voluntas poterit moveri ab
+						obiecto et sic velle nulla facta motione in intellectu, et per consequens intelligit
+						quod, si Deus non possit actum voluntatis causare, sic quod voluntas vellet per talem
+						actum sine actu intellectus, hoc esset propter aliquod trium etc. Dico quod procedit ab
+						insufficientis, quia preter habitudinem quam habet obiectum in genere cause finalis
+						requiritur quod sit presens voluntati in ratione obiecti, quia implicatio
+						contradictionis est quod voluntas aliquid velit et illud non sit sibi presens in ratione
+						obiecti. Obiectum autem non potest esse presens voluntati nisi sit cognitum sive
+						apprehensum ab intellectu, immo nihil aliud est obiectum esse presens voluntati nisi
+						esse apprehensum per intellectum vel saltem per aliquam potentiam cognitivam. Multi
+						etiam concederent quod propter ordinem potentiarum, quia appetitus intellectivus
+						necessario presupponit apprehensione intellectus, sicut appetitus sensitivus
+						apprehensionem sensus. Nec probatio valet contra istos, quia non est simile de potentiis
+						cognitis comparatis ad invicem et de potentia appetitiva comparata ad cognitivam, quia
+						nulla potentia cognitiva creata necessario presupponit actum alterius. Sed potentia
+						appetitiva presupponit actum cognitive.</p>
+					<p xml:id="atv-l1d1q4-d1e4743">Ad secundum potest primo dici, sicut ad precedens, quod non probat nisi quod volitio
+						possit inveniri in aliquo sine cognitione. Sed ex hoc non sequitur quod incognitum
+						possit esse volitum, tamen quia ratio aliter deducitur. Dico quod propositio
+							<name>Commentatoris</name> quam iste doctor assumit in sensu dato est evidenter falsa,
+						quia, si sit vera, sequeretur quod actus volitionis sive dilectionis posset naturaliter
+						inveniri sine cognitione, quod est manifeste falsum. Deductio patet, quia potest
+						inveniri naturaliter aliquod bonum cognitum et non volitum et cognitum et volitum simul,
+						igitur poterit naturaliter inveniri volitum et non cognitum. Si deductio sit bona,
+						sequeretur etiam quod gustus inveniretur etiam sine tactu, quod non est verum.
+						Consequentia patet, quia gustus in tactus inveniuntur simul in aliqua parte animalis, ut
+						in lingua etiam invenitur tactus sine gustu in alia ut in pede, igitur poterit
+						in-
+						
+						<pb ed="#V" n="48-v"/>
+						<cb ed="#V" n="a"/>
+						
+						-veniri in aliqua gustus sine tactu per deductionem suam.</p>
+					<p xml:id="atv-l1d1q4-d1e4753">Potest ulterius dici secundo quod auctoritas allegata non est ad propositum, quia ex
+						dilectione et cognitione non componitur aliquod unum per se, immo nec per accidens, cum
+						non sint eiusdem subiecti primi, sed diversorum intellectus, scilicet et voluntatis. Et
+						ideo posito quod auctoritas sit admittenda in bono sensu non sequitur conclusio.</p>
+					<p xml:id="atv-l1d1q4-d1e4756">Ad tertium vel iste doctor intelligit quod intentio voluntatis sit aliquis actus eius,
+						vel non. Si non, ratio est nulla, quia non sequitur quod, si intentio que non est actus
+						voluntatis potest naturaliter esse sine actu intellectus, quod aliquis actus eius possit
+						esse sine actu per aliquam potentiam. Si sic, sequitur quod non solum ex virtute divina
+						posset esse actus voluntatis sine actu intellectu, sed naturaliter, quod est evidenter
+						falsum et contra eum. Quid autem sit talis intentio voluntatis et an possit esse sine
+						actu intellectus videbitur alias.</p>
+					<p xml:id="atv-l1d1q4-d1e4759">Ad rationes <name>Michaelis</name></p>
+					<p xml:id="atv-l1d1q4-d1e4765">Ad primum vero alterius doctoris nego antecedens, quia implicatio contradictionis est
+						quod obiectum fruibile, quod est Deus, sit presens voluntati in ratione obiecti sine
+						actu intelligendi. Patet ex supradictis, sed sequitur implicatio contradictionis est
+						quod obiectum fruibile sit presens voluntati <choice><sic>sit</sic><corr/></choice> in ratione obiecti sine actu
+						intelligendi, igitur implicatio contradictionis est quod sit sibi presens in ratione
+						obiecti moventis vel terminantis sine tali actu.</p>
+					<p xml:id="atv-l1d1q4-d1e4773">Et ad probationem prime partis nego maiorem, quia ad hoc quod aliquid sit presens
+						voluntati in ratione obiecti moventis non solum requiritur quod eius virtus motiva sit
+						immediatior voluntati quam actus intelligendi, sed cum hoc requiritur quod ipsum sit
+						presens voluntati in ratione obiecti, quod non est possibile sine actu intelligendi.</p>
+					<p xml:id="atv-l1d1q4-d1e4776">Potest etiam negari minor, quia, licet virtus divine voluntatis sit aliquo modo
+						intimior voluntati quam actus intelligendi, immo quam ipsa sibi ipsi, non potest tamen
+						ipsam movere ad actum sine actu intelligendi, quia sine tali actu non potest esse ei
+						presens in ratione obiecti moventis. Nec est bona consequentia: Deus est intimior
+						voluntati quam ipsa sibi ipsi, igitur est ei presens in ratione obiecti moventis, sicut
+						ille doctos imaginatur. Immo, si illa consequentia esset bona, sequeretur quod
+						naturaliter et de facto voluntas posset Deum diligere sine omni cognitione, quod est
+						contra eum et contra omnes. Deductio est nota, quia de facto circumscripto omni actu
+						intelligendi et cognoscendi Deus est intimior voluntati quam ipsa sibi ipsi, igitur de
+						facto est ei presens in ratione obiecti moventis, et per consequens terminantis, si
+						deductio sua sit bona. Sed per eum ad actum per se loquendo nihil plus requiritur,
+						igitur naturaliter et de facto posset Deus diligi sine omni cognitione. Patet igitur
+						primam partem consequentis non esse probatam, et per consequens nec secunda probatur,
+						quia probatio secunde partis dependet ex prima. Et ulterius, si deductio ista sit bona,
+						sequitur quod voluntas poterit naturaliter velle se ipsam sine omni cognitione, quod est
+						contra eum et contra omnes. Consequentia patet, quia certum est quod voluntas est
+						intimior naturaliter sibi ipsi quam sit actus intelligendi vel cognoscendi quecumque
+						sit.</p>
+					<p xml:id="atv-l1d1q4-d1e4779">Ad secundum concedo, licet multi non concederent quod Deus potest annihilare
+						intellectum conservando essentiam anime cum voluntate. Sed casu posito Deus non potest
+						movere voluntatem ad actum aliquem ad istum sensum quod voluntas possit Deum, vel
+						aliquid aliud velle vel nolle positive saltem remota omni cognitione sensitiva. Et ad
+						probationem dico quod casu posito non ponitur obiectum ad quod possit actus voluntatis
+						terminari, quia circumscripta omni cognitione non potest aliquid esse presens voluntati
+						in ratione obiecti, ut dictum est pluries. Et potest deduci ratio, sicut et precedens,
+						quia casu posito, si deductio sua sit bona, sequitur quod voluntas naturaliter possit
+						velle se ipsam et essentiam anime, quod nullus diceret. Consequentia patet, quia adhuc
+						
+						<pb ed="#V" n="48-v"/>
+						<cb ed="#V" n="b"/> 
+						
+						ponitur potentia disposita per eum et obiectum aliud quod potest actus terminari.
+						Et, si dicatur quod non ponitur obiectum ad quod possit actus terminari, quia posito
+						casu, nec voluntas nec essentia anime esse cognita, ita diceretur ei, igitur ratio
+						nulla.</p>
+					<p xml:id="atv-l1d1q4-d1e4786">Ad tertium dico quod procedit ex falso fundamento. Imaginatur enim ista ratio quod
+						actus intelligendi non requiratur ad actum volendi nisi tanquam representativum obiecti,
+						sicut requiritur species previa ad actum intelligendi, saltem in cognitione abstractiva,
+						quod non est verum, quia tunc posset voluntas naturaliter velle sine actu intelligendi,
+						quod ipse negat. Consequentia patet, quia circumscripto tali actu adhuc manet species et
+						similitudo representativa obiecti. Non igitur requiritur actus intelligendi propter hoc,
+						sed ut res fiat presens voluntati in ratione obiecti, ut patet ex dictis. Et quod
+						additur de facto videtur destruere rationem, quia in ratione dicitur quod actus
+						intelligendi representat essentiam divinam ipsi voluntati. Et in eo quod additur dicitur
+						quod non potest poni aliquod representativum creatum quod faciat essentiam divinam
+						presentem voluntati, et tamen constat quod de facto ponitur actus intelligendi et in his
+						videtur aliqualis repugnantia.</p>
+					<p xml:id="atv-l1d1q4-d1e4789">Ex his patet quid dicendum ad primam confirmationem, quia, quicquid sit de
+						representativo, illo implicatio contradictionis est quod aliquid sit presens voluntati
+						in ratione obiecti nisi per actum cognitionis previum.</p>
+					<p xml:id="atv-l1d1q4-d1e4793">Ad secundam vero confirmationem concedo quod Deus potest facere actum voluntatis simul
+						cum ipsa voluntate annihilata essentia anime cum intellectu et omni actu eius, sed ex
+						hoc non sequitur quod talis voluntas possit velle incognitum, sed quod haberet actum
+						volendi et non vellet, nec posset velle stante casu.</p>
+					<p xml:id="atv-l1d1q4-d1e4796">Ad rationes <name>Forestarii</name></p>
+					<p xml:id="atv-l1d1q4-d1e4801">Ad rationem vero alterius doctoris quicquid sit de maiore, nego minorem, quia non est
+						verum quod aliqua res moveat voluntatem ad actum ad illum sensum quod voluntas possit
+						eam velle secundum esse, quod habet in re extra nisi sit cognita quantum ad tale esse.
+						Nec valet quod <name>Commentator</name> dicit oppositum et, si diceret, pessime diceret.
+						Bene dicit <name>Commentator</name> quod <quote xml:id="atv-l1d1q4-Qd1e4809">balneum secundum esse quod habet in anima est
+						agens desiderium et secundum esse quod habet in re extra est finis desiderii</quote>. Sed non
+						sequitur propter hoc quod esse quod habet in re extra non sit precognitum. Et ulterius
+						non est verum quod obiectum sit magis per se motivum voluntatis, sed esse quod habet in
+						re extra quam secundum esse quod habet in intellectu, quia, secundum
+							<name>Commentatorem</name>, et ipsum obiectum secundum esse quod habet in intellectu
+						est movens vel agens desiderium et secundum esse quod habet extra est finis desiderii
+						vel terminus. Constat autem quod terminus desiderii non movet ad desiderandum, quia
+						habitibus presentibus in materia cessat motus. Et quando dicitur quod finis est magis
+						per se motivum voluntatis qua aliquid aliud verum est secundum esse quod habet in
+						intellectu, non secundum esse quod habet in re extra. Utrum autem secundum esse quod
+						habet in intellectu distinguatur ab agente vel non videbitur alias.</p>
+					<p xml:id="atv-l1d1q4-d1e4816">Ad rationes <name>Thome de Argentina</name></p>
+					<p xml:id="atv-l1d1q4-d1e4821">Ad primum vero ultimi doctoris concedo maiorem, quia non probat nisi quod Deus potest
+						conservare voluntatem cum actu suo intellectu suspenso ab omni actu, quod concedo. Sed
+						ex hoc non sequitur quod possit velle incognitum, sed quod possit habere actum volendi
+						et non velle.</p>
+					<p xml:id="atv-l1d1q4-d1e4824">Ad secundum nego maiorem, quia esse cognitum non requiritur precise ad hoc quod bonum,
+						quod est motivum voluntatis, possit ipsam movere in genere cause efficientis, immo non
+						requiritur ad hoc quod actus voluntatis non causatur nec totaliter, nec partialiter ab
+						obiecto, ut suppono pro nunc, sed requiritur ad hoc ut sit presens voluntati in ratione
+						obiecti. Nec probatio valet, quia, licet <name>Commentator</name> dicat quod bonum
+						secundum esse quod habet in intellectu movet voluntatem et agit desiderium, non tamen
+						dicit quod esse cognitum non requiritur ad aliquid aliud, quod tamen erat probandum.
+						Utrum autem 
+						
+						<pb ed="#V" n="49-r"/>
+						<cb ed="#V" n="a"/> 
+						
+						ex dicto <name>Commentatoris</name> sequatur quod actus voluntatis
+						causetur aliqualiter ab obiecto vel non videbitur alias.</p>
+					<p xml:id="atv-l1d1q4-d1e4838">Ad tertium patet quid dicendum ex supradictis, quia non sequitur Deus est intimior
+						voluntati quam voluntas sibi ipsi, igitur sine actu cognoscendi potest esse sibi presens
+						in ratione obiecti, ut declaratum est supra.</p>
+					<p xml:id="atv-l1d1q4-d1e4841">Ad quartum, si ratio aliquid probat quod naturaliter potest voluntas velle incognitum,
+						immo quod de facto quandocumque intellectus intelligit vult incognitum, quod est contra
+						eum et contra omnes. Consequentia est clara, quia de facto quandocumque intellectus
+						intelligit, voluntas vult eum intelligere secundum eum. Sed tunc intellectus non
+						intelligit se intelligere, ut dicit; igitur, si conclusio sua sequitur ex premissis, non
+						solum non repugnat voluntati aliquid velle quod nundum intelligit intellectus, sed de
+						facto ita est quod necessario ita est. </p>
+					<p xml:id="atv-l1d1q4-d1e4844">Ad rationem vero dicerent multi quod actus rectus et reflexus non distinguuntur et quod
+						omnis cognitio est primo cognitio sui. Quicquid tamen sit de hoc dico quod quando
+						intellectus intelligit aliquod obiectum voluntas potest velle illud. Intellectionem
+						autem ipsam non potest velle nisi sit cognita sive cognoscatur recto actu sive reflexo,
+						sive eodem, sive alio, sive distincte, sive confuse, de quo videbitur alias. Manent
+						igitur ille tres propositiones assumpte pro declaratione prime conclusionis, ut
+						videbitur.</p>
+					<p xml:id="atv-l1d1q4-d1e4847">Sed contra conclusionem in se multipliciter fuit argutum per reverendos patres et
+						magistros qui mecum concurrebant in lectura. Primo quidem arguebat quidam reverendus
+						dominus et compatriota primo sic.</p>
+					<p xml:id="atv-l1d1q4-d1e4850"><name>Fernandus</name></p>
+					<p xml:id="atv-l1d1q4-d1e4854">Per nullam potentiam fieri potest quod intellectio sit in intellectu et intellectus non
+						intelligat, igitur per nullam potentiam fieri potest quod dilectio sit in voluntate et
+						voluntas non diligat. Consequentia est nota. Antecedens probatur, quia ponatur quod
+						intellectus intelligat vel talis potest fieri de intelligente non intelligens nulla
+						facta mutatione circa ipsum, vel facta aliqua mutatione. Non primo modo, quia nunquam
+						sit transitus de contradictorio ad contradictorium nisi facta mutatione circa ipsam rem.
+						Si secundo modo, habetur propositum, quia ista mutatio necessario fiet in ista
+						intellectione. Et confirmatur, quia quicquid addatur vel subtrahatur ab intellectu
+						manente tamen eadem cognitione cum ipsa sit naturalis representativo obiecti semper
+						intelliget sicut ante.</p>
+					<p xml:id="atv-l1d1q4-d1e4858">Preterea, impossibile est quod diligere sit in voluntate et voluntas non diligat,
+						igitur impossibile est quod dilectio sit in voluntate et voluntas non diligat.
+						Antecedens patet. Probatur consequentia, quia dilectio dicitur a diligere sicut
+						sapientia a sapere, ut dicit <name>beatus Augustinus</name> V <title>De
+							Trinitate</title>, capitulo 5, igitur.</p>
+					<p xml:id="atv-l1d1q4-d1e4867">Preterea, impossibile est quod creatio sit et non sit creare, igitur impossibile est
+						quod dilectio sit et non diligere. Antecedens supponatur. Consequentia probatur, quia,
+						sicut se habet creatio ad creare, sic dilectio ad diligere.</p>
+					<p xml:id="atv-l1d1q4-d1e4870">Ultimo arguit iste doctor auctoritate <name>beati Augustini</name> VIII <title>De
+							Trinitate</title>, capitulo finali, ubi dicit <name>Augustinus</name>: <quote xml:id="atv-l1d1q4-Qd1e4881">Amor <choice><sic>amicus</sic><corr>alicuius</corr></choice>
+						amantis est et amore aliquid amatur</quote>. Ecce tria sunt amans et quod amatur et amor quid
+						est, ergo amor nisi quidam vita aliqua duo copulans vel copulare appetens amantem
+						scilicet et quod amatur quasi dicat nihil aliud, igitur qui ponit quod amor sit amor et
+						quedam voluntas non amet ponit contradictoria, quia ponit quod amor non sit amor. </p>
+					<p xml:id="atv-l1d1q4-d1e4891">Preterea, ad idem arguebat quidam alius reverendus bachalarius Predicatorum primo sic:
+						si actus dilectionis beatifice et diligere Deum beatifice different, differunt re
+						absoluta vel relata. Non absoluta certum est. Nec relata, quia vel talis esset relatio
+						realis, vel rationis. Si rationis, nihil ad propositum, quia illa non sufficeret ad hoc
+						quod possit esse unum sine alio. Si realis, hoc non est nisi quod diligere requirit
+						obiectum. Sed idem est de actu dilectionis beatifice circa Deum; igitur. Probo, quia vel
+						talis esset actus circa Deum, sicut circa obiectum vel circa efficiens, vel circa finem.
+						Non ultimis duobus modis, quia tunc omnis actus creatus a Deo et or-
+						
+						<pb ed="#V" n="49-r"/>
+						<cb ed="#V" n="b"/>
+						
+						-dinatus in
+						Deum, sicut in finem esset beatificus, quod non est verum, igitur primo modo. Et per
+						consequens actus dilectionis beatifice circa Deum includit relationem ad ipsum, sicut ad
+						obiectum, sicut diligere Deum, et similiter potest argui de actu cognitionis et
+						cognoscere. Et sic de aliis.</p>
+					<p xml:id="atv-l1d1q4-d1e4898">Preterea, impossibile est esse actum visionis albedinis quando visus videat albedinem,
+						igitur impossibile est intellectum habere actum dilectionis circa Deum quando diligat
+						eum. Consequentia est nota per me, quia utrobique est consimilis repugnantia. Antecedens
+						probatur, quia impossibile est visum habere actum visionis circa albedinem quando albedo
+						sit visa, cum esse visum non sit nisi denominatio extrinseca ab actu visionis, igitur
+						impossibile est habere actus dilectionis circa Deum quando diligat Deum.</p>
+					<p xml:id="atv-l1d1q4-d1e4901">Magister <name>Alphonsus de Portugalia</name></p>
+					<p xml:id="atv-l1d1q4-d1e4907">Preterea, ad idem arguebat quidam alius reverendus dominus et magister primo sic ex
+						dictis meis, quia multotiens utor dilectione pro diligere et cognitione pro cognoscere
+						et econverso, quia esset male dictum nisi ista essent idem.</p>
+					<p xml:id="atv-l1d1q4-d1e4910">Preterea, arguit per communem usum loquendi omnium utentium istis vocabulis qui idem
+						penitus intelligunt per predictos terminos sumptos nominaliter et verbaliter et ad
+						interrogationem factam de uno respondet per alterum affirmative vel negative et utuntur
+						uno pro alio indifferenter, quod esset omnino contra rationem nisi tales actus sumpti
+						nominaliter et verbaliter essent penitur idem ex parte rei. Assumptum probatur
+						multipliciter. Primo auctoritate <title>Scripture</title> que indifferenter utitur uno
+						pro alio <title>Iohanne</title> 17: <quote xml:id="atv-l1d1q4-Qd1e4918">Hec est vita eterna, ut cognoscante</quote> etc. Secundo
+						auctoritate <name>Damasceni</name>, libro II, capitulo 23, ubi sic ait: <quote xml:id="atv-l1d1q4-Qd1e4924">Dicunt autem
+						operationes et actus, ut loqui ambulare, comedere et bibere et talia</quote>. Et 23 capitulo
+						sui <title>Elementarii</title> ait: <quote xml:id="atv-l1d1q4-Qd1e4931">Dicunt autem operationes, ut videre loqui respicere deambulare
+						comedere et bibere et hec usus omnis naturalis potentie</quote>.</p>
+					<p xml:id="atv-l1d1q4-d1e4935">Preterea, <name>beatus Augustinus</name> in I <title>De Trinitate</title> in multis
+						capitulis frequenter capit et numerat unum pro alio. Item <name>Aristoteles</name> agens
+						de predicamento actionis et passionis exprimit verbaliter, etc. Item auctor VI
+							<title>Principiorum</title> in diffinitione actionis ponit agere sicut in
+						diffinitione qualitatis ponit quale. Item in libro <title>De somno et vigilia</title>
+						dicimus: <quote xml:id="atv-l1d1q4-Qd1e4953">Visus visio et auditus audire et omnino sensus sentire</quote>. Item
+							<name>Commentator</name> IX <title>Metaphysice</title>, commento 16, dicit quod
+						<quote xml:id="atv-l1d1q4-Qd1e4962">operatio est quando unumquandoque utitur operatione sua propria</quote>. Et infra: <quote xml:id="atv-l1d1q4-Qd1e4965">operatio ista
+						est in quibuslibet rebus, ut faciant aliquod opus proprium, ut artis edificatorie
+						operatio propria est facere domum</quote>. Et II <title>De anima</title>, commento 141, idem
+							<name>Commentator</name> ait: <quote xml:id="atv-l1d1q4-Qd1e4975">Videre est passio visus et sic infinita nominia
+						agentia</quote>. Ex quibus omnibus patet quod isti termini sumpti nominaliter et verbaliter
+						sunt idem penitus in significato; ergo etc.</p>
+					<p xml:id="atv-l1d1q4-d1e4979">Preterea, ad principale sic: concesso gratia exercitii quod dilectio diceret qualitatem
+						absolutam et possit esse sine attingentia obiecti, dilectio tamen beatifica, cum sit
+						perfectissima, etiam per me non potest absolvi a respectu attingentie obiecti beatifici,
+						quod est Deus, igitur impossibile est creaturam rationalem habere actum dilectionis
+						beatifice et ipsum non diligere, cuius oppositum asserit illa conclusio.</p>
+					<p xml:id="atv-l1d1q4-d1e4982">Preterea, causa formalis et effectus formalis idem sunt realiter, vel saltem ita in se
+						invicem sequuntur quod per nullam potentiam possunt separari, igitur visio beatifica et
+						videre Deum beatifice et dilectio beatifica et diligere Deum beatifice idem sunt, vel
+						saltem inseparabiliter se consequuntur. Et confirmatur, quia, sicut se habet albedo ad
+						albere, ita dilectio ad diligere. Sed implicatio contradictionis est quod albedo sit in
+						superficie et non communicet sibi effectum suum formalem scilicet albere; igitur
+						implicatio contradictionis est quod dilectio sit in subiecto sibi proprio, scilicet in
+						voluntate et 
+						
+						<pb ed="#V" n="49-v"/>
+						<cb ed="#V" n="a"/>
+						
+						non communicet ei effectum suum formalem, scilicet diligere. Et
+						simile potest argui de cognitione et cognoscere. Et sic de aliis. </p>
+					<p xml:id="atv-l1d1q4-d1e4989">Istis tamen et similibus non obstantibs adhuc videtur mihi dicendum ut prius.</p>
+					<p xml:id="atv-l1d1q4-d1e4993">Ad rationes magistri <name>Fernandi</name></p>
+					<p xml:id="atv-l1d1q4-d1e4998">Ad primum igitur nego antecedens. Oppositum enim patet per secundum propositionem meam
+						concessam. Et ad probationem, licet non sit universaliter verum quod non fiat transitus
+						de contradictorio in cotradictorium nisi facta mutatione circa illam rem, ut
+						declarabitur alias, dico tamen quantum pertinet ad propositum quod intellectus potest
+						fieri de intelligente non intelligens, et econverso nulla facta mutatione circa ipsum in
+						aliquo absoluto, ut patet per quartam propositionem meam concessam, quia sufficit quod
+						desinat esse respectus attingentie ad obiectum propter remotionem obiecti. Intelligere
+						namquam non dicit precise intellectionem ipsam que tantum est quedam qualitas absoluta,
+						sed simul cum intellectione includit respectum attingentie ad obiectum essentialiter et
+						intrinsece. Ex quo patet quod talis mutatio non necessario fiat in intellectione. Et ad
+						confirmationem dico quod intellectus non est naturalis representatio obiecti, sicut
+						assumitur, aliter non esset necessario species representativa distincta realiter ab actu
+						intelligendi, quod est expresse contra <name>beatum Augustinum</name> XI <title>De
+							Trinitate</title> per totum.</p>
+					<p xml:id="atv-l1d1q4-d1e5007">Sed contra solutionem ista arguebatur a multi. Primo quidem ab illo reverendo patre et
+						socius cuius est ratio multipliciter. Primo sic: si de intelligente sit non intelligens,
+						quia desinit esse respectus attingentie ad obiectum propter corruptionem obiecti,
+						sequitur quod, si ego intelligam Socratem existente in Hispania quem alias vidi et toto
+						conatu meo velim hanc intellectionem continuare per horam, si Deus in medio illius hore
+						annihilet Socratem, statim desinam intelligere sine hoc quod Deus aliquid operetur circa
+						me, quod est falsum et contra experientiam.</p>
+					<p xml:id="atv-l1d1q4-d1e5010">Pretera, si solutio ista sit vera, sequitur quod ista consequentia sit necessaria:
+						intelligo Petrum existentem in Hispania, igitur Petrus est, quod est falsum.
+						Consequentia probatur, quia sequitur Petrus non est, igitur respectus attingentie ad
+						Petrum non est. Hoc patet, quia per me corrupto obiecto corrumpitur respectus
+						attingentie ad ipsum et ulterius sequitur ex dictis meis, ut dicit: respectus attingentie
+						ad Petrum non est, igitur ego non intelligo Petrum, quod est oppositum antecedentis;
+						igitur etc.</p>
+					<p xml:id="atv-l1d1q4-d1e5013">Preterea, videtur quod ista solutio multum appropinquat ad opinionem illam que dicit
+						quod actus non distinguitur ab anima que tamen erronea reputatur. Assumptum probatur,
+						quia per istum modum loquendi ego potero dicere quod anima est sua intellectio et sua
+						volitio, immo secundum istam viam superfluit ponere actus distinctos, quia dicam tibi
+						sicut tu dicis quod anima per suam essentiam de non intelligente sit intelligens propter
+						presentiam obiecti et de intelligente non intelligens propter absentiam obiecti. Quid
+						ergo valet ponere illum actum cum possit fieri de non intelligente intelligens, et
+						econverso per solam absentiam et presentiam obiecti.</p>
+					<p xml:id="atv-l1d1q4-d1e5016"><name>Rodulphus minor</name></p>
+					<p xml:id="atv-l1d1q4-d1e5021">Preterea, ad idem arguebat quidam reverendus baccalarius primo sic: si intelligere non
+						est precise intellecto, sed una cum hoc includit respectum attingentie ad obiectum, vel
+						talis respectus est res distincta ab intellectione, vel non. Si non, nunquam poterit esse
+						intellectio quin sit talis respectus. Nec per consequens poterit esse intellectio quin
+						sit intelligere, quod est propositum. Si sic, et Deus poterit conservare respectum illum
+						in intellectu sine intellectione, sicut per me poterit conservare intellectionem sine
+						tali respectu. Quo posito, sequitur quod intellectus poterit intelligere sine
+						intellectione, quod est impossibile. Ista consequentia patet, quia posito in intellectu
+						respectu attingentie ad obiectum attingitur obiectum, igitur intellectus necessario
+						intelligit ipsum. </p>
+					<p xml:id="atv-l1d1q4-d1e5024">Preterea, contra illud quod dixi quod di-
+						
+						<pb ed="#V" n="49-v"/>
+						<cb ed="#V" n="b"/>
+						
+						-lectio non est naturaliter
+						representatio obiecti arguebat quidam de nostris reverendus doctor sic.</p>
+					<p xml:id="atv-l1d1q4-d1e5031"><name>Lucas de Massana</name></p>
+					<p xml:id="atv-l1d1q4-d1e5035">Omnis similitudo est representativa rei cuius est similitudo. Sed actus intelligendi
+						iuxta doctrinam <name>beati Augustini</name> est vera similitudo obiecti; igitur etc. Et
+						confirmatur, quia actus intelligendi est expressa similitudo obiecti non minus, immo
+						magis quam species previa ipsi actui. Sed eo ipso quod species est quedam similitudo
+						obiecti est ipsius representativa; igitur etc.</p>
+					<p xml:id="atv-l1d1q4-d1e5041">Magister <name>Fernandus</name></p>
+					<p xml:id="atv-l1d1q4-d1e5046">Sed iste rationes non videntur impedire solutionem datam. Ad primum igitur et secundum
+						simul dico quod procedunt ex false fundamento. Supponunt enim quando intelligo Socratem
+						vel Petrum existentem in Hispania quod respectus attingentie terminetur ad ipsum, quod
+						non est verum, quia, cum sic intelligo Petrum, non intelligo ipsum intuitive et in se
+						ipso, sed tantum abstractive et in suo representativo. Et in tali intellectione
+						respectus attingentie non terminatur ad rem cognitam abstractive, sed ad eius
+						representativum in quo cognoscitur et talis representativo desinente esse desinit esse
+						respectus attingentie ad ipsum intelligere, sicut patet per <name>beatum
+							Augustinum</name> XII <title>De Trinitate</title>, capitulo 13, de parvis, ubi sic
+						dicit: <quote xml:id="atv-l1d1q4-Qd1e5054">Quod est ad corporis respectum aliquod corpus in loco, hoc est ad animi aciem
+						similitudo corporis in memoria et quod est aspicientis visio ad eam speciem corporis ex
+						qua sensus formatur, hoc est visio cogitantis ad imaginationem corporis in memoria
+						constitutam</quote>. Et capitulo sequenti dicit: <quote xml:id="atv-l1d1q4-Qd1e5057">Sicut cum forma et species corporis
+						interierit non potest ad eum voluntas sensum revocare cernentis, ita cum imago quam
+						memoria gerit oblivionem deleta est non erit quo animi aciem formandam voluntas
+						recordando retorqueat</quote>. Hec <name>Augustinus</name>.</p>
+					<p xml:id="atv-l1d1q4-d1e5065">Ex his statim apparet quod nulla horum rationum concludunt. Sed contra conclusionem
+						istam iste doctor arguebat sic: ponatur quod Socrates intelligat rosam quam vidit anno
+						preterito et modo non est et distinguat eam a specie illius rose quam habet in memoria
+						formando illud complexum. Hec species que est in memoria mea non est rosa quam vidi anno
+						preterito et modo non est. Tunc querit quid est obiectum huius iudicii complexi, aut
+						species tantum. Et hoc non, quia tunc de specie iudicarem quod esset et non esset, quod
+						est falsum, igitur non solum species est obiectum et per consequens relinquitur quod
+						rosa que fuit et modo non est intelligitur sine respectu talis attingentie, quod
+						destruit solutiones datas.</p>
+					<p xml:id="atv-l1d1q4-d1e5068">Responsio</p>
+					<p xml:id="atv-l1d1q4-d1e5071">Hic respondeo et admisso casu dico quod istius iudicii complexi sola species rose
+						existens in memoria est obiectum actualiter terminans respectum attingentie. Ratio huius
+						est, quia ad habendum tale iudicium sufficit quod species rose cognoscatur intuitive et
+						rosa que fuit abstractive et in utraque istarum cognitionum sola species existens in
+						memoria terminat respectum predictum, ut patet ex supradictis. Et quando dicitur quod
+						'tunc de specie iudicarem quod esset et non esset', nego, quia, licet sola species
+						terminet respectum attingentie, rosa tamen vere cognoscitur abstractive in illa specie,
+						ut patet per <name>beatum Augustinum</name> superius allegatum. </p>
+					<p xml:id="atv-l1d1q4-d1e5077">Ad tertium quando dicebatur quod 'ista via multum appropinquat ad opinionem ponentium
+						quod actus non distinguitur ab ipsa anima' non est verum, immo magis distat ab ea quam
+						aliqua alia, quia cum hoc quod pono dilectionem esse distinctam ab anima, pono respectum
+						attingentie distinctum ab utroque. Et quando dicitur quod 'anima per essentiam suam sit
+						de intelligente non intelligens et econverso per solam absentiam obiecti', istud est sine
+						ratione dictum, quia, licet ad hoc quod anima intelligat intuitive vel abstractive
+						requiratur quod obiectum sit presens in se, vel in suo representativo, ut patet per
+							<name>beatum Augustinum</name>, non potest tamen intelligere sine intellectione que
+						per me non est ipsa, nec sine respectu predicto qui non est ipsa, nec intellectio.</p>
+					<p xml:id="atv-l1d1q4-d1e5083"><name>Rodulphi minoris</name></p>
+					<p xml:id="atv-l1d1q4-d1e5087">Ad quartum concedo quod respectus iste est res distincta ab intellectione. Et quando
+						dicitur quod 'tunc Deus poterit conservare respectum illum in intellectu sine
+						intellectione' etc., hic potest responderi dupliciter. Primo interimendo assumptum, quia,
+						licet non sit im-
+						
+						<pb ed="#V" n="50-r"/>
+						<cb ed="#V" n="a"/>
+						
+						-plicatio contradictionis quod intellectus sit et <gap reason="illegible" extent="1" unit="characters"/> respectus non
+						sit, est tamen implicatio per illationem, licet non formalis quod talis respectus sit et
+						intellectio non sit, cum talis respectus non sit nisi habitudo quadam intellectionis ad
+						rem intellectam. Et hec est bona consequentia: intellectio vel res intellecta non est,
+						igitur habitudo intelectionis ad rem intellectam non est. Et ad veritatem dicentes quod
+						respectus potest esse sine fundamento et termino dicunt respectum non esse respectum,
+						sed absolutum. Et sic concedunt contradictoria, prout alias declarabitur. </p>
+					<p xml:id="atv-l1d1q4-d1e5097">Secundo potest dici etiam quod, si concedatur assumptum, quod ex hoc non sequitur quod
+						intellectus potest intelligere sine intellectione quasi stante intellectione sine
+						respectu intellectus, non potest intelligere multo minus econverso. Et quando dicitur
+						quod posito in intellectu respectu attingentie ad obiectum attingitur obiectum, verum
+						est. Sed non attingitur per intellectionem, quia ponitur quod non sit et constat quod
+						nunquam aliquid intelligitur nisi attingatur per intellectionem, sicut nec videtur nisi
+						attingatur per visionem; igitur ratio nulla.</p>
+					<p xml:id="atv-l1d1q4-d1e5100"><name>Lucas de Massana</name></p>
+					<p xml:id="atv-l1d1q4-d1e5104">Ad ultimum distinguo de similitudine, quia quedam est apprehensiva, quedam expressiva.
+						Primo modo, actus cognoscendi est similitudo rei que per ipsam cognoscitur ita quod
+						similitudo actus non est nisi imago apprehensiva sive cognitiva obiecti. Et ideo
+						impossibile est quod aliquis per actum cognoscat obiectum nisi ille qui formaliter habet
+						actum. Secundo modo, species existens in memoria est similitudo rei cuius est species,
+						ita quod similitudo speciei non est nisi imago expressiva obiecti, et ideo possibile est
+						quod aliquis cognoscat obiectum per speciem que non est formaliter in eo, sicut patet in
+						visione qua video Petrum per speciem existentem in speculo. His visis concedo quod omnis
+						similitudo expressiva est representativa obiecti cuius similitudo est. Similitudo tamen
+						apprehensiva non est obiecti representativa. Et quod ita sit patet primo ex doctrina que
+						communius tenetur, licet enim aliqui dicant quod notitia abstractiva deitatis secundum
+						proprium eius conceptum sit communicabilis viatori cuius tamen tenetur oppositum. Et
+						ratio fundamentalis doctoris est, quia repugnat essentie divine propter eius infinitatem
+						aliquo creato representari et tamen non repugnat sibi videri intuitive, igitur illa
+						visio, licet sit similitudo apprehensiva et cognitiva essentie divine, non tamen
+						representativa secundum eos. </p>
+					<p xml:id="atv-l1d1q4-d1e5107">Secundo, quia, si actus ipse qui est similitudo apprehensiva obiecti est similitudo
+						representativa, frustra poneretur species ad representandum, ut aliquid possit cognosci
+						abstractive sine specie distincta ab actu, quod est expresse contra <name>beatum
+							Augustinum</name> superius allegatum. Et confirmatur, quia, si actus sit similitudo
+						representativa obiecti, cum species etiam sit similitudo representativa, erunt in nobis
+						due similitudines obiecti eiusdem rationis, quod est inconveniens, quia altera earum
+						superflueret. </p>
+					<p xml:id="atv-l1d1q4-d1e5113">Tertio, quia nullus angelus cognoscens actum beatificum alterius habet obiectum
+						beatificum presens in suo representativo, aliter quicumque beatus cognoscit actum
+						beatificum alterius cognosceret Deum abstractive, quod nullus ponit, igitur talis actus
+						non est similitudo representativa, et tamen constat quod est similitudo
+						apprehensiva.</p>
+					<p xml:id="atv-l1d1q4-d1e5116">Quarto, quia non videtur maior repugnantia quod similitudo apprehensiva non sit
+						similitudo representativa quam quod similitudo representativa non sit apprehensiva, et
+						tamen secundum omnes concedunt quod nullus dicit quod species sit similitudo
+						apprehensiva sive cognitiva obiecti, igitur patet quod similitudo apprehensiva non est
+						obiecti representativa. Et quia de tali non procedit, ratio non concludit, ut videtur, et
+						per hoc patet quid dicendum ad confirmationem.</p>
+					<p xml:id="atv-l1d1q4-d1e5120">Ad secundum vero principale nego consequentiam. Nec probatio valet, quia posito quod
+						dilectio in bono sensu dicatur a diligere sicut sapientia a spere, tamen diligere et
+						sapere includunt respectum attingentie ad obiectum, quod non facit dilectio nec
+						sapientia. Et ideo non valet consequentia.</p>
+					<p xml:id="atv-l1d1q4-d1e5123">Ad tertium: quicquid sit de antecedente nego consequentiam, quia non est simile de
+						creatione et dilectione, quia terminus creationis ponitur in esse per creationem. Sed
+						terminus dilectionis non ponitur inesse 
+						
+						<pb ed="#V" n="50-r"/>
+						<cb ed="#V" n="b"/> 
+						
+						per dilectionem.</p>
+					<p xml:id="atv-l1d1q4-d1e5130">Contra</p>
+					<p xml:id="atv-l1d1q4-d1e5133">Sed contra solutionem istam iste reverendus socius arguebat dupliciter. </p>
+					<p xml:id="atv-l1d1q4-d1e5136">Primo, quia dissimilitudo quam ego assigno nullo modo est ad propositum, nec impedit
+						rationem, quia ita posset dici quod ideo non valet consequentia, quia creatio convenit
+						soli Deo et dilectio non, vel ideo, quia creatio non est dilectio et sic quelibet
+						similitudo quantumcumque dispersa sufficeret ad solvendum argumentum et quodcumque aliud
+						factum per locum a simili. </p>
+					<p xml:id="atv-l1d1q4-d1e5139">Secundo, quia dicetur mihi quod per creationem non attingitur obiectum, sed per creare,
+						quia creare dicit respectum attingentie, sicut ego dico de diligere, et per consequens
+						non est verum, si dicta mea sunt vera, quod terminus creationis ponatur inesse per
+						creationem, sed per creare.</p>
+					<p xml:id="atv-l1d1q4-d1e5143">Responsio</p>
+					<p xml:id="atv-l1d1q4-d1e5146">Ad primum istorum dico quod dissimilitudo per me data non est qualiscumque, immo reddit
+						causam sufficientem ad negandum consequentiam, quia, si per dilectionem terminus
+						dilectionis poneretur in esse, sicut per creationem ponitur terminus creationis, bene
+						sequeretur dilectio est, igitur diligere est, quia tota causa qua voluntas potest habere
+						dilectionem et non diligere est, quia possibile est quod dilectio sit in voluntate et
+						quod terminus dilectionis non sit sibi presens in ratione obiecti, ut declaratum est
+						supra, igitur dissimilitudo illa sufficit in proposito. </p>
+					<p xml:id="atv-l1d1q4-d1e5149">Ad secundum dico quod, sicut hec est vera ‘ego diligo per dilectionem’, licet diligere
+						includat dilectionem et respectum attingentie ad rem dilectam, ita et hec est vera ‘Deus
+						creat per creationem’, etiam supposito quod creare dicat creationem cum tali respectu,
+						et ideo semper est verum quod per creationem terminus creationis ponitur in esse, quod
+						non est verum de dilectione. Et, si dicatur saltem ista consequentia non est bona
+						'creatio est, igitur creare est', quia, si Deus conservaret creationem sine tali respectu,
+						non esset creare et quantum ad hoc est simile de dilectione, et per consequens prima
+						consequentia non fuit negativa. Potest responderi dupliciter. Primo, quia, si verum est
+						quod assumitur, ratio principalis est nulla, quia nunc assumitur oppositum primi
+						antecedentis et adhuc consequentia non est necessaria propter dissimilitudinem datam.
+						Secundo potest dici supposito quod creatio sit aliquid in creatura distinctum ab ipsa,
+						ut videtur multis de quo ad presens non intermitto me, quia illa consequentia sit
+						necessaria, quia creatio non potest esse in creatura nisi crearetur, et ideo non est
+						possibile quod creatio sit et non sit in creare et quia ad presens non intromitto me de
+						creatione, idcirco dixi quod consequentia non est necessaria quicquid sit de
+						antecedente. Si tamen antecedens sit falsum, adhuc minus valet ratio. </p>
+					<p xml:id="atv-l1d1q4-d1e5152">Ad quartum dico quod <name>beatus Augustinus</name> loquitur de facto et de potentia
+						Dei ordinata. Et sic concedo auctoritatem, quia de facto amor et amare inseparabiliter
+						se consequuntur. Ego vero loquor de possibili et de potentia Dei absoluta, et ideo
+						auctoritas non est contra me.</p>
+					<p xml:id="atv-l1d1q4-d1e5158">Responsio ad rationes predicatoris</p>
+					<p xml:id="atv-l1d1q4-d1e5161">Ad primum vero alterius reverendi patris et magistri concedo quod differunt revelata ad
+						sensum, id est re que est respectus sive relatio, quia dilectio est precise quedam
+						qualitas absoluta non includens respectum essentialiter. Diligere vero addit supra ipsum
+						respectum attingentie ad obiectum. Et quando queritur an talis relatio sit realis vel
+						rationis, concedo quod sit realis. Et cum dicitur ulterius quod actus dilectionis
+						beatifice circa Deum necessario includit respectum, concedo quod actus dilectionis qui
+						de facto est actualiter circa Deum obiective necessario includit respectum, nec sic
+						potest esse in voluntate quando voluntas diligat. Actus tamen dilectionis qui nunc est
+						circa Deum potest esse in voluntate et non est circa Deum, nec circa aliquid aliud
+						obiective. Et de tali dici et dico quod potest esse formaliter in voluntate et ipsa non
+						diliget.</p>
+					<p xml:id="atv-l1d1q4-d1e5165">Ad secundum nego antecedens et ad probationem dico quod esse visum est denominatio
+						extrinseca ab actu visionis cum respectu attingentie ad obiectum et non aliter. Hoc
+						patet, quia, si per actum visionis non attingitur obiectum, implicatio contradictionis
+						est quod sit visum. 
+						
+						<pb ed="#V" n="50-v"/>
+						<cb ed="#V" n="a"/>
+						
+					</p>
+					<p xml:id="atv-l1d1q4-d1e5171">Responsio ad rationes Magistri <name>Alphonsi</name></p>
+					<p xml:id="atv-l1d1q4-d1e5176">Ad primum vero alterius patris et socii concedo quod quando loquitur de facto et
+						secundum ordinem qui nunc est, utor dilectione pro diligere et cognitione pro cognoscere,
+						et sic de aliis secundum usum communem loquendi. Sed quando queritur quid veritatis sit
+						de possibili et presertim de potentia Dei absoluta non utor uno pro alio, immo dico unum
+						posse esse sine alio.</p>
+					<p xml:id="atv-l1d1q4-d1e5179">Ad secundum eodem modo dico, quia doctores philosophi et Scriptura Sacra in
+						auctoritatibus allegatis loquuntur de facto et secundum ordinem qui nunc est, et ideo
+						utuntur indifferenter uno pro alio. Et ad interrogationem factam de uno respondetur per
+						alterum affirmative vel negative, non quia sint penitur idem, sed quia inseparabiliter
+						se consequuntur de facto.</p>
+					<p xml:id="atv-l1d1q4-d1e5182">Ad tertium concedo quod, si dilectio qua creatura rationalis nunc diligit Deum
+						beatifice esset formaliter in voluntate et voluntas non diligeret per eam, non esset
+						beatifica sic quod actu beatificaret, ut dictum est supra. Posset tamen dici beatifica,
+						quia per eam potest creatura beatificari quantum ad partem volitivam positis aliis que
+						necessario requiruntur ad hoc quod voluntas possit actu diligere. Et ideo concedo quod
+						dilectio beatifica primo modo, id est actu beatificans, non potest absoluta respectu
+						attingentie. Dilectio autem beatifica secundo modo potest, ut patet ex supradictis. </p>
+					<p xml:id="atv-l1d1q4-d1e5185">Ad quartum nego antecedens si sumatur universaliter, quia non est verum regulariter
+						quod causa formalis in effectus formalis inseparabiliter se consequuntur sic quod per
+						nullam potentiam possint separari, nec est idem iudicium de omni causa et effectu
+						formali. Si vero antecedens sumatur indiffinite, patet quod non sequitur conclusio,
+						etiam si concedatur.</p>
+					<p xml:id="atv-l1d1q4-d1e5189">Et ad confirmationem dico quod non est simile de albedine et dilectione. Et ratio
+						dissimilitudinis est quod ad hoc quod albedo det superficiei esse album non requiritur
+						aliqua res distincta ab albedine et superficiei et inherentia albedinis si sit res
+						distincta ab utroque stante generali influentia Dei, sed ad hoc quod voluntas diligat
+						non sufficiunt naturaliter voluntas et dilectio et inherentia eius, sed requiritur
+						cognitio que non est essentialiter dilectio, nec econverso requiritur etiam obiectum
+						quod potest esse res distincta a voluntate et dilectione. Et ideo non sequitur si albedo
+						est in superficie, necessario sibi communicat suum proprium effectum formalem qui est
+						albare, igitur, si dilectione in voluntate necessario sibi communicat suum effectum
+						formalem et proprium qui est diligere, quia ad hoc quod superficies sit alba non
+						requiritur aliqua res a predictis distincta, tamen requiritur ad hoc quod voluntas
+						diligat et tali non existente voluntas poterit habere dilectionem et non diligere.</p>
+					<p xml:id="atv-l1d1q4-d1e5192">Contra</p>
+					<p xml:id="atv-l1d1q4-d1e5195">Sed contra solutionem istam iste reverendus pater et magister arguit multipliciter.
+						Primo sic, quia causa in effectu et effectus in actu simul sunt et non sunt, secundum
+							<name>Philosophum</name>.</p>
+					<p xml:id="atv-l1d1q4-d1e5201">Secundo, quia causa formalis non ponit effectum formalem in obiecto, nec in aliquo
+						modo, sed in subiecto, igitur circumscripto quocumque alio et posito subiecto ponetur
+						talis effectus.</p>
+					<p xml:id="atv-l1d1q4-d1e5204">Tertio, quia nihil est sine se ipso et causa formalis et effectus formalis idem
+						sunt.</p>
+					<p xml:id="atv-l1d1q4-d1e5207">Quarto, quia, sicut ad albere non requiritur aliquid aliud in ratione termini, ita
+						generaliter nec in aliqua causa formali nisi aliquis velit prohibito in stare in
+						proposito.</p>
+					<p xml:id="atv-l1d1q4-d1e5211">Responsio</p>
+					<p xml:id="atv-l1d1q4-d1e5214">Ad primum istorum potest uno modo dici quod auctoritas philosophi est sic intelligenda
+						quod causa in actu, id est causa actu causans, et effectus in actu simul sunt et non
+						sunt, quia non potest causa causare nisi causetur effectus. Sed in isto sensu non est ad
+						propositum, quia quando dilectio est et diligere non est, causa formalis non causat
+						actu. Potest etiam dici secundo ad intellectum argumenti loquendo de causa formali quod
+						causa in actu et effectus in actu simul sunt et non sunt, ubi posita forma et subiecto
+						ponitur effectus circumscripta omni re tertia quod in proposito dici non potest, ut
+						patet ex dictis.</p>
+					<p xml:id="atv-l1d1q4-d1e5217">Ad secundum nego consequentiam, quia, licet causa formalis non ponat effectum formalem
+						in obiecto, nec in alio quam in subiecto, requirit tamen aliud aliquotiens necessario,
+						sicut declaratum est in proposito.</p>
+					<p xml:id="atv-l1d1q4-d1e5220">Ad tertium patet ex dictis quod diligere 
+						
+						<pb ed="#V" n="50-v"/>
+						<cb ed="#V" n="b"/> 
+						
+						non est realiter dilectio, quia addit
+						supra ipsam respectum attingentie ad obiectum qui non est intrinsecus dilectioni. Et
+						idem dicendum est de cognitione et cognoscere et similibus. Utrum autem in aliquibus
+						causa formalis et effectus formalis sint idem penitus videbitur alias.</p>
+					<p xml:id="atv-l1d1q4-d1e5227">Ad ultimum patet quod rationabiliter loquendo et non ad placitum requiritur terminus ad
+						effectum qui est diligere vel cognoscere, quia impossibile est quod sit diligens sine
+						dilectio, nec cognoscens sine cognito, nec econverso, iuxta doctrinam <name>beati
+							Augustini</name> et etiam philosophi et omnium recte philosophantium. Manet igitur
+						illa conclusio, ut videtur. </p>
+					<p xml:id="atv-l1d1q4-d1e5233">Circa secundam vero posset argui, verumtamen, quia rationes possunt consimiliter solvi
+						cum sit eadem penitus difficultas, pertranseo.</p>
+					<p xml:id="atv-l1d1q4-d1e5237">Contra</p>
+					<p xml:id="atv-l1d1q4-d1e5240">Sed contra tertiam et quartam simul iuxta doctrinam quorundam potest argui primo sic:
+						nulla dilectio qua creatura non diligit est dilectio creature. Hoc patet, quia dilectio
+						dicitur a diligere, sicut sapientia a sapere et cognitio a cognoscere. Sed dilectio qua
+						creatura rationalis nunc diligit Deum beatifice potest manere formaliter in ipsa, et
+						tamen non diliget per eam ex prima conclusione mea; ergo dilectio que creatura
+						rationalis nunc diligit Deum beatifice potest manere formaliter in ipsa et tamen non
+						diliget, et per consequens non esse dilectio sibi.</p>
+					<p xml:id="atv-l1d1q4-d1e5243">Et confirmatur, quia, si predicta dilectio esset formaliter in lapide, adhuc non esset
+						dilectio lapidis et non nisi, quia lapis non diligeret per eam, igitur, si est possibile
+						quod sit formaliter in voluntate rationalis creature et quod ipsa non diligat per eam,
+						possibile est quod sit formaliter in voluntate rationalis creature et quod non sit
+						dilectio sibi. Antecedens videtur notum et etiam consequentia, quia ubi eadem ratio
+						premittitur, similis consequentia merito subinfertur, ut patet per <name>Ricardum</name>
+						II <title>De Trinitate</title>, capitulo 11; igitur etc.</p>
+					<p xml:id="atv-l1d1q4-d1e5252">Preterea, dilectio qua nunc diligitur non magis est dilectio quam cognitio, immo non
+						magis est dilectio quam sit albedo vel nigredo. Hec patet, quia dilectio idcirco non est
+						cognitio, quia per ipsam nihil cognoscitur; igitur, si per ipsam nihil diligitur, non
+						magis est dilectio quam sit cognitio, sed dilectio qua creatura rationalis nunc diligit
+						Deum vel aliquid aliud potest manere formaliter in ipsa et non est dilectio et, si non
+						sit dilectio, consequens est quod non sit dilectio sibi.</p>
+					<p xml:id="atv-l1d1q4-d1e5255">Et confirmatur, quia illa qualitas qua creatura rationalis non magis diligit quam
+						cognoscat vel odiat, non magis est sibi dilectio quam odium vel cognitio. Sed aliqua
+						dilectio potest esse formaliter in ipsa que non magis diligit quam odiat vel cognoscat,
+						ut patet ex supradictis; igitur etc.</p>
+					<p xml:id="atv-l1d1q4-d1e5258">Preterea, si albedo esset formaliter in superficie et non daret ei suum proprium
+						effectum formalem qui est albare, non magis esset sibi albedo quam nigredo, igitur, si
+						dilectio esset formaliter in voluntate et non daret ei suum proprium effectum formalem
+						qui est diligere, non magis esset sibi dilectio quam odium, igitur est implicatio ponere
+						quod dilectio possit esse formaliter in creatura non dando ei suum proprium effectum
+						formalem qui est diligere et quod sit dilectio sibi.</p>
+					<p xml:id="atv-l1d1q4-d1e5262">Et confirmatur, quia dicentes quod dilectio non potest esse dilectio vel quod dilectio
+						creature ipsa manente in creatura potest non esse dilectio sibi, non intelligunt nisi
+						quod possibile est dilectionem esse in creatura et ipsam non diligere, unde iste
+						propositiones secundum eos equivalent in significando.</p>
+					<p xml:id="atv-l1d1q4-d1e5265">Preterea, iste terminus ‘dilectio’ est terminus connotativus, quia, licet principaliter
+						et in recto significet quandam qualitatem, connotat tamen tantum dilectionem, sicut iste
+						terminus 'pater' principaliter et in recto significat hunc vel illum hominem vel equum.
+						Connotat tamen 'filium', igitur illa qualitas circumscripto termino ‘dilectio’ sicut homo
+						vel equus circumscripto filio non est pater, sed per me possibile est istam qualitatem
+						esse in creatura rationali sine termino dilectio, igitur possibile est ipsam esse in
+						creatura rationalis et non esse dilectionem sibi. </p>
+					<p xml:id="atv-l1d1q4-d1e5268">Consimiliter potest argui de cognitione et delectatione. Et sic de aliis.</p>
+					<p xml:id="atv-l1d1q4-d1e5271">Responsio</p>
+					<p xml:id="atv-l1d1q4-d1e5274">Istis tamen non obstantibus videtur esse dicendum, ut prius. Ad primum igitur nego
+						maiorem, quia, si dilectio esset in creatura sive diligat, sive non diligat non potest
+						esse dilectio si-
+						
+						<pb ed="#V" n="51-r"/>
+						<cb ed="#V" n="a"/>
+						
+						-bi cum sit aliquid sibi et non nisi dilectio, quia nec est aliud
+						quam dilectio.</p>
+					<p xml:id="atv-l1d1q4-d1e5281">Et ad probationem posset dici quod diligere proprius dicitur a dilectione quam
+						econverso, sicut album proprius dicitur ab albedine quam econverso. Quicquid sit de hoc,
+						quia non intendo pro nunc inquirere utrum concretum dicatur ab abstracto, vel econverso,
+						dico quod dilectio dicitur a diligere non quia sint penitus idem, ut communiter homines
+						imaginantur, sed quia habens dilectionem diligit vel diligere potest formaliter per eam
+						si ponantur cetera que necessario requiruntur ad hoc quod diligat. Sed ex hoc non
+						sequitur quod, si dilectio sit in creatura et creatura non diligat propter defectum
+						cognitionis vel alicuius alterius necessario requisiti, quod non sit dilectio creature
+						quo potest actu diligere sibi, immo totum oppositum. Et illud est dilectio creature quo
+						potest actu diligere nullo sibi superaddita, quod sit dilectio, et sic est in
+						proposito.</p>
+					<p xml:id="atv-l1d1q4-d1e5285">Ad confirmationem vero potest dici iuxta doctrinam aliquorum quod, si dilectio esset
+						formaliter in lapide, adhuc esset dilectio lapidi, quia casu posito lapis esset diligens
+						nominaliter, licet non verbaliter, quia non diligeret.</p>
+					<p xml:id="atv-l1d1q4-d1e5288">Magister <name>Hugo</name> minor fratrum</p>
+					<p xml:id="atv-l1d1q4-d1e5294">Et isto modo quidam doctor concedit quod de potentia Dei absoluta sapientia potest esse
+						formaliter in lapide. Quo posito lapis, ut dicit, erit sapiens nominaliter, licet non
+						verbaliter, quia non saperet.</p>
+					<p xml:id="atv-l1d1q4-d1e5297">Sed ad veritatem ista solutio est nulla, quia simpliciter est impossibile quod lapis
+						sit diligens vel sapiens sive nominaliter, sive verbaliter nisi quis velit abuti
+						vocabulis. Hoc patet, quia diligens semper infert dilectionem. Sed posito quod dilectio
+						esset formaliter in lapide, adhuc nihil esset dilectum a lapide; igitur nec lapis esset
+						diligens. Et, si dicatur quod diligens sumptum verbaliter infert dilectum, non autem
+						nominaliter, hoc est dictum ad placitum et abuti vocabulis. Et pari ratione dicetur quod
+						dilectum sumptum nominaliter non infert diligens, et sic poterit esse aliqua res
+						nominaliter dilecta, et tamen non erit diligens eam quod nihil est dicere.</p>
+					<p xml:id="atv-l1d1q4-d1e5300">Preterea, vel ille doctor per illam propositionem 'lapis est sapiens' nominaliter precise
+						intelligit sapientiam esse formaliter in lapide vel aliquid aliud, aliter nunquam
+						propositio poterit verificari. Et ulterius istud deberet ille doctor exprimere. </p>
+					<p xml:id="atv-l1d1q4-d1e5303">Si detur primum, igitur nihil aliud est dicere. Si sapientia est formaliter in lapide,
+						lapis est sapiens nominaliter nisi, si sapiens est formaliter in lapide, sapientia est
+						formaliter in lapide, quod nihil est dicere. Et confirmatur, quia per istam propositionem
+						'lapis est sapiens' non potest intelligi nisi quod sapientia sit in lapide vel quod lapis
+						sapiat. Primum dari non potest per rationem precedentem. Nec secundum, quia tunc esset
+						sapiens verbaliter, quod est contra eum, igitur nullo modo potest verificari quod lapis
+						sit sapiens. Patet igitur solutionem illam esse nullam, ut videtur.</p>
+					<p xml:id="atv-l1d1q4-d1e5307">Et ideo potest dici secundo iuxta doctrinam aliorum quod per nullam potentiam potest
+						fieri quod dilectio sit formaliter in lapide. Sed nec istud videtur mihi bene dictum,
+						quia, cum dilectio sit una res absoluta precise, non est implicatio contradictionis quod
+						ponatur formaliter in lapide, igitur hoc fieri est possibile saltem divina virtute.</p>
+					<p xml:id="atv-l1d1q4-d1e5310">Dimissis igitur istis solutionibus potest uno modo dici quod posito quod dilectio qua
+						creatura nunc diligit esset formaliter in lapide et non esset dilectio sibi, adhuc non
+						sequeretur quod, si esset in creatura rationali et illa creatura non diligeret, quod non
+						esset ei dilectio, quia talis dilectio non ideo non esset dilectio lapidi quia lapis
+						non diligeret, sed quia non esset aptus natus diligere quod de creatura rationali dici
+						non potest verum, quia non videtur mihi possibile quod dilectio sit in lapide et non sit
+						aliquid lapidi et, si sit aliquid ei, non potest esse nisi dilectio, quia dilectio non
+						est in aliquo nisi dilectio. Nego antecedens et concedo quod, si dilectio esset
+						formaliter in lapide, adhuc esset dilectio lapidi. Sed ex hoc non sequitur quod lapis
+						diligat nec quod possit diligere, quia non potest per dilectionem diligere nullus quod
+						est aptum natum diligere, nec sequitur quod sit diligens nominaliter, nec verbaliter, ut
+						patet ex supradictis. </p>
+					<p xml:id="atv-l1d1q4-d1e5313">Ad secundum principale nego maiorem, quia, si dilectio qua nihil diligitur
+						
+						<pb ed="#V" n="51-r"/>
+						<cb ed="#V" n="b"/>
+						
+						non
+						magis esset dilectio quam sit cognitio vel albedo, sicut quidam imaginantur, et male
+						habens talem dilectionem, non magis posset diligere per eam quam per cognitionem vel
+						albedinem. Et tamen est falsum quod per albedinem poterit aliquis diligere nec per
+						cognitionem supposito quod nulla dilectio sit cognitio, et tamen habens talem
+						dilectionem poterit per eam formaliter diligere si ponantur cetera que necessario
+						requiruntur ad hoc quod diligat.</p>
+					<p xml:id="atv-l1d1q4-d1e5320">Et ad probationem dico quod non ideo dilectio non est cognitio quia per ipsam nihil
+						cognoscitur, sed quia per eam nihil formaliter potest cognosci. Et ad confirmationem
+						etiam nego maiorem, quia non est simpliciter necessarium quod per dilectionem habens eam
+						magis diligat quam cognoscat vel odiat, sed sufficit quod habens eam possit per eam
+						formaliter diligere et non cognoscere nec odire. Et ex hoc statim sequitur quod dilectio
+						est magis quam sit odium vel cognitio, immo, ut proprius loquar, sequitur quod sic sit
+						dilectio quod non odium nec cognitio. </p>
+					<p xml:id="atv-l1d1q4-d1e5323">Ad tertium quicquid sit de possibilitate eius quod supponitur in antecedente, quia
+						forte non est possibile quod albedo sit in superficie et illa non sit alba eo quod ad
+						hoc non requiritur aliqua res distincta ab albedine et superficie et inherentia
+						albedinis. Si ponatur res distincta et, ut dictum est supra, dico quod, si istud esset
+						possibile, adhuc illa albedo esset illi superficiei albedo et non nigredo, nec aliquid
+						aliud, ut patet ex duobus. Primo, quia albedo semper est albedo et non nisi albedo.
+						Secundo, quia per illam albedinem talis superficies potest esse alba si relinquatur
+						nature sue et nunquam potest esse nigra, igitur magis est ei albedo quam nigredo, immo
+						sic est ei albedo quod nullo modo nigredo.</p>
+					<p xml:id="atv-l1d1q4-d1e5326">Et ad confirmationem dico quod dicentes illas duas propositiones equivalere in
+						significando ignorant propriam vocem, quia nesciunt distinguere inter dilectionem et
+						diligere. Et, si per istam dilectio creature ipsa manente in creatura potest non esse
+						dilectio sibi, non intelligunt nisi quod possibile est dilectionem esse in creatura et
+						ipsam non diligere. Intelligunt unum verum et proferunt unum falsum. Et libenter vellem
+						quod sic dicentes dicerent casu posito qualis res est illa dilectio et in se et illi in
+						quo est. Et, si discurrant per omnia entia mundi, invenient quod non est nisi
+						dilectio.</p>
+					<p xml:id="atv-l1d1q4-d1e5330">Ad ultimum dico quod 'dilectio' <choice><sic/><corr>non</corr></choice> est terminus connotativus, sed 'diligere', quia 'diligere'
+						connotat terminum dilectum, sicut Pater connotat Filium. Et ratio huius est, quia
+						diligere non dicit aliquam unam rem, sed dicit dilectionem cum respectu attingentie ad
+						rem dilectam, sicut Pater dicit unam rem absolutam puta hominem vel equum cum respectu
+						paternitatis ad filium. Et ideo, sicut Filio circumscripto non manet Pater, sed manet
+						homo, ita circumscripto termino dilectio non manet diligere, sed potest manere dilectio
+						de potentia Dei absoluta. Et in hoc isti decipiuntur, quia credunt tales terminos esse
+						connotativus, quod non est verum.</p>
+				</div>
+				<div xml:id="atv-l1d1q4-Dd1e5339">
+					<head xml:id="atv-l1d1q4-Hd1e5341">Ad rationes principales</head>
+					<p xml:id="atv-l1d1q4-d1e5344">Ad primam patet ex dictis quod maior est falsa, quia, si fruitio sit in creatura sive
+						fruatur, sive non, adhuc erit fruitio sibi, sicut dictum est de dilectione.</p>
+					<p xml:id="atv-l1d1q4-d1e5347">Ad secundum, quia non solum concludit quod fruitio non potest non esse fruitio, sed cum
+						hoc concludit quod non potest esse in creatura rationali quin ipsa fruatur, dico quod
+						talis fruitio non esset frustra in creatura, quia et si non frueretur de facto posset
+						tamen frui per eam. Et ulterius ista consequentia est nulla: talis fruitio esset frustra
+						in creatura, igitur non potest esse in ea de potentia Dei absoluta; aliter Deus non
+						posset facere unum hominem cum duobus capitibus, quia alterum eorum esset frustra, quod
+						nullus diceret, etc.</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

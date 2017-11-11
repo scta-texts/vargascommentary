@@ -1,0 +1,1709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Liber I, Distinctio 3, Quaestio 1</title>
+				<author>Alphonsus Toletanus Vargas</author>
+				<editor>Luciana Cioca</editor>
+				<respStmt>
+					<name>Jeffrey C. Witt</name>
+					<resp>TEI Encoder</resp>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="0.0.0-dev">
+					<date when="2016-09-01">September 01, 2016</date>
+				</edition>
+			</editionStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="http://www.thesis-project.ro/">ERC-THESIS project n° 313339</ref>
+				</authority>
+				<availability status="free">
+					<p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref></p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="V" n="Venice1490">Venice1490</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+			<schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"> </schemaRef>
+			<editorialDecl>
+				<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+					guidelines for a critical edition</p>
+			</editorialDecl>
+		</encodingDesc>
+		<revisionDesc status="draft">
+			<listChange>
+				<change when="2015-09-16" who="#JW" status="draft" n="0.0.0">
+					<p>Created file for the first time.</p>
+				</change>
+			</listChange>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:lang="la">
+		<front>
+			<div xml:id="includeList">
+				<xi:include
+					href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+					xpointer="worksCited"/>
+				<xi:include
+					href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+					xpointer="prosopography"/>
+			</div>
+			<div xml:id="starts-on">
+				<pb ed="#V" n="72-r"/>
+				<cb ed="#V" n="a"/>
+			</div>
+		</front>
+		<body>
+			<div xml:id="atv-l1d3q1">
+				<head>Liber I, Distinctio 3, Quaestio 1</head>
+				<p>
+					<cit>
+						<quote type="commentary" source="http://scta.info/resource/pll1d3c1-d1e3476"><name ref="#Paul">Apostolus</name> namque ait</quote>
+						<bibl><ref type="commentary" target="http://scta.info/resource/pll1d3c1-d1e3476">Lombard, Sententia, I, d. 3, n. 1</ref></bibl> 
+					</cit>
+					etc.
+					Circa distinctionem istam tertiam in qua <name ref="#Lombard">Magister</name>
+					nititur ostendere trinitatem personarum per imaginem repertam in creaturis, quero primo:
+					utrum partes imaginis create sint equalis perfectionis entitative.</p>
+				<div type="rationes-principales">
+					<p>Et videtur primo quod sic, quia que sunt idem realiter non se excedunt perfectionaliter,
+						quia nihil excedit se ipsum, sed memoria, intellectus et voluntas sunt partes imaginis
+						create et sunt idem realiter, cum sint una mens, una vita, una substantia, ut patet per
+							<ref><name ref="#Augustine">beatum Augustinum</name> X <title ref="#deTrinitate">De Trinitate</title></ref>; ergo.</p>
+					<p>Contra: intellectus est nobilior voluntate, ergo partes imaginis create non sunt equalis
+						perfectionis entitative. Consequentia patet, quia intellectus et voluntas sunt partes
+						imaginis create. Antecedens probatur, quia virtus cognitiva est simpliciter
+						nobi-
+						
+						<pb ed="#V" n="72-r"/>
+						<cb ed="#V" n="b"/>
+						
+						-lior virtute non cognitiva.</p>
+					<p>Respondeo. In ista questione erunt quattuor articuli, quia prius ponam unius termini
+						declarationem, secundo quaduplicem conclusionem. Tertio movebo dubia et quarto
+						respondebo.</p>
+				</div>
+				<div type="articulus">
+				<head>Articulus primus</head>
+
+				<p>Quantum ad primum articulum terminus declarandus est partes imaginis create pro cuius
+					declaratione impugnabitur triplex modus dicendi. Secundo dicetur iuxta illud quod videtur.</p>
+					<div>
+						<head>Quantum ad primam partem</head>
+					<p>Quantum ad primam partem huius articuli invenio tres modos dicendi qui mihi non placent,
+					quorum primus
+						<note><name>Ockham</name> in I, distinctione 3, questione ultima, articulo 2</note>
+						ponit quod completa ratio imaginis consistit in ipsa substantia anime et duobus actibus,
+					scilicet actu intelligendi et actu volendi, et est iste ordo quod, sicut Pater in divinis
+					habet fecunditatem ad producendum tam Filium quam Spiritum Sanctum et communicat Filio
+					fecunditatem producendi Spiritum Sanctum et Pater et Filius producunt Spiritum Sanctum,
+					ita ipsa substantia anime est secunda et productiva tam actus intelligendi quam actus
+					volendi et producit primo actum intelligendi qui etiam est productivus actus volendi; et
+					tunc ille due cause, scilicet ipsa substantia anime et actus intelligendi, possunt
+					producere actum volendi, ita quod, sicut Filius in divinis est tantum ab uno et Spiritus
+					Sanctus a Patre producente et a Filio producto, ita actus intelligendi est a sola
+					substantia anime et actus volendi est ab ipsa substantia anima et actu intelligendi
+					producto, et sic, ut isti dicunt, imago potest aliquo modo representare distinctas
+					personas et ordinem et originem earum. Probant igitur isti duas propositiones. </p>
+				<p>Prima est quod actus intelligendi et volendi pertinent ad perfectam rationem imaginis.
+					Secunda est quod actus volendi est effective ab actu intelligendi.  </p>
+				<p>Primam probant dupliciter.Primo sic: illo quo anima capax Dei est, pertinet ad imaginem perfectam, sed actus
+					intelligendi et volendi sunt huiusmodi; ergo etc.</p>
+				<p>Secundo sic: <name>beatus Augustinus</name> in quodam sermone dicit quod “si homo
+					servasset in se bonum quod in illo creavit Deus, id est imaginem et similitudinem suam,
+					semper laudaret Deum non solum lingua, sed et vita”; igitur secundum <name ref="#Augustine">beatum
+						Augustinum</name> creata fuit in homine imago Dei quam non servavit. Sed hoc non potest
+					intelligi de substantia anime, igitur intelligitur de aliquo accidente creato in anima,
+					quod homo perdidit per peccatum. Tale autem non potest dici nisi actus intelligendi vel
+					volendi vel habitus et, si habitus accidentales pertinent ad imaginem multo magis actus;
+					igitur etc.</p>
+				<p>Secundam vero probant unica ratione sic: omne absolutum necessario presuppositum alteri
+					habet rationem cause in aliquo genere respectu illius, sed actus intelligendi necessario
+					tanquam absolutum presupponitur actui volendi; igitur habet rationem cause respectu
+					illius.</p>
+					<div>
+						<head> Contra </head>
+
+				<p>Sed iste modus non consonat dictis sanctorum et potissime <name>beati Augustini</name>,
+					nec etiam rationi. Et ideo pono contra eum quattuor propositiones. <note>Contra <name>Ockham</name></note> </p>
+				<p>Prima est quod actus intelligendi et volendi non sunt essentialiter et intrinsece partes
+					imaginis create. Hanc probo primo auctoritate <name ref="#Augustine">beati Augustini</name> IV <title ref="#deTrinitate">De
+						Trinitate</title>, capitulo 5, ubi sic ait: <quote>absit autem, ut cum anime natura sit
+					immortalis, nec ab initio quo creata est unquam deinceps esse desistat id quo nihil habet
+					melius. Non tamen eius immortalitate perduret, quod vero melius in eius natura creatum est
+					quam quod ad sui creatoris imaginem facta est.</quote> Et subdit immediate ad propositum: <quote>non
+					igitur in fide intentione, contemplatione et dilectione. Ecce actus intelligendi et
+					volendi que non erunt semper, sed in eo quod semper erit invenienda est quam dici oporteat
+					imaginem Dei</quote>. Hec <name ref="#Augustine">Augustinus</name>. Et fuit iterum hec auctoritas allegata pro
+					conclusione ista, distinctione 1, questione 4. Et potest ex ipsa formari una ratio talis
+					partes imaginis create semper manent cum anima. Actus intelligendi et volendi non semper
+					manent cum ipsa; igitur etc. Tota ratio in forma est <name>beati Augustini</name>. </p>
+				<p>Preterea, operationes partium imaginis create non sunt partes ipsius essentialiter et
+					intrinsece. Patet de se, sed actus intelligendi et volendi sunt operationes partium
+					imaginis create, ut patet per <name ref="#Augustine">beatum Augustinum</name> XV <title ref="#deTrinitate">De
+						Trinitate</title> in diversis locis et capitulis,
+					
+					<pb ed="#V" n="72-v"/>
+					<cb ed="#V" n="a"/>
+					
+					ubi ostendit quod operationes
+					partium imaginis sunt meminisse, intelligere et diligere; ergo etc.</p>
+				<p>Preterea, <ref><name ref="#Augustine">beatus Augustinus</name> IX <title ref="#deTrinitate">De Trinitate</title>, capitulo 10,</ref>
+					dicit quod
+					<quote>partes imaginis non sunt in anima, sicut color vel figura in corpore, sed
+					substantialiter sive essentialiter</quote>;
+					quod exponens <name ref="#Lombard">Magister</name> in littera dicit
+					quod <cit>
+						<quote type="commentary" source="http://scta.info/resource/pll1d3c2-d1e3663">sunt in anima substantialiter, non sicut accidentia in substantiis que
+							possunt adesse et abesse,</quote>
+						<bibl><ref type="commentary" target="http://scta.info/resource/pll1d3c2-d1e3663">Lombardus, Sententia, I, d. 3 c. 2, n. 9</ref></bibl>
+					</cit>
+					sed constat quod actus intelligendi et volendi sunt in anima sicut
+					accidentia que possunt adesse et abesse; <!-- end of quote was originally placed here; but I think it stops earlier; review with Luciana -->
+					igitur actus intelligendi et volendi non sunt
+					partes imaginis in ipsa.</p>
+				<p>Secunda propositio est ista quod, licet imago trinitatis per peccatum deformetur in
+					anima, non tamen aufertur ab ipsa. Et hoc patet ex supradictis, quia quod semper manet cum
+					anima per peccatum non aufertur ab ipsa, sed imago trinitatis semper manet cum anima, ut
+					patet ex auctoritate <name ref="#Augustine">beati Augustini</name> primo loco allegata; igitur etc. Hec est
+					expresse sententia <name ref="#Augustine">beati Augustini</name> XIV <title>De Trinitate</title>, capitulo
+					7, ubi loquens de anima per peccatum deformata sic ait: <quote>denique deformitatem dignitatis
+					eius miserans divina scriptura quamquam, inquit, in imagine ambulat homo, tamen vane
+					conturbatur; thesaurizat et ignorat cui congregabit ea.</quote> Et subdit immediate: “non itaque
+					vanitatem imagini Dei tribueret nisi deformitatem cerneret factam. Nec tantum valere illam
+					deformitatem ut auferat quod imago est satis ostendit dicendo: quamquam enim magna natura
+					sit, tamen vitiari potuit, quia summa non est et quamquam vitiari potuit, quia summa non
+					est tamen quia summe nature capax est et esse particeps potest magna natura est”. Ecce
+					quod expresse dicit <name>beatus Augustinus</name> quod, licet imago per peccatum
+					deformetur, non tamen aufertur. Et consimilem sententiam ex toto ponit ibidem, capitulo 30
+					et capitulo 35 sic inquiens: “prius mens in se ipsa consideranda est antequam sit
+					particeps Dei et in ea reperienda est imago eius”. Et subdit immediate ad propositum:
+					“Diximus enim eam et, si amissa Dei participatione deformem, Dei tamen imaginem
+					permanere”. Et istam auctoritatem pro conclusione ista adducit <name>Magister</name> in
+					littera; igitur etc.</p>
+				<p>Tertia propositio est quod completa ratio imaginis non consistit in ipsa substantia anime
+					et duobus actibus supradictis. Et, licet ista sequatur evidenter ex supradictis, tamen
+					potest satis clare confirmari, quia, si detur oppositum, sequitur quod anima in principio
+					sue creationis non sit imago Dei, quod non consonat catholice veritati. Consequentia
+					patet, quia anima in illo instanti non habet actum intelligendi et volendi. Et
+					confirmatur, quia tunc homo dormiens, cum non habeat actum intelligendi et volendi, non
+					esset imago Dei, quod nullus diceret sane mentis.</p>
+				<p>Quarta propositio est quod actus intelligendi non est totalis causa effectiva, nec
+					partialis actus volendi. Et istam non probo pro nunc, quia declarabitur questione
+					sequenti. Patet igitur quod iste modus dicendi non est conformis dictis sanctorum, nec
+					rationi, nec motiva ipsius convincunt.</p>
+					</div>
+					<div>
+						<head> Responsiones </head>
+
+				<note>Responsio ad rationes <name>Ockham</name></note>
+						<p>Ad primum igitur pro prima propositione dico quod anima est capax Dei actibus et
+					potentiis aliter tamen et aliter, ut patet. Et concedo quod omnia ista quibus anima est
+					capax Dei, sicut potentiis pertinent ad rationem imaginis essentialiter et intrinsece, non
+					autem illa quibus est capax Dei sicut actibus, ut patet ex dictis <name>beati
+						Augustini</name>, licet imago in nobis sit perfectior quando est suis actibus debitis
+					coniuncta. </p>
+				<p>Ad secundum dico quod procedit ex falso et perverso intellectu auctoritatis quam adducit,
+					quia non est intentio <name>beati Augustini</name> quod homo non servavit imaginem Dei sic
+					quod ipsam perdiderit per peccatum, sicut isti minus bene videretur imaginari, quia, licet
+					per peccatum imago Dei in nobis deformetur, non tamen aufertur, ut patet per eum et per
+					magistrum superius allegatum, sed intelligit <name>Augustinus</name> quod, si homo
+					servasset in se bonum quod in illo creavit Deus, id est similitudinem et imaginem suam
+					ipsam per peccatum non deformando, semper laudaret Deum etc. Et istud non est ad
+					propositum, ut patet. Ad rationem vero se-
+					
+					<pb ed="#V" n="72-v"/>
+					<cb ed="#V" n="b"/>
+					
+					-cunde
+					probationis, licet non probet
+					conclusionem quam intendit, quia non probat nisi quod actus intelligendi habet rationem
+					cause respectu actus volendi in aliquo genere cause, et ex hoc non sequitur quod in genere
+					cause efficientis, tamen quia intendit de causa efficiente, licet male formet rationem,
+					dico quod non omne absolutum necessario presuppositum alteri habet rationem cause
+					efficientis respectu illius, quia actus sentiendi necessario tanquam aliquid absolutum
+					presupponitur actui intelligendi et volendi naturaliter, cum nihil sit in intellectu quin
+					prius fuerit in sensu et tamen actus sentiendi non causat effective actum intelligendi,
+					nec volendi totaliter, nec partialiter. Item locus necessario presupponitur motui locali
+					tanquam aliquid absolutum, quia motus localis non est possibilis sine loco, et tamen
+					constat quod non est eius causa effectiva totaliter vel partialiter. Item finis necessario
+					tanquam aliquid absolutum presupponitur in omni actione naturali, et tamen finis non est
+					efficiens totaliter vel partialiter, igitur non est bona consequentia. Actus intelligendi
+					necessario presupponitur tanquam aliquid absolutum actui volendi, igitur est totalis causa
+					effectiva vel partialis respectu illius, quia proceditur a superiori ad inferius
+					affirmative, et per consequens comittitur fallacia consequentis.</p>
+				</div>
+					<div>
+						<head> Alia opinio </head>
+						<note><name>Michael</name> in I, distinctione 4, questione ultima, articulo 2</note>
+
+				<p>Dimissa igitur hac opinione est alius modus dicendi cuiusdam doctoris nostri qui ponit duas conclusiones. </p>
+				<p>Prima est quod imago perfectissime dicta non reperitur in solis actibus fine potentiis,
+					nec in solis potentiis spiritualibus sine actibus.</p>
+				<p>Secunda est quod imago est accipienda penes potentias et actus simul. </p>
+				<p>Prima conclusio probatur, quia imago non consistit solum in eo quod representat
+					dualitatem, sed potentie per se sine actibus, vel actus sine potentiis representant solum
+					dualitatem; ergo etc. Maior supponitur. Minor probatur, quia quilibet experitur in se
+					quantum ad portionem superiorem secundum quam reperitur in nobis imago duplicem actum,
+					scilicet intelligendi et volendi, ac per hoc duplicem potentiam, scilicet intellectum et
+					voluntatem; igitur etc. </p>
+				<p>Secunda vero probatur auctoritate <name>beati Augustini</name> XIV <title>De
+						Trinitate</title>, capitulo 6, ubi dicit quod “mens, quando cogitatione se conspicit,
+					intelligit se et cognoscit, gignit cognitionem suam”. Et subdit: “hec autem duo gignens et
+					genitum dilectione tria copulantur que nihil est aliud quam voluntas fruendum aliquid
+					appetens vel tenens ideoque illis tribus nominibus insinuandam mentis putamus trinitatem
+					memoria, intelligentia et voluntate”. Hec <name>Augustinus</name>. Sic igitur, secundum
+					mentem eius, accidit est in nobis imago trinitatis, nam sicut patet IX <title>De
+						Trinitate</title>, capitulo 13: “anima simul cum intellectu et obiecto intelligibili vel
+					cum specie representativa obiecti causat actum intelligendi et ut sic habet rationem
+					memorie sive mentis”. Nam per eodem accipit <name>beatus Augustinus</name> frequenter
+					mentem et memoriam. Ab ista memoria sive mente procedit actus intelligendi sive
+					intelligentia vel aliquod formatum in intellectu per actum intelligendi et vocatur verbum.
+					Item ab ista mente procedit actus volendi sequens ad actum intelligendi et vocatur amor.
+					Hec igitur applicando ad divina, ut primum, scilicet memoria, est Pater secundum verbum
+					tertium Spiritus Sanctus. Patet igitur quod perfecta ratio imaginis consistit in potentiis
+					simul et actibus secundum istum modum dicendi.</p>
+					</div>
+					<div>
+						<head> Contra </head>
+
+				<note> Contra <name>Michaelem</name></note>
+
+				<p>Sed nec iste modus dicendi videtur consonus rationi, quia cum potentie anime non semper
+					sint suis actibus coniuncte, non semper esset anima ad imaginem Dei, quod non consonat
+					rationi. </p>
+				<p>Preterea, ista opinio credit se fundare in dictis <name>beati Augustini</name>, et tamen
+					contradicit ei, quia in eodem XIV dicit expresse, ut allegatum est contra opinionem
+					precedentem, quod “imago Dei non in actibus puta contemplatione et dilectione que non
+					erunt semper, sed in eo quod semper erit invenienda est”.</p>
+						<p>Preterea, si illa opinio esset 
+							
+							<pb ed="#V" n="73-r"/>
+							<cb ed="#V" n="a"/>
+							
+							rationalis, non solum in anima esset imago
+					trinitatis, sed quaternitatis, quod est absurdum. Consequentia patet, quia potentie anime
+					in quibus consistit imago per eos sunt due intellectus, scilicet et voluntas et actus
+					correspondentes in quibus etiam consistit imago, ut dicunt: sunt etiam duo et certum est
+					quod potentie et actus realiter distinguuntur, igitur quaternitas est in imagine, non
+					solum trinitas. Et potest reduci contra eum ratio prime conclusionis sue sic: imago non
+					consistit in eo quod representat quaternitatem. Hec est ita vera sicut et sua, sed
+					potentie simul cum actibus representat quaternitatem. Hec secunda est ita vera sicut et
+					sua, igitur in potentiis simul cum actibus non consistit imago.</p>
+					</div>
+					<div>
+						<head> Ad rationes</head>
+
+						<note>Ad rationes <name>Michaelis</name></note>
+
+				<p>Nec motiva istius doctoris concludunt. </p>
+				<p>Ad rationem pro prima conclusione apparebit quid dicendum in secunda parte huius
+					articuli, ubi ostenditur in quo consistit completa ratio imaginis. Ad auctoritatem vero
+						<name>beati Augustini</name> qua probat secundam conclusionem, dico quod auctoritas non
+					est pro eo, quia non continetur in ea quod imago non consistat in potentiis simul et
+					actibus et est contra eum, quia expresse dicit quod “in his tribus nominibus insinuandam
+					mentis putamus trinitatem memoria intelligentia et voluntate”; et constat quod in his
+					tribus nominibus quibus nominantur potentie simul et actus potentie ad minus secundum eum
+					sunt due intellectus, scilicet et voluntas et actus, etiam duo ex quo apparet quod quatuor
+					nominibus insinuaretur trinitas nobis et non solum tribus secundum eum, quod contradicit
+						<name>Augustinum</name>. </p>
+					</div>
+
+					<div>
+						<head> Alia opinio </head>
+				<note><name>Aureolus</name> in I, distinctione 3, questione 3, articulo 1</note>
+
+				<p> Et ideo est adhuc quidam alius modus dicendi qui ponit quod imago non est accipienda penes potentias sine actibus, nec penes actus
+					sine potentiis, nec penes potentias et actus simul, sed penes tria supposita, quorum unum
+					est reale, duo vero intentionalia. Et, ut clarius videatur ista positio, premittit iste
+					doctor tres propositiones.</p>
+				<p>Prima est quod in actu intellectus res intellecta ponitur in quodam esse intentionali
+					perspicuo et apparenti et, licet ista propositio fuerit per eum in precedenti questione
+					tripliciter deducta, deducit tamen eam hic aliter. </p>
+				<p>Primo sic: actus sensus exterioris ponit rem in intentionali, igitur et actus ipsius
+					intellectus. Consequentia patet, quia sensus non est magis formativus quam intellectus.
+					Antecedens probatur multiplici experientia. Prima est, quia cum quis ponitur in aqua,
+					arbores existentes in ripa moveri videntur, sed iste motus qui est in oculo obiective non
+					potest poni quod sit ipsa visio, alioquin visio esset obiectum visus et visio videretur et
+					esset visus potentia reflexiva; nec potest poni quod sit in aere vel ripa, quia tunc
+					realiter moverentur, nec potest poni quod sit in aere, quia aeri non attribuitur, sed
+					arbori; est igitur tantum intentio naturaliter et non realiter in esse viso et in esse
+					diminuto.</p>
+				<p>Secunda experientia est in motu subito baculi et circulari in aere. Apparet enim quidam
+					circulus in aere fieri ex baculo sic moto. Queritur igitur quid sit ille circulus qui
+					apparet videnti, quia vel est aliquid reale existens in baculo et hoc non, cum sit
+					rationis, aut in aere et hoc minus. Nam circulus coloratus et terminatus in aere esse non
+					potest, aut est ipsa visio et hoc non, tum quia visio non videtur, tum quia visio non est
+					in aere ubi circulus apparet, aut est aliquod intra oculum et hoc non propter easdem
+					rationes, ergo relinquitur quod sit in aere habens esse intentionale sive in esse
+					apparenti iudicato et viso diminuto.</p>
+				<p>Tertia experientia est de fractione baculi apparentis in aqua. </p>
+				<p>Quarta est de dualitate candelarum apparentium in oculo uno elevato. Sunt enim ibi duo in
+					esse apparenti et tamen non est nisi una candela in esse reali. Aliquas alias experientias
+					adducit iste doctor quibus faciliter potest responderi ex solutione istarum et ex his que
+					dicta sunt super Prologum, questione 1, articulo, 1 et ideo dimitto eas.</p>
+				<p>Ad principale arguit secundo sic: sensus interior per suum actum ponit rem in esse
+					intentionali et ap-
+					
+					<pb ed="#V" n="73-r"/>
+					<cb ed="#V" n="b"/>
+					
+					-parenti, igitur et intellectus. Consequentia patet, ut prius.
+					Antecedens probatur de imaginatione, quia pater meus imaginatus a me est ipsemet positus
+					inesse intentionali. Non enim est species, quia tunc imaginatio non caderet super esse,
+					sed super speciem tantum et esset potentia et reflexiva et multa inconvenientia
+					sequerentur; ergo etc.</p>
+				<p>Preterea, illud quo anima geminatur et ante se constituitur et ponitur conspicua et in
+					suo conspectu illud inquam videre dare rebus esse obiectivum intentionale et conspicuum ac
+					apparens, sed <name>Augustinus</name> dicit XIV <title>De Trinitate</title>, capitulo 6,
+					quod “tanta est vis cogitationis, ut nec ipsa mens in conspectu suo se ponat nisi quando
+					se cogitat”. Et subdit unde igitur infertur mens nisi a se ipsa, et ponitur “nisi in
+					conspectu suo et nisi ante se ipsam, non ergo ibi erat quando in conspectu suo non erat,
+					quia inde sublata erat, sed, si conspicienda migravit conspectura ubi manebit an quod
+					geminatur, ut illic sit ubi conspicere, et hoc sit ubi conspici possit, ut in se sit
+					conspiciens, ante se sit conspecta et infra proinde restat, ut aliquid pertinens ad eius
+					naturam sit conspectus eius, ut in eum quando se cogitat non quasi per loci spatium, sed
+					in corpore a conversione revocetur, cum vero non se cogitat non sit quidem in conspectu
+					eius, nec de illa suis formetur obtuitus”. Hec <name>Augustinus</name>. Relinquitur ergo
+					quod intellectus ponat res in conceptu suo et in esse conspicuo et apparenti
+					obiective.</p>
+				<p>Secunda propositio istius doctoris est quod amans per amorem, licet non ponit rem amatam
+					in aliquo esse, ponit tamen se ipsum et imprimit et fert ac intimat in amatum, ut secundum
+					hoc ex vi amoris procedat amans in esse intentionali versus amatum et amans in tali esse
+					positus dicitur spiritus amantis. Ista propositio fuit in precedenti questione dupliciter
+					deducta per eum. Deducit tamen eam adhuc dupliciter. </p>
+				<p>Primo sic: omne se uniens et intimans ad aliquid de necessitate procedit ad ipsum, sed
+					amor, ut amor est actus unitivus et impressivus in amatum, ita quod amans vi amoris
+					mentaliter imprimitur et ad ipsum unitur, ergo necesse est quod amans mentaliter
+					egrediatur et procedat ad amatum, vel igitur exit et procedit realiter ad amatum, vel
+					intentionaliter, non realiter, ut patet, igitur intentionaliter, ut sicut intelligere est
+					actus formativus ex quo constituitur res in esse apparenti et conspicuo, sic amare sit
+					actus egressivus ex quo amans ponitur in esse egresso intentionaliter et esse lato ad
+					amatum.</p>
+				<p>Preterea, modi loquendi communes et famosi aperiunt virtutem experientiarum, sed modi
+					loquendi amantium exprimunt hunc modum spiritualem emanationis amantis in amatum.
+					Consuevit enim dici quod amans non habet in se spiritum, nam dedit ipsum amato et quod cor
+					amantis transformatur in amatum et quod anima plus est ubi amat quam ubi animat et multa
+					talia, ergo ex vi amoris spiritualiter amans egreditur extra se ipsum, ut quasi geminetur,
+					sicut enim per intelligere anima ponitur ante se in esse intentionali, sicut per amorem
+					ponitur extra se.</p>
+				<p>Tertia propositio est quod intelligentia potest capi dupliciter. Uno modo pro actu
+					formali quo res constituitur in esse apparenti, alio modo pro illa apparentia obiectali.
+					Hoc patet, quia <name>beatus Augustinus</name> distinguit inter cogitationem formantem que
+					est actus et cogitationem formatam que est res in esse composito posita et ubique vocat
+					verbum formatam cogitationem, non cogitationem formantem que est actus. Et similiter
+					potest accipi dupliciter amor: uno modo pro amore formali qui est actus, alio modo pro
+					egressu spirituali qui sit ex vi amoris. Emanatio enim illa appellatur spiritus suavitas
+					et amor his ad propositum applicatis dicitur quod intelligentia et amor, prout sunt partes
+					imaginis non sunt intelligibilia et amor formalis, sed intelligentia obiectiva sive res,
+					ut apparens ipsa est intelligentia et ille egressus spiritualis amantis ipse
+					
+					<pb ed="#V" n="73-v"/>
+					<cb ed="#V" n="a"/>
+					
+					est
+					amor qui est pars imaginis, et sic per consequens accipienda est imago penes tria
+					supposita quorum unum est reale, duo intentionalia, quia anima, ut ante se posita per
+					intelligere et extra se posita per amorem est una anima tripliciter subsistens, videlicet
+					in se ante se et extra se et sic anima est tria supposita, sed una essentia et una vita,
+					quia, quando se amat et intelligit in tribus suppositis, de necessitate subsistit in primo
+					quidem reali prout subsistit in se. In secundo vero intentionali prout est conspicua ante
+					se. In tertio etiam intentionali prout est per amorem egressa extra se. Et quod ista sit
+					intentio <name>beati Augustini</name> patet dupliciter. Primo, quia, secundum eum,
+					quelibet pars imaginis est tota mens vel tota anima, nihilominus relative distinguuntur
+					per ante se, extra se et in se. Secundo, quia sic quelibet pars imaginis est subsistens,
+					quia anima sic ponit se ante se per cogitationem, ut in esse conspicuo non aspiciat se
+					tanquam inherentem, sed tanquam subsistentem et similiter per amorem sic exit extra se, ut
+					non inhereat, sed subsistat.</p>
+					</div>
+					<div>
+						<head> Contra </head>
+						<note>Contra <name>Aureolum</name></note>
+
+				<p>Ista opinio multa ponit que non reputo vera. Et ideo pono contra eam quattuor
+					propositiones. </p>
+				<p>Prima est quod per actum intellectus res intellecta non ponitur in aliquo esse
+					intentionali conspicuo et apparenti, sicut iste doctor imaginatur et, licet ista
+					propositio fuerit questione quarta, articulo secundo deducta, probo tamen eam ad
+					presens.</p>
+				<p>Primo sic: si per actum intellectus res intellecta ponitur in tali esse, sequitur quod
+					omnis creatura existens et possibilis fuit ab eterno in aliquo esse reali, quod non est
+					Deus. Sequitur quod Deus produxit ab eterno aliquid ad extra et de necessitate nature.
+					Sequitur quod aliquid quod non est Deus est necesse esse tanta necessitate, quanta est
+					Deus et in suo esse non conservatur a Deo. Sequitur quod infinita essentia distincta sunt
+					et fuerunt actualiter ab eterno quorum quod licet est impossibile non esse, sed ista sunt
+					impossibilia, nec videntur catholice dicta, igitur et illud ex quo sequuntur. Consequentia
+					quantum ad primam partem statim apparet, quia constat quod Deus ab eterno cognovit omnem
+					creaturam temporaliter productam et possibilem produci, igitur, si per actum intellectus
+					res intellecta ponitur etc, omnis creatura tam producta quam possibilis producit, fuit ab
+					eterno in esse intentionali et apparenti et illud esse non est nihil, nec ens rationis
+					secundum istum doctorem, nec Deus, igitur est aliquod esse reale quod non est Deus. Et ex
+					hoc apparet quantum ad secundum quod, si res intellecta de necessitate ponitur in tali
+					esse per actum intelligendi, sequitur quod omnis creatura existens et possibilis fuit ab
+					eterno de necessitate posita extra Deum per actum intelligendi ipsius. Quo posito,
+					sequitur quod Deus produxit ab eterno aliquid ad extra de necessitate nature. Et ex hoc
+					apparet quantum ad tertium quod quicquid Deus producit de necessitate nature est necesse
+					esse tanta necessitate quanta est ipse, et quod sic est necesse esse non indiget
+					conservari a Deo in suo esse.</p>
+				<p>Et confirmatur, quia Deus tanta necessitate quanta est cognoscit omnia tam entia quam
+					possibilia, igitur, si per suum intelligere de necessitate ponuntur in tali esse quantum
+					ad illud esse, quod tamen non est nihil, nec Deus sunt necesse esse, tanta necessitata
+					quanta est ipse. Et ex hoc ulterius apparet quantum ad ultimam partem quod certum est quod
+					creature possibiles produci a Deo saltem in fieri et successive sunt infinite, igitur, si
+					omnes de necessitate fuerunt ab eterno in tali esse aliquo, sequeretur quod infinita entia
+					distincta sunt et fuerunt actualiter ab eterno quorum quodlibet est impossibile non esse. </p>
+				<p>Sed forte dicetur ad istam rationem quod illud esse in quo res intellecta ponitur per
+					actum intelligendi non est reale, sed tantum apparens et intentiona-
+					
+					<pb ed="#V" n="73-v"/>
+					<cb ed="#V" n="b"/>
+					
+					-le, et ideo non
+					sequitur quod aliqua creatura fuerit ab eterno in esse reali, nec sequitur quod Deus
+					produxerit ab eterno aliquid reale ad extra, nec aliquid reale, quod non est Deus sit
+					necesse esse, nec quod infinita entia realia sint vel fuerint ab eterno. Sed ad veritatem
+					ista evacuatio est nulla propter duo. Primo, quia necesse est concedere quod illud esse
+					sit vere reale. Secundo, quod sive sit reale, sive non, adhuc non vitantur inconvenientia
+					predicta. Primum ostendo multipliciter. </p>
+				<p>Primo, quia omne ens quod non est ens rationis est verum ens reale. Hoc patet, quia ens
+					reale et rationis sufficienter dividitur ipsum ens, sed illud esse apparens et
+					intentionale per eum est ens et non ens rationis, tum quia nullum ens rationis est
+					suppositum subsistens et aliquod esse apparens intentionale secundum eum est suppositum
+					substistens, tum quia cum aliquod tale esse vere sit pars imaginis create partes imaginis
+					create saltem alique essent tantum entia rationis, quod ipse non concederet, nec alius
+					sane mentis, tum quia nullum ens rationis fuit ab eterno et omnis creatura in tali esse
+					intentionali et apparenti fuit ab eterno, iuxta doctrinam suam, tum quia nullum ens
+					rationis potest videri oculo corporali et istud esse apparens secundum eum potest sic
+					videri, ut patet per experientias suas, ergo omne tale ens apparens et intentionale
+					secundum eum est verum ens reale, sive sit ens reale perfectum, sive diminutum. Et
+					confirmatur, quia species et forma lucis in memoria dicuntur habere esse intentionale, et
+					tamen constat quod sunt entia realia non rationis, licet habeant esse imperfectum et
+					diminutum. Et confirmatur ulterius, quia vel per esse intentionale in quo res intellecta
+					ponitur per actum intellectus iste doctor intelligit esse cognitum precise, vel esse
+					rationis tantum vel aliquod esse reale, licet sit imperfectum et diminutum. Primum dari
+					non potest secundum eum, quia tunc illud esse non esset nisi denominatio quedam, qua res
+					denominaretur cognita, quod est contra eum. Nec potest dari secundum etiam secundum eum,
+					ut patet ex supradictis. Relinquitur ergo tertium et sic suppositum.</p>
+				<p>Preterea, omne ens positivum ex natura rei distinctum contra omne aliud positivum et
+					ponens in numerum cum ipso est verum ens reale, sive sit perfectum, sive diminutum, non
+					curo, sed illud esse apparens et intentionale, si ponatur, est huiusmodi, quia verum est
+					dicere secundum eum quod intellectus et actus eius et res intellecta posita in tali esse
+					intentionali et apparenti sunt tria, quedam positiva quorum unum non est aliud ex natura
+					rei; ergo etc.</p>
+				<p>Preterea, quod non est ens rationis recipit esse post non esse ab agente reali et per
+					operationem realem est verum ens reale, sed illud esse obiectum apparens et intentionale
+					non est ens rationis, secundum eum accipit esse post non esse, cum sit formaliter aliquid
+					et ens et ab agente reali per operationem realem, quia ab intellectu et per actum
+					intelligendi secundum eum; ergo. </p>
+				<p>Et confirmatur, quia secundum <name ref="#Augustine">beatum Augustinum</name> I <title ref="#deDoctrinaChristiana">De doctrina
+						christiana</title>: <quote>nulla res est omnino nihil</quote>; cui concordat <name>Anselmus</name>
+					<title>De incarnatione verbi</title>, capitulo 2 dicens quod <quote>solemus usu dicere rem,
+					quicquid aliquo dicimus esse aliquid</quote>, quod saltem verum est de omni eo quod non est ens
+					rationis. Istud igitur esse apparens et intentionale, cum non sit ens rationis, nec omnino
+					nihil, sed aliquid erit aliqua res, et per consequens ens reale, patet igitur quod necesse
+					est ipsum concedere, quod illud esse sit vere reale.</p>
+				<p>Secundo ostendo sive sit reale, sive ens, dum tamen sit aliquid et non sit Deus, quod non
+					vitantur inconvenientia predicta, quia, licet non sequatur quod omnis creatura fuerit ab
+					eterno in aliquo esse reali, sequitur tamen quod fuerit in aliquo esse, quod non est Deus,
+					nec ens rationis qualicumque illud nominetur. Sequitur etiam quod Deus ab eterno 
+					
+					<pb ed="#V" n="74-r"/>
+					<cb ed="#V" n="a"/>
+					
+					per suum intelligere produxit ad extra et de necessitate nature, sive illud velis vocare
+					reali, sive non, quod tamen per te non est ens rationis. Sequitur ulterius quod aliquod
+					quod non est Deus, nec ens reale, nec ens rationis, sit necesse esse tanta necessitate
+					quanta est Deus, quod non est minus absurdum, immo magis quam quod aliquid reale, quod non
+					est Deus sit necesse esse. Sequitur ultimo quod infinita entia distincta quorum quodlibet
+					est impossibile non esse fuerunt actualiter sive illa dicas esse realia sive non que ego
+					nolem concedere pro conclusione ista.</p>
+				<p>Secundo ad principale sic: si res intellecta per actum intelligendi necessario ponitur in
+					aliquo tali esse, sequitur quod intellectus creatus videns Deum beatifice ponit ipsum in
+					aliquo esse intentionali et apparenti. Consequens est impossibile, igitur antecedens.
+					Consequentia est nota, sed impossibilitatem consequentis ostendo, quia vel intellectus
+					creatus tantum intuetur esse reale ipsius Dei, vel illud esse apparens et intelligibile
+					precise vel utrumque simul. </p>
+				<p>Si detur primum, esse intentionale, quod fingis superfluit.</p>
+				<p>Si detur secundum, superfluit esse reale et sic Deus non beatificat creaturam per suum
+					esse reale, sed per quoddam esse apparens et intentionale precise, et sic creatura non
+					videt divinam essentiam in suo esse reali, sed in quodam esse diminuto et apparenti, que
+					non sunt catholice dicta. </p>
+				<p>Si detur tertium, sequuntur duo inconvenientia. Primum est quod idem actus habebit duo
+					obiecta adequata distincta, quod est impossibile. Ista consequentia patet, quia constat
+					esse reale ipsius Dei quod creatura intuetur esse obiectum adequatum sue notitie et
+					ulterius illud esse apparens et intentionale est obiectum eius adequatum, quod probo ex
+					dictis istius doctoris. Ipse enim probat quod motus arboris qui apparet in aqua non est
+					visio, quia tunc visio esset obiectum visus; igitur, cum talis motus non sit nisi esse
+					quoddam apparens et intentionale secundum eum, sequitur quod illud esse apparens et
+					intentionale est obiectum visus, et pari ratione esse illud apparens et intentionale in
+					visione beatifica, si ponitur, est obiectum talis visionis et, si sit obiectum, certum est
+					quod est adequatum; ergo. Secundum inconveniens est quod Deus non erit sufficiens obiectum
+					beatitudinis, quod non videtur benedictum. Et quod sequatur probo, quia esse reale ipisus
+					Dei et illud esse apparens necessario requiruntur ad beatitudinem, vel non. Si non,
+					aliquod eorum superfluit et constat quod non reale, igitur intentionale, quod est
+					propositum. Si sic, cum illud esse intentionale, non sit Deus, cum sit ens diminutum et
+					temporale. Patet quod solus Deus non erit sufficiens obiectum beatitudinis; ergo. Et
+					confirmatur, quia, si intellectus creatus videns Deum beatifice intuetur illud esse
+					apparens et intentionale, cum sit aliquod positivum et distinctum ab eo secundum eum, Deus
+					poterit ipsum conservare subtracta sua potentia. Quo posito adhuc actus beatificus
+					sufficienter terminaretur ad ipsum iuxta doctrinam suam. Et per consequens intellectus
+					creatus posset beatificari sine reali presentia Dei, quod non consonat rationi, nec
+					veritati. </p>
+				<p>Et confirmatur iterum, quia illud esse apparens non ponitur ab isto doctore nisi ad
+					determinandum actum beatifice notitie, sed Deus ipse secundum suum esse reale sufficienter
+					terminat actum notitie beatifice, igitur non oportet quod ponatur in aliquo tali esse. Et
+					ulterius, si illud esset verum, solus Deus non esset beatificum obiectum, sed Deus et
+					aliquid quod non est Deus, quod ponitur in esse per actum intelligendi, quod non videtur
+					bene dictum.</p>
+				<p>Tertio ad principale, sit actus intelligendi rosam vel terminatur ad rosam productam in
+					tali esse intentionali et apparenti, vel non. Si non, frustra ponitur. Si sic, cum rosa
+					producta in esse intentionali non sit rosa que est extra in suo esse reali, nec aliquid
+					aliud eius essentialiter et intrinsece, sequuntur tria inconvenientia ex dictis suis. </p>
+				<p>Primum est quod non intelligeremus rosam, nec aliquam rem que sit rosa. </p>
+						<p>Secundum est quod non haberemus scientiam de rosa, nec de aliquo
+							
+							<pb ed="#V" n="74-r"/>
+							<cb ed="#V" n="b"/> 
+							
+							quod sit rosa. </p>
+				<p>Tertium est quod ista propositio rosa est flos, vel pulcherrimus florum, esset falsa, que
+					omnia sunt falsa et contra eum. Consequentia tenet per eum, quia ipse probat, ut patet in
+					questione precedenti, quod species rose non terminet actum intelligendi rosam, quia, si
+					sic, cum species rose sit distincta a rosa, sequitur quod non intelligeremus rosam, nec
+					haberemus scientiam de ipsa et quod illa propositio esset falsa. Et, si ista sit bona
+					consequentia, et mea fuit etiam ratio ista in precedenti questione aliqualiter tacta. </p>
+				<p>Secundo sic: <name ref="#Aristotle">Aristoteles</name> I <title ref="#Ethics">Ethicorum</title> et IX
+						<title ref="#Metaphysics">Metaphysice</title> dicit quod <quote>intellectio est operatio imanens ex qua non
+					sequitur aliquod actum</quote>, igitur non est productiva sui obiecti in aliquo esse intentionali
+					et apparenti. Consequentia patet, quia illud esse apparens non est nihil nec ens rationis
+					per eum, ergo est aliquid actum et de non esse ad esse productum; ergo. </p>
+				<p>Secunda propositio est quod amans ex vi amoris non ponit extra se in aliquo esse
+					intentionali et apparenti et, licet ista propositio sequatur ex precedenti, quia non magis
+					amans ponit se extra se per actum amoris quam res intellecta ponitur ante prospectum
+					intelligentis per actum cognitionis, confirmo tamen eam dupliciter. </p>
+				<p>Primo sic: si amans ex vi amoris ponit se extra se in aliquo esse intentionali et
+					apparenti, sit illud <c>a</c>, tunc sic <c>a</c> non est nihil, ergo <c>a</c> est aliquid,
+					ergo potest cognosci ab intellectu, igitur amari vel non amari a voluntate. Ponatur ergo
+					quod ametur vel amans ex vi talis amoris ponit se in aliquo esse etc, vel non. Si non,
+					pari ratione, nec primo. Si sic, sit illud <c>b</c> et de illo queram ut prius, et sic in
+					infinitum. Hoc est inconveniens; ergo etc. </p>
+				<p>Et confirmatur, quia, si sic, illud erit quoddam intentionale. Ponatur ergo quod
+					intellectus intelligat illud esse in quo amans ponit se extra se per actum amoris, et
+					quero utrum per actum intelligendi ponatur in aliquo esse ante prospectum intelligentis,
+					vel non. Si non, pari ratione nec aliquod aliud intelligibile, quod est contra eum. Si
+					sic, cum illud esse nunc positum ante prospectum intelligentis possit intelligi ab
+					intellectu; et per consequens amari a voluntate ponatur quod ametur, et quero utrum amans
+					ponit se extra se in aliquo esse, vel non. Si non, pari ratione, nec primo et sic nunquam.
+					Si sic, cum illud iterum sit quoddam intelligibile, de illo queram ut prius, et sic in
+					infinitum. </p>
+				<p>Secundo sic: istud esse intentionale et apparens est aliquid reale et reale ut reale
+					condividitur enti rationis, ut patet ex propositione precedenti, vel ergo est aliquid
+					indigens esse in illo, vel non. Si sic, ergo inheret quod est contra eum et est vere
+					accidens, quia omne ens indigens esse in alio est accidens secundum <name>Avicennam</name>
+					III <title>Metaphysica</title> sue, et nullum tale est suppositum subsistens cuius
+					oppositum vult iste doctor. Si non, ergo est substantia, quia omne ens reale non indigens
+					esse in alio est substantia per <name>Avicennam</name> ubi supra, igitur imago trinitatis
+					consistit in tribus substantiis quarum una realiter non est alia, quod non est verum.</p>
+				<p>Et ulterius accidens produceret substantiam, quia talis producitur per actum amoris. Item
+					vel esset substantia corporea, vel incorporea, quorum quodlibet est inconveniens, multa
+					alia inconvenientia sequerentur. Et ista ratio non solum probat propositionem istam, sed
+					precedentem, quia, si amans per amorem vel res intellecta per actum intelligendi ponitur
+					in aliquo tali esse, cum non sit ens rationis secundum eum, vel erit substantia, vel
+					accidens, quorum quodlibet est impossibile et contra eum. </p>
+				<p>Tertia propositio est quod imago trinitatis non consistit in tribus suppositis uno reali
+					et duobus intentionalibus, ut asserit ista propositio. Sequitur ex precedentibus, quia in
+					eo quod non est non consistit imago, talia supposita non sunt; ergo etc.</p>
+				<p>Quarta propositio est quod imago trinitatis non consisteret in tribus suppositis etiam si
+					per impossibile ponerentur in esse. Et hanc probo primo sic: secundum <name>beatum
+						Augustinum</name>, superius allegatum: “imago trinitatis non est querenda in anima, nec
+					invenienda in eo, quod aliquando convenit anime et aliquando non”. Sed in eo quod semper
+					convenit ei, sed huiusmodi supposita intentionalia, etiam si 
+					
+					<pb ed="#V" n="74-v"/>
+					<cb ed="#V" n="a"/> 
+					
+					essent possibilia non
+					semper conveniunt ipsi anime, sed aliquando sic, aliquando non, quia non sunt nisi quando
+					anima intelligit se et diligit se actualiter. Constat autem quod anima non semper
+					intelligit et diligit se; ergo etc.</p>
+				<p>Secundo sic: si imago esset accipienda in nobis penes supposita sic accepta, sequeretur
+					quod non esset imago trinitatis in anima, nisi quando intelligeret et diligeret se.
+					Consequens est falsum, igitur et antecedens. Consequentia patet, quia, cum per actum
+					intelligendi non ponatur intelligens, sed res intellecta in esse intentionali et
+					apparenti, ut dicunt “quando anima non intelligit se, etiam si intelligat aliud a se,
+					anima non ponit se in aliquo tali esse”, et per consequens non erit una anima tripliciter
+					subsistens, nec erit tria supposita in una essentia, quando tamen requiritur ad completam
+					rationem imaginis per eos, falsitas consequentis etiam patet, quia quando anima intelligit
+					Deum et diligit ipsum, etiam si non intelligat et diligat se est ad imaginem Dei, immo
+					ideo est ad imaginem Dei quod capax eius est et particeps esse potest, ut patet per
+						<name>beatum Augustinum</name> XII <title>De Trinitate</title>, capitulis 15 et 17, et
+					XIV, capitulis 5, 6, 15 et 23, ubi sic ait: “hec igitur trinitas mentis non propterea
+					imago Dei est, quia sui meminit mens et intelligit et diligit se, sed quia potest
+					meminisse et intelligere et amare a quo facta est”. Et in eodem XIV, capitulis 37 et 39
+					dicit quod “tunc imago erit plene reformata Deo similis quando in ea erit perfecta visio
+					Dei”. Idem etiam vult libro XV, capitulo 29; ergo etc.</p>
+					</div>
+					<div>
+						<head>Ad rationes <name>Aureoli</name></head>
+						<p>Restat ergo respondere ad rationes opinionis. </p>
+						<p>Ad primam pro prima propositione nego antecedens et ad experientias respondeo. Ad primam
+					dico quod motus arboris qui apparet existenti in aqua est motus sui ipsius qui vere et
+					realiter movetur, non est magis motus ille in arbore, nec in ripa, nec in aere, sed in se
+					ipso, vel in barcha, ratio igitur procedit ab insufficienti. Et, si dicatur cur igitur
+					videntur arbores moveri, dico quod hoc est propter continuam successionem specierum in
+					oculo. Causa vero succesionis specierum est motus continuis existentis in aqua. Decipitur
+					ergo sensus interior qui per talem successionem specierum indicat motum esse in arboribus
+					qui tamen secundum rei veritatem est in ipso qui est in navi.</p>
+				<p>Ad secundam dico quod quando baculus subito et circulariter movetur in aere, sensus visus
+					nullum circulum vidit, nec sub esse reali, nec sub esse intentionali, quia nullus talis
+					est, sed propter continuam succesionem specierum in oculo, quarum causa est continuus et
+					subitus motus baculi; sensus interior decipitur et iudicat esse circulum ubi nullus est
+					circulus, modo igitur decipitur sensus exterior, sed interior, licet culpam suam imponat
+					sensui exteriori, ut patet per <name>Anselmum</name>
+					<title>De veritate</title>, capitulo 6, et fuit diffuse declaratum in Prologo I, questione
+					1.</p>
+				<p>Ad tertiam respondet expresse <name>Anselmus</name> ubi supra, dicens quod “cum fustis
+					integra, cuius pars est intra aquam et pars extra, putatur tractus, et cum multa alia
+					nobis videntur visus et alii sensus nuntiare, aliter quam sint non culpa sensuum est, qui
+					renuntiant quod possunt, sed iudicio anime imputandum est quod non bene discernit ipsum
+					fractum visus”, ergo non videt baculum fractum, sed spiritus interior iudicat ipsum
+					fractum. Cause autem diverse a diversis assignantur. Potest tamen esse causa, quia baculus
+					existens partim in aqua et partim extra non videtur per unam speciem, sed per duas, nec
+					per unum medium, sed per duo et, quia aliter causat speciem suam in oculo pars existens in
+					aqua et aliter pars existens in aere propter diversitatem modorum, sensus interior
+					decipitur et iudicat ipsum esse fractum.</p>
+				<p>Ad quartam eodem modo dico quod sensus visus non videt duas candelas, nec in esse reali,
+					nec in tali esse apparenti, quia non sunt due, sed una. Sensus tamen interior decipitur et
+					iudicat esse duas. Ratio huius est, quia uno oculo elevato species candele recepta in uno
+					oculo et species recepta in alio non coincidunt interius in numero bifurcato; et per
+					consequens per diversas species eadem candela representatur sensui interiori, et ideo
+					decipitur. Et istam causam assignat <name>beatus Augustinus</name> XI <title>De
+						Trinitate</title>, capitulo 5 
+					
+					<pb ed="#V" n="74-v"/>
+					<cb ed="#V" n="b"/>
+					
+					ubi sic ait: <quote>quando etiam cum lucerne flammam modo
+					quodam devorantis radiis oculorum quasi geminatur, due visiones fiunt, cum sit res una que
+					videtur sigillatim quippe afficiuntur idem radii de suo quisque oculo emicantes, dum non
+					sinatur in illud corpus intuendum pariter coniuncte que concurrere ut unus fiat ex utroque
+					intuitus, et ideo, si unum oculorum clauserimus, non geminum ignem, sed sicuti est unum
+					videbimus</quote>. <choice><sic>Hoc</sic><corr>Hec</corr></choice> <name>Augustinus</name>.
+					Et libenter vellem quod iste doctor vel aliquis
+					pro eo assignaret causam quare, si clauserimus unus oculum, non ponuntur due candele in
+					esse apparenti, sicut ante et quicumque assignaret eam videret imaginationem istam esse
+					fictitiam.</p>
+				<p>Ad secundam rationem principalem etiam nego antecedens. Et ad probationem dico quod ad
+					hoc quod pater meus vel aliquid aliud imaginetur a me non oportet quod ponatur in aliquo
+					esse intentionali et apparenti, sufficit enim species representativa illius dicente
+						<name>beato Augustino</name> XIII <title>De Trinitate</title>, capitulo 3, quod “per
+					imagines quas memoria tenemus absentia cogitamus”. Et quando dicitur quod tunc imaginatio
+					non caderet super rem, sed super speciem tantum, respondeo per interemptionem, quia non
+					imaginatur species, sed res per speciem representata, nec sequitur propter hoc quod
+					imaginatio sit potentia reflexiva.</p>
+				<p>Ad tertiam que fundatur in auctoritate <name>beati Augustini</name> dico quod talis motus
+					geminandi se et ponendi se ante se sit precise per ipsam cognitionem, non quod per
+					cognitionem res intellecta ponatur in aliquo esse reali nec intentionali, sed quia ponitur
+					in esse cognito denominative, quia quandoque non erat cognita et nunc est cognita, sic
+					Deus denominatur cognitus ab intellectu creato et color visus, et sic de aliis. Et eodem
+					modo dicendum est ad rationes probantes secundam probationem, quia amans dat se ipsum
+					amato non quidem in esse intentionali et apparenti, sicut assumitur se in esse reali per
+					actum amoris, quia per amorem transformatur et unitur, non per aliquod esse reale seu
+					intentionale aliud ab amore et ab ipso amante et re amata. Et sic loquuntur doctori famosi
+					de amore et unione que fit per amorem. Ex his patet quod improprie loquitur in his que
+					ponit in tertia propositione et applicatione ad propositum. Et hec de prima parte huius
+					primi articuli.</p>
+				</div>
+			</div>
+				<div>
+					<head> Quantum ad secundam partem</head>
+				<p>Quantum ad secundam videtur mihi quod partes imaginis create possunt dupliciter
+					assignari. </p>
+				<p>Primo quidem potest dici supposito quod memoria intellectus et voluntas in natura
+					rationali creata sint tres potentie distincte realiter quod partes imaginis create
+					essentialiter et intrinsece sunt iste tres potentie. Natura vero in qua fundantur dicitur
+					imago Dei, vel ad imaginem Dei non quidem formaliter, sed fundamentaliter eo modo quo
+					depicta denominatur imago. Et ista videtur sententia <name>beati Augustini</name> XV
+						<title>De Trinitate</title>, capitulo 66, de parvis, ubi, postquam diffuse ostendit
+					memoriam, intellectum et voluntatem esse partes imaginis create, dicit: “aliud est itaque
+					trinitas res ipsa, aliud imago trinitatis in re alia, propter quam imaginem simul et illud
+					in quo sunt hec tria imago dicitur, sicut imago dicitur et tabula et quod in eo depictum
+					est, sed propter picturam que in ea est simul et tabula nomine imaginis appellatur”. Et
+					eandem sententiam <name>Magister</name> ponit in littera.</p>
+				<p>Hic tamen est advertendum quod, si opinio communis que ponit quod perfecta ratio imaginis
+					consistit in memoria, intellectu et voluntate et non in actibus secundis, saltem
+					principaliter supponat memoriam, intellectum et voluntatem esse tres potentias distinctas
+					realiter. Verum est et conformis dictis <name>beati Augustini</name>. Si vero ponat quod
+					intellectus et memoria non sunt due potentie distincte realiter, sed una tantum, sicut
+					multis et magnis doctoribus videtur non esse vera nec rationalis, quia tunc in natura
+					rationali creata non esset imago trinitatis, sed dualitatis tantum, quod non est verum.
+					
+					<pb ed="#V" n="75-r"/>
+					<cb ed="#V" n="a"/></p>
+					
+				<p>Secundo vero potest dici si conceditur cum istis quod intellectus et memoria non sunt
+					potentie distincte realiter, sed una tantum quod perfecta ratio imaginis in nobis
+					consistit in ipsa substantia anime et duabus potentiis intellectu, scilicet et voluntate.
+					Et esset iste ordo, quia, sicut Filius in divinis emanat et originatur a solo Patre, et
+					Spiritus Sanctus a Patre originante et Filio originato sic aliquo modo intellectus emanat
+					et originatur ab ipsa substantia anime et voluntas ab anima originante et intellectu
+					originato, quia ordine nature presupponit intellectum; et sic trinitas natura creata
+					rationali potest aliquo modo, licet imperfecte representare trinitatem personarum et
+					ordinem et originem earum. Et hec de primo principali.</p>
+					</div>
+				</div>
+				<div type="articulus">
+				<head>Secundus articulus</head>
+					<p>Quantum ad secundum articulum pono quattuor conclusiones. </p>
+					<div>
+						<head><supplied>Conclusio prima</supplied></head>
+
+				<p>Prima est quod intellectus in natura rationali creata non est realiter voluntas, nec
+					econverso. Et quia aliqui credunt oppositam conclusionem esse de mente
+						<name>Augustini</name> primo probabo conclusionem auctoritatibus ipsius. </p>
+				<p>Secundo aliquibus rationibus quantum ad primum probo eam auctoritate ipsius valde clara
+					IV <title>De Trinitate</title>, capitulo 58, de parvis, ubi dicit expresse quod “cum
+					memoriam memini et intellectum et voluntatem nomino singula quidem nomina ad res singulas
+					referuntur”. Et consimilem sententiam ponit satis diffuse <title>De verbis domini</title>,
+					62 sermone, sed sequitur hec tria nomina ad res singulas referuntur, igitur non ad unam.
+					Quo posito sequitur quod huiusmodi potentie non sunt una res, sed distincte. Et hoc
+					evidenter ostendit in sermone predicto, ubi postquam ostendit memoriam, intellectum et
+					voluntatem separabiliter, nominari et inseparabiliter operari subdit: “ecce de tribus
+					illis res una nominata est, unius rei nomen dictum est. Memoria nomen est unius rei ex
+					illis tribus, et tamen nomen unius ex illis tribus tria ipsa operata sunt”. Hec
+						<name>Augustinus</name>. In quibus evidenter apparet <name>beatus Augustinus</name>
+					dicit memoriam, et intellectum et voluntatem esse tres res, et non unam, ut aliqui sibi
+					imponunt. Idem etiam vult XV <title>De Trinitate</title>, capitulo 44, ubi dicit quod
+					“memoria, intellectus et voluntas non distant in divinis personis, sicut in nobis in
+					quibus aliud est memoria, aliud intelligentia, et aliud dilectio”. Et accipit
+					intelligentiam et dilectionem pro intellectu et voluntate, ut patet videntibus textum
+					eius.</p>
+				<p>Forte dicetur ad istam auctoritatem dupliciter. Primo, quod <name>beatus
+						Augustinus</name> loquitur de actibus, non de potentiis, quia intelligentia et dilectio
+					sunt actus et non potentia. Secundo, supposito quod loquatur de potentiis, sed dicetur
+					quod in nobis aliud est intellectus et aliud voluntas formaliter, sed non realiter. Sed ad
+					veritatem nulla istarum evasionum sufficit. Non quidem prima, quia non est verum quod
+						<name>beatus Augustinus</name> in auctoritate illa accipiat intelligentiam et
+					dilectionem pro actibus, sed pro potentiis quod ostendo ex dictis suis. Ille enim loquitur
+					de memoria, intelligentia et dilectione, que sunt partes imaginis create, ut patet his qui
+					legerunt eum, sed actus istarum potentiarum non sunt partes imaginis create, nec in
+					actibus anime ratio imaginis consistit, secundum <name>Augustinum</name>, ut patet ex
+					articulo precedenti; ergo. Nec secunda, quia iuxta doctrinam ponentem formalitates
+					intellectus et voluntas in Deo formaliter distinguuntur, et tamen in ipso non est aliud
+					intellectus et aliud voluntas, secundum <name>Augustinum</name> in auctoritate
+					predicta.</p>
+				<p>Secundo deduco conclusionem aliquibus rationibus. Et primo demonstratis intellectu et
+					voluntate rationalis creature, arguo sic: hec voluntas est potentia libera et hic
+					intellectus non est potentia libera, igitur hic intellectus non est hec voluntas. Ista
+					forma in creaturis est necessaria et premisse sunt vere, ut declarabitur infra conclusione
+					tertia; igitur. </p>
+				<p>Secundo sic: hec voluntas vult et non intelligit hic intellectus non vult et intelligit,
+					igitur hic intellectus non est hec voluntas, vel sic. Hec creatura rationalis per hanc
+					voluntatem vult et non intelligit et per hunc intellectum non 
+					
+					<pb ed="#V" n="75-r"/>
+					<cb ed="#V" n="b"/> 
+					
+					vult et intelligit,
+					ergo idem quod prius forma est bona et premisse sunt <name>beati Augustini</name> XV
+						<title>De Trinitate</title>, capitulo 14, ubi ponit differentiam inter trinitatem
+					creatam et increatam, quia in trinitate creata non intelligimus nisi per intellectum, nec
+					amamus nisi per voluntatem. In trinitate vero increata non possumus dicere quod Pater et
+					Filius et Spiritus Sanctus non intelligant nisi per Filium, nec ament nisi per Spiritum
+					Sanctum; ergo etc. Multe rationes pro conclusione adducitur communiter a doctoribus, ideo
+					supersedeo de rationibus. Sed confirmo conclusionem expressa determinatione
+						<name>Magistri</name> in littera qui non solum determinat memoriam, intellectum et
+					voluntatem ab invicem distingui, sed auctoritates aliquas <name>beati Augustini</name> que
+					superficialiter intellecte videntur sonare oppositum exponit ad intentionem ipsius et per
+					dicta sua unde, capitulo 2, ostendit, ex quo sensu hec tria dicantur esse unum et una
+					essentia. Sic ait: hic attendendum est diligenter, ex quo sensu accipiendum sit, quod
+					supra dixit <name>beatus Augustinus</name> illa tria, scilicet memoriam, intellectum et
+					voluntatem esse unum et unam mentem et unam essentiam, quod utique non videtur esse verum
+					iuxta proprietatem sermonis. Mens enim id est spiritus rationalis essentia est spiritualis
+					et incorporea. Illa vero tria naturales proprietates seu vires sunt ipsius et a se invicem
+					differunt, quia memoria non est intelligentia vel voluntas, nec intelligentia voluntas
+					sive amor. Et exponens auctoritatem <name>beati Augustini</name> subdit modicum infra: sed
+					iam videndum est quodmodo hec tria dicantur una substantia, ideo scilicet quia in ipsa
+					anima, vel mente substantialiter existunt, non sicut accidentia que possunt adesse vel
+					abesse. Et quod ista sit intentio <name>beati Augustini</name> declarat per dicta ipsius
+						<name>Augustini</name>, vide <name>Magistrum</name>.</p>
+					</div>
+					<div>
+				<head><supplied>Conclusio secunda</supplied></head>
+
+				<p>Secunda conclusio est quod intellectus et voluntas in natura rationali creata non sunt
+					realiter ipsius essentia vel natura. Ista conclusio sequitur ex precedenti, quia nulla una
+					res creata est plures res. Hoc est enim singulare in divinis que una res que est essentia
+					divina sit plures res, sed intellectus et voluntas in creaturis sunt plures res ex
+					conclusione precedenti, igitur nulla una res cuiusmodi est essentia vel natura rationalis
+					creata est realiter intellectus et voluntas. </p>
+				<p>Confirmo tamen eam aliquibus rationibus seu auctoritatibus. Et primo auctoritate
+						<name>beati Augustini</name> clarissima XV <title>De Trinitate</title>, capitulo 14, ubi
+					sic ait: “hec tria, videlicet memoria, intellectus et voluntas ita sunt in homine, ut non
+					ipsa sint homo. Et quia forte diceretur quod, licet hec tria non sint realiter homo, sunt
+					tamen realiter anima que non est realiter homo, sed pars hominis tantum”. Subdit modicum
+					infra: “detracto igitur corpore. Si sola anima cogitetur, aliquid eius est mens tanquam
+					caput eius vel oculus vel facies, sed non hec ut corpora cogitanda sunt et in mente
+					concludi non igitur anima, sed quod excellit in anima mens vocatur”. Ecce quod expresse
+					dicit <name>beatus Augustinus</name> quod mens sive intellectus non est anima et, si
+					intellectus non est anima, certum est quod nec voluntas, quia non est maior ratio de una
+					quam de alia istarum potentiarum,</p>
+				<p>Et confirmatur, quia per hoc <name>beatus Augustinus</name> assignat differentiam inter
+					trinitatem creatam et increatam, quia memoria, intellectus et voluntas que secundum eum
+					sunt partes imaginis create, sic sunt in anima quod non ipsa sunt anima, sed aliquid eius.
+					Trinitas vero increata non sic est in Deo quod non ipsa sit Deus, unde immediate post
+					verba allegata subdit: “Nunquid autem possumus dicere trinitatem sic esse in Deo, ut
+					aliquid Dei sit, et non ipsa sit Deus”, quasi dicat nullo modo. Hec autem differentia, ut
+					patet, esset nulla si memoria, intellectus et voluntas essent realiter anima. Item,
+					ibidem, capitulo 65, sic inquit: “verum hec quando sunt una persona sicut est homo potest
+					nobis quispiam dicere ista tria, memoria, intellectus et amor mea sunt non sua, nec sibi,
+					sed mihi agunt 
+					
+					<pb ed="#V" n="75-v"/>
+					<cb ed="#V" n="a"/>
+					
+					quod agunt, immo ego per illa. Ego enim memini per memoriam
+					intelligo per intellectum, amo per amorem, qui nec memoria sum, nec intelligentia, nec
+					dilectio, sed hec habeo. Isti igitur dici possunt ab una persona que habet hec tria”. Hec
+						<name>Augustinus</name>. Et accipit in hac auctoritate intelligentiam et amorem pro
+					intellectu et voluntate, sicut patet videntibus eius textum. Sit igitur hec persona
+					angelus vel anima separata et sequitur quod angelus vel anima non est memoria, nec
+					intellectus, nec voluntas, sed hec habet.</p>
+				<p>Item <name>Anselmus</name>
+					<title>De casu diaboli</title>, capitulo 8, in principio capituli: “nec voluntatem, nec
+					conversionem voluntatis puto negari posse aliquid esse. Nam, si non sunt substantie, non
+					tamen probari potest eas non esse essentias, quoniam multe sunt essentie preter illam que
+					proprie sunt substantia”. Hec <name>Anselmus</name>. Ex qua auctoritate patet voluntas
+					creata de qua loquitur <name>Anselmus</name> non est substantia proprie dicta, et per
+					consequens non est realiter angelus vel anima. Item <title>De concordia</title>, capitulo
+					20, vel 29, sic ait: “sicut habemus in corpore membra et quinque sensus singula ad suos
+					usus apt,a quibus quasi instrumentis utimur, ut sunt pedes ad ambulandum, lingua ad
+					loquendum, visus ad videndum, ita et anima in se quasdam vires habet, quibus utitur velut
+					instrumentis ad usus congruos. Est namquam ratio in anima, qua sicut suo instrumento
+					utitur ad ratiocinandum, et voluntas qua utitur ad volendum”. Et subdit ad propositum
+					valde: “non enim est ratio vel voluntas tota anima, sed est unaqueque aliquid in anima”.
+					Hec <name>Anselmus</name> expresse. Hec est etiam determinatio <name>Magistri</name> in
+					littera, ut patet.</p>
+				<p>Ex ista conclusione sequitur quod potentie sensitive realiter distinguuntur ab anima
+					cuius oppositum videtur multis. Deductio est clara, quia non minus distinguuntur ab ipsa
+					quam intellectus et voluntas. Et confirmatur, quia illud non est idem realiter anime sine
+					quo potest anima realiter esse sine contradictione, sed sine potentia sensitiva potest
+					anima realiter esse; ergo etc. Maior tenet virtute primi principii. Minor probatur
+					dupliciter. </p>
+				<p>Primo, quia ceci non carent anima, et tamen carent potentia visiva, ut patet per
+						<name>beatum Augustinum</name> XI <title>De Trinitate</title>, capitulo 4, de parvis,
+					ubi ponens differentiam inter sensum actum sentiendi et obiectum sensibile, sic ait:
+					“sensus autem et obiectum rei sensibilis nisi esset in nobis, non distaremus a cecis, dum
+					nihil videmus sine tenebris sive clausis luminibus. Per hoc autem distamus quod nobis
+					inest, etiam videntibus quod videre possumus qui sensus vocatur. Illis vero non inest, nec
+					aliunde, nisi quod eo carent ceci appellantur”. Hec <name>Augustinus</name>.</p>
+				<p>Secundo, quia anima potest esse et est de facto realiter sine corpore, et tamen sensus
+					exterior non est, nec potest esse realiter sine corpore, ut patet per <name>beatum
+						Augustinum</name>, ubi supra, capitulo 7, ubi expresse dicit quod “voluntas solius anime
+					est. Sensus autem nec sine corpore, nec sine anima”. Et accipit sensum non pro actu, sed
+					pro potentia, quia dicit quod “visio sit in corpore et per corpus in anima. Fit enim sensu
+					qui nec sine corpore, nec sine anima est”; igitur etc.</p>
+					</div>
+					<div>
+				<head><supplied>Conclusio tertia</supplied></head>
+
+				<p>Tertia conclusio est quod sola voluntas in natura rationali creata est potentia libera.
+					Hanc probo ad presens breviter alias forte diffusius, quia solum pono eam sicut preambulam
+					ad sequentem. Arguo tamen. </p>
+				<p>Primo sic: illa sola potentiam in nobis est libera cuius imperio resistere non valemus.
+					Voluntas est huiusmodi; ergo etc. Maior patet, quia, si aliqua alia potentia esset in
+					nobis libera per actum illius, possemus resistere isti. Minorem ponit
+						<name>Anselmus</name>
+					<title>De conceptu virginali</title>, capitulo 4, sic dicens: “Deus nos et potestate que
+					in nobis est subiecit voluntati, ut secundum imperium eius non possemus nos movere et
+					facere quod vult, immo ipsa movet nos quasi instrumenta sua et facit opera que videmur
+					facere, nec nos possumus illi per nos resistere”. Hec <name>Anselmus</name>. Patet igitur
+					minor, et per consequens tota ratio.</p>
+				<p>Secundo, intellectus creatus non est potentia libera, igitur nulla potentia creata a
+					voluntate est potentia libera. Consequentia patet, 
+					
+					<pb ed="#V" n="75-v"/>
+					<cb ed="#V" n="a"/> 
+					
+					quia hoc magis videretur de
+					intellectu quam de alia potentia quecumque. Antecedens probatur, quia illa potentia non
+					est libera cuius actus est in potestate alterius. Hoc patet, quia illud tantum est nobis
+					liberum quod in potestate habemus, ut patet per <name>beatum Augustinum</name> III
+						<title>De libero arbitrio</title>, capitulo 5, sed actus intellectus est in potestate
+					voluntatis; ergo. Probatur minor, quia voluntas potest intellectum divertere a
+					consideratione unius obiecti ad considerationem alterius, ut docet experientia; igitur
+					etc. </p>
+				<p>Et confirmatur, quia <name>beatus Augustinus</name> et ceteri doctori sancti quorum dicta
+					sunt nobis auctoritates ubicumque loquuntur de materia ista dicunt voluntatem esse
+					liberam, immo dicunt quod, si non esset libera, non esset voluntas. Nusquam vero legetur
+					in dictis eorum intellectum esse liberum et non solum dictis eorum, sed nec in dictis
+					philosophorum, quod non videretur possibile si intellectus esset potentia libera, sicut
+					est voluntas, ut ad placitum aliqui fingunt.</p>
+					</div>
+					<div>
+				<head><supplied>Conclusio quarta</supplied></head>
+
+				<p>Quarta conclusio est quod voluntas in natura rationali creata est simpliciter nobilior
+					intellectu et omni potentia cognitiva. Et hec sequitur ex precedenti, quia potentia libera
+					est simpliciter nobilior potentia que non est libera, cum potentie libere sit imperare; et
+					per consequens simpliciter principari, sed voluntas in natura rationali creata est
+					huiusmodi et non intellectus, nec aliqua potentia que non sit voluntas, ut patet ex
+					conclusione precedenti; ergo etc.</p>
+				<p>Confirmo tamen eam primo sic: optimus habitus sive optima virtus voluntatis est melior
+					optimo habitu sive optima virtute intellectus, igitur voluntas est simpliciter nobilior
+					intellectu. Consequentia est nota, quia optima virtus debetur optime potentie; et
+					antecedens patet, quia inter omnes habitus et virtutes rationalis creature caritas est
+					nobilior, ut patet per <name>Apostolum</name> I <title>Ad Corinthos</title> XIII et per
+						<name>beatum Augustinum</name> XV <title>De Trinitate</title>, capitulo 49, ubi dicit
+					quod “nullum est in isto Dei dono excellentius. Solum est enim quod dividit inter filios
+					regni eterni et filios perditionis eterne”. Et ad veritatem dicetur quod aliquis habitus
+					intellectus sit nobilior caritate in via vel in patria, sicut aliqui fingunt est loqui ad
+					placitum et contra <name>Apostolum</name> et <name>beatum Augustinum</name> et omnes alios
+					doctores sanctos qui super omnes virtutes commendant caritatem, sicut posset deduci per
+					auctoritates eorum, quasi infinitas quas dimitto propter brevitatem et quia sunt
+					communiter note. </p>
+				<p>Secundo sic: actus nobilissimus voluntatis est nobilior actu nobilissimo, intellectus
+					igitur idem quod prius. Consequentia est nota, quia nobilissimus actus, sicut et
+					nobilissimus habitus, debetur nobilissime potentie. Et antecedens videtur clarum, quia
+					nobilissimus actus intellectus est cognoscere Deum, et tamen nobilius est diligere Deum
+					quam cognoscere ipsum, etiam secundum illos qui tenent conclusionem oppositam, ut sanctus
+						<name>Thomas</name> qui est principalior vel de principalioribus inter eos,
+						<title>Secunda Secunde</title>, questione 23, articulo 6, in solutione primi articuli
+					sic ait dicens quod “operatio intellectus impletur, secundum quod intellectum est in
+					intelligente, et ideo nobilitas operationis intellectualis attenditur secundum mensuram
+					intellectus. Operatio autem voluntatis et cuiuslibet virtutis appetitive perficitur in
+					inclinatione appetentis ad rem, sicut ad terminum, et ideo dignitas operationis appetitive
+					attenditur secundum rem que est obiectum operationis. Ea autem que sunt infra animam
+					nobiliori modo sunt in anima quam in se ipsis. Que vero sunt supra anima in nobiliori modo
+					sunt in se ipsis quam in anima, et ideo eorum que sunt infra nos nobilior est cognitio
+					quam dilectio, sed eorum que sunt supra nos et precipue dilectio Dei cognitioni
+					prefertur”. Hec ille. </p>
+				<p>Ex quibus verbis evidenter apparet quod dilectio Dei est simpliciter nobilior cognitione
+					eiusdem tam in via quam in patria, secundum eum; et per consequens actus nobilissimus
+					voluntatis est simpliciter nobilior actu nobilissimo intellectus, sive dilectio Dei sit
+					actus nobilissimus voluntatis, sive non. </p>
+				<p>Ex ista ratione et presertim ex dictis <name>sancti Thome</name> infero contra eum tres
+					propositiones correlarias. </p>
+						<p>Prima est quod dilectio Dei in patria est 
+							
+							<pb ed="#V" n="76-r"/>
+							<cb ed="#V" n="a"/> 
+							
+							actus essentialiter beatificus. Hoc
+					patet: nullus actus non beatificus in natura rationali creata est simpliciter nobilior
+					actu beatifico, sed dilectio Dei in patria, secundum istum doctorem, est simpliciter
+					nobilior cognitione eiusdem que tamen est beatifica, secundum eum et secundum omnes; ergo
+					etc.</p>
+				<p>Secunda est quod beatitudo non consistit in actu intellectus precise et hec sequitur ex
+					precedenti, quia dilectio non est actus intellectus, sed voluntatis.</p>
+				<p>Tertia est quod beatitudo principalius consistit in actu voluntatis quam in actu
+					intellectus. Deductio patet, quia in nobiliori actu beatifico principalius consistit
+					beatitudo et talis est actus voluntatis, non actus intellectus, secundum eum; ergo etc. </p>
+				<p>Et ex his sequitur ulterius quod tenentes quod beatitudo consistit in actu intellectus
+					precise, et cum hoc dicentes quod amare vel velle Deum in patria sit simpliciter nobilius
+					quam intelligere et cognoscere ipsum, sicut asserit iste doctor, et implicat
+					contradictionem evidenter. Deductio patet ex propositionibus statim deductis. </p>
+				<p>Potest etiam ex dictis evidenter argui ad conclusionem principalem, quia illa potentia
+					dicitur simpliciter nobilior in cuius actu principalius consistit beatitudo secundum
+					omnes; sed voluntas in natura rationali creata est huiusmodi, non intellectus ut patet ex
+					dictis; ergo etc. Ex his quod partes imaginis in natura rationali creata non sunt equalis
+					perfectionis entitative. Et hec de secundo articulo.</p>
+					</div>
+				</div>
+				<div type="articulus">
+				<head>Tertius et quartus articulus</head>
+
+				<p>Quantum ad tertium et quartum articulum simul movenda et dissolvenda sunt dubia. </p>
+				<div>
+					<head>Contra primas duas conclusiones</head>
+				<p>Et primo contra primas duas conclusiones est quedam opinio multum communis hodie apud
+					aliquos que ponit intellectum et voluntatem non distingui realiter ab angelo et anima, nec
+					inter se. Sed, licet isti sint bifurcati et quidam ponant distinctionem formalem inter
+					ista, quidam vero non, in conclusione tamen principali que conclusionibus per me positis
+					concordant. Et quantum ad hoc quidam doctor
+				<note><name>Scotus</name> in II, distinctione 16, questione 1, articulo 2.</note>
+					arguit primo sic: illud est ponendum in natura quod melius est si sit possibile secundo
+					de generatione. Natura enim semper desiderat quod melius est, sed paucitas sine
+					multitudine est melior in natura si sit possibilis. Patet I <title>Physicorum</title>;
+					igitur, si possunt esse actus diversi in una essentia simplici anime sine distinctione
+					reali potentiarum, hoc est ponendum; sed huiusmodi paucitas est possibilis, quia non est
+					necesse quod iste potentie sint accidentia absoluta vel relativa, nec partes anime
+					essentiales sive integrales; ergo etc.</p>
+				<p>Preterea, si intellectus et voluntas distinguuntur realiter ab anima et inter se,
+					sequitur quod anima non esset beata nisi per accidens, quod est inconveniens. Consequentia
+					probatur, quia illa non est perfectio propria alicuius que non recipitur in illo nisi
+					recipiatur prius in alio realiter differente ab illo in quo etiam reciperetur si esset
+					separatum ab illo. Verbi gratia: color non est proprie perfectio substantie corporee, quia
+					non recipitur in illa nisi mediante superficie que realiter distinguitur ab ea et
+					reciperetur in ipsa. Si esset separata ab ipsa substantia et maneret, ideo substantia est
+					colorata per accidens, sed visio vel intellectio Dei non recipitur in anima nisi quia
+					recipitur in intellectu qui est ex supposito potentia realiter distincta ab anima et
+					reciperetur in ipso etiam si esset separatus, igitur anima non esset beata nisi per
+					accidens et intellectus per se.</p>
+				<p>Preterea, ad idem reducit aliquas alias rationes que communiter adducuntur ad probandum
+					formam substantialem esse immediatum principium sue operationis, sed, quia non sunt
+					directe ad propositum et in scriptis doctoris, inveniuntur solute; ideo dimitto eas.</p>
+				<p>Preterea, ad idem arguit quidam modernus doctor.
+						<note><name>Adam</name> in I, distinctione 1, questione ultima, articulo 2.</note>
+					Primo sic: omni alio circumscripto a natura intellectuali 
+					
+					<pb ed="#V" n="76-r"/>
+					<cb ed="#V" n="b"/> 
+					
+					ipsa nata est
+					intelligere et ipsa eadem nata est velle, igitur hoc natum velle est natum intelligere et
+					econtra; igitur intellectus est voluntas et econtra. Ex hoc enim quod talis natura est
+					nata vel potens intelligere ipsa dicitur intellectus et ex hoc quod est volens vel nata ad
+					volendum dicitur voluntas.</p>
+				<p>Preterea, potentie sensitive non distinguuntur ab anima, nec inter se, igitur nec
+					intellective. Consequentia est nota et antecedens probatur per auctoritatem <title>De
+						spiritu et anima</title>, capitulo 8, ubi sic ait: “sensus vero unus est in anima, cum
+					non sit nisi unus. Verumtamen propter varia exercitia varie nuncupatur. Dicitur namquam
+					sensus imaginatio ratio intellectus et intelligentia et hec omnia in anima nihil aliud
+					sunt quam ipsa”.</p>
+				<p>Preterea, anima intellectiva sive mens, secundum <name>beatum Augustinum</name>, eo est
+					imago Dei quo est capax, sed per naturam suam est capax, quia omnis alio circumscripto a
+					natura anime adhuc est ipsa capax Dei, id est cognitionis et fruitionis Dei.</p>
+				<p>Preterea, non videtur rationale quod solum per unum accidens medium sit ipsa receptiva
+					beatitudinis, sive per unum quocumque modo a parte rei ab ipsa distinctum, nam unum
+					accidens esset tunc beatum.</p>
+				<p>Preterea, frustra sit per plura que eque faciliter possunt fieri per pauciora et salvari,
+					ubi nec Sacra Scriptura, nec ratio obviat, sed per eandem simplicem naturam et
+					intellectualem sine omni tali accidente sibi addito et distinctione previa ita facillime
+					poterunt salvari omnia per que ponunt alii potentias anime distingui, igitur etc., quod
+					autem non obviet. Patet, quia auctoritates que oppositum intendunt faciliter glosari
+					possunt una per aliam, ut dicit iste doctor. Et confirmatur per exemplum in Deo qui habet
+					potentiam gubernativam, reparativam, predestinativam que nullo modo distinguuntur in Deo,
+					sed eadem omnino essentia, vel voluntas varie nominatur a variis effectibus suis, secundum
+						<name>Magistrum</name> sepe li I. Et similiter potest per omnia dici de intellectu et
+					voluntate.</p>
+				<p>Preterea, si distingueretur, aut ratione solum, et hoc non, quia talis distinctio
+					causaretur per actum intellectus, sed intellectus et voluntas precedunt omnem actum
+					intellectus et voluntatis, aut ex natura rei, et hoc non, quia illa diversitas aut esset
+					ponenda propter diversitatem modorum principiandi, vel propter diversitatem actuum. Non
+					propter secundum, quia tunc tot essent potentie intellective quot essent actus
+					intelligendi secundum speciem distincti, quod non est verum. Nec propter primum, quia
+					principiare libere et necessario respectu diversorum non opponuntur, ut patet de voluntate
+					divina que necessario vult se et alia contingenter et Pater etiam necessario producit
+					Filium et Spiritum Sanctum libere.</p>
+				<p>Preterea, ad idem arguitur communiter primo sic: essentia anime non potest esse sine
+					potentia intellectiva, igitur non distinguitur realiter ab ipsa. Antecedens videtur
+					clarum, quia, si detur oppositum, sequitur quod anima non erit intellectiva, nec per
+					consequens rationalis, que est eius essentialis differentia. Consequentia probatur, quia
+					omne prius absolutum distinctum realiter ab alio Deus potest facere sine illo.</p>
+				<p>Preterea, si intellectus et voluntas essent accidentia anime superaddita, accidens posset
+					per se beatificari, quod est absurdum. Consequentia probatur, quia intellectus ab anima
+					separatus posset intuitive Deum videre, et sic beatificari. Et similiter voluntas separata
+					posset Deum diligere dilectione beatifica; igitur etc.</p>
+				<p>Confirmatur ista conclusio multis auctoritatibus. Primo per auctoritatem <title>De
+						spiritu et anima</title>, capitulo 10, ubi sic inquit: “anima est spiritus
+					intellectualis bone maleque voluntatis capax, secundum benignitatem creatoris atque
+					secundum sui operis officia variis nuncupatur nominibus. Dicitur namquam anima dum
+					vegetat, spiritus dum contemplatur, sensum dum sentit, animus dum sapit, mens dum
+					intelligit, ratio dum discernit, dum recorda-
+					
+					<pb ed="#V" n="76-v"/>
+					<cb ed="#V" n="a"/>
+					
+					-tur memoria, dum vult voluntas. Ista
+					tamen non differunt in substantia quemadmodum in rationibus, quoniam ista una est anima”.
+					Item <name>Augustinus</name> X <title>De Trinitate</title>, capitulo 10, et allegat cum
+						<name>Magister</name> in littera, capitulo 7: “hec tria, videlicet memoria,
+					intelligentia et voluntas non sunt tres vite, sed una vita, non tres mentes, sed una mens,
+					nec tres essentie, sed una essentia”; igitur etc. Item in IX, capitulo 10 dicit quod “iste
+					potentie existunt in anima essentialiter sive substantialiter et non tanquam in subiecto,
+					ut color aut figura in corpore aut qualitas aut quantitas, sed quod sic existit in anima
+					non distinguitur realiter ab ipsa”; igitur etc.</p>
+				<p>Ad rationes <name>Scoti</name></p>
+						<p>Ad primum istorum primo reduco rationem contra suam auctoritatem et suum auctorem, quia,
+					si deductio sua esset bona, sequeretur quod intellectus et voluntas non distinguerentur
+					formaliter ab anima, nec inter se cuius oppositum intendit. Probatio: illud est ponendum
+					in natura quod melius est si sit possibile, sed paucitas sine multitudine est melior in
+					natura si sit possibilis, igitur, si possunt esse diversi actus ab una essentia simplici
+					anime distinctione reali et formali potentiarum, hoc est ponendum, sed huiusmodi paucitas
+					est possibilis; ergo etc. Et, si dicatur quod diversi actus non possunt esse ab una
+					essentia anime sine distinctione formali potentiarum, ita dicam quod nec sine distinctione
+					reali earum, et per consequens ratio nulla. Et, si dicatur quod oportet ponere
+					distinctionem formalem inter ista propter aliquas auctoritates sanctorum que non possunt
+					aliter salvari, sicut dicit iste doctor, ita dicam ei quod oportet ponere distinctionem
+					realem, quia nisi talis ponatur auctoritates sanctorum non possunt salvari, ut patet ex
+					deductione conclusionum.</p>
+				<p>Ad rationem igitur concedo quod illud est ponendum in natura, quod melius est si sit
+					possibile naturaliter et de potentia Dei ordinata. Et sub isto sensu minor est falsa, quia
+					huiusmodi paucitas non est sic possibilis, ut patet ex supradictis.</p>
+				<p>Ad secundam: si deductio illa sit bona, sequitur quod anima vel angelus non distinguatur
+					realiter a sua beatitudine formali, quod non solum est falsum, sed erroneum. Deductio
+					patet per formam suam et, si sic, sequitur quod anima non esset beata nisi per accidens,
+					quod reputat inconveniens. Consequentia patet, quia constat quod substantia est equata per
+					accidens eo quod per quantitatem que est ei accidens. Supposito quod substantia et
+					quantitas realiter distinguantur, igitur anima erit beata per accidens si sit beata per
+					beatitudinem que sibi accidit.</p>
+				<p>Et confirmatur, quia substantia non est essentialiter quanta, licet quantitas non sit
+					formaliter in quodam alio accidente sicut albedo, igitur nec anima erit beata
+					essentialiter si eius beatitudo sit accidens immediate fundatum in ipsa, sed sequitur
+					anima non est beata essentialiter, ergo est beata accidentaliter vel per accidens; ergo
+					etc. Ex hoc apparet defectus probationis sue, quia non solum est tale per accidens illud
+					quod est tale mediante aliquo accidente, quod non recipitur in ipso, nisi prius recipiatur
+					in aliquo realiter differente ab eo, sicut imaginatur illa deductio, sed etiam illud quod
+					est tale per aliquod accidens immediate receptum in ipso, ut patet ex dictis.</p>
+				<p>Ad rationem igitur concedo quod anima est beata per accidens, quia per beatitudinem que
+					est ei accidens et mediantibus intellectu et voluntate que sunt ei accidentia et oppositum
+					assumere sine probatione est petitio principii.</p>
+				<p>Responsio ad rationes <name>Ade</name></p>
+
+				<p>Ad primum vero alterius doctoris distinguo maiorem, quia dupliciter potest intelligi quod
+					natura intellectualis omni alio circumscripto sit nata intelligere et velle. Uno modo,
+					quia omni alio circumscripto nata est fundare et habere intellectum et voluntatem, quibus
+					mediantibus potest exire in actibus cognitionis 
+					
+					<pb ed="#V" n="76-v"/>
+					<cb ed="#V" n="a"/> 
+					
+					et volitionis. Alio modo, quia omni
+					tali circumscripto nata est intelligere, id est recipere in se ipsa intellectionem et
+					volitionem, et per consequens intelligere et velle. In primo sensu concedo maiorem, quia
+					intellectus et voluntas non fundantur in natura intellectuali mediantibus aliis
+					accidentibus distinctis realiter ab ipsa, sed in secundo sensu maior est falsa de natura
+					intellectuali creata, immo hoc est quod queritur utrum talis natura se ipsa sit nata
+					intelligere et velle mediantibus potentiis distinctis ab ipsa, et per consequens assumere
+					istam propositionem tanquam per se notam et sine probatione est petere principium et
+					facere fundamentum de nihilo. Et quando ulterius dicitur quod hoc natum velle est natum
+					intelligere et econtra, vel per natum velle intelligit potentiam volitivam et per natum
+					intelligere potentiam intellectivam, et tunc petit principium, quia illud est de quo
+					agitur et contradicit <name>beato Augustino</name>, quia, secundum eum, sic intelligimus
+					per intellectum quod non per voluntatem et sic volumus per voluntatem, quod non per
+					intellectum, ut dictum est supra, vel per natum velle intelligit animam vel angelum
+					potentem velle intelligere mediante intellectu; et tunc consequentia sua est nulla, quia
+					non sequitur quod intellectus sit voluntas, nec econtra, sed quod anima vel angelus qui
+					potest velle intelligere voluntate est anima vel angelus qui potest intelligere mediante
+					intellectu et istud est verum.</p>
+				<p>Ad secundum nego antecedens, quia oppositum fuit ostensum ex dictis <name>beati
+						Augustini</name>. Et ad probationem dico quod sensus, sicut et intellectus, tripliciter
+					intelligitur a sanctis et doctoribus. Aliquotiens enim accipitur pro actu sentiendi,
+					aliquotiens pro principio sentiendi quo, id est pro potentia sensitiva que proprie
+					loquendo non sentit, sed est illud quo anima vel homo sentit, aliquotiens pro principio
+					sentiendi quod, id est pro anima, vel homine per sensum sentiente. Ex isto tertio modo
+					auctor iste accipit sensum in auctoritate illa, quia dicitur quod sensus etiam est unus.
+					Natura enim anime una est que propter diversos actus quod elicit mediantibus diversis
+					potentiis diversis nominatur nominibus. Dicitur enim sensus, quia sentit non quidem
+					accipiendo sensum pro principio sentiendi quo, sed pro principio sentiendi quod, et sic de
+					ceteris ibi nominatis. Non est ergo intelligendum quod sensus unus sit in anima etc.,
+					accipiendo sensum pro potentia sensitiva, sicut accipit iste doctor, sed accipit ipsum pro
+					natura sentiente. </p>
+				<p>Ad tertium dico quod circumscripto omni alio ab anime natura, anima non est capax
+					cognitionis et fruitionis Dei, quia non est capax cognitionis nisi mediante intellectu qui
+					est res distincta a natura ipsius, nec est capax fruitionis nisi mediante voluntate que
+					realiter distinguitur ab anima et oppositum assumere sine probatione, sicut iste doctor
+					assumit, est petere principium.</p>
+				<p>Ad quartum dico quod habentibus rectum iudicium rationis videtur rationale quod anima sit
+					beata et receptiva beatitudinis mediante uno accidente intellectu, scilicet sibi
+					inherente; nec ex hoc sequeretur quod unum accidens esset tunc beatum, quia intellectus
+					non intelligit, sed est illud quo anima vel homo intelligit, ut declarabitur infra.</p>
+				<p>Ad quintum nego minorem, quia non solum ratio, sed auctoritates sanctorum obviant. Et
+					quando dicitur quod auctoritates que pretendunt oppositum possunt faciliter glosari una
+					per aliam non est verum nisi detur glosa ad placitum corrumpens textum, nec iste doctor
+					exponens unam per aliam ad intentionem sanctorum potest exponere. Et ad confirmationem
+					patet quod exemplum de Deo 
+					
+					<pb ed="#V" n="77-r"/>
+					<cb ed="#V" n="a"/> 
+					
+					non est ad propositum, quia pari ratione diceretur quod
+					esset similiter de Deo et creaturis, quia scientia non est res distincta ab anima, quia
+					constat quod non distinguitur realiter a Deo. Et, si dicatur quod non est simile in
+					omnibus, sicut oportet dicere, ratio nihil concludit, quia non probatur quod sit simile in
+					proposito. </p>
+				<p>Ad sextum concedo quod intellectus et voluntas distinguuntur realiter ab anima et inter
+					se et non solum secundum rationem. Et quando dicitur quod vel ista diversitas est ponenda
+					propter diversitatem modorum principiandi vel propter diversitatem actuum, potest concedi
+					quod propter diversitatem actuum, quia sic intelligimus per intellectum quod non per
+					voluntatem, et sic volumus per voluntatem quod non per intellectum, ut patet per
+						<name>beatum Augustinum</name> pluries allegatum. Et quando dicitur quod tunc tot essent
+					potentie intellective quot essent actus intelligendi secundum speciem distincti, nego,
+					quia non est tanta diversitas inter actus intelligendi ad invicem comparatos quanta est
+					inter actus intelligendi et actus volendi, nec istud probatur ab eo. Multi etiam concedunt
+					quod propter diversitatem modorum principiandi, quia potentia limitata non potest
+					principiare libere et naturaliter; nec probatio istius doctoris concludit propter duo. </p>
+				<p>Primo, quia non est simile de Deo et creaturis, ut patet ex dictis. </p>
+				<p>Secundo, quia ipse debet probare quod principiare libere et naturaliter non opponantur et
+					probat quod principiare libere et necessario non opponuntur et ista multum differunt, quia
+					principiare necessario et principiare naturaliter non convertuntur, quia voluntas creata
+					necessario diligit Deum clare visum, ut declaratum fuit distinctione prima, et tamen actum
+					illum dilectionis non principiat naturaliter, ut naturale distinguitur contra liberum. Et
+					in divinis Pater et Filius necessario spirant Spiritum Sanctum et tamen non per modum
+					nature, sed per modum voluntatis, ut communiter dicitur a doctoribus. </p>
+				<p>Ad primum vero aliorum primo reduco rationem contra eos, quia, si deductio sit bona,
+					sequitur quod intellectus hominis non solum non distinguitur realiter ab anima, sed quod
+					non distinguatur realiter ab homine, quod est evidenter falsum et contra <name>beatum
+						Augustinum</name> XV <title>De Trinitate</title>, superius allegatum. Consequentia patet
+					per formam suam sic: essentia hominis non potest esse sine potentia intellectiva, igitur
+					non distinguitur realiter ab ea. Consequentia est eorum et antecedens patet sicut et suum,
+					quia, si detur oppositum, sequitur quod homo non erit intellectivus, nec per consequens
+					rationalis, que tamen est eius essentialis differentia. Ad rationem igitur multi negarent
+					consequentiam, quia multis non videtur quod omne prius absolutum distinctum realiter ab
+					alio Deus potest facere sine illo, sicut multi dicunt de materia et forma et multis aliis.
+					Quicquid tamen sit de hoc, quia ego non auderem sic limitare potentiam Dei, concedo quod
+					de potentia Dei absoluta essentia anime potest esse sive potentia intellectiva. Et ad
+					probationem quando dicitur quod tunc anima non esset intellectiva, nec per consequens
+					rationalis etc., dico quod dupliciter anima dicitur intellectiva. Uno modo, quia habet
+					actu intellectum. Alio modo, quia ex se et ex natura sua est apta nata habere intellectum
+					nisi impediatur virtute superioris agentis, quo habito potest exire in actum intelligendi
+					cum volverit stante generali influentia Dei. Et concedo quod anima sine intellectu non
+					esset intellectiva primo modo, esset tamen intellectiva et per consequens rationalis
+					secundo modo, et sic rationalis est eius essentialis differentia et non aliter. </p>
+				<p>Ad secundum nego consequentiam. Et quando dicitur quod intellectus separatus ab anima
+					potest intuiti-
+					
+					<pb ed="#V" n="77-r"/>
+					<cb ed="#V" n="b"/>
+					
+					-ve videre Deum etc., nego. Cuius gratia advertendum iuxta doctrinam
+						<name>beati Augustini</name> quod nec intellectus intelligit, nec voluntas vult
+					accipiendo intellectum et voluntatem pro potentiis, unde, XV <title>De Trinitate</title>,
+					capitulo 65, dicit quod “ista tria, scilicet memoria, intellectus et voluntas mea sunt non
+					sua, nec sibi, sed mihi agunt quod agunt, immo ego per illam. Ego enim memini per
+					memoriam, intelligo per intellectum, amo per voluntatem”. Et II <title>De libero
+						arbitrio</title>, capitulo 36, dicit quod “potentiis operatur homo, non autem operantur
+					ipse potentie”. Et ideo, posito quod intellectus esset ab anima separatus, non sequitur
+					quod intelligeret, quia non convenit sibi intelligere, sed esse principium intellectionis
+					quo, et idem dicendum est de voluntate.</p>
+				<p>Ad auctoritates quid dicendum patet ex supradictis. Ad primam concedo quod anima dicitur
+					sensus dum sentit, intellectus dum intelligit, voluntas dum vult, et sic de aliis; sed ex
+					hoc nihil concluditur, quia non accipitur tunc sensus pro potentia sensitiva que solum est
+					principium sentiendi quo, sed pro natura principaliter sentiente que est principium
+					sensationis quod, ut dictum est supra. Similiter autem et in aliis. Nec est bona
+					consequentia. Anima dicitur sensus vel intellectus, igitur non distinguitur a potentia
+					sensitiva vel intellectiva, sicut non est bona consequentia actus sentiendi dicitur sensus
+					et actus intelligendi dicitur intellectus, igitur actus sensitivus non distinguitur a
+					potentia sensitiva, nec actus intelligendi a potentia intellectiva.</p>
+				<p>Ad auctoritates <name>beati Augustini</name> patet quid dicendum ex hic que dicta sunt in
+					prima conclusione, ubi fuit ostensum, qualiter <name>Magister</name> exponit auctoritates
+					illas in littera. Non enim intelligit <name>beatus Augustinus</name> quod iste potentie
+					sint una res cum anima, nec inter se, sed dicuntur una substantia, quia in anima
+					substantialiter existunt et non sicut accidentia in subiectis que possunt adesse et
+					abesse, et ideo dicit <name>beatus Augustinus</name>, ut deducit <name>Magister</name>,
+					quod “non sunt in anima sicut color in corpore, aut ulla qualitas, aut quantitas
+					consimilis que possit, scilicet adesse et abesse, quia naturales proprietates sunt
+					ipsius”, ut declarat <name>Magister</name>.</p>
+					</div>
+					<div>
+						<head> Contra tertiam conclusionem </head>
+
+
+				<p>Contra tertiam conclusionem quidam reverendus socius qui mecum
+					<note>Magister <name>Iohannes de Magno Monasterio</name></note>
+					concurrebat in lectura posuit quod supposita distinctione reali inter intellectum
+					et voluntatem, intellectus est potentia ita libera, sicut voluntas, pro cuius deductione
+					premittebat duas suppositiones. </p>
+				<p>Prima est quod voluntas non fertur nisi in bonum vel apparens bonum et hoc habetur a
+						<name>beato Augustino</name> II <title>De libero arbitrio</title>, capitulo 17, et ab
+						<name>Anselmo</name>
+					<title>De casu diaboli</title>, capitulo 12, ubi habetur expresse quod “voluntas non
+					potest aliquid velle, nisi appareat sibi commodum”. </p>
+				<p>Secunda est quod primus angelus voluit esse similis Deo secundum equalitatem potentie, et
+					hanc ponit <name>Magister</name> libro II, distinctione 6. </p>
+				<p>His premissis arguitur primo sic: primus angelus voluit esse similis Deo, igitur prius
+					apparuit sibi seu credidit bonum esse quod esset similis Deo et credidit prius bonum esse
+					preesse et non subesse. Ista consequentia patet per primam suppositionem, tunc sic: aut
+					ille Lucifer primus angelus hoc libere credidit, aut necessitatus. Si libere, igitur actus
+					credendi libere producitur ab intellectu, igitur non sola voluntas est libera. Si
+					necessitatus, cum culpa non precessisset, sequitur quod non peccavit, quod est manifeste
+					falsum, quia, si sic, credendo non magis culpabilis fuit quam aliquis nostrum qui, si
+					crederet hoc, peccaret peccato infidelitatis, unde <name>beatus Augustinus</name> in
+						<title>Epistola ad Publicolam Monachum</title>, post medium: “si quis existimaverit
+					bonum esse quod malum est et fecerit hoc putando utique peccat, sed ille putavit bonum
+					esse quod malum erat, ergo peccavit”.</p>
+				<p>Sed quia forte diceretur ad argumentum quod non concluderet de intellectu humano arguitur
+					de Eva que credidit serpenti suadenti illa verba quecumque die etc., eritis sicut dii etc.
+					Si libere credidit, habetur intentum. Si necessitata, igitur non peccavit, quod falsum est
+					propter probationem iam dictam.</p>
+				<p>Preterea, ad principale arguebatur sic: hereticus credens oppositum articulorum fidei aut
+					libere credit, aut naturaliter. Si naturaliter, de tali actu 
+					
+					<pb ed="#V" n="77-v"/>
+					<cb ed="#V" n="a"/> 
+					
+					iudicandum est, sicut
+					de passionibus, quibus nec laudamur, nec vituperamur, II <title>Ethicorum</title>, et sic
+					non peccaret; et per consequens heresis non esset de se peccatum, quod non est verum. Si
+					libere, igitur actus credendi libere producitur ab intellectu heretici, unde
+						<name>Augustinus</name>
+					<title>Super Iohannem</title>: “cetera potest homo nolens, credere autem non nisi volens”.
+					Ecce quod, licet homo multa possit invite, tamen non potest credere nisi libere unde, si
+					talis actus non libere producitur, non apparet cur scriptum sit: qui crediderit et
+					baptizatus fuerit etc., qui vero non crediderit etc. Cur enim condemnabitur postquam
+					credere non est in potestate nostra.</p>
+				<p>Preterea, actus deliberandi libere producitur ab intellectu nostro, ergo non sola
+					voluntas est libera. Antecedens probatur, quia nisi esset in potestate nostra actus
+					deliberandi, nunquam caderet sub precepto, et tamen cadit sub precepto I <title>Ad
+						Thimotheum</title> 4: sine preiudicio nihil facias, id est sine deliberatione, unde
+						<title>Glossa</title>: antequam aliquid facias preexamina et ab examinatione non
+					declinas. </p>
+				<p>Preterea, idem potest argui de actu cogitandi qui libere producitur, sicut dicit
+						<name>beatus Augustinus</name>
+					<name>De gratia</name> et <title>De libero arbitrio</title>, ad Valentinum narrans verba
+					Apostoli, bonum certamen etc., dicens: “ista non sunt bona opera nisi bone cogitationes
+					precessissent utique ista operatio nulla esset, sed non essent bone nisi essent in
+					potestate nostra et libere producte; ergo etc. Iste rationes videntur prima fronte fundari
+					in dictis <name>beati Augustini</name> et <name>Anselmus</name>. Et tamen fundamentum
+					eorum contradicit dictis eorum. Supponunt enim precise quod actus intellectus sumptus, ut
+					prescindit ab omni actu voluntatis, possit esse meritorius et demeritorius, cuius
+					oppositum patet per doctrinam utriusque, unde <name>beatus Augustinus</name> II <title>De
+						libero arbitrio</title>, capitulo 2, dicit expresse quod “homo debuit habere liberam
+					voluntatem, sine qua recte facere non posset”, quod non esset verum si actus intellectus
+					precise sumptus posset esse meritorius et, quibusdam paucis interpositis, subdit: “non
+					enim aut peccatum esset, aut recte factum, quod non fieret voluntate, igitur nullus actus
+					intellectus precise sumptus est peccatum, aut recte factum, cum nullus fiat voluntate
+					supposita distinctione reali intellectus a voluntate”. Et in eodem, secundo capitulo et
+					quarto, vult quod “sola perversa voluntas separat nos a Deo, quod non esset verum si
+					aliquis actus intellectus precise sumptus esset demeritorius, quia omnis actus
+					demeritorius separat nos a Deo”. Item in III, capitulo 45, dicit quod peccata non nisi
+					proprie voluntati tribuenda sunt, nec ulla ulterior causa querenda est, quod non esset
+					verum stante supposito, quod patet primo, quia peccata essent attribuenda intellectui,
+					igitur non soli voluntati. Secundo, quia, cum actus intellectus precedat actum voluntatis,
+					etiam per eum intellectus esset prima causa peccati, et per consequens voluntas non esset
+					prima causa, nec standum esset in voluntate, sed liberior causa querenda esset, cuius
+					oppositum intelligit <name>beatus Augustinus</name>. Idem etiam vult <name>Anselmus</name>
+					<title>De concordia</title>, capitulo 20, ubi postquam distinxit duas habitudines sive
+					affectiones voluntatis, quarum una est ad volendum commodum, altera vero ad volendum
+					rectitudinem, concludit quod ex hiis duabus affectionibus voluntatis descendit omne
+					meritum hominis sive bonum, sive malum. Et idem vult ubicumque loquitur de hac materia.
+					Patet igitur per <name>beatum Augustinum</name> et <name>Anselmum</name> quod actus
+					intellectus precise sumptus, ut prescindit ab omni actu voluntatis, non est meritorius,
+					nec demeritorius. </p>
+				<p>Quod confirmo ratione sic: pono quod voluntas alicuius viatoris nolit credere ipsum Deus
+					esse trinum et unum, immo totum oppositum. Tunc quero utrum intellectus eius possit
+					credere Deum esse trinum et unum, vel non. Si non, igitur non est potentia libera, sicut
+					voluntas cum eius actus non sit in potestate sua, quod est propositum principa-
+					
+					<pb ed="#V" n="77-v"/>
+					<cb ed="#V" n="b"/>
+					
+					-le.
+					Si sic, igitur intellectus talis viatoris poterit credere Deum trinum et unum eius
+					voluntate hoc nolente. Quo posito arguo sic: talis per istum socium reverendum meretur,
+					quia libere credit Deum esse trinum et unum, igitur est in gratia, quia nullus meretur
+					sine gratia et presertim per eum qui ponebat quod sine gratia non possumus aliquem bonum
+					actum elicere, etiam in genere morum. Et ulterius talis demeretur, quia non vult quod
+					debet velle, igitur non est in gratia, igitur simul et semel est in gratia et non est in
+					gratia, quod est contradictoria, vel merebitur sine gratia, quod est contra veritatem et
+					contra eum, vel demerebitur manente gratia, quod nullus vere catholicus assereret; ergo
+					etc.</p>
+				<p>Responsio ad rationes <name>Iohannis de Monasterio Magno</name></p>
+
+				<p>Ad primam quidem dupliciter. Primo, interimendo consequentiam, quia non sequitur primus
+					angelus voluit esse similis Deo, igitur prius apparuit sibi, seu credidit etc. Nec ad hoc
+					sequitur quod voluntas feratur in incognitum, quia ad hoc quod voluntas non feratur in
+					incognitum sufficit quod primus angelus habuit aliquam notitiam Dei et eius equalitatis.
+					Et quod illud sufficiat ostendo, quia pono quod aliquis viator sciat quod bonum sit
+					diligere proximum, nec oppositum credat. Tunc quero vel voluntas istius viatoris poterit
+					velle odire proximum, vel non. Si non, sequitur quod ratio recta voluntas recta et quod
+					stante scientia in particulari voluntas non poterit in oppositum, quorum quodlibet est
+					articulus Parisius condemnatus. Si sic, igitur poterit aliquid velle, quod nec scivit, nec
+					credidit esse bonum sibi; nec tamen sequitur quod voluntas feratur in incognitum, quia
+					sufficit quod intellectus cognoscat quid per proximum, quid per dilectionem, quid per
+					odium importetur. Et ad auctoritatem <name>Anselmi</name> quando dicitur quod voluntas non
+					potest aliquid velle nisi appareat sibi commodum, peto ab isto reverendo socio, vel ipse
+					intelligat absolute quod nullus per aliquem actum possit velle aliquid nisi appareat sibi,
+					vel non. Si non, auctoritas non est pro eo, quia non probat quod intendit. Si sic,
+					sequitur quod voluntas nullo modo poterit Deum diligere propter se, quia sequitur diligo
+					Deum propter commodum meum, ergo non propter se, et per consequens nunquam poterit nec in
+					via, nec in patria Deo frui ordinate. Sequitur etiam quod nihil poterit voluntas creature
+					rationalis diligere amore amicitie, sed solum concupiscentie, et sic fruitio beatifica
+					erit amor concupiscentie, non amicitie, quod non credo ipsum velle tenere. Sequitur etiam
+					quod voluntas nihil poterit velle affectione iustitie, quia omnia vult affectione commodi,
+					quod est contra <name>Anselmum</name>, ibidem expresse et in multis aliis locis. </p>
+				<p>Respondeo ergo ad auctoritatem <name>Anselmi</name> per ipsummet. <name>Anselmus</name>
+					enim distinguit ibidem duplex bonum, scilicet bonum quod dicitur iustum, et bonum quod
+					potest dici commodum et subdit ista vera. Commodum enim non solum omnis rationalis natura,
+					sed etiam omne quod sentire potest vult et vitat incommodum et immediate infert, nam
+					nullus vult nisi quod putat sibi aliquo modo commodum. Tunc quero an <name>Anselmus</name>
+					accipit sibi velle proprie et stricte pro actu libero voluntatis de quo loquitur in
+					proposito, vel non. Si non, auctoritas non est ad propositum. Si sic, igitur omne quod
+					sentire potest, potest isto modo velle, quia <name>Anselmus</name> dicit quod non solum
+					isto modo omnis rationalis creatura, sed etiam omne quod sentire potest vult. Hoc autem
+					est evidenter falsum, igitur <name>Anselmus</name> non accipit velle in auctoritate
+					allegata ad propositum, et per consequens probatio nulla. </p>
+				<p>Secundo respondeo, etiam si admittatur consequentia et consequens, tunc quero vel primus
+					angelus quando credidit bonum esse sibi quod esset similis Deo voluit hoc credere, vel
+					non. Si sic, igitur iste actus credendi non precessit 
+					
+					<pb ed="#V" n="78-r"/>
+					<cb ed="#V" n="a"/>
+					
+					in eo omnem actum volendi,
+					nec esse peccatum, cuius oppositum intendit iste socius. Consequens evidens est, quia
+					talis actus volendi esset demeritorius et prior actu credendi. Si non, sequitur quod
+					aliquis poterit credere non volens, quod est expresse contra <name>beatum
+						Augustinum</name>
+					<title>Homelia 26 Super Iohannem</title> et contra ipsum qui in secunda ratione sua
+					allegat <name>Augustinus</name> dicens quod cetera potest homo nolens. Credere autem non,
+					nisi volens et in hoc videtur in dictis repugnantia salva reverentia sua. Respondeo ergo
+					ad rationem suam et dico quod talis actus credendi non causabitur ab intellectu libere,
+					sed naturaliter et necessario, non quidem simpliciter, sed ex suppositione, quia, si
+					voluntas voluit ipsum credere, necessario credidit, cum sit subditus imperio voluntatis,
+					nec possit illi per se resistere, ut patet per <name>Anselmum</name> superius allegatum.
+					Et quando dicitur quod talis actus credendi non esset demeritorius, verum est per se, sed
+					esset demeritorius propter actum voluntatis previum qui est demeritorius et vere liber, et
+					sic loquitur <name>Anselmus</name> in epistola preallegata et ubicumque vult quod
+					infidelitas et avaritia et consimiles actus qui non sunt eliciti a voluntate sint
+					meritorii vel demeritorii, et non aliter. </p>
+				<p>Ex hiis patet quid dicendum ad confirmationem quam fecit de peccato ipsius Eve. Patet
+					etiam quid dicendum ad secundum principale.</p>
+				<p>Ad tertium vero nego antecedens, quia nec actus deliberandi, nec actus cogitandi, nec
+					aliquis alius libere producitur ab intellectu nostro. Et ad probationem quando dicitur
+					quod, si actus deliberandi non esset in potestate nostra, non caderet sub precepto, dico
+					quod actus deliberandi est in potestate nostra, non quia libere producatur ab intellectu
+					nostro, sed quia actus intellectus, sicut et actus aliarum potentiarum est in potestate
+					voluntatis dicente <name>Anselmo</name>, ut allegatum est supra, quod “ipsa movet nos,
+					velut instrumenta sua, et facit opera que videmur facere; nec nos possumus illi per nos
+					resistere”. Et hoc sufficit ad hoc quod talis actus cadat sub precepto, unde, si ista
+					deductio sit bona, sequitur quod visus sit potentia libera sicut voluntas, quia actus
+					videndi est in potestate nostra quod nullus diceret et per hoc patet quid dicendum ad
+					illud quod agitur de actu cogitandi.</p>
+					</div>
+					<div>
+						<head>Contra quartam conclusionem</head>
+
+				<p><note><name>Sanctus Thomas</name> parte prima, questione 82, articulo 3</note>
+					Contra quartam conclusionem est opinio <name>Sancti Thome</name> que potest ad tria
+					puncta principalia reduci.
+					Primus punctus est quod eminentia alicuius ad alterum potest accipi dupliciter. Uno modo
+					simpliciter, alio modo secundum quid. Considerat enim tale simpliciter, prout est secundum
+					se tale, secundum quid autem prout dicitur tale per respectum ad alterum. </p>
+				<p>Secundus punctus est quod, si intellectus et voluntas considerentur secundum se et
+					simpliciter, sic intellectus est eminentior voluntate. Ratio huius est, quia illa potentia
+					est simpliciter nobilior cuius obiectum est simplicius et magis absolutum, sed obiectum
+					intellectus est simplicius et abstractius quam sit obiectum voluntatis; ergo. Probatur
+					minor, quia illud quod est in anima habet esse simplicius et magis absolutum quam illud
+					quod est in re extra, sed verum quod est obiectum intellectus est in anima bonum quod est
+					obiectum voluntatis est in re extra; igitur etc. </p>
+				<p>Tertius punctus est quod, si intellectus et voluntas considerentur secundum quid et per
+					comparationem ad alterum, voluntas invenitur interdum altior intellectu ex eo, scilicet
+					quod obiectum voluntatis in altiori re invenitur quam obiectum intellectus, sicut, si
+					diceremus auditum esse secundum quid nobiliorem visu, inquantum res cuius est sonus
+					nobilior, est aliqua re cuius est color quamvis color sit nobilior et simplicior sono. Et
+					declarat iste doctor respectu quorum voluntas dicitur nobilior intellectu et econtra.
+					Dicit enim quod actio intellectus consistit in hoc quod ratio rei intellecte est in
+					intelligente. Actus vero voluntatis perficitur in hoc quod voluntas inclinatur ad ipsam
+					rem prout est in se. Et ideo <name>Philosophus</name> dicit VI <title>Metaphysice</title>:
+					“bonum et malum que sunt obiecta voluntatis sunt in rebus”. Verum autem et falsum que sunt
+					obiecta intellectus sunt in mente quando igitur res in qua est bonum, est nobilior anima
+					in qua est ratio intellectiva; per comparationem ad talem rem, voluntas est altior
+					intellectu quando vero res in qua 
+					
+					<pb ed="#V" n="78-r"/>
+					<cb ed="#V" n="b"/> 
+					
+					est bonum est infra animam. Tunc est etiam per
+					comparationem ad talem rem intellectus altior voluntate. Et subdit iste doctor immediate,
+					unde melior est amor Dei quam cognitio. Econtrario autem melior est cognitio rerum
+					corporalium quam amor.</p>
+						<p>Contra <name>Sanctum Thomam</name></p>
+
+				<p>Ista tamen opinio non videtur mihi rationalis, immo videtur semper salva reverentia
+					ponentis implicare contradictionem, sicut aliqualiter tangebatur deducendo conclusionem,
+					quia illa potentia est simpliciter nobilior cuius actus est simpliciter nobilior
+					nobilissimo actu alterius, sed actus voluntatis est huiusmodi secundum istum doctorem,
+					quia amor Dei est simpliciter nobilior cognitione eiusdem, ut dicit et constat quod
+					cognitio Dei est actus nobilissimus intellectus; ergo etc.</p>
+				<p>Preterea, illa potentia est simpliciter nobilior cuius obiectum est simplicius et
+					nobilius. Hec est sua, sed voluntas est huiusmodi; ergo. Minorem probo per eum, quia
+					secundum eum Deus est obiectum voluntatis secundum esse quod habet in se ipso. Obiectum
+					vero intellectus secundum esse quod habet in anima, sed constat quod Deus habet esse
+					nobilius et simplicius prout est in se quam prout est in anima; igitur etc.</p>
+				<p>Preterea, illa potentia est simpliciter nobilior que per comparationem ad Deum est
+					nobilior, sed voluntas per comparationem ad Deum est nobilior intellectu; ergo. Minor est
+					sua et maior videtur ex terminis nota, quia nobilitas que competit rei per comparationem
+					ad Deum qui est summum bonum est nobilitas simplicter et non solum secundum quid, sicut
+					iste doctor imaginatur. Et confirmatur, quia voluntas secundum quod pertinet ad imaginem
+					est nobilior intellectu, igitur simpliciter est nobilior ipso. Consequentia patet, quia
+					creatura rationalis est imago Dei eo quo nihil melius habet; et antecedens deduco ex
+					dictis suis, quia intellectus et voluntas, secundum <name>beatum Augustinum</name>,
+					pertinent ad imaginem ut comparantur ad Deum. Creatura namquam rationalis est imago Dei,
+					quia capax eius est et particeps esse potest, ut patet ex supradictis, igitur, si voluntas
+					est nobilior intellectu ut comparatur ad Deum, sequitur quod sit nobilior ipso ut
+					comparatur ad imaginem; ergo etc.</p>
+				<p>Preterea, dicere quod obiectum voluntatis in Deo sit nobilius obiecto intellectus et quod
+					obiectum intellectus sit nobilius obiecto voluntatis est expressa contradictio, quia nihil
+					aliud a Deo potest dari in quo obiectum intellectus sit nobilius, nec eque nobile. Et ex
+					hoc apparet quod non est ad propositum illud quod deducitur de auditu et visu, quia, licet
+					aliqua res cuius est sonus sit nobilior aliqua re cuius est color, sonus tamen non est
+					nobilior colore. In proposito vero non solum res in qua est obiectum voluntatis, sed ipsum
+					obiectum in Deo est nobilius obiecto intellectus ubicumque reperiatur secundum eum. Et
+					potest ex dictis formari una ratio: talis nobilissimum obiectum voluntatis est nobilius
+					nobilissimo obiecto intellectus, igitur obiectum voluntatis est simpliciter nobilius
+					obiecto intellectus. Antecedens patet ex dictis suis et consequentia est bona; igitur
+					etc.</p>
+
+				<p>Responsio ad rationes <name>Sancti Thome</name></p>
+
+				<p>Nec ratio istius doctoris concludit propter multa. </p>
+				<p>Primo, quia non est verum quod obiectum intellectus sit simplicius obiecto voluntatis,
+					immo oppositum patet per eum, quia Deus est simplicior secundum esse quod habet in se ipso
+					quam secundum esse quod habet in intellectu nostro, et tamen primo modo est obiectum
+					voluntatis etc, ut dictum est supra.</p>
+				<p>Secundo, quia non verum est quod res intellecta non sit obiectum intellectus secundum
+					esse quod habet in se, sed secundum esse quod habet in mente, sicut illa ratio
+					presupponit, aliter Deus in patria non esset obiectum beatificans intellectum secundum
+					esse reale quod habet in se, sed secundum esse quod habet in mente, quod non est catholice
+					dictum. </p>
+						<p>Tertio, quia verum quod est obiectum intellectus non est in anima, sed in 
+							
+							<pb ed="#V" n="78-v"/>
+							<cb ed="#V" n="a"/> 
+							
+							re cuius
+					oppositum imaginatur iste doctor. Assumptum patet, quia verum quod est obiectum
+					intellectus est verum quod convertitur cum ente, sicut bonum quod est obiectum voluntatis
+					est bonum quod convertitur cum ente et constat quod verum sic sumpta est in re sicut ens
+					et bonum; nec auctoritas <name>Philosophi</name> qua dicitur quod verum et falsum sunt in
+					anima est ad propositum, quia <name>Philosophus</name> loquitur de vero complexo, non de
+					vero incomplexo quod cum ente convertitur. Tale enim est in re, aliter non converteretur
+					cum ente.</p>
+				<p>Hac igitur opinione dimissa contra conclusionem in se que a pluribus non tenetur arguitur
+					communiter primo sic: potentia formaliter cognoscens est simpliciter nobilior potentia non
+					cognoscente, sed intellectus est formaliter cognoscens, voluntas autem non; ergo. Minor
+					supponitur. Maior probatur primo, quia formaliter cognoscere dicit perfectionem
+					simpliciter. Secundo, quia potentia non cognitiva est ceca. Ista ratio confirmatur per
+						<name>Aristotelem</name> I <title>Politice</title>, capitulo 2, ubi dicit quod
+					“intellectus principatur appetitui, quia intellectus est sciens”. Appetitus autem non,
+					quod non solum verificatur de appetitu sensitivo, sed etiam intellectivo; ergo etc.</p>
+				<p>Preterea, et est quasi confirmatio precedentis rationis, nobilius est illud quod est
+					rationale per essentiam quam illud quod est rationale per participationem. Hoc patet, quia
+					homo ideo excedit, quia est rationalis, sed intellectus est rationalis per essentiam,
+					voluntas vero per participationem, ut patet per <name>Aristotelem</name> I
+						<title>Ethicorum</title>; ergo etc.</p>
+				<p>Preterea, potentia equalis immaterialitatis cum alia subiective et maioris attractionis
+					obiective et maioris perfectionis entitative est simpliciter nobilior; intellectus
+					respectu voluntatis est huiusmodi; ergo. Minor quantum ad primam partem patet, quantum ad
+					duas ultimas probatur, quia illa potentia que per suum actum transiens super obiectum non
+					vilificatur, nec inficitur ex aliqua infectione obiecti est abstractior et perfectior
+					entitative quam que ex tali infectione vilificatur et inficitur. Hoc patet, quia
+					vilificari et infici dicunt imperfectionem, sed intellectus respectum voluntatis est
+					huiusmodi, ut patet, quia scire malum non est malum. Velle autem malum, malum est et
+					peccatum; ergo etc.</p>
+				<p>Preterea, illa potentia est nobilior cuius obiectum est nobilius, sed obiectum
+					intellectus est nobilius obiecto voluntatis; ergo. Probatur minor, quia obiectum adequatum
+					intellectus est ens. Ens autem est nobilius bono, quod est obiectum voluntatis, quia ens
+					est subiectum respectu boni et subiectum est perfectius passione eodem modo quo
+					distinguitur ab ipsa. Si secundum rem, secundum rem. Si secundum rationem, secundum
+					rationem; ergo etc.</p>
+				<p>Preterea, intellectus est simpliciter nobilior actu voluntatis, ergo intellectus
+					voluntate. Consequentia est nota. Antecedens probatur primo, quia actus voluntatis est
+					propter actum intellectus, igitur actus intellectus est simpliciter nobilior. Consequens
+					est nota et antecedens probatur. Primo, quia actus appetitus sensitivi est propter actum
+					ipsius sensus, igitur actus appetitus intellectui est propter actum intellectus. Secundo,
+					quia, si pessimum est peius pessimo in aliquo genere et illud simpliciter est peius, sed
+					pessimus actus voluntatis qui est odire Deum est peior pessimo actu intellectus qui est
+					infidelitas, igitur actus voluntatis simpliciter est peior actu intellectus, et per
+					consequens actus intellectus simpliciter est nobilior actu voluntatis. Et confirmatur ista
+					ratio aliquibus auctoritatibus. Primo auctoritate <name>Commentatoris</name> X
+						<title>Ethicorum</title>, commentis 26 et 18, dicens quod “intellectus principatur”.
+					Secundo auctoritate <name>beati Augustini</name> XV De <title>Trinitate</title>, capitulo
+					14, ubi dicit quod “mens sive intellectus excedit in anima et multe consimiles
+					inveniuntur”; ergo etc.</p>
+				<p>Istis tamen et similibus non obstantibus videtur mihi quod quilibet catholicus habet
+					tenere quicquid sit de philosophis quod voluntas sit nobilior, tum quia nobilius est amare
+					Deum quam cognoscere ipsum, tum quia caritas est nobilior omni habitu intellectus, sicut
+					dicebatur superius.</p>
+						<p>Ad primum igitur istorum nego
+							
+							<pb ed="#V" n="78-v"/>
+							<cb ed="#V" n="b"/>
+							
+							maiorem. Si potentia que est formaliter cognoscens
+					sit formaliter diligens, sicut est in proposito, ratio huius est, quia in creaturis
+					diligere est simpliciter nobilius quam cognoscere, cum nobilius sit diligere Deum quam
+					cognoscere ipsum, ut dictum est pluries. Et ad primam probationem dico quod, sicut
+					formaliter cognoscere dicit perfectionem simpliciter, ita et diligere et. si iste due
+					perfectiones comparentur ad invicem, patet quod dilectio excedit cognitionem. </p>
+				<p>Ad secundam vero dico quod improprie voluntas dicitur potentia ceca, cum cecitas non sit
+					nisi absentia visus, ubi debet esse cognitio et in voluntate non debet esse cognitio.
+					Vocando tamen potentiam cecam potentiam non cognitivam, concedo quod voluntas est potentia
+					ceca, id est non cognitiva, sed ex hoc non sequitur quod sit inferior, quia, si non sit
+					cognitiva, est tamen dilectiva et diligere est simpliciter nobilius quam cognoscere. Et
+					potest reduci ratio ad oppositum arguendo sic: potentia formaliter diligens est
+					simpliciter nobilior potentia non diligente. Hoc patet per primam probationem eorum, quia
+					diligere dicit perfectionem simpliciter, sed voluntas est formaliter diligens. Intellectus
+					autem non, ergo vel sic: potentia diligens formaliter et non cognoscens est simpliciter
+					nobilior potentia formaliter cognoscente et non diligente. Hoc patet, quia diligere est
+					simpliciter nobilius quod cognoscere, sed sic est in proposito; ergo etc.</p>
+				<p>Et ad confirmationem dico: quia dupliciter una res potest intelligi nobilior alia,
+					scilicet simpliciter et secundum quid, simpliciter quidem, quia eius perfectio est
+					simpliciter nobilior perfectione alterius, et sic homo est nobilior equo, secundum qui
+					autem, quia habet aliquam perfectionem quam non habet alia, et sic equus est perfectior
+					homine. Et isto secundo modo intendit <name>Aristoteles</name>, quia intellectus
+					principatur appetitui, quia intellectus est sciens. Appetitus autem non, sed ex hoc non
+					sequitur quod sit simpliciter nobilior, ut patet ex dictis.</p>
+				<p>Ad secundum dico quod rationale potest accipi dupliciter, scilicet pro natura et pro
+					potentia. Primo modo, maior est vera, sed non est ad propositum, quia intellectus et
+					voluntas in natura rationali creata non sunt realiter ipsius essentia vel natura. Secundo
+					modo, maior est falsa, quia potentia volitiva est simpliciter nobilior, cum velle sit
+					simpliciter nobilius quam intelligere, ut declaratum est supra.</p>
+				<p>Ad tertium nego minorem quoad ultimas eius duas partes. Et ad probationem dico quod
+					aliquid vilificari et infici ex infectione obeicti potest intelligi dupliciter, quia vel
+					infectione culpe vel infectione nature. Et concedo quod illa potentia que ex infectione
+					obiecti non inficitur infectione nature est perfectior etc. Illa tamen que non inficitur
+					infectione culpe non oportet quod sit perfectior, quia, sicut non inficitur infectione
+					culpe ex infectione obiecti, ita non perficitur perfectione meriti ex perfectione ipsius;
+					et sic est in proposito, quia sicut scire malum non est malum mortaliter, ita scire bonum
+					non est bonum moraliter. Et potest reduci ratio ad oppositum arguendo sic: illa potentia
+					que per suum actum transiens super obiectum perficitur ex perfectione obiecti est
+					simpliciter nobilior illa que ex tali perfectione non perficitur. Hec est vera. Si maior
+					illa sit vera et sic est in proposito, quia, licet scire bonum non sit bonum moraliter,
+					velle autem bonum sit; ergo etc.</p>
+				<p>Ad quartum etiam nego minorem, quia obiectum voluntatis est bonum et nihil potest esse
+					nobilius bono ut bonum, quia bonum et finis idem et ratio finis optima. Et ad probationem
+					dico quod ubi passio non distinguitur realiter a subiecto, non oportet quod subiectum sit
+					nobilius nec secundum rem, nec secundum rationem. Et ulterius nobilitas secundum rationem
+					nihil facit ad propositum, quia nos loquimur de nobilitate que est in re.</p>
+				<p>Ad quintum nego antecedens. Et ad primam partem dico quod actus voluntatis non est
+					propter actum intellectus tanquam propter finem, sed potius econverso, ut patet per
+						<name>Anselmum</name> II <title>Cur Deus homo</title>, capitulo 1, ubi dicit quod
+					“rationalis creatura adhuc accipit potestatem discernendi inter bonum et malum, ut odiret
+					et evitaret malum et
+					
+					<pb ed="#V" n="79-r"/>
+					<cb ed="#V" n="a"/> 
+					
+					eligeret bonum”. Nec probatio valet, tum quia idem dicerem de
+					appetitu sensitivo, tum quia non est simile de appetitu sensitivo et intellectivo, cum
+					solus actus appetitus intellectivi sit meritorius per se.</p>
+				<p>Ad secundam vero potest uno modo dici quod est ad oppositum, quia eo ipso quod actus
+					voluntatis est pessimus sicut odire Deum, sequitur quod actus voluntatis qui opponitur
+					isti puta diligere Deum est nobilissimus, quia pessimum, secundum
+					<name>Aristotelem</name>, est contrarium optimo. Secundo potest dici quod actus voluntatis
+					non est pessimus perioritate nature, sed culpe, sed ex hoc magis concluditur oppositum
+					quam propositum, ut patet ex supradictis.</p>
+				<p>Ad auctoritates simul dico quod <name>beatus Augustinus</name> et
+						<name>Commentator</name> intelligunt quod intellectus principaliter excellit secundum
+					quid, quia inquantum est sciens vel cognoscens, non autem simpliciter.</p>
+					</div>
+				</div>
+					<div>
+
+				<head>Ad rationes principales</head>
+
+				<p>Ad primam patet ex prima conclusione quod minor est falsa. Et ad auctoritate <name>beati
+						Augustini</name> responsum fuit in corpore questionis. </p>
+				<p>Ad secundam, licet concludat verum, patet ex quarta conclusione quod antecedens est
+					falsum si subintelligitur simpliciter. Nec probatio valet, quia non est verum quod virtus
+					cogitativa sit simpliciter nobilior virtute non cognitiva, ut declaratum est supra. Et hoc
+					de prima questione. </p>
+					</div>
+
+			</div>
+		</body>
+	</text>
+</TEI>

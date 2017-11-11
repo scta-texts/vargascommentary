@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Liber I, distinctiones 35, 36, 37, quaestio unica</title>
+                <author>Alphonsus Toletanus Vargas</author>
+                <editor>Luciana Cioca</editor>
+                <respStmt>
+                    <name>Jeffrey C. Witt</name>
+                    <name>Luciana Cioca</name>
+                    <resp>TEI Encoder</resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.0.0-dev">
+                    <date when="2017-11-11">November 2017</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <authority>
+                    <ref target="http://www.thesis-project.ro/">ERC-THESIS project n° 313339</ref>
+                </authority>
+                <availability status="free">
+                    <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref></p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="V" n="Venice1490">Venice1490</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+            <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"> </schemaRef>
+            <editorialDecl>
+                <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+                    guidelines for a critical edition</p>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc status="draft">
+            <listChange>
+                <change when="2017-11-11" who="#LC" status="draft" n="0.0.0">
+                    <p>Created file for the first time.</p>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="la">
+        <front>
+            <div xml:id="includeList">
+            </div>
+            <div xml:id="starts-on">
+                <pb ed="#V" n="150-v"/>
+                <cb ed="#V" n="b"/>
+            </div>
+        </front>
+        <body>
+            <div xml:id="atv-l1d35per37"> 
+                <head>Liber I, distinctiones 35, 36, 37, quaestio unica</head>
+                <p>Cum supra discernerimus, circa distinctionem istam 35 et duas sequentes in quibus <name>Magister</name> principaliter agit de scientia Dei secundum se et de existentia sui in rebus scitis, quero primo: utrum Deus cognoscat aliquid extra se. </p>
+                <p>Et videtur primo quod sic, quia quicquid potest virtus inferior et limitata, potest virtus superior et illimitata. Patet de se, sed potentia cognitiva creature potest aliquid extra se cognoscere; ergo multo magis potentia cognitiva Dei, cum sit superior et illimitata. </p>
+                <p>Contra est <name>Philosophus</name> XII <title>Metaphysice</title> et <name>Commentator</name>, commento 51 super illo capitulo sententia patrum, ubi voluit expresse Deum nihil cognoscere extra, quia, si sic, intellectus eius vilesceret, quod est impossibile.</p>
+                <p>In ista questione primo ponam tituli expositionem, secundo conclusiones. Tertio movebo dubia. Quarto respondebo.</p>
+                
+                <div type="articulus">
+                    <head>Primus articulus</head>
+                    <p>Quantum ad primum est advertendum quod ista questio potest habere duplicem sensum secundum quod ly ‘extra’ potest ad duo comparari. Primo, ad divinam cognitionem, et tunc est sensus utrum Deus cognoscat aliquid extra se sic, scilicet quod eius cognitio terminetur ad res extra ipsum existentes. Potest etiam comparari ad ly ‘se’ et tunc est sensus utrum Deus cognoscat aliquid eorum que sunt extra ipsum sive aliquid quod non est ipse vel tantum se ipsum cognoscat sic quod omnia que non sunt ipse totaliter ignoret. Et in utroque sensu intelligo questionem. Et hoc de primo articulo.</p>
+                </div>
+                
+                <div type="articulus">
+                    <head>Secundus articulus</head>
+                    <p>Quantum ad secundum. </p>
+                    
+                    <div>
+                        <head><supplied>Conclusio prima</supplied></head>
+                        <p>Prima conclusio est quod Deus ab eterno cognovit omnem creaturam possibilem ab ipso produci. Ista conclusio non est catholicis dubia, quia constat ipsum nunc cognoscere omnem creaturam quam produxit et potest producere, cum sit agens per intellectum et voluntatem et nulli catholicorum est dubium quin ab eterno cognovit omnem creaturam quam nunc cognoscit, cum nullam incipiat de novo cognoscere, etc. </p>
+                    </div>
+                    
+                    <div>
+                        <head><supplied>Conclusio secunda</supplied></head>
+                        <p>Secunda conclusio est quod Deus ab eterno non cognovit aliquam creaturam extra se terminative sic quod eius cognitio terminetur ad creaturam. </p>
+                        <p>Probatur sic: nulla creatura fuit ab eterno, ergo Deus ab eterno non cognovit aliquam extra se terminative. Antecedens supponitur. Consequentia probatur, quia bene sequitur creatura non fuit ab eterno, ergo Deus non cognovit aliquam extra se terminative. Antecedens supponitur. Consequentia probatur ab eterno non terminabatur ad creaturam. Hec est expressa sententia <name>beati Augustini</name> <title>Super Genesim ad Litteram</title>, capitulo 5, ubi inquirens ubi Deus cernebat creaturas antequam producerentur sic inquit: neque enim extra ipsum cernebat sicut cernimus oculo corporali que utique nondum erant cum disponerentur ut fierent. Hec <name>Augustinus</name>. Ubi expresse ponit conclusionem cum sua deductione, ut patet.</p>
+                    </div>
+                    
+                    <div>
+                        <head><supplied>Conclusio tertia</supplied></head>
+                        <p>Tertia conclusio est quod Deus ab eterno cognovit in se ipso omnem creaturam possibilem produci ab 
+                            <pb ed="#V" n="151-r"/>
+                            <cb ed="#V" n="a"/> 
+                            ipso. </p>
+                        <p>Probatur sic: Deus ab eterno cognovit omnem creaturam possibilem produci ab ipso et nullam extra se, igitur omnem in se. Consequentia nota et antecedens quoad primam partem patet ex prima conclusione et quoad secundam partem ex secunda.</p>
+                    </div>
+                    
+                    <div>
+                        <head><supplied>Conclusio quarta</supplied></head>
+                        <p>Quarta conclusio est quod videtur posse rationabiliter sustineri quod Deus in tempore non cognovit, nec cognoscit aliquam creaturam extra se terminative, sed omnem tam existentem quam possibilem cognovit in se ipso precise. Istam conclusionem quidam doctor multipliciter deducit.</p>
+                        
+                        <div>
+                            <head><name>Aureolus</name> in I, distinctione 35, questione 2, articulo 1</head>
+                            <p>Primo sic: impossibile est aliquid quod est perfectionis in Deo dependere a non Deo, quia bonorum nostrorum non indiget, sed, si intellectio divina terminaretur ad creaturas positas in esse prospecto, illa intellectio, cum sit quedam Dei perfectio, dependeret a non Deo, quia ab ipsis creaturis positis in tali esse. Impossibile est enim intellectionem terminatam ad aliquod obiectum manere sine illo obiecto, igitur nulla intellectio est in Deo que terminetur ad creaturas positas in esse prospecto aut ad aliquid aliud a Deo. Confirmatur, quia omnis prefectio que est in Deo esset eque in eo. Si tolleretur esse creature, cum igitur intellectio, si qua sit in Deo terminetur ad creaturas, non maneret eque in Deo si tolleretur esse creature, quia manifeste patet quod nulla talis est in Deo.</p>
+                            <p>Preterea, ad principale sic: impossibile est divisionem continui totaliter evacuari. Aut enim staret ad aliqua indivisibilia, quod esse non potest, quia tunc continuum ex eisdem indivisibilibus componeretur cum unumquodque resolvatur in illa ex quibus componitur, aut staret in aliqua divisibilia, et per consequens iam non staret, quia illa adhuc dividi possent, sed manifestum est quod, si divinus intuitus aliquid extra se attingeret obiective ponendo illud inesse prospecto, de necessitate divisio continui esset evacuata in eius intuitu et prospecto. Aut enim tantummodo ponerentur in ipsius intuitu omnes partes continui divise et distincte, ita ut non relinquatur ulterior distinctio, et sic habetur propositum quod distinctio continui esset evacuata, aut ponerentur tantum alique partes sub certo numero quarum quelibet esset ulterior divisibilis, quod esse non potest, quia tunc divinus intuitus esset in potentia et posset aliquid sibi accrescere dividendo, scilicet unamquamque partium illarum quinimmo posset sic dividendo procedere in infinitum, sicut et noster intellectus, ergo impossibile est quod aliquid aliud a Deo ponatur in eius intuitu vel prospectu in actu qua ratione namque aliquid poneretur omnis partes continui ponerentur. Confirmatur, quia, si dicimus intelligendo lineam aut dividendo eam in partes, tunc quamlibet distinctionem poneret in prospectu, oporteret dare unum de tribus, aut quod in ipsius prospectu essent partes indivisibiles ex quibus linea componeretur et in quas per divinum intuitum scinderetur, aut quod essent partes divisibiles, et sic divino intuitu aliquid accrescere posset, aut quod solum modo totalitas continui esset actu in ipsius prospectu. Partes vero impotentia reducibili successive ad actum reductione que nunquam cessaret, sicut accidit in nostro intellectu, et hoc totum impossibile est quare necesse est quod sic continuum et eius partes inteliigantur a Deo, quod tamen in eius intuitu non ponantur. </p>
+                            <p>Tertio ad principale sic: si res extrinsece a Deo quas intelligit ponerentur in eius intuitu vel prospectu, sequitur quod in divino intuitu esset obiective magnitudo quedam actualiter infinita. Principium namque mathematicum est quod magnitudo crescit in infinitum et cuilibet date magnitudini potest fieri additio, unde <name>Commentator</name> III <title>Physicorum</title>, commento 61, ait quod propositio geometrica dicens quod possibile est imaginari ad omnem lineam maiorem illa est vera. Naturalis vero dicens quod linea potest esse infinita est falsa, cum igitur divinus intellectus plus possit quam humanus. Noster autem possit ad datam magnitudinem superaddere, necesse est quod etiam divinus intellectus 
+                                <pb ed="#V" n="151-r"/>
+                                <cb ed="#V" n="b"/>  
+                                hoc possit aut igitur procederet continue successive, quod esse non potest ne sit imperfectus et in potentia, sicut et noster aut stat in aliqua magnitudine finita et tunc non stat, quia ad omne finitum potest intelligi fieri additio stabit in magnitudine infinita obiecta suo prospectui cui impossibilis est additio fieri, aut stabit in fieri, et sic habetur propositum. Sed manifestum est quod omnino est impossibile esse infinitam magnitudinem in divino prospectu, quia qua ratione ibi poneretur, eadem ratione a Deo posset produci in effectum, quod est impossibile.</p>
+                            <p>Quarto sic: si res alie a Deo cum intelliguntur ab eo ponerentur in divino intuitu obiective, sequeretur quod omnes species numerorum essent in actu posite in eius intuitu et prospectu. Intelligit enim Deus omnes numeros cum sapientie eius non sit numerus. Sed manifestum est quod processus numerorum in infinitum esse evacuatos et exivisse ad actum et in divino prospectu impossibile est, quia aut sistitur in numero finito, et sic ille in potentia, ut sic radix cubiti et quadrati, et per consequens quadratus eius aut cubicus aut duplus possibilis est, aut sistitur in numero infinito et hec contradictio est cum numerus non sit aliquid nisi totalitas quedam et inclusio multitudinis, unde idem est esse numeratum et esse tot vel tot quod evidenter clausionem et finitionem includit, et per consequens forma numeri et infinitas contradicunt, igitur impossibile est quod numeri qui a Dei intelliguntur sint positi in eius prospectu.</p>
+                            <p>Quinto sic: si verum sit dictum quorumdam ponentium quod in perfectionibus specificis potest procedi in infinitum ita quod species una potest fieri nobilior alia et alia nobilior illa, et sic in infinitum, similiter etiam infra eandem speciem potest fieri in infinitum intensio secundum eos, unde caritas potest augeri in infinitum. Si ergo hoc sit verum, aut tota illa multitudo nobilium specierum et individuorum esset in divino intuitu actualiter, aut non actualiter, sed sub quodam processu, aut nullo modo. Sed manifestum est quod non potest dici primo modo, quia tunc divinus intuitus haberet in suo processu creaturam aliquam infinitam distantem a specie prima in infinitum sive a individuo primo. Aut enim intuetur quamlibet distantem modo finito a specie vel individuo, et sic non esset possibilis processus in infinitum in speciebus et individuis. Cuius oppositum isti dicerent aut intuetur aliquam distantem in infinitum in nobilitate etiam perfectione, et per consequens illa esset in infinitum nobilis et perfecta, quod impossibile est. Nec potest etiam dici secundum, quia quod scilicet sit tota illa multitudo in divino intuitu sub quedam succesione et processu, quia tunc esset possibilis et imperfectus, quare relinquitur quod nullo modo.</p>
+                        </div>
+                        
+                        <div>
+                            <head>Contra <name>Aureolum</name></head>
+                            <p>Sed, licet conclusionem credam esse veram, rationes tamen istas non reputo concludere. Non quidem primam que tamen melior est inter ceteras, quia tenentes conclusionem oppositam negarent minorem et ad probationem quando dicitur quod impossibile est intellectionem terminatam ad aliquod obiectum manere sine illo obiecto. Istud est falsum, quia Deus potest intellectionem que nunc terminatur ad aliquod conservare in intellectu sine illo obiecto, quicquid sit naturaliter, et hinc est quod eadem intellectio numero non variata in aliquo absoluto que nunc est intuitiva potest fieri abstractiva vel superintuitiva et econverso, prout est in prima questione huius operis, articulo primo fuit declaratum et hoc iste doctor omnino habet concedere, quia in Prologo I, questione 2, articulo 3, ipso probat quod notitia intuitiva potest haberi sine actuali presentia obiecti, quia Deus potest absolutum intuitive notitie sive termino conservare. Et ideo, quantum ad hoc in dictis suis videtur aliqualis repugnantia et contradictio, dicerent ergo tenentes conclusionem oppositam quod illa eadem cognitione qua Deus ab eterno cognovit creaturas solum in se ipso in tempore ipsis productis ad esse cognovit eas extra se terminative et ipsis desinentibus esse non sequitur quod intellectio Dei desinat esse, sed quod Deus pro nunc non cognoscat eas extra se terminative, sed solum in se ipsis sicut prius.</p>
+                            <p>Alias 
+                                <pb ed="#V" n="151-v"/>
+                                <cb ed="#V" n="a"/> 
+                                autem quattuor rationes, ut mihi videtur, nullus catholicus debet reputare sufficientes, quia non solum probant quod Deus non cognoscat creaturas extra se terminative, sed quod nullo modo cognoscat eas nec extra se, nec in se, quod manifestum est catholicis esse falsum. Assumptum autem satis est evidens reducendo rationes. </p>
+                            <p>Reduco igitur primam sic: impossibile est distinctionem continui evacuari, aliter impossibile est Deum cognoscere creaturas aliquo modo. Antecedens est suum. Consequentia patet, quia, si Deus cognosceret creaturas, sive cognosceret eas extra se, sive in se, et de necessitate divisio continui esset evacuata. Si probatio sua sit bona, quia sive cognoscat partes continui extra se, sive in se, dummodo cognoscat eas, aut cognovit omnes partes ipsius divisas et distinctas sic ut non relinquatur ulterius divisio, et tunc habetur propositum, quia divisio continui esset evacuata aut tantum cognovit aliquas partes sub certo numero quarum quelibet ulterius esset divisibilis quod esse non potest per eum, quia tunc divinus intellectus esset in potentia et posset aliquod sibi accrescere dividendo, quod est impossibile.</p>
+                            <p>Similiter etiam potest reduci secunda, quia, si Deus cognoscat creaturas sive extra se, sive in se, adhuc sequeretur per deductionem suam quod in divino prospectu esset obiective magnitudo quedam actualiter infinita, quod est inconveniens ad quod deducit. Deductio patet, quia cum intellectus divinus plus possit quam humanus sive cognoscat creaturas in se, sive extra se et humanus possit ad datam magnitudinem semper addere, necesse est quod intellectus divinus hoc possit aut igitur procedit continue successive quod esse non potest ne sit imperfectus aut stat in aliqua magnitudine terminata. Et tunc non stat aut stat in magnitudine infinita cui impossibilis est fieri additio. Et sic habetur propositum et eodem modo potest fieri reductio tertie et quarte rationum, sed, quia note sunt reductiones, pertranseo.</p>
+                        </div>
+                        
+                        <div>
+                            <head>Respondeo ad rationes</head>
+                            <p>Ad primam simul et tertiam, quia fundantur super eodem fundamento, concedo quod Deus cognoscit omnes partes continui et omnes species numerorum distincte. Ex hoc tamen non sequitur distinctionem continui vel processum numerorum esse evacuatum, quia tunc hoc stat quod Deus cognoscat quamlibet partem continui esse in infinitum divisibile et quocumque numero dato in infinitum posse dari maiorem, sicut patet per <name>beatum Augustinum</name> XII <title>De civitate</title>, capitulo 18, ubi ex intentione pertractans istam materiam sic inquit contra illos qui dicebant Deum non posse infinita cognoscere: illud autem quod dicunt nec Dei scientia infinita posse comprehendi. Restat eis dicere ut audeant, atque se huic voragini profunde impietatis immergant, quod non omnes numeros Deus noverit. Eos quippe infinitos esse certissimum est, quoniam in quocumque numero finem faciendum putaveris, idem ipse non dico uno addito augeri, sed quantumlibet sit magnus et quamlibet ingentem multitudinem continens in ipsa ratione atque scientia numerorum non solum duplicari, verum etiam multiplicari potest. Ita vero suis quisque numerus proprietatibus terminatur, ut nullus earum par esse cuiquam alteri possit, ergo dispares inter se atque diversi sunt et singuli quisque finiti sunt et omnes infiniti sunt et ita neque numeros propter infinitatem nescit omnes Deus, usque ad quandam summam numerorum scientia Dei pervenit, ut ceteros ignorat quis hoc dementius dixit. Et quibusdam interpositis dicit: absit ita que ut dubitemus, quod ei notus sit omnis numerus, cuius intelligentie, sicut in Psalmis cantatur, non est numerus. Infinitas itaque numeri, quamvis infinitorum numerorum nullus sit numerus, non est incomprehensibilis ei cuius intelligentie non est numerus. Hec <name>Augustinus</name>. Ex quibus apparet quod quocumque numero dato in infinitum potest dari maior et quod Deus cognoscit hoc non obstante omnes species numerorum distincte, quia eius intelligentie non est numerus et sic, sicut est in numeris, sic suo modo est in partibus continui, quia non est maior difficultas hicquam ibi. 
+                                <pb ed="#V" n="151-v"/>
+                                <cb ed="#V" n="b"/>  </p>
+                        </div>
+                        
+                        <div>
+                            <head><name>Iacobus de Appamis</name> in quadam questione ordinaria</head>
+                            <p>Et hoc est quod quidam doctor noster intendit qui respondens ad istam rationem dicit quod divisionem continui evacuari in prospectu Dei potest intelligi dupliciter. Uno modo, evacuatione excludente omnem particularitatem. Et isto modo divisio continui evacuari non potest, quia quelibet pars in infinitum est divisibilis. Alio modo, evacuatione includente determinatam et quoddamodo finitam numerositatem et isto modo in conceptu Dei diviso continui evacuata est, quia, licet in continuo sint partes infinite cognitio Dei, quia infinita omnes istas comprehendit, et per consequens distincte et determinate cognoscit, et sic quodam ineffabili modo ei sunt finite <name>beato Augustino</name> post verba superius allegata distinctione: quapropter, si quid scientia comprehenditur scientis comprehensione, finitur profecto et omnis infinitas quodam ineffabili modo Deo finita est, quia scientie ipsius incomprehensibilis non est. Isto ergo modo non est inconveniens quod continui diviso evacuetur, quia ex hoc non sequitur continuum componi ex indivisibilibus, licet sequeretur si primo modo evacueretur.</p>
+                            <p>Ad secundam vero et quartam simul potest dupliciter responderi. Primo quidem potest concedi quod de potentia Dei absoluta potest produci magnitudo actu infinita et etiam aliqua creatura in perfectione et nobilitate infinita, nec propter hoc talis creature equipararetur suo creatori, quia adhuc dependeret ab ipso in esse et in conservari, quia nullam perfectionem haberet a se, sed omnem haberet a Deo. Secundo potest dici supposito quod infinitum in actu nullo modo possit productim prout multis videtur, quod Deus plus potest intelligere quam natura creata in effectu exteriori possit pati, et ideo, licet Deus possit intelligere magnitudinem infinitam et creaturam aliquam infinitam et in infinitum distantem a prima specie sive a primo individuo, non sequitur quod magnitudo infinita vel creatura in nobilitate infinita possit actualiter produci non propter impotentiam aliquam ex parte Dei, sed propter repugnantiam ex parte effectus predicti.</p>
+                            <p>Dimissis igitur istis rationis probo conclusionem aliter. </p>
+                            <p>Primo sic: Deus ab eterno non cognoscit aliquam creaturam extra se terminative, igitur nec in tempore. Antecedens patet ex secunda conclusione et consequentia videtur nota, quia cognitio Dei non est variabilis. Hec est sententia <name>beati Augustini</name> <title>Super Genesim ad Litteram</title>, capitulo 7, dicens: creature antequam fierent erant et non erant. Erant in Dei scientia et non in sui natura ac per hoc effectus est dies ille, id est angelus cui utroque modo innotescerent et in verbo et in se ipso illa velut matutina sive diurna cognitione, hac vero velut vespertina. Et subdit immediate: ipsa autem Deo non audeo dicere alio modo innotuisse cum ea fecisset quam illo quo ea noverat, ut faceret apud quem non est transmutatio, nec momenti obumbratio. Hec <name>Augustinus</name>. Et hec deductio <name>beati Augustini</name> multum movet me ad tenendum conclusionem istam, quia in IV libro <title>Super Genesim</title> ipse ostendit quod Deus antequam produceret creaturas non cognoscebat eas extra se, sed solum in se, ut patet ex probatione secunde conclusionis. Et in eodem IV et V ostendit quod angelus ante productionem aliarum creaturarum cognoscebat eas solum in verbo, post productiones earum cognovit eas in verbo et in se ipsis. De Deo vero concludit in V quod non esset ausus dicere quod istis duobus modis cognoscat eas, sed solum quo cognoscit eas antequam essent, scilicet in se ipso. Ratio huius est, quia in Deo non est transmutatio, nec momenti obumbratio. Ex quibus omnibus apparet istam conclusionem esse demente <name>Augustini</name> expressissime.</p>
+                            <p>Secundo ad principalem sic: cognitio qua creatura cognoscitur in verbo est perfectior cognitione qua terminative cognoscitur in se ipsa, igitur Deus omnem creaturam cognoscit in se ipso et nullam in se ipsa, nec per consequens extra se terminative. Consequentia patet, quia cognitio qua Deus cognoscit creaturam est perfectissima. Antecedens vero probatur, quia cognitio matutina est perfectior vespertina, sed cognitio qua creatura cognoscitur in 
+                                <pb ed="#V" n="152-r"/>
+                                <cb ed="#V" n="a"/> 
+                                verbo est matutina et cognitio qua terminative cognoscitur in se ipsa est vespertina; igitur. Hec est sententia <name>Augustini</name> IV <title>Super Genesim ad Litteram</title>, capitulo 5, sic dicens: postquam fecit Deus firmamentum non solum in verbo Dei sicut ante, sed in ipsa eius natura cognoscitur que cognitio quoniam minor est vespere nomine significatur.</p>
+                            <p>Et hoc de secundo.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div type="articulus">
+                    <head>Tertius et quartus articulus</head>
+                    <p>Quantum ad tertium et quartum articulos dimissis primis tribus conclusionibus que catholicis non debent esse dubie. Contra quartam est communis opinio que ponit divinam cognitionem ad creaturas terminari, et per consequens Deum extra se aliquid terminative cognoscere pro qua quidam doctor noster arguit multipliciter. Primo sic:</p>
+                    
+                    <div>
+                        <head><name>Iacobus de Appamis</name> ubi supra</head>
+                        <p>Si Deus non cognosceret aliquid terminative extra se, sequeretur quod nesciret creaturam esse distinctam a se. Consequens est falsum et contra fidem, igitur et antecedens. Consequentia probatur sic: illa potentia que solum est cognitiva esse sui et esse indistincti a se non cognoscit aliquod indistinctum esse distinctum a se. Oppositum predicati infert oppositum subiecti, quia, si cognoscit aliquid distinctum extra se, iam non solum est cognitiva esse sui et esse indistincti a se, sed, si Deus non cognoscat aliquod extra se, sed quicquid cognoscit, cognoscit in se, eius potentia cognitiva solum esset cognitiva esse sui et esse indistincti a se, cum nil sit in Deo, quod sit distinctum ab eo saltem realiter, ut nunc loquimur, igitur, si Deus non cognoscit aliquid extra se, non cognoscit aliquid distinctum a se. </p>
+                        <p>Secundo sic: potentie equalis ambitus obiective, quarum una in sua operatione presupponit aliam, ad quicquid se extendit potentia presupponens et presupposita. Patet ex terminis, sed intellectus divinus et sua voluntas sunt potentie equalis ambitus obiective non est dubium et voluntas presupponit intellectum cum nil sit volitum nisi cognitum, igitur ad quicquid se extendit Dei voluntas et Dei intellectus. Sed constat quod Dei voluntas vult aliquid extra se, quia vult me esse extra se non in se; igitur intellectus divinus necessario cognoscit aliud extra se et non in se. </p>
+                        <p>Tertio sic: cognoscens aliqua in aliquo invariabili ut invariabile non potest aliquid variabile cognoscere ut variabile, et hoc patet ex terminis, sed constat quod essentia divina est omnino invariabilis, creatura autem est variabilis; igitur nunquam in essentia divina potest cognosci creatura ut variabilis est. Et per consequens in essentia divina non potest cognosci creatura ut creatura est, quia sic est variabilis. </p>
+                        <p>Quarto sic: omne agens per intellectus eo modo quo agit eo modo cognoscit. Hoc patet, quia propter hoc dicitur agens per intellectum, quia sic agit sicut cognoscit, sed Deus est agens per intellectum et constat quod agit aliquid extra se, ergo necessario cognoscit aliquid extra se. </p>
+                        <p>Confirmatur ista ratio, quia; sicut se habet potentia Dei productiva ad producendum, ita potentia Dei cognitiva ad cognoscendum. Illa videtur nota a simili per locum, sed potentia Dei productiva de facto aliquid producit extra se, igitur potentia eius cognitiva de facto aliquid cognoscit extra se.</p>
+                        <p>Quinto ad principale sic: si Deus non cognosceret aliquid extra se terminative, sequeretur quod peccatores non haberent aliquam penam propter eorum peccata. Illud consequens est falsum et contra fidem, igitur et antecedens. Consequentia probatur, quia stante supposito Deus cognosceret aliquod peccatum extra se, vel in se. Si extra se, haberetur propositum, videlicet quod aliquid cognoscit extra se. Si dicatur quod in se ipso, hoc non est possibile, quia in Deo nullum est peccatum, sed sequitur Deus non cognoscit peccatum, ergo peccatores non habent aliquam penam propter eorum peccata, cum sit Deo omnino ignota.</p>
+                        <p>Sexto sic: cognitio vere terminatur ad illud quod habet et capit esse cognitum per eam, sicut productio vere terminatur ad illud quod capit esse productum per illam, sed constat quod creatura capit esse cognitum per cognitionem di-
+                            <pb ed="#V" n="152-r"/>
+                            <cb ed="#V" n="b"/>
+                            -vinam; ergo etc.</p>
+                        <p>In istis tamen non obstantibus adhuc videtur mihi dicendum, ut prius, presertim propter deductionem <name>beati Augustini</name> que clarissima est.</p>
+                    </div>
+                    
+                    <div>
+                        <head>Responsio ad rationes <name>Iacobi de Appamis</name></head>
+                        <p>Ad primum igitur nego consequentiam, quia ex hoc non sequitur quod Deus non cognoscat creaturam esse distinctam a se, quia, sicut in se ipso cognoscit creaturam et esse reale creature, sic etiam in ipso cognoscit creaturam secundum suum esse reale distinctam a se et quod istud sit possibile patet, quia Deus ab eterno cognovit creaturam in tempore debere produci, et tunc distingui ab ipso et tamen ab eterno omnia cognovit in se ipso et nil extra se terminative, quia nihil erat extra ipsum. Et ad probationem quando dicitur quod illa potentia que solum est cognitiva sui et esse indistincti a se etc. concessa maiore, nego minorem, quia non sequitur Deus quicquid cognoscit, cognoscit in se, igitur potentia eius cognitiva solum est cognitiva esse sui et esse indistincti a se, quia in se ipso cognoscit se et alia. Nec ex hoc sequitur aliquid esse in Deo quod sit realiter ab eo distinctum. Et potest reduci ratio contra suum auctorem. Per eam etiam probaretur quod Deus ab eterno non cognovit creaturam esse distinguibilem a se, quod tamen est falsum secundum omnes. Deductio patet arguendo sic: Deus ab eterno non cognovit aliquid extra se terminative, ergo ab eterno non cognovit creaturam esse distinguibilem a se. Antecedens patet de se et per primam conclusionem meam. Et consequentia tenet per probationem suam, quia illa potentia que solum est cognitiva sui esse et esse indistincti et esse indistinguibilis a se non cognoscit aliquid esse distinctum, nec distinguibile a se. Hec est ita nota sicut sua, sed, si Deus ab eterno non cognovit aliquid extra se terminative, sed quicquid cognovit, cognovit in se, eius potentia cognitiva solum fuit ab eterno cognita esse sui et esse indistincti et indistinguibilis ab eo per probationem suam, quia, sicut nihil est in Deo quod sit realiter distinctum ab eo, ita nihil est in Deo quod sit realiter ab ipso distinguibile.</p>
+                        <p>Ad secundam concedo conclusionem illius rationis, videlicet quod ad quicquid extendit se divina voluntas et divinus intellectus, quia ad hoc sufficit quod quicquid vult divina voluntas divinus intellectus cognoscat et hoc est verum, sed ex hoc non sequitur quod aliquid cognoscat extra se terminative. Sufficit enim quod omnia cognoscat in se ipso. Et quando dicitur quod divina voluntas vult me esse extra se, non in se, verum est et ita divinus intellectus intelligit me esse extra se et non in se, licet hoc non intelligat extra se terminative, sed in se ipso.</p>
+                        <p>Ad tertiam nego maiorem et ipsam negare habet omnis catholicus, ut mihi videtur, licet assumatur sine probatione, aliter angelus non cognosceret cognitione matutina que est cognitio rei in verbo creaturam esse variabilem, nec per consequens creaturam ut creatura est, quod nullus catholicus debet concedere, nec Deus ab eterno quod horribilius est cognoscere creaturam post sui productionem fore mutabilem et non cognoverit ipsam extra se, sed solum in se ipso, ut superius est ostensum per <name>beatum Augustinum</name>. Concedendum est igitur absolute quod in essentia divina que invariabilis est possit cognosci omnis creatura ut creatura que variabilis est.</p>
+                        <p>Ad quartum concedo quod omne agens per intellectum cognoscit quicquid agit, sed non oportet quantum ad omnia quod eodem modo quo agit eo modo cognoscat, cum actio illa sit operatio transiens. Cognitio vero imanens, unde, si ratio esset bona, probaret Deum cognoscere cognitione nova, quod nullus sane mentis assereret. Assumptum apparet sic arguendo omne agens per intellectum eo modo quo agit eo modo cognoscit, sed Deus est agens per intellectum et constat quod agit actione nova non eterna, quia creatio qua Deus creat creaturam non fuit ab eterno; ergo cognovit cognitione nova et non eterna, et per hoc apparet ad confirmationem, qia non sic se habet potentia cognitiva ad cognoscendum sicut 
+                            <pb ed="#V" n="152-v"/>
+                            <cb ed="#V" n="a"/> 
+                            potentia productiva ad producendum.</p>
+                        <p>Ad quintam nego consequentiam et ad probationem dico quod Deus in se ipso cognoscit perfecte omne peccatum sive sit presens, sive preteritum, sive futurum et quilibet catholicus hoc debet confiteri, quod patet, quia, sicut pluries dictum est, Deus ab eterno nihil cognovit extra se, sed omnia futura cognovit in se, et per consequens ab eterno peccata futura cognovit in se ipso. Et quando dicitur quod in Deo nullum est peccatum, concedo quod Deus non est peccator, sed ex hoc non sequitur quod in se ipso non possit aliorum peccata cognoscere, quia, sicut varietas creaturarum potest in divina essentia representari sine variatione aliqua que formaliter sit in ipsa, sic et aliorum peccata possunt in ipsa representari. Et per consequens cognosci quamvis in ipsa nullum peccatum sit formaliter, unde, si ratio ista aliquid concluderet, probaret Deum ab eterno non cognovisse futura peccata malorum, nec per consequens aliquem ab eterno reprobasse, quia non reprobavit nisi cuius peccata futura cognovit. Assumptum patet, quia peccata futura malorum Deus ab eterno non cognovit extra se, quia ab eterno nil fuit extra eum, nec in se per probationem suam, quia in ipso nullum est peccatum, igitur nullo modo. </p>
+                        <p>Ad sextam nego maiorem, quia Deus ab eterno cognovit creaturas et creature per consequens fuerunt ab eo cognite et tamen divina cognitio ab eterno non terminabatur ad ipsas, quia ab eterno non cernebat eas extra se, sicut cernimus oculis corpora que videmus, ut patet per <name>beatum Augustinum</name> superius allegatum, nec est simile de productione et cognitione, ut dictum est.</p>
+                    </div>
+                    
+                    <div>
+                        <head>Ad argumenta principalia</head>
+                        <p>Ad primum dico quod peccat per fallaciam figure dictionis que mutat rem in modum rei. Concedo namque quod quicquid cognovit creatura, cognoscat creator, sed non oportet quod eo modo quo cognoscit creatura cognoscat creator, ideo non sequitur creatura cognoscit aliquid extra se terminative, igitur et creator et maxime cum cognitio creature sit variabilis, creatoris autem minime.</p>
+                        <p>Ad secundam credo quod intentio <name>Philosophi</name> et <name>Commentatoris</name> fuit quod Deus nil cognoscat extra se terminative, et tunc auctoritas eorum est prome. Si vero intentio eorum fuit, sicut aliquibus videtur, quod non cognoscat aliquid aliud a se, male dixerunt, nec auctoritas eorum est admittenda.</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+

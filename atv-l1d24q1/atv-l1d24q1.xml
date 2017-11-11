@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Liber I, Distinctio 24, Quaestio 1</title>
+				<author>Alphonsus Toletanus Vargas</author>
+				<editor>Luciana Cioca</editor>
+				<respStmt>
+					<name>Jeffrey C. Witt</name>
+					<resp>TEI Encoder</resp>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="0.0.0-dev">
+					<date when="2016-09-15">September 15, 2016</date>
+				</edition>
+			</editionStmt>
+			<publicationStmt>
+				<authority>THESIS project</authority>
+				<availability status="free">
+					<p>Public Domain</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="P" n="Paris1490">Paris1490</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+			<schemaRef n="lbp-critical-1.0.0"
+				target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/1.0/critical.rng"> </schemaRef>
+			<editorialDecl>
+				<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+					guidelines for a critical edition</p>
+			</editorialDecl>
+		</encodingDesc>
+		<revisionDesc status="draft">
+			<listChange>
+				<change when="2016-09-02" who="#JW" status="draft" n="0.0.0">
+					<p>Created file for the first time.</p>
+				</change>
+			</listChange>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:lang="la">
+		<front>
+			<div xml:id="includeList">
+				<xi:include
+					href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+					xpointer="worksCited"/>
+				<xi:include
+					href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+					xpointer="prosopography"/>
+			</div>
+			<div xml:id="starts-on">
+				<pb ed="#P" n=""/>
+				<cb ed="#P" n=""/>
+			</div>
+		</front>
+		<body>
+			<div xml:id="atv-l1d24q1">
+				<head>Liber I, Distinctio 24, Quaestio 1</head>
+
+
+				<p>Sic diligenter inquiri oportet circa distinctionem istam 24 in qua <name>Magister</name>
+					inquirit quid significetur cum dicitur tres persone, quero: utrum trinitas personarum in
+					divinis sit verus numerus. </p>
+				<div type="rationes-principales">
+					<head>Rationes principales</head>
+					<p>Et videtur primo quod non, quia verus numerus est accidens reale, cum sit species
+						quantitatis, ut patet in <title>Predicamentis</title>. Sed trinitas personarum in
+						divinis non est accidens reale, quia in Deo non est realiter accidens, cum sit omnino
+						simplex.</p>
+
+					<p>Contra: quecumque vera trinitas, sicut et quicumque verus ternarius, est species
+						numeri, et per consequens verus numerus, sed trinitas personarum in divinis est vera
+						trinitas; ergo etc.</p>
+				</div>
+				<div>
+					<head>Divisio quaestionis</head>
+					<p>In ista questione primo ponam unius termini declarationem, secundo conclusiones. Tertio
+						movebo dubia. Quarto respondebo.</p>
+				</div>
+				<div type="articulus">
+					<head>Articulus primus</head>
+					<p>Quantum ad primum: terminus declarandus est nu-[132vb]-merus, pro cuius declaratione
+						notandum quod numerus potest accipi dupliciter, stricte scilicet et communiter. Numerus
+						stricte acceptus est multitudo sive pluralitas quantorum seu quantitatum, et numerus sic
+						sumptus est in determinato genere et determinata specie. Est enim species subalterna
+						quantitatis discrete, ut patet in <title>Predicamentis</title>. Numerus vero communiter
+						acceptus est multitudo sive pluralitas entium sive entitatum quecumque sit illa, et
+						numerus sic sumptus non est in aliquo genere determinato, sed est transcendens secundum
+						quod ens dividitur in unum et multa. Primus numerus comparatur ad secundum, sicut
+						inferius ad superius, quia omnis numerus quantorum seu quantitatum est numerus entium
+						seu entitatum, sed non econverso, et de utroque potest intelligi positio etc.</p>
+				</div>
+				<div type="articulus">
+					<head>Secundus articulus</head>
+					<p>Quantum ad secundum. </p>
+					<div>
+						<head><supplied>Conclusio prima</supplied></head>
+
+						<p>Prima conclusio est quod numerus sumptus primo modo solum reperitur in rebus
+							corporalibus seu materialibus. </p>
+
+						<p>Ista conclusio patet, quia numerus sic sumptus non reperitur nisi in rebus habentibus
+							quantitatem, sed sola corporalia seu materialia sunt huiusmodi; ergo etc. </p>
+					</div>
+					<div>
+						<head><supplied>Conclusio secunda</supplied></head>
+
+						<p>Secunda conclusio est quod numerus secundo modo dictus reperitur non solum in rebus
+							materialibus seu corporalibus, sed etiam spiritualibus. Et hoc est evidens, quia
+							ubicumque reperitur vera pluralitas rerum adinvicem distinctarum, ibi reperitur
+							numerus secundo modo, sed talis pluralitas reperitur non solum in rebus corporalibus
+							et materialibus, sed etiam spiritualibus, ut patet; ergo etc. </p>
+
+						<p>Et confirmatur, quia ubicumque est verus ternarius, verus senarius, et sic de ceteris
+							speciebus numeri, ibi est verus numerus primo et secundo modo dictus, sed in rebus
+							spiritualibus est verus ternarius etc., non minus quam in rebus corporalibus et
+							materialibus. Ternarius enim angelorum vel animarum non minus est ternarius quam
+							hominum vel caprarum, et similiter de ceteris speciebus. Numerus igitur in rebus
+							spiritualibus est verus numerus primo vel secundo modo sumptus, sed non primo, ut
+							patet ex conclusione precedenti, ergo secundo.</p>
+					</div>
+					<div>
+						<head>
+							<supplied>Conclusio tertia</supplied>
+						</head>
+
+						<p>Tertia conclusio est quod trinitas personarum in divinis non est numerus primo modo.
+							Et hoc sequitur ex prima, quia numerus sic sumptus non reperitur nisi in rebus
+							corporalibus seu materialibus, sed persone divine non sunt huiusmodi; ergo.
+							Confirmatur, quia omnis talis numerus est vera quantitas, igitur ubi non est
+							quantitas, ibi non est numerus sic sumptus, sed in divinis non est quantitas, ut patet
+							per <name>beatum Augustinum</name> V <title>De Trinitate</title>, capitulo 2; ergo
+							etc.</p>
+
+						<p>Ad istum intellectum loquitur <name>Ambrosius</name> I <title>De Trinitate</title>
+							dicens quod in Deo non est numerus nec est quantitas, et allegatur a
+								<name>Magistro</name> in distinctione precedenti. </p>
+					</div>
+					<div>
+						<head><supplied>Conclusio quarta</supplied></head>
+
+						<p>Quarta conclusio est quod trinitas personarum in divinis est vere numerus sic sumptus
+							secundo modo. Et videtur hec satis clara secundum predicta, tum quia numerus sic
+							sumptus non repugnat spiritualibus rebus, ut patet ex secunda conclusione, tum quia
+							talis trinitas est vera pluralitas rerum adinvicem distinctarum. </p>
+
+						<p>Ad istum intellectum loquitur <name>Damascenus</name> libro III, capitulo 5, dicens
+							quod tres hypostases sancte trinitatis indistanter divise sunt et numerantur. Numerus
+							tamen divisionem vel distantiam, vel decisionem, vel alienationem, vel incisionem non
+							operatur in eis, ut patet. <name>Damascenus</name>, concedit ibi numerum etc. Et hoc
+							de secundo.</p>
+					</div>
+				</div>
+				<div type="articulus">
+					<head>Tertius et quartus articulus</head>
+
+					<p>Quantum ad tertium et quartum articulos contra conclusiones istas sunt diverse
+						opiniones doctorum, sed quia magis sunt vocales quam reales eo quod quidam volunt vocare
+						numerum illud quod aliquando dicunt numerum et disputatio vocalis non est multum utilis
+						ubi constat de rebus supersedeo ad presens. Alibi enim intendo videre que sit ratio
+						formalis numeri et utrum numerus sit vera res extra animam a rebus numeratis realiter
+						distincta. [133ra] </p>
+				</div>
+				<div>
+					<head>Ad argumenta</head>
+
+					<p>Ad rationes principales patet quid dicendum, quia prima probat tertiam conclusionem et
+						secunda probat quartam conclusionem, ut patet ex dictis.</p>
+				</div>
+
+
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Liber I, Distinctio 18, Quaestio 1</title>
+				<author>Alphonsus Toletanus Vargas</author>
+				<editor>Luciana Cioca</editor>
+				<respStmt>
+					<name>Jeffrey C. Witt</name>
+					<resp>TEI Encoder</resp>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="0.0.0-dev">
+					<date when="2016-09-14">September 14, 2016</date>
+				</edition>
+			</editionStmt>
+			<publicationStmt>
+				<authority>THESIS project</authority>
+				<availability status="free">
+					<p>Public Domain</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="P" n="Paris1490">Paris1490</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+			<schemaRef n="lbp-critical-1.0.0"
+				target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/1.0/critical.rng"> </schemaRef>
+			<editorialDecl>
+				<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+					guidelines for a critical edition</p>
+			</editorialDecl>
+		</encodingDesc>
+		<revisionDesc status="draft">
+			<listChange>
+				<change when="2016-09-02" who="#JW" status="draft" n="0.0.0">
+					<p>Created file for the first time.</p>
+				</change>
+			</listChange>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:lang="la">
+		<front>
+			<div xml:id="includeList">
+				<xi:include
+					href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+					xpointer="worksCited"/>
+				<xi:include
+					href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+					xpointer="prosopography"/>
+			</div>
+			<div xml:id="starts-on">
+				<pb ed="#P" n=""/>
+				<cb ed="#P" n=""/>
+			</div>
+		</front>
+		<body>
+			<div xml:id="atv-l1d18q1">
+				<head>Liber I, Distinctio 18, Quaestio 1</head>
+				<p>Preterea, diligenter etc. In hac 18 distinctione <name>Magister</name> inquit qualiter
+					Spiritus Sanctus conveniat esse donum et, quia ipse est donum quo nobis supernaturalia
+					dona donantur, idcirco iuxta materiam istius distinctionis et pro complemento precedentis
+					in qua nundum inquisivi de necessitate caritatis create quero istam questionem: utrum
+					aliquis possit esse Deo charus et acceptus ad vitam eternam sine dono caritatis infuse
+					eius animam formaliter informante. </p>
+				<div type="rationes-principales">
+					<p>Videtur primo quod non, quia, sicut se habet albedo adesse album, ita caritas adesse
+						charum, sed impossibile est aliquem esse album sive albedine, igitur impossibile est
+						aliquem esse Deo charum sine caritate. Et confirmatur, quia impossibile est esse
+						effectum formalem sine causa formali, sed esse charum est effectus formalis caritatis;
+						igitur etc.</p>
+
+					<p>Contra, predestinatur in peccato mortali existens est Deo charus et acceptus ad vitam
+						eternam, ergo aliquis potest esse charus Deo sine dono caritatis infuse. Antecedens
+						nulli catolico est dubium et consequentia est nota, quia existens in peccato mortali non
+						habet caritatem infusam; igitur etc.</p>
+				</div>
+				<div>
+					<head>Divisio quaestionis</head>
+					<p>In ista questione primo ad intellectum questionis premittam unam divisionem, secundo
+						quattor conclusiones. Tertio movebo dubia. Quarto et ultimo respondebo.</p>
+				</div>
+				<div>
+					<head>Articulus primus</head>
+
+					<p>Quantum ad primum articulum advertendum est quod aliquid esse Deo charum et acceptum ad
+						vitam eternam potest esse dupliciter, scilicet secundum eternam Dei ordinationem et
+						secundum presentem dispositionem. Istam divisionem ponit <name>Magister</name> libro
+						III, distinctione 31, ubi dicit quod aliquem esse scriptum in libro vite potest
+						intelligi dupliciter, videlicet secundum eternam Dei prescientiam, secundum presentem
+						iustitiam et est eadem sententia, ut patet, licet sint alia et alia verba. Primo modo
+						esse Deo charum et acceptum ad vitam eternam est [121rb] esse ordinatum a Deo finaliter
+						ad vitam eternam obtinendam et isto modo quilibet predestinatus est acceptus et charo
+						Deo ad vitam eternam etiam si sit in statu culpe et nullus reprobatus est Deo charus,
+						nec acceptus ad ipsam, etiam si sit in aliquo statu genere.</p>
+
+					<p>Secundo modo esse Deo charum et acceptum ad vitam eternam est esse in statu vel
+						dispositione in qua, si perseveraverit, Deus dabit illi vitam eternam, et isto modo
+						aliquis predestinatus potest non esse Deo charus, nec acceptus, ut ille qui est in statu
+						culpe mortalis et alius reprobatus potest esse sibi charus, ut ille qui est in statu
+						genere, quia quamvis talis non sit finaliter habiturus vitam eternam, quia non est
+						acceptus ad ipsam primo modo. Si tamen in isto statu et dispositione perseveret utique
+						ipsam obtineret. Ex his patet quod aliquis potest habere caritatem et non esse Deo
+						charus nec acceptus ad vitam eternam primo modo, videlicet secundum eternam Dei
+						predestinationem, quia reprobatus existens in statu genere habet caritatem infusam et
+						tamen nec est Deo charus, nec acceptus ad vitam eternam isto modo. Et per oppositum
+						aliquis potest non habere caritatem et tamen esse Deo charus et acceptus ad vitam
+						eternam modo predicto, quia predestinatus existens in peccato mortali non habet
+						caritatem infusam et tamen est Deo charus et acceptus ad vitam eternam secundum Dei
+						eternam ordinationem.</p>
+
+					<p>Sed dubium est apud doctorem utrum aliquis possit non esse Deo charus, nec acceptus ad
+						vitam eternam secundo modo, videlicet secundum presentem dispositionem et habere
+						caritatem infusam vel econverso. Utrum si aliquis sic possit esse Deo charus et non
+						habere dictam charitatem quibusdam dicentibus quod sic, quibusdam quod non, et in isto
+						secundo sensu intelligo questionem. Et hoc de primo articulo.</p>
+				</div>
+				<div type="articulus">
+					<head>Articulus secundus</head>
+					<div>
+						<head><supplied>Conclusio prima</supplied></head>
+
+						<p>Quantum ad secundum, prima conclusio est quod de potentia Dei absoluta possibile est
+							aliquem hominem habere caritatem infusam et non esse Deo charum, nec acceptum ad vitam
+							eternam. </p>
+
+						<p>Probatur primo sic: quecumque non repugnant pro aliqua mensura possunt simul esse pro
+							omni mensura de potentia Dei absoluta, sed caritas infusa et carentia glorie non
+							repugnant pro aliqua mensura, igitur caritas infusa et carentia glorie non repugnant,
+							et sic imperpetuum potest stare cum carentia glorie de potentia Dei absoluta, sed
+							quicquid potest Deus facere, potest disponere et ordinare, igitur potest Deus ordinare
+							quod aliquis semper habeat caritatem et tamen quod nunquam habeat vitam eternam, et
+							per consequens talis non erit Deo charus nec acceptus ad vitam eternam. Minor huius
+							rationis patet. Maior probatur, quia que non repugnant pro aliqua mensura, non
+							repugnant ex suis rationibus formalibus, sed que non repugnant ex suis rationibus
+							formalibus, possunt simul esse pro omni mensura de potentia Dei absoluta, quia, si
+							ponatur in esse, nulla sequitur contradictio; igitur etc.</p>
+
+						<p>Secundo sic: non est implicatio contradictionis quod anima informata habitu caritatis
+							conservetur a Deo imperpetuum sine gloria, igitur hoc fieri est possibile de potentia
+							Dei absoluta. Consequentia patet. Antecedens probatur, quia omne absolutum prius
+							tempore et duratione potest a Deo imperpetuum conservari sine posteriori absoluto sine
+							implicatione contradictionis, sed caritas est res absoluta et potest precedere, immo
+							de facto precedit tempore et duratione omnem actum beatificum.</p>
+
+						<p>Tertio sic: Deus potest annihilare animam informatam habitu caritatis antequam det
+							sibi vitam eternam et velle eam nunquam creare, igitur potest ipsam in gratia vel
+							caritate conservare ad vitam eternam non acceptare. Antecedens patet, quia quicquid
+							Deus contingenter creat, potest consequenter annihilare quandocumque placet sibi, sed
+							istam animam et eius caritatem contingenter creavit; ergo. Consequentia probatur,
+							quia, si Deus non posset animam caritate informatam conservare perpetuo sine gloria,
+							et per consequens sine aceptatione ad vitam eternam, vel hoc ideo esset, quia talis
+							conservatio implicat contradictionem, vel quia redderetur Deus iniustus non conferendo
+							gloriam habenti caritatem infusam. Primum dari non potest, quia, si esset implicatio
+							contradictorii, non posset per unam horam conservare sine gloria, cuius oppositum fuit
+							con-[121va]-cesum, nec secundum, quia non esset maior iniustitia conservare iustum
+							perpetuo sine gloria quam ipsum annihilare et nunquam velle creare, ergo, si Deus
+							potest annihilare etc, ut assumitur in antecedente, poterit conservare. Et
+							confirmatur, quia posito quocumque peccato in homine potest Deus sine omni iniustitia
+							remittere penam eternam ipsum annihilando vel perpetuo sine ipsa conservando, igitur
+							posita caritate in ipso perpetuo sine ipsa conservando, igitur posito caritate in ipso
+							poterit Deus nunquam tali dare vitam eternam, et per consequens non erit Deo acceptus
+							ad vitam eternam.</p>
+
+						<p>Quarto sic: Deus potest facere de potentia sui absoluta quod anima informata habitu
+							caritatis nunquam eliceat actum aliquem meritorium, igitur potest talem animam non
+							acceptare. Antecedens patet, quia potest non coagere ad talem actum. Consequentia
+							probatur, quia ex debito iustitie nulli debetur premium nisi propter aliquod meritum,
+							sed anima potest esse informata caritate et non habere actum aliquem meritorium, ut
+							assumitur in antecedente; igitur anima poterit esse informata caritate et sibi non
+							deberi aliquod premium ex debito iustitie, sed omnis anima cui non debetur premium ex
+							debito iustitie potest conservari perpetuo sine ipso saltem de potentia Dei
+							absoluta.</p>
+					</div>
+					<div>
+						<head>
+							<supplied>Conclusio secunda</supplied>
+						</head>
+
+						<p>Secunda conclusio est de potentia Dei absoluta possibile est aliquem non habere
+							caritatem infusam et esse Deo charum et acceptum ad vitam eternam. </p>
+
+						<p>Probatur primo sic: Deus potest hominem beatificare de potentia sui absoluta sine
+							dono caritatis infuse formaliter eius animum informante, igitur potest ipsum etiam
+							secundum presentem dispositionem sine tali dono ad vitam eternam acceptare.
+							Consequentia nota. Antecedens vero probatur multipliciter. </p>
+
+						<p>Primo sic: anima hominis sine dono caritatis infuse est sufficiens receptivum
+							beatitudinis et Deus sufficiens productivum, ergo Deus potest ipsum beatificare
+							huiusmodi caritate circumscripta de potentia sui absoluta. Consequentia nota est et
+							antecedens quantum ad secundam partem. Quantum vero ad primam probatur sic: quia anima
+							hominis sine tali dono est imago Dei, igitur sine tali dono est capax Dei, dicens
+								<name>beatus Augustinus</name> XIV <title>De Trinitate</title>, capitulo 15, quod
+							mens humana eo ipso imago Dei est quo capax est eius et particeps esse potest, igitur
+							sine tali dono est sufficiens receptivum beatitudinis. </p>
+
+						<p>Secundo sic: Deus potest facere quicquid non implicat contradictionem, sed quod Deus
+							beatificet hominem sine dono caritatis infuse non implicat contradictionem; ergo.
+							Probatur minor, quia quod visio beatifica sit in intellectu ipsius hominis et fruitio
+							beatifica in eius voluntate sine caritate inherente non implicat contradictionem, tum
+							quia non dependet ab ipso in aliquo genere cause quod Deus non possit supplere, tum
+							quia non producuntur, nec conservantur ab ea cum beatitudo formalis sit a solo Deo
+							active et etiam conservative.</p>
+
+						<p>Tertio sic: si Deus non posset hominem beatificare sine caritate formaliter eius
+							animam informante vel ideo esset, quia talis caritas necessario requiritur ad
+							causandum eius beatitudinem, vel quia necessario requiritur ad disponendum animam vel
+							potentiam ad recipiendum ipsam. Patet quod sufficientem divisionem, sed nullum istorum
+							potest dari; ergo. Probatur minor, quia non potest dari primum, quia Deus potest in
+							genere cause efficientis sine creatura quicquid potest cum ipsa. Nec secundum, quia
+							potentie ipsius anime ex se sunt in potentia obedientiali respectu beatitudinis, ideo
+							ad recipiendum ipsam non necessario indigent aliquo disponente. Et confirmatur, quia,
+							sicut se habet dispositio naturalis ad formam naturalem, ita dispositio supernaturalis
+							ad formam supernaturalem, sed formam naturalem potest Deus inducere in suo susceptivo
+							de potentia sui absoluta absque omni dispositione naturali inherente formaliter;
+							igitur et formam supernaturalem qualis est beatitudo poterit inducere in anima absque
+							tali dispositione supernaturali primo.</p>
+
+						<p>Secundo ad principale sic: possibile est aliquem hominem non habere caritatem infusam
+							et esse simpliciter sine reatu peccati tam actualis quam originalis, igitur possibile
+							est aliquem hominem non habere caritatem infusam et esse Deo charum et acceptum ad
+							vitam eternam non solum secundum eternam Dei ordinationem, sed etiam secundum
+							presentem Dei dispositionem. Et loquor utrobique de potentia Dei absoluta. Antecedens
+							clarum videtur et nulli catholico debet esse dubium quin Deus possit de potentia sui
+							absoluta annihilare caritatem infusam [121vb] parvuli statim baptizati ipso manente.
+							Quo posito statim patet quod talis erit simpliciter sine peccati reatu tam actualis
+							quam originalis et tamen non habebit caritatem infusam. Potest etiam Deus annihilare
+							caritatem infusam adulti existentis in caritate ipso manente et actualiter non
+							peccante. Quo posito sequitur idem quod prius, ergo. Consequentiam probo sic:
+							quicumque secundum presentem dispositionem non est ordinatus ad penam eternam secundum
+							presentem dispositionem est Deo charus et acceptus ad vitam eternam, sed qui
+							simpliciter est sine peccati reatu tam actualis quam originalis secundum presentem
+							dispositionem non est ordinatus ad penam eternam, quia nullus damnabitur sine culpa
+							actuali vel saltem originali. Stipendia est peccati mors, ut scribitur <title>Ad
+								Romanos</title> 6, igitur qui simpliciter est sine reatu peccati tam actualis quam
+							originalis secundum presentem dispositionem est Deo charus et acceptus ad vitam
+							eternam, et per consequens, si possibile est aliquem hominem non habere habitum
+							caritatis infuse et esse simpliciter sine reatu culpe, possibile est aliquem hominem
+							non habere caritatem predictam et secundum presentem dispositionem et esse Deo charum
+							et acceptum ad vitam eternam. </p>
+
+						<p>Et confirmatur, quia, si Deus annihilaret caritatem infusam parvuli iam baptizati et
+							moriatur in isto statu vel salvatur vel damnatur, quia non est necesse quod nec
+							salvetur, nec damnetur. Si damnabitur, sequitur quod simpliciter damnabitur sine
+							culpa, quod non credo bene dictum. Si salvatur, sequitur quod secundum presentem
+							dispositionem sine caritate fuit et est Deo charus et acceptus ad vitam eternam, quod
+							est propositum.</p>
+
+						<p>Ex ista conclusione infero correlarie quod de potentia Dei absoluta aliquis actus non
+							potest esse meritorius vite eterne sine dono caritatis infuse formaliter animam
+							informante. Deductio videtur satis nota, quia pono quod aliquis sit Deo charus et
+							acceptus ad vitam eternam secundum presentem dispositionem et non habeat caritatem
+							infusam. Hoc enim est possibile de potentia Dei absoluta, ut patet ex conclusione
+							predicta, tunc sic: bonum actum istius potest Deus velle premiare premio vite eterne,
+							ergo aliquis actus istius vel illius potest esse meritorius vite eterne sine caritate
+							infusa eius animam informante et loquor semper de potentia Dei absoluta. Antecedens
+							patet, quia non est implicatio contradictionis quod Deus velit premiare premio vite
+							eterne bonum actum illius qui secundum presentem dispositionem est sibi charus et
+							acceptus ad vitam eternam. Consequentia est nota, quia talis ex supposito non habet
+							caritatem infusam. Ad maiorem tamen declarationem huius propositionis premitto duas
+							alias propositiones.</p>
+
+						<p>Prima est quod actus notus voluntatis elicitus mediante caritate non est meritorius
+							vite eterne de condigno sive ex conductione nature sue, sed solum de congruo ex
+							gratuita Dei ordinatione. Istam propositionem, quia negatur ab aliquibus, deduco
+							multipliciter. Et primo auctoritatibus, secundo rationibus. Primo quidem auctoritate
+								<name>Apostoli</name> expressa <title>Ad Romanos</title> 8 dicens quod non sunt
+							condigne passiones huius temporis ad futuram gloriam qui revelabitur in nobis, super
+							quo Glossa dicit quod non sunt simul omnes condigne, id est sufficientes, sed
+							districte ageretur nobiscum ad providendum futuram gloriam.</p>
+
+						<p>Secundo auctoritate eiusdem ibidem, capitulo 6, quod gratia Dei vita eterna, super
+							quo Glosa agi potuit dicere stipendium iustitie vita eterna. Sed maluit dicere gratia
+							Dei vita eterna, ut intelligeremus, Deum ad eternam vitam nos non producere nostris
+							meritis. Tertio idem <title>Ad Titum</title> 3 capitulo dicens non ex operibus
+							iustitie que fecimus nos secundum suam misericordiam salvos nos facit. Et constat quod
+							opera iustitie notat opera facta in caritate, igitur non ex operibus factis in
+							caritate secundum suam misericordiam salvos nos facit, quod non esset verum si opera
+							illa de condigno sive ex condictione nature sue essent meritoria vite eterne.</p>
+
+						<p>Secundo hoc idem ostendo rationibus. Primo sic: nullus actus est meritorius vite
+							eterne de condigno quo posito in homine Deus non tenetur de necessitate iustitie dare
+							illi vitam eternam, sed posito quocumque actu elicito mediante habitu caritatis in
+							homine Deus non teneretur etc. Probatur minor, quia posito quod Deus non beatificaret
+							hominem [122ra] adhuc non esset iniustus. Et confirmatur, quia certum est quod Deus
+							potest illum hominem annihilare et nunquam velle creare sine aliqua iniustitia,
+							igitur, si non beatificaret ipsum, non esset iniustus. </p>
+
+						<p>Secundo sic: ille actus non est meritorius vite eterne de condigno quo posito in
+							homine Deus non est illi debitor glorie sue. Hoc patet, quia actus meritorius de
+							condigno nihil aliud est quam actus propter quem alicui debetur premium ex debito
+							iustitie, sed posito quocumque tali actu in quocumque Deus illi non est debitor glorie
+							sue, dicente <name>beato Augustino</name> III <title>De libero arbitrio</title>,
+							capitulis 35 et 36, quod Deus est nulli debitor, sed omnia sibi debent.</p>
+
+						<p>Tertio sic: ubi premium excedit meritum, ibi non est meritum de condigno. Hoc patet,
+							quia ubi meritum est dignum tanto premio, ibi premium non excedit meritum, sed constat
+							quod premium quod est vita eterna excedit omnem actum meritorium viatoris; ergo
+							etc.</p>
+
+						<p>Secunda propositio est quod de potentia Dei absoluta quicquid sit naturaliter aliquis
+							actus voluntatis elicitus a viatore non habente caritatem infusam potest esse
+							moraliter bonus. Et hec est ab omnibus universaliter concessa, quia nullus negat quin
+							de potentia Dei absoluta talis actus possit esse circumstantionatus omni circumstantia
+							tam naturali quam morali que necessario requiritur ad hoc quod sit moraliter bonus,
+							licet aliqui dicant sine speciali auxilio Dei hoc non esse possibile. Ex his confirmo
+							propositionem illatam sic: nullus actus voluntatis elicitus mediante caritate est
+							meritorius vite eterne de condigno sive ex conditione nature sue, sed solum de congruo
+							ex gratuita Dei ordinatione, igitur aliquis actus voluntatis elicitus sine caritate de
+							potentia Dei absoluta potest esse meritorius vite eterne. Antecedens videtur clarum ex
+							propositione prima et consequentia videtur nota, quia, si Deus actum voluntatis
+							elicitum mediante caritate gratis et libere non ex condictione nature sue vult
+							premiare premio vite eterne, poterit velle premiare actum voluntatis moraliter bonum
+							quem voluntas potest elicere sine habitu caritatis, ut patet ex secunda propositione,
+							et per consequens talis divina virtute potest esse meritorius vite eterne.</p>
+
+						<p>Et confirmatur, quia meritum de congruo non inititur valori operis, sed libertati
+							acceptantis, igitur quamvis actus ille moraliter bonus ex proprio valore non sit
+							dignus premiari premio vite eterne ex libertate, tamen Dei acceptantis poterit sic
+							premiari.</p>
+					</div>
+					<div>
+						<head><supplied>Conclusio tertia</supplied></head>
+
+						<p>Tertia conclusio est quod de potentia Dei ordinata et secundum leges institutas a Deo
+							non est possibile aliquem habere caritatem infusam et secundum presentem dispositionem
+							non esse Deo charum et aceptum ad vitam eternam. Ista conclusio non potest efficaci
+							ratione probari. Nulli tamen catholico debet esse dubia, quia quicumque est in statu
+							et dispositione in qua, si perseveraverit, Deus dabit ei vitam eternam secundum
+							presentem dispositionem est Deo charus et acceptus ad vitam eternam. Hoc patet ex
+							articulo precedenti, sed fide tenemus quod secundum leges institutas a Deo quicumque
+							habet caritatem infusam est in statu et dispositione in qua, si perseverat, Deus dabit
+							ei vitam eternam, ergo secundum leges institutas a Deo quicumque habet caritatem
+							infusam secundum presentem dispositionem est Deo charus et acceptus ad vitam
+							eternam.</p>
+					</div>
+					<div>
+						<head><supplied>Conclusio quarta</supplied></head>
+
+						<p>Ultima conclusio est quod de potentia Dei ordinata et secundum leges institutas a Deo
+							non est possibile aliquem non habere caritatem infusam et esse Deo charum et acceptum
+							ad vitam eternam et loquor in ista conclusione sicut et in precedentibus de
+							acceptatione que est secundum presentem dispositionem.</p>
+
+						<p>Ista conclusio non potest ratione convinci sicut nec precedens, sed sine hesitatione
+							aliqua est tenenda propter auctoritates sanctorum et determinationem Ecclesie que de
+							facto ad hoc ponunt habitum caritatis creatum in anima, sicut patet I
+								<title>Corinthos</title> 13, per totum, et <title>Ad Romanos</title> 5, ubi dicit
+							quod caritas Dei diffusa est in cordibus nostris per Sanctum Spiritum qui datus est
+							nobis. Nec valet si dicatur quod <name>Apostolus</name> loquitur de caritate increata
+							que est ipsemet Spiritus Sanctus, sicut videtur velle <name>Magister</name>
+							distinctione precedenti, quia hoc est expresse contra <name>beatum Augustinum</name>
+							<title>De spiritu et anima</title> in littera versus finem, ubi loquens de fide que
+							per dilectionem operatur sic ait: unde ergo ista dilectio, id est caritas, per quam
+							fides operatur nisi unde illa fides ipsa impetravit, neque enim esset in nobus
+							quantacumque sit in nobis nisi diffunderetur in cordibus nostris per Spiritum Sanctum
+							qui datus est nobis. Et subdit immediate: caritas quippe Dei di-[122rb]-cta est
+							diffundi in cordibus nostris non qua nos ipse diligit, sed qua nos facit dilectores
+							suos, sicut iustitia Dei qua iusti eius munere efficimur et fides Ihesu Christi qua
+							nos fideles facit. Hec <name>Augustinus</name>. Ex quibus evidenter apparet quod
+							caritas illa que secundum <name>Apostolum</name> diffusa est in cordibus nostris per
+							Spiritum Sanctum etc. non est caritas increata, sed creata. Primo, quia caritas qua
+							nos Deus diligit et hoc, secundum <name>Augustinum</name>, non est dicta diffundi in
+							cordibus vestris. Secundo, quia caritas illa qua nos facit dilectores suos, secundum
+								<name>Augustinum</name>, diffusa est in cordibus nostris, sicut iustitia Dei qua
+							iusti efficimur etiam sicut fides Ihesu Christi qua nos fideles facit. Sed constat
+							quod iustitia predicta est aliquid creatu in anima et similiter fides, igitur et
+							caritas ipsa. Hoc idem patet per eundem in prima canonica <name>Iohannis</name>,
+							omelia 6, aliquantulum ultra medium ubi exponens illud verbum <name>Apostoli</name>
+							ipse spiritus interpellat pro sanctis sic ait: quid est ipse spiritus interpellat pro
+							sanctis nisi caritas que in te per Spiritum Sanctum facta est. Ideo enim dicit
+								<name>Apostolus</name> caritas Dei diffusa est in cordibus nostris per Spiritum
+							Sanctum qui datus est nobis. Ex quibus evidenter apparet quod illa caritas que est
+							diffusa in cordibus nostris est caritas creata et non increata, quia, secundum
+								<name>Augustinum</name>, est caritas que per Spiritum Sanctum facta est et constat
+							quod caritas increata non est facta. Auctoritas igitur illa <name>Apostoli</name> non
+							potest exponi de increata caritate que Deus est, ut patet per <name>beatum
+								Augustinum</name>, et per consequens ex ipsa convincitur quod caritas diffusa in
+							cordibus nostris sit caritas creata. Et hoc etiam apparet auctoritate <name>beati
+								Gregorii</name>
+							<title>Super Ezecheliem</title>, omelia 8, ubi dicit quod Deus creat in nobis amorem
+							suum et ex amantibus cordibus suscipit precem quod non potest exponi de amore actuali,
+							quia, si amor actualis crearetur in nobis a Deo sicut gratia, tunc vel caritas que
+							ponitur creari ab eo non esset in potestate nostra, et per consequens actualis
+							dilectio non esset meritoria vite eterne, quod non consonat catholice veritati;
+							oportet ergo exponatur de amore habituali et habetur propositum.</p>
+
+						<p>Preterea, ista conclusio videtur per Ecclesiam determinatam, ut patet extra <title>De
+								Trinitate et fide catholica</title>, capitulo ultimo in Clementinis, ubi sic inquit
+							papa. Verum, quia quantum ad effectum baptismi in parvulis reperiuntur doctores
+							theologie opiniones contrarias habuisse quibusdam ex ipsis dicentibus per virtutem
+							baptismi parvulis culpam remitti, sed gratiam non conferri. Aliis contra asserentibus
+							quod et culpa ipsis in baptismo remittitur ac virtutes infusionis gratia infunduntur
+							quoad habitum et, si non, in illo tempore quoad usum nos intendentes generalem
+							efficatiam mortis Christi que per baptismum applicat pariter omnibus baptizatis
+							opinionem secundam que dicit tam parvulis quam adultis conferri in baptismo informante
+							gratiam et virtutes tanquam probabiliorem et dictis sanctorum et doctorum modernorum
+							theologie magis consonam et concordem sacro approbante concilio dicimus eligendam.</p>
+
+						<p>Ex ista conclusione infero correlarie quod de potentia Dei ordinata et secundum leges
+							institutas a Deo nullus actus voluntatis potest esse meritorius vite eterne sine dono
+							vel habitu caritatis infuse formaliter animam informante. Deductio est evidens, quia
+							qui secundum presentem dispositionem non est Deo charus nec acceptus ad vitam eternam
+							non potest habere actum meritorium vite eterne, sed de potentia Dei ordinata et
+							secundum leges a Deo institutas non est possibile aliquem habere caritatem infusam et
+							tamen non esse Deo charum, ut patet ex conclusione precedenti etc.</p>
+					</div>
+				</div>
+				<div>
+					<head>Articulus tertius et quartus</head>
+
+					<p>Quantum ad tertium et quartum articulos simul contra conclusiones movenda et
+						dissolvenda sunt dubia. Et primo contra primam est quedam opinio que ponit quod loquendo
+						de acceptatione que est secundum presentem dispositionem simpliciter est impossibile per
+						quamcumque potentiam quod creatura rationalis non sit Deo chara et accepta ad vitam
+						eternam supposito quod habeat caritatem infusam formaliter in voluntate.</p>
+
+					<p><name>Aureolus</name> in I, distinctione 17, questione 1, articulo 2 [122va]</p>
+
+					<p>Et pro ista opinione quidam doctor arguit. </p>
+
+					<p>Primo sic: forme opposite habent formaliter effectus oppositos ex natura rei unde, si
+						albedo dat esse album ex natura rei, nigredo ex natura rei dat esse nigrum non solum
+						voluntarie, aut secundum aliquod constitutum, sed iniquitas et caritas infusa sunt forme
+						opposite non est dubium et iniquitas ex natura rei est odibilis Deo et necessario dat
+						esse oditum, sic quod per nullam potentiam est possibile quod Deus non odiat existentem
+						in peccato mortali, igitur caritas ex natura rei est diligibilis et necessario dat esse
+						charum, sic quod nullam potentiam est possibile quod Deus non diligat existentem in
+						caritate.</p>
+
+					<p>Preterea, Deus est rationabilissimus dilector. Non enim amat absque rationabili
+						inductivo, sed dilectio et amor secundum rectam rationem meretur reamationem dum tamen
+						cetera diligibilia sint quamvis vitiosus non mereatur suo amore ut reametur a virtuoso,
+						quia amicitia virtuosa fundatur super communicationem vitutum, ut patet VIII
+							<title>Ethicorum</title> et IX, nihilominus amans aliquem et virtuosus existens suo
+						amore meretur reamari iuxta illud sapientis. Leges amicitie describentis
+							<title>Proverbiorum</title> 8: ego diligentes me diligo et qui mane evigilaverit ad me
+						inveniet me, ergo ex natura rei Deus diligi diligentem se et habentes habitualem
+						caritatem, <title>Iohanne</title> 9, si quis diligit me sermonem meum servabit. </p>
+
+					<p>Preterea, quocumque ex natura rei diligit iustitiam caritatem et ceteras virtutes ex
+						natura rei diligit participantem illas virtutes. Impossibile est enim quod actus feratur
+						super aliquam formam quin feratur super participans illam formam saltem materialiter et
+						per accidens unde videns colorem de necessitate videt lapidem vel lignum et omne quod
+						afficitur illo colore, sed Deus immutabiliter et de necessitate nature diligit caritatem
+						iustitiam et omnem virtutem. Immutabiliter enim diligit se, et per consequens
+						immutabiliter vult sui dilectionem et insuper iustus est immutabiliter et perfectus et
+						nullus est iustus quin iustitiam non diligat, secundum <name>Augustinum</name>, unde
+							<name>Philosophus</name> I <title>Ethicorum</title> non est bonus qui non gaudet de
+						bonis operibus. Non enim iustum utique aliquis dicet non gaudentem iusta operatione,
+						ergo Deus ea necessitate qua diligit suam iustitiam et complaceat in sui amore complacet
+						etiam in omni anima participante eius iustitiam et ipsius habitualem amorem, et per
+						consequens habitualis amor Dei dat ex natura rei esse acceptum Deo.</p>
+
+					<p>Preterea, Deo acceptum est quicquid secundum veritatem delectabile est et acceptabile
+						et pulchrum. Dicit enim <name>Philosophus</name> III <title>Ethicorum</title> quod
+						virtuosus tanquam bene dispositus est regula et mensura eorum que delectabilia sunt et
+						placentia secundum veritatem. Pravo enim delectabilia sunt vitia et nunc istud nunc
+						illud secundum quod contingit. Virtuosus autem secundum veritatem, sed constat quod
+						virtutes secundum se ipsas pulchre sunt et bone et delectabiles secundum veritatem et
+						maxime amor Dei, unde <name>Philosophus</name> I <title>Ethicorum</title> quod
+						delectabiles operationes secundum virtutes pulchre et bone et non sunt divisa hec tria,
+						optimum, et institutum et delectabilem, sed omnia existunt in operationibus optimis
+						virtuosis, ergo videtur quod ex natura rei complaceat in virtutibus, sed quam maxime et
+						ultimate in sui habituali amore.</p>
+
+					<p>Pro solutione istarum rationum.</p>
+
+					<p>Responsio ad rationes <name>Aureoli</name></p>
+
+					<p>Distinguo de acceptatione et complacentia divina, quia quedam sunt Deo grata et accepta
+						communi acceptatione et complacentia qua Deo complacet omnis creatura que inquantum est
+						bona est, quia vidit Deus cuncta que fecerat et erant valde bona, <name>Genesim</name>
+						1.</p>
+
+					<p>Quedam vero sunt Deo grata et accepta ad vitam eternam, sic non omnis creatura etiam
+						rationalis est grata nec secundum eternam sui ordinationem, nec secundum presentem
+						dispositionem.</p>
+
+					<p>His premissis respondeo ad rationes. Ad primam: quicquid sit de premissis concedo
+						conclusionem, quia non sequitur nisi quod habens caritatem necessario sit Deo charus et
+						acceptus communi acceptatione qua omnis creatura est sibi chara et ac-[122vb]-cepta, ut
+						dictum est, sed ex hoc non sequitur quod talis necessario sit charus et acceptus ad
+						vitam eternam, aliter omnis creatura esset Deo chara et accepta, ut dictum est, sed ex
+						hoc non sequitur quod talis necessario sit charus et acceptus ad vitam eternam, cum sit
+						ei acceptus primo modo. Per idem patet quid dicendum ad alias, quia nulla earum probat
+						nisi quod habens caritatem et alias virtutes necessario sit Deo charus modo predicto,
+						nec rationes plures probant de caritate infusa quam de caritate acquisita et aliis
+						virtutibus infusis et acquisitis de quibus non est dubium quin bene possunt haberi ab
+						illo qui non est Deo charus, nec acceptus totus ad vitam eternam, et per consequens
+						possunt omnes reduci contra facientem, quia per eas probaretur quod habens fidem vel
+						iustitiam vel aliam virtutem quamcumque necessario sit Deo charus et acceptus ad vitam
+						eternam, quod non erit catholice dictum.</p>
+
+					<p><name>Aureolus</name> ubi supra</p>
+
+					<p>Contra secundam conclusionem et propositionem quam ex ipsa intuli sunt aliqui doctores,
+						quorum unus contra conclusionem arguit sic. </p>
+
+					<p>Primo: nullus actus immutabilis et eternus transit de novo super obiectum aliquod nisi
+						quia eius obiectum eternum et immutabilem participatur formaliter de novo ab obiecto
+						illo materiali super quo noviter transit, sicut patet quod visio eterna alicuius color,
+						si talis poneretur, posset transire de novo nunc super lignum nunc super lapidem si
+						color ille eternaliter visus participaretur nunc a lapide, nunc a ligno formaliter et
+						inhereret. Si autem aliter transiret visio immediate super lignum aut super lapidem,
+						impossibile esset quod actus ille esset eternus, cuius ratio est, quia non potest de non
+						transeunte super lignum fieri transiens nisi aliqua mutatione facta vel in ipso actu, et
+						tunc non erit eternus vel in ipso ligno, et tunc aliquid formaliter sibi inheret quod
+						non inherebat ante, sed actus dilectionis et acceptationis divine qui est immutabilis et
+						eternus nunc acceptat unum, nunc alium, nunc non diligit animam, nunc eam diligit
+						dilectione caritativa de qua nunc loquimur. Aliquando enim non dilexit Iohannem
+						baptistam in utero existentem, ut ante satisfactionem aliquando non dilexit, ut post
+						institutionem, ergo necesse est in Iohanne participari formaliter et inherentur aliquod
+						obiectum immutabile et eternum divine dilectionis. Illud autem non potest esse divina
+						essentia que nulli formaliter inheret, ergo aliqua creatura. Non potest autem poni quod
+						sub aliqua substantia creata, quia nec illa potest anime inherere, ergo relinquitur quod
+						sit accidentalis forma qua anima Iohannis post sanctificationem diligebatur caritative
+						et per eius carentiam prius non acceptabatur. Hec autem forma, sicut diffuse deducit,
+						non est nisi caritas habitualis infusa. Non adduco deductionem illam, quia credo
+						suppositum esse verum.</p>
+
+					<p>Preterea, ad idem arguit secundo sic: sicut se habet esse charum Deo ad divinam
+						voluntatem, sic et esse oditum a Deo, sed nil est esse oditum a Deo quin divina voluntas
+						reperiat in eo aliquod odibile et detestabile ex natura rei quod dat formaliter esse
+						oditum. Peccatum enim ex natura rei oditur a Deo, iuxta illud <name>Prophetam</name>:
+						videbo quoniam non Deus volens iniquitatem tu es, ergo per oppositum nullus acceptatur a
+						Deo caritative, nisi quia in eo est aliquid quod ex natura rei ipsum acceptabilem facit
+						seu reddit. </p>
+
+					<p>Preterea, ad idem ab aliis arguitur sic: impossibile est quod fiat transitus de uno
+						contradictoriorum in reliquum nulla facta in altero extremorum mutatione. Sed cum
+						aliquis de non charo fit charus Deo seu de non accepto acceptus transit de
+						contradictorio in contradictorium et non est aliqua mutatio in Deo acceptante, igitur
+						oportet quod sit mutatio in homine acceptato, sed talis mutatio non est in ipso quantum
+						ad actum, quia sine aliquo actu elicito potest aliquis transire de non charo ad charum,
+						sicut patet de Iohanne baptista, quia ante sanctificationem in utero erat Deo charus,
+						nec acceptus acceptatione que est secundum presentem dispositionem et post
+						sanctificationem eius in utero fuit sic Deo charus. Oportet ergo quod talis [123ra]
+						mutatio fiat quantum ad aliquem actum habitum et hic est habitus caritatis vel gratie. </p>
+
+					<p><name>Gerardus</name> de Senis, distinctione 17, questione 1, articulo 2</p>
+
+					<p>Contra propositionem correlativam quidam doctor noster arguit probando duas
+						conclusiones ex quibus sequitur oppositum istius conclusionis. </p>
+
+					<p>Prima conclusio est quod ad eliciendum actum dilectionis meritorium necesse est ponere
+						aliquem habitum supernaturalem. </p>
+
+					<p>Secunda est quod probabilius est dicere istum habitum supernaturalem esse habitum
+						caritatis creatum in voluntatem, sicut ponit opinio communis quam solam gratiam
+						existentem in essentia anime, sicut creditur fuisse opinio <name>Magistri</name>.</p>
+
+					<p>Prima conclusio tripliciter probatur. Primo sic: ille actus qui non potest habere omnem
+						rectitudinem requisitam ad rationem meriti ex suis principiis naturalibus necessario
+						indiget aliquo principio supernaturali rectificante actus dilectionis elicitus a
+						voluntate nostra est huius, ergo. Maior patet, quia illud quod non completur per
+						principia naturalia vel nullo modo completur vel completur per aliquod principium
+						supernaturale. Minor probatur, quia actus dilectionis elicitus a voluntate nostra, si
+						debeat dici meritorius, exigit tantam rectitudinem ut secundum eam attingat omnes
+						circumstantias que sub divino beneplacito cadunt ita ut nullo modo a divinis regulis et
+						a divino beneplacito discordet, sed impossibile est quod actus voluntatis ex solis
+						principiis naturalibus elicitus habeat tantam rectitudinem, tum quia divinum
+						beneplacitum et eius circumstantie que sub ipso cadunt non sunt nobis note, tum quia
+						principia nostra naturalia deficiunt etiam in attingendo minorem rectitudinem quam sit
+						rectitudo actus meritorii, quia deficiunt in attingendo rectitudinem secundum medium
+						virtutis moralis, quia tale medium in quo consistit dicta rectitudo attingere est summe
+						difficile, ut patet II <title>Ethicorum</title>. Relinquitur ergo quod oportet dare
+						aliquod principium supernaturale in cuius virtute attingatur rectitudo prefata.</p>
+
+					<p>Secundo: si ad actum meritorium non esset necessarius habitus supernaturalis,
+						sequeretur quod meritum non esset mensuratum secundum existentiam premii. Consequens est
+						falsum, ergo et antecedens. Falsitas consequentis patet, quia premium est finis meriti
+						ex natura rei. Illud autem quod ex natura rei ordinatur ad aliquem finem oportet esse
+						mensuratum secundum exigentiam eius finis. Consequentia probatur, quia premium de quo
+						loquimur est supra totam naturam cuius adeptio dependet ex sola voluntate ipsius
+						donantis. Ille ergo actus qui ex puris naturalibus principaliter non potest esse
+						mensuratus secundum exigentiam dicti finis nec secundum exigentiam divine voluntatis ex
+						qua dependet eius adeptio. Relinquitur ergo quod oportet dare aliquod principium
+						supernaturale mensurans et inclinans in dictum finem secundum exigentiam ipsius et
+						divine voluntatis ex qua dependet eius adeptio.</p>
+
+					<p>Tertio sic: si ad actum meritorium non requireretur necessario aliquis habitus
+						supernaturalis in ratione principii elicitivi, sequeretur quod divina voluntas posset
+						acceptare et non acceptare ad vitam eternam unum et eundem actum nulla mutatione facta
+						in tali actu. Consequens est falsum, ergo et antecedens. Falsitas consequentis patet,
+						quia tunc videretur fieri mutatio in divina voluntate, quod est impossibile.
+						Consequentia probatur, quia constat quod nunc de facto non acceptat actum existentem in
+						sola rectitudine naturali. Si ergo de sua potentia absoluta posset acceptare eundem
+						actum tanquam meritorium sine aliqua rectitudine, sequitur necessario quod ille actus
+						erit non meritorius et meritorius non acceptus et acceptus Deo sine aliqua sui
+						mutatione, quod est impossibile; ergo etc.</p>
+
+					<p>Secundam vero conclusionem probat multipliciter sed, quia primam non reputo veram,
+						dimitto rationes secunde.</p>
+
+					<p>Responsio ad rationes <name>Aureoli</name></p>
+
+					<p>Ad primam dico quod maior illa universaliter sumpta, sicut assumitur, est falsa, quia,
+						si actus ille sit liber et libere transiens super obiectum, sicut est in proposito,
+						poterit transire de novo super aliquod obiectum quantumcumque illud obiectum nihil de
+						novo recipiat quicquid sit de actu [123rb] necessario transeunte super obiectum. Et ad
+						probationem quando dicitur quod actus non potest de non transeunte super obiectum fieri
+						transiens nisi aliqua mutatione facta in ipso actu et tunc non esset eternus vel in ipso
+						obiecto, et tunc aliquid sibi inheret quod prius non inherebat per interemptionem, quia
+						actus liber potest de novo transire super obiectum, nulla mutatione facta in ipso, nec
+						in ipso obiecto, sed solum in tempore vel duratione. Verbi gratia: si dux ordinaret hoc
+						quod ducatus in Lombardia per totum istum annum valeret 30 solidi precise simul cum hoc
+						ordinaret quod transacto isto anno valeret 40 solidi, verum esset dicere quod ducatus
+						isto anno non esset acceptus duci pro 40 solidis et post istum annum esset sibi acceptus
+						pro 40 solidis. Nulla tamen facta mutatione in duce, quia sic ante ordinavit nec in
+						ducato, sed solum in tempore intermedio et similiter in proposito. Potuit enim Deus ab
+						eterno si voluit ordinare quod beata virgo in puris naturalibus existens in utero matris
+						non esset sibi accepta ad vitam eternam usque ad tale istans et quod post illud instans
+						in puris naturalibus existens esset sibi accepta et tamen nulla fuisset tunc mutatio in
+						actu acceptationis divine nec in beata virgine, sed solum in tempore vel mensura. </p>
+
+					<p>Ad secundum dico quod ratio est ad oppositum, quia possibile est quod aliquis sit
+						oditus a Deo et quod nihil odibile sive detestabile sibi inhereat. Aliquis enim posset
+						esse oditus a Deo, quia peccat etiam si modo non peccet nec aliquid detestabile sibi
+						inhereat, igitur a simili aliquis potest esse dilectus a Deo, quia bene egit, etiam si
+						modo non bene agat nec aliqua forma supernaturalis inhereat.</p>
+
+					<p>Ad tertiam potest dici ex solutione prime quod maior est falsa, quia ad hoc quod fiat
+						transitus de contradictorio in contradictorium sufficit transitus temporis sine hoc quod
+						fiat mutatio in tempore vel mensura nulla facta mutatione in aliquo extremorum, ut patet
+						ibidem. Et ulterius possibile est quod fiat mutatio in homine acceptato sine infusione
+						caritatis infuse, quia possibile est quod aliquis sine caritate infusa nunc agat bene
+						moraliter qui prius non agebat, et ista mutatio sufficeret in proposito, quia Deus
+						posset velle illum actum premiare premio vite eterne, et per consequens talem ad vitam
+						eternam acceptare sine caritate predicta.</p>
+
+					<p>Responsio ad rationes <name>Gerardi</name></p>
+
+					<p>Ad primam alterius doctoris nego minorem et ad probationem dico quod omnes
+						circumstantie necessario requisite ad hoc quod actus sit meritorius vite eterne de
+						potentia Dei absoluta possunt esse nobis note et ad eas possimus attingere sine caritate
+						infusa et sine omni forma supernaturali inherente si Deo placeret, quia Deus posset
+						ordinare si vellet de potentia sui absoluta quod quicumque diligeret Deum propter se vel
+						proximum propter Deum mereretur vitam eternam, quia, cum actus voluntatis non sit
+						meritorius vite eterne de condigno, sed solum de congruo et meritum de congruo non
+						immitatur valori operis, sed libertati acceptantur, ut dictum est supra, poterit Deus de
+						potentia sui absoluta istum actum velle premiare vite eterne premio vel ad vitam eternam
+						acceptare, quod idem est. Et quando utlerius dicitur quod principia nostra naturalia
+						deficiunt in attingendo medium virtutis moralis, quia minus est etc., potest dupliciter
+						responderi. Primo quidem potest dici quod non sic deficiunt quod simpliciter sic
+						impossibile ipsum attingi etiam ex solis principiis naturalibus, nec
+							<name>Aristoteles</name> dicit hoc esse impossibile, sed solum dificile. Secundo
+						potest dici quod quicquid sit naturaliter saltem de potentia Dei absoluta poterit viator
+						tale medium attingere et agere bene moraliter sine caritate infusa et hoc sufficit ad
+						hoc quod possit de congruo vitam eternam mereri de potentia Dei absoluta, ut patet ex
+						dictis. </p>
+
+					<p>Ad secundam potest concedo consequens, quia, licet meritum de condigno debeat mensurari
+						secundum exigentiam premii, quia tale meritum immittitur valori operis, meritum tamen de
+						congruo non oportet sic mensurari. Et quando dicitur quod premium est finis meriti ex
+						natura rei patet quod non est verum de merito de congruo, quia tale premium, cum non
+						ordinetur ex valore operis, sed so-[123va]-lum ex libertate acceptantis, potest etiam
+						interimi consequentia, quia circumscripto omni habitu infuso adhuc meritum poterit
+						mensurari secundum exigentiam premii sicut et nunc mensuratur, quia modo non mensuratur
+						secundum exigentiam premii ex natura rei sive secundum valorem operis, sed solum ex
+						voluntate donantis, et ita esset tunc.</p>
+
+					<p>Ad tertium patet quid dicendum ex dictis, quia absque aliqua mutatione ex parte Dei vel
+						ex parte actus poterit Deus acceptare et non acceptare eundem actum dummodo sit mutatio
+						in tempore vel mensura, ut est dictum supra.</p>
+
+					<p>Contra tertiam conclusionem posset argui, sed, quia nulli catholico est dubia,
+						pertranseo. </p>
+
+					<p>Contra quartam vero est opinio <name ref="#Lombard">Magistri</name>, distinctione 17, quam multis
+						auctoritatibus confirmat sicut patet in littera. Verum, quia auctoritates ille in multis
+						scriptis doctores inveniuntur solute, nec ego solverem eas aliter nec oppositum
+						conclusionis est per Ecclesiam determinatum, dimitto eam.</p>
+
+				</div>
+				<div>
+
+					<head>Ad rationes principales</head>
+
+					<p>Ad primam quicquid sit de minori nego maiorem, quia sic non se habet esse album ad
+						albedinem, sicut esse charum ad caritatem. Ratio huius est, quia esse album est
+						denominatio intrinseca a forma que est albedo . Esse vero charum et acceptum Deo ad
+						vitam eternam non est denominatio intrinseca a forma que est albedo, sed denominatio
+						extrinseca a forma que est caritas, sed denominatio extrinseca principaliter et
+						completive est ab acceptatione divina, licet Deus non acceptet sic aliquem de facto et
+						secundum leges institutas ab ipso sine caritate. Et per hoc patet quid dicendum ad
+						confirmationem, quia esse sic Deo charum non est effectus caritatis formalis, sicut esse
+						album effectus formalis albedinis.</p>
+
+					<p>Ad secundam dicitur quod non probat nisi de facto multi sunt chari et accepti ad vitam
+						eternam secundum Dei ordinationem eternam qui non habent actu caritatem infusam et illud
+						non est contradicta, quia in ista questione loquimur de acceptatione que sit secundum
+						presentem dispositionem, ut patet ex supradictis. </p>
+				</div>
+
+
+
+
+
+			</div>
+		</body>
+	</text>
+</TEI>

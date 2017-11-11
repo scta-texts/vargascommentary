@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Liber I, Distinctio 19 et 20, Quaestio 1</title>
+				<author>Alphonsus Toletanus Vargas</author>
+				<editor>Luciana Cioca</editor>
+				<respStmt>
+					<name>Jeffrey C. Witt</name>
+					<resp>TEI Encoder</resp>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="0.0.0-dev">
+					<date when="2016-09-14">September 14, 2016</date>
+				</edition>
+			</editionStmt>
+			<publicationStmt>
+				<authority>THESIS project</authority>
+				<availability status="free">
+					<p>Public Domain</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="P" n="Paris1490">Paris1490</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+			<schemaRef n="lbp-critical-1.0.0"
+				target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/1.0/critical.rng"> </schemaRef>
+			<editorialDecl>
+				<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+					guidelines for a critical edition</p>
+			</editorialDecl>
+		</encodingDesc>
+		<revisionDesc status="draft">
+			<listChange>
+				<change when="2016-09-02" who="#JW" status="draft" n="0.0.0">
+					<p>Created file for the first time.</p>
+				</change>
+			</listChange>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:lang="la">
+		<front>
+			<div xml:id="includeList">
+				<xi:include
+					href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+					xpointer="worksCited"/>
+				<xi:include
+					href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+					xpointer="prosopography"/>
+			</div>
+			<div xml:id="starts-on">
+				<pb ed="#P" n=""/>
+				<cb ed="#P" n=""/>
+			</div>
+		</front>
+		<body>
+			<div xml:id="atv-l1d19et20q1">
+				<head>Liber I, Distinctio 19 et 20, Quaestio 1</head>
+
+				<p>Nunc postquam. Coeternitatem personarum etc. Circa distinctionem istam 19 et sequentem in
+					quibus <name>Magister</name> agit de equalitate divinarum personarum quero primo ad
+					clariorem intellectum questionis sequentis: utrum per se et proximum fundamentum
+					receptivum equalitatis in creaturis sit natura specifica vel mutabilis. </p>
+				<div type="rationes-principales">
+					<head>Rationes principales</head>
+					<p>Et videtur primo quod specifica, quia, sicut se habet identitas ad substantiam, sic
+						equalitas ad quantitatem, ut patet V <title>Metaphysice</title>, sed constat quod
+						identitas duorum individuorum eiusdem speciei non fundatur super hac vel illa substantia
+						sive natura singulari, quia duo individua eiusdem speciei in suis propriis naturis
+						singularibus non sunt idem, sed distinguuntur, igitur equalitas duorum individuorum
+						eiusdem speciei, ut puto, duarum linearum non fundantur super hac vel illa quantitate
+						singulari, et per consequens fundatur super quantitate universali. Quo posito sequitur
+						quod proximum fundamentum receptivum ipsius est natura specifica non numeralis. </p>
+
+					<p>Contra: nulla forma singularis fundatur super fundamentum universale, quia accidens
+						singulare requirit subiectum singulare, sed omnis equalitas in creaturis est forma
+						quedam singularis; igitur nulla equalitas fundatur super fundamentum universale. Quo
+						posito sequitur quod per se fundamentum cuiuslibet sit natura.</p>
+
+					<!-- I aded this division -->
+				</div>
+				<div>
+					<head>Divisio quaestionis</head>
+					<p>In ista questione ad istum intellectum tituli primo ponam unicam distinctionem, secundo
+						quadruplicem conclusionem. Tertio movebo dubia. Quarto respondebo. </p>
+				</div>
+				<div type="articulus">
+					<head>Primus articulus</head>
+					<p>Quantum ad primum distinguo de equalitate, quia uno modo potest accipi stricte, et sic
+						condividitur identitati et similitudini dicente <name>Aristotele</name> V
+							<title>Metaphysice</title>, capitulo de ad aliquid quod eadem dicuntur quorum
+						substantia est una. Similia vero quorum qualitas est una. Equalia autem quorum quantitas
+						est uno. Alio modo, large, et sic quecumque non se excedunt sive in substantia, sive in
+						quantitate, sive in qualitate, dicuntur equalia et equalitas sic sumpta non condividitur
+						identitati seu similitudini.</p>
+					<p>Questionem propositam intelligo de equalitate proprie dicta, quia de equalitate large
+						accepta agetur in sequenti. Et hoc de primo.</p>
+				</div>
+				<div type="articulus">
+					<head>Articulus secundus</head>
+
+					<p>Quantum ad secundum articulum pono aliquas conclusiones. </p>
+					<div>
+						<head><supplied>Conclusio prima</supplied></head>
+
+						<p>Prima conclusio est quod equalitas proprie dicta in creaturis est relatio realis.
+							Hanc probo primo sic: equalitas sic [123vb] sumpta in creaturis est formaliter relatio
+							et non rationis, igitur relatio realis. Consequentia patet, quia, sicut ens reale et
+							rationis sufficienter dividunt ens, quia sequitur demonstrato quocumque hoc est
+							aliquid et ens et non est ens rationis, igitur ens reale, ita relatio realis et
+							rationis sufficienter dividunt relationem, et ideo sequitur demonstrato quocumque. Hoc
+							est formaliter relatio etc. Antecedens patet quantum ad primam partem per
+								<name>Philosophum</name> V <title>Metaphysice</title>, capitulo de ad aliquid et
+							universaliter ab omnibus est concedendum. Quantum ad secundam partem probatur, quia
+							nulla relatio rationis manet in re circumscripto opere intellectus, sed equalitas in
+							creaturis manet in re circumscripto opere intellectus, ut docet experientia; igitur
+							etc.</p>
+
+						<p>Et confirmatur, quia circumscripto omni opere intellectus et stante generali
+							influentia Dei sue linee bipedales formaliter sunt equales, igitur earum equalitas est
+							realis. </p>
+
+						<p>Secundo: omnis relatio cuius immediatum fundamentum est vera res extra animam est
+							relatio realis. Hoc patet, quia ens rationis non fundatur immediate in aliqua re extra
+							animam, sed immediatum fundamentum equalitatis est vera res extra animam, prout in
+							conclusionibus sequentibus apparebit.</p>
+
+						<p>Tertio sic: inequalitas in creaturis est relatio realis, igitur et equalitas.
+							Consequentia patet, quia equalitas et inequalitas sunt contraria et cuius contrarium
+							est realiter extra animam et actualiter et ipse est realiter et actualiter extra et
+							antecedens probatur, quia, sicut linea bipedalis realiter distinguitur a pedali, ita
+							realiter est inequalis illi, sed, quia linea bipedalis realiter distinguitur a pedali,
+							igitur earum diversitas est realis; ergo etc.</p>
+
+						<p>Quarto sic: illud quod est de per se consideratione artificis realis tanquam propria
+							passio sui subiecti est aliquid reale; equalitas et inequalitas in creaturis sunt
+							huiusmodi; ergo. Maior patet, quia unum ens rationis est sic de per se consideratione
+							artificis realis. Minor probatur, quia geometria per se considerat equalitatem et
+							inequalitatem circa quantitatem continuam tanquam passio ipsius per se. Confirmatur,
+							quia passio entis realis est verum ens reale, sed equalitas est passio entis realis,
+							ergo est verum ens reale. Minor est nota, quia passio entis realis manet in re
+							circumscripto opere intellectus et omne tale ens est verum reale ens et minor est
+								<name>Philosophi</name> in presentis et V <title>Metaphysice</title> dicens quod
+							proprium est quantitati secundum eam equale vel inequale dici, quantitas autem est
+							vera res secundum omnes; igitur etc.</p>
+
+						<p>Ex ista conclusione infero duas propositiones correlarias.</p>
+
+						<p>Prima est quod similitudo proprie dicta in creaturis est realis relatio. Deductio
+							huius propositionis est evidens, quia similitudo non est minoris entitatis quam
+							equalitas, igitur, si equalitas est relatio realis et similitudo, rationes etiam facte
+							possunt formari de similitudine ita bene sicut de equalitate. </p>
+
+						<p>Secunda propositio est quod equalitas et similitudo sunt actu in rebus omni
+							apprehensione anime circumscripta. Deductio videtur nota, quia relatio que non est in
+							actu nisi per aliquam anime apprehensionem non est relatio realis, sed rationis
+							tantum. Hoc patet, quia cum relatio sit inferior ad ens sicut homo ad animal, quod non
+							est ens reale, non est relatio realis sicut quod non est animal realiter non est homo
+							realiter, sed quod non est in actu nisi per aliquam apprehensionem anime non est ens
+							reale, sed rationis tantum, igitur quod non est in actu nisi per aliquam
+							apprehensionem anime non est realis, sed rationis tantum, sed equalitas et similitudo
+							in creaturis sunt relationes reales, ut patet ex dictis; ergo etc.</p>
+					</div>
+					<div>
+						<head><supplied>Conclusio secunda</supplied></head>
+
+						<p>Secunda conclusio est quod per se et proximum fundamentum receptivum equaliter in
+							creaturis non est natura specifica rerum equalium, prout quibusdam doctoribus videtur.
+							Hanc probo primo sic: per se fundamentum receptivum equalitatis est unum unitate
+							reali. Hec patet, quia equalitas est relatio realis ex conclusione precedenti, sed
+							natura specifica non est una unitate reali, ut patet per <name>Commentatorem</name> I
+								<title>De anima</title>, commento 8, et per <name>Damanscenum</name>, libro I,
+							capitulo 11, et declarabitur alias a propositio Deo dante. </p>
+
+						<p>Secundo sic: impossibile est relationes oppositas realiter fundari in eodem per se
+							fundamento, aliter paternitas et filiatio que sunt opposita possent in eodem
+							fundamento per se fundari, quod ratio repugnat, igitur impossibile est quod per se
+							fundamentum equalitatis sit natura specifica sive talis sit una unitate reali sive
+							non. Consequentia patet, quia equalitas unius linee opponitur relative equalitati
+							alterius vel ergo ambe fundantur in eadem natura specifica, vel nulla, vel aliqua sic
+							et aliqua [124ra] non. Si detur primum, patet consequentia. Si detur secundum, habetur
+							propositum principale. Si detur tertium, est loqui ad placitum, quia certum est quod
+							non est maior ratio de una quam de alia; ergo etc.</p>
+
+						<p>Tertio sic: per se fundamentum equalitatis naturaliter distinguitur a per se
+							fundamento identitatis. Hoc patet, quia relationes alterius et alterius rationis
+							requirunt fundamenta alterius et alterius rationis in creaturis. Hic autem loquitur de
+							equalitate, ut condistinguitur identitati, sed natura specifica est per se fundamentum
+							identitatis, quia duo individua eiusdem speciei sunt idem realiter in natura speficia,
+							ergo talis natura non esset per se fundamentum equalitatis. Et confirmatur, quia due
+							linee non sunt minus idem specifice in natura specifica linne. Linea autem communis
+							est utrique quam duo homines in natura specifica hominis, et per consequens due linee
+							non magis erunt equales nec minus idem in natura specifica linee quam duo homines in
+							natura humana.</p>
+
+						<p>Quarto sic: illud non est proximum fundamentum receptivum equalitatis quo manente et
+							manente termino non manet equalitas. Hoc patet, quia positis fundamentis et termino
+							ponitur relatio stante generali influentia Dei, sed manente unitate specifica et
+							manente termino equalitatis non manet equalitas; igitur. Probatur minor, quia, si
+							ponantur due linee pedales, quarum una per augmentum fiat bipedalis, altera manente
+							pedali sicut prius, patet quod non manet equalitas ex aliqua parte, et tamen manet
+							unitas specifica et terminus ex una parte. Et conformiter est dicendum de simile, ut
+							patet ex conclusione precedenti, sequitur quod per se et proximum fundamentum
+							similitudinis non est natura specifica rerum similium. Et potest confirmari ex
+							fundamentis tenetium conclusionem oppositam, quia in quocumque reperitur formaliter
+							immediatum fundamentum huius similitudinis reperitur et hec similitudo, sed albedo in
+							communi reperitur formaliter in qualibet albedine singulari secundum eos cum eius
+							entitas sit vere realis, ut dicunt; igitur, si hec similitudo immediate fundatur in
+							albedine in communi, hec similitudo numero reperitur in qualibet albedine singulari,
+							et sic similitudo singularis qua Petrus albus similis est Paulo albo reperitur in
+							Paulo et in quolibet habente formaliter albedinem, quod est omnino impossibile et
+							absurdum et, sicut argutum est de similitudine, potest argui de equalitate et
+							econverso.</p>
+					</div>
+					<div>
+						<head><supplied>Conclusio tertia</supplied></head>
+
+						<p>Tertia conclusio est quod equalitas proprie dicta in creaturis non ex igitur tanquam
+							per se et proximum fundamentum, nec tanquam medium connectens extrema aliquam realem
+							unitatem mediam inter unitatem specificam et numeralem, prout videtur quibusdam cuius
+							gratia est advertendum quod unitas communis aliquibus, ut videtur quibusdam, est
+							duplex, scilicet quedam que attenditur penes quiditatem seu essentiam rei et talis est
+							unitas specifica, quia species dicit essentiam individuorum et super talem unitatem
+							fundantur identitates, quedam est unitas que attenditur penes gradum nature vel
+							essentie; non quidem quiditativum, sed quantitativum et super talem unitatem, ut
+							dicunt, fundatur equalitas et talis unitas, ut dicunt, est media inter unitatem
+							specificam et numeralem signatam et determinatam et subiectum proximum talis unitatis
+							est medium proprium equalitatis. Et, si dicatur eis quod inter speciem et individuum
+							non est aliquod medium essentiale, respondent dicens quod verum est de medio
+							quiditativo quod dicit gradum quiditativum rei. Non autem quiditativo, quod dicit
+							gradum quantitativum rei, quia tale non habet propriam rationem universalis nisi
+							secundum quid, quia non est commune omnibus contentis sub specie sicut debet esse
+							universale, sed tantum commune aliquibus, scilicet habentibus equaliter gradum
+							quantitativum quiditatis et essentie. </p>
+
+						<p>Et contra opinionem istam est posita conclusio quam probo primo sic: impossibile est
+							esse aliquam unitatem realem mediam inter unitatem specificam et numeralem, ergo
+							equalitas non coexigit tanquam per se et proximum fundamentum aliquam talem unitatem.
+							Consequentia patet. Antecedens probatur primo sic, quia unitas specifi-[124rb]-ca non
+							est unitas realis, ut suppono pro nunc, igitur nec aliqua media inter specificam et
+							numeralem. Consequentia patet per tenentes oppositam conclusionem, quia, si unitas que
+							attenditur penes unitatem quiditatem et essentiam rei non est realis, nec unitas
+							attenditur penes quiditatem et essentiam, sed per eos unitas specifica attenditur
+							penes quiditatem et essentiam et unitas media penes gradum; igitur. </p>
+
+						<p>Secundo, quia, si talis unitas media que attenditur penes gradum quantitativum
+							quiditatis esset vere realis, sequitur quod inter unitatem specificam et numeralem
+							essent unitates reales infinite, quod est absurdum. Consequentia patet, quia huiusmodi
+							gradus sunt infiniti secundum infinitas propositiones numerorum et bicubitum
+							tricubitum et huiusmodi; ergo. </p>
+
+						<p>Secundo ad principale sic: capio medium illud quantitativum quod isti doctores
+							fingunt inter speciem et individuum et quero an predicetur de pluribus differentibus
+							numero essentialiter et in quid vel non. Si non, sequitur quod non sit medium
+							essentiale inter speciem et individuum, cuius oppositum dicunt expresse. Si dicatur
+							quod sic, sicut oportet eos concedere, sequitur quod vere et proprie habet rationem
+							speciei, quia cuicumque competit diffinitio et diffinitum, sed predicari de pluribus
+							differentibus numero essentialiter et in quid est diffinitio speciei; ergo et si tale
+							medium vere et proprie habet rationem speciei sequitur quod eius unitas non sit media
+							inter unitatem specificam et numeralem, sed vera unitas specifica, cuius oppositum
+							intendunt. Nec valet si dicatur quod, licet medium illud predicetur de pluribus
+							differentibus numero essentialiter et in quid, non tamen de omnibus contentis sub
+							specie, et ideo non habet rationem speciei. </p>
+
+						<p>Primo, quia pari ratione qui vellet posset dicere quod homo non habet proprie
+							rationem speciei primo, sed animal, quia, licet homo predicetur de pluribus
+							differentibus numero in eo quod quid, non tamen de omnibus sub specie animalis
+							contentis, et sic periret omnis via ad probandum aliquid habere rationem speciei.</p>
+
+						<p>Secundo, quia possibile est quod tale medium, si ponatur, predicetur de omnibus
+							contentis sub specie, quia possibile est omnes lineas esse equales, et per consequens
+							possibile est illud medium vere et proprie habere rationem speciei quo posito in esse
+							eius unitas esset specifica et non media inter specificam et numeralem, et tunc quero
+							an talis unitas sit per se et proximum fundamentum equalitatis an non. Si dicatur quod
+							non, quero quid tunc esset immediatum fundamentum equalitatis et quicquid detur
+							dabitur nunc, et per consequens non oportet fingere talem unitatem mediam. Si dicatur
+							quod sic, sequitur quod identitas et equalitas habebunt idem proximum fundamentum,
+							quia unitas illa specifica erit proximum fundamentum identitatis. Hoc autem est
+							impossibile, ut patet V <title>Metaphysice</title>.</p>
+
+						<p>Tertio sic: in quocumque reperitur immediate essentialiter immediatum fundamentum
+							huius equalitatis singularis et hec equalitas singularis, sed medium istud
+							quantitativum quod isti doctores fingunt secundum eos reperitur in omnibus individuis
+							habentibus equalem gradum quantitativum; igitur, si huiusmodi medium sit immediatum
+							fundamentum alicuius equalitatis singularis, sequitur quod equalitas illa singularis
+							reperitur formaliter in omnibus individuis habentibus equalem gradum quantitativum,
+							quod tamen est falsum, aliter equalitas qua una linea pedalis est equalis ceteris
+							lineis pedalibus reperitur formaliter in qualibet linea pedali, quod nullus
+							diceret.</p>
+
+						<p>Preterea, si ista positio esset vera, sequitur quod relationes opposite realiter
+							fundaretur in eodem per se fundato, sequitur etiam quod manente fundamento et termino
+							equalitatis possit equalitas non esse, quorum quodlibet est impossibile saltem
+							naturaliter. Prima consequentia patet ex secunda ratione probante conclusionem
+							precedentem et secunda patet ex quarta. Possunt enim rationes ille fieri pro
+							conclusione ista sic et pro conclusione precedenti, sicut patet intelligenti.</p>
+					</div>
+					<div>
+						<head><supplied>Conclusio quarta></supplied></head>
+
+						<p>Quarta conclusio est quod per se et proximum fundamentum equalitatis proprie dicte in
+							creaturis est natura ipsa singularis que non est una in extremis equalibus, sed
+							numeraliter plures. Hanc probo. Et primo ex precedentibus, quia vel per se et proximum
+							fundamentum [124va] ipsius est natura specifica rerum equalium, vel aliqua media inter
+							specificam et numeralem, vel natura ipsa singularis que non est una in extremis
+							equalibus. Patet per sufficientem divisionem non natura specifica, ut patet ex secunda
+							conclusione, nec aliqua media, ut patet ex tertia; igitur.</p>
+
+						<p>Secundo ad idem sic: per se et proximum fundamentum forme singularis sive
+							particularis est singulare sive particulare, et per consequens unum unitate numerali
+							relatio equalitatis inter duo equalia est forma singulatis et particularis; ergo
+							etc.</p>
+
+						<p>Tertio sic: sicut se habet equalitas in communi ad quantitatem in communi, sic
+							equalitas singularis ad quantitatem singularem, sed equalitas in communi fundatur
+							super quantitatem in communi, ergo equalitas singularis super quantitatem singularem.
+							Et confirmatur, quia aliud est equalitas, aliud hec equalitas, sicut aliud est
+							quantitas et aliud hec quantitas, ergo aliud est fundamentum equalitatis et aliud
+							huius equalitatis et quia secundum diversitatem relationum est diversitas fundamenti,
+							sed fundamentum equalitatis est quantitas, ergo huius equalitatis est hec quantitas. </p>
+
+						<p>Quarto sic: ex dictis ab adversariis qualis est convenientia aliquorum in relatione
+							talis est convenientia eorum in ratione absoluta, sed due linee equales non
+							conveniunt, nec referuntur aliqua relatione communi reali, sed duabus singularibus
+							distinctis numeraliter; ergo non conveniunt in aliqua ratione absoluta communi
+							communitate reali, sed in duabus singularibus que sunt per se duo fundamenta istarum
+							duarum equalitatum, unde, sicut est duplex equalitas inter duas lineas equales, sic
+							sunt fundamenta duo, quia equalitas una fundatur in una istarum linearum et terminatur
+							ad alteram et equalitas altera econtra, et idem dico de similitudine. Ex his sequitur
+							quod equalitas proprie dicta est habitudo quantitatis non ad se, sed ad aliam
+							quantitatem. Deductio est evidens, quia equalitas, ut patet ex dictis, est unius
+							quantitatis singularis tanquam fundamenti et alterius tanquam termini, ergo est
+							habitudo quantitatis non ad se, sed ad aliam quantitatem et potest confirmari, quia
+							eiusdem quantitatis ad se ipsam est identitas huiusmodi. Hic autem accipitur equalitas
+							ut condividitur indentitati.</p>
+
+						<p>Item loquendo proprie nihil est simile nec equale sibi ipsi, igitur equalitas non est
+							habitudo quantitatis ad se ipsam, sed ad aliam quantitatem. Et hoc de secundo
+							articulo.</p>
+					</div>
+				</div>
+				<div type="articulus">
+					<p>Tertius et quartus articulus</p>
+
+					<p>Quantum ad tertium et quartum articulos simul contra conclusiones istas movenda et
+						dissolvenda sunt dubia. Et primo contra primam conclusionem et propositiones quas ex
+						ipsa intuli correlarie sunt due opiniones…</p>
+
+					<p><name>Durandus</name> I, distinctione 3, questione 2, articulo 2</p>
+
+					<p>…Quarum prima ponit quod equalitas et similitudo in creaturis non sunt relationes
+						realiter, sed rationis tantum et hec opponitur directe conclusioni et prime
+						propositioni. </p>
+
+					<p>Secunda vero ponit quod, licet equalitas et similitudo in creaturis debeant dici
+						relationes reales in actu, non sunt tamen in rebus actu, sed earum reductio in actu sit
+						per aliquam apprehensionem anime, et hec opponitur secunde propositioni.</p>
+
+					<p><name>Aureolus</name> in I, distinctione 31, questione 1, articulo 2</p>
+
+					<p>Pro prima opinione arguit quidam doctor. </p>
+
+					<p>Primo sic: relationes reales habent fundamenta se invicem realiter coexigentia, sed
+						equalitas et similitudo in creaturis non habent fundamenta se invicem realiter
+						coexigentia, igitur minor est evidens, quia constat quod fundamenta istarum relationum
+						non exigunt se invicem realiter ad sui existentiam. Nullum enim album non coexigit aliud
+						album realiter ad sui existentiam, nec una linea aliam lineam. Maior autem probatur,
+						quia, sicut se habet modus esendi in alio ad suum fundamentum, ita modus essendi ad
+						aliud se habet ad suum, sed modus essendi in alio, si sit realis, habet fundamentum quod
+						per naturam suam realiter coexigit terminum. Nam accidens per naturam dependet a
+						subiecto realiter et coexigit ipsum, ergo modus qui est esse ad aliud, [124vb] si sit
+						realis, oportet quod habeat fudamentum quod per naturam suam dependeat a termino et
+						coexigat realiter ipsum; ergo etc.</p>
+
+					<p>Preterea, ille relationes non sunt reales quarum per se fundamenta istarum relationum
+						sunt entia rationis, igitur etc. Probatur minor, quia equalitas et similitudo fundantur
+						super unitate specifica dicente <name>Aristotele</name> V <title>Metaphysice</title>
+						quod equalia sunt quorum quantitas est una et similia, quorum qualitas est una, quod
+						verificari non potest nisi de qualitate vel quantitate specifica. Unitas autem specifica
+						non est realis, sed rationis tantum; ergo etc.</p>
+
+					<p>Preterea, idem iudicium videtur esse de identitate qua duo individua eiusdem speciei
+						formaliter sunt idem et de similitudine et equalitate, sed identitas, ut communiter
+						dicitur, non est relatio realis, igitur nec similitudo vel equalitas.</p>
+
+					<p>Preterea, ad idem potest argui ex fundamentis <name>Aristotelis</name>. Primo sic:
+						omnis forma accidentalis extenditur ad extensionem subiecti in quo est realiter. Patet
+						hoc, quia nulla forma accidentalis immaterialis est realiter in subiecto, aliter
+						accidens esse nobilius subiecto, sed equalitas duarum linearum non extenditur ad
+						extensionem subiecti; igitur non est realiter in subiecto, et per consequens non est
+						relatio realis. Probatur minor, quia omnis forma que extenditur ad extensionem subiecti
+						salvatur in qualibet parte subiecti eius, sed equalitas linee equalis alteri non
+						salvatur, quia nulla pars linee equalis alteri est equalis, sed minor, quia quelibet
+						pars linee equalis alteri est minor altera, igitur equalitas linee non extenditur ad
+						extensionem subiecti.</p>
+
+					<p>Confirmatur, quia omnis forma que extenditur ad extensionem subiecti dividitur
+						divisione subiecti et pars forme est in parte subiecti, sed equalitas non dividitur etc;
+						ergo non dividitur etc. Probatur minor, quia, si due linee sint equales, una earum
+						dividatur, non remanet in aliqua ipsarum equalitas ad lineam que remansit in divisa, nec
+						remanet in aliqua ipsarum pars equalitatis qui prius erat in tota linea ante
+						divisionem.</p>
+
+					<p>Preterea, omnis relatio realis intenditur realiter ad intensionem amborum extremorum,
+						ergo non est relatio realis. Maior patet, quia quilibet effectus intenditur ad
+						intensionem omnium causarum, aliter sequeretur quod cause imperfectiores haberent
+						effectum eque perfectum sicut perfectiores. Probatur minor, quia duo alba in summo non
+						sunt magis equalia in albedine quam duo alba in medio vel in minimo, sicut nec due linee
+						bipedales sunt magis equales intensive quam due linee pedales; igitur.</p>
+
+					<p>Preterea, si equalitas vel similitudo est realis relatio, quero a quo causatur
+						effective, quia vel ab opposito, vel a fundamento, vel ab utroque simul. Non ab obiecto
+						propter tria. </p>
+
+					<p>Primo, quia omne agens limitatum et actu finitum concernit determinatam distantiam
+						passi ultra quam non potest agere. Hec patet, quia cum posse producere effectum in passo
+						magis distante sit maioris virtutis quam posse eundem effectum producere in passo minus
+						distante. Sequitur quod, si sit aliquod agens quod possit producere effectum in passo
+						quantumcumque distante etiam si distet in infinitum, illud agens erit virtutis infinite,
+						sed constat quod unum simile vel equale non concernit aliquod simile vel equale secundum
+						determinatam distantiam; igitur similitudo et equalitas non causantur effective in uno
+						extremo ab alio.</p>
+
+					<p>Secundo, quia agens finite virtutis determinatur simul ad certum numerum effectuum
+						ultra quem numerum non posset simul producere plures effectus, licet posset succesive,
+						sed nullum simile vel equale non determinatur ad certum numerum similium vel equalium,
+						quia nunquam est tot simile vel equale quin possit esse pluribus, ergo similitudo et
+						essentialitas non causantur ab obiecto.</p>
+
+					<p>Tertio, quia omne agens limitatum habens multas actiones disparatas non habentes
+						ordinem remittitur in una actione propter aliam, sed unum simile non remittitur in una
+						similitudine vel equalitate propter aliam etiam si simul fierent infinita similia vel
+						equalia; ergo non causantur ab obiecto, nec potest [125ra] dici quod causaretur a
+						fundamento propter secundam et tertiam rationem iam adductam, nec potest dici quod ab
+						utroque simul propter easdem rationes; igitur etc.</p>
+
+					<p><name>Aureolus</name> ubi supra</p>
+
+					<p>Pro secunda opinione arguit quidam doctor sic: si equalitas esset res in actu,
+						sequeretur quod innumerales realitates essent in uno subiecto, nam unum homo inequalis
+						est omnibus foliis et floribus et herbis, et sic de aliis innumeralibus rebus et ita
+						innumerabiles realitates essent in uno homine. Si ergo quelibet sit res in actu, erit
+						unus homo innumeralibus realitatibus oneratus similiter, cum facies cuiuslibet hominis
+						faciebus omnium hominum sit difformis, esset onerata facies cuiuslibet hominis infinitis
+						realitatibus, quia quot sunt homines tot habebunt reales dissimilitudines et
+						difformitates in facie subiective. Similiter etiam, si sint 10 albedines, erunt in
+						qualibet 9 albedines similes ad 9 similitudines. Habent enim qualibet albedo 9
+						similitudines ad 9 albedines et resultabunt in universo 90 vel, si fuerint 100
+						albedines, necesse est enim in actu poni 10 milia realitates unde, cum talis rerum
+						infinitas omnino irrationabilis sit, non debet in mentem alicuius venire quod equalitas
+						vel inequalitas sint in rebus nisi in potentia et quod tunc fiant in actu dum anima
+						illas reducit.</p>
+
+					<p>Idem distinctione 2, questione 1, articulo 2</p>
+
+					<p>Preterea, si similitudo esset res existens in albo posito alio albo, aut si equalitas
+						sit res existens in linea posita linea alia quantitatis eiusdem forme, sequeretur quod
+						omnipotens sine contradictione posset duas albedines conservare annihilando rem
+						similitudinis et conservare duas lineas annihilando rem equalitatis, sed manifestum est
+						quod Deus facere non potest, quia dato realitatem equalitatis aut similitudinis Deus
+						deleat, adhuc intellectus considerans duas albedines eque inveniet eas similes sicut
+						ante, ergo superfluum est et impossibile quod realitas aliqua addatur albedinibus que
+						appellantur similitudo aut quantitatibus que dicatur equalitas.</p>
+
+					<p>Responsio ad rationes <name>Durandi</name></p>
+
+					<p>Ad primam nego maiorem, quia constat quod paternitas et filiatio sunt relationes reales
+						et tamen non habent fundamenta ad sui existentiam se invicem realiter coexigentia, quia,
+						licet Pater inquantum Pater non sit prior Filio saltem duratione, absolutum tamen Patris
+						quod est fundamentum paternitatis etiam duratione precedit Filium in creaturis. Et ad
+						probationem dico quod maior, sicut assumitur, non est simpliciter vera, quia, licet
+						quantum ad aliqua sit simile de modo essendi in alio et de modo essendi ad aliud, non
+						tamen quantum ad omnia presertim quantum ad illud de quo nunc agitur. Non est simile,
+						quia non oportet quod fundamentum illius modi, qui est aliquid, sit natura diminuta et
+						dependens a termino sicut fundamentum illius modi qui est, quia absolutum fundans
+						paternitatem que est modus essendi ad aliud secundum modum loquendi istius doctoris
+						potest in creaturis naturaliter esse sine termino, immo de necessitate precedit terminum
+						et tamen naturaliter non est possibile accidens esse sine subiecto.</p>
+
+					<p>Ad secundum nego minorem et ad probationem dico quod equalitas et similitudo non
+						fundantur super unitate specifica, sed super unitate et entitate singulari, quia per se
+						fundamentum illius singularis similitudinis non est qualitas specifica, sed hec qualitas
+						singularis per se fundamentum huius equalitatis singularis non est quantitas specifica,
+						sed hec quantitas singularis, ut patet ex articulo precedenti. Et quando dicitur quod
+						equalia sunt quorum quantitas est una etc., non est intelligendum quod eorum sit una
+						quantitas communis que sit fundamentum receptivum equalitatis, quia hoc est impossibile,
+						ut patet ex dictis. Sed debet intelligi quod cuiuslibet eorum sit una quantitas non
+						excedens quantitate alterius et econverso et talis est particularis quantitas [125rb] et
+						immediatum fundamentum equalitatis. Et conformiter et dicendum de similitudine suo
+						modo.</p>
+
+					<p>Ad tertiam multi negarent minorem. Ego tamen concessa minori nego maiorem, quia non est
+						simile de identitate et similitudine vel equalitate, prout declarabitur questione
+						sequenti.</p>
+
+					<p>Ad quartum et omnis sequentia potest faciliter responderi si dicatur, sicut multis et
+						magnis doctoribus videtur, quod relatio etiam in creaturis non est res distincta a rebus
+						absolutis. Sed, quia credo oppositum esse verum, ut apparebit distinctione 30, dico
+						aliter et quicquid sit de maiori nego minorem. Et ad probationem nego maiorem, quia
+						forma circuli extenditur extensione subiecti cum sit forma accidentalis existens
+						realiter extra animam. Et tamen constat quod forma circuli non salvatur realiter in
+						qualibet parte subiecti, quia nulla pars circuli est circulus. Similiter potest dici de
+						equalitate cuius gratia est advertendum quod forme sunt in triplici differentia, quia
+						quedam et tota in toto et tota in quolibet parte sicut anima intellectiva et talis non
+						extenditur extensione subiecti, nec dividitur divisione ipsius. Quedam est tota in toto
+						et pars in parte subiecti sic quod omnes partes sunt eiusdem rationis inter se et cum
+						tota forma sicut est albedo, quia tota albedo est in toto subiecto et pars in parte et
+						quelibet pars albedinis est albedo et talis extenditur extensione subiecti et salvatur
+						in qualibet parte subiecti. Quedam est tota in toto subiecto sic tamen quod nec ipsa
+						tota, nec aliqua pars eius que sit eiusdem rationis cum ipsa est in aliqua parte
+						subiecti sicut est forma circuli, quia tota forma circuli sic est in tota linea ad se
+						ipsam recurvata recurvatione completa tanquam in subiecto quod nec ipsa, nec aliqua pars
+						eius que sit eiudem rationis cum tota forma circuli est in aliqua parte huius linee,
+						quia in nulla parte illius linee est tota forma circuli, nec aliqua pars eius est vere
+						circulus et talis forma, licet vere extendatur extensione subiecti, non tamen salvatur
+						in qualibet parte subiecti et quod de numero talium formarum est equalitas et multe alie
+						relationes, ut duplicitas etc. Et ad confirmationem potest negari similiter maior, quia
+						non oportet quod omnis forma que extenditur extensione subiecti dividatur divisione
+						eius, quia omnis anima alia ab intellectiva extenditur extensione subiecti, ut multis et
+						magnis doctoribus videtur et tamen non omnis est divisibilis ad divisionem subiecti, sed
+						solum anime illorum animalium que decisa vivunt, ut patet II <title>De anima</title>. </p>
+
+					<p>Potest etiam dici, ut patet ex dictis, quod non omnis forma que extenditur extensione
+						subiecti dividitur divisione ipsius sic quod in qualibet parte subiecti sit aliqua pars
+						forme que sit eiusdem rationis cum tota forma sic patet de forma circuli, et sic est in
+						proposito, et ideo non oportet quod in aliqua parte linee sit pars equalitatis que sit
+						equalitas.</p>
+
+					<p>Ad quintum dico quod quedam relationes consistunt in esse punctuali et talibus repugnat
+						suscipere magis et minus de numero talium est equalitas, sicut patet. Quedam non
+						consistit in esse punctuali et talibus non repugnat suscipere magis et minus.</p>
+
+					<p>His premissis nego maiorem universaliter, ut assumitur, quia non est universaliter
+						verum quod relatio realis intendatur ad intentionem amborum extremorum nisi sit talis
+						relatio quod sibi non repugnet intendi. Et ad probationem quando dicitur quod omnis
+						effectus intenditur ad intentionem omnium causarum verum est si sit intensibilis, non
+						aliter. Et, si dicatur quod eo ipso quod omnes cause sunt intensibiles, oportet quod
+						effectus sit intensibilis. Dico quod verum est de causis intrinsecis non de extrinsecis,
+						sicut est in proposito, quia albedines et linee sunt cause relationum extrinsece, non
+						intrinsece.</p>
+
+					<p>Ad sextam [125va] dupliciter potest responderi. Primo, concedendo quod talis relatio
+						causatur ab obiecto, quia, si sit verum album precise et causetur noviter aliud album,
+						potest dici quod illud album noviter causatum sit causa similitudinis qua refertur ad
+						album preexistens et similitudinis qua album preexistens refertur ad ipsum.</p>
+
+					<p>Et ad probationem in contrarium dico ad primam quod ubi agere in maiori distantia est
+						maioris perfectionis quam agere in minori, ibi agens limitatum actum finitum concernit
+						determinatam distantiam ultra quam non posset agere, sed ubi agere in maiori distantia
+						non est maioris virtutis quam agere in minori, non oportet quod agens finitum concernat
+						determinatam distantiam, immo posset agere in passum quantumcumque distans, etiam si
+						distaret in infinitum. Sic est in proposito, quia non sequitur maior virtus ad
+						producendum similitudinem vel equalitatem in aliquo distante per duos pedes quam ad
+						producendum in aliquo distante per unum tantum. Et patet quod probatio est nulla, quia
+						non semper est maioris virtutis posse producere effectum in passo et magis distans quam
+						posse eundem effectum producere in passum quod est minus distans, ut patet ex
+						dictis.</p>
+
+					<p>Ad secundam potest dici dupliciter. Primo, quod in his in quibus posse simul et pro
+						simul producere plura est maioris perfectionis quam posse producere pauciora vel unum
+						tantum ubi agens finite virtutis necessario determinatur ad certum numerum effectivum,
+						sed ubi posse simul producere plura non est maioris perfectionis quam posse producere
+						pauciora vel unum tantum. Non oportet sic est in proposito, quia non est maioris
+						virtutis producere duas similitudines in duobus albis quam producere unam tantum in uno.
+						Secundo potest concedi maior, sed ex hoc non sequitur quod similitudo non causetur ab
+						obiecto, quia, sicut statim declarabitur, unum album unica similitudine est simile
+						omnibus albis etiam si essent infinita et etiam, si plura preexistant et aliquod album
+						de novo causetur, non causatur similitudo nisi in illo tantum.</p>
+
+					<p>Ad tertiam potest etiam dupliciter responderi. Primo, quia nullum agens remittitur in
+						una actione propter aliam nisi in illis in quibus posse simul plures elicere est maioris
+						perfectionis quam posse pauciores unde, si corpus quod videtur esse causa visionis, ut
+						videtur multis, non oportet quod remittatur ad causandum actum videndi in uno oculo si
+						causat actum videndi in alio, quia non requiritur maior virtus ad causandum actum
+						videndi in utroque quam in uno tantum, et sic est in proposito. Secundo potest dici quod
+						etiam si admittatur maior, nihil concluditur, quia una albedo una tantum similitudine et
+						non pluribus refertur ad omnia alba, ut dictum est.</p>
+
+					<p>Secundo potest dici ad rationem principalem, quia talis relatio causatur a fundamento
+						et ista videtur intentio <name>Anselmi</name>
+						<title>Monologion</title>, capitulo 3, dicens ita rationalis cogitatio est, ut aliqua
+						res sit per illud, cui dat esse, nam nec ipsa relativa sunt sic per invicem. Cum enim
+						dicens et servus referantur invicem et ipsi homines qui referantur omnino non sunt per
+						invicem et ipse relationes quibus referuntur non sunt per invicem, quia eedem sunt per
+						substantiam et loquitur ex intentione de causalitate effectiva, igitur, secundum
+						intentionem <name>Anselmi</name>, relationes causantur effective a suis subiectis vel
+						fundamentis, nec rationes probantes oppositum aliquid concludunt, ut patet ex dictis,
+						tum quia agens non determinatur ad certum numerum effectuum nec remittitur in una
+						actione propter aliam nisi ubi productio plurium est maioris virtutis quam unius tantum,
+						quod in proposito non est verum, tum quia non oportet quod fundamentum relationis sit
+						productivum relationum plurium, sed unius tantum ex quo unica similitudine vel
+						equalitate refertur ad omnia similia vel equalia.</p>
+
+					<p>Tertio potest dici quod tales relationes causantur ab utroque simul et potest
+						responderi ad rationes eo modo quo dictum est.</p>
+
+					<p>Quarto potest dici et satis rationabiliter, sicut multis videtur, quod aliqua relatio
+						causatur per accidens, aliqua vero accidentaliter per accidens. Verbi gratia: ponatur
+						quod in universo non sit nisi [125vb] unum album et noviter alterum producatur ad per se
+						generationem noviter albi producti causatur similitudo que est in ipso non quidem per
+						se, quia relatio non est per se principium nec terminus actionis, V
+							<title>Physicorum</title>, sed per accidens. Et in albo preexistenti causatur
+						similitudo accidentaliter per accidens, quia causatur ad causationem relationis opposite
+						que per accidens potest causari, et ita videtur intentio <name>Simplicii</name> super
+							<title>Predicamenta</title> dicens quod aliqui errant circa generationem relationis et
+						corruptionem, quia non generatur nec corrumpitur nisi in comparatione ad aliud, id est
+						ad generationem vel corruptionem alterius. Sic patet rationem non valere.</p>
+
+					<p>Responsio ad rationes <name>Aureoli</name></p>
+
+					<p>Ad primam alterius doctoris multis non videtur inconveniens, quia in relationibus etiam
+						realibus sit processus in infinitum, quia nec multis videtur inconveniens quod in rebus
+						absolutis sit talis processus, cum dicant in quolibet continuo esse partes infinitas,
+						quarum una non est alia et, si sic dicatur, potest concedi quod numerales realitates
+						relative possunt esse in eodem subiecto. Mihi autem videtur quod in relationibus
+						realibus non est processus in infinitum nisi ponatur talis processus in absolutis, et
+						ideo quicquid sit de consequente. Nego consequentiam et ad probationem premitto quod,
+						sicut unum album una albedine fundamentaliter est simile omni albo et dissimile omni
+						nigro et una similitudine formaliter esse simile omni albo etiam si essent infinita, et
+						una dissimilitudine dissimile omni nigro, et idem dico de equalitate et similibus.</p>
+
+					<p>His premissis patet quod deductio est nulla, quia unus homo una inequalitate et non
+						diversis est inequalis omnibus et idem de similitudine. Sed contra istam solutionem quam
+						iste doctor previdit arguitur sic: una difformitate sive dissimilitudine transeunte per
+						corruptionem alicuius ex aliis faciebus, adhuc remanent cetere dissimilitudines, igitur
+						non sunt idem. Hic dico quod per corruptionem alicuius ex aliis faciebus nulla
+						difformitas corrumpitur in facie hominis remanente, quia in ipsa non erat nisi una et
+						illa manet et, licet non terminetur ad faciem corruptam, terminatur tamen ad facies
+						alias remanentes, et hoc est bene possibile, quia relatio de natura sua requirit
+						terminum non istum vel illum determinate. Et, si dicatur quod relativa posita se ponunt
+						et perempta se perimunt, dico quod dupliciter potest inteligi illud dictum
+							<name>Philosophi</name>. Uno modo, quod ad corruptionem illius relationis in uno
+						termino necessario corrumpatur aliqua relatio in alio, et hic intellectus falsus est.
+						Alio modo, quod ad corruptionem omnium relativorum, utpote aliarum facierum corrumpatur
+						difformitas in facie unica remanente, et hic intellectus verus est, sed non ad
+						propositum.</p>
+
+					<p>Ad secundum multi concederent consequens. Et quando dicitur quod dato quod realitatem
+						equalitatis vel similitudinis Deus deleret, adhuc intellectus considerans duas albedines
+						eque inveniebat eas similes non solum fundamentaliter, sed etiam formaliter. Nunc autem
+						fundamentaliter tantum, sed quicquid sit de consequente potest negari consequentia, quia
+						multa sunt realiter distincta, quorum unum non potest esse sine alio absque
+						contradictione, quia duo correlativa sunt realiter distincta, et tamen unum non potest
+						esse sine alio absque contradictione unde quod Pater sit et Filius non sit, vel
+						paternitas sit et filiatio non sit, non est possibile sine contradictione, et sic est in
+						proposito, quia ad positionem duorum alborum necessario necessitate inevitabiliter
+						sequitur similitudo non minus quam ad positionem paternitatis sequitur filiatio vel
+						econverso. Nec valet si dicatur quod tunc Deus necessitatur ad producendum vel
+						conservandum aliquid extra se, quia quedam est necessitas simpliciter quedam ex
+						suppositione vel per alia verba quedam est necessitas antecedens, quedam consequens.
+						Primo modo non necessitatur, quia totum potest an-[126ra]-nihilare quicquid est extra
+						ipsum tam absolutum quam relativum, sed secundo modo non et hoc nullum est inconveniens.
+						Et, si dicatur ulterius, sicut mordaciter dicunt, quod tunc velit nolit non potest non
+						conservare, dico quod ibi est velle sine nolle, quia ex quo vult conservare duo alba
+						vult etiam similitudinem inter illa, sicut quando vult quod aliquis diligat vult quod
+						etiam cognoscat, quia nullus potest diligere nisi cognoscat; igitur etc.</p>
+
+					<p><name>Scotus</name> in I, distinctione 31, questione 1, articulis 1 et 2 et in
+							<title>Quodlibet</title>, questione 6</p>
+
+					<p>Contra conclusionem secundam est quedam opinio que ponit quod per se et proximum
+						fundamentum equalitatis in creaturis est unitas specifica rerum equalium, similitudinis
+						vero unitas specifica rerum similium que secundum istam opinionem realis est in
+						utrisque. Pro ista opinione ex fundamentis opinantium multipliciter arguitur. </p>
+
+					<p>Primo sic: illud est per se ex et proximum fundamentum similitudinis rerum similium in
+						quo sibi invicem sunt similia, sed in qualitate in communi et non in aliqua qualitate
+						singulari quecumque similia sibi invicem sunt similia. Et maior presupponitur minorem,
+						quia que sunt similia non sunt similia in eo quod est proprium similitudini alteri
+						similium, sed in eo quod est commune utrisque, sed hec albedo numero est propria huic et
+						illa illi; igitur duo alba non sunt similia in hac vel in illa albedine, sed in albedine
+						in communi. Similiter potest argui de ceteris similibus quibuscumque.</p>
+
+					<p>Preterea unitas relationis oritur ex unitate alicuius absoluti previi, sed similitudo
+						in duobus similibus est eiusdem rationis in extremis, igitur hec unitas similitudinis
+						oritur ex unitate eiusdem rationis alicuius absoluti previi, sed illud absolutum previum
+						eiusdem rationis non est hec albedo vel illa numero, quia neutra est communis alteri,
+						igitur albedo in communi, et per consequens relationes equiparantie qualis est
+						similitudo preter extrema singularia requirit aliquod commune, quod sit fundamentum
+						ipsius et a quo habeat quod sit eiusdem rationis in extremis. </p>
+
+					<p>Preterea, si similitudo non fundatur super unitate specifica, sed super hac albedine et
+						illa numerali, pari ratione posset super hac albedine et hac nigredine numeraliter
+						distinctis. Consequens falsum, igitur et antecedens. Consequentia probatur, quia non
+						potest assignari ratio quare hec albedo et illa sunt similes. Hec autem albedo et
+						nigredo non similes nisi quia duo albedines numerales non sunt eiusdem speciei, sed hoc
+						non esset nisi unitas specifica esset per se fundamentum similitudnis. Et similiter
+						potest argui de qualitate et ceteris.</p>
+
+					<p>Ad rationes <name>Scoti</name></p>
+
+					<p>Ad primam nego minorem et ad probationem nego maiorem, quia, sicut duo alba sunt
+						formaliter similia suis propriis similitudinibus et non similitudine communi, sic sunt
+						fundamentaliter similia suis propriis equalitatibus seu albedinibus et non albedine
+						communi. Et ulterius, similitudo proprie dicta non est nisi inter distincta ut distincta
+						sunt. Due autem albedines in albedine communi non distinguuntur, igitur nec assimilantur
+						in ipsa. Item albedo in communi est fundamentum identitatis huius albedinis et illius,
+						igitur non est fudamentum similitudinis ut condividitur identitati, sicut nunc
+						loquimur.</p>
+
+					<p>Ad secundam dico quod ratio solvit se ipsam, quia, si unitas relationis venit ex
+						unitate fundamenti, ut isti doctores imaginantur, oportet quod talis sit unitas
+						fundamenti qualis est unitas relationis. Nunc autem ita est quod inter duo alba non est
+						una similitudo communis, sed due particulares, igitur non oportet querere unum
+						fundamentum commune, sed duo particularia, et sic concedo quod, sicut in duobus albis
+						sunt due similitudines eiusdem rationis, ita fundatur in duabus albedinibus eiusdem
+						rationis.</p>
+
+					<p>Ad tertiam nego consequentiam et ad probationem dico quod accipit non causam per eam,
+						quia quod due albedines sint similes et albedo et nigredo non sunt similes non provenit
+						ex hoc quod unitas specifica albedinum illarum fundat similitudinem, sicut illa ratio
+						videtur imaginari. Sufficit enim ad hoc quod quelibet earum per naturam suam sit vera
+						albedo non est alia causa querenda unde, sicut non est querenda causa qua-[126rb]-re ab
+						hac albedine et ab illa intellectus abstrahit conceptum specificum et non ab hac
+						albedine et ab hac nigredine nisi quia quilibet particularis albedo per suam naturam
+						particularem est vere albedo, et ideo ab eis potest abstrahi conceptus eiusdem rationis,
+						sic et in proposito suo modo.</p>
+
+					<p><name>Franciscus de Marchia</name> ubi supra</p>
+
+					<p>Contra tertiam conclusionem est opinio cuiusdam doctoris que fuit superius recitata pro
+						qua ipse arguit primo sic: quod aliqua magis conveniant in relatione quam alia hoc non
+						est nisi quia magis conveniunt in ratione absoluta, sed due linee equales magis in
+						relatione conveniunt sive in unitate relativa quam due linee inequales, igitur magis
+						conveniunt in aliqua ratione absoluta previa, sed illa ratio non est species linee, quia
+						species linee est communis omnibus lineis equalibus et inequalibus; igitur ista est
+						ratio absoluta communis infra naturam speciei, et sic media inter unitatem specificam et
+						numeralem.</p>
+
+					<p>Preterea, relatio unius in extremis presupponit extrema unius rationis inter se, sed
+						equalitas est relatio unius rationis in extremis; igitur presupponit extrema unius
+						rationis inter se, sed extrema propria equalitatis non sunt unius rationis in specie
+						linee plus quam extrema inequalitatis, quia inequalia sunt in specie sicut equalia, ergo
+						sunt unius rationis infra speciem et tale medium unius rationis infra speciem et supra
+						individuum est proprium fundamentum et medium equalitatis.</p>
+
+					<p>Responsio ad rationes <name>Francisci</name></p>
+
+					<p>Ad primum istorum dico quod due linee equales magis conveniant quam due inequales.
+						Potest dupliciter intelligi. Uno modo, quod conveniant in aliquo communi realiter in quo
+						non conveniant alie, et hic sensus falsus est, aliter oporteret dicere quod duo fratres
+						conveniunt in aliquo communi reali, quia magis conveniunt quam unus frater et unus
+						secularis. Alio modo, quia quelibet earum participat quantitatem in tanto gradu quod
+						alie non faciunt cum una sit maior alia, et hic intellectus verus est, sed ex hoc nihil
+						probatur, ut patet.</p>
+
+					<p>Ad secundum concedo quod equalitas presupponit extrema unius rationis inter se et
+						concedo ulterius quod extrema propria equalitatis non sunt unius rationis in specie
+						linee plus quam extrema inequalitatis, sed ex hoc non sequitur quod sint unius rationis
+						infra speciem linee et supra individuum. Et, si dicatur cur ergo iste linee sunt equales
+						et ille inequales, dicitur quod una istarum non excedit, nec exceditur ab altera et
+						istud sufficit. Nec propter hoc oportet ponere tale medium fictum quale ponit iste
+						doctor.</p>
+
+					<p>Contra quartam conclusionem possit argui ex fundamentis tenentium conclusionem
+						oppositam, sed, quia rationes eorum principales sunt adducte contra conclusiones
+						precedentes, supersedeo de multitudine rationum.</p>
+				</div>
+				<div>
+
+					<head>Ad rationes principales</head>
+
+					<p>Ad primam dictum est supra quod est non simile de identitate et equalitate, ut
+						declarabitur questione sequenti. Secundam vero concedo et credo eam omnino
+						concludere.</p>
+
+				</div>
+
+
+
+
+			</div>
+		</body>
+	</text>
+</TEI>

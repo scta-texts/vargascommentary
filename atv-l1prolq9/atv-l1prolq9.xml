@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Liber I, Prologus, Quaestio 9</title>
+				<author>Alphonsus Toletanus Vargas</author>
+				<editor>Luciana Cioca</editor>
+				<respStmt>
+					<name>Jeffrey C. Witt</name>
+					<resp>TEI Encoder</resp>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="0.0.0-dev">
+					<date when="2016-09-04">September 04, 2016</date>
+				</edition>
+			</editionStmt>
+			<publicationStmt>
+				<authority>THESIS project</authority>
+				<availability status="free">
+					<p>Public Domain</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="P" n="Paris1490">Paris1490</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+			<schemaRef n="lbp-critical-1.0.0"
+				target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/1.0/critical.rng"> </schemaRef>
+			<editorialDecl>
+				<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+					guidelines for a critical edition</p>
+			</editorialDecl>
+		</encodingDesc>
+		<revisionDesc status="draft">
+			<listChange>
+				<change when="2016-09-04" who="#JW" status="draft" n="0.0.0">
+					<p>Created file for the first time.</p>
+				</change>
+			</listChange>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:lang="la">
+		<front>
+			<div xml:id="includeList">
+				<xi:include
+					href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+					xpointer="worksCited"/>
+				<xi:include
+					href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+					xpointer="prosopography"/>
+			</div>
+			<div xml:id="starts-on">
+				<pb ed="#P" n=""/>
+				<cb ed="#P" n=""/>
+			</div>
+		</front>
+		<body>
+			<div xml:id="atv-l1prolq9">
+				<head>Liber I, Prologus, Quaestio 9</head>
+
+
+				<p>Idcirco dimissis questionibus ad genus cause efficientis pertinentibus circa causam
+					finalem, quero primo: utrum finis principaliter intentus in habitu theologico viatoris sit
+					praxis vel speculatio. </p>
+				<div type="rationes-principales">
+					<p>Et videtur primo quod speculatio, quia finis principaliter intentus in theologia
+						viatoris est credere, iuxta illud <title>Iohannem</title> III: hec scripta sunt ut
+						credatis. Credere autem est quoddam speculari cum fidei succedat visio; ergo etc.</p>
+					<p>Contra: finis principaliter intentus in theologia viatoris est dilectio, sed dilectio
+						est praxis, non speculatio, ut patet; ergo etc.</p>
+				</div>
+				<div>
+					<head>Divisio quaestionis</head>
+					<p>In ista questione erunt quattuor articuli, quia primo ponam aliquorum terminorum
+						declaratives. Secundo conclusiones. Tertio movebo dubia et ultimo respondebo.</p>
+				</div>
+				<div type="articulus">
+					<head>Articulus primus</head>
+
+					<p>Quantum ad primum articulum primo declarabitur quid praxis, secundo quid speculatio. </p>
+
+					<p>Circa primum est advertendum quod praxis potest accipi quadrupliciter: communissime,
+						communiter, proprie et magis proprie. </p>
+					<p>Primo modo: omnis operatio cuiuscumque virtutis potest dici praxis sive sit libera,
+						sive naturalis, sive sit agentis per cognitionem, sive non. Ratio huius est, quia praxis
+						grece dicitur operatio latine, igitur de quocumque operatio predicatur et praxis, unde
+							<name>Commentator</name> I <title>Ethicorum</title>, commento 1, dicit quod, licet
+						praxis et endelechia, id est actus et operatio, secundum appropriatas significationes
+						distinguantur, communiter tamen acceptis nominibus unum per altero ponitur
+						indifferenter. </p>
+					<p>Secundo modo dicitur praxis non quecumque operatio, sed existens in potestate
+						voluntatis, sive talis sit actus eius elicitus, sive imperatus, sive sit respectu finis,
+						sive eorum que sunt ad finem. Ratio huius est, quia omnis operatio virtutis vel vitii
+						est vere praxis, <name>Commentatore</name>, ubi supra, dicente: “dicitur rursus
+						energia”, et sic praxis opus virtutis et per consequens vitii, quia qua ratione opus
+						virtutis est praxis eadem et opus vitii, sed omnis operatio existens in potestate
+						voluntatis est opus virtutis vel vitii, quia omnis talis potest esse virtuose vel
+						vitiosa, igitur omnis talis est vere praxis, dum tamen quantum ad illud per quod
+						formaliter est virtuosa vel vitiosa in genere moralis sit in potestate voluntatis. </p>
+					<p>Tertio accipitur praxis proprie et sic dicitur praxis operatio existens in potestate
+						voluntatis non quecumque, sed electiva tantum vel sequens electionem. Hec est expressa
+						sententia <name>Philosophi</name> VI <title>Ethicorum</title>, ubi vult quod omnis actus
+						humanus qui proprie habet rationem praxis est electio vel sequens electionem. Et sic
+							<name>Commentator</name> loquitur, ubi supra, dicens: “praxim autem consueverunt
+						transferre in actum qui est secundum selectionem”. Et, licet praxis proprie dicatur tam
+						de operatione que sequitur electionem, quam de electione ipsa, quia electio, ut patet
+						ibidem, est principium actuum humanorum laudabilium et vituperabilium, de utroque tamen
+						dicitur proprie, ut patet per <name>Aristotelem</name>. </p>
+					<p>Quarto modo accipitur magis proprie et propriissime et sic praxis dicitur operatio
+						existens in potestate voluntatis electiva vel sequens electorum, non quecumque, sed
+						alterius potentie quam intellectus. Ratio huius est, quia intellectus extensione sit
+						practicus ex III <title>De anima</title>, igitur illa tantum operatio ad quam extenditur
+						intellectus est praxis propriissime et strictissime, sed stando precise in actibus
+						intellectus nulla est extensio intellectus, quia non tendit extra se nisi ut actus eius
+						tendit respicit actum alterius potentie, igitur solus actus intellectus praxis
+						propriissime dum tamen sit in potestate voluntatis et sic electio vel sequens
+						electionem. </p>
+					<p>Hec ad propositum applicando dico quod [29va] praxis a qualia proprie dicitur habitus
+						vel scientia practica, quia sic ad presens loquor de practica, non est praxis sumpta
+						primo modo, nec secundo, nec tertio. Ratio huius est, quia praxis sic sumpta
+						distinguitur a speculatione, quia nulla scientia a speculatione dicitur practica.
+						Accepta autem primo modo vel secundo, vel tertio non distinguitur ab ipsa. </p>
+					<p>Non quidem accepta primo modo, quia sic omnis operatio cuiuscumque virtutis dicitur
+						praxis. Speculatio autem est operatio virtutis intellective. </p>
+					<p>Nec secundo, quia sic omnis operatio existens in potestate voluntatis dicitur praxis.
+						Constat autem quod speculatio existit in potestate voluntatis, quia speculatio est
+						quedam intellectio. Intelligere autem potest homo, cum voluerit II <title>De
+							anima</title>. </p>
+					<p>Nec tertio, quia sic omnis operatio electiva, vel sequens electionem est vere praxis,
+						sed de speculatione potest esse consilium et respectu eius et electio, igitur pura
+						speculatio potest esse praxis isto modo. Praxis ergo a qua proprie dicitur habitus vel
+						scientia practica non est praxis sumpta aliquo istorum modorum. Restat ergo per locum a
+						sufficienti divisione quod a praxi quarto modo dicta dicatur scientia practica, quod
+						patet etiam ex duobus. </p>
+					<p>Primo sic, quia distinguitur a speculatione, ut patet secundo, quia per extensionem ad
+						ipsam intellectus dicitur practicus, ut patet ex dictis, igitur et habitus vel scientia.
+						Praxis igitur, ut de ea loquimur ad presens, est operatio alterius potentie intellectus
+						electiva vel sequens electionem nata elici conformiter rationi recte ad hoc quod sit
+						recta. Per primum excluditur omnis operatio intuitiva, quia ad ipsam proprie non
+						extendit intellectus, et sic speculatio per secundum excluditur omnis operatio
+						cuiuscumque potentie que non est electio vel sequens electionem de quibus dicetur infra.
+						Per tertium describitur praxis bona vel virtuosa, non vitiosa, quia vitiosa non nata est
+						elici conformiter rationi, sed difformiter rationi recte, vel conformiter ratione
+						erronee.</p>
+					<p>Contra descriptionem quam dat <name>Ockham</name> de praxi in <title>Prologo</title> I,
+						questione, articulo</p>
+					<p>Ex his infero aliquas conclusiones correlarias. </p>
+					<p>Prima est quod illa descriptio praxis est impropria que dicitur quod praxis est omnis
+						operatio existens in potestate voluntatis considerata ab intellectu respectu cuius est
+						electio voluntatis. </p>
+					<p>Hoc patet primo, quia praxis sic dicta dicitur de operatione intellectus etiam per eos
+						cuius oppositum patet ex dictis. </p>
+					<p>Secundo, quia illa descriptio praxis est impropria per quam praxis non distinguitur a
+						speculatione, quia speculatio, ut nunc loquimur, non est praxis, aliter scientia
+						speculativa esset vere practica, quod nihil est dicere. Hec autem est talis, quia
+						speculatio est in potestate voluntatis et potest esse considerata ab intellectu et
+						respectu ipsius potest esse electio; igitur etc.</p>
+					<p>Contra descriptionem <name>Francisci</name> in <title>Prologo</title> I, questione 9,
+						articulo 1</p>
+					<p>Secunda est quod etiam illa descriptio est nulla qua dicitur quod praxis est operatio
+						intellectus regulabilis a ratione recta. </p>
+					<p>Hoc patet primo, quia aliquis actus intellectus potest per alium actum intellectus
+						aliquo modo dirigi regulariter, aliter logyca non dirigeret nos in actibus discurrendi
+						et tamen nullus est vere praxis etiam per eum ibidem. </p>
+					<p>Secundo, quia non omnis praxis est regulariter a ratione recta. Praxis enim vitiosa non
+						elicitur conformiter, sed difformiter rationi recte. Nec valet si dicatur quod
+						diffinitur praxis bona vel virtuosa, non vitiosa, quia tunc deberet dici quod praxis est
+						operatio regulabilis a ratione recta ad hoc quod sit recta, et sic de praxi virtuosa
+						fieret mentio.</p>
+					<p>Contra descriptionem <name>Scoti</name> in <title>Prologo</title> I, questione ultima,
+						articulo</p>
+					<p>Tertia est quod illa descriptio praxis est simpliciter insufficiens qua dicitur quod
+						praxis est actus alterius potentie quam intellectus naturaliter posterior intellectione
+						nata elici conformiter etc. Hoc patet, quia illa descriptio est insufficiens que non
+						convertitur cum descripto, talis est ista; ergo. Probatur minor, quia nulla operatio est
+						proprie praxis nisi sit electio vel sequens electionem, ut patet per
+							<name>Aristotelem</name>, sed aliqua operatio que non est electio nec se-[29vb]-quens
+						electionem est alterius potentie quam intellectus naturaliter posterior intellectionem
+						nata elici conformiter etc, sicut patet de appetitu finis, immo de omni operatione circa
+						ipsum finem, igitur non omnis operatio alterius potentie quam intellectus naturaliter
+						posterior intellectione nata elici etc. </p>
+					<p>Ex hoc patet quod illa descriptio est insufficiens que non convertitur cum descripto,
+						talis est illa, igitur. Minor probatur, quia nulla operatio est proprie praxis nisi sit
+						electio vel sequens electionem, ut patet per <name>Aristotelem</name>. Sed aliqua que
+						non est electio vel sequens electionem est alterius potentie, quia intellectus
+						naturaliter posterior intellectione nata elici conformiter etc, sicut patet de appetitu
+						finis, immo de omni operatione circa ipsum fine, ergo non omnis operatio alterius
+						potentie quam intellectus naturaliter posterior intellectione etc. est proprie praxis,
+						nec per consequens descriptio convertitur cum descripto. Et ulterius, licet prima
+						conditio huius descriptionis sit vera, oppositum tamen potest ostendi ex dictis huius
+						doctoris. </p>
+					<p>Primo, quia sequitur per eum in eadem questione intellectio est imperata a voluntate,
+						igitur est praxis vel practica, sed aliqua intellectio potest esse imperata a voluntate
+						et tamen nullo modo potest esse practica. </p>
+					<p>Preterea, omnis operatio ad quam inclinat virtus appetitiva est vere praxis per eum
+						ibidem, immo per hoc probat dilectionem finis esse praxim, sed ad operationem aliquam
+						intellectivam inclinat virtus appetitiva, quia ad virtuose studendum vel speculandum
+						inclinat amor habitualis qui est virtus appetitiva, etiam per eum. Et confirmatur, quia
+						ad speculandum vel virtuose studendum potest aliquis inclinari in imperium voluntatis
+						non minusquam ad ieiunandum vel celebrandum, ergo talis cognitio vere erit praxis et in
+						his iste doctor videtur contradicere sibi. </p>
+					<p>Sed contra descriptionem per me datam quantum ad primam eius contradictione que dicitur
+						quod praxis est operatio alterius potentie quam intellectus arguitur primo sic.</p>
+					<p><name>Ockham</name> in <title>Prologo</title> I, questione I de practico et
+						speculativo, articulo 1</p>
+					<p>Omnis operatio de qua sicut de subiecto est notitia practica est praxis, quia notitia
+						practica dicitur in extensione ad praxim, sed de speculatione et actu intelligendi est
+						notitia practica et hoc est intelligendum de operibus que sunt in potestate nostra, ergo
+						ipsa intellectio est praxis. </p>
+					<p>Preterea, omnis operatio sequens electionem est praxis, sed actus intelligendi sequitur
+						electionem et consilium. Potest enim aliquis consiliari an debeat studere vel non et
+						postea eligere studere, igitur istud studium sequens consilium et electionem vere praxis
+						est.</p>
+					<p>Preterea, omnis actus intelligendi qui est directivus alterius actum mediante actu
+						voluntatis est practicus et actus directus est praxis, sed unus actus intellectus vere
+						dirigit alium actum mediante actu voluntatis, ergo primus dirigens vere erit practicus
+						et alius directus vere erit praxis. Maior est manifesta, quia talis actus vere
+						extenditur ad alium dirigendum per ipsum. Minor patet, quia dictamen quo dictatur pro
+						quo loco et tempore est studendum in theologia vel alia facultate vere dirigitur
+						mediante actu voluntatis. Potest enim voluntas conformiter imperare istud studium sicut
+						dictatur prius per intellectum; igitur etc.</p>
+					<p>Responsio ad rationes <name>Ockham<supplied>i</supplied></name></p>
+					<p>Ad primum patet quod improprie loquitur de praxi, quia ratio probat quod pure
+						speculatio sit vere praxis. Proprie igitur non loquitur de praxi, ut ab ea distinguitur
+						scientia practica, dicendum igitur quod minor est falsa, aliter naturalis philosophia
+						que considerat de actibus intellectus, ut patet III <title>De anima</title>, esset
+						scientia practica contra <name>Philosophum</name>. Et ad probationem dico quod de
+						operibus que sunt in potestate voluntatis ad quem intellectus potest extendi est notitia
+						practica. Non autem de operibus vel actibus ad quem vel ad quos non extenditur
+						intellectus, quia intellectus, ut patet extensione, sit practicus. Ad actus autem
+						intelligendi [30ra] et presertim ad speculationem non exceditur intellectus, ut dictum
+						est supra. </p>
+					<p>Ad secundum patet quod loquitur de praxi tertio modo dicta, non quarto, quia sic non
+						omnis operatio electiva vel sequens electionem est praxis, ut patet ex dictis, et ideo
+						non est ad propositum, quia equivocatur de praxi.</p>
+					<p>Ad tertium dicendum per interemptionem maioris quod non omnis actus intelligendi qui
+						est directivus alterius mediante actu voluntatis est practicus, nec actus directus est
+						praxis, ut nunc loquimur de praxi, nisi actus directivus vel sequens electionem, aliter
+						logyca esset practica, quia dirigit nos in actibus discurrendi, quod communiter non
+						tenetur. Et ad probationem quando dicitur quod talis actus vere extenditur ad alium
+						dirigendum dicendum quod talis extensio actus non sufficit ad hoc quod actus directivus
+						sit practicus et actus directus sit praxis, ut loquimur, sed requiritur extensio ipsius
+						intellectus que non est possibilis stando precise in actibus intelligendi.</p>
+					<p>His premissis patet, quis sit praxis, ut de praxi loquimur ad presens, et hoc de primo
+						termino. De secundo dico quod speculatio a qua proprie dicitur habitus vel scientia
+						speculativa, quia sic de speculatione loquor ad presens est operatio intellectiva que
+						non ordinatur ad aliquam operationem regulandam que vere sit praxis, sed est sui gratia.
+						Per primum excludit omnis operatio alterius potentie quam intellectus et sic praxis. Per
+						secundum, omnis notitia practica, quia omnis talis dicitur practica a praxi ad quam
+						ostenditur vel ordinatur. Per tertium ostenditur quod eius finis est scire tantum, non
+						operari.</p>
+					<p>Sed contra descriptionem istam et presertim quantum ad tertiam eius partem potest argui
+						primo sic: quod est sui gratia non ordinatur sic ad alium finem, sed quod non ordinatur
+						ad finem est ultimus finis, igitur quod est sui gratia est ultimus finis, sed speculatio
+						non est ultimus finis, igitur non est sui gratia.</p>
+					<p>Preterea, non omnis habitus speculativus est sui gratia, sed solus metaphysicus,
+						dicente <name>Philosopho</name> in Prohemio <title>Metaphysice</title> quod hec sola
+						libera est scientiarum, sola namque hec suimet est causa, igitur non omnis speculatio
+						erit sui gratia, sed sola metaphysica.</p>
+					<p>Preterea, sicut se habet habitus ad habitum, sic actus ad actum, sed omnis habitus,
+						sive sit practicus, sive speculativus, ad theologiam ordinatur tanquam ad finem, ergo
+						omnis speculatio et omnis praxis ad speculationem vel operationem theologie ordinatur,
+						igitur nulla earum est sui gratia.</p>
+					<p>Preterea, speculatio ordinatur ad ulteriorem operationem tanquam ad finem, igitur non
+						est sui gratia. Patet consequentia. Antecedens probatur, quia omnis operatio potentie
+						inferioris ordiantur finaliter ad operationem potentie superioris, VII
+							<title>Physicorum</title>. Semper enim quod est deterius maioris est gratia, sed
+						voluntas est superior intellectu, igitur omnis operatio intellectiva ordinatur finaliter
+						ad operationem voluntatis.</p>
+					<p>Pro solutione istarum rationum est advertendum quod speculatio non dicitur sui gratia
+						simpliciter, quia quod sic est sui gratia est ultimus finis omnium et sic solus Deus est
+						sui gratia, sed dicitur sui gratia secundum quid, quia videlicet non ordinatur ad
+						aliquam operationem dirigendam et regulandam que vere sit praxis.</p>
+					<p>His premissis dicendum ad primum quod illud quod est simpliciter sui gratia non
+						ordinatur ad finem sui. Speculatio autem non est simpliciter sui gratia, sed secundum
+						quid.</p>
+					<p>Ad secundum dico quod sola metaphysica dicitur sui gratia, non quia ipsa sola non
+						ordinatur ad operationem aliquam dirigendam que vere sit praxis, sed quia ad ipsam
+						tanquam ad perfectiorem omnes alie ordinantur. Ipsa autem non ad aliam. Per idem patet
+						quid dicendum ad tertium.</p>
+					<p>Ad quartum dicerent aliqui quid actus intellectus est perfectior actu voluntatis, non
+						igitur ordinatur ad ipsam, sed econtra. Hoc tamen non credo verum, et ideo concedo quod
+						speculatio et omnis actus intellectus ad actum aliquem voluntatis finaliter ordinatur,
+						non tamen ad ipsum dirigendum vel ordinandum, et ideo non sequitur quod sit sui gratia,
+						ut nunc loquimur. Et hoc de primo. [30rb]</p>
+				</div>
+				<div type="articlus">
+					<head>Secundus articulus</head>
+					<p>Quantum ad secundum articulum pono quattuor conclusiones. Premitto tamen ad earum
+						evidentiam quod theologia viatoris potest accipi uno modo pro habitu unius conclusionis
+						theologice tantum. Alio modo pro habitu omnium conclusionum pertinentium ad ipsam, sicut
+						in questione de subiecto dicebatur. Et intelligo questionem de theologia secundo modo
+						dicta, quia sic doctores communiter querunt de fine theologie. Ratio huius est, quia
+						posito quod finis immediatus unius conclusionis theologice sit praxis et alius
+						speculatio, adhuc isti fines habent per se ordinem inter se, vel ad unum tertium qui
+						principaliter in toto habitu theologico intenditur et de tali proponitur presens
+						questio.</p>
+					<div>
+						<head><supplied>Conclusio prima</supplied></head>
+						<p>His premissis prima conclusio est quod actus voluntatis circa finem non est proprie
+							praxis, sed circa ea tantum que sunt ad finem. Ista conclusio sequitur ex supradictis,
+							quia omnis actus qui proprie habet rationem praxis est electio vel sequens electionem,
+							sicut patet ex articulo precedenti, sed volitio finis non est electio, nec sequitur
+							electionem, ergo. </p>
+						<p>Minor probatur primo, quia voluntas est finis. Electio autem eorum que sunt ad finem,
+							ut patet per <name>Philosophum</name> III <title>Ethicorum</title>. </p>
+						<p>Secundo, quia electio sequitur consilium. Consilium autem non est de fine, sed de his
+							que sunt ad finem. Consiliamur enim non de finibus, sed de his que sunt ad finem,
+							secundum <name>Aristotelem</name>, ubi supra, igitur respectu finis non est electio,
+							nec per consequens actus qui sequitur electionem, sed respectu eorum que sunt ad finem
+							tantum.</p>
+					</div>
+					<div>
+						<head><supplied>Conclusio secunda</supplied></head>
+						<p>Secunda conclusio est quod dilectio Dei meritoria non est proprie praxis. Ista
+							conclusio sequitur ad precedentem, quia dilectio Dei meritoria est actus voluntatis
+							circa finem, non circa ea que sunt ad finem. Et confirmatur, quia nulla operatio que
+							est simpliciter perfectior quacumque speculatione est proprie praxis, quia quacumque
+							notitia practica aliqua speculatio est perfectior et quacumque praxi aliqua
+							speculatio, ex Prohemio <name>Metaphysice</name>, sed dilectio Dei meritoria est
+							simpliciter perfectior quacumque speculatione, saltem pro statu vie; ergo etc.</p>
+						<p>Preterea, omnis actus virtuosus qui proprie habet rationem praxis est in potestate
+							voluntatis quantum ad illud pro quod formaliter est virtuosus, sed dilectio Dei
+							meritoria non est in potestate voluntatis, ut meritoria est sive quantum ad illus per
+							quod veraciter est meritoria; igitur etc. Maior patet ex supradictis. Minor probatur,
+							quia dilectio Dei ex sola acceptatione divina est meritoria. Hoc autem, ut patet, non
+							est in potestate voluntatis. Et confirmatur ista ratio, quia omnis actus qui proprie
+							habet rationem praxis ante inquisitionem vel infusionem habitus est in potestate
+							voluntatis. Patet in omnibus inductive, sed constat quod dilectio Dei meritoria ante
+							infusionem habitus caritatis non est in potestate voluntatis, aliter ex puris
+							naturalibus possemus mereri vitam eternam, quod est error pelagii; ergo etc. Nec valet
+							si dicatur quod maior est vera de omni praxi quam philosophi cognoverunt. Non autem de
+							ista, quod non viderunt, quia sic dicendo conceditur quod dilectio Dei non est praxis
+							eo modo quo philosophi loquuntur de praxi, et hoc intendimus. Nec valet ulterius si
+							dicatur quod, licet ante infusionem habitus caritatis dilectio Dei meritoria non sit
+							in potestate voluntatis, post infusionem tamen ipsius in potestate nostra est. Primo,
+							quia concesso quod assumitur non solvitur ratio, quia praxis, ut de ea loquuntur
+							philosophi, non solum post acquisitionem habitus, sed etiam ante est in libera
+							potestate voluntatis. Secundo, quia etiam posito habitu caritatis infuse ad hoc quod
+							dilectio Dei sit meritoria requiritur acceptatio divina que non est in potestate
+							nostra, nec habitus caritatis necessitat voluntatem divinam ad acceptandum actum
+							meritorium nisi ex ordinatione divina, ut [30va] suppono ad presens; igitur etc.</p>
+					</div>
+					<div>
+						<head><supplied>Conclusio tertia</supplied></head>
+						<p>Tertia conclusio est quod finis principaliter intentus in habitu theologico viatoris
+							est dilectio Dei meritoria. </p>
+						<p>Probatur primo sic: nobilissima operatio ad quam theologia pro statu vie finaliter
+							ordinatur est finis principaliter intentus in habitu theologico viatoris. Dilectio Dei
+							meritoria est huiusmodi, ergo. Maior patet, quia, si detur oppositum, sequitur quod
+							theologia in nobis non sit scientia nobilissima, quia illa erit nobilior, cuius finis
+							principaliter intentus est huiusmodi operatio nobilissima. Minor habet duas partes.
+							Prima est quod theologia pro statu vie sicut ad finem ordinatur ad dilectionem Dei
+							meritoriam. </p>
+						<p>Et ista probatur primo sic: <title>Sacra Scriptura</title> et precepta divina ad
+							eundem finem ordinantur pro statu vie. Hoc patet, quia tam <title>Scriptura
+								Sacra</title> quam precepta divina ordinantur ultimate ad beatitudinem consequendam,
+							igitur finis precepti est finis <title> Scripture Sacre</title>, saltem pro statu vie,
+							sed finis precepti est caritas, sicut patet per <name>Apostolum</name> I <title>Ad
+								Thimoteum</title> 1; ergo etc. </p>
+						<p>Secundo sic: qui diligit Deum et proximum legem implet, igitur finis legis et per
+							consequens <title>Sacre Scripture</title> est dilectio Dei et proximi. Antecedens
+							patet, quia plenitudo legis est dilectio, <title>Ad Romanos</title> 13. Consequentia
+							probatur, quia, sicut finis precepti est ad impletio precepti, sic finis legis est
+							impletio legis. </p>
+						<p>Tertio sic, quia finis precepti est finis <title>Scripture Sacre</title>, sicut patet
+							ex ratione precepti, ex finis precepti est plenitudo legis, ergo. Istam rationem
+							tangit <name>beatus Augustinus</name>
+							<title>De laude caritatis</title> in principio sermonis, ubi sic ait: “divinarum
+							Scripturarum multiplicem habundantiam latissimamque doctrinam sine ullo errore
+							comprehendit et sine ullo labore custodit cuius cor plenum est caritate, dicente
+								<name>Apostolo</name>, plenitudo autem legis caritas”. Et alio loco: “finis autem
+							precepti caritas de corde puro et conscientia bona et fide non ficta, quod est autem
+							precepti finis nisi precepti ad impletio nisi legis plenitudo, quid ergo dixit
+							plenitudo legis caritas, hoc etiam hic dixit finis precepti caritas”. Hec
+								<name>Augustinus</name>. Ex quibus verbis evidenter apparet quod finis <title>Sacre
+								Scripture</title> sit dilectio, quia ipsa est finis precepti et legis plenitudo. </p>
+						<p>Tertio sic: illa doctrina que nobis ad hoc proponitur intuenda, ut per ipsum Deus
+							queratur et diligatur, ad dilectionem Dei ordinatur sicut ad finem. Oppositus
+							predicati infert oppositum subiecti. Theologia est huiusmodi, ut patet per beatum
+								<name>Augustinum</name> II <title>De Trinitate</title>, capitulo 2, ubi sic ait:
+							“non erro ad inquirendam substantiam Dei sive per Scripturam eius sive per creaturam,
+							que utraque nobis ad hoc proponitur intuenda, ut ipse queratur ipse diligatur”;
+							ergo.</p>
+						<p>Secunda pars illius minoris est quod dilectio Dei meritoria pro statu vie est
+							nobilissima hominis operatio et hec communiter est concessa, quia, sicut se habet
+							habitus ad habitum, ita actus ad actum, sed habitus caritatis saltem pro statu vie est
+							nobilissimus, quia nobilior nobilibus, dicente <name>Apostolo</name> I <title>Ad
+								Corinthos</title> 13: <quote ana="Icor13_13">nunc autem manent fides, spes, caritas,
+								tria hec; maior autem horum est caritas</quote>; ergo. Patet ista minor et per
+							consequens illa tota ratio confirmatur, quia tota <title>Sacra Scriptura</title> ad
+							fidem speciem et caritatem pro statu vie finaliter ordinatur, sicut patet per
+								<name>beatum Augustinum</name> VIII <title>De Trinitate</title>, capitulo 16 de
+							parvis, ubi sic ait: “ubi sunt enim illa tria propter que in animo edificanda omnium
+							divinorum librorum machinamenta consurgunt fides, species, caritas nisi in animo
+							credente quod nundum videt et sperante atque amante quod credit”. Sed constat quod
+							maior istorum trium est caritas sive dilectio, ut patet per <name>Apostolum</name> iam
+							allegatum, igitur ad ipsam sicut ad finem principalem et principaliter intentum tota
+								<title>Scriptura Sacra</title> ordinatur saltem pro statu vie.</p>
+						<p>Secundo ad principale sic: illa operatio per quam viator perfectius et intimius
+							coniungitur ipsi Deo est finis principaliter intentus in habitu theologico viatoris,
+							dilectio Dei meritoria est huiusmodi, ergo. Maior patet ex duobus. Primo, quia tota
+							Sacra Scriptura finaliter ordinatur ad perfectam unionem hominis cum Deo. Secundo,
+							quia omnis habitus ordinatur sicut ad finem principaliter intentum ad illum actum per
+							quem poten-[30vb]-tia divina perfectius unitur et coniungitur subiecto cuius est
+							habitus. Minor autem est nota, quia Deus caritas est qui manet in caritate in Deo
+							manet et Deus in eo, unde <name>beatus Augustinus</name>
+							<title>De laude caritatis</title>, circa principium: “nec dubitari ullo modo potest
+							quod templum Dei sit homo in quod habitat caritas. Dicit enim Iohannes caritas est
+							Deus”; ergo etc.</p>
+						<p>Tertio sic: habitus theologicus viatoris ordinatur ultimate ad eternam beatitudinem
+							consequendam, sicut patet per <name>beatum Augustinum</name> XIV <title>De
+								Trinitate</title>, capitulo 1, igitur illa operatio est finis principaliter intentus
+							in ipso per quam huiusmodi habitudo acquiritur principaliter, sed hec est dilectio Dei
+							et proximi, non est dubium, dicente <name>Apostolo</name> I <title>Ad
+								Corinthos</title> 13: Si linguis hominum loquar et angelorum, caritatem autem non
+							habeam, etc. Super quo verbo dicit <title>Glossa</title> probat quod caritas sit
+							excellentior aliis, quia alia non valent sine ea et ipsa sine eis valet, unde
+								<name>beatus Augustinus</name> XV <title>De Trinitate</title>, capitulo 49: “nullum
+							est isto Dei dono excellentius. Solum est quod dividit inter filios regni eterni et
+							filios perditionis eterne”. Et subdit immediate dantur et alia per ipsam in
+							misericordia, sed sine caritate nihil prosunt nisi ergo tantum impartiatur cuique
+							Spiritus Sanctus, ut eum Dei proximum faciat amatorem a sinistra non transiertur ad
+							dextram. Et quibusdam paucis interpositis concludit quantum ergo bonum est sine quoad
+							eternam vitam neminem cetera bona inducunt. Ex quibus apparet quod per dilectionem Dei
+							et proximi eterna beatitudo acquiritur principaliter; ergo etc. </p>
+						<p>Ista conclusio potest multis auctoritatibus confirmari. </p>
+						<p>Primo auctoritate illa vulgata <name>beati Augustini</name>
+							<title>De laude caritatis</title> et ponitur in <title>Glossa</title> super illo verbo
+							I <title>Ad Thimoteum</title> in finis precepti caritas, ubi sic inquit
+								<name>Augustinus</name>: “totam magnitudinem et ampliationem divinorum eloquiorum
+							secura possidet caritas qua Deum proximumque diligimus que radix est omnium bonorum
+							unde in his duobus preceptis tota lex pendet et Prophete, si ergo non vacat omnes
+							paginas sanctas perscrutari, omnia volumina sermonum evolvere, omnia scripturarum
+							secreta penetrare, tene caritatem ubi pendent omnia, quia finis omnium est dilectio
+							Dei et proximi”. Hec <name>Augustinus</name>. </p>
+						<p>Secundo auctoritate eiusdem I <title>De doctrina christiana</title>, capitulo 49, ubi
+							sic ait: “omnium igitur que predicta sunt ex quo de rebus tractamus, hec summa est ut
+							intelligatur legis et omnium scripturarum divinarum plenitudo et finis esse dilectio
+							rei qua fruendum est et rei que nobis cum ea re frui potest”.</p>
+						<p>Ex his et multis similibus que possunt adduci patet quod finis totius Scripture Sacre
+							saltem pro statu vie est dilectio Dei et proximi et non est finis alterius
+							principaliori subordinatus, ut patet ex supradictis; ergo etc.</p>
+					</div>
+					<div>
+						<head><supplied>Conclusio quarta</supplied></head>
+						<p>Quarta conclusione est quod finis principaliter intentus in habitu theologico
+							viatoris non est praxis, nec speculatio. Ista conclusio sequitur ex precedentibus,
+							quia finis principaliter intentus in theologia viatoris est dilectio Dei meritoria ex
+							conclusione precedenti et dilectio Dei meritoria non est proprie praxis, sicut patet
+							ex secunda conclusione. Et certum est quod non est speculatio cum sit actus
+							voluntatis, non intellectus, ergo. Et hec de secundo.</p>
+					</div>
+				</div>
+				<div type="articulus">
+					<head>Tertius et quartus articulus</head>
+					<p>Quantum ad tertium et quartum articulum simul movenda et dissolvenda sunt dubia. Et
+						primo contra primam conclusionem quidam doctor arguit primo sic:</p>
+					<p><name>Scotus</name> in <title>Prologo</title> I, questione 4</p>
+					<p>Omnis operatio alterius potentie quam intellectus naturaliter posterior intellectione
+						nata dirigi et regulari per rationem rectam est propriisime praxis. Actus voluntatis
+						circa finem ultimum est huiusmodi, ergo. Maior supponitur. Minor probatur dupliciter. </p>
+					<p>Primo sic, quia, licet voluntas non possit errare circa finem ostensum in universali,
+						potest tamen errare circa finem in particulari ostensum, igitur adhuc ut recta ratione
+						agit circa finem principaliter ostensum indiget dirigi et regulari et non nisi per
+						rationem rectam; [31ra] ergo etc.</p>
+					<p>Secundo, quia habitus directivus non ponitur propter substantiam actus, sed propter
+						circumstantiam, sicut temperantia. Non ponitur propter substantiam actus comedendi, sed
+						propter circumstantiam, igitur, licet voluntas determinata esset ad substantiam actus
+						tendentis in finem in particulari, requireretur tamen directio quantum ad circumstantias
+						illius actus ad quas non extenditur directio que est circa substantiam actus, igitur
+						idem quod prius.</p>
+					<p>Preterea, ad principalem secundo sic: cognitio dirigens voluntatem circa ultimum finem
+						est cognitio practica, igitur actus voluntatis directivus est vere praxis. Consequentia
+						est nota, quia cognitio practica non dirigit nisi praxim. Antecedens probatur, quia ad
+						idem genus secundum praxim vel speculationem pertinet principia et conclusiones.
+						Conclusiones enim practice resolvuntur in principia practica, non speculativa, igitur,
+						cum cognitio finis sit directiva in actibus circa ea que sunt ad finem et quasi sit
+						cognitio eorum que sunt ad finem, sic quasi cognitio inclusa in cognitione finis quasi
+						principia si cognitio eorum que sunt ad finem sit cognitio conclusionum practicarum,
+						cognitio finis erit cognitio predicta quasi principia practici.</p>
+					<p>Responsio ad rationes <name>Scoti</name></p>
+					<p>Ad primum istorum nego maiorem, quia, sicut actus intelligendi directus et regulatus
+						per alium actum intellectus non est vere et propriissime praxis, quia ad ipsum non
+						extenditur intellectus, etiam per istum doctorem, ita etiam et actus voluntatis, etiam
+						si sit directus per rationem, non erit proprie praxis, nisi sit electivus vel sequens
+						electionem, ut patet ex dictis quorum neutrum convenit in proposito cum voluntas sit
+						finis, electio autem eorum que sunt ad finem.</p>
+					<p>Ad secundum nego antecedens, quia cognitio quam habet intellectus de Deo, ut est finis
+						ultimus, est speculativa, non practica, et cognitio quam habet theologus non est
+						practica, nec speculativa, ut declarabitur questione sequenti. Et ad probationem dico
+						quod cognitio eorum que sunt ad finem non se habet ad cognitionem finis, sicut conclusio
+						ad principium eo modo quo principium et conclusio sumuntur in habitu scientifico, sicut
+						imaginatur illa deductio, et ideo ratio nulla.</p>
+					<p><name>Scotus</name>, ubi supra</p>
+					<p>Contra secundam conclusionem idem doctor arguit sic: omnis actus ad quem inclinat
+						virtus appetitiva est vere praxis, quia quelibet talis virtus est habitus electivus II
+							<title>Ethicorum</title>, sed ad dilectionem Dei inclinat virtus appetitiva, non
+						tantum caritas, sed etiam amor acquisitus habitualis qui est virtus appetitiva, quia
+						habitus appetitus consonat rationi recte; igitur etc.</p>
+					<p>Ad idem arguunt alii sic:</p>
+					<p>Preterea, omnis operatio existens in potestate voluntatis est praxis vel speculatio ex
+						communi dicto omnium philosophorum, sed dilectio Dei est in potestate voluntatis et non
+						est speculatio, cum non sit operatio intellectus, sed voluntatis, igitur est vere
+						praxis.</p>
+					<p>Preterea, vel actus dilectionis meritorie est eiusdem rationis specifice quantum ad
+						substantiam actus cum actu dilectionis naturalis circa Deum vel alterius. Si eiusdem,
+						igitur sicut actus dilectionis naturalis est vere praxis et actus dilectionis
+						supernaturalis. Si alterius, adhuc idem sequitur, quia, sicut ex parte intellectus actus
+						naturalis et supernaturalis infra idem genus et considerationis continentur, quia
+						uterque est vere speculatio, sic etiam ex parte voluntatis debet esse, et per consequens
+						sicut actus dilectionis naturalis est vere praxis et supernaturalis. Et confirmatur,
+						quia actus videndi elicitus a potentia visiva supernaturaliter creata. Si poneretur et
+						actus videndi elicitus a potentia naturaliter generata infra idem genus continerentur,
+						quia uterque esset visio, igitur a simili quamvis actus dilectionis meritorius sit
+						elicitus a potentia mediante habitu supernaturaliter infuso. Erit tamen infra idem genus
+						operationis cum actu dilectionis naturalis, sic quod uterque erit vere praxis.</p>
+					<p>Preterea, <name>Philosophus</name> III <title>De anima</title>, capitulo de movente
+						dicit quod “sicut appetitus sensitivus sequi-[31rb]-tur rationem et per ipsam in agendo
+						cum fantasia est principium motivum, sic etiam et voluntas cum ratione, sed
+						quotienscumque appetitus sensitivus sequitur rationem et per ipsam in agendo regulatur
+						est principium practicum et operatio eius est vere praxis, igitur quotienscumque
+						voluntas sequitur rationem est per ipsam in sua regulatione operatur erit principium
+						practicum et eius operatio est vere praxis”, ita in diligendo Deum voluntas sequitur
+						rationem et per ipsam dirigitur et regulatur; ergo etc.</p>
+					<p>Responsio ad rationes <name>Scoti</name> et suorum</p>
+					<p>Ad primum istorum potest uno modo dici quod ad dilectionem Dei meritoriam non inclinat
+						virtus appetitiva quod sit habitus electivus, quia electio est precise illorum que sunt
+						ad finem. Et quando dicitur quod omnis virtus appetitiva est habitus electivus verum est
+						si sit appetitiva eorum que sunt ad finem, non eorum que sunt appetitiva finis, quia
+						respectu finis non est electio, sed voluntas.</p>
+					<p>Secundo, quia non omnis operatio ad quam inclinat virtus appetitiva, etiam si talis sit
+						habitus electivus, est vere praxis nisi sit attingibilis per inclinationem illius
+						habitus electi, quod in proposito dici non potest, quia dilectio Dei meritoria non est
+						attingibilis per habitum naturaliter acquisitum, aliter ex puris naturalibus mereremur,
+						quod non consonat catholice veritati.</p>
+					<p>Ad secundam potest uno modo dici per interemptionem maioris, quia non omnis operatio
+						alterius potentie quam intellectus existens in potestate voluntatis est praxis proprie
+						dicta nisi sit electio vel sequens electionem, ut patet ex dictis, igitur non omnis
+						operatio existens in potestate voluntatis est praxis vel speculatio, nec ista fuit
+						communis sententia philosophorum, immo contradicit <name>Aristoteles</name> VI
+							<title>Ethicorum</title> dicens quod omnis actus humanus qui proprie habet rationem
+						praxis est electio vel sequens electionem, ut allegatum est supra. Potest etiam dici
+						secundo interimendo minorem, quia dilectio Dei meritoria, ut meritoria est, non est in
+						potestate voluntatis, quia non habet quod sit meritoria nisi ex acceptatione divina que
+						non est in potestate nostra.</p>
+					<p>Sed contra solutionem istam instatur primo, quia omnis actus meritorius, ut meritorius
+						est, procedit a principio libero non naturali, sed omnia talis est in potestate nostra;
+						ergo etc.</p>
+					<p>Preterea, ex actibus qui non sunt in potestate nostra, non laudamur, nec vituperamur,
+						ergo omnis actus meritorius vel demeritorius est in potestate nostra et quanto magis est
+						demeritorius, tanto magis in potestate nostra, igitur omnis actus meritorius, ut
+						meritorius est, est in potestate nostra et quanto magis meritorius, tanto magis erit in
+						potestate nostra. Antecedens patet, quia peccatum ideo peccatum, quia voluntarium,
+						secundum <name>Augustinum</name>. Consequentia videtur nota, quia non minus requiritur
+						libertas et facultas voluntatis ad merendum quam ad demerendum.</p>
+					<p>Preterea, non minus est in potestate nostra post infusionem habitus caritatis dilectio
+						Dei meritoria quam sit actus credendi post infusionem habitus fidei, sed actus credendi
+						post habitum fidei infusum est simpliciter in potestate nostra et ex hoc necessario
+						praxis vel speculatio et constat quod modo praxis, igitur speculatio, ergo actus
+						dilectionis meritorius post habitum caritatis infusum erit simpliciter in potestate
+						nostra et ex hoc necessario praxis vel speculatio. Et constat quod non speculatio,
+						igitur erit praxis.</p>
+					<p>Pro solutione istarum rationum est advertendum quod actus dilectionis meritorius potest
+						accipi dupliciter, videlicet quantum ad substantiam actus et quantum adesse meritorium
+						ipsius. Primo modo non includit Dei acceptationem, sicut nec actus credendi vel
+						sperandi. Secundo modo includit divinam acceptationem vel saltem ipsam connotat
+						necessario. His premissis dico ad primum quod omnis actus meritorius procedit a
+						principio libero nobis intrinseco quantum ad substantiam actus, non autem quantum adesse
+						eius [31va] meritorium, quia tale includit vel connotat divinam acceptationem que non
+						est in nostra libertate.</p>
+					<p>Ad secundum dico quod ex actibus qui non sunt in potestate nostra, nec quantum ad
+						substantiam actus, nec quantum adesse meritorium vel demeritorium, nec laudamur, nec
+						vituperamur, sicut patet de actus quolibet naturali, ut distinguitur contra liberum. Ex
+						actibus autem qui sunt in potestate nostra quantum ad substantiam actus possumus laudari
+						vel vituperari. Sic autem est in proposito, ut patet ex dictis.</p>
+					<p>Ad tertium dico quod, si fiat comparatio inter actum meritorium et demeritorium quantum
+						ad substantiam actus, concedo quod non minus est in potestate nostra actus meritorius
+						quam demeritorius si veri fiat comparatio inter ipsos quantum adesse meritorium et
+						demeritorium. Neganda est consequentia, quia non est simile de actu meritorio et
+						demeritorio quantum ad hoc, quia esse demeritorium totaliter est a nobis, non autem esse
+						meritorium, ut patet ex dictis.</p>
+					<p>Ad quartum negatur maior, quia actus credendi post habitum fidei infusum nihil includit
+						quod non sit in potestate nostra. Dilectio autem Dei meritoria etiam post habitum
+						caritatis infusum includit divinam acceptationem, et ideo non est simile.</p>
+					<p>Ad tertium principale potest uno modo dici quod etiam dilectio Dei naturalis non est
+						proprie praxis, cum sit dilectio finis cuius non est electio. Potest etiam dici secundo
+						quod non est simile de dilectione naturali et meritoria sive sint eiusdem rationis
+						specifice sive non, quia dilectio Dei naturalis totaliter est in potestate nostra.
+						Meritoria autem non quantum ad hoc quod est esse meritorium. Et per hoc patet quid
+						dicendum ad rationem confirmationis, quia non est simile de actu videndi elicito a
+						potentia visiva supernaturaliter creata et naturaliter generata et de dilectione Dei
+						naturali et meritoria. Tamen propter acceptationis divine implicationem, tum quia omnis
+						actus potentie visive est formaliter visio, sed non omnis operatio voluntatis etiam
+						naturalis est formaliter praxis nisi sit electio vel sequens electionem, quod in
+						proposito dici non potest.</p>
+					<p>Ad quartum potest uno modo dici quod, sicut appetitus sensitivus regulatus per rationem
+						est principium practicum, sic intellectivus respectu operationis existentis in potestate
+						nostra. Potest etiam dici secundo quod non est simile de appetitu sensitivo regulato per
+						rationem et de voluntate, quia appetitus sensitivus regulatus per rationem semper
+						sequitur electionem cum non sit respectu finis, sed respectu eorum que sunt ad finem.
+						Voluntas autem est ipsius finis, et ideo non semper est principium practicum, nec eius
+						operatio semper est praxis, quia non semper est electio vel sequens electione.</p>
+					<p><name>Garro</name> in <title>Prologo</title> I, questione 1 et 4</p>
+					<p>Contra tertiam conclusionem quidam doctor arguit primo sic: impossibile est quod
+						aliquid habeat finem proprium alicuius habitus et non habeat illum habitum. Patet hoc,
+						quia quod est commune habenti et non habenti habitu non est proprius finis habitus, sed
+						aliquid potest habere dilectionem Dei meritoriam non habendo habitum theologie, sicut
+						patet ex iustis simplicibus, ergo.</p>
+					<p>Preterea, impossibile est quod alicui insit aliquid habitus cum opposito sui finis, sed
+						constat quod habitus theologie potest inesse alicui cum opposito dilectionis meritorie,
+						quia cum peccato mortali, ergo.</p>
+					<p>Preterea, finis proprius unius habitus non potest esse finis proprius alterius, dicente
+							<name>Commentatore</name> I <title>Ethicorum</title>, commento 68, quod unaquequam ars
+						habet suum proprium finem, sed caritas et theologia sunt habitus distincti et dilectio
+						est finis proprius caritatis, igitur non theologie. Et confirmatur, quia finis proprius
+						cuiuslibet habitus est proprius actus eius, sed dilectio est actus proprius caritatis,
+						ergo non theologie.</p>
+					<p>Preterea, finis proprius cuiuslibet habitus debet esse eiusdem generis cum illo habitu,
+						sed dilectio non est eiusdem generis cum theologia, nec cum aliqua scientia, quia
+						dilectio pertinet ad genus affectionis, scientia vero ad genus speculationis; ergo
+						etc.</p>
+					<p>Preterea, quando aliquid ponitur finis scientie, illa que magis conveniunt cum illo
+						debent esse principia illius scientie, si ergo ponatur quod finis theologia sit
+						dilectio, sequitur quod preceptum de caritate, videlicet diliges dominum Deum tuum etc.,
+						sit eius primum principium et non articuli [31vb] fidei quod non est verum, etiam per
+						me; ergo etc.</p>
+					<p><name>Goffredus</name>
+						<title>Quolibet</title> 5</p>
+					<p>Preterea, ad idem arguitur quidam doctor primo sic: si dilectio Dei esset finis
+						principaliter intentus in theologia, sequeretur quod esset eius subiectum. Consequens
+						est falsum, igitur et antecedens. Consequentia probatur, quia illud est subiectum in
+						aliqua scientia sub cuius ratione intenditur quicquid intenditur in ipsa, sed omne tale
+						est subiectum in scientia; ergo etc. Et confirmatur, quia, si dilectio principaliter
+						intenditur in theologia, igitur Deus non intenditur in ipsa nisi inquantum est dilectus,
+						vel diligibilis. Quo posito sequitur quod dilectio sit ratio formalis subiecti
+						theologie; ergo etc.</p>
+					<p>Pro solutione istarum rationum est advertendum quod duobus modis potest intelligi quod
+						actus sit proprius finis habitus. Uno modo, quia est eius finis quo, et sic sola
+						operatio elicita per habitum dicitur finis habitus, et sic dirigere est finis prudentie
+						et credere finis proprius fidei, et sic de aliis. Alio modo, quia est eius finis gratia
+						cuius, et sic non solum operatio elicita per illum habitum, sed etiam per alium. Potest
+						esse proprius finis habitus et isto modo actus virtutum sunt finis scientie moralis,
+						quia scientia moralis non est contemplationis gratia, sed ut boni fiamur, sicut patet II
+							<title>Ethicorum</title>. Hec ad propositum applicando dico quod dilectio non dicitur
+						primo modo finis theologie, sed secundo, et sic ad presens loquimur de fine.</p>
+					<p>Responsio ad rationes <name>Garronis</name></p>
+					<p>His premissis respondeo ad rationes. Ad primam dico quod maior est vera de fine primo
+						modo sumpto. Non autem secundo ratio huius est, quia finis secundo modo sumptus est
+						finis quo alterius habitus, et ideo haberi potest ab habente illum habitum. Videmus enim
+						quod aliquid potest habere actus virtutum moralium sine scientia morali qui tamen sunt
+						fines ipsius cuius gratia. Et quando dicitur quod est commune habenti habitum et non
+						habenti non est finis habitus, verum est de fine quo non autem de fine cuius, ut patet
+						ex dictis.</p>
+					<p>Ad secundam dico quod maior est falsa, tam de fine cuius quam de fine quo, quia habitus
+						virtutis potest stare cum actu vitii oppositi, igitur non est impossibile quod habitur
+						insit alicui cum opposito sui finis loquendo de fine quo, qui est actus elicitus per
+						illum habitum. Iterum scientia moralis potest stare et stat in multis cum opposito
+						virtutum moralium quarum actus sunt proprius finis gratia cuius scientie moralis, igitur
+						non est impossibile quod habitus insit alicui cum opposito sui finis, etiam loquendo de
+						fine cuius.</p>
+					<p>Ad tertiam concedo maiorem si accipiatur finis uniformiter, sed, si difformiter non est
+						vera, et sic est in proposito, quia dilectio est finis quo caritatis ipsius vero
+						theologie est finis cuius, non finis quo. Per idem patet quid dicendum ad
+						confirmationem, quia finis quo cuiuslibet habitus est proprius actus eius, non autem
+						finis cuius, sicut patet ex dictis, quia finis cuius scientie moralis sunt actus
+						virtutum et non proprius actus eius.</p>
+					<p>Ad quartam eodem modo dico, quia finis quo est eiusdem generis cum habitu, non autem
+						finis cuius, cum sit actus elicitus per alium habitum.</p>
+					<p>Ad quintum nego maiorem, quia principaliter scientie ordinantur ad concludendum aliquid
+						de subiecto, non de fine cuius qui est actus vel operatio ad quam principaliter habitus
+						ordinatur, et ideo debent poni principaliter illa que magis conveniunt cum subiecto, non
+						cum fine.</p>
+					<p>Responsio ad rationes <name>Goffredi</name></p>
+					<p>Ad sextam nego consequentiam. Et ad probationem quando dicitur quod illud principaliter
+						intenditur in scientia etc., dico quod tripliciter aliquid potest intendi principaliter
+						in scientia. Uno modo, sicut aliquid scitur, et sic conclusio scita. Alio modo, sicut
+						illud de quo aliquid scitur, et sic subiectum eo modo quo doctor iste loquitur de
+						subiecto. Alio modo, sicut illud cuius gratia scitur et scientia habetur, et sic finis
+						intenditur. Concedo ergo quod illud quo principaliter intenditur in scientia secundo
+						modo est illud sub cuius ratione omnis considerantur in ipsa et omne tale est subiectum,
+						sed non illud quod intenditur principaliter primo vel tertio modo loquendo de subiecto
+						de qui, si-[32ra]-cut loquitur iste doctor. Et hoc dico, quia illud quod principaliter
+						intenditur primo modo potest aliquo modo dici subiectum, prout superius extitit
+						declaratum. Per hoc patet quid dicendum ad confirmationem.</p>
+					<p>Contra quartam conclusionem sunt due opiniones, quarum prima ponit quid finis proprius
+						et principaliter intentus in theologia sit speculatio, pro qua quidam doctor arguit
+						primo sic:</p>
+					<p><name>Henricus</name> in <title>Summa</title>, articulo 8, questione 2</p>
+					<p>Finis principaliter intentus in theologia est cognitio Dei, iuxta illud
+							<title>Matheum</title> 5: beati mundo corde, quoniam ipsi Deum videbunt. Sed cognitio
+						Dei est vera speculatio, non praxis, nec affectio; ergo etc. Sed confirmatur ista ratio
+						auctoritate <name>beati Augustini</name> Sermone de Iacob et Esau, ubi sic ait: “omnis
+						operatio nostra in hac vita est servare oculum cordis unde videatur Deus, adhuc
+						sacrosancta mysteria celebrantur, adhuc sermo Dei predicatur, adhuc agunt quicquid agunt
+						divine sancte literae, ut purgentur illud interius ab ea re que nos impedit ab aspectu
+						Dei”. Hec <name>Augustinus</name>. Ex quibus verbis videtur isti doctori quod tota
+							<title>Scriptura Sacra</title> ad visionem Dei finaliter ordinatur.</p>
+					<p>Preterea, finis principaliter intentus in theologia est contemplatio, sed contemplatio
+						non est praxis, nec affectio, sed vera speculatio, ergo. Probatur maior, quia vita
+						contemplativa est nobilior activa, igitur contemplatio nobilior actione, et per
+						consequens ipsa erit ultimus finis theologie. Et potest ista ratio confirmari per
+							<name>beatum Augustinum</name> I <title>De Trinitate</title>, capitulo 27, de parvis,
+						ubi sic ait: “tradet itaque regnum Deo patri et Deus Ihesus Christus non se inde
+						separato, nec a Spiritu Sancto qui perducet credentes ad contemplationem Dei, ubi est
+						finis omnium bonarum actionum”. Ecce quod finis omnium bonarum actionum est contemplatio
+						Dei, secundum <name>Augustinum</name>, sed finis omnium bonarum actionum est ultimus
+						finis theologie; ergo etc.</p>
+					<p>Preterea, idem est finis scientie et principiorum in scientia. Hoc patet, quia tota
+						scientia virtualiter continetur in principiis, sed articulorum qui sunt principia
+						theologie ultimus finis est cognitio Dei; ergo etc. </p>
+					<p>Preterea, finis proprius sapientie est speculatio veri, sicut patet per
+							<name>Philosophum</name> in Prohemio <title>Metaphysice</title> et in VI. Sed
+						theologia est scientia proprie dicta, sicut potest declarari discurrendo per omnes
+						conditiones sapientie; ergo etc. </p>
+					<p>Secunda opinio ponit quod proprius finis theologie sit praxis. Et istorum quidam
+						concedunt quod proprius finis theologie est dilectio Dei.</p>
+					<p>Opinio <name>Scoti</name> et suorum sequacium</p>
+					<p>Sed dicunt quod dilectio Dei est proprie praxis. Quidam vero dicunt quod proprius finis
+						theologie est operatio virtutum et observantia mandatorum Dei et constat quod operatio
+						virututum et observantia mandatorum consistit in operibus moralibus que proprie habent
+						rationem praxis. Primi non discordant a positione quam sequor nisi quia dicunt quod
+						dilectio Dei est praxis. Et quia rationes eorum sunt adducte contra conclusionem
+						secundam, non resumo dicta eorum.</p>
+					<p><name>Alexander de Ales</name> in <title>Prologo</title> I, questione ultima</p>
+					<p>Alii vero adducunt conclusionem sic: theologia est scientia salutis, iuxta illud quod
+						scribitur luce primo ad dandam scientiam salutis plebi eius, igitur finis principaliter
+						intentus in ipsa est illud quo salus acquiritur principaliter, sed salus hominis
+						principaliter habetur per operationem virtuosam et observantiam mandatorum Dei
+						salvatore, dicente <title>Mattheo</title> 19: si vis ad vitam ingredi serva mandata;
+						igitur etc.</p>
+					<p>Istis tamen non obstantibus credo quod finis proprius theologie sit dilectio Dei, non
+						praxis, nec speculatio, nec rationes istorum doctorum concludunt.</p>
+					<p>Responsio ad rationem <name>Henrici de Gandavo</name></p>
+					<p>Ad primum igitur pro prima opinione potest dupliciter responderi. Primo quidem potest
+						dici quod nihil concludit de theologia viatoris quicquid sit de theologia
+						comprehensoris, quia finis principaliter intentus in theologia saltem pro statu vie non
+						est cognitio Dei, sed dilectio Dei. Ratio huius est, quia certum est quod in via
+						quicquid sit de patria dilectio Dei est nobilior omni cognitione, sicut patet per
+							<name>Apostolum</name> I <title>Ad Corinthos</title> 13. Nec auctoritas <name>beati
+							Augustini</name> est ad propositum propter duo. [32rb] </p>
+					<p>Primo, quia theologia viatoris ordinatur ad visionem illam beatificam, sicut ad finem
+						ultimum et remotum, non ad propinquum et immediatum. Sed de tali non loquitur ad
+						presens, quia a tali non sit denominatio in scientiis, aliter scientia moralis esset
+						speculativa, quia ordinatur ad felicitatem ultimate, immo omnis scientia esset
+						speculativa, quia omnis ordinatur ad beatitudinem ultimate.</p>
+					<p>Secundo, quia theologia viatoris non ordinatur ad visionem Dei, etiam sicut ad finem
+						ultimum et remotum per exclusionem dilectionis, sed cum inclusione eiusdem. Nec illa
+						fuit intentio <name>Augustini</name>, quia visio non est tota merces, nisi cum
+						inclusione fruitionis et sic dilectionis, sicut patet per illam decretalem extravagante
+						domini benediciti ex visione animarum.</p>
+					<p>Secundo potest dici quod, licet cognitio Dei sit aliquo modo finis theologie, non tamen
+						principalis nec in via, nec in patria, quia tam in via, quam in patria dilectio Dei est
+						nobilior cognitione, ut suppono pro nunc. Finis igitur principaliter intentus in
+						theologia non est cognitio Dei, sed dilectio Dei, nec auctoritates dicunt oppositum, ut
+						patet ex dictis.</p>
+					<p>Ad secundam distinguo de contemplatione Dei, quia potest accipi uno modo pro sola
+						cognitione ipsius, alio modo pro cognitione simul et dilectione. Si accipiat secundo
+						modo, concedo quod finis principaliter intentus in theologia sit contemplatio Dei, non
+						quidem ratione cognitionis, sed dilectionis ad quam ordinatur cognitio, sicut patet per
+							<name>Anselmum</name>
+						<title>Monologion</title>, capitulo 9. Et sic <name>beatus Augustinus</name> loquitur de
+						contemplatione quando dicit quod finis omnium bonarum actionum est contemplatio Dei,
+						quid patet per literam sequentem, ubi ostendit quod illa contemplatio est requies
+						permansiva, quia merces est boni operis transitivi, unde in fine illius capituli sic
+						ait: “in illa igitur contemplatione Deus erit omnia in omnibus, quia nihil ab illo aliud
+						requitur, sed se ipso illustrari perfruique sufficiet”. Ecce quod contemplatio illa que
+						requies est permansiva et boni operis permansuri merces in visione et fruitione
+						consistit, non in sola visione, secundum <name>Augustinum</name>. Si vero accipiatur
+						primo modo, patet ex precedenti solutione quod contemplatio Dei non est finis
+						principaliter intentus in theologia, nec in via, nec in patria. Nec sic de
+						contemplatione loquitur <name>beatus Augustinus</name>, ut patet ex dictis. Et ad
+						probationem quando dicitur quod vita contemplatiova est nobilior quam activa, concedo,
+						sed ex hoc non sequitur quod speculatio sit nobilior dilectione Dei, sed quod sit
+						nobilior actione que proprie habet rationem praxis, quia in talibus actionibus vita
+						activa consistit speculatio, igitur non erit finis principaliter intentus in theologia,
+						sed dilectio ad quam speculatio nostra principaliter ordinatur. </p>
+					<p>Ad tertium dico quod finis articulorum fidei principaliter non est cognitio Dei, sed
+						dilectio, quia notitia articulorum ad dilectionem Dei meritoriam ordinatur sine qua
+						fides mortua est, dicente <name>Apostolo</name> I <title>Ad Corinthos</title> 13: quia
+						si habuero omnem fidem ita ut montes transferam, caritatem autem non habuero nihil
+						sum.</p>
+					<p>Ad quartum dico quod finis proprius sapientie philosophorum est speculatio et de tali
+						loquitur <name>Aristoteles</name>, sed finis proprius theologice sapientie non est
+						speculatio, sed aliquid altius speculatione et hoc est dilectio Dei.</p>
+					<p>Ad rationem secunde opinionis <name>Scoti</name></p>
+					<p>Ad rationem vero pro secunda opinione concedo quod finis principaliter intentus in
+						theologia est illud qui salus acquiritur principaliter, sed illud est dilectio Dei
+						meritoria ad quam omnis operatio virtuosa et observantia mandatorum finaliter
+						ordinantur, quia finis precepti caritas, ut allegatum est supra.</p>
+				</div>
+				<div>
+					<head>Responsio ad rationes principales</head>
+					<p>Ad primam dico quod finis principaliter intentus in theologia viatoris non est credere,
+						sed diligere, quia fides ad dilectionem Dei finaliter ordinatur, ut patet ex dictis. Et
+						quando dicitur quod hec scripta sunt ut credatur, statim additur, et, ut credentes vitam
+						eternam habeatur, vita autem eterna principalius habetur per dilectionem quam per fidem.
+						Dilectio igitur erit finis principalis theologie non fides.</p>
+					<p>Ad secundum concedo quod finis proprius theologie sit dilectio Dei meritoria, sed talis
+						non habet proprie rationem praxis, ut patet, etc. [32va]</p>
+
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

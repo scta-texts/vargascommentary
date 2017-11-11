@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Liber I, Distinctio 25, 26, et 27, Quaestio 1</title>
+				<author>Alphonsus Toletanus Vargas</author>
+				<editor>Luciana Cioca</editor>
+				<respStmt>
+					<name>Jeffrey C. Witt</name>
+					<resp>TEI Encoder</resp>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="0.0.0-dev">
+					<date when="2016-09-15">September 15, 2016</date>
+				</edition>
+			</editionStmt>
+			<publicationStmt>
+				<authority>THESIS project</authority>
+				<availability status="free">
+					<p>Public Domain</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="P" n="Paris1490">Paris1490</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+			<schemaRef n="lbp-critical-1.0.0"
+				target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/1.0/critical.rng"> </schemaRef>
+			<editorialDecl>
+				<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+					guidelines for a critical edition</p>
+			</editorialDecl>
+		</encodingDesc>
+		<revisionDesc status="draft">
+			<listChange>
+				<change when="2016-09-02" who="#JW" status="draft" n="0.0.0">
+					<p>Created file for the first time.</p>
+				</change>
+			</listChange>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:lang="la">
+		<front>
+			<div xml:id="includeList">
+				<xi:include
+					href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+					xpointer="worksCited"/>
+				<xi:include
+					href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+					xpointer="prosopography"/>
+			</div>
+			<div xml:id="starts-on">
+				<pb ed="#P" n=""/>
+				<cb ed="#P" n=""/>
+			</div>
+		</front>
+		<body>
+			<div xml:id="atv-l1d25per27q1">
+				<head>Liber I, Distinctio 25 per 27, Quaestio 1</head>
+
+				<p>Preterea considerandum etc. Circa distinctionem istam 25 et duas sequentes in quibus
+						<name>Magister</name> tractat de significato huius termini persona et de proprietatibus
+					personarum, quero: utrum persone divine distinguantur personaliter proprietatibus
+					absolutis vel relativis. </p>
+				<div type="rationes-principales">
+					<p>Et videtur primo quod proprietatibus, quia persone perfectissime proprietatibus
+						perfectissimis distinguuntur, sed persone divine sunt perfectissime et sole proprietates
+						absolute sunt huiusmodi; etc.</p>
+
+					<p>Contra: eedem persone divine multiplicantur et distinguuntur personaliter, sed
+						proprietatibus relativis non absolutis multiplicantur dicente <name>Boetio</name> I
+							<title>De Trinitate</title> quod substantia in divinis continet unitatem, relatio vero
+						multiplicat trinitatem. </p>
+				</div>
+				<div>
+					<head>Divisio quaestionis</head>
+					<p>In ista questione erunt quattuor articuli. Primo ad intellectum tituli ponam unicam
+						distinctionem, secundo quadruplicem conclusionem. Tertio movebo dubia. Quarto
+						respondebo.</p>
+				</div>
+				<div type="article">
+					<head>Primus articulus</head>
+
+					<p>Quantum ad primum est advertendum quod personas divinas distingui proprietatibus
+						absolutis vel relativis potest intelligi dupliciter. Uno modo, quod distinguantur per
+						tales proprietates primo tanquam per ea que sunt principia formalia distinctionis earum.
+						Alio modo, quod distinguantur per eas quasi ex consequenti, id est tanquam per eam. Ex
+						quibus potest cognosci et inferri mutua ipsarum distinctio quamvis non sint principia
+						formalia talis distinctionis et, licet in utroque sensu possit intelligi questio,
+						intelligo tamen eam ad presens in primo, quia isto sensu credo personas divinas
+						proprietatibus suis distingui, prout in sequentibus apparebit. Et hoc de primo.</p>
+				</div>
+				<div type="articulus">
+					<head>Secundus articulus</head>
+					<div>
+						<head><supplied>Conclusio prima</supplied></head>
+
+						<p>Quantum ad secundum sit hec prima conclusio quod persone divine non distinguuntur se
+							totis istam conclusionem; quidam doctor deducit sic:</p>
+
+						<p><name>Scotus</name> I, distinctione 26, questione 1, articulo 1</p>
+
+						<p>Que se totis distinguuntur sunt primo diversa, quia que non sunt primo diversa, sunt
+							aliquid idem. Entia non distinguuntur eo quo sunt idem, sed aliquo sui quo non sunt
+							idem, sed persone divine non sunt primo diverse cum sint eiusdem essentie; ergo.</p>
+
+						<p>Contra <name>Scotum</name></p>
+
+						<p>Sed, licet conclusionem istam credam esse veram, rationem tantum istam non reputo
+							concludere, quia vel intelligit in maiori quod illa que se totis distinguitur realiter
+							sunt primo diversa, vel intelligit in illa qui se totis distinguitur non solum
+							realiter, sed etiam conceptibiliter. Si alique sint talia: si primo modo, propositio
+							non est vera, quia Petrus et Iohannes realiter distinguuntur se totis, quia in nullo
+							reali sunt idem, tamen non sunt primo diversa. Item duo angeli vel due anime se totis
+							realiter distinguuntur et presertim, si sint essentie omnino simplices, sicut multis
+							doctoribus videtur, et tamen non sunt primo diversa. Si secundo modo, non est ad
+							propositum, quia nullus ponit quod persone divine se totis distinguantur
+							conceptibiliter. </p>
+
+						<p>Ideo dimissa hac ratione probo aliter conclusionem. Primo sic: quod se toto
+							distinguitur ab aliquo quodlibet sui distinguitur ab illo, oppositum predicati infert
+							oppositum subiecti, sed nulla persona divina quolibet sui distinguitur ab alia, quia
+							non deitate distinguitur ab alia; ergo etc.</p>
+
+						<p>Secundo sic: et est quasi confirmatio precedentis rationis. Pater aliquo sui est
+							Pater et aliquo sui non est Pater, igitur aliquo sui distinguitur a Filio et aliquo
+							sui non distinguitur a filio, et per consequens se toto non distinguitur ab eo.
+							Consequentia patet, quia Pater solo eo quo est Pater distinguitur a Filio in divinis.
+							Antecedens probatur, quia Pater vel quolibet sui est Pater vel nullo sui est Pater vel
+							ali-[133rb]-quo sui est Pater et aliquo sui non est Pater. Primum dari non potest,
+							quia sequitur Pater quolibet sui est Pater, igitur deitate est Pater et sequitur Pater
+							distincte est Pater, igitur eo est Deus quo est Pater cum distincte sit Deus, quod est
+							contra <name>beatum Augustinum</name> VII <title>De Trinitate</title>, capitulo 7.
+							Secundum etiam dari non potest, quia, si Pater nullo sui est Pater, pari ratione nullo
+							sui est Deus, quod est contra <name>beatum Augustinum</name> ibidem, ubi expresse vult
+							quod Pater eo Deus quo bonus et sapiens, quod non esset bene dictum, si nullo sui
+							esset Deus. Relinquitur ergo tertium et sic propositum.</p>
+
+						<p><name>Gregorius Ariminensis</name></p>
+
+						<p>Forte dicetur ad istas rationes iuxta principalis quorundam modernorum. </p>
+
+						<p>Ad primam quidem quod maior est vera si ly ‘sui’ teneatur transitive, sed sub isto
+							sensu minor est falsa, licet sit vera si ly ‘sui’ teneatur intransitive. Et
+							conformiter diceretur ad secundam quod maior non est vera si ly ‘sui’ teneatur
+							transitive.</p>
+
+						<p>Contra</p>
+
+						<p>Sed ad veritatem hec evasio est nulla, quia per eam non solvitur aliqua rationum. Non
+							quidem prima, quia maior est vera non solum si ly ‘sui’ teneatur transitive, sed etiam
+							si teneatur intransitive, quia, si homo esset anima et corpus et distingueretur ab
+							aliquo per animam et non per corpus, non distingueretur ab illo se toto, quia non
+							distingueretur ab illo per corpus, quo tamen casu posito non esset aliquid hominis
+							secundum transitivam constructionem, sed secundum intransitivam tantum, et sic est in
+							proposito, ut patet, quia, licet deitas et proprietas personalis non sint idem persone
+							divine secundum transitivam constructionem sed secundum intransitivam, quia quelibet
+							persona divina propter sui simplicitatem est deitas et est personalis proprietas,
+							nulla tamen distinguitur ab alia per suam deitatem et quelibet distinguitur ab alia
+							per suam personalem proprietatem, et per consequens nulla se tota distinguitur ab
+							alia. </p>
+
+						<p>Et potest ex dictis argui sic: quelibet persona divina aliquo quod est ipsa
+							distinguitur ab alia et aliquo quod est ipsa non distinguitur ab alia, ergo nulla se
+							tota distinguitur ab alia. Antecedens patet ex dictis. Consequentia vero est nota,
+							quia quod se toto distinguitur ab aliquo quolibet sui distinguitur ab illo sive ly
+							‘sui’ terminatur transitive sive intransitive, ut dictum est supra, nec aliud
+							intelligunt doctores dicentes quod persone divine non distinguuntur se totis nisi quod
+							nulla distinguitur ab alia omni eo quod est ipsa. Et, si aliqui volunt istis vocabulis
+							aliter uti, eorum disputatio non est realis, sed tantum vocalis, et sic est inutilis,
+							et ex hoc patet quod secunda ratio est soluta.</p>
+
+						<p>Exclusis igitur istis solutionibus arguo ad principale tertio sic: quando aliqua dua
+							sic se habent quod aliquid omnino idem et indistinctum est in utroque et tamen aliquid
+							est in uno quod non est in alio, non distinguuntur se totis; persone divine sunt
+							huiusmodi. Maior patet, quia quando aliqua se totis distinguuntur mihi est in uno quo
+							non distinguatur ab alio, sicut vel est in creatura quo non distinguatur a Deo, nec
+							econverso et minorem evidens, quia in personis divinis est essentia divina omnino
+							eadem et indistincta et in qualibet persona divina est quedam proprietas que non est
+							in aliqua, quia in Patre est paternitas que non est in Filio, nec in Spiritu Sancto et
+							in Spiritu Sancto spiratio passiva que non est in Patre, nec in Filio. Nec valet si
+							dicatur quod minor non est vera si esse insumatur transitive, quia maior est vera sive
+							esse insumatur transitive, sive intransitive, ut patet ex dictis, cum minor sit omnino
+							vera si esse insumatur intransitive, adhuc sequitur conclusio de necessitate.</p>
+
+						<p>Ex ista conclusione sequitur quod persone divine non distinguuntur se ipsis primo,
+							quia que non distinguuntur se totis, non distinguuntur se ipsis. Et confirmatur, quia
+							quamvis quelibet persona divina personali proprietate distinguatur ab alia, nulla
+							tamen distinguitur ab alia deitate, ergo nulla distinguitur ab alia se ipsa primo.</p>
+
+						<p>Sed forte dicetur ad istam rationem quod aliquid distinguitur ab alio potest
+							intelligi dupliciter. Uno modo, se ipso primo, id est quolibet sui. Alio, se ipso
+							primo, id est nullo alio seu quod non est ipsum, et tunc isto modo quelibet persona
+							di-[133va]-vina distinguitur ab alia. Se ipsa primo exponetur per istas quelibet
+							persona divina distinguitur ab alia et per nihil quod non est ipsa distinguitur ab
+							alia. Et hoc est verum. Nec autem evasio est nulla, quia quod se ipso primo
+							distinguitur ab aliquo non solum aliquo quod est ipsum, sed omni eo quod est ipsum
+							distinguitur ab illo et quia nulla persona divina omni eo quod est ipsa distinguitur
+							ab alia nulla distinguitur ab alia se ipsa primo.</p>
+
+						<p>Ex hoc apparet quod ista propositio ‘quelibet persona divina distinguitur ab alia se
+							ipsa’ primo proprie et absolute loquendo non debet exponi per istas ‘quelibet persona
+							distinguitur ab alia’ et ‘per nihil quod non est ipsa distinguitur ab alia’, sed per
+							istas ‘quelibet persona divina distinguitur’ et ‘omni eo quod est ipsa distinguitur ab
+							alia’.</p>
+
+						<p>Ex hoc etiam apparet quod exponentes propositionem istam primo modo quantum ad rem
+							concordant cum communi doctrina, sed propter improprium modum loquendi discordant ab
+							ipsa quantum ad vocem.</p>
+					</div>
+					<div>
+						<head><supplied>Conclusio secunda</supplied></head>
+
+						<p>Secunda conclusio est quod persone divine non distinguuntur modis seu proprietatibus
+							absolutis, prout quibusdam doctoribus fuit visum. Probatur primo sic: si persone
+							divine distinguerentur modis seu proprietatibus absolutis, aliqua perfectio
+							simpliciter esset in una que non esset in alia. Illud consequens est impossibile, quia
+							tunc quelibet persona divina careret aliqua perfectione simpliciter, quod non esst
+							catholice dictum, igitur et antecedens. Consequentia probatur, quia omne absolutum in
+							divinis est perfectio simpliciter quam in unoquoque melius est esse quam non esse, ut
+							patet per <name>Anselmum</name>, capitulo 15 <title>Monologion</title>.</p>
+
+						<p><name>Michael de Massa</name>, distinctione 26, questione 1, articulo 1</p>
+
+						<p>Sed ad istam rationem quidam doctor noster respondet dupliciter. Primo, negando
+							consequentiam, quia posito quod tales modi dicant perfectionem simpliciter, immo etiam
+							posito quod dicant formaliter perfectionem infinitam, adhuc non sequeretur, ut dicit,
+							quod alicui persone divine decerit aliqua perfectio, quia illa eadem perfectio
+							contineretur virtualiter in sola ratione divine essentie.</p>
+
+						<p>Secundo, respondet distinguendo de perfectione, quia dupliciter potest intelligi quod
+							modus absolutus dicat perfectionem. Uno modo, intrinsece ut distinctus formaliter vel
+							quomodocumque aliter ab eo cuius est modus et iste intellectus, ut dicit falsus est.
+							Alio modo, denominative et extrinsece, ut sit sensus modus absolutus dicit
+							perfectionem, id est modus habendi perfectionem quamvis in se non dicat aliam
+							perfectionem ab omni perfectione que habetur. Et iste intellectus est verus, sed non
+							valet consequentia, quia non sequitur quod aliqua perfectio sit in una persona que non
+							sit in alia, sed solum sequitur quod aliquis modus habendi eandem perfectionem est in
+							una persona que non est in alia, et hoc est verum, ut dicit.</p>
+
+						<p>Contra <name>Michaelem</name></p>
+
+						<p>Nulla tamen illarum solutionum sufficit, ut mihi videtur. Non quidem prima, quia in
+							his que dicunt perfectionem simpliciter melius est ipsum in unoquoque esse formaliter
+							quam non esse, ut patet per <name>Anselmum</name> ubi supra, licet in his que dicunt
+							perfectionem secundum quid sit verum, ut patet ibidem. Et confirmatur, quia, si illa
+							solutio esset bona, pari ratione posset dici quod, si Filius non esset formaliter
+							sapiens vel si in ipso non esset formaliter sapientia, adhuc sibi non deesset aliqua
+							perfectio, quia illa contineretur virtualiter in divina essentia, quod non credo
+							aliquem velle concedere.</p>
+
+						<p>Secunda solutio etiam non sufficit, quia in unoquoque melius est esse non esse non
+							solum denominative et extrinsece, sed formaliter et intrinsece est perfectio
+							simpliciter, sed esse absolutum in divinis est huiusmodi. Probatur minor, quia, sicut
+							patet per <name>Anselmum</name> libro II et capitulo predictis, quicquid est preter
+							relativa aut tale est, ut ipsum omnino melius sit non ipsum, aut tale quod in aliquo
+							non ipsum melius sit quam ipsum. Sed constat quod omne absolutum in divinis est
+							aliquid preter relativa et nullum est tale quod in aliquo non ipsum melius sit quam
+							ipsum, ut patet ibidem per <name>Anselmum</name> qui dicit expresse quod nefas est
+							putare quod substantia supreme nature sit aliquid quo melius sit aliqui modo non
+							ipsum, igitur omne absolutum in divinis est tale quod ipsum omnino melius est quam non
+							ipsum.</p>
+
+						<p>Exclusis igitur istis solutionibus [133vb] probo conclusionem secundo sic: illud quo
+							persona divina, utpote persona Patris, personaliter distinguitur ab aliis non est
+							communicabile tribus personis, sed omne absolutum in divinis est communicabile tribus
+							personis; igitur maior est evidens et minorem ponit <name>Augustinus</name>V <title>De
+								Trinitate</title>, capitulo 12, dicens quod quicquid ad se dicitur de singulis
+							personis simul dicitur et capitulo 9 dicit quod autem proprie singula in eadem
+							trinitate dicuntur nullo modo ad se ipsa, sed etiam adinvicem vel ad creaturam, et
+							ideo relative non substantialiter ea dici manifestum est.</p>
+
+						<p>Tertio sic: persone divine sunt supposita relativa non absoluta, igitur non
+							distinguuntur modis seu proprietatibus absolutis. Consequentia patet, quia formale
+							distinctivum suppositi relativi non est absolutum, sicut nec formale distinctivum
+							suppositi absoluti est relativum. Et antecendens videtur clarum, quia ubicumque
+							persone divine nominantur in Scriptura, nominantur nominibus relativis, sicut patet
+								<title>Mattheo</title> ultimo, ubi salvator ait: euntes baptizate omnes gentes in
+							nomine Patris et Filii et Spiritus Sancti. Amen.</p>
+
+						<p>Et hoc idem patet ubicumque in Scriptura divine persone nominantur. Et confirmatur,
+							quia Ecclesia determinat tres personas esse tres res relativas, ut patet extra
+								<title>De summa trinitatis</title> etc.</p>
+					</div>
+					<div>
+
+						<head><supplied>Conclusio tertia</supplied></head>
+
+						<p>Tertia conclusio quod in divinis personis vere et realiter sunt alique proprietates
+							relative et ne fiat vis in verbis. Est advertendum quod in conclusione ista non
+							accipio esse intransitive, sed intransitive, ut sit sensus quod, sicut in Patre vere
+							et realiter est deitas accipiendo esse intransitive, sic etiam in ipso vere et
+							realiter est paternitas et in Filio filiatio et in Spiritu Sancto passiva spiratio.
+							Conclusione igitur sic intellecta ostendo primo expressa determinatione
+								<name>Magistri</name> in hac 26 distinctione, capitulo 2, ubi ex dictis <name>beati
+								Augustini</name> concludens trium personarum esse tres proprietates relativas,
+							quarum una realiter non est alia. Sic inquit: has proprietates designant nomina
+							personarum, scilicet Pater, Filius et Spiritus Sanctus que relativa sunt et ad se
+							invicem distinguuntur, quia notant relationes que non sunt Deo accidentales, sed in
+							ipsis personis ab eterno immutabiliter sunt, ut non tantummodo appellationes sint
+							relative, sed etiam ipse relationes sive notiones in rebus ipsis, scilicet in personis
+							sint. Hec <name>Magister</name> formaliter.</p>
+
+						<p>Secundo, hoc idem ostendo ratione sic: illud quo persone divine multiplicantur vere
+							et realiter est in ipsis accipiendo ‘esse’ in sensu dato, videlicet intransitive, sed
+							proprietatibus relativis persone divine multiplicantur, dicente <name>Boetio</name> I
+								<title>De Trinitate</title>, circa finem quod substantia in divinis continet
+							unitatem solam relatio multiplicat trinitatem.</p>
+
+						<p>Tertio, patet hoc idem per illud verbum prefationis in personis proprietas et
+							essentia unitas, quod non esset verum si proprietas non esset vera et realis entitas,
+							quia quicquid est in divinis personis est verum ens reale cum omne tale sit eternum et
+							incommutabile.</p>
+					</div>
+					<div>
+						<head><supplied>Conclusio quarta</supplied></head>
+
+						<p>Ultima conclusio est quod persone divine solis proprietatibus relativis distinguuntur
+							personaliter. </p>
+
+						<p>Ista conclusio sequitur ex dictis, quia constat personas divinas distingui
+							personaliter, ut patet ex prima conclusione, quia non distinguuntur se totis, seu se
+							ipsis primo, nec modis, nec proprietatibus absolutis, ut patet ex secunda, ergo solis
+							relativis proprietatibus distinguuntur que vere et realiter sunt in ipsis, ut patet ex
+							tertia. Et istam conclusionem, ut mihi videtur, quilibet verus catholicus debet tenere
+							propter dicta sanctorum que in dicta mea sunt multum expressa, unde <name>beatus
+								Augustinus</name> V <title>De Trinitate</title>, capitulo 27, dicens quod quecumque
+							non communiter de qualibet persona dicuntur, sed de aliqua vel duobus tantum non
+							substantialiter, sed relative dicuntur, sed constat proprietates quibus persone divine
+							personaliter distinguuntur non dici communiter de qualibet persona divina, sed de
+							aliqua vel duabus tantum, igitur constat tales proprietates non substantialiter, sed
+							relative dici. </p>
+
+						<p>Item <title>De fide ad Petrum</title>, capitulo 2, dicit expresse quod quia aliud est
+							genuisse quam natum esse aliudque est procedere quam genuisse vel natum esse.
+							Manifestum est, quia alius est Pater, alius Filius, alius Spiritus Sanctus. </p>
+
+						<p>Item <name>Anselmus</name>
+							<title>De processione Spiritus Sancti</title>, capitulo 3, loquens de nativitate Filii
+							et processione Spiritus Sancti, sic inquit: [134ra] hec itaque sola causa pluralitatis
+							est in Deo, ut Pater, Filius et Spiritus Sanctus dici non possint de se invicem, sed
+							alii sint ab invicem que predictis duobus modis nascendo, scilicet et procedendo, est
+							Deus de Deo, quod totum potest dici relatio, nam quoniam Filius existit nascendo de
+							Deo et Spiritu Sancto procedendo ipsa necessitate diversitatis et processionis
+							referuntur adinvicem, ut diversi, id est distincti et alii sint ab invicem. Hec
+								<name>Anselmus</name> II, capitulo sequenti. Ex his que dixerat concludendo sic ait:
+							sequitur enim quod unitates Dei proprietatem que nullas habet partes ut quicquid de
+							uno Deo qui totus est quicquid est dicitur, ut de toto Deo Patre dicatur, et de Filio
+							et Spiritu Sancto, quia unusquisque totus et perfectus et solus est Deus. Supradicta
+							vero relationis opinio que ex hoc nascitur, quia supradictis duobus modis Deus est de
+							Deo prohibet Patrem et Filium et Spiritum Sanctum de se invicem dici et proprie
+							singulorum aliis attribui. Et subdit sic: ergo huius unitatis et huius relationis
+							consequente se contemparant, ut nec pluralitas que sequitur relationem transeat ad ea
+							in quibus predicte simplicitatis sonat unitas, nec unitas cohibeat pluralitatem ubi
+							eadem relatio significatur quatenus, nec unitas amittat suum aliquando consequens ubi
+							non obviat aliqua relationis oppositio, nec relatio perdat quod suum est nisi ubi
+							obsistit unitas inseparabilis. Hec <name>Anselmus</name>.</p>
+
+						<p>Ex isto dicto trahitur illa auctoritas vulgata, videlicet quod omnia sunt unum in
+							divinis, ubi non obviat relationis oppositio, ex quibus omnibus evidenter apparet
+							propositum.</p>
+
+						<p>Item <name>Damascenus</name> libro I, capitulo 8, dicit expresse quod omnia sunt unum
+							in divinis preter generationem et in generatione et processionem. In his enim solis
+							proprietatibus differunt ab invicem sancte tres ipostases. Et libro III, capitulo 5,
+							dicit differentiam personarum in solis tribus proprietatibus paternali, filiali,
+							processionali recognoscimus. Idem etiam vult <name>Magister</name> in littera,
+							distinctione 26 et 27. Et hoc de secundo.</p>
+					</div>
+				</div>
+				<div type="articulus">
+					<p>Tertius et quartus articulus</p>
+
+					<p>Quantum ad tertium et quartum articulos simul contra conclusiones istas movenda et
+						dissolvenda sunt dubia. Et primo contra primam est quedam opinio antiqua quam nunc
+						quidam moderni sequuntur que ponit personas divinas distingui se totis sive se ipsis
+						primo.</p>
+
+					<p>Opinio prepositivi <name>Gregorii</name> et <name>Hugonis</name></p>
+
+					<p>Pro qua communiter arguitur. </p>
+
+					<p>Primo sic: simpliciter simplex a quocumque distinguitur se toto dicitur, sed quelibet
+						persona divina est simpliciter simplex; ergo etc. </p>
+
+					<p>Et confirmatur, quia persona divina est eque simplex sicut essentia, sed essentia
+						propter sui simplicitatem se tota distinguitur a quocumque; ergo et persona. Istam
+						rationem quidam moderni deducunt sic: persone divine sunt summe et omnino simplices ita
+						quod nec essentia est simplicior personis, nec aliqua proprietas est cogibilis in
+						persona esse simplicior quam ipsa persona, et per consequens nulla aliquo modo inter se
+						distincta includit ipsa persona, igitur quelibet persona a quocumque distinguitur se
+						ipsa et non aliquo sui distinguitur primo. </p>
+
+					<p>Preterea, et est quasi confirmatio precedentis rationis, Pater aliquo sui primo
+						distingueretur a Filio et aliquo sui non distingueretur ab ipso persona Patris esset
+						aliquo modo composita, quod est erroneum. Probatur consequentia, quia ubi est aliud et
+						aliud, ibi est aliquo modo compositio.</p>
+
+					<p>Ista conclusio confirmatur aliquibus auctoritatibus I <name>Hieronimi</name> in
+						expositione fidei catholice ubi loquens de Patre, Filio et Spiritu Sancto dicens: ista
+						substantia unum sunt, sed personis ac nominibus distinguuntur. </p>
+
+					<p>Item <name>beatus Augustinus</name> in sermone <title>De fide et symbolo</title> qui
+						incipit “credimus in unum verum Deum”, sic inquit: credimus hanc trinitatem personis
+						distinctam substantia unitatem; ex que primo sic arguit: trinitas non est nisi tres
+						persone et trinitas est distincta personis, igitur persone sunt distincte personis, et
+						sic se ipsis primo sive se totis.</p>
+
+					<p>Responsio ad propositivum</p>
+
+					<p>Ad primam nego maiorem. Si sumatur universaliter, quia, licet simpliciter simplex non
+						includens aliquid commune sibi et aliis et ali-[134rb]-quid proprium sibi se toto
+						distinguitur a quocumque distinguitur, tamen simpliciter simplex includens aliquid
+						commune sibi et aliis per identitatem et aliquid proprium sibi non potest a quocumque
+						distingui se toto. Sic est in proposito, quia quamvis omnis persona divina sit
+						simpliciter simplex, quelibet tamen includit essentiam que communis est omnibus per
+						identitatem et aliquid proprium sibi, quia Pater includit paternitatem que est sibi
+						propria et Filius filiationem et Spiritus Sanctus passivam spirationem, et ideo non
+						possunt distingui se totis non obstante earum simplicitate.</p>
+
+					<p>Et ad confirmationem concedo quod persona divina est eque simplex sicut essentia, sed
+						cum hoc stat quod quelibet persona includat aliquid commune sibi et aliis per
+						identitatem et aliquid proprium sibi quod de essentia verificari non potest, quia nihil
+						est commune per identitatem essentie divine et alicui quod non sit essentia divina sicut
+						aliquid est commune per identitatem Patri et Filio qui non est Pater. Et hec est ratio
+						quare essentia divina se tota distinguitur a quocumque distinguitur, persona autem non.
+						Ex hoc statim apparet quod minor illius rationis non est vera sicut assumitur, quia,
+						licet essentia divina se tota sive se ipsa primo distinguatur a quocumque, hoc tamen non
+						est propter sui simplicitatem, sed quia nihil est commune per identitatem sibi et alicui
+						quod non sit ipsa quod de personis verificari non potest, ut patet ex dictis.</p>
+
+					<p>Ad deductionem vero aliorum dicunt multi quod quamvis nec essentia, nec proprietas sit
+						simplicior ipsis personis, cum hoc tamen stat quod persona includat aliqua inter se
+						distincta formaliter et hoc sufficit, sed, quia talem distinctionem non reputo bene
+						possibilem, concedo quod persona divina non includit aliquo modo ex parte rei inter se
+						distincta, cum hoc tamen stat quod quelibet persona divina includat essentiam que
+						communis est omnibus per identitatem et aliquid proprium per quod distinguitur ab aliis,
+						nec est bona consequentia persona divina includat essentiam que communis est omnibus
+						tribus et aliquid proprium; igitur essentia et proprietas illa sunt aliquo modo
+						distincta, ut declarabitur distinctione 33.</p>
+
+					<p>Et per hoc apparet quid dicendum ad ultimum, quia non sequitur Pater aliquo sui
+						distinguitur a Filio et aliquo sui non, igitur persona Patris est aliquo modo composita.
+						Et quando dicitur quod ubi est aliquid et aliquid, ibi est compositio, patet quid
+						dicendum, quia ex hoc non sequitur quod in Patre sit aliquid et aliquid, id est aliqua
+						distinctio ex natura rei, sed sequitur quod in ipso sit aliquid commune sibi et aliis et
+						aliquid proprium sibi, et ex hoc non concluditur aliqua distinctio multo minus
+						composito.</p>
+
+					<p>Ad auctoritates vero dico quod non est intentio <name>Hieronimi</name>, nec
+							<name>Augustini</name> quod Pater et Filius et Spiritus Sanctus distinguantur
+						personis, id est se totis. Oppositum patet per <name>beatum Augustinum</name>, superius
+						allegatum. Sed intentio eorum est quod distinguuntur personis, id est personaliter. Et
+						hoc est verum, sed tunc nihil concluditur, quia non sequitur Pater et Filius et Spiritus
+						Sanctus distinguuntur personaliter, igitur se ipsis primo seu se totis sicut
+						infertur.</p>
+
+					<p>Opinio <name>Linconiensis</name> in tractatu <title>De personis divinis et imagine
+							creata</title></p>
+
+					<p>Contra secundam conclusionem sunt due opiniones, quarum prima ponit personas divinas
+						distingui primo per proprietates absolutas tanquam per eam que sunt rationes sui
+						principia distinctionis earum, per relationes vero ex consequenti et secundario velut
+						per ea ex quibus potest cognosci vel inferri mutua eorum distinctio. Secunda vero ponit
+						personas divinas. Primo distingui per tres modos reales absolutos qui sunt esse
+						naturaliter esse intellectualiter et esse amabiliter. Per primum enim, ut asserit hec
+						opinio, persona Patris constituitur in esse personali et ab aliis primo distinguitur,
+						per secundum vero persona Filii et per tertium persona Spiritus Sancti et isti tres modi
+						secundum istam [134va] opinionem sunt immediatum fundamentum divinarum relationum. Et
+						differt hec opinio a precedenti, quia secundum precedentem proprietates absolute quibus
+						persone divine distinguuntur sunt proprietates perfectissime. Sed secundum istam
+						opinionem modi predicti non dicunt aliquam perfectionem, sed sunt modi habendi
+						perfectionem. Quicquid enim perfectionis est in Deo secundum istum modum dicendi
+						continetur in quolibet trium modorum, quia quicquid naturaliter totum illud intelligit
+						et amat Deus, et ideo omnis perfectio que habetur a Patre naturaliter, habetur a Filio
+						intellectualiter et a Spiritu Sancto amabiliter. Pro prima istarum opinionum arguo primo
+						sic: perfectissimorum suppositorum et dignissimorum sunt principia distinctiva
+						dignissima, sed supposita divina sunt perfectissima et dignissima et proprietas absoluta
+						perfectior et dignior relativa; igitur etc.</p>
+
+					<p>Preterea, supposita substantialia proprietatibus substantialibus constituuntur et
+						distinguuntur primo, sed supposita divina sunt substantialia; igitur proprietatibus
+						substantialibus et sic absolutis constituuntur et distinguuntur primo.</p>
+
+					<p>Preterea, et est quasi confirmatio precedentis rationis nullum suppositum est
+						substantiale nisi eius formale principium constitutum, et per consequens distinctum
+						pertineat ad genus substantie. Nullum enim suppositum ponitur in aliquo genere, cuius
+						non est eius formale constitutum, sed supposita divina sunt substantialia; igitur
+						etc.</p>
+
+					<p>Preterea, suppositum perfectissimum debet suppositari, et per consequens ab aliis primo
+						distingui per principium sui generis. Hoc patet, quia imperfectionis est suppositari per
+						principia alterius generis, sicut patet de accidentibus que suppositantur per
+						substantiam et naturam humanam que suppositatur a verbo. Supposita divina sunt
+						perfectissima, igitur suppositantur, et per consequens ab invicem primo distinguitur per
+						principia sui generis, scilicet per principia substantialia et sic absoluta cum sint
+						supposita substantialia etc.</p>
+
+					<p>Opinio <name>Iacobi de Viterbio</name>
+						<title>Quodlibet</title> III, questione 7, articulo 4</p>
+
+					<p>Pro secunda opinione arguitur primo sic: commune est omnibus oppositis secundum quod
+						opposita sunt in eodem secundum idem quod esse non possunt, sed in divina essentia sunt
+						relationes opposite secundum rectam doctrinam fidei; igitur hoc non erit secundum idem,
+						sed secundum aliud; sed non est dicendum quod secundum aliam rem vel secundum aliam
+						partem cum divina essentia sit simplex et impartibilis. Oportet ergo dicere quod
+						secundum alium et alium modum essendi, quod est propositum.</p>
+
+					<p>Secundo sic: omnis distinctio relative oppositionis preexigit aliquam distinctionem in
+						fundamento. Hoc patet, quia omnis relatio est habitudo et habitudo semper est
+						distinctorum sic quod distinctio preintelligitur habitudini, sed essentia divina est
+						fundamentum oppositarum relationum; igitur in ipsa est aliqua distinctio preter illam
+						que est oppositionis relative que se habet ut immediatum fundamentum oppositarum
+						relationum. Sed non est dicendum quod talis distincto sit rerum. Oportet ergo dicere
+						quod sit modorum essendi et hec diversitas modorum sufficit ad oppositionem relativam ut
+						sit eius fundamentum sive subiectum immediatum, ut isti dicunt.</p>
+
+					<p>Tertio sic: ubicumque sunt relationes reales opposite, oportet esse distinctionem
+						aliquam in fundamento earum. Hoc patet, quia relativa que dicuntur secundum rationem
+						vere sunt opposita relative, sed quia non est realis distinctio in fundamentis earum.
+						non dicuntur reales ita et econtra. Si alique relationes dicuntur reales vere, oportet
+						esse aliquam realem distinctionem in fundamento ipsarum sive diversarum rerum sive
+						diversorum modorum essendi realium, sed in divinis sunt relationes reales opposite;
+						igitur oportet aliquam distinctionem realem esse in fundamento earum et non diversarum
+						rerum, igitur diversorum modorum realium.</p>
+
+					<p>Quarto sic: ubi est origo, ibi est principium et terminus originis, sed relatio
+						secundum se non esset principium nec termius; ergo essentia ipsa erit principium et
+						terminus originis in divinis. Hoc autem non potest esse nisi in essentia sit aliqua
+						diversi-[134vb]-ficatio alioquin si essentia diversificata esset principium et terminus
+						cum essentia sit in qualibet persona in qualibet haberet rationem principii et termini,
+						quod non est dicendum, ergo in essentia est aliqua distinctio modorum secundum quam
+						dicitur principium et terminus, et sic idem quod prius.</p>
+
+					<p>Sed ad veritatem nulla istarum opinionum videtur mihi tenenda, quia nulla earum est
+						conformis dictis sanctorum, ut patet ex deductione conclusionis mee, et ad eas sequitur
+						necessario quod aliqua perfectio sit in una persona que non est in alia, ut patet
+						ibidem, nec valet illud quod addit secunda opinio, videlicet quod modi reales in quibus
+						persone divine distinguuntur non dicunt aliquam perfectionem, quia, si illi tres modi
+						reales sunt tres entitates reales, ut asserit illa opinio, impossibile est quod non
+						dicant aliquam perfectionem, immo necessario quilibet eorum esset perfectio simpliciter
+						quam in uno melius est esse quam non esse, ut fuit probatum per <name>Anselmum</name> in
+						deducendo conclusionem.</p>
+
+					<p>Responsio ad rationes <name>Linconiensis</name></p>
+
+					<p>Nec motiva ipsorum convincunt. </p>
+
+					<p>Ad primum igitur pro prima opinione dico quod supposita personarum trinitate et eorum
+						perfectionem quam catholici confitentur, maior est falsa et a quolibet catholico, ut
+						credo neganda. Ratio huius est, quia persone divine sunt supposita perfectissima et, si
+						distinguerentur proprietatibus perfectissimis, aliqua perfectio esset in una que non
+						esset in alia, et sic nulla earum esset perfectissima, quod non est catholice dictum. Et
+						ne videar fingere negando propositionem istam. Est advertendum quod persone divine sunt
+						perfectissime, quia quelibet earum est Deus, et per consequens non convenit eis quod
+						sint supposita divina perfectissima per ea quibus distinguitur, sed per deitatem in qua
+						sunt idem. Dico ergo quod supposita perfectissima, quorum quodlibet est perfectissimum
+						per illud in quo convenit cum alio, non oportet quod distinguantur per principia
+						perfectissima, et sic est in proposito, ut patet ex dictis. Concedo tamen quod, si esset
+						aliqua supposita perfectissima, quorum nullum esset perfectissimum per illud in quo
+						convenit cum alio, talia oporteret distingui per principia perfectissima, sed hoc non
+						est ad propositum.</p>
+
+					<p>Ad secundum accipiendo proprietates substantiales proprietatibus absolutis, sicut
+						accipiuntur in ratione, dico quod supposita substantialia, si sint supposita absoluta,
+						constituuntur et distinguuntur primo per proprietates substantiales, sed, si sint
+						supposita relativa, non absoluta, propositio non est vera, immo eius opposita est
+						necessaria, quia supposita relativa proprietatibus relativis non absolutis constituuntur
+						et distinguuntur primo, et sic in proposito, ut patet, et per consequens ratio magis est
+						ad oppositum quam propositum.</p>
+
+					<p>Ad tertium dico quod suppositum potest esse substantiale etiam ratione eius per quod
+						distinguitur ab alio. Et concedo quod in illum suppositum potest esse substantiale
+						ratione eius per quod distinguitur ab alia nisi eius formale constitutivum et
+						distinctivum pertineat ad genus substantie. Aliquid tamen potest esse substantiale
+						ratione eius in quo convenit cum alio, etiam et si eius principium disitnctivum non
+						pertineat ad genus substantie, et sic est in proposito, quia supposita divina per suam
+						propriam naturam et essentiam in qua sunt idem sunt substantialia.</p>
+
+					<p>Ad ultimum concedo maiorem in isto sensu, videlicet quod suppositum perfectissimum, si
+						sit suppositum absolutum, debet suppositari, et per consequens ab alio primo distingui
+						per principium sui generis, id est per principium absolutum si vero sit relativum per
+						principium relativum. Sed sic concessa maiore patet quod ratio concludit oppositum eius
+						ad quod adducitur si vero intelligatur quod suppositum perfectissimum debet suppositari
+						et ab aliis primo distingui per principium sui generis, id est per principium
+						perfectissimum. Patet ex solutione prime rationis quod propositio non est vera, nec
+						probatio valet, quia non est imperfectionis suppositari per principium alterius generis
+						in sensu dato si illud principium non dicit imperfectionem aliquam, nec facit
+						compositionem cum natura suppositi sicut est in proposito, quia relationes divine non
+						dicunt aliquam imperfectionem, nec faciunt compositionem cum essentia cum non
+						distinguantur realiter ab ipsa, nec exempla que adducuntur sunt ad propositum in aliquo,
+						ut patet cuicumque theologo. [135ra] </p>
+
+					<p>Responsio ad rationes <name>Iacobi</name></p>
+
+					<p>Ad primum vero pro secunda opinione si in maiori esse in accipitur transitive concedo
+						eam, sed tunc minor est falsa, quia isto modo in essentia divina non sunt alique
+						relationes, cum omnis relatio divina sit idem realiter cum essentia. Si vero esse in
+						accipitur intransitive, nego maiorem, quia nulla res infinita qualis est essentia divina
+						potest esse tres res relative sive tres relationes non obstante earum oppositione
+						circumscripto quocumque alio trinario rerum vel modorum, et per consequens in ipsa
+						possunt esse relationes opposite accipiendo esse intransitive.</p>
+
+					<p>Ad secundam dico sicut ad precedentem quod maior est vera si esse in fundamento
+						accipitur proprie et secundum intransitivam locutionem, sed sub isto sensu minor est
+						falsa, ut patet ex dictis. Si vero esse in fundamento accipitur large et secundum
+						intransitivam locutionem in quo sensu doctores concedunt divinam essentiam esse
+						fundamentum oppositarum relationum, nego maiorem et ad probationem dico quod, licet
+						habitudo semper sit distinctorum, tamen non oportet quod distinctio semper
+						preintelligatur habitudini sic quod necessario extrema illius habitudinis distinguantur
+						aliqua distinctione priori, quia, si relatio sive habitudo est constitutiva suppositi,
+						sicut est in proposito, propositio non habet veritatem.</p>
+
+					<p>Ad tertium patet quid dicendum ex dictis istis.</p>
+
+					<p>Ad quartum vero concesso quod essentia in bono sensu sit principium et terminus
+						originis in divinis dico quod ex hoc non sequitur quod in ipsa sit aliqua diversificatio
+						sive distinctio, quia ista verificari possunt sine omni distinctione absolutorum que sit
+						in ipsa. Et quando dicitur quod tunc essentia in qualibet persona habet rationem
+						principii et termini responderi potest dupliciter. Primo quidem potest dici quod
+						propositio illa potest dupliciter intelligi. Uno modo, sic: essentia divina in qualibet
+						persona habet rationem principii et termini, id est quelibet persona in qua est essentia
+						principiat et principiatur vel producit et producitur; et in isto sensu propositio est
+						falsa, nec sequitur ex concessis. Alio modo, sic: essentia divina in qualibet persona
+						habet rationes principii et termini, id est in qualibet persona est essentia que quidem
+						est principium et terminus originis; et in isto sensu potest concedi propositio, sed ex
+						hoc non sequitur quod quelibet persona principiet et principietur, sicut nec sequitur in
+						qualibet persona est essentia que est potentia generandi, ergo quelibet persona generat.
+						Secundo, potest absolute negari illud consequens, quia, licet esse divina sit principium
+						et terminus originis circumscripta omni tali distinctione, tamen non oportet quod habeat
+						rationem principii nisi in persona producente, nec rationem termini nisi in persona
+						producta, nec ad hoc requiritur aliqua distinctio absolutorum in ipsa.</p>
+
+					<p><name>Ockham</name> in I, distinctione 26, questione 1, articulo 4</p>
+
+					<p>Contra tertiam conclusionem quidam dicunt quod posset esse quedam opinio que poneret
+						quod nihil est penitus imaginabile in Deo nisi penitus absoluta, et per consequens quod
+						non essent ibi alique relationes et, ut dicunt, propter hoc non negaretur Patrem
+						generare Filium et Patrem et Filium spirare Spiritum Sanctum, sed poneret quod, sicut
+						posita hac albedine et illa omni alia imaginabili circumscripta, iste due albedines sunt
+						similes et non per aliquam relationem, et ita poneret hec opinio quod eo ipso quod in
+						divinis sunt tres persone absoluta, una istarum personarum esset ab alia et una esset a
+						duabus et una esset Pater, una Filius, una Spiritus Sanctus sine omni re alia
+						imaginabili, sed, quia fingens opinionem istam, licet det simplicibus materiam errandi,
+						sicut et in aliis, dicit tamen se opinionem non tenere asserens propter dicta sanctorum
+						quod paternitas vere et realiter est in Deo timore forte potius quam celo veritatis
+						motus, ideo tanquam suspectam dictis sanctorum etiam per opinantes contraria dimitto
+						eam.</p>
+
+					<p><name>Linconiensis</name> et <name>Iacobus de Viterbio</name></p>
+
+					<p>Contra quartam conclusionem sunt opiniones quedam doctorum et potest ex fundamentis
+						eorum contra conclu-[135rb]-sionem argui. </p>
+
+					<p>Primo sic: omni relationi est aliquid previum quod refertur illa relatione. Hoc patet,
+						quia prius informatur aliquid relatio quam sit relativum quasi compositum quod dicatur
+						referri primo illud primo informatum relatione potest dici referri, quia omne informatum
+						aliqua forma potest dici tale. Et confirmatur, quia, si homo non esset primo animatus
+						nisi informatus sit corpus anima, ita ut videtur est in proposito, quia nil erit relatum
+						primo quod constituatur formaliter in esse primo relatione nisi aliquid sit relatum
+						denominative per denominationem a relatione.</p>
+
+					<p>Confirmatur iterum, quia, sicut albedo se habet ad dare esse album, ita relatio ad dare
+						relatum, sed omni albedini aliquid previum quod dealbatur per ipsam; igitur relationi
+						erit aliquid previum quod refertur per ipsam, sed non essentia divina. Essentia enim
+						divina non refertur realiter, quia non distinguitur realiter, ergo suppositum. Tunc sic:
+						suppositum distinctum est aliquid previum relationi quod refertur per ipsam, ergo non
+						constituitur primo in esse suppositi per relationem, et per consequens non distinguitur
+						ab aliis sola relatione.</p>
+
+					<p>Preterea, omne originans est prius origine et originato, igitur persona Patris est
+						prior origine et originato, sed origo in divinis est ipsamet relatio, igitur in divinis
+						persona Patris est prior relatione, igitur non constituitur primo per relationem, et per
+						consequens distinguitur ab aliis sola relatione. Et confimatur, quia quandocumque
+						aliquid antecedit aliquem terminum et antecedit illud quod est simul cum illo termino,
+						sed generare qui est actus prime persone antecedit filiationem que ex ipso innascitur,
+						ergo antecedit paternitatem que est simul natura et naturali intelligentia cum
+						filiatione. Et per consequens paternitas non constituit, nec distinguit primo suppositum
+						generans, sed presupponit ipsum distinctum esse.</p>
+
+					<p>Preterea, paternitati non repugnat primo ex ratione sua communicari, igitur paternitas
+						non est constitutiva suppositi in esse personali sub ratione incommunicabili, nec per
+						consequens primo distinctiva ipsius. Consequentia patet, quia quicquid constituit
+						aliquid in aliquo esse prime et in unitate correspondente tali esse se toto repugnat
+						distinctioni opposite illi unitati exemplum si rationale primo constituat hominem in
+						entitate et unitate specifica se toto primo repugnat distinctioni specifice, igitur, si
+						paternitas primo constituit suppositum in esse personali sub ratione incommunicabili,
+						oportet quod paternitati primo ex ratione sua repugnet communicari. Antecedens vero
+						probatur, quia omnia relativa equaliter se habent ad incommunicabilitatem, sed
+						spirationi active non repugnat primo communicari, nec spirationi passive, et per
+						consequens nec paternitati. Et confirmatur, quia, si ponerentur quecumque positiones
+						possibiles vel impossibiles stante intellectu rationali, ad hoc non repugnaret sibi
+						dividi in plures naturas specificas puta si poneretur quod rationale esset differentia
+						coloris et quod ille color posset creare substantias de nihilo et quecumque talia.
+						Posita autem hac positione impossibili quod prior esset productio voluntatis quam
+						intellectus salvata tamen ratione generationis et spirationis, spiratio activa esset in
+						uno supposito et generatio activa esset tunc in duobus, quia tunc Spiritus Sanctus in
+						illo instanti in quo spiraretur communicaretur vis generativa, ergo nunc generationi
+						active non repugnat primo ex natura nec ex sua ratione communicari.</p>
+
+					<p>Preterea, ad principale sic: ab ultimis distinctivis et constitutivis aliquorum non
+						posset abstrahi aliquod commune dictum in quid de eis. Hoc patet, quia, si est aliquod
+						commune eis illo communi ,non distinguuntur primo, sed aliquo contrahente distinguuntur,
+						et ita non sunt primo, sed aliquo contrahente distinguuntur, et ita non sunt prima
+						distinctiva negativa. Si ergo sunt primo distinctiva, nihil est eis commune dictum in
+						quid de eis, sed constat quod a paternitate et filiatione abstrahitur hoc quod est
+						relatio que videtur commune eis et univoce. Potest enim intellectus esse certus de
+						relatione et dubius de hac relatione et ita, igitur ista a quibus abstrahuntur non sunt
+						primo distincta. [135va] </p>
+
+					<p><name>Thomas de Argentina</name> distinctione 26, questione 1, articulo 1</p>
+
+					<p>Ad primum istorum quidam doctor noster respondet dicens quod maior est falsa, non solum
+						in divinis, sed etiam in creaturis, quia illud quod refertur est ipsum relativum. Sicut
+						enim albedo non presupponit ante se album, quia albedo constituit ipsum in esse albo,
+						sic relatio non presupponit ante relativum, sed constituit in esse relativo.</p>
+
+					<p>Contra <name>Thomam</name></p>
+
+					<p>Ista tamen responsio non sufficit, quia, licet relativum constitutum ex relatione et
+						subiecto relationis referatur per se et primo, subiectum tamen sive fundamentum
+						relationis dicitur referri per accidens et quasi denominative, ut patet V
+							<title>Metaphysice</title>, capitulo de ad aliquid, ubi <name>Philosophus</name>
+						distinguit modos relativorum dicens alia vero secundum accidens ut homo ad aliquid, quia
+						ei accidit duplum esse. Ex hoc statim apparet nisi plus dicatur quod omni relationi est
+						aliquid previum, scilicet subiectum et fundamentum quod refertur illa relatione. Hac
+						igitur responsione dimissa dico quod non est universaliter verum quod omni relationi est
+						aliquod previum quod nominative referatur illa relatione, quia, licet hoc sit verum
+						quando in relativo quod primo refertur preter relationem est aliquid distinctum realiter
+						a termino relationis et ab ipsa relatione, quod vere et proprie informatur tali
+						relatione sicut in creaturis, tamen non est verum quando in tali relativo preter
+						relationem non est aliquid distinctum realiter a termino relationis nec ab ipsa
+						relatione que vere et proprie informatur tali relatione, quia tunc non est aliquod
+						previum relationi, quod possit denominative referri, et sic est in proposito, quia in
+						personis divinis preter relationem non est nisi essentia que secundum veritatem fidei
+						catholice non distinguitur realiter a termino relationis, nec ab ipsa relatione, nec
+						proprie informatur relatione, sed est ipsa. Et patet per hoc quid dicendum ad primas
+						duas probationes illius propositionis, quia in persona divina non est aliquid quod
+						proprie loquendo informetur relatione.</p>
+
+					<p>Ad secundam vero probationem loquendo conformiter dico quod est simile quod adducitur
+						pro simili, quia album universaliter includit aliquid realiter distinctum ab albedine
+						quod vere et proprie informatur ipsa. Relativum vero non semper includit aliquid
+						realiter distinctum a relatione quod vere et proprie loquendo informetur ipsa, ut
+						declaratum est supra.</p>
+
+					<p>Ad secundum principale dico quod loquendo proprie de prioritate maior est falsa, quia
+						in divinis vere et realiter est originans et originatum et origo, et tamen in divinis
+						non est realiter prius et posterius, quia ibi non est realiter aliqua prioritas proprie
+						dicta, ut fuit declaratum distinctione 9.</p>
+
+					<p>Per idem patet quid dicendum ad confirmationem, quia in divinis generare non antecedit
+						realiter filiationem, nec econverso.</p>
+
+					<p><name>Ockham</name> in I, distinctione 26, questione 1, articulo 2</p>
+
+					<p>Ad tertium dicunt aliqui quod paternitas divina est de se incommunicabilis et
+						singularis et non tantum est hoc verum de paternitate, ut dicunt, sed etiam quelibet
+						quiditas qui est a parte rei est de se incommunicabilis et singularis nisi forte
+						essentia divina vocetur quiditas, quia illa quamvis sit de se singularis, non tamen est
+						incommunicabilis.</p>
+
+					<p>Contra <name>Ockham</name></p>
+
+					<p>Ista tamen responsio est omnino impossibilis quantum ad illud quod dicit quod quelibet
+						quiditas que est ex parte rei est incommunicabilis de se etc. Constat enim quod spiratio
+						activa est vera entitas et vera quiditas a parte rei non minus quam paternitas que tamen
+						etiam per eum vere et realiter est in Deo, et tamen spiratio activa non est
+						incommunicabilis sicut nec essentia, licet non communicetur Spiritum Sanctum sicut
+						essentia. Respondeo igitur ad rationem et concedo una cum ipso, sicut communiter
+						conceditur a doctoribus, quod paternitas divina est de se incommunicabilis sive quod
+						paternitati divine ex ratione sua repugnat communicari, quod idem est. Et ad probationem
+						oppositas respondeo. </p>
+
+					<p>Ad primam nego maiorem qua dicitur quod omnia opposita relativa equaliter se habent ad
+						incommunicabilitatem. Ratio huius est, quia, si aliqua rela-[135vb]-tio est eadem
+						realiter duabus relationibus oppositis constituentibus distincta supposita et eius
+						co-opposita non relatio, illa que non est eadem relationibus oppositis poterit esse de
+						se incommunicabilis alia non existente incommnicabili, et sic est in proposito, quia
+						spiratio activa est eadem realiter paternitati et filiationi. Spiratio vero passiva
+						minime. Ad secundum dico quod illud suppositum est impossibile et, quia impossibile est
+						illud ad cuius positionem in esse, sequitur aliud impossibile non est mirum si ex isto
+						posito sequatur paternitatem divinam esse communicabilem, cum hoc tamen stat quod de se
+						sit incommunicabilis. Talis enim impossibile posset poni quod ad ipsum sequeretur
+						rationale posse dividi in plures naturas specificas quamvis se toto primo repugnet
+						distinctioni specifice.</p>
+
+					<p>Ad ultimum dico quod ab ultimis distinctivis et constitutivis aliquorum potest abstrahi
+						per intellectum aliquod commune dictum de illis in quid, nec propter hoc sequitur quod
+						illa non sint primo distinctiva, quia illud abstractum ab eis non est aliquid reale, nec
+						est per consequens in aliquo istorum realiter.</p>
+				</div>
+				<div>
+					<head>Ad rationes principales</head>
+
+					<p>Ad primam patet ex solutione prime rationis contra secundam conclusionem. Secundam
+						rationem credo concludere secundum <name>Boetium</name>.</p>
+				</div>
+
+
+
+
+
+
+			</div>
+		</body>
+	</text>
+</TEI>

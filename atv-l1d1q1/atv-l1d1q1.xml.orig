@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<<<<<<< HEAD
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber I, Distinctio 1, Quaestio 1</title>
+        <author>Alphonsus Toletanus Vargas</author>
+        <editor>Luciana Cioca</editor>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2016-09-04">September 04, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://www.thesis-project.ro/">ERC-THESIS project n° 313339</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="Paris1490">Paris1490</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <variantEncoding method="parallel-segmentation" location="internal"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"> </schemaRef>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2016-09-04" who="#JW" status="draft" n="0.0.0">
+           <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <div xml:id="include-list">
+          <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+          <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+        </div>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#P" n=""/>
+        <cb ed="#P" n=""/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="atv-l1d1q1">
+        <head xml:id="atv-l1d1q1-Hd1e3505">Liber I, Distinctio 1, Quaestio 1</head>
+        <p xml:id="atv-l1d1q1-d1e3508">Ceteris ac none legis, etc. Quia <name>Magister</name> in ista prima distinctione
+          principaliter agit de fruitione et usu, et fruitio est essentialiter dilectio vel
+          dilectatio, vel utrumque, prout in sequentibus apparebit, quero primo quasi pro fundamento: utrum delectatio sit perfectior dilectionem.</p>
+        <div xml:id="atv-l1d1q1-Dd1e3514" type="rationes-principales">
+          <head xml:id="atv-l1d1q1-Hd1e3516">Rationes principales</head>
+          <p xml:id="atv-l1d1q1-d1e3519">Et videtur primo quod non, quia nulla passio est nobilior per se subiecto, sed
+            delectatio est passio consequens operationem et preser dilectionem naturaliter, ut
+            patet per <name>Philosophum</name> X <title>Ethicorum</title>; ergo etc.</p>
+          <p xml:id="atv-l1d1q1-d1e3528">Contra: tristitia est simpliciter peior odio, igitur delectatio est nobilior dilectione.
+            Consequentia tenet per locum ab opposito. Antecedens patet, quia illud quod  <cb ed="#P" n="36ra"/>
+            universaliter repugnat Deo propter sui imperfectionem videtur simpliciter peius eo quod
+            sibi universaliter non repugnat. Sed tristitia propter sui imperfectionem universaliter
+            Deo repugnat, odium autem non, iuxta illud <title>Psalmum</title>: <quote xml:id="atv-l1d1q1-Qd1e3535">iniquitatem odio
+              habui</quote>; igitur tristitia simpliciter peior odio.</p>
+        </div>
+        <div xml:id="atv-l1d1q1-Dd1e3540">
+          <head xml:id="atv-l1d1q1-Hd1e3542"><supplied>Divisio quaestionis</supplied></head>
+          <p xml:id="atv-l1d1q1-d1e3546">Respondeo. In ista questione erunt quattuor articuli, quia primo ponam unicam
+            distinctionem. Secundo quadruplicem conclusionem. Tertio movebo dubia. Et ultimo
+            respondebo et dicam ad articula principalia.</p>
+        </div>
+        <div xml:id="atv-l1d1q1-Dd1e3550" type="articulus">
+          <head xml:id="atv-l1d1q1-Hd1e3552">Primus articulus</head>
+          <p xml:id="atv-l1d1q1-d1e3555">Quantum ad primum articulum distinguo de delectatione, quia quedam est cuius immediatus
+            terminus obiectalis est operatio, quedam cuius immediatus terminus obiectalis non est
+            operatio, sed operationis obiectum previa tamen operatione. Verbi gratia: beatus
+            delectatur de visione Dei quia delectatur se videre Deum; delectatur de dilectione
+            eiusdem quia delectatur se diligere, et delectatur de Deo viso pariter et dilectio
+            previa tamen visione et dilectio eiusdem. Prime delectationis immediatus terminus
+            obiectalis est visio, secunde autem dilectio, tertie Deus ipse, qui est etiam ipse
+            immediatus terminus obiectalis visionis et dilectionis predicta. De utraque delectatione
+            potest intelligi questio. Et hoc de primo.</p>
+        </div>
+        <div xml:id="atv-l1d1q1-Dd1e3560" type="articulus">
+          <head xml:id="atv-l1d1q1-Hd1e3562">Secundus articulus</head>
+          <p xml:id="atv-l1d1q1-d1e3565">Quantum ad secundum articulum pono quattuor conclusiones.</p>
+          <div xml:id="atv-l1d1q1-Dd1e3568">
+            <head xml:id="atv-l1d1q1-Hd1e3570"><supplied>Conclusio prima</supplied></head>
+            <p xml:id="atv-l1d1q1-d1e3574">Prima est quod non omnis dilectio est realiter desiderium vel delectatio. Probatur
+              primo sic: non omne odium est formaliter vel realiter fuga vel tristitia, igitur non
+              omnis dilectio est realiter desiderium vel delectatio. Consequentia patet, quia odio,
+              quod non est realiter fuga nec tristitia, opponitur aliqua dilectio et non dilectio que
+              sit realiter desiderium, quia desiderium opponitur fuge, nec dilectio que dilectio sit
+              realiter, quia dilectio opponitur tristitie, igitur aliqua que non est realiter
+              desiderium nec delectatio. Antecedens probatur, quia odium quo beatus odit peccatum
+              non est realiter fuga nec tristitia. Non quidem fuga propter duo. Primo, quia fuga
+              solum est respectu absentis, sicut et desiderium. Odium autem beati est de peccato
+              presenti, non solum absenti. Secundo, quia omnis fuga presupponit odium a quo causetur,
+              etiam per oppositum opinantes. Sed odium quo beatus odit peccatum non presupponit
+              aliud odium a quo causetur, quia, si presupponeret, reverteretur questio et esset
+              processus in infinitum; ergo oportet stare ad aliquod odium in beato, quod non sit
+              realiter fuga, nec istud odium potest esse tristitia, quia beatus, secundum omnes,
+              nullam habet tristitiam, igitur tale odium non est fuga nec tristitia; ergo etc.</p>
+            <p xml:id="atv-l1d1q1-d1e3577">Secundo sic: dilectio qua damnatus diligit se non est realiter desiderium, nec
+              delectatio, igitur non omnis dilectio est realiter desiderium vel delectatio.
+              Consequentia est nota. Antecedens quoad primam partem probatur, quia desiderium est
+              tantum respectu non habiti vel absentis. Quantum ad secundam partem patet, quia, sicut
+              beatus se habet ad tristari, sic damnatus ad delectari. Sed beatus de nullo tristatur;
+              ergo damnatus de nullo delectatur.</p>
+            <p xml:id="atv-l1d1q1-d1e3580">Tertio sic: omne desiderium presupponit amorem a quo causetur et aliquod desiderium
+              non presupponit delectationem a qua causetur, ergo non omnis amor est realiter
+              desiderium vel delectatio. Consequentia patet, quia, si omne desiderium presupponit
+              amorem et non delectationem, aliquod presupponit amorem qui non est delectatio nec
+              presupponit delectationem. Tunc ultra: vel ille amor est realiter desiderium, vel non.
+              Si sic, igitur presupponit alium amore a quo causetur, et per consequens procederetur
+              in infinitum, quod est inconveniens. Si non, intentum, quia talis non est realiter
+              desiderium vel delectatio. Antecedens quantum ad primam partem expresse ponitur ab
+              adversariis. Quantum ad secundam probatur, quia damnatus desiderat aliquid quod non
+              est. Desiderat enim alios secum puniri et se non puniri et multa similia. Et tamen
+              constat quod desiderium damnati non presupponit delectationem a qua causetur, quia
+              damnatus non habet aliquam delectationem, ut patet ex supradicits; ergo etc. </p>
+            <p xml:id="atv-l1d1q1-d1e3583">Quarto sic: secundum omnes, <cb ed="#P" n="36rb"/> sicut se habet desiderium ad amorem boni absentis,
+              sic se habet delectatio ad amorem boni presentis. Sed omne desiderium presupponit
+              amorem naturaliter boni absentis a quo causetur, secundum contrariam opinionem et
+              veritatem, quia nullus desiderat quod non diligit; ergo omnis delectatio presupponit
+              naturaliter amorem boni presentis a quo causetur. Sed talis amor non est realiter
+              desiderium, cum sit boni presentis, nec delectatio, quia presupponeret dilectionem
+              aliam a qua casaretur, et sic in infinitum; igitur etc.</p>
+          </div>
+          <div xml:id="atv-l1d1q1-Dd1e3589">
+            <head xml:id="atv-l1d1q1-Hd1e3591"><supplied>Conclusio secunda</supplied></head>
+            <p xml:id="atv-l1d1q1-d1e3595">Secunda conclusio est quod nulla dilectio rei presentis causata est realiter
+              delectatio. Pro deductione istius conclusionis premitto aliquas propositiones. </p>
+            <p xml:id="atv-l1d1q1-d1e3598">Prima est quod non omnis delectatio in creaturis est realiter amor. Istam
+              propositionem deduco primo contra illos qui concedunt quod nulla dilectio inordinata
+              sit realiter delectatio. Omnis dilectio est ordinata vel inordinata. Aliqua dilectio
+              in creaturis non est realiter dilectio ordinata, nec inordinata, igitur aliqua
+              delectatio in creaturis non est realiter delectatio. Maior supponitur. Minor probatur,
+              quia delectatio qua peccator delectatur in actu peccati non est dilectio ordinata,
+              quia talis non est in peccatore respectu peccati; nec inordinata, quia nulla
+              delectatio inordinata est realiter dilectio inordinata per conversionem universalis
+              negative. Et confirmatur, quia, si delectatio qua peccator delectatur in actu peccati
+              sit simpliciter dilectio, cum non sit dilectio ordinata, quo posito sequitur quod
+              aliqua dilectio inordinata sit realiter delectatio, quia est contra positum. </p>
+            <p xml:id="atv-l1d1q1-d1e3601">Secundo deduco propositionem absolute sic: non omnis tristitia in creaturis est
+              realiter odium, igitur nec omnis delectatio est realiter amor. Consequentia tenet per
+              locum ab oppositis. Pro deductione antecedentis pono quod aliquis odiat proximum et
+              nihil aliud. Talis potest tristari de bono proximi non est dubium, immo forte de
+              necessitate tristatur. Tunc sic: hoc odium est voluntarium, aliter non esset peccatum.
+              Hec tristitia non est voluntaria, quia tristitia est de his que nobis nolentibus
+              accidunt, ut allegatum est supra, igitur hec tristitia non est hoc odium, nec aliquod
+              aliud, quia supponitur quod talis nihil aliud odiat; igitur etc. </p>
+            <p xml:id="atv-l1d1q1-d1e3604">Secunda propositio est quod non omnis delectatio rei presentis creata est realiter
+              delectatio. Probatur primo sic: nulla delectatio potest realiter esse sine omni
+              delectatione. Hoc patet, quia non potest realiter esse sine se ipsa. Aliqua dilectio
+              rei presentis creata potest realiter esse sine omni delectatione, quia damnatus
+              diligit se et tamen non delectatur, igitur aliqua dilectio rei presentis creata non
+              est realiter delectatio.</p>
+            <p xml:id="atv-l1d1q1-d1e3608">Responsio <name>Alphonsii de Portugali</name></p>
+            <p xml:id="atv-l1d1q1-d1e3613">Sed ad istam rationem per aliquod reverendos patres et socios mecum concurrentes et
+              in lectura fuit responsum dupliciter. </p>
+            <p xml:id="atv-l1d1q1-d1e3616">Primo: quidem fuit dictum quod damnati delectantur secundum quid, licet non
+              simpliciter, quia dilectio et complacentia quam habet de se ipsis est in eis quedam
+              delectatio secundum quid. </p>
+            <p xml:id="atv-l1d1q1-d1e3619">Ista tamen evasio est nulla. Primo, quia non est verum quod damnatus delectetur
+              simpliciter, nec secundum quid, sicut statim declarabitur. </p>
+            <p xml:id="atv-l1d1q1-d1e3622">Secundo, quia posito quod delectatio secundum quid non repugnet damnato, adhuc
+              sequitur quod delectatio et dilectio in ipso realiter distinguuntur, quia illa non
+              sunt idem realiter que sic se habent quod ad augmentum unius non sequitur augmentum
+              alterius, et ad maius augmentum maius augmentum alterius, et ad maximum maximum. Hoc
+              patet, quia aliter una et eadem res simul et semel esset augmentata et non augmentata
+              magis et minus, quod est impossibile. Sed ad augmentum amoris non sequitur augmentum
+              delectationis in damnato etiam stante supposito; igitur. Probatur minor, quia damnari
+              summe diligunt se etiam usque ad contemptum Dei et tamen non summe delectantur de se,
+              secundum istam solutionem, quia non simpliciter, sed tantum secundum quid. Et ideo
+              dicebatur secundo quod, sicut in damnato est amor summus respectu sui, ita est summa
+              delectatio respectu sui, quia ista dele-<cb ed="#P" n="36va"/>-ctatio non opponitur tristitie quedam
+              habet de bono non habito sive de malo habito. Sed ista solutio minus continet
+              veritatis quam prima. </p>
+            <p xml:id="atv-l1d1q1-d1e3627">Quod patet primo, quia, si tanta sit delectatio damnati de suo esse quanta est
+              dilectio damnati sicut asseritur, sequitur quod maior sit delectatio de sui esse quam
+              delectatio beati de quocumque creato, saltem realiter a se distincto, quod non est
+              verum, aliter maior esset dilectio damnati de suo esse quam beati de humanitate
+              Christi et de redemptione generis humani, immo etiam quam de beatitudine sua formali,
+              quod nullus diceret. Consequentia patet, quia damnatus intensius diligit se, cum
+              diligat usque ad contemptum Dei, beatus <gap reason="illegible" unit="word" quantity="1"/> aliquod creatum distinctum a se. </p>
+            <p xml:id="atv-l1d1q1-d1e3633">Secundo, quia summa tristicia excludit omnem delectationem non solum oppositam, sed
+              etiam contigentem, non solum simpliciter, sed etiam secundum quid, sicut patet per
+                <name>Aristotelem</name> X <title>Ethicorum</title>. Sed constat quod damnatus summe
+              tristatur, ergo nullo modo delectatur nec de se, nec de alio, nec secundum quid, nec
+              simpliciter. Et confirmatur, quia beatus de nullo tristatur nec simpliciter, nec
+              secundum quid, igitur damnatus de nullo delectatur nec simpliciter, nec secundum quid.
+              Exclusis igitur istis responsionibus deduco propositionem assumptam. </p>
+            <p xml:id="atv-l1d1q1-d1e3642">Secundo sic: nulla delectatio compatitur in eodem cum summa tristitia. Hoc patet,
+              quia summa tristitia excludit omnem delectationem non solum simpliciter, sed et
+              secundum quid, ut patet per <name>Aristotelem</name> statim allegatum. Sed aliquis
+              amor rei presentis in creaturis non est delectatio; igitur. Probatur minor, quia
+              damnatus summe tristatur et tamen diliget se etiam usque ad contemptum Dei, ut dictum
+              est pluries; ergo etc.</p>
+            <p xml:id="atv-l1d1q1-d1e3648">Tertio sic: aliud odium rei presentis in creaturis non est realiter tristitia, igitur
+              aliqua dilectio rei presentis in creaturis non est realiter tristitia, igitur aliqua
+              dilectio rei presentis in creaturis non est realiter delectatio. Consequentia tenet
+              per locum opponentis. Antecedens probatur multipliciter. </p>
+            <p xml:id="atv-l1d1q1-d1e3651">Primo sic: nulla tristitia in nobis est voluntaria. Aliud odium rei presentis in
+              nobis est voluntarium; igitur aliquod odium rei presentis in nobis est tristitia.
+              Maior patet, quia tristitia in nobis, secundum <name>Aristotelem</name>, est de his
+              que nobis nolentibus accidunt, unde in V <title>Metaphysice</title> attribuit violento
+              tristitiam. Minor probatur, quia omne peccatum in nobis est voluntarium, <choice><sic>immo peccatum immo peccatum</sic><corr>immo peccatum</corr></choice> quia voluntarium, iuxta doctrinam <name>beati
+                Augustini</name>. Sed aliquod odium rei presentis, utputa odium Dei vel proximi, est
+              peccatum in nobis; igitur. </p>
+            <p xml:id="atv-l1d1q1-d1e3669">Secundo sic: nulla tristitia est delectabilis voluntatis. Aliquod odium rei presentis
+              in creaturis est delectabile voluntati; igitur idem quod prius. Probatur minor, quia
+              iustus delectatur quia odit peccatum. </p>
+            <p xml:id="atv-l1d1q1-d1e3672">Tertio sic: nulla tristitia compatitur in eodem cum summa delectatione, sicut nec
+              aliqua delectatio cum summa tristitia. Sed aliquod odium rei presentis in creaturis
+              compatitur in eodem cum summa delectatione; igitur etc. Probatur minor, quia beatus
+              summe delectatur, sicut et damnatus summe tristatur, et tamen odit peccatum, igitur.
+              Et confirmatur, quia nulla tristitia potest realiter esse sine omni tristitia. Aliquod
+              odium rei presentis in creatis potest realiter esse sine omni tristitia, quia beatus
+              de nullo tristatur, et tamen odit peccatum, igitur aliquod odium rei presentis in
+              creaturis non est tristitia.</p>
+            <p xml:id="atv-l1d1q1-d1e3676">Quarto sic: nulla tristitia in nobis est meritoria, cum nulla sit voluntaria, sed
+              aliquod odium rei presentis in nobis est meritorium, quia odium quo iustus odit
+              iniquitatem est ei meritoria, iuxta <title type="bible">Psalmum</title>: <quote xml:id="atv-l1d1q1-Qd1e3681" type="bible">dilextisti iustitiam et
+                odisti iniquitatem</quote>, etc. </p>
+            <p xml:id="atv-l1d1q1-d1e3685">Tertia propositio est quod non omnis dilectio rei presentis ordinata in creaturis est
+              realiter delectatio. Istam propositionem deduco primo sic contra illos qui concedunt
+              quod nulla dilectio inordinata sit simpliciter delectatio sic: sicut se habet dilectio
+              inordinata ad dilectionem ordinatam, sic delectatio inordinata ad delectationem
+              ordinatam. Sed dilectio inordinata non est realiter delectatio inordinata secundum
+              istos; igitur dilectio ordinata non est realiter delectatio ordinata et constat quod
+              nec inordinata, igitur nulla. </p>
+            <p xml:id="atv-l1d1q1-d1e3688">Secundo deduco propositionem absolute sic: nulla una res potest realiter intendi se
+              ipsa realiter non intensa. Aliqua dilectio rei presentis ordinata in creaturis potest
+              realiter intendi de-<cb ed="#P" n="36vb"/>-lectatione realiter non intensa, igitur aliqua talis
+              dilectio non est realiter delectatio. Maior tenet virtute primi principii complexi.
+              Minor probatur multipliciter. Primo, quia fortis summe diligit dilectione ordinata
+              actus fortitudinis et pericula mortis quando oportet et tamen modicum delectatur,
+              sicut docet <name>Philosophus</name> et experientia. Secundo, quia martyres propter
+              vehementiam passionis modicum vel in nullo delectantur et tamen summe diligunt.
+              Tertio, quia beata virgo tempore passionis summe diligebat Christum et tamen constat
+              quod non summe delectabatur actu; igitur etc. Experientiam etiam docet quod multi
+              nimis diligunt et modicum delectantur, igitur. Patet minor.</p>
+            <p xml:id="atv-l1d1q1-d1e3696">His propositionibus premissis primo deduco conclusionem principalem absolute ex
+              duabus propositionibus premissis sic: vel dilectio rei presentis et delectatio in
+              creaturis sunt idem realiter convertibiliter et adequate, vel dilectio se habet in
+              plus quam delectatio, vel econverso, vel sunt duo, quedam realiter disperata. Primum
+              dari non potest, quia nec omnis delectatio in creaturis est realiter amor, sicut patet
+              ex prima propositione, nec omnis dilectio rei presentis creata est realiter
+              delectatio, sicut patet ex secunda. Nec secundam, quia, si dilectio rei presentis
+              creata se haberet in plus quam delectatio, omnis delectatio creata esset realiter
+              dilectio, cuius oppositum patet ex prima propositione. Nec tertium per eandem causa,
+              quia sequeretur quod omnis dilectio rei presentis creata esset realiter delectatio,
+              cuius oppositum patet ex secundum. Relinquitur igitur quartum. Quo posito sequitur
+              quod nulla dilectio rei presentis creata sit realiter delectatio, nec econverso, quod
+              est propositum. </p>
+            <p xml:id="atv-l1d1q1-d1e3699">Secundo deduco conclusionem ex secunda propositione contra illos qui dicunt quod
+              omnis dilectio est realiter desiderium vel delectatio sic: omnis dilectio rei
+              presentis creata est realiter delectatio, vel nulla, sed non omnis, igitur nulla.
+              Minor patet ex secunda propositione et maior ex supposito, quia omnis dilectio
+              secundum istos est realiter desiderium vel delectatio. Sed nulla dilectio rei
+              presentis est realiter desiderium vel etiam per eos; igitur omnes est realiter
+              delectatio secundum eos. Et confirmatur, quia, secundum istos, non est maior ratio de
+              una dilectione rei presentis creata quam de alia, igitur, si omnis talis sit
+              delectatio, nec aliqua. Et ad veritatem dicetur quod aliqua dilectio rei presentis
+              creata sit realiter delectatio et aliqua non est loqui ad placitum. </p>
+            <p xml:id="atv-l1d1q1-d1e3702">Tertio deduco conclusionem ex tertia propositione contra illos qui ponunt quod quedam
+              dilectio rei presentis creata est realiter delectatio, scilicet ordinata et recta, et
+              quedam non, scilicet inordinata et perversa, quia, secundum istos, non est maior ratio
+              quod una dilectio rei presentis ordinata sit realiter delectatio quam alia, igitur vel
+              omnis talis est realiter delectatio vel nulla, sed non omnis, sicut patet ex
+              propositione predicta, igitur nulla. Et ulterius, secundum eos, nulla dilectio rei
+              presentis inordinata est realiter delectatio, igitur universaliter nulla dilectio rei
+              presentis creata est realiter delectatio, cum omnis sit ordinata vel inordinata. Patet
+              igitur assumpta conclusio et in se et contra sic opinantes.</p>
+          </div>
+          <div xml:id="atv-l1d1q1-Dd1e3706">
+            <head xml:id="atv-l1d1q1-Hd1e3708"><supplied>Conclusio tertia</supplied></head>
+            <p xml:id="atv-l1d1q1-d1e3712">Tertia conclusio est quod non omnis delectatio est passio consequens operatione
+              naturaliter, sed aliqua; sed non omnis est operatio proprie dicta. Pro declaratione
+              istius notanda est distinctio posita in primo articulo, quia videtur mihi quod omnis
+              delectatio, cuius immediatus terminus obiectalis est operatio, sit passio quedam
+              consequens operatione naturaliter. Et per consequens nulla talis est operatio proprie
+              dicta. Et de tali loquitur <name>Aristoteles</name> X <title>Ethicorum</title>, ubi
+              dicit <name>Commentator</name> quod est propter continuationem operationem, quia
+              delectatio de visione est motivum et causa continuandi visionem, et sic de aliis.
+              Nulla tamen delectatio, cuius immediatus terminus obiectalis non est operatio, sed obiectum
+              operationis, previa tamen operatione mihi vi-<cb ed="#P" n="37ra"/>-detur passio operationis esse, sed
+              actus quidam elicitus voluntatis et operatio proprie dicta. Probat autem hec
+              propositio, ut clarius deducatur declaratione amicitie circa Deum. </p>
+            <p xml:id="atv-l1d1q1-d1e3726">Primo sic: nulla delectatio que non est propter actum potest esse passio naturaliter
+              consequens actu. Delectatio amicitie circa Deum non est propter actum; igitur. Maior
+              patet, quia delectatio idcirco ponitur passio operationis, quia est propter
+              operationem, secundum intentionem <name>Aristotelis</name> et
+                <name>Commentatoris</name> statim allegatis, igitur ex opposito tenet assumptum
+              maioris. Probatur minor, quia, sicut voluntas beati dilectione amicitie diligit Deum
+              propter se et non propter visionem previam, sic realiter etiam delectatur delectatione
+              amicitie de Deo propter se et non propter visionem vel dilectionem previam, dicens beatus
+                <name>Augustinus</name> IV <title>De Trinitate</title>, capitulo 10, de
+              magnis quod <quote xml:id="atv-l1d1q1-Qd1e3740">fruimur cognitis in quibus voluntas ipsis propter se delectata
+                conquiescit</quote>. Si ipsis propter se, igitur non propter aliud, igitur propter actum.</p>
+            <p xml:id="atv-l1d1q1-d1e3744">Secundo sic: delectatio amicitie circa Deum est aliquid beatitudinis formaliter et
+              intrinsece, igitur non est passio naturaliter consequens actum, sed operatio proprie
+              dicta. Antecedens patet, quia beatitudo in visione et fruitione consistit. Fruitio
+              autem includit delectationem essentialiter, prout declarabitur questione sequenti.
+              Consequentia probatur, quia quod est aliquid beatitudinis formaliter et intrinsece est
+              gratia sui et non alterius, cum beatitudo sit simpliciter sui gratia. Passio vero
+              naturaliter consequens actum non est gratia sui, sed alterius, quia talis est propter
+              actum, ut patet ex dictis.</p>
+            <p xml:id="atv-l1d1q1-d1e3747">Tertio sic: delectatio amicitie circa Deum non est passio naturaliter consequens
+              actum visionis, nec dilectionis, igitur nullius operationis est passio. Consequentia
+              patet, tum quia nullam aliam operationem naturaliter presupponitur, tum quia istis
+              solis manentibus naturaliter manet ipsa. Antecedens probatur, quia quilibet istorum
+              actuum habet suam propriam delectationem que ipsum consequitur velut passio, quia
+              delectatio de visione est passio et sequela visionis et delectatio dilectionis est
+              passio et sequela dilectionis. Et de talibus loquitur <name>Aristoteles</name> X
+                <title>Ethicorum</title> dicens quod <quote xml:id="atv-l1d1q1-Qd1e3755">cuilibet operationi est annexa sua propria
+              delectatio</quote>. Delectatio igitur amicitie circa Deum, cum distinguatur a predictis, non
+              videtur ipsorum passio, quia nulli ipsorum est propria.</p>
+            <p xml:id="atv-l1d1q1-d1e3760">Quarto sic: si delectatio amicitie circa Deum est passio non operatio, vel est passio
+              visionis, vel dilectionis, vel utriusque, vel alterius. Non alterius ex ratione
+              precedenti, nec utriusque cum distinguantur specifice, nec alterius prioris precise,
+              tum quia non posset assignari causa quare magis esset unius quam alterius, tum quia
+              duplex delectatio esset passio visionis et dilectionis aut una tantum, vel econverso,
+              quod non consonat rationi, cum unius operationis sit passio una sola delectatio;
+              igitur etc. Ista videtur esse intentio <name>Aristotelis</name> VII
+                <title>Ethicorum</title> dicentis quod <quote xml:id="atv-l1d1q1-Qd1e3768">delectatio est operatio perfecta non
+              impedita</quote>, igitur, secundum intentionem eius, aliqua delectatio est operatio proprie
+              dicta, sed non illa cuius immediatus terminus obiectalis est operatio, quia talis per
+              eum non est operatio, sed propter operationem, ut patet ex dictis, igitur illa de qua
+              loquimur, quia talis non est sicut propter finem suum, nec propter operationem, nec
+              propter continuationem operationis, ut patet; igitur etc.</p>
+          </div>
+          <div xml:id="atv-l1d1q1-Dd1e3774">
+            <head xml:id="atv-l1d1q1-Hd1e3776"><supplied>Conclusio quarta</supplied></head>
+            <p xml:id="atv-l1d1q1-d1e3780">Quarta conclusio est quod delectatio amicitie circa Deum est simpliciter perfectior
+              dilectione eiusdem et universaliter omnis delectatio que ponitur operatio proprie
+              dicta est perfectior dilectione. </p>
+            <p xml:id="atv-l1d1q1-d1e3783">Probatur primo sic: in actibus essentialiter ordinatis quicumque habet rationem
+              ultimi, habet rationem optimi. Hoc patet, tum quia posteriora generatione sunt
+              perfectiora, VIII <title>Physicorum</title>, et <cb ed="#P" n="37rb"/> priora generatione sunt
+              perfectione posteriora, IX <title>Metaphysica</title>, tum <name>Boethius</name> dicit
+              quod <quote xml:id="atv-l1d1q1-Qd1e3796">quia natura in essentialiter ordinatis semper procedit ab imperfecto ad
+              perfectum, non autem econverso</quote>. Sed dilectio et delectatio amicitie circa Deum sunt
+              actus; igitur de dilectione nullus dubitat. De delectatione patet ex conclusione
+              precedenti et constat quod sunt essentialiter ordinata, igitur cum delectatio habeat
+              rationem ultimi, habebit etiam rationem optimi.</p>
+            <p xml:id="atv-l1d1q1-d1e3800">Secundo sic: beatitudo formalis creature principalius consistit in delectatione
+              amicitie circa Deum quam in dilectione eiusdem, igitur talis delectatio est
+              simpliciter perfectior dilectione. Consequentia patet, quia cum beatitudo formalis sit
+              ultimus finis creature beatificabilis, in actu perfectiori eius principalius consistit.
+              Antecedens probatur dupliciter. Primo, quia creatura rationalis magis vel minus
+              beatificatur secundum quod magis vel minus delectatur et non secundum quod magis vel
+              minus diligit, igitur eius beatitudo in delectatione principalius consistit.
+              Consequentia est evidens. Antecedens probatur, quia Deus tantam dilectionem potuit
+              dare in via beate virgini et forte fecit de facto, prout quibusdam videtur quantam
+              minimus de sanctis, utputa linus habet in patria, et tamen in via non potuit
+              beatificari sicut minimus sanctus in patria, quia non potuit ita perfecte delectari,
+              igitur creatura magis vel minus beatificatur secundum quod magis vel minus delectatur
+              et non secundum quod magis vel minus diligit.</p>
+            <p xml:id="atv-l1d1q1-d1e3803">Secundo, quia pena infernalis principalius consistit in tristitia quam in odio,
+              igitur per oppositum beatitudo formalis principalius consistit in delectatione quam in
+              amore. Antecedens probatur, quia, si per impossibile damnatus odiret Deum ut nunc et
+              non tristaretur, non esset ei tanta pena, sicut si non, odiret ipsum et tamen
+              tristaretur sicut nunc tristatur. Et confirmatur, quia, si per impossibile beatus
+              Petrus diligeret Deum ita intense sicut nunc diligit et non delectaretur in ipso, non
+              esset ei tanta gloria, ut videtur sicut si delectaretur de Deo ita perfecte sicut nunc
+              delectatur, etiam si non diligeret ipsum.</p>
+            <p xml:id="atv-l1d1q1-d1e3807">Tertio ad principale sic: quod est regula et mensura bonitatis et malitie in operibus
+              nostris et habet rationem finis respectu ipsarum est simpliciter nobilius quacumque
+              operatione realiter a se distincta. Actus delectationis est huiusmodi; igitur. Maior
+              patet, quia mensura est simpliciter nobilior mensurato et finis his que sunt ad finem.
+              Minorem ponit <name>Aristoteles</name> expresse VII <title>Ethicorum</title>, capitulo
+              12, ubi sic ait: <quote xml:id="atv-l1d1q1-Qd1e3815">Delectatio enim finis est architeton, id est principalis</quote>. Quantum
+              ad secundum ad quem inspicientes hoc quidem bonum, huius quidem malum simpliciter
+              dicemus et hoc quantum ad primum. Et patet quod non loquitur <name>Aristoteles</name>
+              de delectatione cuius immediatus terminus obiectalis est operatio, quia talis non est
+              finis operationis, sed econverso, cum sit propter operationem. Loquitur ergo de
+              delectatione que est vera operatio, quia talis non est propter operationem, sed finis
+              operationis, ut patet, igitur. Et hoc de secundo.</p>
+          </div>
+        </div>
+        <div xml:id="atv-l1d1q1-Dd1e3824" type="articulus">
+          <head xml:id="atv-l1d1q1-Hd1e3826">Tertius et quartus articulus</head>
+          <p xml:id="atv-l1d1q1-d1e3829">Quantum ad tertium et quartum articulum simul contra conclusiones istas movenda et
+            dissolvenda sunt dubia. </p>
+            <div xml:id="atv-l1d1q1-Dd1e3832">
+              <head xml:id="atv-l1d1q1-Hd1e3834"> Contra primam conclusionem</head>
+            <p xml:id="atv-l1d1q1-d1e3837">Et primo contra primam conclusionem est quedam opinio que ponit
+            universaliter quod omnis dilectio sit realiter desiderium vel delectatio et omne odium
+            fuga vel tristitia pro qua arguitur primo sic:
+            <note><name>Aureolus</name> in prima distinctione, questione 2, articulo 1</note>
+            Sicut se habet appetitus naturalis in entibus sensu carentibus, sic se habet appetitus
+            animalis in sensibilibus et voluntas in intellectualibus. Correspondet enim cuilibet
+            nature proprius suus appetitus, sed appetitus naturalis non habet nisi duos actus
+            positivos et duos privativos; positivos quidem moveri in finem et quiescere in ipsum.
+            Lapis enim per gravitatem movetur ad certum et quiescit in ipso. Privativos autem fugere
+            ab opposito et inquietari dum est sub ipso. Lapis enim per naturam suam <cb ed="#P" n="37va"/>
+            inquietatur sursum et per eandem fugit et resilit ab ipso, igitur et appetitus
+            sensitivus et rationalis non habebunt nisi hos quattuor actus duos, quidem positivos et
+            alios duas privativos positivorum, quidem primus est quasi moveri, ut desiderium et
+            persecutio, secundus vero quasi quiescere in obiecto et delectari. Privativorum autem
+            primus correspondet fuge et resilit omni, videlicet abhominatio seu detestatio et fuga a
+            malo, secundus vero inquietationi, scilicet displicentia et contristatio.</p>
+          <p xml:id="atv-l1d1q1-d1e3847">Preterea, si aliquis amor esset alius a desiderio et delectatione, esset utique ille
+            amor qui incitat desiderium et facit delectari. Sed ille non est aliud quam delectari et
+            complacere in obiecto et condictionibus eius, ut ex terminis patet. Idem enim est dictu
+            tale quid amo vel diligo et tale quid est complacens mihi et delectabile, ergo amor
+            preveniens desiderium est delectatio, et per consequens universaliter omnis amor vel est
+            desiderium, vel delectatio obiecti apprehensi preveniens desiderium, vel delectatio
+            obiecti presentis desiderium subsequens. </p>
+          <p xml:id="atv-l1d1q1-d1e3850">Preterea, omnis actus amoris transiens tam super presens quam super absens vel est
+            concupiscentia, vel amicitia. Amor enim omnis sufficienter evacuatur per amorem
+            concupiscentie et amicitie, sed omnis amor concupiscentie respectu absentis est
+            desiderium concupiscere, namque absens est desiderare ipsum. Respectu vero presentis est
+            delectatio et, si sit presens tantum in conceptu, est delectatio preveniens desiderium.
+            Si vero sit presens in re, est delectatio subsequens. Similiter, omnis amor amicitie
+            respectu absentis est desiderium, non quidem quo desiderans optat sibi bonum, sed quo
+            optat amico suo bonum illud quod non habet. Respectu vero presentis est delectatio qua
+            quis delectatur in bono quod amicus habet iam presens in actu, igitur evidenter apparet
+            quod omnis amor est desiderium vel delectatio.</p>
+          <p xml:id="atv-l1d1q1-d1e3853">Preterea, omnis amor est desiderium vel complacentia in re habita realiter vel saltem
+            habita in conceptu, sed omnis complacentia est delectatio. Patet ex terminis, nam idem
+            est dictu delector in te et complacens mihi placibilis es mihi et delectabilis es mihi,
+            ergo omnis amor est desiderium vel delectatio.</p>
+          <p xml:id="atv-l1d1q1-d1e3857">Preterea, si poneretur aliquis actus amoris tertius distinctus a desiderio et
+            delectatione, hoc ideo esset ut uniretur obiecto et transformaretur in ipsum et
+            quiesceret in amato et amato se condonaret. </p>
+          <p xml:id="atv-l1d1q1-d1e3860">Ista enim quattuor videntur convenire amori, sed hec omnia conveniunt complacentie et
+            delectatione. Qui enim in amato delectatur et complacet quasi in ipsum spiritualiter
+            transit et quiescit et ita sedat et se ipsam unit, ut patet ex terminis, igitur ille
+            actus tertius non est tertius, sed delectatio ipsa.</p>
+          <p xml:id="atv-l1d1q1-d1e3863">Preterea, <name>Augustinus</name> XIV <title>De civitate Dei</title>, capitulo 7, dicit
+            quod <quote xml:id="atv-l1d1q1-Qd1e3871">amor inhians et desiderans habere quod amatur cupiditas est. Amor autem habens id
+            quod amatur ipsoque fruens letitia est sive delectatio. Amor vero fugiens quod ei
+            adversatur timor est pro abhominatione vel fuga que opponitur desiderio et sequitur id
+            quod si acciderit sentiens tristitia est</quote>. Hec <name>Augustinus</name>. Cum igitur ipse
+            hic dividat amorem in amorem inhiantem, qui est desiderium, et amorem fruentem, eo quod
+            amatur qui est delectatio sive letitia, odium autem in fugam eius quod adversatur et
+            tristitiam sequentem id quod adversatur manifeste apparet quod fuit eius intentio omne
+            odium dividi in fugam et tristitiam, amorem vero in delectationem et desiderium.</p>
+          </div>
+          <div xml:id="atv-l1d1q1-Dd1e3879">
+            <head xml:id="atv-l1d1q1-Hd1e3881">Responsio ad rationes <name>Aureoli</name></head>
+          <p xml:id="atv-l1d1q1-d1e3886">Ad primum istorum nego maiorem, quia non est omnino simile de appetitu naturali in
+            sensu carentibus et de animali in sensibilibus et rationali in intellectualibus, aliter,
+            sicut in naturaliter sensu carentibus actum naturalis amoris vel odii non precedit
+            apprehensio nec iudicium, sic etiam in sensibilibus et intellectualibus, quod est
+            manifeste falsum. Et ideo non sequitur conclusio de appetitu animali et rationali, etiam
+            si minor assumpta sit vera de naturali. Potest etiam dici quod in minori supponitur
+            absque probatione quod omnis actus amoris naturalis in sensu carentibus sit desiderium
+            vel delectatio naturalis, quod tamen nega-<cb ed="#P" n="37vb"/>-tur a multis, immo quasi ab omnibus,
+            quia, ut communiter tenetur, delectatio non est actus, sed passio naturaliter consequens
+            actum et, si sit actus elicitus, non est actus amoris, sed realiter distinctus ab ipso.
+            Ista videtur intentio <name>Aristotelis</name> et <name>Commentatoris</name> X
+              <title>Ethicorum</title> dicentes quod <quote xml:id="atv-l1d1q1-Qd1e3899">universaliter data est delectatio sequens actum, ut
+            continuetur actus in esse</quote>. Et ponit exemplum in rebus naturalibus et moralibus, igitur ad
+            hoc ut continuetur actus naturalis amoris quo grave naturaliter diligit esse deorsum
+            data est naturaliter delectatio sequens actum amoris predictum et, si sequitur ipsum non
+            est ipse, sive sit actus elicitus sive passio. Et posset reduci ratio contra eum: sicut
+            se habet appetitus naturalis etc. Sed in rebus cognitione carentibus actus naturalis
+            amoris non est delectatio naturalis, ut patet ex dictis similiter; igitur in
+            proposito.</p>
+          <p xml:id="atv-l1d1q1-d1e3903">Ad secundum concedo quod amor preveniens desiderium non est delectatio. Et quando
+            dicitur quod idem est dictu tale quid amo vel diligo et tale quid est complacens mihi et
+            delectabile petit principium, quia hoc est de quo agitur. Et assumit falsum, quia
+            probatum est supra quod non omne desiderium presupponit delectationem, et ideo saltem
+            non omnis amor preveniens desiderium est delectatio.</p>
+          <p xml:id="atv-l1d1q1-d1e3906">Ad tertium nego minorem quoad omnes partes, quia amor rei absentis non est desiderium,
+            sive sit amicitie sive concupiscentie, licet ad maiorem respectu absentis sequatur
+            naturaliter desiderium, nec rei presentis est delectatio, immo in aliquibus separantur,
+            quia damnatus diligit se amore amicitie et tamen non delectatur.</p>
+          <p xml:id="atv-l1d1q1-d1e3909">Ad quartum dico quod complacentia potest capi dupliciter. Uno modo pro omni actu
+            volendi respectu rei habite realiter vel saltem habite in conceptu, et sic large. Alio
+            modo pro delectari, et sic stricte. Si accipiatur primo modo, conceditur maior non quod
+            aliquis amor sit desiderium, sed quia omnis est complacentia, sed negatur minor, nec
+            idem est dictum 'complacabilis es mihi et delectabilis es mihi', quia damnatus isto modo
+            complacet sibi quia diligit se, tamen non delectatur. Si secundo modo, minor est vera,
+            sed maior est falsa, ut patet ex dictis. Potest etiam absolute negari maior. Nec
+            probatio valet, quia non est idem dicere 'delector in te' et 'complaceo in te', sed pro
+            tanto videntur idem, quia delectari ut plurimum sequitur ad placere, licet non semper,
+            sicut patet in damnatis qui placent sibi et tamen non delectantur.</p>
+          <p xml:id="atv-l1d1q1-d1e3913">Ad quintum, quicquid sit de maiori negatur minor, quia delectatio non facit unire et
+            transformare, sed sequitur ad transformationem et unionem quam amor facit precedens,
+            quia ex hoc quod aliquis transformaretur et uniretur alteri per amorem delectatur in
+            ipso nisi impedimentum occurrat sicut in martyribus qui propter vehementiam passionis
+            non delectantur et in damnatis, et sic de aliis.</p>
+          <p xml:id="atv-l1d1q1-d1e3916">Ad auctoritatem <name>Augustini</name> dico quod ibi non est predicatio formalis, sed
+            causalis, quia amor inhians est causa desiderii et amor fruens est causa delectationis
+            et gaudii nisi impedimentum occurrat, ut patet ex dictis.</p>
+          </div>
+          <div xml:id="atv-l1d1q1-Dd1e3923">
+            <head xml:id="atv-l1d1q1-Hd1e3925"> Contra tertiam conclusionem</head>
+          <p xml:id="atv-l1d1q1-d1e3928">Contra tertiam conclusionem due opiniones, ut patet ex supradictis, quarum una ponit
+            absolute quod omnis amor rei presentis in creaturis sit realiter delectatio et
+            econverso. Altera vero ponit quod omnis delectatio in creaturis sit realiter dilectio,
+            non tamen econverso, quia aliqua dilectio rei presentis creata est realiter delectatio,
+            scilicet ordinata et recta et aliqua non, scilicet inordinata et perversa. Verum, quia
+            quelibet earum contradicit conclusioni quam teneo, idcirco non adduco rationes earum
+            divisim, sed simul. </p>
+=======
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Liber I, Distinctio 1, Quaestio 1</title>
+				<author>Alphonsus Toletanus Vargas</author>
+				<editor>Luciana Cioca</editor>
+				<respStmt>
+					<name>Jeffrey C. Witt</name>
+					<resp>TEI Encoder</resp>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="0.0.0-dev">
+					<date when="2016-09-04">September 04, 2016</date>
+				</edition>
+			</editionStmt>
+			<publicationStmt>
+				<authority>THESIS project</authority>
+				<availability status="free">
+					<p>Public Domain</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="P" n="Paris1490">Paris1490</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+			<schemaRef n="lbp-critical-1.0.0"
+				target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/1.0/critical.rng"> </schemaRef>
+			<editorialDecl>
+				<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+					guidelines for a critical edition</p>
+			</editorialDecl>
+		</encodingDesc>
+		<revisionDesc status="draft">
+			<listChange>
+				<change when="2016-09-04" who="#JW" status="draft" n="0.0.0">
+					<p>Created file for the first time.</p>
+				</change>
+			</listChange>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:lang="la">
+		<front>
+			<div xml:id="includeList">
+				<xi:include
+					href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+					xpointer="worksCited"/>
+				<xi:include
+					href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+					xpointer="prosopography"/>
+			</div>
+			<div xml:id="starts-on">
+				<pb ed="#P" n=""/>
+				<cb ed="#P" n=""/>
+			</div>
+		</front>
+		<body>
+			<div xml:id="atv-l1d1q1">
+				<head>Liber I, Distinctio 1, Quaestio 1</head>
+				<p>Ceteris ac none legis, etc. Quia <name>Magister</name> in ista prima distinctione
+					principaliter agit de fruitione et usu et fruitio est essentialiter dilectio vel
+					dilectatio, vel utrumque, prout in sequentibus apparebit.</p>
+>>>>>>> e99fd1277f1ac54c8b0d6026ee933e42b9a3c2f2
+
+          <p xml:id="atv-l1d1q1-d1e3931">Arguit igitur contra conclusionem meam quidam reverendus doctor de nostris.
+          <note><name>Bernardus Oliverii</name> in I, distinctione 1, questione 1, articulo 3, parte
+            2</note>
+          Primo sic: omnis actus voluntatis qui habet pro obiecto bonum sub ratione boni est
+            dilectio vel amor si tale bonum sit presens et non futurum. Sed delectatio de ultimo
+            fine quam habent beati est huiusmodi; igitur. Maior patet, quia actus eiusdem
+            po-<cb ed="#P" n="38ra"/>-tentie non distinguuntur nisi per obiecta. Si ergo idem est obiectum et eadem
+            est potentia, necessario est idem actus. Minor autem est clara, igitur etc.</p>
+          <p xml:id="atv-l1d1q1-d1e3941">Preterea, omnis actus quo formaliter voluntas precipit obiectum extrinsecum est amor
+            vel dilectio. Gaudium et delectatio, que <choice><sic>habetur</sic><corr>habentur</corr></choice> de Deo in fruitione, <choice><sic>est</sic><corr>sunt</corr></choice> huiusmodi;
+            igitur. Probatur maior, quia, sicut cognoscere est commune omnibus actibus intellectus
+            sive sit intelligere, sive scire, ita amare est commune omnibus actibus voluntatis per
+            quos fertur et precipit obiectum sive talis actus sit voluntas, sive desiderium, sive
+            delectatio. Minor autem patet, quia per gaudium quod beati habent de Deo aut percipiunt
+            Deum, vel aliquid aliud, vel nihil. Si detur nihil, duo inconvenientia sequuntur. Primum
+            est quod gaudium istud non erit de aliquo, licet sit ab aliquo, quia in proposito
+            <unclear>dedicit</unclear> habitudinem ad obiectum. Secundum est quod gaudium non sit actus potentie
+            viventis, ut vivens est, quod est manifeste falsum, quia tunc competeret non viventibus.
+            Consequentia patet, quia omnis actus secundus elicitus a potentia vivente est quedam
+            perceptio alicuius obiecti. Si autem per illud gaudium nihil percipitur, non erit actus
+            elicitus a potentia vivente. Si vero dicatur quod per illud gaudium percipiatur aliud a
+            Deo, sequitur quod beati non gaudeant de Deo, sed de alio bono, quod est falsum, quia,
+            licet possint gaudere de visione et de fruitione, gaudent nihilominus de Deo, et de tali
+            gaudi loquitur, igitur per tale gaudium percipitur ipse Deus. Et confirmatur, quia,
+            sicut gaudium de visione se habet ad visione, ita gaudium de Deo ad ipsum Deum. Sed per
+            gaudium visionis voluntas fertur in visionem et percipit cum tanquam obiectum; igitur
+            etc.</p>
+          <p xml:id="atv-l1d1q1-d1e3959">Preterea, sicut actus appetitus sensitivi se habet ad rem presentem et per sensum
+            cognitam, ita actus appetitus intellectui se habet ad rem presentem cognitam per
+            intellectum. Sed primus actus quem habet appetitus sensitivus de obiecto presente
+            sensato est delectatio, nam, si sensus gustat, aut videt, vel tangit, immediate delectatur
+            appetitus sensitivus; ergo primus actus quem habet voluntas de Deo clare viso est
+            delectatio. Sed omnes concedunt talem actum esse amorem; ergo amor est delectatio.</p>
+          <p xml:id="atv-l1d1q1-d1e3963">Preterea, illa est vera delectatio que movet hominem ad operationem. Amor est
+            huiusmodi; igitur. Maior patet, quia delectatio est illud quod maxime excitat ad
+            operandum, unde natura actui generationis et commestionis adiunxit maximam delectationem
+            sensibilem, ut homo quantumcumque piger excitetur ad generationem propter conservationem
+            speciei et ad commestionem propter conservationem individui. Minor autem patet per
+            experientiam, quia nihil in mundo magis movet hominem ad agendum aliquid quam amor;
+            igitur etc.</p>
+          <p xml:id="atv-l1d1q1-d1e3966">Preterea, actus causatus in potentia amante ab ipso amabili, inquantum est amabile,
+            necessario est amor. Delectatio que habetur de Deo in patria est huiusmodi; igitur.
+            Maior est nota, quia nihil aliud requiritur ad actum amoris nisi potentia amativa
+            disposita et obiectum amabile causans actum. Minor probatur, nam quod delectatio
+            causetur in potentia amante omnes concedunt. Sed quod causetur ab obiecto amoris
+            probatur, quia amabile, inquantum amabile, est illud quod delectat in patria, nec per
+            aliam rationem delectat et per aliam amatur, sed ideo summe delectat, quia summe est
+            amabile, igitur amor et delectatio sunt idem in patria.</p>
+          <p xml:id="atv-l1d1q1-d1e3969">Preterea, omnis operatio, inquantum est hominis, est delectatio vel delectatione
+            perfectibilis, sed amor qui habetur de ipso in patria non est perfectibilis de
+            delectatione a se distincta, igitur est delectatio. Maior patet, quia delectatio
+            perficit operationem, X <title>Ethicorum</title>. Minor probatur, quia ultimus finis
+            hominis quo debet correspondere ultimo finis cuius, ut sicut finis cuius non est
+            susceptibilis alicuius bonitatis, ita ultimus finis quo nulla perfectione sit
+            perfectibilis, ultimus autem finis quo est ultima operatio quam de obiecto beatitudinis
+            habet creatura rationis et hec est dilectio secundum omnes, igitur talis dilectio non
+            est perfectibilis delectatione super addita, sed est ipsa dilectio.</p>
+          <p xml:id="atv-l1d1q1-d1e3975">Preterea, si dilectio et delectatio quam habent beati de Deo in patria realiter
+            distinguuntur per divinam potentiam, posset beatus Deum diligere et in ipso non
+            delectari, quod est absurdum. Consequentia patet, <cb ed="#P" n="38rb"/> quia dilectio naturaliter est
+            prior delectatione si ponatur ab ipsa distingui. Primum autem potest absolvi a suo
+            posteriori saltem divina potentia; igitur etc.</p>
+
+          <p xml:id="atv-l1d1q1-d1e3980"><note><name>Magister Fernandus</name> in primo</note>
+          Preterea, ad idem arguebat quidam reverendus dominus et compatriota qui mecum
+            concurrebat in lectura. Primo sic: posito actu dilectionis beatifice in voluntate cum
+            circumscripto quicumque alio actu posteriori voluntas delectatur, igitur non est
+            necessarium ponere delectationem esse distinctam a dilectione. Consequentia est nota.
+            Antecedens probatur, quia per actum qui est magis perfectus et magis conveniens potentie
+            respectu obiecti plus delectatur potentia in obiecto quam per actum minus convenientem.
+          Sed dilectio beatifica est huiusmodi respectu delectationis. Si ponatur distincta,
+            aliter modo magis pertinet ad beatitudinem quam ipsa, quod non videtur; igitur etc.</p>
+          <p xml:id="atv-l1d1q1-d1e3987">Preterea, si delectatio esset res distincta a dilectione, cum voluntas sit potentia
+            finita, ponatur quod habeat ex presentia Dei clare visa tantam delectationem quantam
+            potest habere. Hoc posito hec est vera: ista voluntas summe delectatur et cum dilectio
+            Dei mediante que delectatur sit unum delectabile et presens ipsi potentie, vel
+            delectatur in causa, vel non. Si sic, igitur delectatur in duobus, et per consequens
+            prima delectatio non fuit summa, quod est contra positum. Si non, ergo potest respectu
+            talis dilectionis habere volitionem, et per consequens tristaretur. Quo posito sequitur
+            quod in eadem voluntate simul essent maxima delectatio et tristitia, quod est
+            impossibile.</p>
+          <p xml:id="atv-l1d1q1-d1e3991">Preterea, si dilectio sit res distincta etc., Deus poterit facere quod stantibus
+            dilectione et visione et unione anime ad verbum anima Christi non delectaretur de Deo,
+            immo stante unione posset fieri quod cum illa dilectione et visione anime Christi esset
+            summa tristitia, et per consequens summa miseria, quod non est dicendum. Ista
+            consequentia patet, quia omnem rem absolutam distinctam ab alia Deus potest facere sine
+            illa.</p>
+          <p xml:id="atv-l1d1q1-d1e3994">Responsio ad rationes istorum, videlicet <name>Bernardi Oliverii</name></p>
+          <p xml:id="atv-l1d1q1-d1e3999">Ad primum istorum potest uno modo dici interimendo maiorem, quia non est maior
+            repugnantia quod duo actus voluntatis distincti habeant pro obiecto bonum sub ratione
+            boni quam quod actus intellectus et actus voluntatis, qui non minus, immo magis
+            distinguuntur. Habeant sic bonum pro obiecto et tamen secundum videtur multis
+            necessarium, quia constat quod per aliquem actum intellectus cognoscit bonum sub ratione
+            boni, aliter voluntas feretur in incognitum, quod est omnino impossibile. Nec probatio
+            valet, quia non minus distinguuntur per obiecta actus diversarum potentiarum, etiam per
+            eum quam actus eiusdem potentie. Sed ad veritatem non est necessarium quod rationes
+            formales obiective diversorum actuum sint ex natura rei formaliter distincte, aliter
+            visio et dilectio beatifica non essent actus distincti, cum in Deo non sit aliqua
+            distinctio ex natura rei nisi personarum vel proprietatum, etiam per istum doctorem.</p>
+          <p xml:id="atv-l1d1q1-d1e4002">Secundo potest dici quod aliter dilectio habet pro obiecto bonum sub ratione boni et
+            aliter delectatio, quia dilectio habet pro obiecto bonum cognitum sub ratione boni,
+            delectatio vero bonum cognitum et dilectum et per hoc et distinguuntur ex parte obiecti.
+            Et quod illud sit rationabiliter dictum patet etiam per eum, quia desiderium et
+            delectatio sunt actus voluntatis distincti secundum eum et tamen quilibet eorum habet
+            pro obiecto bonum sub ratione boni, et sic distinguuntur per hoc quod desiderium habet
+            pro obiecto bonum futurum, delectatio autem presens. Quilibet igitur istorum actuum habet
+            pro obiecto bonum sub ratione boni, sed quia aliter et aliter distinguuntur
+            sufficienter, et sic suo modo est in proposito, quia, licet dilectio et delectatio
+            habeant pro obiecto bonum sub ratione boni, aliter tamen et aliter, ut patet. Et constat
+            quod non minus variant rationem obiecti dilectum et non dilectum quam presens et non
+            presens.</p>
+          <p xml:id="atv-l1d1q1-d1e4005">Ad secundum nego maiorem, quia per actum odii voluntas percipit obiectum extrinsecum,
+            licet improprie voluntas dicatur percipere, et tamen constat quod actus odii non est
+            amor et ex hoc apparet quod amare non est commune omnibus actibus voluntatis, sicut
+            cognoscere omnibus actibus intellectus.</p>
+          <p xml:id="atv-l1d1q1-d1e4008">Ad tertium nego minorem, quia primus actus quem habet appetitus sensitivus de obiecto
+            presente sensato est dilectio, non delectatio. Sed quia ad amorem naturaliter in
+            appetitu sensitivo sequitur delectatio nisi impediatur, idcir-<cb ed="#P" n="38va"/>-co, cum sensus
+            gustat et videt, immediate delectatur appetitus, sicut immediate cum est ‘homo est
+            risibilis’, quia ad humanitatem naturaliter sequitur risibilitas.</p>
+          <p xml:id="atv-l1d1q1-d1e4014">Ad quartum dico quod, licet delectatio sit propter operationem, non tamen omne illud
+            quod movet hominem ad operationem est delectatio, quod patet etiam in exemplis suis,
+            quia virtuosus non movetur ad actum generationis vel comestionis propter delectationem
+            illam sensibilem, sed propter conservationem speciei vel individui que distincta res est
+            a delectatione; martyres etiam non moriuntur propter delectationem, ut experientia
+            docet, et sic de aliis.</p>
+          <p xml:id="atv-l1d1q1-d1e4017">Ad quintum patet quid dicendum ex solutione primi.</p>
+          <p xml:id="atv-l1d1q1-d1e4020">Ad sextum: si ratio demonstraret, concluderet visionem beatificam delectationem, cum
+            sit ultimus finis quo creature beatificabilis, quia aliquid beatitudinis formaliter et
+            intrinsece iuxta determinatione ecclesie. Et, si dicatur quod visio non est simpliciter
+            ultimus finis quo, sed dilectio cum sit visione posterior, ita dicetur ei quod dilectio
+            non est simpliciter ultimus finis quo, sed delectatio cui sit dilectione posterior. </p>
+          <p xml:id="atv-l1d1q1-d1e4023">Ad septimum multi negarent consequentiam, quia non videtur quod omne prius possit
+            absolvi a suo posteriori, etiam divina virtute. Quod tamen sit de hoc non videtur
+            inconveniens quod actus dilectionis beatifice per potentiam Dei absolutam potest esse
+            sine delectatione, sicut actus visionis beatifice per potentiam Dei absolutam potest
+            esse sine dilectione, etiam per istum doctorem.</p>
+          <p xml:id="atv-l1d1q1-d1e4026">Sed forte dicetur quod, si dilectio Dei beatifica sit separabilis a delectatione videns
+            Deum intuitive, poterit Deum diligere beatifice et tristari de eodem, quod est absurdum.
+            Consequentia videtur nota, quia cui non convenit alterum contrariorum, alterum potest
+            inesse, cum contraria nata sint fieri circa idem, secundum <name>Aristotelem</name> in
+              <title>Predicamentis</title>.</p>
+          <p xml:id="atv-l1d1q1-d1e4035">Ad hoc est dicendum quod consequentia non est bona, quia voluntas non tristatur nisi de
+            obiecto disconveniente existente vel saltem apparente, sicut nec per oppositum
+            <unclear>delectatum</unclear> nisi in obiecto convenienti altero istorum modorum. Deus autem intuitive
+            visus non presentatur voluntati ut disconveniens aliquo modo, unde sicut Deus potest
+            conservare actum visionis in beato sine dilectione, secundum multos, et tamen voluntas
+            Deus colere visum odire non poterit, ut communiter tenetur, sicut est etiam in proposito
+            dicendum. Et quando dicitur quod contraria nata sunt fieri, circa idem
+              <name>Aristoteles</name> exponit se dicens: <quote xml:id="atv-l1d1q1-Qd1e4043">nisi alterum istorum insit a natura</quote>. In
+            proposito autem naturaliter sequitur delectatio stante influentia generali.</p>
+          <p xml:id="atv-l1d1q1-d1e4048">Responsio ad rationes <name>Fernandi</name></p>
+          <p xml:id="atv-l1d1q1-d1e4053">Ad primum vero aliorum nego antecedens. Et ad probationem potest dici primo ad maiorem
+            quod non est vera nisi actus ille magis perfectus conveniens sit et magis delectatio,
+            quia sola delectatione delectatur potentia formaliter. Potest etiam dici secundo
+            interimendo minorem, quia dilectio beatifica non videtur perfectior delectatione
+            beatifica, ut patet ex quarta conclusione presentis articuli, licet sit perfectior
+            visione beatifica, ut credo. Nec probatio valet, quia concedo quod dilectio non magis
+            pertinet ad beatitudinem quam delectatio, nec oppositum probatur.</p>
+          <p xml:id="atv-l1d1q1-d1e4056">Ad secundum dico quod procedit ex falsa imaginatione. Imaginatur enim quod dilectio
+            beatifica sit causa delectationis, quod non est verum, quia delectatio beatifica, cum
+            sit aliquid beatitudinis, essentialiter et intrinsece est a solo Deo effective. Et
+            ulterius non sequitur dilectio causat delectationem, igitur illa delectatio causat aliam
+            delectationem, cum ipsa sit essentialiter delectatio, sicut non sequitur hoc album
+            refertur relatione a se distincta, igitur illa relatio refertur alia relatione, quia
+            ipsa est essentialiter relatio.</p>
+          <p xml:id="atv-l1d1q1-d1e4059">Ad tertium: si illa deductio sit bona, sequitur quod delectatio non sit res distincta a
+            visione, quod nullus diceret. Deductio patet, quia posito illo casu cum visio illa
+            mediante qua delectatur sit unum delectabile et presens ipsi potentie vel delectatur in
+            ea, vel non. Si sic, igitur delectatur in duobus, et per consequens prima delectatio non
+            fuerat summa secundum eum. Si non, igitur potest habere volitionem respectu illius, et
+            sic tristari. Quo posito sequitur quod in eadem voluntate sint simul maxima delectatio
+            et <cb ed="#P" n="38vb"/> tristitia, quod est inconveniens, ad quod deducit. </p>
+          <p xml:id="atv-l1d1q1-d1e4064">Dico igitur ad rationes quando ponitur quod voluntas habeat tantam delectationem
+            quantam habere potest, vel intelligit quod illa delectatio sit tanta quod non possit
+            augeri, vel sit tanta quod simul cum ea non potest esse alia delectatio etiam respectu
+            alterius obiecti. Si primo modo, concedo quod talis poterit delectari in dilectione et
+            sic in duobus. Sed ex hoc non sequitur quod prima delectatio non sit summa modo
+            predicto, sed quod simul cum ea potest compati quedam alia. Si secundo modo, concedo
+            quod stante casu talis non poterit delectari in dilectione, quia est implicatio. Et
+            quando dicitur 'igitur potest habere volitione respectu illius', nego consequentiam, nec
+            probatur per eum. Et ultimum: si ratio illa sit bona, probatur sicut et precedens quod
+            delectatio non sit res distincta a visione beatifica, quia, si sic, Deus poterit facere
+            quod stante visione in anima Christi que nunc est sui unione ad verbum anima Christi non
+            delectaretur de Deo et quod stantibus istis in anima Christi sit summa tristitia, quod
+            est falsum et contra eum.</p>
+          <p xml:id="atv-l1d1q1-d1e4067">Respondeo igitur ad rationem et concedo quod stantibus istis anima Christi poterit non
+            delectari de potentia Dei absoluta, sed dico quod stantibus istis non poterit esse in
+            ipsa summa tristitia, sicut infert, nec istud probatur ab eo.</p>
+          </div>
+          <div xml:id="atv-l1d1q1-Dd1e4072">
+            <head xml:id="atv-l1d1q1-Hd1e4074">Contra tertiam conclusionem</head>
+          <p xml:id="atv-l1d1q1-d1e4077">Contra tertiam conclusionem est quedam opinio communis multis que, licet concedat
+            delectationem distingui realiter a dilectione, nullum tamen ponit actum elicitum; sed
+            omnis, ut dicit, est sequela quedam et passio naturaliter consequens actum elicitum, pro
+            quo quidam doctor noster arguit primo sic:
+            <note><name>Michael de Massa</name> in I, distinctione 1, questione 3, articulo 1</note>
+            Sicut se habet appetitus naturalis in rebus cognitione carentibus et appetitus animalis
+            in habentibus sensum, sic appetitus rationalis in habentibus rationem. Sed in rebus
+            naturalibus cognitione carentibus appetitus naturalis non habet nisi duos actus elicitos
+            privative et duos alios positive. Habet enim respectu rei convenientis absolutum unum
+            actum elicitum positum, scilicet desiderium cui correspondet respectu rei
+            disconvenientis absolute unus privativus, scilicet fuga. Alterum vero actum positivum
+            habet respectu rei convenientis presentis et hoc est amor cui correspondet respectu rei
+            presentis disconvenientis alter privativus, scilicet abhominatio seu detestatio, igitur
+            appetitus rationalis non habebit nisi duos actus elicitos positive, scilicet desiderium
+            respectu rei absentis convenienter et amorem respectu rei convenientis presentis. Sed
+            delectatio est aliquid positivum respectu rei presentis et non actus amoris eliciti;
+            igitur delectatio amicitie circa Deum non est aliquis eliciti, igitur delectatio
+            amicitie circa Deum non est aliquis actus elicitus, sed passio quedam consequens actum
+            amoris eliciti.</p>
+          <p xml:id="atv-l1d1q1-d1e4085">Secundo sic: sicut se habet actus elicitus potentie cognitive ad cognitionem, sic se
+            habet actus elicitus potentie appetitive ad amorem. Sed omnis actus elicitus potentie
+            cognitive est cognitio, quamvis non omne illud quod est de novo inductum in potentia
+            cognitiva sit cognitio, sicut patet de specie et habitu; igitur omnis actus voluntatis
+            elicitus sive potentie appetitive est amor, licet non omne illud quod de novo inducitur
+            in potentia appetitiva sit amor. Sed delectatio non est realiter amor, ut dicit et bene
+            in hoc, igitur delectatio non est aliquis actus elicitus voluntatis, sed passio quedam
+            consequens actum amoris elicitum.</p>
+          <p xml:id="atv-l1d1q1-d1e4088">Tertio sic: illud quod derelinquitur ex unione potentie cum obiecto per actum elicitum
+            non est actus elicitus, alias relatio et quicquid aliud sive absolutum sive respectivum
+            derelinqueretur ex tali unione esset actus elicitus, quod patet esse falsum. Sed
+            delectatio amicitie circa Deum derelinquitur in potentia volitiva ex unione potentie
+            volitive cum subiecto fruibili per actum amoris amicitie. Talis delectatio non est
+            proprie loquendo aliquis actus elicitus, sed sequela quidam vel passio consequens actum
+            elicitum.</p>
+          <p xml:id="atv-l1d1q1-d1e4091">Quarto sic: si delectatio amicitie circa Deum vel aliqua alia esset operatio proprie
+            dicta, in delectationibus esset procedere in infinitum. Consequens est rationi
+            contrarium, igitur et antecedens. Consequentia probatur, quia, secundum
+              <name>Aristotelem</name> X <title>Ethicorum</title> delectatio est propter
+            operationem. Si igitur aliqua operatio esset delectatio propter illam, sequitur quedam
+            <cb ed="#P" n="39ra"/> alia delectatio, et de illa quereretur secundo, et sic in infinitum. Et
+            confirmatur per <name>Commentatorem</name> X <title>Ethicorum</title>, commento, ubi
+            dicit expresse quod delectatio non est operatio, sed est operationi annexa et ipsam
+            necessario consequitur.</p>
+          <p xml:id="atv-l1d1q1-d1e4109">Responsio ad rationes <name>Michaelis de Massa</name></p>
+          <p xml:id="atv-l1d1q1-d1e4114">Ad primum istorum potest primo dici quod ratio istorum destruit se ipsam, quia,
+            secundum omnes, sicut se habet desiderium ad amorem rei absentis, sic se habet
+            delectatio ad amorem rei presentis. Sed desiderium rei presentis est actus elicitus
+            voluntatis, ut dicitur in minori; igitur delectatio rei presentis etiam est actus
+            elicitus voluntatis, quod contradicit conclusioni quam intendit. Et ulterius amor rei
+            absentis et desiderium de eadem realtier distinguuntur, sicut patet ex supradictis
+            deduci et presertim secundum illos qui concedunt delectationem distingui realiter a
+            dilectione, sicut ille dictor concedit. Si ergo desiderium rei absentis sit actus
+            elicitus voluntatis, sicut asserit illa minor, cum amor eiusdem sit etiam actus elicitus,
+            non erunt tantum duo actus positivi voluntatis, sicut intendit, sed tres ad minus, unus
+            scilicet respectu rei presentis, et duo respectu absentis, ut patet ex dictis. Ratio
+            igitur destruit se ipsam et videtur. </p>
+          <p xml:id="atv-l1d1q1-d1e4117">Secundo potest dici quod non est simile de appetitu naturali et ceteris, sicut
+            assumitur in maiori, prout in respondendo ad primam rationem contra primam conclusionem
+            extitit declaratum, immo iste doctor met negat eam, <name>Aureolus</name> in I,
+            distinctione 1, questione 2, articulo 2 et ex intentione declarat ipsam non esse
+            universaliter veram et nunc assumit eam per se, quod nimis videtur mirabile in tanto
+            doctore.</p>
+          <p xml:id="atv-l1d1q1-d1e4123">Ad secundum patet ex supradictis quod maior est falsa, quia non omnis actus voluntatis
+            est amor, sicut aliquis actus intellectus est cognitio, aliter amor esset odium, quod
+            est contradictio. Et ulterius ista ratio destruat precedente et econverso, quia in
+            precedenti ratione dicitur quod appetitus rationabilis habet duos actus elicitos
+            positive, videlicet desiderium respectu absentis et amorem respectu presentis, et duos
+            privativos correspondentes, videlicet fugam et odium, igitur non omnis actus elicitus
+            voluntatis est amor, sicut dicitur in ista. Nec valet si dicatur quod desiderium non est
+            nisi amor rei absentis, quia pari ratione debet dici nisi velit loqui ad placitum quod
+            delectatio non est nisi amor rei presentis, quod tamen ex intentione negat.</p>
+          <p xml:id="atv-l1d1q1-d1e4126">Ad tertium nego minorem, quia, licet delectatio cuius immediatus terminus obiectivalis
+            est actus elicitus derelinquatur in voluntate ex unione potentie cum obiecto per actum
+            elicitum, non tamen delectatio de qua loquimur. Cuius ratio est, quia ex tali unione
+            potentie cum obiecto non derelinquitur delectatio que non est propter actum. Sed
+            delectatio amicitie circa Deum non est propter actum, ut declaratum est supra, ergo
+            decipitur igitur iste doctor per equivocationem, quia non distinguit inter
+            delectationem cuius immediatus terminus obiectivalis non est operationis obiectum. </p>
+          <p xml:id="atv-l1d1q1-d1e4129">Ad quartum nego consequentiam. Et ad probationem potest dupliciter responderi. Primo
+            quidem potest dici quod, licet sit ponenda delectatio propter operationem, id est ut
+            continuetur operatio que non est essentialiter delectatio, non tamen propter operationem
+            que formaliter est delectatio, quia talis habet ex se unde continuetur. Potest ulterius
+            dici secundo quod, si propter delectationem illam que ponitur operatio sit ponenda
+            quedam alia delectatio secunda, non erit operatio, sed passio illius delectationis que
+            est operatio, et per consequens non erit ulterius procedendum etiam secundum eum.</p>
+          <p xml:id="atv-l1d1q1-d1e4133">Ad confirmationem <name>Commentatoris</name> dico quod <name>Commentator</name>
+            loquitur de delectatione cuius immediatus terminus obiectivalis est operatio eo modo quo
+            declaratum est supra, quia talis est per operationem, et ideo operationi annexa. De tali
+            concedo quod non est operatio, sed passio.</p>
+          </div>
+          <div xml:id="atv-l1d1q1-Dd1e4143">
+            <head xml:id="atv-l1d1q1-Hd1e4145"> Contra quartam conclusionem</head>
+          <p xml:id="atv-l1d1q1-d1e4148">
+            <note><name>Ockham</name> in I, distinctione 1, questione 2, articulo 4</note>
+            Contra quartam conclusionem quidam doctor arguit primo sic: cuius contrarium est peius
+            et imperfectius, illud est nobilium. Sed odium Dei est peius tristitia; igitur dilectio
+            est nobilior delectatione. Maior videtur manifesta. Minor patet, quia ex quo utrumque
+            est actus illud quod est magis fugiendum est peius, sed odium est magis fugiendum quam
+            quecumque tri-<cb ed="#P" n="39rb"/>-stitia.</p>
+          <p xml:id="atv-l1d1q1-d1e4158">Preterea, creatura rationalis est perfectior creatura irrationali, igitur illud
+            accidens per quod distinguitur maxime a creatura irrationali erit perfectius. Sed magis
+            distinguitur per volitionem quam per quamcumque delectationem, quia maxime distinguitur
+            per libertatem que est principium volitionis; ergo etc.</p>
+          <p xml:id="atv-l1d1q1-d1e4161">Preterea, amor amicitie est accidens perfectissimum quod potest alicui competere,
+            igitur est perfectior delectatione. Antecedens patet, quia ille acceptatur maxime a Deo. </p>
+          <p xml:id="atv-l1d1q1-d1e4164">Preterea, amor vie est perfectior delectatione vie, igitur amor patrie est perfectior
+            delectatione patrie, et per consequens totaliter amor est perfectior delectatione.</p>
+          <p xml:id="atv-l1d1q1-d1e4168">Preterea, sicut se habet operatio sensitiva ad delectationem sensitivam consequentem,
+            sic se habet operatio intellectiva ad delectationem consequentem. Sed operatio sensitiva
+            est perfectior delectatione; igitur etc. Assumptum patet per <name>Commentatorem</name>
+            X <title>Ethicorum</title>, commento 12.</p>
+          <p xml:id="atv-l1d1q1-d1e4177">Responsio ad rationes <name>Ockham</name></p>
+          <p xml:id="atv-l1d1q1-d1e4182">Ad primum istorum potest dici quod maior non est universaliter vera, aliter fides et
+            spes essent nobiliores aliqua dilectione meritoria, quod non est verum. Consequentia
+            patet, quia infidelitas et desperatio sunt deteriores quam odium proximi contrarium
+            dilectioni meritorie eiusdem, unde regula debet intelligi de contrariis que se
+            universaliter non includunt, sicut dilectio meritoria includit fidem et spem, quia sine
+            ipsis non est possibilis, quod in proposito dici non potest, quia delectatio naturaliter
+            supponit dilectionem, quia qui delectatur de aliquo, naturaliter diligit illud. Potest
+            etiam dici secundo quod odium Dei non est simpliciter peius summa tristitia de eodem,
+            sicut assumitur in minori, quia, sicut beatitudo formalis principalius consistit in
+            delectatione quam in dilectione, ut patet ex dictis, sic etiam per oppositum pena
+            infernalis principalius consistit in tristitia quam in odio, quia non est aliter pena
+            nisi quod est contra voluntatem, sicut pulchre declarat <name>Anselmus</name>
+            <title>De conceptu virginali</title>, capitulo 4. Et constat quod nihil est magis contra
+            voluntatem quam tristitia. </p>
+          <p xml:id="atv-l1d1q1-d1e4191">Ad secundum nego consequentiam, quia angelus est perfectior homine et tamen non
+            sequitur quod illud accidens per quod maxime distinguitur ab homine sit perfectius in
+            ipso, aliter in angelo esset aliquod accidens perfectius visione et fruitione Dei, quod
+            est manifeste falsum, cum in his consistat beatitudo sua formalis. Et consequentia est
+            evidens, quia per ista non maxime distinguitur ab homine. Potest etiam dici secundo quod
+            non magis distinguitur creatura rationalis ab irrationali per dilectionem Dei quam per
+            dilectionem amicitie circa Deum, quia non minus repugnat creature irrationali delectatio
+            quam dilectio. Potest etiam dici tertio quod delectatio amicitie circa Deum est quedam
+            volitio sicut est dilectio, cum sit actus elicitus voluntatis, ut patet ex dictis, et
+            ideo creatura rationalis non magis distinguitur ab irrationali per volitionem quam per
+            quamcumque delectationem, sicut assumitur, nec per hoc concluditur quod dilectio sit
+            nobilior delectatione.</p>
+          <p xml:id="atv-l1d1q1-d1e4194">Ad tertium nego antecedens. Nec probatio valet, quia non est universaliter verum quod
+            illud sit simpliciter nobilius quod est Deo acceptabilius, aliter sequeretur quod
+            dilectio Dei meritoria sit simpliciter nobilior quam substantia, quia ipsa creatura
+            rationalis acceptatur maxime a Deo, non autem per substantiam.</p>
+          <p xml:id="atv-l1d1q1-d1e4197">Est tamen advertendum quod aliquid acceptatur a Deo sicut terminus vel subiectum
+            acceptationis, et sic creatura rationalis acceptatur ad eternam beatitudinem
+            consequendam aliquid sicut medium, et sic omnis actus meritorius est a Deo acceptus
+            aliud sicut premium, et sic beatitudo formalis que iustis datur in premium est
+            acceptatio. Ad propositum dico quod illud quod maxime acceptatur a Deo primo modo est
+            simpliciter nobilius eo quod maxime acceptatur secundo et tertio modo, quia creatura
+            rationalis est simpliciter nobilior quocumque actu meritorio et beatitudine sua formali.
+            Et illud quod maxime acceptatur tertio modo est nobilius eo quod maxime
+            acce-<cb ed="#P" n="39va"/>-ptatur secundo modo, quia premium est nobilius merito, sed sic delectatio,
+            non dilectio, maxime acceptatur a Deo, cum in delectatione consistat beatitudo
+            principalius.</p>
+          <p xml:id="atv-l1d1q1-d1e4203">Ad quartum potest uno modo dici quod consequentia non est bona, quia, ut videtur multis,
+            caritas vie potest adequari caritati patrie, et sic dilectio dilectioni. Sed delectatio
+            vie non potest adequari delectationi patrie, et ideo non sequitur quod, si amor vie sit
+            perfectior delectatione vie, quod amor patrie etc. Potest etiam dici secundo quod amor
+            vie non est simpliciter nobilior delectatione vie, sed in genere, sicut nigredo decimi
+            graduum est perfectior albedine quinti graduum, quia intensior in genere suo simpliciter,
+            tamen perfectior est albedo, et sic in proposito delectatio. Potest etiam dici tertio
+            quod amor vie in ratione meriti est perfectior delectatione vie. Non autem in ratione
+            primii, et ideo non sequitur quod sit nobilior simpliciter, sicut assumitur, quia
+            procedit a secundum quid ad simpliciter. </p>
+          <p xml:id="atv-l1d1q1-d1e4206">Ad quintum posset dici quod non est simile de delectatione sensitiva et intellectiva
+            consequente, quia forte omnis delectatio in parte sensitiva est passio consequens
+            operationem naturaliter, quia non video quod immediatus terminus obiectivalis
+            delectationis sensitive sit obiectum extrinsecum, sed actus vel operatio que attingitur.
+            Non enim delectatur gustus in vino propter se, sed in actu gustandi vinum, et sic de
+            aliis. Si tamen in parte sensitiva sit aliqua delectatio que sit operatio proprie dicta,
+            concedo quod talis est perfectior dilectione. Et ad <name>Commentatorem</name> dicendum
+            quod loquitur de delectatione cuius immediatus terminus obiectivalis est operatio, et de
+            tali conceditur quod sit propter operationem, non autem econverso, sed ex hoc nihil
+            probatur.</p>
+          </div>
+        </div>
+        <div xml:id="atv-l1d1q1-Dd1e4214">
+          <head xml:id="atv-l1d1q1-Hd1e4216">Ad argumenta principalia</head>
+          <p xml:id="atv-l1d1q1-d1e4219">Ad rationes principales. Ad primam patet quod non omnis delectatio est passio, sicut
+            assumitur in minori, sed debet universaliter concludere, et ideo non sequitur quod nulla
+            delectatio sit nobilior dilectione.</p>
+          <p xml:id="atv-l1d1q1-d1e4222">Ad secundam concedo quod aliqua delectatio est simpliciter nobilior dilectione, sicut
+            et aliqua tristitia simpliciter peior odio, etc.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

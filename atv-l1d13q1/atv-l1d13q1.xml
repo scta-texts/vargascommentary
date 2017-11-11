@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Liber I, Distinctio 13, Quaestio 1</title>
+				<author>Alphonsus Toletanus Vargas</author>
+				<editor>Luciana Cioca</editor>
+				<respStmt>
+					<name>Jeffrey C. Witt</name>
+					<resp>TEI Encoder</resp>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="0.0.0-dev">
+					<date when="2016-09-02">September 02, 2016</date>
+				</edition>
+			</editionStmt>
+			<publicationStmt>
+				<authority>THESIS project</authority>
+				<availability status="free">
+					<p>Public Domain</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="P" n="Paris1490">Paris1490</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+			<schemaRef n="lbp-critical-1.0.0"
+				target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/1.0/critical.rng"> </schemaRef>
+			<editorialDecl>
+				<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+					guidelines for a critical edition</p>
+			</editorialDecl>
+		</encodingDesc>
+		<revisionDesc status="draft">
+			<listChange>
+				<change when="2016-09-02" who="#JW" status="draft" n="0.0.0">
+					<p>Created file for the first time.</p>
+				</change>
+			</listChange>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:lang="la">
+		<front>
+			<div xml:id="includeList">
+				<xi:include
+					href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+					xpointer="worksCited"/>
+				<xi:include
+					href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+					xpointer="prosopography"/>
+			</div>
+			<div xml:id="starts-on">
+				<pb ed="#P" n=""/>
+				<cb ed="#P" n=""/>
+			</div>
+		</front>
+		<body>
+			<div xml:id="atv-l1d13q1">
+				<head>Liber I, Distinctio 13, Quaestio 1</head>
+				<p>Post hoc considerandum est quod in hac 13 distinctione principaliter agitur de
+					differentia generationis et processionis Spiritus Sancti sive spirationis, quod idem est,
+					quero conformiter cum eodem: utrum generatio et spiratio in Deo realiter distinguantur. </p>
+				<div type="rationes-principales">
+					<head>Rationes principales</head>
+					<p>Et videtur primo quod non, quia in divinis quecumque realiter disitnguuntur adinvicem
+						opponuntur dicente <name>Anselmo</name> et <name>Boetio</name> quod omnia idem in
+						divinis ubi non obviat relationis oppositio, sed generatio et spiratio non opponuntur
+						adinvicem, ut patet; ergo etc.</p>
+					<p>Contra: si generatio in divinis esset realiter spiratio Spiritus Sancti, esset vere
+						genitus et Filius vere spiratus. Consequens est falsum. Non est dubium, igitur et
+						antecedens. Consequentia probatur, quia bene sequitur generatio est productio, igitur
+						genitum est productum, igitur a simili bene sequitur generatio est spiratio, igitur
+						generatum est spiratum et econverso. </p>
+				</div>
+				<div>
+					<head>Divisio quaestionis</head>
+					<p>In ista questione primo ponam tituli expositionem, secundo quattuor conclusiones.
+						Tertio movebo dubia. Quarto respondebo.</p>
+				</div>
+				<div type="articulus">
+					<head>Articulus primus</head>
+					<p>Quantum ad primum, quia generatio quedam est activa et quedam passiva et similiter
+						spiratio. Potest primo comparari generatio activa ad spirationem activam et tunc est
+						sensus questionis utrum generatio activa et spiratio activa realiter distinguantur in
+						Patre.</p>
+					<p>Potest secundo comparari generatio activa Filii ad spirationem activam et est sensus
+						utrum generatio activa et spiratio activa realiter distinguantur in Filio.</p>
+					<p>Potest tertio comparari generatio activa Patris ad spirationem passivam et tunc est
+						sensus utrum generatio activa Patris et spiratio Spiritus Sancti realiter
+						distinguantur.</p>
+					<p>Potest ulterius ultimo comparari generatio passiva ad spirationem passivam et tunc est
+						sensus utrum generatio passiva Filii et spiratio passiva Spiritus Sancti realiter
+						distinguantur. Et hoc de primo.</p>
+				</div>
+				<div type="articulus">
+					<head>Secundus articulus</head>
+					<p>Quantum ad secundum articulum. </p>
+					<div>
+						<head><supplied>Conclusio prima</supplied></head>
+						<p>Prima conclusio est quod generatio activa et spiratio activa non distinguuntur
+							realiter in Patre. </p>
+						<p>Probatur primo sic: si generatio et spiratio activa in Patre sint due res distincte
+							vel una earum est ei essentialis et alia accidentalis vel utraque accidentalis vel
+							utraque essentialis. Primum dari non potest ne cogamur subiectum et accidens ponere in
+							divinis. Nec secundum tum propter causam assignatam, tum quia paternitas cum sit
+							constitutiva Patris non est ei accidentalis. Si detur tertium, sequitur quod Pater
+							constituatur ex utraque realiter sive essentialiter, quod est impossibile.
+							Consequentia patet, quia tota causa quare homo constituitur realiter ex anima et
+							corpore est quia quodlibet eorum est ei essentiale, sed impossibilitas consequentis
+							probatur, quia quandocumque principia constitutiva alicuius constituti distinguuntur
+							realiter inter se neutrum constitutivorum predicatur per se predicatione dicente “hoc
+							est hoc constituto”, sed generatio activa et spiratio activa ex supposito sunt per se
+							principia constitutiva persone Patris et distinguuntur realiter inter se, ergo neutrum
+							illorum predicatur per se predicatione dicente “hoc est hoc de Patre”. Conclusio est
+							falsa, ergo aliqua premissarum. Non maior ex quo ei constitutum inducit duo
+							constituentia, quorum unum realiter non est aliud neutrum predicatur de ipso, aliter
+							pars predicaretur de suo toto, ergo maior quantum ad aliquam sui partem et quicquid
+							dicitur habetur propositum, quia, si sit falsa quantum ad secundam partem, habetur
+							propositum, scilicet principalis conclusio. Si quantum ad primam partem, patet
+							impossibilitas consequentis, ergo. Et confirmatur, quia omne constitutum quod non
+							recipit realiter per se cuiuslibet constitutivi predicationem est compositum realiter.
+							Sed persona Patris non recipit realiter cuiuslibet principii constitutivi
+							predicationem supposito quod generatio et spiratio activa distinguuntur realiter inter
+							se et sint per se principia constitutiva ipsius, ergo persona Patris est composita
+							realiter, quod est impossibile. Maior patet per <name>beatum Augustinum</name> XI
+								<title>De civitate Dei</title>, capitulo 10, ubi dicit quod “sim-[103rb]-plex est
+							quicquid habet”, igitur, si constitutum non recipit predicationem cuiuslibet
+							constitutivorum non est simplex realiter, et per consequens erit compositum realiter.
+							Minor autem est manifesta ex dictis; ergo etc.</p>
+						<p>Secundo ad principale sic: in divinis quicquid est paternitas realiter, ergo
+							generatio activa realiter. Hec patet, quia generatio activa et paternitas sunt una res
+							convertibiliter et adequate solum distincta nominaliter, ut patet per
+								<name>Magistrum</name>, distinctione 27, sed spiratio activa in Patre est realiter
+							paternitas, ergo. Probatur minor, quia quicquid est realiter Pater in divinis est
+							realiter paternitas. Hec patet, quia paternitas et Pater in divinis sunt una res
+							convertibiliter et adequate, sed spiratio activa in Patre est realiter Pater et
+							econverso, ut patet ex dictis; ergo etc. Et confirmatur, quia impossibile est aliqua
+							realiter distingui et de se invicem in abstracto vere predicari. Ista propositio in
+							creaturis est manifesta et in divinis patet per inductionem, quia tota ratio quare
+							paternitas in divinis non est filiatio est, quia realiter distinguuntur ab ea, et sic
+							de similibus, quia generatio et spiratio activa predicantur de se invicem in
+							abstracto, quia quecumque predicantur in divinis de se invicem in concreto predicantur
+							realiter in abstracto, sed paternitas predicatur in concreto despiratione activa, quia
+							spiratio activa est Pater, igitur et in abstracto, et per consequens spiratio activa
+							est paternitas, sed quicquid in divinis est paternitas est generatio activa, ut patet
+							ex dictis; ergo etc.</p>
+						<p>Tertio sic: in divinis omnis res distincta realiter ab alia est per se subsistens.
+							Hoc patet, quia omnis res que non est alteri inherens est per se subsistens. In
+							divinis autem nihil est inherens alteri, igitur, si generatio et spiratio activa in
+							Patre essent plures res realiter distincte, essent plures res per se subsistentes, et
+							per consequens duo supposita non unum, quod est erroneum; ergo etc.</p>
+						<p>Ex ista conclusione infero correlarie quod generatio passiva et spiratio activa non
+							distinguuntur realiter in Filio. Deductio est clara, quia rationes ita possunt formari
+							de generatione passiva et spiratione activa in Filio sicut de generatione activa et
+							spiratione activa in Patre. Et confirmatur, quia, sicut se habet essentia divina ad
+							personas Patris et Filii et Spiritus Sanctus quibus est communis, ita spiratio activa
+							ad personas Patris et Filiis quibus est communis, sed essentia divina non est res
+							distincta a Patre et Filio et Spiritu Sancto, nec a proprietatibus eorum, ut patet
+							extra <title>De summa trinitate et fides catholica</title>, igitur spiratio activa non
+							est res distincta a Patre et Filio, nec a proprietatibus eorundem. Imaginor ergo quod,
+							sicut essentia divina non est tantum paternitas, cum sit filiatio et spiratio passiva
+							que non sunt paternitas et tamen hoc non obstante non sunt res distincta ab aliquo
+							istorum, sic etiam suo modo, sed spiratio activa non sit generatio activa, cum sit
+							generatio passiva que non est activa. Non tamen est res distincta a generatione activa
+							in Patre, nec a passiva in Filio, nec ponit in numerum realiter cum eiusdem. Et
+							principalis ratio que movet me ad hoc est, quia cogemur ponere quattuor res in divinis
+							non tantum tres, quod non invenitur in Scriptura, nec determinatum ab Ecclesia, immo
+							videtur repugnare determinationi Ecclesie, ut patet extra <title>De summa
+								trinitate</title> etc, et quia que non distinguuntur realiter nec formaliter ut
+							credo.</p>
+					</div>
+					<div>
+						<head><supplied>Conclusio secunda</supplied></head>
+						<p>Secunda conclusio est quod generatio activa et spiratio activa non distinguuntur
+							formaliter in Patre, nec generatio passiva et spiratio activa in Filio, licet
+							generatio activa et passiva formaliter distinguantur. Istius conclusionis probo primo
+							possibilitatem, secundo necessitatem. Possibilitatem quidem sicnon est maior
+							repugnantia quod una formalitas relativa et communicabilis formaliter sit formaliter
+							due formalitates relative incommunicabiles formaliter quam quod una realitas relativa
+							et communicabilis realiter sit realiter due realitates relative incommunicabiles
+							realiter. Propositio patet ex terminis, sed non obstante huiusmodi repugnantia in
+							creaturis. In divinis tamen realitas spirationis active que una existens realiter
+							[103va] communicatur Filio est realiter generatio activa et passiva que sunt due
+							realitates relative et incommunicabiles realiter, ut patet ex precedenti
+							conclusione.</p>
+						<p>Necessitatem vero deduco sic: vel realitas spirationis active et eius formalitas sunt
+							idem omnibus modis extra intellectum per exclusionem omnis divisionis et non
+							identitatis ex natura rei, vel non. Si sic, sequitur quod cuiuscumque spiratio activa
+							est idem realiter sit idem formaliter et quod a quocumque distinguuntur formaliter
+							distiguuntur realiter et econtra, et sic propositum. Si non, vel distinguuntur
+							realiter omnibus modis extra intellectum per exclusionem omnis identitatis ex natura
+							rei, vel non. Si sic, vel formalitas spirationis active est aliqua realitas vel nulla.
+							Si nulla, ergo nihil, quia quod nulla res est omnino nihil est, secundum
+								<name>Augustinum</name>. Si aliqua et non sua ex supposito sequitur quod realitas
+							spirationis active et eius formalitas sunt due realitates, quarum una realiter non est
+							alia, quod non est verum. Si non, sequitur quod realitas spirationis active et eius
+							formalitas ex natura rei sunt idem et distinguuntur. Quo posito quero an uno et eodem
+							modo omnibus modis extra intellectum sint idem et distinguantur ab alio et alio modo.
+							Primum dari non potest, iuxta doctrinam <name>Scoti</name> et suorum contra quos
+							ponitur ista conclusio, quia principium eorum est quod quecumque conveniunt et
+							differunt a quo sui conveniunt et a quo sui differunt. Si detur secundum, sequitur
+							quod realitas spirationis active a quo sui sit idem sue formalitati et a quo sua
+							distincta ex natura rei. Sint illa <c>a</c> et <c>b</c> et queratur sicut prius
+								<c>a</c> et <c>b</c> sunt idem omnibus modis extra intellectum per exclusionem entis
+							vel non; et sequitur processus in infinitum, sed talis processus non est ponendus
+							presertim in Deo.</p>
+					</div>
+					<div>
+						<head><supplied>Conclusio tertia</supplied></head>
+						<p>Tertia conclusio est quod generatio activa et spiratio activa in Patre non sunt idem
+							convertibiliter et adequate, nec generatio passiva et spiratio activa in Filio. </p>
+						<p>Probatur primo sic: quod est adequate generatio activa est tantum generatio activa et
+							quod est adequate generatio passiva est tantum generatio passiva. Hoc patet ex quid
+							nominis terminorum, sed spiratio activa non est tantum generatio activa, quia tunc non
+							esset generatio passiva, nec est tantum generatio passiva, quia tunc non esset
+							generatio activa, quorum oppositum patet ex conclusionibus precedentibus; ergo
+							etc.</p>
+						<p>Secundo sic, quod est idem utrique oppositorum non est idem alteri eorum
+							convertibiliter et adequate. Oppositum predicati infert oppositum subiecti. Sed
+							spiratio activa est idem utrique eorum generationi active, scilicet et passive, et
+							tanta identitate uni sicut alteri, ut patet ex dictis; ergo etc.</p>
+						<p>Tertio sic: illa non sunt idem convertibiliter et adequate quorum unum invenitur ubi
+							alterum non invenitur. Patet ex terminis, sed spiratio activa invenitur in Filio ubi
+							generatio activa non invenitur et invenitur in Patre ubi non invenitur in Filio
+							generatio passiva; igitur etc.</p>
+					</div>
+					<div>
+						<head><supplied>Conclusio quarta</supplied></head>
+						<p>Quarta conclusio est quod generatio activa et passiva in Deo realiter distinguuntur a
+							spiratione passiva et inter se. Ista conclusio non est catholicis dubia, quia nemo
+							christianus confitetur Patrem et Filium et Spiritum Sanctum quantum ad eorum propriam
+							unam rem esse, sed tres, ut patet per <name>Anselmum</name>
+							<title>De incarnatione verbi</title>, capitulo 2. Et hoc de secundo articulo.</p>
+					</div>
+					<div type="articulus">
+						<head>Tertius et quartus articulus</head>
+						<p>Quantum ad tertium et quartum articulos simul contra conclusiones istas movenda et
+							dissolvenda sunt dubia. Et primo contra primam invenio duas opiniones, quarum prima
+							ponit:</p>
+						<p><name>Roddendon</name> in I, distinctione 13, questione 1</p>
+						<p>Quod generare et generari differunt realiter in Patre et Filio a spiratione vel quod
+							idem est quod generatio et spiratio activa differunt realiter in Patre, et similiter
+							generatio passiva et spiratio activa in Filio. Et hoc opponitur ei directe. </p>
+						<p>Secunda vero dicit quod querere utrum generatio activa distinguatur realiter a
+							spiratione activa non est aliud quam querere utrum Pater et Filius distinguantur
+							realiter a Patre. Et eodem modo querere utrum spiratio activa distinguitur a
+							generatione passiva non est aliud quam querere utrum Pater et Filius distinguantur
+							realiter a Filio. Et hoc opponitur ei directe, quia constat quod Pater et Filius non
+							sunt realiter Pater, nec sunt [103vb] realiter Filius, licet Pater sit realiter Pater
+							et Filius realiter sit Filius; et per consequens spiratio activa secundum istum modum
+							dicendi non erit realiter generatio activa, nec passiva, quod contradicit conclusioni
+							mee.</p>
+						<p>Pro opinione…</p>
+						<p><name>Durandus</name> in I, distinctione 13, questione 1, articulo 10</p>
+						<p>…que communis est multis quidam doctor arguit primo sic: illa que non possunt
+							convenire eidem respectu eiusdem non est non sunt idem realiter, saltem re relata,
+							quia relationis esse est ad aliud, sed generare vel spirare vel generari non possunt
+							convenire eidem respectu eiusdem. Generatio enim competit Patri respectu Filii tantum.
+							Spirare autem non competit Patri respectu Filii, sed solum respectu Spiritus Sancti;
+							rursus generari et spirare competunt Filio, sed generari tantum respectu Patris,
+							spirare autem respectu Spiritus Sancti, ergo spirare non est idem realiter saltem re
+							relata, cum generare vel generari.</p>
+						<p>Preterea, sicut se habet generare ad generari, ita spirare ad spirari, sed generare
+							et spirare non differunt realiter per me; igitur nec generari et spirari, quod est
+							contra me, vel, si generari et spirari differunt realiter, igitur generare et spirare,
+							quod est propositum.</p>
+						<p>Preterea, duabus relationibus disparatis specie vel quasi specie differentibus
+							correspondent due relationes specie vel quasi specie differentie, sed generari et
+							spirari sunt due relationes disparate specie vel quasi specie differunt realiter, ergo
+							relationes que eis correspondent, scilicet generare et spirare specie vel quasi
+							specie, differunt, et ita realiter differunt cum sint relationes rei, non rationis.
+							Maior patet, quia eadem relatio secundum speciem non opponitur pluribus secundum
+							speciem. Minor autem de se patet; ergo.</p>
+						<p>Preterea, quecumque sunt una et eidem eadem sunt eadem inter se saltem eodem modo quo
+							sunt eadem uni tertio et hoc est necessarium cum contrarium implicet contradictionem.
+							Cum ergo per me generare et generari sint idem cum spirare non solum re absoluta, sed
+							etiam re relata, sequitur quod generare et spirare sunt idem, cum spirare non solum
+							sit re absoluta, sed relata, et ita erunt penitus idem, quod est absurdum cum
+							opponantur, igitur et illud est absurdum ex quo sequitur, scilicet quod spirare sit
+							idem realiter cum generare et generari.</p>
+						<p>Preterea, ab una actione immediate non possunt esse due passiones, sed generari et
+							spirari sunt due passiones vel emanationes dicte passive; ergo non possit esse ab una
+							actione immediate, sed generari est immediate a generare et spirari est immediate a
+							spirare, ergo generare et spirare non sunt una actio, sed due realiter differentes
+							sicut passiones eis correspondentes.</p>
+						<p>Preterea, impossibile est esse eandem relationem producentis et producti, etiam si
+							idem sit producens et productum respectu diversorum. Verbi gratia dato quod Spiritus
+							Sanctus esset Filius Filii sicut contingit in humanis eundem esse Patrem et Filium
+							respectu diversorum. Adhuc illa esset relatio alia quo diceretur Filius et alia
+							diceretur Pater, sed spirare et generari sunt relationes producentis et producti in
+							eodem, scilicet Filio, licet respectu diversorum; ergo impossibile est quod sit una
+							relatio, sed necessario sunt due, quia idem est iudicium de relationibus et
+							emanationibus; ergo etc.</p>
+						<p>Preterea, ad idem…</p>
+						<p><name>Landulphus</name> in I, distinctione 13, questione 1, articulo 1</p>
+						<p>…quidem alius doctor arguit dupliciter. Verum, quia prima ratio sua coincidit cum
+							quarta precedentis doctoris. Dimitto eam; sed secundo arguit sic: eandem relationem ut
+							relationem constituere realiter et non constituere est contradictio secundum idem. Sed
+							paternitas constituit personam Patris realiter in esse suppositali et ut relatio,
+							spiratio, actio, non ergo impossibile est quod sint una res inquantum relatio. Maior
+							patet ex primo principio, quia contradictoria non sunt circa idem. Minor probatur,
+							quia, si spiratio actio constitueret personam Patris in esse suppositali, quia de
+							paternitate certum est quod constituit cum spiratio actio sit in Patre et Filio, Pater
+							et Filius essent unum suppositum una relatione reali, quia tunc ita esset de
+							personalitate Filii sicut Patris.</p>
+						<p>Preterea, ad idem arguitur communiter, quia, si spiratio activa non distingueretur
+							realiter a generatione activa et passiva, non esset quattuor relationes reales in
+							divinis, quod est contradicta doctorum.</p>
+						<p>Pro secunda opinione…</p>
+						<p><name>Roddendon</name> ut supra.[104ra] </p>
+						<p>…arguitur unica ratione sic: spiratio activa non est nisi Pater et Filius qui active
+							spirant Spiritum Sanctum et generatio activa non est aliud quam Pater, nec passiva
+							quam Filius, igitur querere utrum spiratio activa distinguatur realiter a generatione
+							activa non est aliud quam querere utrum Pater et Filius distinguatur realiter a Patre.
+							Et querere utrum distinguantur realiter a generatione passiva non est aliud quam
+							querere utrum Pater et Filius distinguuntur realiter a Filio. Antecedens supponitur et
+							consequentia videtur clara, sed ad veritatem nulla istarum opinionum videtur mihi
+							rationalis, nec tenenda. Non quidem prima, quia, si spiratio activa et generatio
+							activa in Patre vel passiva in Filio essent due res distincte, non posset salvari
+							summa simplicitas persone divine, nec posset vitari quaternitas rerum in divinis quam
+							non admitit Ecclesia, ut patet ex dictis; igitur etc.</p>
+						<p>Contra <name>Roddendon</name></p>
+						<p>Nec secunda, quia vel iste doctor intelligit quod spiratio activa sit una res que est
+							Pater et Filius et Spiritus Sanctus sicut essentia divina que est una res que est
+							Pater, Filius et Spiritus Sanctus, vel intelligit quod sic est Pater et Filius quod
+							non est aliqua una res, sed simpliciter plures. Si secundo modo, male et periculose
+							intelligit et contra intentionem doctorum et fidem. Si primo modo, patet quod non est
+							idem querere utrum Pater et Filius distinguantur realiter a Patre, sed intellectus
+							questionis est utrum res illa que est spiratio activa et res illa que est generatio
+							activa sint una sola res vel plures, sicut non est idem querere utrum essentia divina
+							distinguatur realiter a generatione activa et utrum Pater et Filius et Spiritus
+							distinguantur realiter a Patre. Sed intellectus questionis est utrum res illa que est
+							essentia divina et res illa que est generatio activa sit una sola res vel plures; et
+							in isto sensu doctores qui realiter et catholice volunt loqui intelligunt questionem
+							nec motiva illarum opinionum concludunt. Et ideo respondeo ad primum.</p>
+						<p>Ad rationes <name>Durandi</name></p>
+						<p>Et nego maiorem, quia ad hoc quod aliqua non possunt convenire eidem respectu eiusdem
+							sufficit quod illa non sint idem convertibiliter et adequate vel quod sint
+							equipollentia rebus distinctis. Et sic est in proposito, quia spiratio activa non est
+							convertibiliter generatio activa, nec passiva, ut patet ex tertia conclusione, nec
+							illa res que est generatio activa et spiratio activa in Patre est minoris virtutis
+							quam si illa essent realiter distincta in ipso, sicut illa res que est bonitas et
+							sapientia in Deo non est minoris virtutis quam bonitas et sapientia si essent res
+							distincte in eo.</p>
+						<p>Ad secundum, primo reduco rationem contra eum: sicut se habet generare ad generari,
+							ita se habet spirare ad spirari, ergo permutatim, sicut se habet generare ad spirare,
+							ita generari ad spirari, sed generare et spirare non constituunt distincta supposita
+							realiter; igitur nec generari et spirari, quod est contra eum et contra quoscumque
+							recte loquentes. Vel, si generari et spirari constituunt, ita et generare et spirare,
+							quod est erroneum. Vel sic: si generare et spirare conveniunt eidem persone ista, et
+							generari et spirari. Vel, si generari et spirari non conveniunt eidem, ita nec
+							generare et spirare, quorum quodlibet est contra fidem.</p>
+						<p>Ad formam igitur rationis dicitur communiter quod communtata proportio non tenet
+							gratia forme in quantitatibus ubi est proportio et proportionabilitas. In qualitatibus
+							autem vel aliis habitibus si tenet gratia materie, non tamen gratia forme et, quia in
+							proposito non arguitur in terminis quantitatis, nil sequitur gratia forme. Verum, quia
+							multotiens tam doctor quam <name>Philosophus</name> arguunt per locum mutata
+							proportione etiam non in terminis quantitativis.</p>
+						<p>Respondeo aliter ad rationem et dico ad maiorem quod, si li ‘sicut’ sit nota omnimode
+							similitudinis, propositio non est vera, quia generare sic se habet ad generari quod
+							quodlibet istorum convenit uni soli persone et est contitutivum ipsius. Spirare vero
+							non sic habet ad spirari, cum spirare conveniat duobus et non sit constitutivum
+							alicuius. Si vero sit nota alicuius similitudinis, vera est propositio, sed tunc non
+							tenet commu-[104rb]-tata proportio nisi forte gratia materie, etiam supposito quod
+							teneat in quibusdam terminis non sequitur quod ita se habeat generare ad spirare,
+							presertim quantum ad identitatem et non identitatem de qua nunc agitur sicut generari
+							ad spirari. Ratio huius est, quia generare et spirare conveniens eidem persone divine
+							in qua non possunt poni aliqua res distincte. Generari autem et spirari non conveniunt
+							eidem, ut dictum est supra.</p>
+						<p>Ad tertium nego maiorem. Si intelligat quod talibus relationibus correspondeant due
+							relationes realiter differentes, sufficit enim quod respondeant due relationes
+							virtualiter vel equivalenter. Et sic est in proposito, quia, licet generatio activa et
+							spiratio activa non sint due relationes reales, quarum una non sit alia realiter, sunt
+							tamen due virtualiter vel equivalenter, quia illa una relatio realiter vere est
+							generatio activa, et ideo vere opponitur et correspondeat generationi passive et vere
+							est spiratio activa, et ideo vere opponitur et correspondet spirationi passive, unde,
+							si eadem relatio in creaturis erit equalitas et similitudo talis est una relatio
+							realiter et due virtualiter vel equivalenter et sufficienter correspondent pluribus
+							oppositis.</p>
+						<p>Ad quartum: si ratio illa esset bona, sequeretur quod essentia divina esset res
+							distincta a personis, quod est contra determinationem Ecclesie, licet hoc iste doctor
+							concedat et male sequeretur etiam quod generare et spirare distinguerentur realiter a
+							Patre salem re relata, quod ego nollem concedere, vel quod generare et spirare nullo
+							modo distinguantur, quod est propositum. Consequentia patet per formam suam arguendo
+							sic: quicumque uni et eidem sunt etc., sed generare et spirare sunt idem realiter cum
+							Patre non solum re absoluta, sed etiam re relata, igitur generare et spirare sunt idem
+							inter se non solum re absoluta, sed etiam re relata. Si conclusio sit falsa, aliqua
+							premissa est falsa et non maior per eum, igitur minor; et sic patet prima pars
+							consequentis. Si vera, igitur patet secunda; ergo etc.</p>
+						<p>Dico igitur ad rationem quod maior illa non est vera nisi illa sint eadem uni et
+							eidem convertibiliter et adequate, sicut patet de essentia divina et personis, quod in
+							proposito non est verum, quia generare et generari non sunt idem cum spirare
+							convertibiliter et adequate, ut patet ex dictis.</p>
+						<p>Ad quintum dico quod ab una actione realiter equipollente tamen distinctis
+							virtualiter immediate possunt esse due passiones. Et sic est in proposito, ut patere
+							potest ex dictis.</p>
+						<p>Ad sextum nego maiorem, dum tamen illa relatio existens una realiter equipolleat
+							distinctis virtualiter, sicut est in proposito; nec oppositum probatur ab eo.</p>
+						<p>Ad rationes <name>Landulphi</name></p>
+						<p>Ad rationem vero alterius doctor primo reduco rationem contra eum, quia, si deductio
+							illa sit bona, sequitur quod essentia et paternitas in divinis sint due res distincte,
+							quod non consonat catholice veritati. Deductio est clara arguendo sic: eandem rem
+							constituere realiter et non constituere est contradictio secundum idem. Ista
+							propositio est vera si maior sua sit vera et tenet per probationem suam, sed
+							paternitas per eum constituit realiter personam Patris in esse suppositali. Essentia
+							vero non, quia, cum essentia sit in Patre et in Filio et Spiritu Sancto, Pater et
+							Filius et Spiritus Sanctus essent unum suppositum per deductionem suam, quod non esset
+							catholice dictum.</p>
+						<p>Ad rationem igitur suam dico quod ad hoc quod paternitas vel generatio constituat
+							personam Patris in esse suppositali, spiratio vero non sufficit quod non sit idem
+							convertibiliter et adequate sicut diceretur de essentia et paternitate.</p>
+						<p><name>Egidius</name> in I, distinctione 27, questione 1</p>
+						<p>Ad ultimum respondet doctor noster negando consequentiam, quia non sequitur spiratio
+							activa non distinguitur realiter a generatione activa in Patre et passiva in Filio
+							sicut res a re, igitur in divinis non sunt quattuor relationes reales. Responsio
+							ipsius est quod relatio realis aliunde habet quod sit res et aliunde quod sit relatio.
+							Primum enim, ut dicit, habet a fundamento sive ab eo in quo existit secundum a
+							termino; unitas ergo et distinctio relationum realium secundum quod sunt relationes
+							sumitur ex unitate vel distinctione terminorum. Unitas autem et distinctio eorum
+							secundum quod sunt res sumitur ex unitate vel distinctione fundamentorum sive rerum in
+							quibus existunt et, quia generatio activa et spiratio activa sunt [104va] in eodem
+							fundamento immediate, quia in eadem persona Patris et habent distinctos terminos, quia
+							per generationem activam Pater refertur ad Filium et per spirationem activam ad
+							Spiritum Sanctum qui realiter distinguuntur, sequitur quod generatio activa et
+							spiratio activa sic sunt una res in Patre quod tamen sunt due relationes reales; et
+							similiter dicendum est de generatione passiva et spiratione activa in Filio. Quo
+							posito patet quod iste quattuor relationes divine non sunt quattuor res, sed solum
+							tres, quia spiratio activa sic ponit in numerum relationum realium, cum generatione
+							activa et passiva quod non in numerum rerum, et per consequens patet quod illa non
+							fuit bona consequentia.</p>
+						<p>Contra <name>Egidium</name></p>
+						<p>Sed, licet ista solutio sit nobis valde subtilis et pulchra, mihi tamen non videtur
+							sufficere propter aliqua que asserit minus vera meo iudicio, et ideo pono contra eam
+							quattuor propositiones. </p>
+						<p>Prima est quod relatio realis non habet quod sit res a subiecto sive a fundamento in
+							quo est. Hanc probo sic: illud quod convenit relationi reali ex se et ratione sue
+							quiditatis non convenit ei ratione subiecti sive fundamenti in quo existit, sed esse
+							rem convenit sibi etc; ergo etc. Maior est de se nota et minorem deduco sic: omnis
+							relatio realis se ipsa omni eo circumscripto, quod non est de se per se primo
+							intellectu quiditativo ipsius, est aliquid et ens, igitur se ipsa circumscripto omni
+							eo etc, igitur est aliqua res. Antecedens patet, aliter se ipsa et ratione sue
+							quiditatis esset omnino nihil, quod non est verum, et tamen consequentia videtur
+							clara; tum quia quod nulla res est, ut patet per beatum <name>Augustinum</name> I
+								<title>De doctrina christiana</title>, tum quia solemus usu dicere quicquid aliquo
+							modo dicimus esse aliquid, ut patet per <name>Anselmum</name>
+							<title>De incarnatione verbi</title>, capitulo 2, ergo etc. Nec valet si dicatur quod
+							relatio secundum doctorem non est aliquid, sed ad aliquid, quia accipiatur aliquid ut
+							contradictorie distinguitur contra nihil, sicut accipitur in ratione mea, falsum est
+							quod assumitur. Oportet enim concedere quod relatio sit aliquid isto modo nisi velimus
+							dicere quod sit omnino nihil, quod doctor noster non concederet.</p>
+						<p>Secunda propositio est quod unitas et distinctio relationum secundum quod sunt res
+							non sumuntur ex unitate et distinctione rerum in quibus existunt. Et hoc sequitur ex
+							precedenti, quia bene sequitur secundum doctorem relatio realis non habet quod sit res
+							a subiecto in quo est, igitur unitas et distinctio relationum realium secundum quod
+							sunt res non sumuntur etc. Confirmo eam tamen satis evidenter ut mihi videtur, quia in
+							eadem albedine fundantur similitudo et dissimilitudo et in eadem quantitate equalitas
+							et inequalitas respectu diversorum, que tamen realiter distinguuntur sicut res a re
+							supposito quod quelibet earum sit res.</p>
+						<p><name>Thomas de Argentina</name> in I, distinctione 27, questione 1, articulo 2</p>
+						<p>Sed ad istam rationem quidam doctor noster nititur respondere dicente quod non est ad
+							propositum, quia, cum creatura non sit omnino simplex, non repugnat res distinctas
+							esse in eodem fundamento creato respectu diversorum; et ideo dato quod similitudo et
+							dissimilitudo dicant diversas res et hoc tamen possunt simul esse in eodem fundamento
+							creato. Repugnat tamen diversas res esse in divina persona que est omnino simplex.</p>
+						<p>Contra <name>Thomam</name></p>
+						<p>Sed ad veritatem ista solutio destruit positionem doctoris, quia, si sit vera, patet
+							quod causa quare generatio activa et spiratio activa in Patre non sunt due rationes
+							non est unitas persone in qua fundatur, sed simplicitas, et tamen constat quod doctor
+							non assignat pro causa simplicitatem, sed unitatem. Et confirmatur, quia doctor
+							universaliter dicit quod unitas et distinctio relationum secundum quod sunt res
+							sumitur ex unitate et distinctione rerum in quibus existunt, igitur hoc est verum tam
+							in creaturis quam in divinis, et ideo doctor in eadem questione facta deductione sua
+							concludendo sic ait propter quod dicendum est: ex distinctione terminorum relationes
+							reales distingui secundum quod relationes sunt, sed ex differentia rerum in quibus
+							existunt distingui ex eo quod res quedam existunt, ita quod nunquam plu-[104vb]-res
+							relationes sunt plures res nisi sint in pluribus rebus, ut in pluribus suppositis, vel
+							in pluribus fundamentis hoc formaliter doctoris. Et, si sit vera, patet quod
+							similitudo et dissimilitudo nunquam erunt plures res nec in divinis, nec in creaturis
+							nisi sint in pluribus rebus, quod contradicit solutioni sue iam date. Dimissa tamen
+							ista solutione forte dicetur ad rationem iuxta principia doctoris quod similitudo et
+							dissimilitudo fundate in eadem albedine respectu diversorum non sunt due relationes
+							reales, sed una sola res, quia nunquam plures relationes sunt plures res nisi sint in
+							pluribus rebus secundum eum. Et, licet ista responsio videatur conformior dictis
+							doctoris, mihi tamen videtur impossibilis, quia ille relationes non sunt una res
+							quarum una potest realiter esse altera non existente realiter et econtra, sed sic est
+							in proposito, quia desinente termino dissimilitudinis et manente termino similitudinis
+							manet realiter similitudo dissimile non realiter manente.</p>
+						<p>Et confirmatur ex dictis doctoris, quia, secundum eum in eadem questione,
+							multiplicato inferiori de necessitate multiplicatur superius, ubi proprie reperitur
+							ratio superiorum et inferiorum secundum eum et secundum omnes, igitur in creaturis
+							multiplicato inferiore necessario multiplicatur superius quicquid sit in divinis ubi
+							hec proprie non reperiuntur, ut dicit, sed constat quod relatio realis in creaturis
+							est inferior ad rem non minus quam homo ad animal, igitur saltem in creaturis iuxta
+							principia multiplicatis relationibus necesse est multiplicare res, unde, sicut est
+							impossibile quod duo homines sint unum animal, sic est impossibile quod due relationes
+							reales saltem in creaturis sint una res.</p>
+						<p>Tertia propositio est quod unitas et distinctio relationum realium secundum quod sunt
+							relationes non sumitur ex unitate et distinctione terminorum. Hanc probo sic:
+							pluralitas relationum realium potest stare et stat de facto cum unitate termini,
+							igitur unitas earum non sumitur existente termini, nec distinctio ex distinctione.
+							Consequentia nota. Antecedens probatur, quia due dissimilitudines fundate in duabus
+							albedinibus respectu eiusdem nigredinis numero sunt due relationes reales et tamen
+							terminus est tantum unus, quia eadem nigredo numero. Item, due filiationes reales
+							quibus duo Filii referuntur ad eundem Patrem sunt due relationes reales, et tamen
+							terminus est unus tantum, quia unus Pater, et sic de multis aliis. Sed, quia forte
+							diceretur quod unitas et distinctio relationum in eadem specie non sumitur ex unitate
+							et distinctione terminorum, sed solum unitas et distinctio relationum differentium
+							secundum speciem, ut dicit doctor ibidem, idcirco ostendo hoc idem de relationibus
+							differentibus specie, quia constat quod eidem albedini cui altera albedo est similis,
+							nigredo est dissimilis. Constat etiam quod similitudo fundata in albedine et
+							dissimilitudo fundata in nigredine respectu eiusdem albedinis sunt due relationes
+							specie differentes et tamen terminus est unus tantum, ut prius. Forte dicetur quod
+							similitudo fundata in albedine et dissimilitudo fundata in nigredine respectu eiusdem
+							albedinis non sunt due relationes, sed tantum una, licet sint due res, quia fundantur
+							in duobus subiectis, sicut concedit doctor, quia, si spiratio activa fundaretur in
+							Patre et Filio secundum se, dicerentur esse due res, sed una relatio, quia terminus ad
+							quem per ipsum referuntur est unus tantum, videlicet Spiritus Sanctus.</p>
+						<p>Sed ad veritatem, licet illa responsio sit multum conformis dictis doctoris, mihi
+							tamen videtur omnino impossibilis. Primo, quia saltem in creaturis ubi proprie
+							reperitur ratio superioris et inferioris simpliciter est impossibile quod due res
+							distincte sint una relatio realis numero, sicut est impossibile quod duo animalia sint
+							unus homo.</p>
+						<p>Secundo, quia similitudo fundata in nigredine et dissimilitudo fundata in albedine
+							respectu eiusdem nigredinis non minus sunt plures relationes reales quam due
+							dissimilitudines fundate in duabus albedinibus respectu eiusdem nigredinis que tame,n
+							secundum doctorem et secundum omnes, sunt due relationes, non una tantum.</p>
+						<p>Tertio, quia in creaturis ubi pro-[105ra]-prie reperitur genus et species que
+							differunt specie differunt numero, ut patet XV <title>Metaphysice</title>, capitulo de
+							uno, sed similitudo et dissimilitudo predicte in genere relationum differunt specie,
+							ut notum est cuicumque, igitur differunt numero, et per consequens sunt due
+							relationes, non una tantum.</p>
+						<p>Quarto, quia simpliciter est impossibile eandem relationem realem numero simul esse
+							et non esse. Et constat quod similitudo predicta potest esse illa dissimilitudine non
+							existente vel econverso. Et ad veritatem non est aliquo modo possibile quod in
+							creaturis una relatio realis numero sit in diversis subiectis et presertim distinctis
+							secundum speciem.</p>
+						<p>Ultima propositio est quod, si spiratio activa et generatio activa in Patre sunt
+							formaliter due relationes reales, necessario sequitur quod sint due res. Hanc probo
+							primo sic: quia stante supposito si generatis activa et spiratio activa non essent due
+							res, sed una tantum, hoc ideo esset, quia fundantur in eodem subiecto. Hoc patet ex
+							fundamentis doctoris, sed hoc non obstat, ut patet ex propositione secunda; igitur
+							etc.</p>
+						<p>Secundo, quia, sicut se habet relatio rationis ad ens rationis, ita relatio realis ad
+							ens reale, sed impossibile est esse duas relationes rationis distinctas quin sint duo
+							entia rationis distincta; ergo impossibile est esse duas relationes reales distinctas
+							quin sint duo entia realia distincta, et per consequens due res.</p>
+						<p>Idem <name>Thomas</name> ubi supra</p>
+						<p>Sed ad istam rationem quidam doctor noster nititur respondere dupliciter. Primo
+							quidem dicit quod generationem et spirationem activam esse duas relationes reales in
+							Patre potest dupliciter intelligi. Uno modo intrinsece, alio modo extrinsece et
+							connotative. Primo modo, ut dicit, falsus est intellectus, quia intrinsece sunt una et
+							eadem realitas penitus indivisa. Secundo vero modo est verus intellectus eo quod
+							paternitas et communis notio sive generatio activa sive spiratio activa, quod idem
+							est, intrinsece exigit duos terminos realiter distinctos ratione, quorum vere dicuntur
+							due relationes reales realitate extrinseca. </p>
+						<p>His premissis dicit ad rationem quod per eam non convincitur quod generatio activa et
+							spiratio activa sint due res intrinsece, sed solum extrinsece et connotative, quod
+							verum est. Secundo dicit: concessis ambabus premissis non plus concluditur nisi quod
+							non possunt dari due relationes realiter distincte nisi dentur due res et hoc non est
+							contra doctorem, nec contra eum, quia non ponunt ut dicit communem notionem, et
+							paternitatem esse duas relationes realiter distinctas, licet ponant quod sint due
+							relationes reales ratione duorum terminorum realium.</p>
+						<p>Contra <name>Thomam</name></p>
+						<p>Nulla tamen istarum solutionum sufficit, ut mihi videtur. Non quidem prima, quia, si
+							illa responsio esset bona, sequeretur quod, sicut paternitas et communis notio sunt
+							due relationes, sic sunt due res, quod contradicit doctor et sibi. Consequentia patet:
+							secundum istam responsionem non sunt due relationes reales intrinsece, sed solum
+							extrinsece, quia cum exigant duos terminos realiter distinctos et isto modo, ut dicit,
+							etiam sunt due res. Secundo, quia, si paternitas et communis notio non sunt due
+							relationes reales intrinsece, sed solum extrinsece et connotative in divinis, non
+							essent quattuor relationes reales formaliter et intrinsece, sed tantum tres, cuius
+							oppositum intelligit doctor expresse, nec secunda. </p>
+						<p>Primo, quia contradicit dictis doctoris que tamen nititur defendere qui ponit
+							paternitatem et communem notionem esse duas relationes reales distinctas realiter,
+							unde in fine illius questionis sic ait: concludentes igitur veritate quesiti dicamus
+							quod, quia communis notio ut est in Patre est non distincta realiter a paternitate, ut
+							est in Filio non alia res distincta a filiatione, et ideo non ponit in numerum
+							realiter cum predictis sicut Pater et Filius et essentia non sunt tres res eo quod
+							essentia ut est in Patre non est realiter distincta ab ipso et, ut est in Filio, non
+							est alia res ab eo. Et subdit statim, quia predicta tria sunt tres relationes et due
+							res, cum processio sit quedam relatio realis realiter distincta a qualibet
+							predictarum. Quattuor erunt in divinis relationes et tres res. Ecce quod expresse
+							dicit doctor quod pro-[105rb]-cessio est quedam relatio realis realiter distincta a
+							qualibet alia, et per consequens paternitas et communis notio sunt due relationes
+							realiter distincte secundum eum. </p>
+						<p>Secundo, quia vel paternitas est alia relatio a communi notione, vel non. Si non,
+							igitur est eadem, et per consequens non sunt due relationes, sed una tantum, cuius
+							oppositum intendunt. Si sic, adhuc ratio remanet insoluta, quia, sicut est impossibile
+							esse duas relationes rationis, quarum una sit alia, sic est impossibile esse duo entia
+							rationis, quorum unum sit alius, sic est impossibile per formam rationis quod sint due
+							relationes reales, quarum una non sit alia, quoniam sint duo entia realia, et sic due
+							res, quarum una non sit alia, quod est propositum sive tales res velis vocare
+							distinctas sive non. Manet igitur illa propositio, et per consequens patet rationem
+							principalem non esse solutam. Respondeo igitur aliter ad eam et dico quod, sicut
+							generatio activa et spiratio activa in Patre vel generatio passiva vel spiratio activa
+							in Filio non sunt formaliter due res, sicut nec due relationes reales ponentes in
+							numerum in divinis, quia in Deo nulla est rerum quaternitas, cum hoc constat quod
+							spiratio activa et generatio activa in Patre vel passiva in Filio sunt due relationes
+							virtualiter et equivalenter sicut et due res, quia sunt eadem res sicut et eadem
+							relatio penitus indistincta ex natura rei est realiter generatio activa et spiratio in
+							Patre et quia generatio activa vere et realiter opponitur spirationi passive non minus
+							quam si ista essent res distincte in ipso, sic eadem relatio sicut eadem res est
+							equivalenter et virtualiter plures, et in isto sensu et non aliter debent concedi
+							quattuor relationes reales in divinis.</p>
+						<p>Ad rationes <name>Roddendoni</name></p>
+						<p>Preterea, quidem dicendum ex impugnatione ipsius, licet spiratio activa non sit nisi
+							Pater et Filius et Spiritus Sanctus, est tamen una res que est Pater et Filius et
+							Spiritus Sanctus sicut licet essentia divina non sit nisi Pater, Filius et Spiritus
+							Sanctus, et ideo consequentia nulla, prout extitit declaratum ibidem.</p>
+						<p>Contra secundam conclusionem est <name>Scotus</name> et sui sequaces, et contra
+							tertiam <name>Aureolus</name>. Verum, quia opiniones eorum tractabuntur diffusius
+							distinctione 33 ubi agetur de identitate vel non identitate relationis et essentie, ad
+							presens supersedeo.</p>
+						<p>Contra quartam posset argui, sed, quia non est apud catholicos opinabilis,
+							supersedeo.</p>
+					</div>
+					<div>
+						<head>Ad rationes principales</head>
+						<p>Ad primam, que directe concludit contra quartam conclusionem, nego maiorem et habet
+							eam negare quicumque catholicus si velit concedere quod tres divine persone quantum ad
+							earum propria non sunt vere tres res, quod non est catholice dictum. Et ad probationem
+								<name>Anselmi</name> et <name>Boetii</name> dicam quod loquuntur de identitate
+							suppositorum sive personarum, quia in divinis omnes persone distincte opponuntur ad
+							invicem relative. </p>
+						<p>Ad secundam posset concedi quod, si generatio passiva in divinis esset realiter
+							spiratio passiva, Spiritus Sanctus esset vere genitus, Filius spiratus, et sic ratio
+							concluderet pro quarta conclusione. Si vero formetur de generatione et spiratione
+							activa, nego consequentiam, quia ad hoc quod Spiritus Sanctus non sit genitus, nec
+							Filius spiratus, sufficit quod generatio activa et spiratio activa non sint idem
+							convertibiliter et adequate. Nec probatio valet, quod spiratio non est superior ad
+							generationem, sicut est productio.</p>
+					</div>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

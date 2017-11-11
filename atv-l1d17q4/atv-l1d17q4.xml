@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Liber I, Distinctio 17, Quaestio 4</title>
+				<author>Alphonsus Toletanus Vargas</author>
+				<editor>Luciana Cioca</editor>
+				<respStmt>
+					<name>Jeffrey C. Witt</name>
+					<resp>TEI Encoder</resp>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="0.0.0-dev">
+					<date when="2016-09-14">September 14, 2016</date>
+				</edition>
+			</editionStmt>
+			<publicationStmt>
+				<authority>THESIS project</authority>
+				<availability status="free">
+					<p>Public Domain</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="P" n="Paris1490">Paris1490</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+			<schemaRef n="lbp-critical-1.0.0"
+				target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/1.0/critical.rng"> </schemaRef>
+			<editorialDecl>
+				<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+					guidelines for a critical edition</p>
+			</editorialDecl>
+		</encodingDesc>
+		<revisionDesc status="draft">
+			<listChange>
+				<change when="2016-09-02" who="#JW" status="draft" n="0.0.0">
+					<p>Created file for the first time.</p>
+				</change>
+			</listChange>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:lang="la">
+		<front>
+			<div xml:id="includeList">
+				<xi:include
+					href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+					xpointer="worksCited"/>
+				<xi:include
+					href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+					xpointer="prosopography"/>
+			</div>
+			<div xml:id="starts-on">
+				<pb ed="#P" n=""/>
+				<cb ed="#P" n=""/>
+			</div>
+		</front>
+		<body>
+			<div xml:id="atv-l1d17q4">
+				<head>Liber I, Distinctio 17, Quaestio 4</head>
+
+
+
+				<p>Quarto quero utrum gradus adveniens in augmento caritatis ab intellectu creato possit
+					intuitive videri non viso priori. </p>
+				<div type="rationes-principales">
+					<head>Rationes principales</head>
+					<p>Et videtur primo quod non, quia gradus adveniens et precedens in augmento caritatis
+						sunt in eodem subiecto primo simul et adequate, igitur uni eorum repugnat intuitive
+						videri sine alio. Antecedens supponitur. Consequentia probatur, quia ex quo simul et
+						adequate sunt in eodem subiecto non videtur quod unus possit movere intellectum altero
+						non movente, nec eius actum terminare, altero non terminante.</p>
+
+					<p>Contra: gradus adveniens in augmento caritatis potest realiter esse sine priori saltem
+						de potentia Dei, igitur et intuitive videri. Consequentia patet, quia quod potest
+						realiter esse sine altero, potest intuitive videri sine illo et antecedens probatur,
+						quia, si ponatur in esse, nulla sequitur contradictio; ergo etc.</p>
+				</div>
+				<div>
+					<head>Divisio Quaestionis</head>
+					<p>In ista questione primo pono unicam distinctionem, secundo conclusionem. Tertio movebo
+						dubia. Quarto respondebo.</p>
+				</div>
+				<div type="articulus">
+					<head>Primus articulus</head>
+
+					<p>Quantum ad primum distinguo de potentia Dei et creature et secundum hoc questio potest
+						intelligi dupliciter, videlicet utrum gradus adveniens in augmento caritatis possit
+						intuitive videri non viso priori de potentia Dei, vel de potentia creature. Et hoc de
+						primo.</p>
+				</div>
+				<div type="articulus">
+					<head>Secundus articulus</head>
+					<div>
+						<head><supplied>Conclusio prima</supplied></head>
+						<p>Quantum ad secundum.
+							<!-- in other texts the "quantum ad secundum" stands outside the section division as another paragraph -->
+							Prima conclusio est quod gradus adveniens in augmento caritatis est vera caritas et
+							gradus adveniens in augmento albedinis est vera albedo, et sic de aliis formis
+							similibus. </p>
+
+						<p>Probatur primo sic: quandocumque aliqua duo sunt eiusdem forme specifice, [119vb]
+							quicquid per se primo modo predicatur de uno, et de altero. Oppositum predicati infert
+							oppositum subiecti, sed gradus caritatis adveniens et precedens sunt huiusmodi, ut
+							patet ex questione precedenti, igitur quicquid per se primo modo probatur de gradu
+							precedente, predicatur etiam de gradu sequente, sed gradus precedens est vera caritas
+							et fuit ante adventum sequentis; ergo etc.</p>
+
+						<p>Secundo sic: omnis alteratio secundum <name>Aristotelem</name> III et V
+								<title>Physicorum</title> est motus ad qualitatem, sed intensio caritatis et
+							cuiuslibet alterius forme accidentalis est motus ad qualitatem, et per consequens eius
+							terminus est vera qualitas et hoc expresse concedit <name>Aureolus</name> contra quem
+							posui conclusionem istam. Sed terminus intensionis caritatis est realitas illa addita
+							etiam secundum eum, igitur illa realitas est vera qualitas, igitur in aliqua specie
+							qualitatis et certum est quod non in alia quam caritatis, igitur est vera caritas, et
+							in hoc videtur in dictis illius doctoris repugnantia.</p>
+
+						<p>Tertio sic: agens perfectius, si agit toto conatu, causat effectum perfectiorem in
+							specie. Ceteris existentibus patet de se, sed augmentans formam potest esse perfectius
+							generante ipsam et generans formam causat gradum forme qui vere est in specie et qui
+							vere recipit predicationem illius speciei secundum omnes, igitur et augmentans.
+							Probatur minor, quia, si ignis unius gradus causet calorem in stuppa et ignis 100 et
+							1000 graduum augmentet ipsum, patet quod ignis augmentans est perfectior igne
+							generante et constat quod quilibet eorum agit toto conatu et cetera possunt esse
+							paria; ergo etc. Et confirmatur, quia Deus potest augmentare caritatem viatoris in
+							decuplo, immo in millecuplo, igitur realitas caritatis adveniens esset maior in
+							decuplo vel millecuplo realitate precedente et realitas precedens est vera caritas
+							secundum omnes, igitur multo fortius et adveniens; igitur etc.</p>
+
+						<p>Quarto sic: aliqua pars intense caritatis est vera et integra caritas, igitur omnis,
+							igitur et realitas adveniens. Prima consequentia patet, quia cum partes caritatis sint
+							eiusdem rationis specifice qua ratione una est vera et integra caritas et alia. Et
+							secunda consequentia videtur clara, quia constat quod realitas adveniens in augmento
+							caritatis sit pars caritatis non minus quam precedens. Antecedens probatur, quia
+							gradus caritatis precedens et pars caritatis intense et tamen est vera et integra
+							caritas secundum omnes.</p>
+
+						<p>Forte dicetur quod gradus caritatis precedens ante adventum caritatis sequentis fuit
+							vera caritas et post adventum illius non est vera caritas, sed concaritas, quia pars
+							caritatis. Sed ad veritatem hec evasio est nulla, quia quicquid predicatur de aliquo
+							tanquam de per se individuo illo manente et non destructo semper predicatur de illo.
+							Hec patet in omnibus inductive, sed caritas iuxta evasionem datam predicatur de gradu
+							precedente ante adventum alterius tanquam de suo per se individuo, igitur illo gradu
+							manente et non destructo semper predicabitur de ipso, sed constat quod post adventum
+							alterius semper manet etiam per eos, igitur post adventum alterius est vera caritas,
+							et sic intentum. Confirmatur ista ratio, quia non est minor convenientia partium
+							caritatis ad caritatem quam partium aque ad aquam, sed quelibet pars aque est aqua,
+							igitur quelibet caritas est caritas.</p>
+					</div>
+					<div>
+						<head><supplied>Conclusio secunda</supplied></head>
+
+						<p>Secunda conclusio est quod gradus adveniens in augmento caritatis vel albedinis, et
+							sic de aliis, per divinam potentiam potest realiter esse priori non existente. </p>
+
+						<p>Probatur primo sic: gradus adveniens ita est caritas vel albedo, et sic de aliis,
+							sicut et precedens, igitur non magis repugnat sibi esse sine illo quam econverso
+							saltem per potentiam Dei. Antecedens patet per conclusionem precedentem et
+							consequentia est nota; igitur etc.</p>
+
+						<p>Secundo sic: in gradibus eiusdem rationis si imperfectior potest esse sine
+							perfectiori, et perfectior sine imperfectiori maxime de potentia Dei, sed gradus
+							precedens et adveniens in augmento forme sunt eiusdem rationis ex questione precedenti
+							et gradus adveniens potest esse perfectior precedente, quia augmentans formam potest
+							esse [120ra] perfectius generante ipsam, ut declaratum est supra; igitur cum gradus
+							precedens possit esse sine adveniente poterit adveniens esse sine precedente.</p>
+
+						<p>Tertio sic: gradus adveniens in augmento luminis potest realiter esse sine priore,
+							ergo et gradus adveniens in augmento caritatis vel albedinis saltem de potentia Dei.
+							Consequentia nota, quia non magis repugnat gradui augmentativo caritatis vel albedinis
+							esse sine priori quantum est ex se quam gradui luminis augmentativo. Antecedens
+							probatur, quia, si una candela illuminante domum apponatur secunda, lumen illud
+							intenditur per gradum luminis causatum ab ipsa, ut docet experientia et ablata prima.
+							Patet ad sensum, quod illud lumen remittitur et non nisi, quia lumen quod causabatur
+							ab ipsa non manet.</p>
+
+						<p>Et confirmatur, quia, sicut subtracta secunda candela et manente prima manet precise
+							lumen precedens quod causabatur ab ipsa, et mediante secunda manet precise lumen
+							sequens quod causabatur a secunda, igitur etc.</p>
+					</div>
+					<div>
+						<head><supplied>Conclusio tertia</supplied></head>
+
+						<p>Tertia conclusio est quod gradus adveniens in augmento caritatis vel albedinis etc
+							per divinam potentiam potest ab intellectu creato intuitive videri non viso priori.
+							Probatur gradus adveniens in augmento forme potest realiter esse sine priori, igitur
+							intuitive videri per potentiam Dei. Antecedens patet ex precedenti conclusione et
+							consequentia videtur nota, quia ex quo gradus adveniens potest realiter esse sine
+							priori, igitur non necessario videtur una visione, et per consequens potest Deus
+							coagere intellectui ad causandum visionem gradus prioris non coagendo ad causandum
+							visionem posterioris. Nec valet si dicatur quod ista ratio supponit actum intellectus
+							causari totaliter ab intellectu, quod videtur esse falsum, quia, si causaretur ab
+							obiecto totaliter vel partialiter, ad idem sequitur quod Deus poterit coagere gradui
+							posteriori ad visionem sui causandum non coagendo priori, et per consequens posterior
+							poterit videri non viso priori.</p>
+
+						<p>Secundo sic: post intensionem forme non magis repugnat gradui posteriori intuitive
+							videri non viso priori quam econverso. Hoc patet, tum quia isti gradus sunt eiusdem
+							rationis, tum quia gradus posterior potest esse perfectior, tum quia, sicut res se
+							habet ad entitatem, ita ad intelligendum et gradus posterior in sua entitate non magis
+							dependet a priori gradu quam econverso. Sed per divinam potentiam gradus precedens
+							potest intuitive videri post intuitionem forme posteriori non viso, igitur per divinam
+							potentiam et posterior potest intuitive videri priori non viso. Antecedens patet.
+							Consequentia probatur, quia Deus potest conservare notitiam intuitivam gradus
+							precedentis novo adveniente gradu per eum non viso. Patet ista propositio, quia, si
+							ponatur in esse, nulla sequitur contradictio.</p>
+
+						<p>Tertio: entitas absoluta que de novo incipit esse potest per divinam potentiam
+							intuitive videri non visa entitate que non accipit esse de novo et maxime, si sint
+							entitates eiusdem speciei specialissime, quarum una est causa alterius intrinseca nec
+							extrinseca, sed gradus augmentans formam est entitas absoluta, cum sit vera qualitas
+							et augmentatio forme accipit esse de novo. Gradus autem precedens non accipit esse de
+							novo et constat quod unus eorum non est causa alterius intrinseca, nec extrinseca et
+							ambo sunt eisudem speciei specialissime, ut dictum est supra.</p>
+					</div>
+					<div>
+						<head><supplied>Conclusio quarta</supplied></head>
+
+						<p>Quarta conclusio est quod, licet per divinam potentiam possit unus gradus caritatis,
+							et sic de aliis formis, possit intuitive videri alio non viso, tamen per potentiam
+							creature non potest unus illorum videri intuitive non viso alio.</p>
+
+						<!-- what's happening here -->
+						<p><name>Adam</name></p>
+
+						<p>Istam conclusionem quidam deducunt sic: quando plures cause active naturales eiusdem
+							rationis equaliter approximantur alicui disposito passo nullo existente impedimento
+							vel omnes ille cause agunt in illud passum vel nulla, sed impossibile est quod sine
+							miraculo speciali stante unitate caritatis composite ex duabus realitatibus una
+							illarum approximari intellectui alicuius dato quod vi-[120rb]-deatur intuitive sine
+							approximatione alterius, nec intellectus potest disponi ad videndum unam nisi
+							disponatur ad videndum aliam, nec potest esse aliquod impedimentum naturale respectu
+							unius quin sit respectu alterius, ergo non est in potestate creature quod una illarum
+							realitatum videatur sine alia. Sed, licet conclusio sit vera, ut puto, ratio tamen non
+							concludit, quia supponit quod obiectum naturaliter conceptibile sit totalis causa
+							effectiva vel saltem partialis actus intelligendi, cuius oppositum fuit ostensum
+							distinctione 3. Probo igitur conclusionem aliter et sic: arguo una pars gradualis
+							forme non potest naturaliter terminare actum intelligendi altera non terminante. Et
+							loquor de partibus gradualibus nequaquam sit distinctis, igitur per potentiam creature
+							non potest una earum intuitive videri altera non visa. Consequentia est nota, quia
+							visio seu cognitio intuitiva terminatur ad rem intuitive visam, ut patet questione 1
+							huius operis. Antecedens probatur, quia partes graduales forme constituunt per se unam
+							essentiam et sunt in eodem subiecto primo simul et adequate, igitur una earum non
+							potest naturaliter terminare actum intelligendi altera non terminante. Et confirmatur,
+							quia una pars gradualis forme et quelibet eius pars immediate unitur alteri et
+							cuilibet eius parti, igitur una earum non potest naturaliter terminare actum
+							intelligendi creature altera non terminante. Et ista ratio movet me ad tenendum
+							conclusionem istam, quia non video quod una pars gradualis forme possit naturaliter
+							terminare actum intelligendi creature altera non terminante, licet hoc sit possibile
+							de potentia Dei. Hoc de secundo articulo. </p>
+					</div>
+				</div>
+				<div type="articulus">
+					<head>Tertius et quartus articulus</head>
+
+					<p>Quantum ad tertium et quartum articulos simul contra conclusiones istas movenda et
+						dissolvenda sunt dubia. Et primo contra primas tres conclusiones est quedam opinio…</p>
+
+					<p><name>Aureolus</name> in I, distinctione 17, questione 2, articulo 2, propositione
+						3</p>
+
+					<p>…Que ponit quod gradus adveniens in augmento caritatis sive realitas illa secundum quam
+						minor caritas perficitur et intenditur non potest esse integra caritas et precise
+						distincte participans realitatem aut rationem specificam quasi unum individuum
+						caritatis, sed participat realitatem et rationem caritatis secundum quendam reductionem,
+						ut quasi dici possit concaritas. Est enim realitas omnino imprecisibilis et re et
+						intellectu. Unde non est facile per se etiam per divinam potentiam sic quod capiat esse
+						precisum et demonstratum nec est intuitive intelligibilis tantum, ita quod intellectus
+						etiam angelicus non possit caritatem augmentatam dividere intuitive in duas caritates,
+						sed semper caritas augmentata occurret sibi ut unum cui additur est aliquid caritatis,
+						sed non caritas et per eundem modum et dicunt isti intelligendum est de albedine et
+						calore et omni forma que augetur. Et pro ista opinione arguitur primo sic: tenendum est
+						de intensione aliarum qualitatum sicut experimentaliter reperimus in formis de quarta
+						specie qualitatis, sed linea curva suscipit magis et minus, ut fiat curvior et minus
+						curva et similiter raritas et densitas et in his non sit augmentum per adventum
+						realitatis precise ad illam speciem pertinentis. Non enim advenit alia curvitas linee ut
+						fiat curvior ratione duplicis curvitatis, nec alia raritas aeri aut densitas terre, sed
+						illud quod advenit pertinet ad rationem specificam imprecise, igitur ita erit in
+						caritate et albedine et formis ceteris que intendentur per adventum alicuius imprecise
+						realitatis vigorantis et perficientis formam prioritatem et per adventum realitatis que
+						sit precise caritas vel albedo scibilis aut intelligibilis distincte. Maior supponitur,
+						quia forme de quarta specie qualitatis sunt aliqualiter vobis note et, sicut est in
+						intensione formarum quarum conditio esst nobis nota, sic omnino ponendum est in formis
+						quarum conditiones sunt ignote nobis. Minor autem probatur. Primo, de curvitate
+						auctoritate <name>Commentatoris</name> IV <title>Physicorum</title>, commento 86, quod
+						idem arcus circuli recipit aliquando minorem in curvationem et quandoque maiorem absque
+						eo quod in eo fiat aliquod quod [120va] ante non fuerit, sed illud quod erat, scilicet
+						incurvatio invenitur maior aliquando et aliquando minor. Secundo de raritate et
+						densitate etiam auctoritate eiusdem ibidem dicens quod, si raritas et densitas fierent
+						ex constructione, non quelibet pars corporis recepisset raritatem et densitatem, et
+						tamen manifestum est per se quod densum est densum per omnes partes suas et similiter
+						rarum.</p>
+
+					<p>Preterea, si augmentum caritatis fieret per realitatem participantem precise rationem
+						specificam ipsius, impossibile esset quod aucta caritas haberet numeralem unitatem.
+						Consequens est falsum secundum omnes, igitur et antecedens. Consequentia probatur, quia
+						vel caritas adveniens fieret eadem cum prima se tota, aut secundum aliquid sui. Non
+						potest dici quod se totis fiant omnino idem, quia tunc altera corrumpetur necessario,
+						quod est omnino falsum et contra me. Ista consequentia patet, quia impossibile est quod
+						realitas aliqua transeat se tota sive per omnimodam identitatem in aliam realitatem sua
+						propria realitate manente nec potest insuper poni quod uniantur secundum aliquid sive eo
+						modo quo due aque secundum ultima sua fiunt idem, quia secundum hoc caritas erit forma
+						continua habens partes continuas in suis ultimis. Continua sunt enim, quorum ultima sunt
+						idem V <title>Physicorum</title>. Hoc autem est falsum secundum omnes; igitur etc.</p>
+
+					<p>Preterea, si realitas intendens caritatem esset individuum caritas vel realitas precise
+						participans rationem specificam caritatis, per necessitatem in anima essent actu et
+						distincte infinite caritates et eodem modo intelligendum est quod essent infinite
+						albedines et infinite colores, et sic de aliis formis intensis. Consequens falsum, quia
+						contradictio est in actu ponere multitudinem infinitam, igitur. Antecedens et
+						consequentia probatur, quia manifestum est quod in motu intensionis quantumcumque modico
+						acquiruntur infinite partes in potentia facta, igitur acquisitione remanent adhuc
+						potentia infinite. Si igitur partes iste non concurrunt ad aliquam unitatem numeralem
+						non uniuntur se totis, nec secundum ultima sua restat quod sint ibi infinite forme
+						quarum quelibet est indivisa a se et divisa ab aliis, et sic numerantur infinite.</p>
+
+					<p>Preterea, si tales partes caritatis ponantur in ipsa augmentata aut faciunt unam
+						caritatem unitate compositionis quasi una sit forma et reliqua materia et hoc absonum
+						est cum sint eiusdem rationis, aut unitate continuitatis et hoc est magis absonum cum
+						omne continuum sit quantum aut unitate homo geneitatis, et hoc est impossibile, quia
+						homogenea non uniuntur nisi per communicationem, sicut aqua unitur aque unde anima anime
+						non unitur quamvis homogenee sint aut unitate identitatis omnimode et simpliciter, et
+						hoc esse non potest, quoniam tunc admitteret suas realitates aut unitate aggregationis
+						et cuiusdam acervi et hoc horribilius esset, quia esset acervus rerum innumerabilium,
+						sed manifestum est quod non potest inter eas unitas alia assignavi. Si ponantur partes
+						quarum quelibet precise participare possit caritatis specificam rationem, ergo illud non
+						est ponendum.</p>
+
+					<p>Contra <name>Aureolum</name></p>
+
+					<p>Sed ad veritatem ista positio est omnino irrationabilis, ut patet ex conclusionibus
+						supra positis, si aliquid concludunt, sunt contra doctorem, qui facit eas sicut et
+						contra me, quod patet per singulas discurrendo. Constat enim quod prima ratio que
+						fundatur in auctoritatibus <name>Commentatoris</name> non magis probat quod curvitas
+						augeatur per additionem realitatis qui vere sit curvitas quam quod non augeatur per
+						additionem realitatis que sit concurvitas, sicut isti doctori videtur, immo minus, quia,
+						ut apparebit, in solvendo rationem intentio <name>Commentatoris</name> est expresse quod
+						curvitas augeatur per additionem curvitatis et non per additionem concurvitatis, et idem
+						patet de raritate et densitate.</p>
+
+					<p>Preterea, secunda ratio est evidenter contra eum, quia vel raritas illa per quam
+						intenditur caritas quam ipse vocat concaritatem facit unum cum prima se tota, aut
+						secundum aliquid sui non se tota per eum, quia tunc altera corrumperetur, quod non est
+						verum et secundum eum, nec secundum aliquid sui, quia tunc caritas per deductionem suam
+						esset forma continua, quod est in consequens ad quod deducit.</p>
+
+					<p>Tertia [120vb] ratio est contra eum, quia per causa probabitur quod in anima sunt
+						infinite concaritates supposito quod caritas augeatur per additionem realitatis que sit
+						concaritas sicut ipse probat quod in ipsa sunt infinite caritates et constat quod non
+						est maior repugnantia ponere multitudinem realitatum infinitam quarum quelibet est
+						caritas.</p>
+
+					<p>Ultima insuper ratio concludit expresse contra eum sicut ipse arguit de realitate
+						adveniente: si sit caritas, ita potest argui si sit concaritas sicut ipse ponit, quia
+						vel realitas illa supposito quod non sit caritas, sed concaritas facit unum cum
+						precedente unitate compositionis, vel unitate continuitatis, vel unitate homogeneitatis,
+						vel unitate identitatis, vel aggregationis, quarum quodlibet est impossibile per
+						deductionem suam non minus quam si realitas illa sit vera caritas et posset iuxta dicta
+						rationes in forma deduci contra eum. Verum, quia deductio est evidens, dimitto.</p>
+
+					<p>Responsio ad rationes <name>Aureoli</name></p>
+
+					<p>Respondeo igitur ad rationes. Ad primam nego minorem quantum ad illam partem in qua
+						dicit quod curvitas linee non augetur per additionem curvitatis, nec raritas et densitas
+						per additionem raritatis et densitatis supposito quod raritas et densitas sunt res
+						distincte a substantia, quia secus esset si non ponerentur res distincte. Et ad
+						auctoritates <name>Commentatoris</name> dico quod <name>Commentator</name> est expresse
+						contra eum, quia in commento preallegato <name>Commentator</name> dicit quod additio
+						curvationis in circulo non est in aliqua parte et non in alia, sed quamcumque partem
+						acceperis invenies curvationem additam in ea. Et subdit: et similiter est in toto in hoc
+						quod non est densum et est congregatum et quando est rarum est segregatum, scilicet
+						quando raritas et densitas est in qualibet parte ipsius. Hec <name>Commentator</name>.
+						Ex quibus evidenter apparet, secundum <name>Commentatorem</name>, quod quando in
+						curvatio circuli invenitur maior in quacumque parte ipsius invenitur in curvatio addita
+						et similiter quando raritas et densitas alicuius corporis invenitur maior in quacumque
+						parte ipsius invenitur raritas vel densitas addita, et per consequens curvitas augetur
+						per additionem curvitatis secundum eum sic raritas et densitas etc, cuius oppositum
+						doctor iste concludit. Et hoc dicit <name>Commentator</name> de curvitate contra eos qui
+						dicunt quod quando arcus sit curvior in curvatio non erit facta in omnibus partibus, sed
+						solum partes recte que erant in arcu incurvantur. De raritate vero et densitate contra
+						illos qui ponebant corpus condensari et fieri minoris magnitudinis propter
+						constructionem aliquarum formarum existentium in corpore et propter ampliationem earum
+						rare fieri et fieri maioris magnitudinis et ad hoc sequebatur curvum non esse curvum
+						secundum omnes partes suas et similiter densum non esse densum secundum omnes partes
+						suas, quod tamen est falsum, et ideo contra istos in isto commento
+							<name>Commentator</name> dicit quod quamcumque partem circuli acceperis invenies
+						incurvationem additam in eo et quamcumque partem densi vel rari acceperis invenies
+						densitatem vel raritatem additam, et hoc non solum de curvitate, sed etiam de raritate
+						et densitate expresse sonant verba <name>Commentatoris</name> per istum doctorem
+						allegata, ut dicit quod, si raritas et densitas fierent ex constitutione et ampliatione
+						supple talium foraminum, non quelibet pars corporis recepisset densitatem et raritatem,
+						quod <name>Commentator</name> reputat impossibile et, si quelibet pars corporis
+						recepisset raritatem et densitatem, cum corpus sit magis rarum vel magis densum,
+						evidenter apparet quod raritas et densitas augetur per additionem raritatis et
+						densitatis, et per consequens auctoritates sunt contra eum.</p>
+
+					<p>Ad secundam rationem nego consequentiam et ad probationem dico quod caritas adveniens
+						et precedens se totis faciunt unum, quia caritas adveniens quelibet eius pars immediate
+						unitur caritati preexistenti et cuilibet eius parti, et sic constituunt unam per se
+						formam totalem. Et quando dicitur quod tunc altera earum corrumperetur necessario, quia
+						non est possibile quod realitas transeat per omnimodam identitatem in illam realitatem
+						sua propria realitate manente, potest tamen responderi dupliciter. Primo sic: namque
+						potest dici quod ista proposi-[121ra]-tio est falsa, quia omnis realitas que transit per
+						omnimodam identitatem in aliam realitatem, si aliqua sit, talis est eadem illi et, si
+						est eadem illi, non est corrupta, sed manet, quia, si esset corrupta, iam non esset
+						eadem illi. Secundo potest dici quod minor que debet summi sub ista etiam est falsa,
+						quia caritas adveniens non transit per omnimodam identitatem in caritatem precedentem,
+						cum sit distincta realiter ab ipsa quamvis sit ei totaliter unita, ut patet ex questione
+						preceenti, igitur ratio nulla.</p>
+
+					<p>Ad tertiam dico quod ponere multitudinem infinitam in actu non constituentium aliquod
+						per se unum est impossibile saltem naturaliter, sed ponere multitudinem infinitam in
+						actu actualitate presentie et distinctionis qua vere dicitur hoc non esse illud
+						constituentium tamen aliquod per se unum non est impossibile per naturam, immo est
+						necessarium. Si verum sit positio <name>Philosophi</name> de visione continui, constat
+						enim secundum istam opinionem quod in quolibet continuo sunt infinite partes in actu, et
+						sic et non aliter probatur quod in anima sint infinite caritates in actu sicut in
+						qualibet aqua sunt aque infinite, quia nullum est inconveniens.</p>
+
+					<p>Ad ultimam potest responderi dupliciter. Primo quidem quod tales portiones caritatis
+						faciunt unam caritatem unitate compositionis, nec tamen sequitur ex hoc quod una earum
+						sit quasi forma et reliqua quasi materia, quia non solum illa quorum unum alterum
+						informat faciunt unum unitate compositionis, sed universaliter quecumque realiter
+						distincta constituunt unum per se dicuntur esse unum unitate compositionis, ut isto modo
+						dicitur aliquid compositioni ex suis partibus quantitatis, quamvis una earum non sit
+						quasi forma et reliqua quasi materia, quia constat quod nulla earum altera informat.
+						Secundo potest dici quod faciunt unum unitate homogeneitatis. Et quando dicitur quod
+						homogenea non uniuntur nisi per continuationem, nego, quia non solum illa que
+						continuantur faciunt sic unum, sed universaliter quecumque entitates eiusdem rationis
+						constituunt aliquod unum quod est eiusdem rationis cum ipsis sunt vere unum unitate
+						homogeneitatis, sic est in proposito, ut patet ex supra dictis, et sic ratio nulla.</p>
+
+					<p>Contra quartam conclusionem posset argui. Verum, quia non est multum opinabilis apud
+						doctorem, pertranseo.</p>
+				</div>
+				<div>
+					<head>Ad principalia</head>
+
+					<p>Ad primum dico quod probat quartam conclusionem, ut patet ex deductione eius, nec est
+						contra tertiam. Secunda vero ratio probat tertiam, nec est contra quartam, ut patet.
+					</p>
+				</div>
+
+			</div>
+		</body>
+	</text>
+</TEI>

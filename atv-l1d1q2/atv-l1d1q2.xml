@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber I, Distinctio 1, Quaestio 2</title>
+        <author>Alphonsus Toletanus Vargas</author>
+        <editor>Luciana Cioca</editor>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2016-09-04">September 04, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://www.thesis-project.ro/">ERC-THESIS project n° 313339</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="Venice1490">Venice1490</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <variantEncoding method="parallel-segmentation" location="internal"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"> </schemaRef>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2016-09-04" who="#JW" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="39-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="atv-l1d1q2">
+        <head xml:id="atv-l1d1q2-Hd1e3735">Liber I, Distinctio 1, Questio 2</head>
+        <p xml:id="atv-l1d1q2-d1e3738">Secundo quero: utrum fruitio sit essentialiter dilectio vel delectatio. </p>
+        <div xml:id="atv-l1d1q2-Dd1e3741" type="rationes-principales">
+          <head xml:id="atv-l1d1q2-Hd1e3743">Rationes principales</head>
+          <p xml:id="atv-l1d1q2-d1e3746">Et videtur primo quod sit essentialiter dilectio, quia <quote xml:id="atv-l1d1q2-Qd1e3748">frui est amore inherere alicui
+            propter se</quote>, sicut docet beatus <name>Augustinus</name> I <title>De doctrina
+              christiana</title>, capitulo 1, igitur est formaliter amor. Amor autem et dilectio
+            idem; ergo etc.</p>
+          <p xml:id="atv-l1d1q2-d1e3758">Contra beatum <name> Augustinum</name> I <title>De Trinitate</title>, capitulo 23, dicit
+            quod <quote xml:id="atv-l1d1q2-Qd1e3766">plenum gaudium nostrum quo amplius non est, est frui trinitate Deo</quote>, igitur
+            fruitio non est essentialiter dilectio, sed delectatio.</p>
+        </div>
+        <div xml:id="atv-l1d1q2-Dd1e3771">
+          <head xml:id="atv-l1d1q2-Hd1e3773">Divisio quaestionis</head>
+          <p xml:id="atv-l1d1q2-d1e3776">Respondeo. In ista questione erunt quattuor articuli, quia primo ponam unicam
+            distinctionem, secundo quadruplicem conclusionem. Tertio movebo dubia et ultimo
+            respondebo.</p>
+        </div>
+        <div xml:id="atv-l1d1q2-Dd1e3780" type="articulus">
+          <head xml:id="atv-l1d1q2-Hd1e3782">Primus articulus</head>
+          <p xml:id="atv-l1d1q2-d1e3785">Quantum ad primum articulum distinguo primo de fruitione in communi, quia quedam est
+            creata, quedam increata. Fruitione increata Deus fruitur se ipso. Fruitione vero creata
+            ipso fruitur creatura. Et intelligo questionem de fruitione creata, quia de increata non
+            est dubium quod est essentialiter dilectio vel dilectatio, cum sit essentialiter Deus
+            qui est essentialiter quicquid habet.</p>
+        </div>
+        <div xml:id="atv-l1d1q2-Dd1e3790" type="articulus">
+          <head xml:id="atv-l1d1q2-Hd1e3792">Secundus articulus</head>
+          <p xml:id="atv-l1d1q2-d1e3795">Quantum ad secundum articulum pono quattuor conclusiones. </p>
+          <div xml:id="atv-l1d1q2-Dd1e3798">
+            <head xml:id="atv-l1d1q2-Hd1e3800"><supplied>Conclusio prima</supplied></head>
+            <p xml:id="atv-l1d1q2-d1e3804">Prima est quod delectatio est aliquid fruitionis essentialiter et intrinsece. Ista
+              conclusio probatur primo de fruitione beatifica sic: actus perfectissimus voluntatis
+              est aliquid fruitionis beatifice essentialiter et <unclear>intrinsecaliter</unclear>. Patet ex
+              terminis, sed delectatio amicitie circa Deum est actus perfectissimus voluntatis.
+              Patet ex precedenti questione, ergo.</p>
+            <p xml:id="atv-l1d1q2-d1e3810">Secundo sic: omnis actus essentialiter beatificus, qui non est essentialiter visio nec
+              aliquid visionis, est essentialiter fruitio vel aliquid fruitionis. Hoc patet, quia in
+              his duobus precise consistit essentialiter beatitudo creature, ut patet per illam
+              decretalem extravagantem domini benedicti <title>De visione animarum</title>. Sed delectatio amicitie
+              circa Deum est actus essentialiter beatificus, sicut fuit declaratum in questione
+              precedenti, et non essentialiter visio, nec aliquid visionis; igitur est essentialiter
+              fruitio vel aliquid fruitionis. </p>
+            <p xml:id="atv-l1d1q2-d1e3816">Se-<pb ed="#V" n="39-v"/>
+              <cb ed="#V" n="b"/>-cundo probatur conclusio absolute primo sic: illud qui solo posito
+              quocumque alio circumscripto ponit fruitio saltem partialiter est aliquid fruitionis
+              essentialiter et intrinsece. Delectatio est huiusmodi, dicens beatus <name>
+                Augustinus</name>
+              <title>83 Questiones</title>, questione 33 quod <quote xml:id="atv-l1d1q2-Qd1e3827">frui dicimur ea re de qua capimus
+              voluptatem sive delectationem</quote>. Et <title>De civitate Dei</title>, capitulo dicit quod
+              <quote xml:id="atv-l1d1q2-Qd1e3834">ea re frui dicimus que nos non ad aliud referenda per se ipsam delectat</quote>; igitur
+              etc.</p>
+            <p xml:id="atv-l1d1q2-d1e3838">Secundo sic: illud proprie quo solo remoto non manet fruitio consumata et perfecta
+              est aliquid fruitionis essentialiter et intrinsece. Delectatio est huiusmodi; ergo.
+              Probatur minor, quia ubi non est quietatio, non est perfecta fruitio, quia fruitio, si
+              sit perfecta, quietat voluntatem; sed ubi non est delectatio, non est quietatio, quia
+              impossibile est quod appetitus careat delectatione et non desideret ipsam; igitur
+              etc.</p>
+            <p xml:id="atv-l1d1q2-d1e3842">Ista conclusio potest multis modis confirmari. Primo auctoritate beati <name>
+                Augustini</name> adducta in proponendo questione. Secundo auctoritate eiusdem
+              expressa X <title>De Trinitate</title>, capitulo 23, de parvis, ubi dicit quod
+              <quote xml:id="atv-l1d1q2-Qd1e3850">fruimur cognitis in quibus ipsis propter se ipsa delectata quiescunt</quote>. Et capitulo 26
+              dicit quod <quote xml:id="atv-l1d1q2-Qd1e3853">frui est uti cum gaudio que verificari non possunt nisi delectatio sit
+              essentialiter fruitio vel aliquid eius</quote>. Et confirmatur, quia beatus <name>
+                Augustinus</name> statim post verba ultimo allegata subdit proinde: <quote xml:id="atv-l1d1q2-Qd1e3860">Omnis qui
+                  fruitur, utitur. Assumit aliquid in facultatem voluntatis cum sine delectationis</quote>. </p>
+            <p xml:id="atv-l1d1q2-d1e3864">Ex quibus verbis evidenter apparet quod omnis qui fruitur assumit aliquid in
+              facultatem voluntatis cum sine delectationis, quod non haberet veritatem si delectatio
+              non esset de ratione fruitionis intrinseca et formali. Hec est etiam expressa
+              sententiam <name>Magistri</name> in littera, qui protractans predicta verba beati
+                <name> Augustini</name>, inquirit an fruamur in hac vita. Et probat quod non,
+              quia beatus <name> Augustinus</name> dicit quod <quote xml:id="atv-l1d1q2-Qd1e3875">frui est uti cum gaudio, non adhuc
+              spes, sed iam rei</quote>. Sed in hac vita, secundum <name>Apostolum</name>, <quote xml:id="atv-l1d1q2-Qd1e3882">gauderemus in
+              spe</quote>. </p>
+            <p xml:id="atv-l1d1q2-d1e3886">Et tenens conclusionem affirmativam respondet dupliciter ad rationem. Primo quidem
+              dicit quod in patria ubi perfecte gaudebimus, perfecte fruemur. In hac autem vita ubi
+              gaudemus, in spe fruimur, sed non ad eo plene. </p>
+            <p xml:id="atv-l1d1q2-d1e3889">Secundo dicit quod qui fruitur etiam in hac vita, non tantum habet gaudium spei, sed
+              etiam rei. Ex quibus solutionibus patet quod delectatio est aliquid fruitionis,
+              secundum <name>Magistrum</name>, quia, si non, citius expeditus fuisset dicendo quod
+              in hac vita fruimur, etiam si non gaudemus. Et modicum infra ponens differentiam inter
+              fruitionem et usum sic: <quote xml:id="atv-l1d1q2-Qd1e3894">frequenter dicitur frui, cum delectatione uti. Cum enim adest
+              quod diligitur, etiam delectationem secum gerit. Si tamen per causa pertranseris et ad
+              id ubi permanendum est causa retuleris, uteris ea et abusive, non proprie, diceris
+              frui. Si vero adheseris atque permanseris in ea finem leticie tue ponens, tunc vere
+              et proprie frui dicendus es</quote>. Hec ille. </p>
+            <p xml:id="atv-l1d1q2-d1e3898">Ex quibus evidenter apparet delectationem esse de ratione fruitionis essentialiter et
+              intrinsece. </p>
+          </div>
+          <div xml:id="atv-l1d1q2-Dd1e3902">
+            <head xml:id="atv-l1d1q2-Hd1e3904"><supplied>Conclusio secunda</supplied></head>
+            <p xml:id="atv-l1d1q2-d1e3908">Secunda conclusio est quod dilectio est aliquid fruitionis essentialiter et
+              intrinsece. Et ista conclusio non est dubia et per rationes factas ad conclusionem
+              precedentem potest reduci, prima tamen excepta. </p>
+            <p xml:id="atv-l1d1q2-d1e3911">Primo, quia dilectio patrie est actus essentialiter beatificus et non est visio, nec
+              aliquid visionis. </p>
+            <p xml:id="atv-l1d1q2-d1e3914">Secundo, quia posita sola dilectione rei propter se, ponitur fruitio saltem
+              partialiter, dicente <name>beato Augustino</name> quod <quote xml:id="atv-l1d1q2-Qd1e3919">frui est amore inherere</quote> etc. </p>
+            <p xml:id="atv-l1d1q2-d1e3923">Tertio, quia sola dilectione remota non manet fruitio consumata et perfecta, etiam si
+              sine dilectione esset possibilis delectatio, aliter circumscripta dilectione maneret
+              visio et frutio consumpta et perfecta, et sic beatitudo, quod est impossibile.</p>
+            <p xml:id="atv-l1d1q2-d1e3927">Confirmatur tamen dupliciter. Primo, quia, secundum <name>beatum Augustinum</name>
+              <title>83 Questiones</title>, questione 30: <quote xml:id="atv-l1d1q2-Qd1e3935">Omnis perversitas voluntatis que vitium
+              nominatii est uti fruendis, vel frui utendis</quote>, igitur omnis actus voluntatis perversus
+              et vitiosus distinctus ab usu est essentialiter fruitio vel aliquid eius essentialiter
+              et intrinsece. Sed dilectio creature propter se est actus voluntatis perversus et
+              vitiosus distinctus ab usu; igitur. </p>
+            <p xml:id="atv-l1d1q2-d1e3939">Secundo, quia, sicut se habet dilectio inordinata ad fruitionem inordinatam, sic suo
+              modo dilectio ordinata ad fruitionem ordinatam. Sed omnis dilectio inordinata, que non
+              est usus, est aliquid fruitionis inordinate formaliter
+              <pb ed="#V" n="40-r"/>
+              <cb ed="#V" n="a"/> 
+              et intrinsece ex
+              ratione precedenti; igitur omnis dilectio ordinata ab usu distincta est aliquid
+              fruitionis ordinate formaliter et intrinsece. Hec est intentio <name>Magistri</name>
+              in littera dicens quod <quote xml:id="atv-l1d1q2-Qd1e3948">si Deus non fruitur, nec utitur nobis, non invenio quomodo nos
+              diligat</quote>. Et sunt verba <name>beati Augustini</name> I <title>De doctrina
+                christiana</title>, capitulo 36; igitur omnis dilectio est usus vel fruitio vel
+              aliquid eorum. Sed non omnis est usus; igitur aliqua est fruitio vel aliquid eius
+              formaliter et intrinsece.</p>
+            <p xml:id="atv-l1d1q2-d1e3959">Ex istis duabus conclusionibus sequitur quod fruitio non sit essentialiter unus
+              actus, quia dilectio et delectatio non sunt unus actus essentialiter, sed distincti,
+              ut patet ex questione precedenti.</p>
+          </div>
+          <div xml:id="atv-l1d1q2-Dd1e3963">
+            <head xml:id="atv-l1d1q2-Hd1e3965"><supplied>Conclusio tertia</supplied></head>
+            <p xml:id="atv-l1d1q2-d1e3969">Tertia conclusio est quod fruitio essentialiter includit simul et coniunctim actum
+              dilectionis et delectationis, tanquam quoddam constitutum vel aggregatum ex eius. </p>
+            <p xml:id="atv-l1d1q2-d1e3972">Probatur primo sic: unus istorum actuum sine altero istorum non est totaliter
+              fruitio, quia quocumque eorum circumscripto non manet fruitio consueta et perfecta, ut
+              patet ex dictis, et quolibet eorum est aliquid fruitionis ex conclusionibus
+              precedentibus, igitur fruitio essentialiter includit etc. Consequentia patet, quia
+              sequitur anima non est totaliter homo, sed aliquid eius. Corpus non est totaliter
+              homo, sed aliquid eius, igitur homo includit simul et semel coniunctim animam et
+              corpus, tanquam quoddam compositum et constitutum ex ipsis. </p>
+            <p xml:id="atv-l1d1q2-d1e3975">Secundo sic: omne constitutum ex duobus distinctis respectu quorum unum non est in
+              potentia respectu alterius, nec econtra, est unum unitate congregationis. Patet ex
+              terminis. Sed fruitio est quoddam constitutum ex actibus dilectionis et delectationis,
+              quia quocumque eorum circumscripto non manet totaliter fruitio et unus istorum non est
+              in potentia respectu alterius, ut patet, nec econtra; igitur etc. </p>
+            <p xml:id="atv-l1d1q2-d1e3978">Tertio sic: fruitio non est aliquod unum unitate simplicitatis, quia dilectio et
+              delectatio in ipsa realiter distinguuntur ex questione precedenti, nec unitate
+              compositionis, quia unus istorum actuum non infert alterium, nec econtra, igitur et
+              unum unitate agregationis.</p>
+            <p xml:id="atv-l1d1q2-d1e3982">Quarto sic: sicut se habet beatitudo ad visionem et fruitionem, sic se habet fruitio
+              ad dilectionem et delectationem, quia, sicut visio et fruitio sunt aliquid
+              beatitudinis, ita dilectio et delectatio aliquid fruitionis. Sed beatitudo
+              essentialiter includit visionem et fruitionem simul et coniunctim, tanquam quoddam
+              constitutum et aggregatum ex ipsis; igitur etc.</p>
+            <p xml:id="atv-l1d1q2-d1e3985">Ex istis conclusionibus patet quod fruitio est essentialiter dilectio et delectatio
+              et quia de ratione ipsius, iuxta doctrinam beati <name> Augustini</name>, est inherere
+              obiecto fruibili propter se, sequitur quod <quote xml:id="atv-l1d1q2-Qd1e3990">frui sit amore inherere alicui rei propter
+              se</quote>, cum fine delectationis. Et ista videtur totalis et completa descriptio fruitionis,
+              ex dictis beati <name> Augustini</name> et <name>Magistri</name> recollecta. </p>
+          </div>
+          <div xml:id="atv-l1d1q2-Dd1e4002">
+            <head xml:id="atv-l1d1q2-Hd1e4004"><supplied>Conclusio quarta</supplied></head>
+            <p xml:id="atv-l1d1q2-d1e4008">Quarta conclusio est quod fruitio principalius consistit in actu delectationis quam
+              in actu dilectionis. </p>
+            <p xml:id="atv-l1d1q2-d1e4011">Probatur primo sic: fruitio est suprema perfectio voluntatis, igitur in eius actu
+              perfectiori principalius consistit. Talis est actus delectationis, non dilectionis, ex
+              precedenti questione; igitur etc.</p>
+            <p xml:id="atv-l1d1q2-d1e4014">Secundo sic: in illo actu principalius consistit fruitio quo augmentato, altero
+              diminuto, fruitio dicitur augmentata et quo diminuto, altero augmentato, fruitio
+              dicitur diminuta. Sed augmentata delectatione et diminuto amore fruitio dicitur aucta,
+              et diminuta delectatione, augmentato amore fruitio dicitur diminuta; igitur etc.
+              Probatur minor, quia tantam dilectionem potuit Deus dare in via beate virgini et forte
+              fecit de facto, ut quibusdam videtur, quantam minimus sanctus habet in patria. Et
+              tamen constat quod perfectius minimus sanctus fruitur et quod perfectius delectatur;
+              ergo etc.</p>
+            <p xml:id="atv-l1d1q2-d1e4017">Tertio sic: ille actus principalius habet rationem fruitionis qui nobis promittitur
+              in premium quam ille qui nobis precipitur in meritum, tum quia premium nobilium
+              merito, tum quia fruitio principalius dicitur de termino quam de via, quia in termino,
+              non in via, est perfecta qui est. Premium autem est terminus respectu meriti, sed
+              dilectio nobis precipitur in meritum, quia hoc est premium et maximum mandatum: <quote xml:id="atv-l1d1q2-Qd1e4019">in
+              lege diliges dominum Deum tuum</quote>, etc. Delectatio vero promittitur in premium, quia
+                <name>Iohanno</name> 16: <quote xml:id="atv-l1d1q2-Qd1e4025">iterum videbo vos et gaudebit cor vestrum et gaudium
+                  vestrum nemo tollet a vobis</quote>, quod gaudium beatus <name> Augustinus</name> asserit esse
+              beatitudinem, ergo etc.</p>
+            <p xml:id="atv-l1d1q2-d1e4033">Est tamen hic adver-<pb ed="#V" n="40-r"/>
+              <cb ed="#V" n="b"/>-tendum quod in istis conclusionibus non loquor de
+              delectatione que ponitur passio operationis, quia non videtur mihi quod aliqua talis
+              delectatio sit de ratione formali et intrinseca fruitionis saltem proprie dicta. Ratio
+              huius est, quia quod non est de ratione formali et intrinseca beatitudinis, non est de
+              ratione formali et intrinseca fruitionis et absolute, cum fruitio sit aliquid
+              beatitudinis essentialiter et intrinsece. Sed nulla talis delectatio est de ratione
+              formali et intrinseca beatitudinis; ergo. Probatur minor, quia quicquid de ratione
+              formali et intrinseca beatitudinis est gratia sui et non alterius, cum beatitudo sit
+              simpliciter sui gratia. Et ulterius finis quo creature rationalis, sed nulla talis
+              delectatio est sui gratia, sed alterius, quia omnis talis est propter operationem,
+              secundum <name>Philosophum</name>, ergo loquor de delectatione illa que est operatio
+              proprie dicta de qua in precedenti questione ostendi quod est perfectior dilectione.
+              Talis enim, ut mihi videtur, est aliquid fruitionis beatifice essentialiter et
+              intrinsece, ut patet ex supradictis. Et hoc de secundo.</p>
+          </div>
+        </div>
+        <div xml:id="atv-l1d1q2-Dd1e4044" type="articulus">
+          <head xml:id="atv-l1d1q2-Hd1e4046">Tertius et quartus articulus</head>
+          <p xml:id="atv-l1d1q2-d1e4049">Quantum ad tertium et quartum articulum simul contra conclusiones istas movenda et
+            dissolvenda sunt dubia. </p>
+            <div xml:id="atv-l1d1q2-Dd1e4052">
+              <head xml:id="atv-l1d1q2-Hd1e4054"><supplied> Contra primam conclusionem</supplied></head>
+            <p xml:id="atv-l1d1q2-d1e4058">Et primo contra primam conclusionem est quedam opinio satis
+            communis que ponit fruitione non esse delectationem totaliter, nec partialiter, sed
+            dilectionem precise, pro qua quidam doctor arguit primo sic:
+            <note><name>Franciscus de Ma<supplied>y</supplied>ronis</name> in I, distinctione 1,
+              questione 2, articulo 42</note>
+          <name>Augustinus</name>
+            <title>83 Questiones</title>, questione 30, dicit quod <quote xml:id="atv-l1d1q2-Qd1e4074">summa perversitas est uti
+            fruendis et frui utendis</quote>. Perversitas autem peccati consistit in solo actu demeritorio. </p>
+          <p xml:id="atv-l1d1q2-d1e4078">Preterea, idem I <title>De doctrina christiana</title> dicit quod <quote xml:id="atv-l1d1q2-Qd1e4083">frui est amore
+            inherere alicui propter se</quote>. Actus autem amoris est dilectio non delectatio.</p>
+          <p xml:id="atv-l1d1q2-d1e4087">Preterea, actus fruendi est mereri, et per consequens in potestati voluntatis,
+            delectari autem aut tristari non.</p>
+          <p xml:id="atv-l1d1q2-d1e4090">Preterea, actus fruitionis in patria ponitur actus beatitudinis. Nulla tamen delectatio
+            videtur beatificare, cum beatitudo sit operatio perfectissima.</p>
+          <p xml:id="atv-l1d1q2-d1e4094">Ad rationes <name>Francisci</name></p>
+          <p xml:id="atv-l1d1q2-d1e4099">Ad primum istorum potest uno modo dici quod fruitio non precise est delectatio, quia
+            dilectio est aliquid eius formaliter et intrinsece sicut delectatio, ut patet ex secunda
+            conclusione. Conceditur ergo quod frui utendis sit summa perversitas, non tamen ratione
+            utriusque, sed dilectionis precise. Et ideo non sequitur perversitas consistit in actu
+            demeritorio non in delectatione, ergo delectatio non est aliquid fruitionis. Sed bene
+            sequitur: igitur fruitio non est precise delectatio, quod concedo. Potest etiam dici
+            secundo quod non solum dilectio inordinata, sed etiam delectatio est perversitas
+            voluntatis, quia qui delectantur cum male faciunt et exultant in rebus pessimis gravius
+            peccant.</p>
+          <p xml:id="atv-l1d1q2-d1e4102">Ad secundum, deductio est nulla, quia illa diffinitio non est totalis, sed partialis. Et
+            ideo non sequitur quod fruitio sit dilectio totaliter, sed partialiter.</p>
+          <p xml:id="atv-l1d1q2-d1e4105">Ad tertium potest uno modo dici sicut ad primum quod fruitio ordinata et meritoria in
+            viatore non est ratione delectationis, sed dilectionis precise.</p>
+          <p xml:id="atv-l1d1q2-d1e4108">Potest etiam dici secundo quod dilectio amicitie circa Deum est actus meritorius in
+            viatore supposita gratia. Et ad probationem quando dicitur quod 'delectari non est in
+            potestate voluntatis', dicendum quod, licet delectari non sit in potestate voluntatis
+            consequenter, est tamen in eius potestate antecedenter, quia in potestate voluntatis est
+            diligere Deum propter se vel non diligere, et sic delectari vel non delectari. Et hoc
+            sufficit ad hoc quod delectatio amicitie sit actus meritorius in viatore supposita
+            gratia. Ex quo est actus elicitus voluntatis.</p>
+          <p xml:id="atv-l1d1q2-d1e4111">Ad quartum nego minorem. Nec probatio valet, quia delectatio amicitie circa Deum non est
+            passio, sed perfectissima operatio.</p>
+          </div>
+          <div xml:id="atv-l1d1q2-Dd1e4115">
+            <head xml:id="atv-l1d1q2-Hd1e4117"> Contra secundam conclusionem</head>
+          <p xml:id="atv-l1d1q2-d1e4120">Contra secundam conclusionem et correlarium illatum potest sic argui: fruitio est
+            essentialiter unius actus, igitur correlarium illatum est falsum et, si conclusio
+            precedens est vera, dilectio non est fruitio, nec aliquid eius, nec essentialiter, nec
+            intrinsece. Consequentia patet quantum ad primam partem, quia antecedens assumptum
+            opponitur contradictorie illi correlario. Quantum ad secundam probatur, quia actus
+            delectationis qui realiter distinguitur ab actu dilectionis ex conclusione precedenti
+            est aliquid fruitionis essentialiter et intrinsece. Antecedens autem probatur a quoddam
+            doctore nostro. Primo sic:
+            <pb ed="#V" n="40-v"/>
+            <cb ed="#V" n="a"/> 
+          <note><name>Forrestarius</name> in I, distinctione 1, questione 2, articulo 3</note>
+            Quia fruitio idem est quod beatitudo, iuxta illud beatum <name> Augustinum</name>
+            <title>De doctrina christiana</title>: <quote xml:id="atv-l1d1q2-Qd1e4138">Hec est merces summa, ut Deo perfruamur</quote>. Sed
+            summa merces est in actu beatifico; igitur idem est fruitio quod beatitudo. Sed
+            beatitudo formaliter consistit in uno actu sive loquamur de beatitudine simpliciter,
+            sive in genere; igitur fruitio tam ista quam illa est unus simplex actus.</p>
+          <p xml:id="atv-l1d1q2-d1e4142">Preterea, obiectum fruibile, quod est obiectum fruitionis simpliciter, est unum
+            simpliciter obiectum etiam fruitionis secundum quid, scilicet visio est unum
+            simpliciter, igitur actus quo attingitur primo ab una potentia est unus, loquendo semper
+            tam de fruitione secundum quid quam de fruitione simpliciter.</p>
+          <p xml:id="atv-l1d1q2-d1e4145">Preterea, non minoris perfectionis est ipsa voluntas respectu sui obiecti quam sint
+            alie potentie cognitive et appetitive. Patet de se. Sed quelibet alia potentia
+            sufficienter attingit obiectum suum sibi presens per unum actum; igitur et ipsa
+            voluntas. Sed talis actus est ipsa fruitio; ergo etc.</p>
+          <p xml:id="atv-l1d1q2-d1e4148">Ad rationem fundamentalem nego antecedens, quia fruitio delectationem et dilectionem
+            includit, que non sunt essentialiter unus actus, ut patet ex dictis.</p>
+          <p xml:id="atv-l1d1q2-d1e4152">Responsio ad rationes <name>Forestarii</name></p>
+          <p xml:id="atv-l1d1q2-d1e4157">Et ad probationes istius doctoris respondeo. </p>
+          <p xml:id="atv-l1d1q2-d1e4160">Ad primum: ratio est ad oppositum, quia beatitudo non est essentialiter unus actus, sed
+            plures. Consistit enim in visione et fruitione iuxta determinationem ecclesie. Et
+            ulterius, fruitio non est idem quod beatitudo convertibiliter et adequate, sicut
+            declarabitur questione sequenti, et ibi respondebitur ad auctoritatem beati <name>
+              Augustini</name>.</p>
+          <p xml:id="atv-l1d1q2-d1e4166">Ad secundum concedo quod actus quo obiectum fruitionis simpliciter attingitur primo a
+            potentia volitiva est unus simpliciter et hec est dilectio, non delectatio, quia
+            delectatio presupponit dilectionem naturaliter, non autem econverso. Sed ex hoc non
+            sequitur quod talis sit fruitio totaliter. Sufficit enim quod sit aliquid fruitionis
+            partialiter. Videmus enim quod obiectum beatitudinis simpliciter est unum simpliciter,
+            eo modo quo obiectum fruitionis est unum simpliciter et tamen actus quo primo attingitur
+            ab intellectu vel voluntate non est beatitudo totaliter, licet sit aliquid eius
+            partialiter. Et similiter dicendum est de obiecto beatitudinis secundum quid. </p>
+          <p xml:id="atv-l1d1q2-d1e4169">Ad tertium dico quod ex perfectione convenit voluntati quod attingat obiectum suum
+            distinctis actibus subordinatis, quia delectari est perfectionis et soli convenit
+            voluntati vel appetitui, ut suppono ad presens. Et aliqua delectatio est actus et
+            operatio proprie dicta, ut patet ex dictis, igitur ratio magis est ad oppositum quam ad
+            propositum.</p>
+          </div>
+          <div xml:id="atv-l1d1q2-Dd1e4173">
+            <head xml:id="atv-l1d1q2-Hd1e4175"> Contra tertiam conclusionem</head>
+          <p xml:id="atv-l1d1q2-d1e4178"><note><name>Gerardus de Senis</name> in I, distinctione 1, questione 1, articulo 3</note>
+            Contra tertiam conclusionem quidam doctor noster arguitur primo sic: si isti duo actus
+            essentialiter concurrerent ad fruitionem, unus eorum non poneretur in eius descriptione
+            aut diffinitione sine altero. Consequens est falsum, igitur et antecedens. Consequentia
+            est de se nota et falsitas consequentis probatur, quia in diffinitione illa beati <name>
+              Augustini</name>, <quote xml:id="atv-l1d1q2-Qd1e4187">frui est alicui amore inherere</quote> etc., ponitur amor sine
+            <choice><sic>dilectatione</sic><corr>delectatione</corr></choice>.</p>
+          <p xml:id="atv-l1d1q2-d1e4197">Preterea, si fruitio aggregaret essentialiter istos duos actus, sequeretur quod unus
+            eorum non faceret inherere obiecto fruibili sine altero. Consequens est falsum, igitur
+            et antecedens. Consequentia probatur, quia, si unus eorum faceret inherere obiecto sine
+            altero, ille solus esset vera fruitio, quia ratio fruitionis est <quote xml:id="atv-l1d1q2-Qd1e4199">inherere alicui rei
+            propter se ipsam</quote>, sicut diffinit <name>Augustinus</name>. Falsitas consequentis
+            probatur, quia actus amoris, cum precedat actum delectationis, habet omnem suam
+            perfectionem intrinsecam antequam delectatio superveniat, et per consequens facit
+            inherere sine illo.</p>
+          <p xml:id="atv-l1d1q2-d1e4206">Responsio ad rationes <name>Gerardi</name></p>
+          <p xml:id="atv-l1d1q2-d1e4211">Ad primum istorum concedo quod in diffinitione fruitionis totali et adequata unus
+            illorum actuum non ponitur sine altero. In diffinitione autem partiali sic, sicut in
+            diffinitione partiali beatitudinis ponitur visio sine fruitione et econverso, quia tales
+            sunt quam plures diffinitiones <name>Augustini</name> qui quandoque diffinit fruitionem
+            per solam dilectionem, quandoque per solam delectationem, ut patet per
+              <name>Magistrum</name> in littera.</p>
+          <p xml:id="atv-l1d1q2-d1e4221">Ad secundum dico quod non quecumque sufficit inhesio ad fruitionem, aliter visio esset
+            essentialiter fruitio, quia per ipsam inheremus obiecto fruibili propter se. Concedo
+            igitur quod amor facit perfecte inherere uniendo et transforman-<pb ed="#V" n="40-v"/>
+            <cb ed="#V" n="b"/>-do amantem in id
+            quod amatur sine delectatione. Delectatio tamen facit perfectam inhesionem gaudii et
+            exultationis et iste due inhesiones faciunt unam perfectam inhesionem, non quidem
+            unitate simplicitatis, sed cuiusdam aggregationis et totalitatis, et sic integrant
+            naturam fruitionis.</p>
+          </div>
+          <div xml:id="atv-l1d1q2-Dd1e4229">
+            <head xml:id="atv-l1d1q2-Hd1e4231"><supplied>Contra quartam conclusionem</supplied></head>
+          <p xml:id="atv-l1d1q2-d1e4235"><note><name>Gerardus</name> ubi supra</note>
+            Contra quartam conclusionem quidam doctor noster arguit sic.
+            Primo sic: de illo actu prius et verius dicitur fruitio qui perfectiorem adhesionem
+            facit obiecto. Dilectio est huiusmodi, non delectatio; ergo. Maior patet ex significato
+            nominis. Probatur minor, quia inhesio per amorem est causa inhesionis per delectationem,
+            ergo perfectior.</p>
+          <p xml:id="atv-l1d1q2-d1e4242">Secundo sic: de illo actu per prius et verius dicitur fruitio qui facit voluntatem
+            inherere obiecto fruibili per se et immediate. Huiusmodi est amor et non delectatio;
+            ergo. Maior patet ex significato nominis sicut prius. Probatur minor, quia delectatio
+            non facit inherere obiecto fruibili nisi mediante amore, amor autem per se et immediate;
+            ergo etc.</p>
+          <p xml:id="atv-l1d1q2-d1e4245">Tertio sic: de illo actu prius et verius dicitur fruitio in quo consistit formaliter
+            ratio meriti. Et iste est actus amoris, non delectationis; ergo. Maior patet, quia totum
+            meritum nostrum consistit in fruitione ordinata et per oppositum totum demeritum in
+            fruitione inordinata, dicente beato <name> Augustino</name> X <title>De
+            Trinitate</title>, capitulo 10, quod <quote xml:id="atv-l1d1q2-Qd1e4253">non est alia vita hominum vitiosa atque culpabilis
+            quam male utens et male fruens</quote>. Probatur minor, quia meritum et demeritum formaliter
+            <choice><sic>consistit</sic><corr>consistunt</corr></choice> in actu libero et simpliciter voluntario. Talis autem est amor, non
+            delectatio, quia delectatio necessario sequitur ad amorem; igitur non est libera, nec
+            simpliciter voluntaria nisi quia actus amoris quem sequitur est voluntarius.</p>
+          <p xml:id="atv-l1d1q2-d1e4263"><note><name>Michael de Massa</name> in I, distinctio 1, questione 10, articulo 1</note>
+            Ad idem arguit quidam alius doctor noster quarto sic: de ratione fruitionis est esse
+            ultimum finaliter propter quid tanquam propter finem sunt cetera, igitur illud cui
+            maxime convenit esse tale principalius pertinet ad fruitionem. Huiusmodi est amor, non
+            delectatio; ergo. Probatur minor, quia delectatio est per actum amoris tanquam per finem
+            aliquo modo. Derelinquitur enim ex unione potentie volitive cum obiecto fruibili per
+            actum amoris et ex ipsa delectatione derelicta intenditur amor et prestatur fomentum
+            continuationis amoris, et ideo aliquo modo delectatio amicitie est propter actum amoris,
+            sicut propter finem, non econverso.</p>
+          <p xml:id="atv-l1d1q2-d1e4271">Responsio ad rationes <name>Gerardi</name></p>
+          <p xml:id="atv-l1d1q2-d1e4276">Ad primum nego minorem, quia inhesio per delectationem, cum sit gaudii et exultationis
+            et quietans ultimate, est simpliciter perfectior quam inhesio per amorem. Nec probatio
+            valet, quia inhesio per amorem non est causa efficiens inhesionis per delectationem, nec
+            perficiens, immo potius econverso, quia delectatio de qua loquimur perficit operationem,
+            non dilectio, sed est causa prima et sine qua non, quia delectatio presupponit amorem,
+            sicut cognitio est causa dilectionis, quia dilectio cognitionis presupponit. Sed ex hoc
+            nihil concluditur, aliter posset concludi contra eum quod fruitio in visione
+            principalius consisteret etc.</p>
+          <p xml:id="atv-l1d1q2-d1e4279">Ad secundum dico qudo equivocatur de immediatione. Potest enim ista immediatio
+            dupliciter sumi. Uno modo sic quod inter amorem et eius obiectum nullum cadit medium.
+            Inter delectationem autem et eius obiectum cadat aliquod medium et in isto sensu maior
+            est vera. Sed illo modo minor est falsa evidenter, quia delectatio amicitie circa Deum
+            ita immediate respicit obiectum fruibile sicut amor. Alio modo potest accipi immediatio
+            ut illud dicatur immediatius, quod est prius, et in isto sensu minor sit vera. Maior
+            tamen est falsa, quia in actibus essentialiter ordinatis prior origine est perfectione
+            posterior, immo, si ratio aliquid concluderet, fruitio verius diceretur de visione, quia
+            precedit actum amoris et delectationis, quod falsum est etiam per eos. </p>
+          <p xml:id="atv-l1d1q2-d1e4282">Ad tertium nego maiorem, quia, ut patet ex dictis, fruitio verius dicitur de actu illo
+            in quo consistit principaliter premium. Huiusmodi autem est delectatio. Est igitur ratio
+            ad oppositum, non autem ad propositum. Nec probatio minoris valet quicquid sit de
+            veritate 
+            <pb ed="#V" n="41-r"/>
+            <cb ed="#V" n="a"/> 
+            eiusdem, quia ad claram visionem obiecti beatifici necessario sequitur
+            amor etiam per eos, et tamen constat quod actus amoris est ex se formaliter liber et
+            simpliciter voluntarius.</p>
+          <p xml:id="atv-l1d1q2-d1e4289">Responsio ad rationes <name>Michaelis de Massa</name>.</p>
+          <p xml:id="atv-l1d1q2-d1e4295">Ad quartum nego minorem, quia, licet delectatio cuius immediatus terminus obiectalis
+            est amor sit propter actum amoris sicut tanquam propter finem, quia talis delectatio
+            ponitur eius passio et derelinquitur ex unione potentie cum obiecto per talem actum, ut
+            dictum est supra, delectatio tamen amicitie circa Deum nullo modo tanquam finem respicit
+            actum amoris, nec talis derelinquitur ex unione potentie etc., quia non ponitur eius
+            passio. Decipitur igitur iste doctor, quia non distinguit inter delectationem que est
+            passio et illam que non est passio.</p>
+          </div>
+        </div>
+        <div xml:id="atv-l1d1q2-Dd1e4300">
+          <head xml:id="atv-l1d1q2-Hd1e4302">Ad argumenta principalia</head>
+          <p xml:id="atv-l1d1q2-d1e4305">Ad rationes principales patet quod per illas auctoritates non diffinitur fruitio
+            formaliter, sed solum partialiter etc.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Liber I, Distinctio 9 et 10, Quaestio 1</title>
+				<author>Alphonsus Toletanus Vargas</author>
+				<editor>Luciana Cioca</editor>
+				<respStmt>
+					<name>Jeffrey C. Witt</name>
+					<resp>TEI Encoder</resp>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="0.0.0-dev">
+					<date when="2016-09-02">September 02, 2016</date>
+				</edition>
+			</editionStmt>
+			<publicationStmt>
+				<authority>THESIS project</authority>
+				<availability status="free">
+					<p>Public Domain</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="P" n="Paris1490">Paris1490</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+			<schemaRef n="lbp-critical-1.0.0"
+				target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/1.0/critical.rng"> </schemaRef>
+			<editorialDecl>
+				<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+					guidelines for a critical edition</p>
+			</editorialDecl>
+		</encodingDesc>
+		<revisionDesc status="draft">
+			<listChange>
+				<change when="2016-09-02" who="#JW" status="draft" n="0.0.0">
+					<p>Created file for the first time.</p>
+				</change>
+			</listChange>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:lang="la">
+		<front>
+			<div xml:id="includeList">
+				<xi:include
+					href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+					xpointer="worksCited"/>
+				<xi:include
+					href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+					xpointer="prosopography"/>
+			</div>
+			<div xml:id="starts-on">
+				<pb ed="#P" n=""/>
+				<cb ed="#P" n=""/>
+			</div>
+		</front>
+		<body>
+			<div xml:id="atv-l1d9et10q1">
+				<head>Liber I, Distinctio 9 et 10, Quaestio 1</head>
+				<p>Nunc ad distinctionem personarum accedamus, quia <name>Magister</name> in ista nona
+					distinctione principaliter agit de eterna generatione Filii a Patre et in decima de eterna
+					processione Spiritus Sancti ab utroque et in ambobus de coeternitate trium personarum ad
+					invicem. </p>
+				<p>Idcirco iuxta materiam istarum duarum distinctionum quero: utrum generatio Filii sit
+					realiter prior processione Spiritus Sancti. </p>
+				<div type="rationes-principales">
+					<head>Rationes principales</head>
+					<p>Et videtur primo quod sic, quia Filius est realiter prior Spiritu Sancto, igitur
+						generatio Filii spiratione Spiritum Sanctum. Consequentia nota. Antecedens probatur,
+						quia Pater est realiter prior Filio saltem origine, quia Filius est ab eo, igitur Filius
+						est sic prior Spiritu Sancto cum sit ab utroque.</p>
+					<p>Contra spiratio Spiritus Sancti est eterna, igitur generatio Filii non est prior
+						realiter ea. Antecedens est catholicum et consequentia videtur bona, quia eterno nihil
+						est realiter prius. </p>
+				</div>
+				<div>
+					<head>Divisio Quaestionis</head>
+					<p>In ista questione erunt quattuor articuli. Primo ponam aliquorum terminorum
+						declarationes, secundo conclusiones. Ter-[97va]-tio movebo dubia. Quarto respondebo.
+					</p>
+				</div>
+				<div type="articulus">
+					<head>Primus articulus</head>
+					<p>Quantum ad primum termini declarandi sunt tres: generatio, spiratio et prioritas. De
+						primo, generatio est duplex, activa scilicet et passiva. Activa est in Patre. Passiva
+						vero in Filio et utraque potest aliquo modo dici generatio Filii. De passiva patet cum
+						sit constitutiva distinctiva ipsius etiam de activa, quia generatione activa Pater
+						generat ipsum. De secundo spiratio sicut et generatio quedam est activa, quedam vero
+						passiva. Prima est in Patre simul et Filio, secunda tantum in Spiritu Sancto. Potest
+						tamen utraque aliquo modo dici spiratio Spiritus Sancti, sicut dictum est de generatione
+						Filii. Et ex his patet quod inter generationem et spirationem est multiplex combinatio,
+						quia potest comparari generatio activa ad spirationem activam et ad passivam et
+						similiter generatio passiva potest comparari ad spirationem activam et ad passivam. Si
+						generatio activa comparatur ad spirationem activam, hoc potest esse dupliciter, quia vel
+						comparatur sibi prout est in Patre vel prout est in Filio. Et similiter, si comparetur
+						generatio passiva ad spirationem activam, potest sibi comparari prout spiratio activa
+						est in Patre vel prout est in Filio inter generationem, igitur et spirationem sunt sexti
+						combinationes, et per consequens sextis modis potest intelligi questio.</p>
+					<p>Primo an generatio activa sit prior spiratione passiva. </p>
+					<p>Secundo an sit prior spiratione activa prout est in Filio. </p>
+					<p>Tertio an sit prior ipsa prout est in Patre. </p>
+					<p>Quarto an generatio passiva sit prior spiratione passiva. </p>
+					<p>Quinto an sit prior spiratione activa prout est in Filio. </p>
+					<p>Sexto an sit prior ipsa prout est in Patre. </p>
+					<p>Et hoc de primo et secundo termino. De tertio, sicut patet in
+							<title>Predicamentis</title> et V <title>Metaphysice</title>, capitulo de priori et
+						posteriori. Multi sunt modi prioritatis et posterioritatis, quia quedam est prioritas
+						durationis quedam nature, quedam causalitatis, quedam communitatis, quedam perfectionis,
+						quedam cognitionis, quedam secundum locum, quedam secundum ordinem prioritatis et
+						posterioritatis aliorum inter se. Prioritas durationis que proprie est prioritas, ut
+						dicitur in <title>Predicamentis</title>, vocatur ab <name>Aristotele</name>, ibidem et
+						in V <title>Metaphysice</title>, prioritas secundum tempus que, ut patet per eum ibidem,
+						aliter attenditur in preteritis et aliter in futuris, quia illa sunt priora in
+						preteritis que sunt remotiora a presenti. Sed in futuris illa sunt priora que sunt
+						propinquiora eidem. Prioritas secundum naturam diversimode describitur a diversis, sed,
+						secundum <name>Philosophum</name>, illud est prius natura altero quod potest esse sine
+						illo et non econverso, unde, V <title>Metaphysice</title>, sic inquit: “aliqua vero
+						supplere sunt priora secundum naturam et substantiam quecumque contingunt esse sine
+						aliis et illa non sine illis sicut substantia est prior accidente saltem separabili et
+						unitas dualitate etc. Prioritas causalitatis que attenditur inter causam et causatum,
+						quia sic omnis causa respectu sui causati est prior, ut dicitur ibidem, vocatur ab
+							<name>Aristotele</name> prioritas nature. Differt tamen iste modus prioritatis a
+						precedenti, quia in precedenti illud dicitur prius natura quod potest esse sine alio.
+						Hic autem dicitur prius illud quod est causa alterius etiam si non posset esse sine illo
+						propter quod dicit ubi supra, eorum enim qui convertuntur secundum essentie
+						consequentiam, quia alterum alteri quomodolibet causa est digne prius natura dicitur et
+						quod aliqua sint talia exemplificat de re et ratione vera. Ex his patet quod duo sunt
+						modi prioritatis secundum naturam, sed, quia secundus speciale primus retinent nomen
+						consequentie et sic sub nomine communi modus specialis diffinitur ab
+							<name>Aristotele</name> cum dicitur quod prius natura est illud quod potest esse sine
+						alio et non econverso. Prioritas communitatis attenditur inter illa que non convertuntur
+						secundum subsistendi consequentiam. Hic tamen est advertendum quod hoc contingit fieri
+						dupliciter. Uno modo, quandocumque ad affirmationem alicuius predicati de aliquo
+						subiecto. Sequitur affirmatio alterius predicati universaliter et generaliter, sed non
+						econverso. Et isto modo omne superius est prius suo inferiori, quia bene sequitur
+						demonstrato quocumque homine. Hoc est homo, ergo hoc est anima, sed tamen non
+						sequi-[97vb]-tur universaliter econverso. Alio modo, quando ad aliquid respectu alicuius
+						predicati sequitur aliquid respectu alicuius predicati et maxime respectu huius
+						predicati quod est esse, sed non econverso. Et isto modo substantia est prior accidente,
+						quia bene sequitur est accidens, ergo est substantia et non econverso saltem de
+						accidente separabili et loquendo naturaliter sicut etiam pars est prior suo toto, quia
+						sequitur est totum, ergo est pars et non econverso, cum pars possit esse sine toto.</p>
+					<p>His premissis patet quod iste secundus modus non differt a secundo principali, quia
+						quod sic est prius altero est prius natura, quia potest esse sine illo et non econverso
+						et talis prioritas non est prioritas communitatis, ut patet. Sed primus modus
+						distinguitur ab omnibus precedentibus, quia tam prioritas durationis quam prioritas
+						nature et causalitatis est prioritas inter res. Hec autem prioritas non est inter res,
+						ut res distinguitur a signis et conceptibus et entibus rationis, quia sic sola
+						universalia sunt superiora suis inferioribus sunt priora. Hec autem non sunt res extra,
+						sed tantum voces vel conceptus vel essentia rationis, ut suppono ad presens. Talis ergo
+						prioritas eorum que non convertuntur etc. est prioritas communitatis, quia omne illud a
+						quo non convertitur consequentia est communius altero. Prioritas perfectionis satis est
+						nota, quia sic omne perfectius respectu imperfectioris est prius, sive sit perfectius ex
+						natura rei, sicut substantia est perfectior accidente, sive ex ordinatione humana, sicut
+						rex est perfectior communitate. Prioritas cognitionis distinguitur a
+							<name>Philosopho</name> V <title>Metaphysice</title> sicut et cognitio, quia aliter in
+						cognitione sensitiva, aliter in intellectiva. Nam secundum cognitionem intellectivam
+						universalia sunt priora singularibus. Secundum autem sensitivam singularia sunt priora
+						universalibus, unde sic inquit <name>Philosophus</name>. Alio vero modo quod ex
+						cognitione est prius, horum autem aliter et quedam secundum rationem et quedam secundum
+						sensum. Nam secundum rationem universalia sunt priora, secundum autem sensum singularia.
+						Prioritas secundum locum attenditur per operationem ad aliquem locum, quia id dicitur
+						prius secundum locum, quod est propinquius alicui determinato loco, quod contingit fieri
+						dupliciter. Uno modo, si sit propinquius illi loco naturaliter et hoc sive ille locus
+						sit locus medius sicut centrum, et sic dicimus quod aqua est prior aere, sive ille locus
+						sit ultimum sicut circumferentia, et sic dicimus quod ignis est prior aere. Alio modo,
+						si sit ei propinquius casualiter sicut patet de lapidibus positis in acervo, quorum
+						nullus est alio prior, unde <name>Philosophus</name> ubi supra. Hoc quidem supple
+						dicitur prius secundum locum in existendo propinquius aut natura alicui loco determinato
+						ut medio aut ultimo aut sicut evenit, id est casualiter. Prioritas secundum ordinem
+						aliorum inter se spiritualiter attenditur inter passiones diversorum subiectorum, quorum
+						unum est prius altero, sicut passio subiecti prioris est prior passione posterioris
+						sicut rectitudo dicitur prior lineitate, quia linea est prior superficie, unde
+							<name>Philosophus</name> ubi supra: “amplius priora dicuntur priorum passiones, ut
+						rectitudo lineitate. Hec enim linee secundum se passio est illa vero superficiei.” Sed
+						preter istos modos tactos ab <name>Aristotele</name> ponitur a quibusdam alius modus
+						prioritatis, videlicet secundum originem. Imaginantur enim aliqui quod sicut sunt
+						instantia temporum, ita sunt signa vel instantia nature et ordinis et dicunt quod in uno
+						instanti temporis sunt plura signa nature et in uno signo nature plura signa originis;
+						et ideo videatur eis quod, sicut prioritas nature stat cum simultate temporum sive
+						durationis, sicut patet de subiecto et propria passione eo quod in uno instanti temporis
+						sunt plura signa nature, ut dicunt, sic prioris originis stat cum simultate nature eo
+						quod in uno signo nature stant et sunt plura signa originis secundum eos. Hos igitur
+						modos prioritatis ad propositum applicando [98ra] patet quod in divinis inter
+						generationem et spirationem non est prioritas durationis, cum omnis productio in divinis
+						adintra sit eterna, nec est prioritas nature eodem modo quo de ipsa loquitur
+							<name>Aristoteles</name>, quia cum quelibet divina productio sit sume necesse esse.
+						Non minus repugnat uni earum esse sine altera quam econtra, nec est prioritas
+						causalitatis, quia nulla istarum productionum est causa alterius, ut sic, nec est per se
+						prioritas originis que prioritati causalitatis videtur assimilari, quia una eorum non
+						originatur ab altera, nec econtra, nec est prioritas communitatis, quia talis non est
+						inter res, ut res distinguitur a signis et conceptibus et entibus raitonis. Huiusmodi
+						autem productiones sunt vere res isto modo, nec est prioritas perfectionis, quia in
+						divinis ad intra nil maius aut minus, secundum <name>Athanasium</name> in
+							<title>Symbolo</title>. Nec est prioritas secundum locum, quia nihil est ibi in loco
+						proprie loquendo, igitur inter generationem et spirationem. Si est aliqua prioritas, vel
+						est prioritas cognitionis, vel est prioritas secundum ordinem aliquorum inter se. Prima
+						non est ad propositum, quia talis non est prioritas realis sed rationis tantum, quia
+						tantum in esse cognito.Tota igitur difficultas est videre an generatio et spiratio sint
+						proprietates aliquorum habentium ordinem inter se prioritatis et posterioritatis ac per
+						hoc generatio sit prior spiratione vel econverso, et questio apud doctores redditur
+						dubitabilis, quia quibusdam videtur quod inter personas divinas quarum he sunt
+						proprietates vere et realiter sit ordo prioritatis et posterioritatis, quia Pater, ut
+						dicunt, vere et realiter est prior origine ipso Filio et Filius Spiritu Sancto.
+						Quibusdam autem quod non et sic ex declarationibus terminorum patet intellectus
+						questionis et hoc de primo. </p>
+				</div>
+				<div>
+					<head>Secundus articulus</head>
+					<p>Quantum ad secundum articulum pono quattuor conclusiones. </p>
+					<p>Distinguo tamen primo de prioritate originis, quia quedam est tantum a quo, quedam
+						autem in quo. Primo modo nulli catholico est dubium quin vere et realiter Pater sit
+						prior origine Filio, quia hoc non est aliud quam dicere Pater producit Filium vel quod
+						Filius producitur a Patre. Sic <name>beatus Augustinus</name>, in libello <title>De
+							triplici habitaculo</title>, loquitur cum dicit quod “in patria videbimus quod Pater
+						est origine prior Filio, quia ibi clare videbimus quomodo Filius est a Patre et Spiritus
+						Sanctus ab utroque”. Sed sic de prioritate originis non loquitur <name>Scotus</name> et
+						eius sequaces, quod patet. </p>
+					<p>Primo, quia ipsi probant quod Pater est origine prior Filio, quia Pater producit
+						Filium, igitur, si nihil aliud est dicere Pater est origine prior Filio quam Pater
+						producit Filium, probant Patrem producere Filium, quia Pater producit Filium, quod non
+						est verisimile, cum sit petitio principii. </p>
+					<p>Secundo, quia, si per prioritatem originis precise intelligunt hoc esse ab hoc, cum
+						omnis catholicus confiteatur Filium esse a Patre et Spiritus Sanctus ab utroque eorum
+						disputatio non est de rebus, sed de nominibus tantum, quia disputare an ex hoc precise
+						quod Filius est a Patre, Pater debeat esse origine prior, vel non. Modo predicto est
+						disputare de nominibus, non de rebus. Disputare autem de nominibus ubi constat de rebus
+						inutile est et vanum, ut patet per <name>beatum Augustinum</name>
+						<title>De Trinitate</title>, capitulo. </p>
+					<p>Tertio, quia dicentes quod Pater sit prior origine ipso Filio credunt contradicere
+						communi doctrine que negat omnem prioritatem in personis divinis, ut patet in eorum
+						Scriptura. Constat autem quod communis Scriptura non negat Filium esse a Patre vel
+						Patrem producere Filium, igitur per prioritatem originis non intelligunt precise
+						prioritatem a quo, quia sic non contradicerent, immo concederent cum communi
+						doctrina.</p>
+					<p>Quarto, quia in vanum replerent tot cartas de isto nisi intenderent probare quod omnes
+						concedunt. Patet igitur quod isti doctores non loquuntur precise de prioritate a quo,
+						nec sic apud catholicos est dubium quin Pater sit prior Fi-[98rb]-lio et Pater et Filius
+						priores Spiritu Sancto. Sed, si loquamur de prioritate in quo, questio vertitur in
+						dubium, quia videtur predictis doctoribus quod sic etiam Pater sit prior Filio et Pater
+						et Filius Spiritu Sancto. Et quod ista sit eorum intentio patet. </p>
+					<p>Primo, quia, ut dicunt, in eodem instanti vel signo nature sunt tria instantia vel
+						signa originis et iste est processus secundum eos, quia in primo quarti vel signo
+						originis sunt omnia essentialia puta essentia, sapientia, intellectus, voluntas et
+						similia. In secundo, Pater generat Filium et in tertio spirant Spiritum Sanctum et totus
+						iste ordo originis completur in eodem quarti vel signo nature, igitur non tantum
+						loquuntur de prioritate originis a quo, sed in quo.</p>
+					<p>Secundo, quia dicunt quod Pater in isto priori antequam generet Filium est perfecte
+						beatus et non in essentia communicata tribus, quia nondum est communicata, sed in
+						essentia absoluta vel ut est in una persona tantum, igitur expresse ponunt prioritatem
+						in quo.</p>
+					<p>Tertio, quia dicunt quod Pater prius origine producit Spiritum Sanctum quam Filius. Hoc
+						autem non potest exponi de prioritate a quo cum sic originetur ab utroque, igitur de
+						prioritate in quo.</p>
+					<p>Quarto, quia dicunt quod Pater prius origine generat Filium quam producat Spiritum
+						Sanctum, quod etiam non potest exponi de prioritate a quo, sed in quo. Et ideo dicunt
+						quod in secundo signo originis Pater generat Filium et in tertio producit Spiritum
+						Sanctum etc. </p>
+
+					<div>
+						<head>Conclusio prima></head>
+						<p>Sic igitur accipiendo prioritatem originis est prima conclusio quod Pater non
+							realiter origine est prior Filio. Probatur primo sic: ei quod est summe necesse esse
+							pro quocumque signo repugnet non esse, igitur et posterius esse, sed Filius et
+							quelibet persona divina est summe necesse esse, igitur Filio et cuicumque persone
+							divine pro quocumque signo, tam originis quam nature, repugnat non esse, ergo et
+							posterius esse. Maior patet, quia illud cui pro quocumque signo repugnat non esse est
+							magis necesse esse quam illud cui pro quocumque signo repugnat non esse est magis
+							necesse esse quam illud cui pro aliquo signo non repugnat non esse, ergo illud cui pro
+							aliquo signo non repugnat non esse non est summe necesse esse. Minor autem est
+							catholica, quia quelibet persona divina est vere Deus et quod non est summe necesse
+							esse non est Deus. </p>
+						<p>Et confirmatur, quia vel pro illo signo originis in quo Pater ponitur precedere
+							Filium Filius habet esse, vel non habet esse. Si sic, igitur pro illo signo Filius est
+							simul cum Patre, igitur pro illo signo Pater non est prior Filio, et sic contradictio.
+							Si non, et in secundo signo habet esse, ergo transit de non esse ad esse, et per
+							consequens non est summe necesse esse.</p>
+						<p><name>Franciscus de Marchia</name>, distinctione 12, questione 2, articulo 2</p>
+						<p>Hic dicitur quod non oportet summe necesse esse habere esse pro omni signo sicut si
+							Deus causaret intelligentias ipse non haberet esse pro signo originis intelligentiarum
+							que essent ab eodem, et ita nec ponitur Pater in signo Filii, nec econverso, quia
+							Filius non est a se quod est primum signum, nec Pater ab alio, quod est secundum.</p>
+						<p>Contra <name>Franciscum</name></p>
+						<p>Sed hec evasio est nulla, quia mutat prioritatem in quo in prioritatem a quo, quia,
+							secundum istam expositionem, Filium non esse in primo signo originis est ipsum non
+							esse a se et esse in secundo est ipsum esse ab alio. Prioritas autem sic sumpta est
+							prioritas a quo non in quo, prout nunc loquimur. </p>
+						<p>Preterea, peto qualiter intelligitur quod Pater in illo priori antequam generet
+							Filium est perfecte beatus in essentia nondum communicata tribus, ut dicunt, quia vel
+							pro illo signo primo originis intelligitur esse a se, vel aliquid aliud. Si aliquid
+							aliud, igitur esse a se non est primum signum, ut nunc dicitur. Si precise esse a se,
+							cum Pater semper sit a se et nunquam ab alio, Pater semper est beatus in essentia
+							nondum communicata tribus, quod non solum est falsum, sed erroneum.</p>
+						<p>Preterea, quod non est in secundo signo originis non generat in secundo signo
+							originis, quia generare presupponit esse, igitur generare in secundo signo presupponit
+							esse in secundo signo, sed Pater secundum istam expositionem non est in secundo signo
+							[98va] originis, quia secundum signum est esse ab alio, ut dicunt. Pater autem nunquam
+							est ab alio, igitur non generat in secundo signo originis, quod est contra eos. Et
+							confirmatur, quia, si Pater non generat in secundo signo originis, quia non est in
+							secundo, pari ratione nec in tertio, igitur vel generat in primo, vel in nullo. Non in
+							nullo, igitur in primo, igitur in illo non est prior Filio, et sic intentum.</p>
+						<p>Preterea, sic dicendo sunt nobiscum quia omnes catholici concedunt quod Pater est a
+							se et non ab alio; iuxta expositionem istam, est primum signum et quod Filius est a
+							Patre, quod est secundum et quod Spiritus Sanctus est ab utroque, quod est tertium,
+							igitur non disputamus nisi de nominibus.</p>
+						<p>Dimissa igitur ista expositione, quia contradicit dictis eorum et concedit quod in
+							divinis non sit prioritas in quo, sed tantum a quo, quod intendimus. Probo
+							conclusionem sic: vel Pater pro illo signo in quo ponitur prior Filio est vere et
+							realiter Pater, vel non. Si sic, igitur pro illo signo vere et realiter est ei Filius,
+							quia Pater non ideo est Pater, quia est ingenitus, sed quia est genitor et est ei
+							Filius. Sic docet <name>beatus Augustinus</name> V <title>De Trinitate</title>,
+							capitulo 11 et 13, de parvis, igitur pro illo signo Pater non est prior Filio, quia
+							pro nullo signo in quo vere et realiter est Filius Pater est prior Filio. Si non, vel
+							pro illo signo Pater est vere et realiter persona, vel non. Si sic, igitur pro aliquo
+							signo est aliqua persona in divinis que non est vere et realiter Pater, nec Filius,
+							nec Spiritus Sanctus quod non consonat catholice veritati. Si non, igitur pro aliquo
+							signo nulla persona erit in divinis, quod nullus sane mentis diceret.</p>
+						<p>Et confirmatur, quia vel in illo signo vel originis Pater generat Filium, vel non. Si
+							sic, igitur pro illo signo vere et realiter est Filius, quia pro omni signo quo Pater
+							in divinis generat Filium vere et realiter est Filius, igitur pro illo signo Pater non
+							est prior Filio. Si non, cum in secundo signo originis vere generet generationis
+							accessione mutatus est. Consimile deductionem facit <name>Ambrosius</name>
+							<title>Contra hereticum</title> dicens: “dic mihi heretice fuitne quando omnipotens
+							Deus Pater non erat et Deus erat, nam si Pater esse ceperit Deus, ergo primo erat et
+							postea Pater factus est quomodo ergo immutabilis Deus est. Si enim ante Deus postea
+							Pater fuit utique generationis accessione mutatus est, sed avertat Deus hanc
+							amentiam”. Hec ille et ponitur in littera, distinctione 9.</p>
+						<p>Tertio ad principale sic: pro quocumque signo est virtus et sapientia Dei, pro eodem
+							est Filius Dei, quia, secundum <name>Apostolum</name>, Filius est virtus et sapientia
+							Dei, sed pro quocumque signo originis Deus Pater est, pro eodem est virtus et
+							sapientia Dei, aliter pro aliquo signo Deus esset sine virtute et sapientia, quod
+							nefas est dicere, igitur pro quocumque signo originis in quo Deus Pater est et Deus
+							Filius est, igitur pro nullo signo originis Pater est prior Filio.</p>
+						<p>Consimilem deductionem facit <name>beatus Augustinus</name> contra hereticum VI
+								<title>De Trinitate</title>, capitulo dicente: “si Dei Filius virtus et sapientia
+							Dei est, nec unquam fuit Deus sine virtute et sapientia, coeternus est ergo Deo Patri
+							Filius. Dicit autem <name>Apostolus</name>: Christum esse Dei virtutem et Dei
+							sapientiam, aut igitur non fuit quando non fuit Filius, aut aliquando Deus non habuit
+							virtutem et sapientiam, quod dementis est dicere. Constat quod semper habuit
+							sapientiam, semper igitur habuit Filium.” Hec <name>Augustinus</name> et allegat eum
+								<name>Magister</name> ubi supra.</p>
+						<p>Quarto sic: vel illud primum signum originis in quo Pater precedit Filium est
+							aliquid, vel nihil. Si nihil, igitur in nullo Pater esse prior Filio. Si aliquid, vel
+							reale, vel rationis tantum. Si rationis tantum, igitur Pater non est realiter origine
+							prior Filio, quod intendimus. Si reale, vel creatum, vel increatum. Si creatum, igitur
+							circumscripta omni creatura Pater non est realiter origine prior Filio, igitur ab
+							eterno non est origine prior eo, et per consequens nec in tempore. Si increatum, cum
+							omne increatum sit absolutum, vel relatio, vel tale signum erit absolutum, vel
+							relatio. Si absolutum, cum in quolibet absoluto in quo est Pater sit Filius, quia
+							quodlibet abso-[98vb]-lutum quod est Pater erit Filius in illo primo signo originis
+							est Filius, et per consequens Pater in illo non erit realiter prior ipso. Et ulterius,
+							cum inter Patrem et Filium in omni absoluto sit summa identitas, in nullo absoluto
+							Pater est prior Filio. Si relatio, vel spiratio activa vel passiva, vel filiatio vel
+							paternitas. Non spiratio activa, nec passiva, etiam per adversarios, nec filiatio per
+							eandem rationem, quia Filius non est posterior filiatione. Non paternitate, quia
+							dicere Pater in primo signo originis est realiter prior Filio est dicere Pater
+							paternitate est realiter prior Filio. Hoc autem est falsum, quia qui sunt simul natura
+							et naturali intelligentia non est unum realiter prius alio, sed paternitas et
+							filiatio, cum sint correlativa, sunt simul natura et naturali intelligentia, ut patet
+							per <name>Philosophum</name> in <title>Predicamentis</title>, ergo paternitas non est
+							realiter prior filiatione, ergo nec Pater paternitate realiter prior Filio. Pro ista
+							conclusione est <name>Magister</name> in littera et communiter omnes doctores sancti.
+						</p>
+					</div>
+					<div>
+						<head><supplied>Conclusio secunda</supplied></head>
+						<p>Secunda conclusio est quod Pater non prius generat Filium quam spirat Spiritum
+							Sanctum. </p>
+						<p>Probatur primo sic: si Filius non est prior Spiritu Sancto, igitur Pater non prius
+							generat Filium quam spiret Spiritum Sanctum. Consequentia est nota. Antecedens patet
+							ex conclusione precedenti, quia non minus concludunt rationes de Filio et Spiritu
+							Sancto quam de Patre et Filio.</p>
+						<p>Secundo sic: Pater non est prior Spiritu Sancto, igitur non prius generat Filium quam
+							Spiritum Sanctum. Antecedens patet ut prius. Consequentia est bona, quia, si prius
+							generaret Filium quam spiraret Spiritum Sanctum, Filius esset prior Spiritu Sancto, et
+							per consequens prior Patre si Pater non sit prior Spiritu Sancto.</p>
+						<p>Tertio sic: generatio activa non est prior spiratione activa in persona Patris,
+							igitur Pater non prius generat quam spiret. Consequentia est nota. Antecedens patet
+							discurrendo per omnes modos prioritatis superius positos. Et confirmatur, quia inter
+							ceteros modos prioritatis vel esset prior origine, vel natura. Non origine, quia ubi
+							non est hoc ab hoc, ibi non est ordo originis, igitur nec prioritas originis cum ibi
+							non sit origo, sed inter illa que sunt formaliter in Patre non est hoc ab hoc cum
+							omnia sint ingenita; ergo etc. Item prioritas originis non attenditur nisi inter
+							originans et originatum, sed nihil quod sit realiter Pater est originatum, quia vel
+							originaretur a persona Patris, vel ab alia. Non a persona Patris quia “nihil producit
+							se ipsum”, I <title>De Trinitate</title>, nec ab alia, quia alie producerentur a
+							Patre. Non autem econverso, ergo nec natura, quia duo sunt modi prioritatis secundum
+							naturam, ut patet ex dictis quorum nullus habet locum in proposito. Non quidem primus,
+							quia non minus repugnat spirationi active esse sine generatione activa quam econtra.
+							Nec secundus, quia ubi non est prioritas originis, nec causalitatis, sed inter ista
+							non est prima, ut patet, igitur nec secunda. Item prioritas nature arguit
+							distinctionem in natura. Talis autem distinctio non est possibilis in divinis
+							presertim in illis que sunt infra eandem personam. </p>
+						<p>Quarto sic: si Pater prius generaret Filium etc, aut illa prioritas esset a quo, vel
+							in quo. Non a quo, cum uterque vere et realiter sit ab eo, nec in quo, quia talis
+							prioritas non est possibilis in divinis, ut patet ex precedenti conclusione.</p>
+					</div>
+					<div>
+						<head><supplied>Conclusio tertia</supplied></head>
+						<p>Tertia conclusio est quod Pater non prius spirat Spiritum Sanctum quam Filius. </p>
+						<p>Probatur primo sic: Pater pro aliquo signo originis vel vere vel qualitercumque
+							vocetur prius spirat Spiritum Sanctum quam Filius, igitur Spiritus Sanctus pro aliquo
+							signo simul esset et non esset. Consequens est falsum et implicat contradictionem,
+							igitur et antecedens. Consequentia probatur, quia in quocumque signo Pater spirat
+							Spiritum Sanctum, Spiritus Sanctus est pro quocumque signo Filius non spirat Spiritum
+							Sanctum non est Spiritus Sanctus, igitur, si Pater pro aliquo signo prius spirat
+							Spiritum Sanctum quam Filius pro aliquo signo simul erit et non erit. Minor patet et
+							maior probatur quoad utranque partem. Primo quoad primam, quia pro quocumque signo
+							Spiritus Sanctus spiratur a Patre Spiritus Sanctus est. Hoc patet, quia pro quocumque
+							signo est spiratio passiva Spiritus Sanctus est, sed pro quocumque signo Spiritus
+							Sanctus spiratur a quocumque spiretur est spiratio passiva, sed pro quocumque signo
+							Pater spirat Spiritum Sanctum, spiratur a Patre, igitur pro quocumque signo Pater
+							spirat, Spiritus Sanctus ipse est.</p>
+						<p>Quantum ad secundam partem probatur: nam [99ra] si pro aliquo signo Spiritus Sanctus
+							est pro quo Filius non spirat ipsum, pro illo Spiritu Sancto est totaliter ab uno non
+							a duobus, quod non est catholice dictum. Et confirmatur, quia, si Spiritus Sanctus est
+							in aliquo signo in quo non spiratur a Filio, frustra Filius spiraret ipsum in aliquo
+							signo cum totaliter preexistat. </p>
+						<p>Secundo ad principale sic: vel pro illo signo in quo Pater prius spiraret Spiritum
+							Sanctum quam filius Filius vere et realiter spirat Spiritum Sanctum, vel non. Si sic,
+							contradictio evidens. Si non, cum in alio signo vere et realiter spiraret ipsum
+							spirationis accesione mutatus est, sicut de generatione superius dicebatur.</p>
+						<p>Tertio sic: secundum <name>beatum Augustinum</name> I <title>De Trinitate</title>,
+							nihil est prius se ipso, igitur inter illa que sunt unum secundum quod sunt unum non
+							est ordo prioris et posterioris, sed Pater et Filius inspirando Spiritu Sancto sunt
+							unum principium non plura principia; igitur etc.</p>
+						<p><name>Franciscus de Marchia</name> distinctione 12, 1, questione 3, articulo 2</p>
+						<p>Hic dicitur quod in principio productivo secundum quod sunt unum principium Spiritus
+							Sancti nullus est ordo, sed inter supposita producentia et ea que sunt in eis ut
+							determinativa ad ipsa, sic non sunt unum.</p>
+						<p>Contra <name>Franciscum</name></p>
+						<p>Sed ista solutio confirmat propositum, quia, si inter Patrem et Filium in principio
+							productivo et secundum quod sunt principium Spiritus Sancti non est ordo prioris et
+							posterioris, igitur Pater non prius principiat Spiritum Sanctum quam Filius. Hec
+							patet, quia oppositum consequentis infert oppositum antecedentis, igitur non prius
+							spirat etc, quia spirare est principiare.</p>
+						<p>Quarto sic: Spiritus Sanctus non prius spiratus a Patre est quam a Filio, igitur
+							Pater non prius spirat Spiritum Sanctum quam Filium. Consequentia est nota. Antecedens
+							probatur, quia terminus sufficienter positus in esse spirato ab aliquo spirante non
+							potest amplius ab aliquo poni in tali esse. Hec patet, quia tunc idem his sufficienter
+							reciperet idem esse, sed, si Spiritus Sanctus igitur sit prius spiratus a Patre quam a
+							Filio, in isto priori sufficienter et perfecte ponitur in esse spirato a Patre, et per
+							consequens Spiritus Sanctus igitur non poterit amplius a Filio poni in tali esse
+							nunquam erit spiratus a Filio, quod est erroneum. Et confirmatur, quia impossibile est
+							aliquod spiratum spirari ab aliquo spirante quo non spirante nihil minus esset, sed,
+							si Spiritus Sanctus sit prius spiratus a Patre quam a Filio non spirante Filio, per
+							impossibile est aliquid spiratum spirari ab alio spirante quo non spirante nihil minus
+							erit. Sed, si Spiritus Sanctus prius spiratus a Patre quam a Filio non spirante per
+							impossibile nihil minus esset Spiritus Sanctus, quia semper esset a Patre sufficienter
+							spiratus, igitur, si Spiritus Sanctus prius spiratus a Patre quam a Filio, impossibile
+							est ipsum spirari a Filio, quod non est catholice dictum.</p>
+					</div>
+					<div>
+						<head><supplied>Conclusio quarta></supplied></head>
+						<p>Quarta conclusio est quod generatio Filii non est realiter prior spiratione Spiritus
+							Sancti. Hoc sequitur ad precedentes, quia inter personas divinas non est realis ordo
+							prioritatis et posterioritatis, ut patet ex prima conclusione, igitur nec inter
+							personales proprietates cuiusmodi sunt generatio et spiratio. Consequentia patet, quia
+							inter proprietates huiusmodi non potest assignari aliqua proprietas nisi sit ordo
+							prioritatis inter personas quarum sunt proprietates, ut patet ex articulo precendenti.
+							Et confirmatur, quia vel generatio activa Patris esset prior spiratione eiusdem, cuius
+							oppositum patet ex secunda conclusione, vel esset prior spiratione activa Filii. Et
+							hoc non, quia spiratio activa Patris non est prior spiratione activa Filii, ut patet
+							ex tertia conclusione et generatio activa Patris non est prior spiratione activa
+							eiusdem, ut patet ex secunda, igitur non est prior spiratione activa Filii vel esset
+							prior spiratione passiva Spiritus Sancti. Et hoc non, quia tunc Pater esset prior
+							Spiritu Sancto, cuius oppositum est ostensum. Et ulterius spiratio activa Patris non
+							est prior prioritate in quo spiratione passiva Spiritus Sancti et generatio activa
+							Patris non est prior spiratione Spiritu Sancto activa in ipso vel generatio passiva
+							Filii et spiratione activa Patris et hoc non, quia esset prior spiratione activa
+							eiusdem, igitur nec generatio passiva Filii erit prior spiratione activa Patris vel
+							generatio passiva Filii erit prior spiratione acti-[99rb]-va sui. Et hoc non, quia non
+							est prior spiratione activa sui, nec est prior spiratione activa Patris ex tertia
+							conclusione vel generatio passiva Filii erit prior spiratione passiva Spiritus Sancti.
+							Et hoc non, tum quia filius esset prior Spiritu Sancto, cuius oppositum patet ex
+							dictis, tum quia spiratio activa Filii esset prior spiratione passiva Spiritus Sancti
+							prioritate aliqua in quo et generatio passiva Filii est prior spiratione activa
+							sui.</p>
+						<p>Ad idem potest adduci prima ratio adducta superius pro prima conclusione, quia
+							spiratio activa est summe necesse esse.</p>
+						<p>Iste conclusiones simul confirmantur. Primo, auctoritate <name>Athanasii</name>
+							dicens in <title>Symbolo</title> quod “in hac trinitate nihil prius aut posterius, non
+							maius aut minus”. Secundo, auctoritate <name>beati Augustini</name>
+							<title>Contra Maximinum</title>, libro III, capitulo 16, ubi dicit expresse quod “in
+							divinis est ordo non quo unum sit prius alio, sed quo unum est ab alio”; igitur
+							etc.</p>
+					</div>
+				</div>
+				<div type="articulus">
+					<head>Tertius et quartus articuli</head>
+					<p>Quantum ad tertium et quartum articulos simul contra conclusiones istas movenda et
+						dissolvenda sunt dubia. </p>
+					<p>Et primo contra primam conclusionem quidam doctor arguit <name>Scotus</name>. </p>
+					<p>Primo sic: ubicumque est verus et realis ordo, ibi vere et realiter est prius et
+						posterius, sed inter Patrem et Filium in divinis est verus et realis ordo secundum
+						omnes, igitur inter eos vere et realiter erit prius et posterius, sed nullus diceret
+						quod Filius est prior Patre, ergo Pater est prior Filio vere et realiter. Maior
+						probatur, quia semper ordo accipitur per comparationem ad aliquod primum vel principium,
+						ergo per comparationem ad aliquod prius, quia ubi non est ratio prioris et posterioris,
+						sed omnia sunt penitus simul, ibi non est aliquid, quod possit habere rationem primi vel
+						principii.</p>
+					<p>Istam rationem quidam doctor confirmat sic.</p>
+					<p><name>Franciscus de Marchia</name> distinctione 12, 1, questione 1, articulo 2</p>
+					<p>Sic se habet simultas durationis ad ordinem durationis et similitas originis ad ordinem
+						originis. Sed simultas omnimoda durationis excludit ordinem durationis, quia inter ea
+						que sunt simpliciter simul duratione non est aliquis ordo durationis. Et similiter,
+						omnimoda originis omnem ordinem originis, cum igitur inter personas divinas sit vere
+						ordo originis erit ibi ordo prioris secundum originem.</p>
+					<p>Preterea, ad principale secundo sic: ubi est dare primum et secundum, ibi est dare
+						prius et posterius, sed sic est in proposito, igitur. Maior patet, quia, sicut secundum
+						sequitur ad primum, ita posterius sequitur ad prius et, sicut primum dicitur relative ad
+						secundum, sic prius ad posterius. Minor autem est nota, quia, sicut Pater est persona
+						prima in divinis, ita Filius secunda; ergo etc. </p>
+					<p>Istam rationem confirmat idem doctor sic: ubicumque ponitur ratio subiecti, debet poni
+						ratio passionis, sed prioritas in communi est passio primitatis in communi. Patet, quia,
+						cum prioritas sit quedam passio, non videtur posse reduci in aliud subiectum quam in
+						primitatem, unde <name>Philosophus</name> V <title>Metaphysice</title> dicit quod “prius
+						est quod est primo propinquius”, igitur ubicumque ponitur ratio primitatis, ibi ponitur
+						ratio prioritatis. Principium idem est quod primum I <title>Posteriorum</title>, ergo in
+						divinis debet poni aliquis modus prioritatis secundum modum huius primitatis. Sed in Deo
+						ponitur ratio primitatis, quia ibi ponitur ratio principii et primum idem est quod
+						principium I <title>Posteriorum</title>, ergo in divinis debet poni aliquis modus
+						prioritatis correspondens illi modo primitatis.</p>
+					<p>Tertio ad principale sic: ubi vere et realiter est originans et originatum, ibi vere et
+						realiter est prius et posterius secundum originem, sed in divinis Pater est vere et
+						realiter originans Filius originatum, igitur Pater vere et realiter est prior origine
+						ipso Filio et Filius posterior Patre. Minor conceditur. Maior probatur, quia, sicut in
+						his que distinguuntur secundum naturam originans est prius originato naturaliter, ita in
+						his que sola origine distinguuntur originans est prius originato originaliter.</p>
+					<p>Preterea, si aliqua causa obstaret ne Pater in divinis esset realiter prior Filio, hoc
+						esset simultas relativorum eo quod relativa sunt simul non solum natura, sed naturali
+						intelligentia, secundum <name>Philosophum</name>, [99va] sed illa non obstant, ergo
+						nulla. Maior patet, quia hec potissima causa est que assignatur ab adversarios. Minor
+						probatur, quia prius et posterius sunt relativa et tamen hec non obstante prius est
+						prius suo posteriori, etc.</p>
+					<p>Item causa et effectus sunt relativa et tamen causa est prior effectu, cum dependeat a
+						causa, non autem econverso. Ista conclusio confirmatur auctoritate <name>beati
+							Augustini</name> superius allegata in libello <title>De triplici habitaculo</title>,
+						ubi dicit expresse quod “in patria videbimus quod Pater est prior origine Filio”, ideo
+						etc.</p>
+					<p>Responsio ad rationes <name>Scoti</name></p>
+					<p>Ad primum istorum potest dici dupliciter. </p>
+					<p>Primo, concedo quod ubicumque est ordo, ibi est prius et posterius correspondens, quia
+						ubi est ordo durationis, ibi est prioritas durationis; ubi est ordo nature, ibi est
+						prioritas nature et ubi est ordo originis in quo, ibi est prioritas in quo et ubi est
+						ordo originis a quo, non in quo, ibi est prioritas a quo, non in quo; et ideo concedo
+						quod, sicut inter Patrem et Filium est ordo, ita prioritas, sed inter Patrem et Filium
+						in divinis non est ordo in quo, sed tantum a quo, ideo inter ipsos non est prioritas in
+						quo, sed a quo; et ad istum intellectum loquitur <name>beatus Augustinus</name> in
+						libello <title>De triplici habitaculo</title> dicens quod “in patria videbimus quod
+						Pater est origine prior Filio”. Per hoc patet quid dicendum ad confirmationem, quia
+						conceditur: sicut in divinis est ordo originis non quidem in quo, sed a quo, sic est
+						prioritas originis.</p>
+					<p>Potest etiam dici secundo interimendo maiorem cuius gratia est advertendum, quia, licet
+						in creaturis ubicumque est ordo, ibi sit prius et posterius, non tamen eadem ratione ubi
+						est ordo, est prioritas, quia ordo est ibi ratione distinctionis suppositorum. Prioritas
+						autem ratione diversitatis in natura vel esse. Ratio huius est, quia cum ordo inter
+						gignens et genitum attendatur ex eo quod unum gignitur ab alio et gignere gigni non
+						competat nisi suppositis, ut patet per <name>Damascenum</name> libro III, capitulo 24:
+						“ex sola distinctione suppositorum potest sumi ordo gignentis et geniti”. Prius autem et
+						posterius proprie ad durationem pertinet, quia sola prioritas durationis est proprie
+						prioritas, ut dicitur in post <title>Predicamentis</title>, et ex ipsa ratio prioris et
+						posterioris ad alia proprie transfertur proprie similiter ex diversitate nature vel in
+						essentia ratione cuius cuilibet nullum rei competit duratio. Sic igitur patet quod ordo
+						sumitur ex distinctione suppositorum, prioritas autem ex diversitate in natura vel in
+						essentia et loquitur de prioritate in quo et non a quo, quia talis valde large est
+						prioritas, et ideo, licet ubicumque est distinctio suppositorum cum diversitate nature
+						vel essentie, sicut in creaturis sit ordo cum prioritate, ibi tamen est distinctio
+						suppositorum sine diversitate nature vel essentie, sicut in divinis erit ordo sine
+						prioritate, et per consequens maior non est universaliter vera.</p>
+					<p>Ad istum intellectum loquitur <name>beatus Augustinus</name>
+						<title>Contra Maximinum</title> dicens, ubi supra, quod “in divinis est ordo non quo
+						nullum sit prius alio, sed quo unum est ab alio”; in quibus verbis evidenter negat
+						prioritatem et tamen concedit ordinem, et per consequens negat illam maiorem. Et ad
+						probationem, quando dicitur quod semper accipitur per comparationem ad aliquid primum
+						vel principium, verum est, sed non sequitur ex hoc quod per comparationem ad aliquid
+						prius, quia, sicut ordo abstrahit a priori et posteriori, sic et primum, et ideo, licet
+						persona Patris sit primum suppositum, non tamen est prius. Et iuxta solutionem istam
+						dicetur ad confirmationem negando maiorem, quia non est simile quod adducitur pro
+						simili. Ratio huius est, quia ubi est ordo durationis vel nature, ibi necessario est
+						distinctio non solum suppositorum, sed essentie vel nature, et per consequens ibi est
+						prioritas durationis vel nature. Ordo autem originis potest esse sine diversitate ipsius
+						essentie vel nature a qua sumitur prioritas, ut patet ex dictis, ideo non est mirum si
+						talis ordo possit esse sine prioritate.</p>
+					<p>Ad secundum nego maiorem, quia primum abstrahit a priori, ut patet ex dictis, et per
+						consequens secundum a posteriori. Nec probatio valet, quia, si posterius sequitur ad
+						prius et refertur ad ipsum sicut secundum ad primum, sequitur quod ubi sit primum et
+						[99vb] secundum, ibi est prius et posterius, et non econverso.</p>
+					<p>Ad confirmationem potest dici dupliciter. Primo, quod ratio est ad oppositum, quia
+						iuxta doctrinam ipsorum non est aliquod inconveniens prius posse absolvi a posteriori.
+						Subiectum autem est prius passione, et ideo, si prioritas est passio primitatis, non est
+						aliquod inconveniens quod sit primitas sine prioritate. </p>
+					<p>Secundo, quia prioritas non est passio primitatis in communi, quia non est passio
+						primitatis suppositorum, sed primitatis in natura vel in essentia. Ratio huius est, quia
+						prioritas <unclear>simul</unclear> ex diversitate in natura vel in essentia, et ideo non
+						ex distinctione suppositorum, ut dictum est supra.</p>
+					<p>Et ad auctoritatem <name>Philosophi</name> dicendum quod philosophus non vidit
+						primitatem suppositorum sine primitate nature vel essentie quia non cognovit
+						pluralitatem suppositorum in identitate singularis nature qualis est in divinis, et ideo
+						dicit absolute prius est, quod est primo propinquius, debet ergo intelligi quod illud
+						est prius quod est propinquius primo non quidem primitate suppositorum, sed primitate
+						nature. Potest etiam dici ad rationem et eius confirmationem <unclear>simul</unclear>
+						quod, sicut in divinis est primitas a quo, non in quo, sic est prioritas.</p>
+					<p>Ad tertium conceditur maior si intelligitur de prioritate originis a quo et
+						consequentia sub illo sensu; sed, si intelligitur de prioritate originis in quo, nego
+						maiorem. Et ad probationem potest dici dupliciter. Primo, quod in his que distinguuntur
+						secundum naturam non oportet quod originans sit prius naturaliter originato prioritate
+						aliqua in quo, sed tantum a quo, quia non videtur quod in uno instanti durationis sint
+						plura instantia vel signa nature, prout isti videntur imaginari de hoc tamen alias.
+						Secundo, quia non est simile de his que distinguuntur secundum naturam et de his que
+						solum origine, quia ex diversitate nature sumitur prioritas, ex diversitate autem
+						suppositorum que sufficit ad originem sumitur ordo non prioritas, ut patet ex dictis. Et
+						ideo non sequitur quod in his que distinguuntur secundum naturam originans naturaliter
+						prius originato prioritate in quo quod in his que sola origine distinguuntur originans
+						sit prius origine originato prioritate in quo.</p>
+					<p>Ad quartum concedo quod obstat illa ratio et causa, licet non illa sola. Et, quando
+						dicitur prius et posterius sunt relativa, dico quod, licet aliqua res absoluta possit
+						esse prior alia re absoluta, prius tamen non est ante prius quam posterius sit
+						posterius, nec aliqua res est ante prior alia quam illa alia sit posterior ipsa et eodem
+						modo dicendum est de causa et causato. Et quia isto secundo modo accipitur prius et
+						posterius, causa et effectus, ut sunt correlativa, non sequitur quod non sint simul, ut
+						sunt correlativa, nec isto modo unum est prius altero, immo causa et effectus simul sunt
+						et non sunt, ut patet per <name>Aristotelem</name> II <title>Physicorum</title> et V
+							<title>Metaphysice</title>, sed bene sequitur quod aliqua res absolute potest esse
+						prior alia et illud non est ad propositum, quia in divinis nulla res absoluta potest
+						esse prior alia realiter. Ad auctoritatem <name>Augustini</name> patet ex dictis quod
+						non est pro eis.</p>
+					<p><name>Franciscus de Maronis</name> distinctione 12, 1, questione 3, articulo 2</p>
+					<p>Contra secundam conclusionem quidam doctor arguit sic: generatio activa est prior
+						spiratione activa in Patre, igitur Pater prius generat Filium quam spiret Spiritum
+						Sanctum. Consequentia tenet. Antecedens probatur quadrupliciter. </p>
+					<p>Primo sic: omnis proprietas que advenit supposito preconstituto intelligitur ipso
+						poterior, sed sic advenit spiratio activa Patri preconstituto per generationem; ergo
+						etc.</p>
+					<p>Secundo sic: omnis proprietas constitutiva suppositi est prior in ipso ordine naturali
+						omni adventitia proprietate, sed generatio activa prius constituit Patrem, igitur esset
+						prior in eo omni adventitia proprietate.</p>
+					<p>Tertio sic: quandocumque aliqua duo signa sunt ordinata secundum ordinem nature,
+						quicquid est in primo signo est prius naturaliter quocumque quod est in secundo, sed
+						fecunditas intellectiva ponitur primum signum et volitiva secundum, generatio est in
+						fecunditate prima et spiratio in secunda, igitur etc.</p>
+					<p>Quarto sic: quando aliqua sunt simul natura, quicquid est simul natura cum uno, est cum
+						alio, et ita, si generatio activa et spiratio sunt simul natura, omnes origines simul
+						erunt naturaliter, et sic fecunditas intellectiva et volitiva simul sunt, quod non est
+						verum. Et [100ra] confirmatur, quia Pater non potest concipi sine generatione activa.
+						Potest tamen concipi sine spiratione activa cum non sit de sua quiditate, igitur
+						generatio activa in Patre est prior spiratione activa intelligentia naturali. </p>
+					<p>Secundo ad principale quidam alius doctor.</p>
+					<p><name>Franciscus de Marchia</name> in I, distinctione 1, questione 2, articulo 2, ubi
+						supra. </p>
+					<p>Arguit sic: ubicumque est ordo immediationis, ibi est ordo prioris et posterioris
+						secundum correspondentiam huiusmodi immediationis, quia prius est quod est primo
+						propinquus, secundum <name>Philosophum</name> V <title>Metaphysice</title>, capitulo de
+						priori, sed in divinis est ordo mediationis et immediationis, quia Filius a Patre
+						immediate <supplied>procedat</supplied>. Spiritus Sanctus vero procedit a Patre et Filio
+						et ita productio Spiritus Sancti presupponit productionem Filii. Ubicumque autem est
+						ordo presuppositionis, ibi est ordo prioris.</p>
+					<p>Responsio ad rationes utriusque <name>Francisci</name></p>
+					<p>Ad primum istorum nego antecedens et ad probationes dico. </p>
+					<p>Ad primam quod, licet Pater per generationem constituatur in esse paterno, spiratio
+						tamen non advenit ei sicut preconstituto, aliter pro aliqua mensura esset Pater pro qua
+						non spiraret, et per consequens pro qua non esset Spiritus Sanctus, quod non est
+						verum.</p>
+					<p>Ad secundam nego minorem quantum ad illam partem que dicitur quod spiratio est
+						proprietas adventitia, quia omnis talis proprietas est accidentalis. In divinis autem
+						nullum est accidens. </p>
+					<p>Ad tertiam, minor est falsa, quia in divinis sunt talia signa, sicut patet ex
+						dictis.</p>
+					<p>Ad quartum concedo quod omnes origines in divinis sunt simul natura et quod fecunditas
+						intellectiva et volitiva sunt simul. </p>
+					<p>Ad confirmationem dico quod ex hoc non concluditur aliqua prioritas realis, quia ad hoc
+						quod Pater possit concipi non concepta spiratione activa sufficit distinctio rationis
+						inter illa. Ex distinctione autem rationis non convincitur prioritas realis. Multi etiam
+						negarent minorem, quia non videtur multis quod Pater in divinis possit concipi sine
+						spiratione activa, cum omnia que sunt ipse vel in ipso sint idem formaliter et
+						quiditative.</p>
+					<p>Ad secundum principale concesso quod in divinis sit ordo mediationis et immediationis
+						ad sensum arguentis, quia Filius est a solo Patre et Spiritus Sanctus ab utroque, patet
+						ex dictis quod talis ordo non concludit prioritatem aliquam in quo, nec ordinem
+						presuppositionis, sicut doctor iste imaginatur.</p>
+					<p><name>Franciscus de Maronis</name> ubi supra</p>
+					<p>Contra tertiam conclusionem quidam doctor arguit sic: Filius habet a Patre quod
+						Spiritus Sanctus et Pater hoc habet a se ipso, igitur Spiritus Sanctus prius origine
+						spiratur a Patre quam a Filio. Antecedens est catholicum. Consequentia probatur, quia,
+						sicut Pater in essendo precedit ordine Filium, quia Filius est ab eo, ita in spirando,
+						quia actum spirandi Filius habet a Patre. Et confirmatur, quia esse prius origine est
+						esse a se et esse posterius origine est esse ab alio, igitur quicquid Pater habet a se
+						et Filius ab alio, hec Pater prius origine Filio, sed actum spirandi Pater habet a se,
+						Filius autem a Patre.</p>
+					<p>Responsio ad rationes <name>Francisci</name></p>
+					<p>Ad primum respondet <name>beatus Augustinus</name> XV <title>De Trinitate</title>,
+						capitulo 27, negando consequentiam dicens: “Spiritus non de Patre procedit in Filium, et
+						de Filio procedit ad sanctificandum creaturam, sed simul de utroque procedit; quamvis
+						hoc Filio Pater dedit et quemadmodum de se, ita de illo quoque procedit”. Ex quibus
+						verbis evidenter apparet quod, licet Filius habeat a Patre quod spiret Spiritum Sanctum,
+						tamen Spiritus Sanctus spiratur ab utroque, in cuius opposito ista consequentia
+						fundatur. Nec probatio valet, ut patet ex prima conclusione. Et ad confirmationem patet
+						ex dictis quod esse prius originem non est esse a se, nec esse posterius origine est
+						esse ab alio loquendo de prioritate in quo de qua isti doctores loquuntur.</p>
+					<p><name>Garro</name> in I, distinctione 12, questione 2, articulo 1</p>
+					<p>Contra quartam conclusionem quidam doctor arguit. </p>
+					<p>Primo sic: quandocumque sunt due processiones, sic se habentes quod terminus unius est
+						principium respectu termini alterius processionis; una processio secundum rem videtur
+						precedere aliam, sed ita se habet generatio in divinis ad spirationem quod terminus
+						generationis qui est Filius est princi-[100rb]-pium Spiritus Sancti qui est terminus
+						spirationis. </p>
+					<p>Preterea, quandocumque duo actus indifferenter respiciunt suppositum et sine aliquo
+						ordine, quilibet illorum actuum potest esse non supposito altero, sicut patet de audire
+						respectu videre qui nullum habent ordinem in supposito, et ideo potest aliquis audire
+						non supposito videre et econverso. Si igitur processiones predicte non haberent ordinem
+						inter se, cum una sit per modum intellectus et altera per modum voluntatis, posset esse
+						actus voluntatis non supposito actu intellectus, quod est impossibile.</p>
+					<p>Preterea, quando principia emanationum vel activum non possunt se habere per
+						equalitatem ad suppositum, nec actus sive emanationes se habent per equalitatem, sed
+						principia istarum emanationum que sunt virtus sive vis generativa et spirativa non
+						possunt se habere per equalitatem, quia una est constituens et alia quasi adveniens,
+						igitur nec emanationes se habebunt per equalitatem, et sic una est ante aliam. Et
+						confirmatur, quia quando actus sive emanationes se habent per equalitatem ad personam,
+						vel utraque constituit personam vel neutra, quorum utrumque est inconveniens, quia
+						quelibet persona oportet quod constituatur aliqua proprietate et una persona una
+						constitutiva proprietate, ergo etc.</p>
+					<p>Preterea, illa processio que completur et stat in dualitate est prior illa que
+						completur et stat in trinitate. Cuius ratio est, quia dualitas precedit trinitatem, sed
+						processio Filii completur et stat in dualitate. Processio autem Spiritus Sancti
+						completur in trinitate, igitur generatio Filii precedit spirationem Spiritus Sancti.</p>
+					<p>Responsio ad rationes <name>Garronis</name></p>
+					<p>Ad primum istorum dicitur quod maior est vera, ubi terminus processionis realiter est
+						prior suo per se principio, sed, ubi est posterior suo principio, una processio non est
+						posterior altera, et sic ei proposito, quia Spiritus Sanctus qui est terminus
+						spirationis non est posterior Filio qui est principium eius et terminus generationis, ut
+						patet ex dictis.</p>
+					<p>Ad secundum, maior est vera si actus omnino indifferenter et sine ordine respiciunt
+						suppositum. Sed in isto sensu minor est falsa, quia, licet inter generationem et
+						spirationem non sit ordo prioritatis et posterioritatis, est tamen ordo necessarie
+						similitatis et essentialis identitatis. Et hoc sufficit ne unus istorum actuum possit
+						esse sine reliquo qui tamen vellet ire ad vera concederet quod actus voluntatis divine
+						potest esse non presupposito actu intellectus, quia sufficit quod actus sit simul cum eo
+						et, si est simul, non presupponitur.</p>
+					<p>Ad tertiam, si per equalitatem intelligit simultatem et per inequalitatem intelligit
+						prioritatem, minor est falsa, quia vis generativa et spirativa que sunt principia
+						istarum emanationum isto modo per equalitatem se habent, quia inter ipsa est omnimoda
+						simultas et nulla prioritas realiter. Et quando dicitur quod una est constituens et alia
+						quasi adveniens, ut patet ex dictis, ibi nihil est adventitium, et ideo, licet una sit
+						constitutiva suppositi et alia non, tamen sequitur quod una sit prior alia. Et ad
+						confirmationem patet quod non est bona consequentia. Actus sive emanationes sunt simul,
+						ergo utraque constituit personam vel neutra. </p>
+					<p>Ad quartum, maior est vera ubi dualitas est prior trinitate, quod in proposito non est
+						verum, quia dualitas personarum non est realiter prior in trinitate in divinis. Ratio
+						huius est, quia ubi dualitas est prior trinitate, potest esse trinitate non existente.
+						In divinis autem tanta necessitate est trinitas sicut dualitas et dualitas sicut unitas,
+						quia omnia sunt summe necesse esse.</p>
+				</div>
+				<div>
+					<head>Ad argumenta principalia</head>
+					<p>Ad primum ostensum est in corpore questionis antecedens esse falsum et ad probationem
+						patet quid dicendum ibidem. Secundam rationem concedo. Concordat enim cum dictis
+							<name>Athanasii</name> dicens quod “in hac trinitate nihil prius aut posterius, nihil
+						maius aut minus, sed omnes tres persone” etc.</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

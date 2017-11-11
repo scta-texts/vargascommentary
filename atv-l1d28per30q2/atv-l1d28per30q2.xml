@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Liber I, distinctiones 28, 29, 30, quaestio 2</title>
+                <author>Alphonsus Toletanus Vargas</author>
+                <editor>Luciana Cioca</editor>
+                <respStmt>
+                    <name>Jeffrey C. Witt</name>
+                    <name>Luciana Cioca</name>
+                    <resp>TEI Encoder</resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.0.0-dev">
+                    <date when="2017-11-11">November 2017</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <authority>
+                    <ref target="http://www.thesis-project.ro/">ERC-THESIS project n° 313339</ref>
+                </authority>
+                <availability status="free">
+                    <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref></p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="V" n="Venice1490">Venice1490</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+            <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"> </schemaRef>
+            <editorialDecl>
+                <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+                    guidelines for a critical edition</p>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc status="draft">
+            <listChange>
+                <change when="2017-11-11" who="#LC" status="draft" n="0.0.0">
+                    <p>Created file for the first time.</p>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="la">
+        <front>
+            <div xml:id="includeList">
+            </div>
+            <div xml:id="starts-on">
+                <pb ed="#V" n="142-r"/>
+                <cb ed="#V" n="b"/>
+            </div>
+        </front>
+        <body>
+            <div xml:id="atv-l1d28per30q2"> 
+                <head>Liber I, distinctiones 28, 29, 30, questio 2</head>
+                <p>Secundo quero: utrum Dei ad creaturam sit relatio realis. </p>
+                <p>Et videtur primo quod non, quia quod realiter refertur ad aliud, realiter dependet ab illo, sed Deus non dependet realiter ab aliqua creatura; ergo etc.</p>
+                <p>Contra producentis ad productum est relatio realis, ut patet per <name>Philosophum</name> V <title>Metaphysice</title>, sed constat quod Deus vere et realiter producit creaturam et creatura vere et realiter est ab ipso produceretur, igitur.</p>
+                <p>In ista questione primo ad intellectum eius. Primo premit-
+                    <pb ed="#V" n="142-v"/>
+                    <cb ed="#V" n="a"/>
+                    -tam unicam distinctionem. Secundo de quesito ponam quadruplicem conclusionem. Tertio movebo dubia. Quarto respondebo ad illa. </p>
+                
+                <div type="articulus">
+                    <head>Primus articulus</head>
+                    <p>Quantum ad primum supposita distinctione relationis realis et rationis iuxta opinionem cuiusdam doctoris nostri distinguo de relatione reali, quia quedam est pure realis que in suo actuali esse et completo quod habet non est nisi in anima obiective tamen non est ab anima effective, sed a re extra.</p>
+                    <p>Potest igitur dici, iuxta imaginationem istius doctoris, quod relationum quedam est pure realis et talis est omnis relatio que in suo esse completo, nec est in anima obiective, nec ab anima effective: quedam est pure rationis et talis est omnis relatio que in suo esse completo est in anima obiective et ab anima effective, quedam vero participat de utraque et talis est omnis relatio que in suo esse actuali et completo non est nisi in anima obiective et in hoc convenit cum relatione reali et hec relatio, ut dicit, quamvis in aliquo conveniat cum relatione rationis, est tamen vere realis. Et ex his patet intellectus questionis, quia potest queri an Dei ad creaturam sit relatio realis primo vel secundo modo sumpta.</p>
+                    <p></p>
+                </div>
+                
+                <div type="articulus">
+                    <head>Secundus articulus</head>
+                    <p>Quantum ad secundum, quia in questione supponitur Deum referri ad creaturam, pono quattuor conclusiones. </p>
+                    
+                    <div>
+                        <head><supplied>Conclusio prima</supplied></head>
+                        <p>Prima est quod Deus ex tempore refertur ad creaturam. </p>
+                        <p>Probatur primo sic: Deus ex tempore est dominus creature, igitur Deus ex tempore refertur ad creaturam. Antecedens est <name>beati Augustini</name> V <title>De Trinitate</title>, capitulo finali. Consequentia patet per eum ibidem, quia dominus dicitur relative ad servus. Totam rationem ponit ibidem dicens dominus non dicitur nisi cum habere incipit servum et ista appellatio relativa ex tempore est Deo et iuxta finem capituli dicit quod ergo temporaliter dici incipit dominus quod ante non dicebatur manifestum est relative dici. </p>
+                        <p>Secundo sic: producentur ad productum est vera relatio, ex V <title>Metaphysice</title>, capitulo de ad aliquid, igitur producens creaturam ex tempore et in tempore refertur ad creaturam Deus in tempore produxit omnia; ergo.</p>
+                        <p>Tertio sic: Deus ex tempore dicitur relative ad creatura, igitur ex tempore refertur ad ipsam. Consequentia est nota, quia subiecta istarum propositionum sunt eadem et predicata equivalent in significando, quia referri nil aliud est quam relative dici et econtra. Et antecedens est <name>beati Augustini</name> ubi supra, dicens quod Dei substantia temporaliter incipit dici relative ad creaturam.</p>
+                        <p>Quarto sic: creatura ex tempore refertur ad Deum non ab eterno, igitur Deus ex tempore et non ab eterno refertur ad creaturam. Antecedens patet, quia referri presupponit esse. Creatura autem fuit in tempore non ab eterno, secundum <name>beatum Augustinum</name> ubi supra. Consequentia probatur, quia, secundum <name>Philosophum</name> in <title>Predicamentis</title>, omnia relativa dicuntur ad convertentiam, igitur, si unum relativum refertur ad aliud, necesse est alterum referri ad ipsum, igitur, si creatura refertur ad Deum, necesse est Deum referri ad creaturam. Et, si non refertur nisi ex tempore, necesse est Deum non referri nisi ex tempore, quia, si Deus refertur ab eterno ad creaturam vel creatura refertur ad ipsum ab eterno, quod est contra suppositum, vel non omnia relativa dicuntur ad convertentiam, quod est contra <name>Philosophum</name>. Istam conclusionem expresse ponit <name>beatus Augustinus</name> ubi supra dicens: refugium ergo nostrum Deus dicitur relative. Ad nos enim refertur cum ad Deum refugimus, sed certum est quod refugimus ad Deum ex tempore, igitur idem etiam vult <name>Magister</name> in littera, distinctione 30.</p>
+                    </div>
+                    
+                    <div>
+                        <head><supplied>Conclusio secunda</supplied></head>
+                        <p>Secunda conclusio est quod Deus non refertur ad creaturam ex tempore sola relatione rationis. </p>
+                        <p>Probatur primo sic: Deus non refertur temporaliter ad creaturam sola ratione causata ab intellectu, igitur nec sola relatione rationis. Consequentia patet, quia omnis relatio rationis causatur ab intellectu. Antecedens probatur, quia quod refertur ad creaturam sola relatione causata ab intelelctu non refertur ad ipsam intellectu nil causante. Patet de se, sed Deus refertur ad creaturam intellectu penitus nil causante, quia sive intellectus aliquid esset, sive non, Deus est vere dominus et conservatur creature, et per consequens refertur ad creaturam.</p>
+                        <p>Secundo sic: quod refertur ad creaturam sive intellectus sit, sive non, re-
+                            <pb ed="#V" n="142-v"/>
+                            <cb ed="#V" n="b"/>
+                            -fertur ad ipsam sola relatione rationis. Hoc patet, quia intellectu non existente omnis relatio rationis desinit esse, sed Deus refertur ad creaturam sive intellectus sit, sive non, quia non minus Deus est creator et conservator et dominus ligni vel lapidis creatura rationali non existente quam existente, ergo.</p>
+                        <p>Tertio sic: annihilata omni relatione rationis adhuc Deus est vere et realiter Deus et creator creature, igitur annihilata omni tali relatione Deus refertur ad creaturam. Antecedens est notum. Consequentia patet, quia creator relative ad creaturam dicitur et dominus ad servum, ut patet per <name>beatum Augustinum</name> V <title>De Trinitate</title>, capitulis 29 et 22, <title>De civitate Dei</title>, capitulo 15.</p>
+                        <p>Ex his tollitur illa solutio communis qua dicitur quod circumscripto omni opere intellectus Deus dicitur dominus creature, prout hoc nomen ‘dominus’ denominatur a relatione, quia, ut patet per <name>beatum Augustinum</name> capitulis preallegatis, si Deus dicitur dominus manifestum est relative dici, igitur non potest dici dominus et non dici relative.</p>
+                        <p>Quarto sic: <name>beatus Augustinus</name> V <title>De Trinitate</title>, capitulo preallegato, dicens quod Deus non dicitur ab eterno dominus creature ne cogamur creaturam sempiternam dicere, quia ille sempiterne non dominaretur nisi ista sempiterne famularetur. Sicut enim non potest esse servus qui non habet dominum, sic nec dominus qui non habet servum. Tunc sic: Deus non refertur ad creaturam nisi sola relatione rationis, igitur ista consequentia non est bona. Deus fuit dominus ab eterno, igitur creatura fuit ab eterno. Istud consequens est contra <name>beatum Augustinum</name>, ut patet, igitur et antecendes. Consequentia patet, quia relatio rationis non coexigit terminum in esse reali, igitur non sequitur Deus fuit dominus ab eterno solum secundum rationem, igitur creatura fuit ab eterno in esse reali, sicut loquitur <name>beatus Augustinus</name>.</p>
+                        <p>Et confirmatur, quia ad hoc quod Deus fuerit dominus ab eterno solum secundum rationem sufficit quod creatura fuerit ab eterno quantum ad esse cognitum quod est esse rationis.</p>
+                    </div>
+                    
+                    <div>
+                        <head><supplied>Conclusio tertia</supplied></head>
+                        <p>Tertia conclusio est quod Deus non refertur temporaliter ad creaturam relatione reali que non sit formaliter in Deo, nec in creatura nec alicubi subiective, sed obiective tantum in intellectu creato vel divino. Ista conclusio est directe contra positionem cuiusdam doctoris nostri que, ut clarius videatur. Primo declarabitur eius positio.</p>
+                        
+                    <div>
+                        <head><name>Michael de Massa</name></head>
+                        <p>Pro cuius declaratione premittit quandam distinctionem de relatione, sicut tangebatur in articulo precedenti, quia quedam sunt relationes que sunt pure reales que in suo esse completo nec sunt in anima, nec sunt ab anima effective cuiusmodi sunt paternitas et filiatio in divinis et multe consimiles in creaturis, quedam sunt relationes pure rationis que in suo esse completo sunt obiective in anima et effective ab anima per actum intelligendi sive directe attingendo ad eas tanquam ad terminum actionis, sive delinquendo eas per modum cuiusdam naturalis sequele circa obiecta cognita cuisumodi sunt relationes secundarum intentionum, sicut habituo predicati ad subiectum affirmativa vel negativa que tantum est in anima obiective et tantum ab anima effective et nullibi existentur nec obiective, nec subiective, et sic de similibus. Quedam vero sunt que in suo esse actuali quod habent non sunt nisi in anima obiective tantum, tamen non sunt ab anima effective, sed effective sunt a rebus cognitis ab intellectu. Non tamen efficiuntur ab eis nisi quando intellectus concipit eas et hoc modo concedi potest quod habitudo veritatis et falsitatis predicati ad subiectum, licet non sit alicubi subiective, sed solum in anima obiective, est tamen effective a rebus cognitis. Tamen non efficitur actualiter nisi quando sunt in presentia intellectus et hoc loquendo de veritate propositiones et tales relationes sunt vere reales, ut dicit. Conveniunt tamen cum relationibus in hoc quod nec iste, nec ille sunt subiective in aliquo nec in anima, nec extra animam.</p>
+                        <p>His premissis videtur isti doctori quod Deus et creatura referantur realiter oppositis relationibus realibus, quarum una sit realiter et for-
+                            <pb ed="#V" n="143-r"/>
+                            <cb ed="#V" n="a"/>
+                            -maliter in creatura. Alia vero nusquam sit formaliter nec subiective, sed sit tantum obiective in anima, non tamen effective ab anima, sed a Deo cognito, sicut superius dicebatur de veritate propositionis. Creatura ergo realiter refertur ad ipsum Deum relatione reali que formaliter et subiective est in ipsa. Deus vero refertur realiter ad creaturam relatione reali que nusquam est subiective, sed tantum obiective in anima. Et contra modum istum dicendi pono conclusionem istam quam probo primo sic: omnis relatio realis que non est Deus est alicubi formaliter et subiective est. Hec relatio qua Deus ponitur referri realiter ad creaturam est relatio realis et non est Deus, nec aliquid in Deo. Ex supposito igitur est alicubi formaliter et subiective, quod est contra positum. Maior probatur, quia omnis relatio realis que non est Deus est realiter accidens, ut patet ex supradictis, igitur omnis talis est alicui formaliter et subiective. Patet illa consequentia, quia omne accidens reale naturaliter est alicubi formaliter et subiective cum sit ens indigens esse in aliquo, secundum <name>Avicennam</name>, et tamen sic esse est in esse, secundum <name>Porphirium</name>.</p>
+                        <p>Et confirmatur, quia quod realiter nulli accidit non est realiter accidens patet per expositionem vocabuli, sed quod non est alicubi formaliter, nec subiective realiter nulli accidit, ergo quod non est alicubi formaliter, nec subiective non est realiter accidens.</p>
+                        <p>Preterea, nulla relatio realis que non est Deus est realiter substantia, igitur omnis talis est alicubi formaliter et subiective. Antecedens patet ad presens. Consequentia probatur, quia omne ens reale quod non indiget esse in alio est substantia, secundum <name>Avicennam</name>, sed omnis relatio realis que non est alicubi formaliter nec subiective est ens reale quod non indiget esse in alio, igitur omnis relatio realis que non est alicubi formaliter nec subiective est realiter substantia. Et confirmatur, quia cuicumque naturaliter convenit per se esse illud est realiter substantia, sed omni enti reali cui naturaliter repugnat esse in alio formaliter et subiective naturaliter convenit per se esse, igitur omne ens reale cui naturaliter repugnat esse in aliquo formaliter et subiective est realiter substantia, igitur omnis relatio realis que non est realiter substantia est alicubi formaliter vel subiective.</p>
+                        <p>Secundo probo etiam supposito quod aliqua talis relatio sit possibilis, quia Deus non refertur ad creaturam tali relatione. </p>
+                        <p>Primo sic: illud quod refertur ad creaturam sive intellectus intelligat, sive non, refertur ad ipsam relatione que tantum habet esse obiective in intellectu concipiente. Patet ex terminis, sed Deus refertur temporaliter ad creaturam sive intellectus sive non, ut patet ex dictis, ergo.</p>
+                        <p>Secundo sic: illud quod nullibi est subiective, sed solum in anima obiective desinit esse anima desinente, sed relatio qua Deus refertur ad creaturam non desinit esse, quia annihilata omni creatura rationali, adhuc Deus est vere dominus et conservator huius ligni vel lapidis.</p>
+                    </div>
+                    </div>
+                    
+                    <div>
+                        <head><supplied>Conclusio quarta</supplied></head>
+                        <p>Quarta conclusio est quod Deus refertur ad creaturam temporaliter vera relatione existente formaliter in Deo vel in creatura. Et hoc sequitur ad precedens, quia ex prima patet Deum temporaliter referri ad creaturam. Et ex secunda patet ipsum referri relatione reali, quia non sola relatione rationis. Et ex tertia patet ipsum referri relatione reali, quia non sola relatione reali que nullibi sit formaliter nec subiective.</p>
+                        <p>Ex his evidenter sequitur quod referatur relatione reali existente formaliter in ipso vel in creatura. Ex istis patet quod refertur Deus realiter ad creaturam sive quod Dei ad creaturam est vera relatio realis, quod prinicipaliter querebatur, et sic patet quid dicendum. </p>
+                    </div>
+                </div>
+                
+                <div type="articulus">
+                    <head>Tertius et quartus articulus</head>
+                    <p>Quantum ad tertium et quartum articulos movenda et solvenda sunt dubia et primo contra primam conclusionem potest argui primo sic: omnis relatio temporalis accidit suo fundamento, igitur Deus non refertur ad creaturam relationem aliqua temporali, igitur nec ex tempore. Prima consequentia patet, quia nullum accidens est in Deo. Patet etiam secunda, quia referri ex tempore est referri relati-
+                        <pb ed="#V" n="143-r"/>
+                        <cb ed="#V" n="b"/>
+                        -one aliqua temporali. Antecedens probatur, quia omnis relatio que non est Deus accidit suo fundamento cum omnis talis sit vere accidens, secundum <name>beatum Augustinum</name> V <title>De Trinitate</title>, capitulo 5. Sed omnis relatio temporalis est relatio que non est Deus, igitur.</p>
+                    <p>Preterea, Deus non refertur ad creaturam, igitur ex tempore non refertur ad ipsam. Consequentia nota. Antecedens probatur multipliciter. Primo sic: quicquid refertur ad aliud secundum aliquid sui, dependet ab eo, sed Deus secundum nihil sui dependet a creatura; igitur Deus non refertur ad creaturam. Minor supponitur. Maior probatur inductive et ratione. Inductione, nam Pater, quia refertur ad Filium, dependet ab eo quantum ad esse Patrem et mensura, quia refertur ad mensuratum dependet ab eo quantum ad esse mensuram, quia sequitur mensuratum non est, ergo et mensura non est, licet possit esse illud quod est mensura. Ratione, quia esse relationis consistit in adiacentia et dependentia a termino, ergo omne relativum ut relativum est dependet a suo correlativo.</p>
+                    <p>Preterea, que sunt ad invicem referribilia, sunt ad invicem comparabilia, sed Deus et creatura non sunt ad invicem comparabilia, igitur nec referribilia. Maior patet, quia relatio comparatio quedam est. Minor probatur, quia que sunt ad invicem comparabilia, sunt eiusdem generis, quod de Deo et creatura dici non potest cum Deus non sit in genere.</p>
+                    <p>Et confirmatur, quia in quocumque genere est unum relativorum et alterum, sed impossibile est Deum esse in eodem genere cum creatura cum Deus non sit in genere impossibile est ipsum referri ad creaturam.</p>
+                    <p>Preterea, quicquid refertur ad aliud secundum aliquid sui est simul natura cum illo. Hoc patet, quia relativa, ut relativa sunt et simul natura, secundum <name>Philosophum</name>, sed Deus secundum nihil sui est simul cum creatura nec secundum rem, nec secundum rationem; ergo Deus nullo modo refertur ad creaturam, nec secundum rem, nec secundum rationem. </p>
+                    <p>Preterea, cui repugnat omnis compositio secundum rem et secundum rationem, repugnat referri ad alterum ex tempore, sed Deo repugnat etc; igitur. Minor supponitur. Maior probatur, quia omnis relatio adveniens alicui ex tempore facit compositionem cum eo secundum rem vel saltem secundum rationem.</p>
+                    
+                    <div>
+                        <head>Responsio</head>
+                        <p>Ad ista respondetur communiter quod Dei ad creaturam non est relatio realis, sed rationis tantum, et ideo non sequitur quod aliqua relatio temporalis accidat ipsi Deo, quia relatio rationis non inest alicubi subiective, sed solum in anima obiective, nec sequitur quod Deus secundum aliquid sui dependeat a creatura, nec secundum aliquid sui sit simul cum creatura, quia relatio rationis non est aliquid Dei, nec sequitur quod Deus et creatura sint comparabilia secundum rem, sed secundum rationem precise, quod nullum est inconveniens. Nec sequitur ulterius quod in Deo sit aliqua compositio, quia relatio rationis nullo modo componit cum re extra. Sed illud non sufficit, quia, sicut patet ex secunda conclusione, Deus non refertur ad creaturam sola relatione rationis. Dico tamen quod non refertur ad ipsam relatione reali que sit in eo, sed relatione reali que subiective est in ipsa, prout deducetur questione sequenti, et ideo non sequitur quod aliquid accidat Deo, sed creature. Hec est solutio <name>beati Augustini</name> V <title>De Trinitate</title>, capitulo finali et in littera distinctionis 30. Nec sequitur ulterius quod Deus secundum aliquid sui sit simul cum creatura, nec quod secundum aliquid sui dependeat a creatura, licet refferi non sit proprie dependere, quia talis relatio non est Deus nec aliquid, sed creatura et in creatura subiective, nec sequitur etiam quod Deus et creatura sint eiusdem generis, quia non comparantur in aliquo uno quod sit eiusdem rationis univoce in extremis, sed comparatione relativa precise que non arguit identitatem generis. Et ulterius non referuntur relationibus oppositis existentibus in extremis, et ideo non oportet quod sint eiusdem generis, nec insuper sequitur quod sit in Deo aliqua compositio secundum rem, nec secundum rationem, quia nihil advenit Deo ex tempore quod sit in ipso, sed creature rationes, igitur non concludunt etc. 
+                            <pb ed="#V" n="143-v"/>
+                            <cb ed="#V" n="a"/> </p>
+                        <p>Contra secundam conclusionem est opinio communis que ponit Deum referri ad creaturam ex tempore sola relatione rationis et probat hec opinio duas conclusiones, ex quibus infert propositum.</p>
+                    </div>
+                    
+                    <div>
+                        <head>Opinio communis</head>
+                        <p>Prima est quod Deus ex tempore refertur ad creaturam. </p>
+                        <p>Secunda est quod impossibile est ipsum referri ad ipsam relatione reali. </p>
+                        <p>Et ex istis sequitur quod referatur sola relatione rationis. Verum, quia in sequenti questione videbitur qualiter Deus referatur realiter ad creaturam et qualiter non, supersedeo ad presens.</p>
+                        <p>Contra tertiam conclusionem doctoris ille qui ponit oppositum arguit non quidem directe, sed indirecte. Probat enim aliquas conclusiones ex quibus infert conclusionem intentam. Probat namque primo quod Deus referatur realiter ad creaturam. Secundo, quod non relatione reali que sit formaliter in ipso. Tertio, quod nec relatione reali que sit in creatura. </p>
+                        <p>Et ex istis infert quod referatur ad ipsam relatione reali que nusquam sit formaliter et subiective. Verum, quia in questione sequenti apparebit, sicut statim dicebatur, qualiter Deus referatur realiter ad creaturam et qualiter non, supersedeo ad presens de rationibus istis.</p>
+                        <p>Contra quartam conclusionem est communis opinio. Rationes tamen ipsius non adduco pro nunc, quia conclusio declarabitur in questione sequenti, sicut dictum est pluries.</p>
+                    </div>
+                    
+                    <div>
+                        <head>Ad rationes principales</head>
+                        <p>Ad primam rationem principalem patet quid dicendum ex solutione secunde rationis contra primam conclusionem. </p>
+                        <p>Secundam rationem concedo et credo ipsam concludere.</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+

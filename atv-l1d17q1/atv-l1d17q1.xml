@@ -1,0 +1,1002 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Liber I, Distinctio 17, Quaestio 1</title>
+				<author>Alphonsus Toletanus Vargas</author>
+				<editor>Luciana Cioca</editor>
+				<respStmt>
+					<name>Jeffrey C. Witt</name>
+					<resp>TEI Encoder</resp>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="0.0.0-dev">
+					<date when="2016-09-02">September 02, 2016</date>
+				</edition>
+			</editionStmt>
+			<publicationStmt>
+				<authority>THESIS project</authority>
+				<availability status="free">
+					<p>Public Domain</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="P" n="Paris1490">Paris1490</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+			<schemaRef n="lbp-critical-1.0.0"
+				target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/1.0/critical.rng"> </schemaRef>
+			<editorialDecl>
+				<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+					guidelines for a critical edition</p>
+			</editorialDecl>
+		</encodingDesc>
+		<revisionDesc status="draft">
+			<listChange>
+				<change when="2016-09-02" who="#JW" status="draft" n="0.0.0">
+					<p>Created file for the first time.</p>
+				</change>
+			</listChange>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:lang="la">
+		<front>
+			<div xml:id="includeList">
+				<xi:include
+					href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+					xpointer="worksCited"/>
+				<xi:include
+					href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+					xpointer="prosopography"/>
+			</div>
+			<div xml:id="starts-on">
+				<pb ed="#P" n=""/>
+				<cb ed="#P" n=""/>
+			</div>
+		</front>
+		<body>
+			<div xml:id="atv-l1d17q1">
+				<head>Liber I, Distinctio 17, Quaestio 1</head>
+				<p><quote>Iam nunc accedamus</quote> etc.</p>
+				<p>Circa distinctionem istam 17 in qua <name ref="#Lombard">Magister</name> principaliter
+					agit de modo missionis Spiritus Sancti per infusionem caritatis consuevit communiter queri
+					de intensione et remissione ipsius, iuxta quod quero: utrum caritas augeatur secundum
+					esse. </p>
+				<div type="rationes-principales">
+					<head>Rationes principales</head>
+					<p>Et videtur primo quod sic, quia caritas augeretur et non secundum essentia, igitur
+						secundum esse. Consequentia est nota, quia nulla forma potest augeri nisi secundum
+						essentiam vel secundum esse. Antecedens quantum ad primam partem est <name>beati
+							Augustini</name> dicens <title>Super Iohannem</title> quod caritas meretur augeri et
+						aucta meretur perfici. Quantum ad secundum partem patet, quia omnis forma et sic caritas
+						in simplici et invariabili essentia consistit, secundum auctorem VI
+							<title>Principiorum</title>.</p>
+					<p>Contra, vel esse caritatis est idem realiter quod essentia eius, vel est quedam
+						realitas distinctas ab ipsa cum non sit nihil. Si detur primum, cum caritas non augeatur
+						secundum essentiam ex ratione precedenti, igitur nec secundum esse. Si detur secundum,
+						idem sequitur, quia esse non est minus simplex quam essentia, igitur, si caritas non
+						potest augeri secundum essentiam propter simplicitatem essentie, pari ratione nec
+						secundum esse.</p>
+				</div>
+				<div>
+					<head>Divisio quaestionis</head>
+					<p>In ista questione erunt quattuor articuli. Primo ponam unius termini declarationem,
+						secundo quadruplicem conclusionem. Tertio movebo dubia. Quarto respondebo.</p>
+				</div>
+				<div type="articulus">
+					<head>Primus articulus</head>
+					<p>Quantum ad primum terminus declarandus est augeri secundum esse pro cuius declaratione
+						notandum quod de esse caritatis et cuiuslibet alterius forme accidentalis diversi sunt
+						modi dicendi, quia quidam dicunt...</p>
+					<p><name>Sanctus Thomas</name> XXII, questione 24, articulo 5 et <name>Egidius</name> I,
+						distinctione 17, questione 8, articulo.</p>
+					<p>…quod esse caritatis et cuiuslibet alterius forme accidentalis non est aliud quam suum
+						in esse et intimari subiecto sive suum participari a subiecto, quod idem est. Responsio
+						eorum est, quia accidentis esse est in esse, cum accidentia non sint entia nisi, quia
+						entis, VII <title>Metaphysice</title>, et sic accipiendo esse caritatis. Patet quod
+						intellectus questionis est utrum caritas augeatur secundum quid magis inheret subiecto
+						sive secundum maiorem partitionem et radicationem sui in subiecto, prout istis
+						doctoribus videtur.</p>
+					<p><name>Gerardus de Senis</name> I, distinctione 17, questione 2, articulo 9</p>
+					<p>Quidam vero noviores volentes declarare positionem doctoris nostri predictam dicunt
+						quod esse forme substantialis secundum quod dicitur magis suscipere est effectus
+						formalis ipsius forme qui nihil aliud est quam quidam mo-[106va]-dus derelicta a forma
+						in suo subiecto et, licet iste modus sit aliud distinctum a forma, tamen non est res
+						media inter subiectum et formam, sed tantum modus quidam subiecti stantis sub forma et
+						participantis eam et, si sic accipiatur esse caritatis, patet quod intellectus
+						questionis est utrum ex unione caritatis cum anima derelinquatur in ipsa aliquis talis
+						modus realis intensibilis et remissibilis, prout videtur istis. Et hoc de primo.</p>
+				</div>
+				<div type="articulus">
+					<head>Secundus articulus</head>
+					<p>Quantum ad secundum pono quattuor conclusiones: tres contra secundum modum dicendi
+						tactum in articulo precedenti et unam contra primum.</p>
+					<div>
+						<head><supplied>Conclusio prima</supplied></head>
+						<p>Prima est quod ex coniunctione forme accidentalis ad subiectum non derelinquitur
+							aliquis modus realis in subiecto qui non sit idem realiter cum essentia forme nec res
+							medians inter subiectum et formam.</p>
+						<p>Pro deductione istius conclusionis pono duas propositiones. </p>
+						<p>Prima est quod omnis modus realis cuiuscumque rei est aliqua res. Hanc probo sic:
+							omnis talis modus est aliquid et ens et nullus talis modus est ens rationis, igitur
+							omnis talis modus est aliqua res. Antecedens quantum ad primam partem patet, quia
+							nullus est omnino nihil. Patet etiam quoad secundam, quia, si aliquis esset ens
+							rationis, iam non esset modus realis, quod est contra positum. Consequentia probatur,
+							quia omne ens reale est aliqua res, nec aliud intelligo nomen rei et, si doctores isti
+							aliquid intelligunt non disputant nisi de nominibus tantum, sed omne quod est et non
+							est ens rationis est verum ens reale, ut patet; ergo.</p>
+						<p>Secundo sic: nullus talis modus est minoris entitatis quam sit relatio realis in
+							creaturis, igitur omnis est aliqua res. Consequentia patet, quia relatio realis in
+							creaturis est aliqua res. Antecedens est de se clarum cum relatio in creaturis sit
+							minime entitatis, ut patet per <name>Commentatorem</name> XII
+								<title>Metaphysice</title>. </p>
+						<p>Et confirmatur, quia modus rei non est minoris realitatis quam sit relatio
+							distinctionis qua distinguitur ab alio modo que tamen est aliqua res.</p>
+						<p>Tertio patet hoc idem auctoritate illa Vulgata. <name>Augustinus</name> I <title>De
+								doctrina christiana</title> dicens quod una res est omnino nihil est. Et auctoritate
+								<name>Anselmi</name>
+							<title>De incarnatione verbi</title>, capitulo 2: solemus dicere rem quicquid dicimus
+							esse aliquo modo aliquid. Et hoc iste doctor concedit expresse ubi supra in solutione
+							cuiusdam argumenti respondendo ad auctoritatem <name>beati Augustini</name> statim
+							allegatam; igitur etc. </p>
+						<p>Secunda propositio est quod ex coniunctione forme accidentalis ad subiectum non
+							derelinquitur aliquis modus realis in subiecto qui sit idem realiter cum ipso et, quia
+							propositionem istam negant doctores isti de plano, probo eam multipliciter. </p>
+						<p>Primo sic: si ex coniunctione forme accidentalis cum subiecto derelinqueretur aliquis
+							talis modus realis in ipso subiectum recipiens formam, esset effectus formalis illius
+							forme, quod est omnino impossibile, aliter materia esset effectus formalis quantitatis
+							et anima esset effectus formalis caritatis ipsam informatis, quod nullus sane mentis
+							diceret. Consequentia probatur per syllogismum expositorium sic: hic modus derelictus
+							a forma in subiecto est effectus formalis illius forme per eos. Hoc subiectum est hic
+							modus ex supposito; igitur etc.</p>
+						<p>Secundo sic: si ex coiunctione forme cum subiecto derelinqueretur etc., sequitur quod
+							idem erit prius et posterius se ipso realiter, quod est impossibile et contra
+								<name>beatum Augustinum</name> I <title>De Trinitate</title>, capitulo 1.
+							Consequentia patet, quia quicquid est prius priore est prius posteriore, sed subiectum
+							est realiter prius forma ipsum informante, cum sit receptivum ipsius et forma est
+							realiter prior isto modo, cum sit effectus formalis ipsius et derelictus ab ipsa;
+							igitur subiectum est realiter prius tali modo. Tunc sic: vel subiectum et modus iste
+							sunt idem realiter, vel non. Si non, habetur principalis conclusio. Si sic, patet quod
+							idem est prius et posterius se ipso realiter que fuit consequentia declaranda. Et
+							potest ex istis argui ad principale sic: hoc subiectum demonstrato quocumque subiecto
+							est realiter prius hac forma informante ipsum hic modus derelictus a forma etiam
+							supposito quod aliquis sit talis non est realiter prior eadem forma, igitur hic modus
+							non est realiter hoc subiectum, [106vb] quod est principale propositum.</p>
+						<p>Tertio sic: illud non est idem realiter alicui sine quo potest illud realiter esse
+							absque contradictione, sed sine modo derelicto a forma in subiecto subiectum potest
+							realiter esse absque contradictione; ergo. Maior patet per primum principium
+							complexum. Minor est evidens, quia anima potest realiter esse sine caritate, igitur et
+							sine modo in ipsa derelicto ex caritate.</p>
+						<p>Et confirmatur, quia hec anima non potest esse hac anima non existente, sed hec anima
+							potest esse hoc modo derelicto in ipsa a caritate non existente; igitur hic modus non
+							est hec anima et similiter potest argui in aliis.</p>
+						<p>Ultimo arguitur sic: illa non sunt idem realiter quorum unum potest intendi realiter
+							et de facto intenditur altero non intenso. Patet ex terminus, sed modus iste potest
+							realiter intendi et de facto intenditur secundum istum doctorem, subiectum autem non;
+							ergo etc.</p>
+						<p>His propositionibus premissis patet conclusio principalis, quia vel ex coniunctione
+							forme ad subiectum derelinquitur aliquis modus realis in subiecto, vel non. Si non,
+							evidens est conclusio. Si sic, cum talis modus sit aliqua res, ut patet ex prima
+							propositione et non sit aliqua res que est subiectum, ut patet ex secunda, relinquitur
+							quod illud sit idem realiter cum forma, vel res medians inter subiectum et formam,
+							quod est propositum; ergo.</p>
+					</div>
+					<div>
+						<p>Secunda conclusio principalis dato per impossibile quod ex coniunctione forme
+							accidentalis ad subiectum derelinquatur aliquis modus realis in subiecto qui non sit
+							idem realiter quod essentia forme, nec res medians inter subiectum et formam quod
+							talis modus derelictus non est esse forme accidentalis a qua derelinquitur, cuius
+							oppositum istis doctoris videtur.</p>
+						<p>Probatur primo sic: subiectum forme accidentalis non est esse illius, igitur dato
+							quod ex coniunctione forme accidentalis ad subiectum derelinquatur in ipso aliquis
+							modus realis etc., talis non erit esse forme accidentalis. Consequentia est evidens,
+							quia cum talis modus derelictus si ponatur sit aliqua res, ut patet ex prima
+							propositione precedentis conclusionis etiam per eos, si non sit idem realiter cum
+							forma, nec res medians inter subiectum et formam, relinquitur quod sit idem realiter
+							cum subiecto et hoc ipsi concedunt de plano. Antecedens probatur, licet nulli
+							intelligenti debeat esse dubium. Primo, quia essentia forme non est prior forma,
+							saltem aliqua forma accidentali et constat quod subiectum potest esse prius duratione
+							saltem aliqua forma accidentali. Secundo, quia nulla substantia est esse forme
+							accidentalis et tamen aliqua est subiectum ipsius. Tertio, quia subiectum caritatis
+							est anima sine voluntas et constat quod nullum istorum est caritas; ergo etc.</p>
+						<p>Secundo sic: et est quasi confirmatio sive declaratio precedentis rationis nulla
+							materia est esse existentie quantitatis de quo nunc loquimur, sed talis modus
+							derelictus a quantitate in materia etiam posito quod sit possibilis non est nisi
+							materia; igitur talis modus derelictus, etiam si sit possibilis, non est esse
+							existentie quantitatis. Minorem ipsi concedunt expresse et patet ex ratione
+							precedenti, quia, cum talis modus si ponatur sit aliqua res si non sit realiter
+							quantitas nec res medians inter quantitatem et materiam, relinquitur quod realiter sit
+							ipsa materia. Et maior videtur clara, tum quia quantitas potest existere sine materia,
+							tum quia esse existentie quantitatis, vel non est res distincta a quantitate, vel
+							saltem non est substantia et materia est vere substantia, tum quia quod est pura
+							potentia in genere entium, sicut est materia, non est actualis existentia forme;
+							igitur etc.</p>
+						<p>Tertio ex fundamentis doctoris nostri quem tamen iste doctor credit defendere et
+							declarare arguo sic: esse forme accidentalis non est aliud quam suum inesse et
+							intimari subiecto, ut patet ex positione doctoris, sed talis modus derelictus a forma
+							in subiecto etiam si ponatur non est idem quod suum inesse et intimari subiecto; ergo.
+							Probatur minor, quia talis modus derelictus est idem realiter cum subiecto, secundum
+							istum doctorem, et constat quod inherentia accidentis non est idem realiter cum
+							subiecto cui inheret. Secundo, quia talis inherentia accidentis est idem realiter cum
+							accidente, ut dicit una opinio, vel saltem est modus [106ra bis] accidentis, ut dicit
+							etiam alia, et talis modus derelictus a forma in subiecto non est idem realiter, cum
+							forma secundum istum doctorem nec est modus ipsius forme, sed subiecti stantis sub
+							forma; igitur.</p>
+						<p>Ultimo sic: implicatio contradictionis est formam esse sine suo esse, sed non est
+							implicatio contradictionis formam accidentalem esse sine tali modo derelicto etiam
+							supposito quod sit possibilis; igitur modus ille non est eius esse. Maior patet ex
+							terminis et minor est clara, quia non est implicatio ipsam esse sine modo derelicto ab
+							ipsa in subiecto; ergo. Et confirmatur, quia, sicut se habet esse forme substantialis
+							ad formam substantialem, sic esse forme accidentalis ad formam accidentalem, sed esse
+							forme substantialis non est modus derelictus ab ipsa in materia etiam supposito quod
+							derelinquatur de facto cum possit esse sine tali modo, sicut patet in anima separata;
+							igitur etc.</p>
+						<p>Ex ista conclusione et presertim ex hac ultima ratione infero correlarie…</p>
+						<p>Contra <name>Sanctum Thomam</name> et doctorem nostrum.</p>
+						<p>…Quod esse accidentalis non est suum inesse et intimari subiecto. Deductio est clara,
+							quia forma accidentalis potest esse et non esse, nec intimari subiecto cum possit esse
+							sine ipso. Et confirmatur, quia non magis inesse est esse accidentis quam per se esse
+							sit esse substantie, sed per se esse non esse substantie, cum substantia possit esse
+							sine tali esse, sicut patet de natura humana assumpta a verbo.</p>
+					</div>
+					<div>
+						<p>Tertia conclusio principalis est etiam dato per impossibile quod esse forme
+							accidentalis sit talis modus derelictus ab ipsa in subiecto quod nulla forma
+							intentionalis suscipit magis et minus quantum ad tale esse. </p>
+						<p>Probatur primo sic: si albedo susciperet magis et minus quantum ad tale esse,
+							quantitas verius susciperet magis et minus quam albedo, quod tamen est falsum et
+							contra omnes. Consequentia probatur, quia illud verius competit quantitati quam
+							albedini, quod tamen competit ei quod est idem realiter cum quantitate et non est idem
+							realiter cum albedine. Patet ex terminis, sed stante supposito sic esset in proposito;
+							igitur. Probatur minor, quia suscipere magis et minus stante supposito tantum convenit
+							modo qui est effectus formalis albedinis ut esse ipsius et iste modus, secundum istos
+							doctores, est idem realiter cum quantitate que est subiectum albedinis et differet
+							realiter ab albedine; ergo etc.</p>
+						<p>Et similiter potest argui de caritate, quia, si susciperet magis et minus quantum ad
+							tale esse, sequeretur quod anima vel voluntas verius susciperet magis et minus quam
+							caritas, quod non videtur sane dictum.</p>
+						<p>Secundo sic: si albedo susciperet magis et minus quantum ad tale esse motus augmenti
+							in albedine, non esset de albatio, nec esset motus ad qualitatem, sed ad quantitatem,
+							quod nullus diceret. Consequentia probatur, quia motus, secundum doctrinam
+								<name>Aristotelis</name> et omnium philosophantium, specificatur a termino ad quem,
+							sed in augmento albedinis terminus formalis est quantitas non albedo, nec qualitas
+							aliqua stante supposito, igitur motus augmenti in albedine non erit motus ad
+							qualitatem sed ad quantitatem, nec erit per consequens de albatio. Probatur minor,
+							quia in augmento albedinis stante supposito terminus formalis esset modus ille
+							derelictus ab albedine secundum determinatum gradum et hic modus, ut dicunt isti
+							doctores, est idem, igitur cum quantitate et differt realiter ab albedine et ab omni
+							qualitate; ergo etc. Et confirmatur iste due rationes sic: subiectum albedinis cum sit
+							quantitas non suscipit magis et minus, sed stante supposito est realiter idem cum
+							subiecto ipsius, ut patet ex supradictis; igitur esse albedinis non suscipit magis,
+							nec minus, nec per consequens albedo quantum ad tale esse et idem dicendum est de
+							qualibet alia forma accidentali. </p>
+						<p>Tertio ad principale ex fundamentis istorum doctorum arguitur sic: qualitas non
+							augetur secundum essentiam, igitur nec secundum esse illud. Antecedens suum est et
+							consequentia probatur, quia, sicut se habet modus derelictus a quantitate ad
+							quantitatem ipsam, ita modus derelictus a qualitate ad qualitatem. Propositio patet ex
+							terminis. Supposito quod tales modi ponantur, sed nunquam [106rb bis] extensio que est
+							modus quantitatis augmentatur nec variatur nisi varietur quantitas ut docet
+							experientia; ergo etc.</p>
+						<p>Et confirmatur, quia effectus cause formalis nunquam variatur nisi ex variatione
+							cause. Sed iste modus qui ponitur esse ipsius forme est effectus cause formalis,
+							igitur non variatur, et per consequens non suscipit magis nec minus nisi varietur
+							forma. Minor est sua. Maior probatur, quia omnis variatio est effective ab aliquo
+							agente, ergo quando agens variat modum derelictum ab albedine, vel variat ipsum
+							immediate, vel variat ipsum variando albedinem. Si detur secundum, sequitur quod
+							albedo varietur in se et natura sua, quod est propositum. Si detur primum, sequitur
+							quod agens posset in effectum cause formalis sine causa formali media, quod est
+							impossibile. Et confirmatur, quia per idem aliquid generatur et augmentatur, sed agens
+							non potest generare illum modum nisi generando formam, igitur nec augmentare nisi
+							augmentando ipsam.</p>
+					</div>
+					<div>
+						<p>Quarta conclusio est quod impossibile est formam accidentalem et precise caritatem
+							intendi propter maiorem radicationem et participationem subiecti nisi sit intensibilis
+							in natura sua. Probatur primo sic: impossibile est formam accidentalem intendi propter
+							maiorem dispositionem subiecti nisi sit intensibilis in essentia et natura sua, igitur
+							impossibile est ipsam intendi propter maiorem radicationem et participationem sui a
+							subiecto nisi sit intensibilis etc. Consequentia est nota, quia non maior vel minor
+							participatio forme nisi propter maiorem vel minorem dispositionem subiecti, ut dicunt
+							tenentes oppositum. Antecedens autem a quo dependet tota deductio probatur
+							multipliciter. </p>
+						<p>Primo, quia cum illa dispositio sit forma quedam intensibilis et remissibilis, cum
+							possit esse maior vel minor vel intenditur secundum essentiam suam et habetur
+							propositum, quia pari ratione et alia forma intensibilis quecumque intenditur secundum
+							essentiam vel intenditur secundum esse propter aliam maiorem dispositionem subiecti ad
+							ipsam et de illa. Queram ut prius et proceditur in infinitum in dispositionibus istis,
+							quod est inconveniens, vel est devenire ad aliquam qua secundum suam essentiam
+							intenditur et habetur ut prius. Et confirmatur specialiter de caritate, quia cum
+							dispositio illa qua magis disponimur ad caritatem non sit voluntas nec substantia
+							ipsius, quia voluntas vel substantia ipsius anime non magis disponit quantum est de se
+							ad caritatem quam voluntas vel substantia alterius erit dispositio quedam voluntati
+							vel anime superaddita. Quo posito quero an sit dispositio naturalis et naturaliter
+							acquisita vel supernaturalis et infusa. Si detur primum, sequitur quod ex prius
+							naturalibus possumus caritate intendere et simpliciter mereri, quod est error Pelagii.
+							Si detur secundum, queram ut prius an talis dispositio intendatur secundum essentiam
+							et habetur propositum, quia pari ratione poterat caritas intendi secundum essentiam,
+							cum sit quedam forma supernaturalis et infusa vel solum secundum esse propter aliam
+							maiorem dispositionem subiecti et de illa queram ut prius et proceditur in infinitum,
+							vel erit devenire etc.</p>
+						<p><name>Thomas de Argentina</name> I, distinctione 17, questione 2, articulo 2</p>
+						<p>Sed ad istam rationem in suo simili quidam doctor noster nititur respondere dicens
+							quod quamvis illud argumentum aliquam apparentiam habeat de aliis accdentibus magis et
+							minus susceptibilibus via naturali de caritate, tamen et gratia ceterisque virtutibus
+							a Deo per creationem infusis nihil concludit, quia omnem talem formam Deus potest
+							secundum magis et minus intimare subiecto nulla previa requisita dispositione, ita
+							quod eadem essentia caritatis indivisibilis secundum gradus essentiales secundum quod
+							magis a suo creatore intimatur subiecto et intimius radicatur in eo secundum hoc dat
+							magis et nobilius esse subiecto et magis participatur a subiecto. Sed quantum ad
+							susceptionem magis et minus, prout est in rebus naturalibus, respondet iste doctor
+							sicut et doctor noster secundo suo <title>Quolibet</title>, questione 14, dicens quod
+							intensio et remissio que est in secundis qualitatibus reducitur ulterius in
+							intensionem et remissionem que est raritate et densitate. Hec autem que est in raro et
+							denso non [106va bis] reducitur ulterius in aliquam accidentalem dispositionem, sed
+							immediate reducitur in partes quantitativas materie que est ex sua natura. Hoc habent
+							quod possunt ab agente constringi, et sic intenditur densitas et possunt ab eodem
+							distendi et dilatari, et sic intenditur raritas et per hoc, ut dicit iste doctor,
+							cessant multe cauillationes que a modernis doctoribus inducuntur contra doctorem
+							nostrum, quia procedunt ex ignorantia illius solutionis.</p>
+						<p>Contra <name>Thomam de Argentina</name></p>
+						<p>Ista tamen solutio non valet propter duo. </p>
+						<p>Primo, quia in primo puncto contradicit doctori nostro quem tamen credit defendere. </p>
+						<p>Secundo, quia solutio doctoris quam adducit in secundo puncto non satisfacit
+							rationi.</p>
+						<p>Primum istorum patet, quia doctor noster in primo suo, distinctione 17, questione 8
+							dicit expresse quod inherentia in accidente maior et minor esse non potest nisi
+							secundum maiorem et minorem dispositionem subiecti et in speciali loquens de caritate
+							sic ait. Et, sicut est in aliis accidentibus sic quantum ad aliquid est in caritate,
+							nam quia nulla anima est magis disposita ad susceptionem talis forme quam alia, vel
+							una eadem est magis uno tempore disposita quam alio, sequitur maior et minor caritatis
+							susceptio. Hec doctor formaliter.</p>
+						<p>Ex quibus evidenter apparet quod caritas sicut et qualibet alia forma intensibilis
+							intenditur secundum doctorem et magis vel minus intimatur subiecto secundum maiorem
+							vel minorem dispositionem ipsius cuius oppositum expresse asserit iste doctor. Et
+							confirmatur, quia vel iste doctor intelligit quod de facto sit in anima maior vel
+							minor caritatis susceptio nulla prima requisita dispositione ad eam, vel solum de
+							possibili. Si detur primum, patet quod contradicit doctori qui de facto dicit
+							oppositum. Si detur secundum, non solvitur ratio, quia quicquid sit de possibili si de
+							facto intenditur caritas propter maiorem dispositionem subiecti vel erit processus in
+							infinitum in dispositionibus istis, vel devenietur ad aliquam que secundum suam
+							essentiam intenditur, quod est propositum. Secundum etiam patet. Primo, quia forme
+							spirituales non solum infuse, sed etiam acquisite existentes in anima rationali
+							intenduntur et remittuntur, sicut patet de iustitia et similibus. Tamen nulla est
+							raritas vel densitas, igitur saltem in talibus intensio et remissio non potest reduci
+							in raritatem et densitatem, et per consequens in istis ratio est insolubilis. Secundo,
+							quia non oportet etiam in formis corporalibus quandocumque aliquod subiectum sit magis
+							vel minus tale ipsum rarefiat vel condensetur, quod patet in multis. Primo, quia cum
+							ferrum vel lapis aliquis durissimus sit magis vel minus calidus non est necesse quod
+							rarefiat vel condensetur, aliter non posset fieri magis vel minus calidus nisi maiorem
+							vel minorem locum occuparet quam prius, quod non videtur verissimile. Secundo, quia,
+							si lune vel alicui stellarum per divinam potentiam appropinquaretur aliquod corpus
+							potens eam illuminare quanto magis appropinquaretur, tanto lumen eius magis
+							intenderetur, et tamen ipsa non rarefieret nec condensaretur, quia nec maiorem, nec
+							minorem locum occuparent quam prius.</p>
+						<p>Tertio, quia cum lumen intenditur in aere ab aliqua candela non est necesse ipsum
+							rarefieri vel condensari, quia vel candela prius vel saltem ita cito rarefacit vel
+							condensat aerem sicut lumen intenditur in ipso vel prius lumen intenditur in aere quam
+							candela rarefaciet vel condenset ipsum. Primum dari non potest, quia candela non
+							rarefacit, nec condenset aerem priusquam illuminat ipsum, nec ita cito intendit lumen
+							in aere sicut illuminat ipsum. Relinquitur ergo secundum, et sic propositum, quia in
+							illo priori aer erit magis lucidus et tamen non rarefiet, nec condensabitur; ergo
+							etc.</p>
+						<p>Et idem posset in multis aliis demonstrari. Exclusa igitur solutione deduco
+							antecedens assumptum. Secundo sic: aer eodem modo dispositus ad lumen perfectius
+							illuminatur a sole quam a luna, igitur lumen non intenditur in ipso magis propter
+							maiorem dispositionem ipsius. Consequentia est nota et [106vb bis] antecedens docet
+							experientia; igitur etc. Et confirmatur, quia, si existente indivisibili forma in
+							natura sua subiectum est magis vel minus tale propter maiorem vel minorem
+							dispositionem illius ad illam formam, sequeretur quod semper subiectum minus
+							dispositum ad aliquam formam est minus tale dum perficitur per eam et magis dispositum
+							magis tale, cuius oppositum patet ad sensum, quia posito quod aer sit magis dispositus
+							ad lumen in sui parte una quam in alia et quod candela parva esset lumen in parte
+							magis disposita causet et sol in parte minus disposita. Patet quod minus disposita que
+							illuminatur a sole erit multo luminosior quam pars magis disposita que illuminatur a
+							candela; igitur etc. Et confirmatur ulterius, quia, si forma intenderetur propter
+							dispositionem subiecti ipsa non intensa in natura sua in subiecto summe disposito de
+							necessitate erit forma in summo, cuius oppositum experitur in aere, quia ipso
+							existente summe disposito ad lucem non sit luminosius in summo quacumque luce posita
+							in ipso; igitur etc.</p>
+						<p><name>Thomas de Argentina</name> ub supra</p>
+						<p>Sed ad istam rationem ex fundamentis doctoris nostri idem doctor qui respondebat ad
+							primum nititur respondere dicens quod non est simile de luce et de aliis formis
+							realibus de quibus ad presens sit fermo, quia lumen intentionaliter est in medio, quod
+							probat, quia due intentiones solo numero differentes in duabus candelis derivate
+							possunt simul esse in eadem parte medii et quia talia intentionalia dependent
+							totaliter ab agente, quia non solum in fieri, sed etiam in facto esse et in conservari
+							dependent a suis productivis. Hinc est quod a fortiori agente puta a sole aer minus
+							dispositus potest magis illuminari quam a luna vel a debiliori agente aer purior est
+							magis, sed dispositus illuminetur. Hinc est etiam quod plura lumina simul presentia
+							eidem aeri magis illuminant eum quam unum lumen, quorum omnium, ut dictis, oppositum
+							videmus in formis realibus.</p>
+						<p>Contra <name>Thomam</name></p>
+						<p>Hec tamen responsio est nulla, quia simile est deformis realibus et de luce, tum quia
+							ratio dissimilitudinis assignata non valet. Primum istorum patet, quia quicquid dictum
+							est et potest dici de luce potest etiam dici de calore, qui tamen est forma realis,
+							quia, sicut aer eodem modo dispositus ad lucem perfectius illuminatur a sole quam a
+							luna, sic eodem modo dispositus ad calorem perfectius calefit a sole quam a luna vel a
+							parva candela vel ab uno maximo igne quam ab uno parvo carbone supposita equali
+							distantia utriusque; igitur non solum lumen, sed etiam calor non intenditur in aere
+							propter maiorem dispositionem ipsius. Antecedens et consequentia patent ut prius et,
+							sicut argutum est de uno calefactibili, potest etiam argui de duobus, quia posito quod
+							sint duo calefactibilia per omnia eque disposita et unum ponatur iuxta unum magnum
+							ignem et unum iuxta unum parvum carbonem non obstante dispositionis equalitate in eis
+							illud quod calefit a maximo igne erit calidius alio. Et confirmatur de calore sicut de
+							luce, quia, si calore existente indivisibili in natura sua subiectum erit magis vel
+							minus calidum propter maiorem dispositionem ipsius ad calorem, sequeretur quod semper
+							subiectum minus dispositum ad calorem erit minus calidum dum informatur calore et
+							magis dispositum magis calidum, cuius opopsitum experimur, quia, si aer sit magis
+							dispositus ad calorem in una sui parte quam in alia et candela parva causet calorem in
+							parte magis disposita et sol vel maximus ignis positus in equali distantia in parte
+							minus disposita, non est dubium quod pars minus disposita que calefit a sole vel
+							maximo igne esset multo calidior alia; igitur. Et similiter potest reduci secunda
+							ratio, quia, si calor intenderetur propter maiorem dispositionem subiecti ipso non
+							intenso in natura sua in subiecto summe disposito, per necessitatem erit calor in
+							summo, quod tamen est falsum, quia posito quod aer sit summe dispositus [107ra] ad
+							calorem, adhuc non sit calidus in summo quocumque calore posito in ipso, quia, si
+							calefiat ab uno parvo carbone, non fiet calidus in summo, quia adhuc calidior fieret
+							ab uno maximo igne simul cum carbone vel si carbo ille magis approximaretur sibi. Sed
+							ad hec iste doctor conatur respondere ad illud quidem de duobus calefactibilibus per
+							omnia eque dispositis dicit quod predicto casu posito quamvis talia passa in principio
+							sint eodem modo disposita perseverante, tamen actione predictorum agentium circa
+							huiusmodi passa immediate fit difformis dispositio, quia ille maximus ignis ratione
+							sui predominii super tale passum velociter disponit ipsum et intense propter quod tale
+							passum quamvis non recipiat plures gradus caliditatis quantum ad essentiam quam aliud
+							passum, illa tamen caliditas tribuit sibi magis esse calidum ratione maioris
+							dispositionis inducte per actionem ipsius ignis ipsum alterantis.</p>
+						<p>Et ex his patet satis quid iste doctor diceret ad rationem principalem et primam
+							confirmationem.</p>
+						<p>Ad secundam vero confirmationem dicit quod aer vel quocumque alio subiecto existente
+							summe disposito ad calorem carbo ita perfectum calorem non causaret in ipso sicut
+							maximus ignis, immo una sola scintilla contingens talem materiam summum calorem
+							induceret in eam, sicut ad sensum videmus de scintilla excussa de lapide si cadat in
+							favillam extinctam vel in aliam escam sufficienter dispositam.</p>
+						<p>Iste tamen evasiones non evacuant rationes. Non quidem prima, quia illa duo passa in
+							principio sint eodem modo disposita, et tamen in principio non sunt equaliter calida,
+							quia pro quacumque mensura quod calefit a maximo igne est calidus eo quod calefit a
+							parvo carbone supposita equalitate distantie et dispositionis. Et confirmatur, quia
+							illa duo passa que ponuntur in principio eodem modo disposita vel sunt eodem modo
+							disposita per aliquod tempus, vel per aliquod instans. Non quidem per instans, quia
+							esset dare ultimum in quo essent eodem modo disposita, tum quia actio istorum agentium
+							ratione cuius sit difformis dispositio sit in tempore non in instanti, igitur per
+							aliquod tempus et pro nullo tempore sunt equaliter calida, quod est propositum.</p>
+						<p>Preterea, vel illa duo passa pro mensura illa pro qua ponuntur eodem modo disposita
+							equaliter calefiant a maximo et a parvo carbone, vel non. Si non, propositum. Si sic,
+							igitur ignis non magis disponit ad calorem passum in quod agit quam carbo, quia in
+							subiectis equaliter dispositis equaliter calefaciendo non possunt inequales
+							dispositiones inducere, cum nullum istorum inducat dispositionem ad calorem in passo
+							nisi calefaciat ipsum, nec per consequens maiorem nisi magis calefaciat. Et
+							confirmatur, quia ex quo pro illa mensura in qua huiusmodi passa ponuntur eodem modo
+							disposita magnus ignis non magis calefacit, nec maiorem calorem inducit in passo quam
+							carbo, nec potest assignari ratio cur magis disponat ipsum. </p>
+						<p>Preterea, si ista solutio sit possibilis, non oportebit eos dicere quod non esset
+							simile de formis realibus et de luce, quia, sicut nunc respondent de calore, possent
+							etiam respondere de luce et dicere quod aer eodem modo dispositus ad lucem in
+							principio perfectius illuminetur sicut perfectius calefit a sole quam a parva candela
+							ratione maioris dispositionis inducte per actionem solis ipsum alterantis. Et ad
+							veritatem negare hoc in uno et concedere in alio est ad placitum et sine ratione
+							loqui. Patet igitur quod ista prima solutio non satisfacit, nec secunda. </p>
+						<p>Primo, quia non magis repugnat subiecto summe disposito ad calorem magis et minus
+							calefieri quam subiecto summe disposito ad lucem magis et minus illuminari, et tamen
+							secundum est possibile per eum, igitur pri-[107rb]-mum etc.</p>
+						<p>Secundo, quia ad illam solutionem sequitur quod in calefactibili disposito summe ad
+							calorem non solum maximus ignis, sed etiam Deus non posset perfectiorem calorem
+							producere quam una scintilla quantumcumque minima, quod non videtur bene dictum.
+							Consequentia patet, quia talis scintilla, ut dicit, summum calorem induceret.</p>
+						<p>Tertio etiam posito quod in calefactibili summe disposito ad calorem per necessitatem
+							sit calor in summo, quod est satis evidenter falsum, tum quia si infiniti ignes
+							essent, non magis calefacerent quam minimus carbo, tum quia ignis magis approximatus
+							non intenderet calorem in ipso, que sunt satis evidenter absurda. Adhuc tamen non
+							videtur necessarium de qualibet alia forma reali, quia posito quod aliqua potentia
+							visiva sit summe disposita ad videndum, adhuc non est necesse eam habere visionem in
+							summo, quia poterit in ipsa magis vel minus intendi propter maiorem vel minorem
+							claritatem medii vel distantiam obiecti. Clarius enim videbit si medium sit debite
+							illuminatum et obiectum in proportionata distantia quam si obiectum magis distet vel
+							medium non sit illuminatum sufficienter.</p>
+						<p>Exclusis igitur istis solutionibus patet quod simile est omnino de formis realibus et
+							de luce, quod erat primum declarandum. Secundum vero probatur, videlicet quia ratio
+							dissimilitudinis assignata in prima solutione sit nulla, quia aer minus dispositus ad
+							lucem, non ideo magis illuminatur a sole quam magis dispositus illuminatur a luna,
+							quia lux que in ipso causatur a sole in facto esse et in conservari dependet ab agente
+							fortiore, sicut isti doctori videtur, quia posito quod Deus conservet immediate totum
+							lumen causatum a sole in una parte aeris et totum lumen causatum a luna in alia parte,
+							sic quod nullum eorum dependeat amplius a sole vel a luna, vel nulla alia mutatio fiet
+							circa partes illas, adhuc una pars aeris erit lucidior alia, sicut prius tantum lux
+							non conservabitur in ea ab agente fortiore, quia in utraque parte conservatur a solo
+							Deo ex supposito vel posito quod solus Deus conservat immediate totum lumen causatum a
+							luna in aliqua parte aeris nulla alia mutatione luminis facta circa partem illam,
+							adhuc pars aeris cuius lux conservatur a sole erit lucidior illa et tamen lux non
+							conservatur ab agente fortiore, immo a debiliori, quod ergo aer magis illuminetur a
+							sole non ideo est, quia lux que causatur a sole conservatur ab agente fortiore, sed
+							quia in se est maior intensive.</p>
+						<p>Improbata igitur illa solutione deduco assumptum antecedes. Tertio sic: si forma
+							accidentalis intenderetur propter maiorem dispositionem subiecti ipsa non intensa in
+							natura sua, sequeretur quod forma substantialis esset intensibilis et remissibilis
+							sicut accidentalis, quod est falsum et contra eos. Consequentia videtur nota, quia
+							subiectum sive materia forme substantialis potest esse magis et minus disposita ad
+							illam formam substantialem sicut subiectum sive materia forme accidentalis ad formam
+							accidentalem. Videmus enim quod aliqua corpora sunt magis disposita ad animam quam ad
+							alia et quod aliqua materia est ad formam ignis magis disposita quam alia, et sic de
+							multis aliis; igitur etc.</p>
+						<p>Secundo ad principale arguo sic: si forma accidentalis intenderetur propter maiorem
+							radicationem sui in subiecto ipsa non intensa in natura sua semper forma magis
+							radicata et firmius inherens subiecto esset intensior forma minus radicata et debilius
+							inherente, cuius oppositum patet ad sensum, quia multotiens videmus quod rubor ex
+							verecundia proveniens qui tamen est passio quedam faciliter delibilis est in aliquo
+							maior et intensior quam sit in alio cum rubor naturalis qui est passibilis qualitas et
+							magis firmatus et radicatus in subiecto. Et idem vide-[107va]-mus de palledine
+							procedente ex timore et de palledine magis radicata subiecto qui est passibilis
+							qualitas in aliquo, quia multi fiunt subito pallidiores ex primo quam aliqui sint ex
+							secundo.</p>
+						<p>Secundo sic: impossibile est idem indivisibile magis et minus ab aliquo participari,
+							igitur impossibile est formam intendi propter maiorem participationem subiecti nisi
+							sit intensibilis in natura sua. Consequentia patet, quia, si detur oppositum, eadem
+							forma indivisibili poterit ab aliquo magis vel minus participari, quod repugnat
+							antecedenti. Et consequentia videtur clara, quia indivisibile non potest nisi totum
+							haberi. Totum autem haberi et magis et minus participari repugnant.</p>
+						<p>Ex ista conclusione infero duas propositiones correlarias. </p>
+						<p>Prima est quod caritas non augetur secundum esse nisi sit intensibilis secundum
+							essentiam. Supposito quod esse caritatis sit esse earum, quod dat suo subiecto sicut
+							esse albedinis dat esse album sicut supradictis doctoribus videtur. Deductio istius
+							propositionis est evidens, quia caritas vel alia forma accidentalis quecumque
+							augeretur secundum tale esse ipsa existente indivisibili in natura sua vel hoc esset
+							propter maiorem dispositionem subiecti ad ipsam, vel esset propter maiorem
+							participationem et radicationem ipsius in subiecto, quorum quodlibet est impossibile,
+							ut patet ex dictis.</p>
+						<p>Secunda propositio est quod caritas et universaliter omnis forma intensibilis augetur
+							secundum essentiam et hoc sequitur ex precedenti, quia constat quod caritas et
+							universaliter omnis forma intensibilis augetur vel potest augeri secundum esse quod
+							dat subiecto, quod non esset possibile nisi augeretur secundum essentiam, ut patet ex
+							precedenti propositione. Et hoc de secundo. </p>
+					</div>
+				</div>
+				<div type="articulus">
+					<head>Tertius et quartus articulus</head>
+					<p>Quantum ad tertium et quartum articulos simul contra conclusiones istas movenda et
+						dissolvenda sunt dubia. Et primo contra primam doctor ille noster contra quem est
+						posita…</p>
+					<p><name>Gerardus</name> ubi supra</p>
+					<p>…Probat tres conclusiones. Prima, quod subiectum, ut stat sub forma, quecumque sit
+						illa, sortitur quemdam modum realem derelictum ab ipsa.</p>
+					<p>Secunda est quod talis modus derelictus ab ipsa forma in subiecto non est idem realiter
+						quod essentia forme.</p>
+					<p>Tertia est quod ille modus non est aliqua res medians inter subiectum et formam et ex
+						his, ut patet evidenter, sequitur oppositum conclusionis mee.</p>
+					<p>Primam conclusionem probat iste doctor primo sic: materia existens sub quantitate
+						necessario sortitur quendam modum realem derelictum a quantitate, igitur subiectum
+						existens sub forma, quecumque sit illa, necessario sortitur aliquem talem modum
+						derelictum ab ipsa. Consequentia videtur satis nota, quia non est maior ratio de
+						quantitate quam de alia forma quacumque. Antecedens probatur, quia, si materia existens
+						sub quantitate non sortiretur etc., sequeretur quod non haberet aliquam partibilitatem
+						intrinsece in sua natura. Consequens est falsum, igitur et antecedens. Consequentia
+						patet, quia, si materia sortitur intrinsece in sua essentia partibilitatem ex ipsa
+						quantitate, statim haberetur propositum, quia talis partibilitas non est aliud quam
+						quidam modus realis derelictus a quantitate. Falsitas consequentis probatur, quia, si
+						materia remaneret impartibilis sub quantitate, sequeretur duo inconvenientia. Primum est
+						quod partes illius quantitatis essent sine subiecto. Secundum est quod materia non
+						posset recipere diversas formas nisi forte vellemus dicere quod diverse forme
+						reperiuntur in diversis partibus quantitatis et non materie, quod est absurdum.</p>
+					<p>Preterea, si materia existens sub quacumque forma reali non sortiretur aliquem modum
+						re-[107vb]-alem intrinsecum, qui sit effectus formalis illius forme, sequitur quod ipsa
+						posita sub diversis formis simul successive esset eadem non solum secundum essentiam,
+						sed etiam secundum esse. Consequens est falsum, igitur et antecedens. Falsitas
+						consequentis patet per <name>Aristotelem</name> I <title>De generatione</title>, ubi
+						querens de unitate materie sub diversis formis dicit quod est eadem secundum essentiam
+						et non secundum esse. Consequentia probatur, quia non potest dici quod ibi per esse ipse
+							<name>Aristoteles</name> intelligat ipsasmet formas, quia tunc esset ibi petitio
+						principii, nam idem erit dicere materia existens sub diversis formis est diversa
+						secundum esse et dicere et diversa secundum formas. Relinquitur ergo quod ibi per se
+						intelligat effectum formalem forme qui est modus ille realis de quo est sermo.</p>
+					<p>Preterea, si non ponatur talis modus realis relinqui in materia ex quacumque forma,
+						sequitur quod materia non sit magis perfecta sub forma quam sub privatione, quod est
+						evidenter falsum. Probatur consequentia, quia, sicut substantia forme non sit substantia
+						materie, ita perfectio intrinseca et essentialis ipsius forme nunquam sit intrinseca et
+						essentialis ipsi materie. Si ergo materia existens sub forma non acquirat ex ea aliquam
+						perfectionem sibi intrinsecam quam vocamus modum realem sive effectu informalem forme,
+						non habebit aliquam perfectionem propter illam que est intrinseca et essentialis forme.
+						Per illam autem solam non potest dici magis perfecta, quia illa est proprie forma
+						quemadmodum et sua substantia quapropter sicut existens sine forma non dicitur magis
+						substantia quam existens sub privatione, ita pari ratione existens sub forma non
+						diceretur magis perfecta quam sub privatione.</p>
+					<p>Preterea, si ponatur quod forma non habeat aliquem effectum formalem super materiam
+						quem vocamus modum realem, sequitur quod non habeat causalitatem cause formalis respectu
+						ipsius, quod patet esse falsum, quia cum sit forma solius materie non haberet
+						causalitatem cause formalis nisi respectu ipsius. Consequentia probatur, quia causalitas
+						forme supra materiam vel extendit se usque ad substantiam materie, vel usque ad aliquem
+						effectum formalem derelictum a forma in materia quem vocamus modum realem. Primum dari
+						non potest, quia materia quantum ad substantiam prevenit ipsam formam cum sit prior ea
+						secundum originem, et ideo quantum ad suam substantiam non potest subesse causalitati
+						prius. Relinquitur ergo secundum, et sic propositum.</p>
+					<p>Preterea, si non ponitur talis modus realis relinqui a forma in materia, sequitur quod
+						materia non variabitur in esse specifico per ipsam formam, quod patet esse falsum, quia
+						materia subiecta alie et alie forme pertinet ad aliam et aliam speciem, et per
+						consequens variatur in esse specifico. Consequentia probatur, quia queratur de isto esse
+						specifico in quo variatur materia utrum sit ipsamet forma vel ipsamet materia vel
+						aliquid derelictum a forma in materia. Non primum, quia cum esse specificum sit esse
+						substantiale sicut substantia forme est alia a substantia materie, ita esse specificum
+						forme aliud ab esse specifico materie. Nec potest dari secundum quod sit ipsamet
+						materia, quia, cum materia sit incorruptibilis et invariabilis, sequitur quod suum esse
+						specificum erit incorruptibile et invariabile, quod patet esse falsum. Relinquitur ergo
+						quod sit aliquid derelictum a forma in materia et illud vocamus modum realem sive
+						effectum formalem ipsius forme.</p>
+					<p>Preterea, si talis modus ponatur, sequitur quod forma non magis perficiat materiam quam
+						intelligentia celum, quod nullus dubitat esse falsum, quia intelligentia sic perficit
+						celum quod dat sibi solum actum secundum qui est motus vel operatio. Forma vero sic
+						perficit materiam quod dat sibi actum primum qui est esse et secundum qui est operari.
+						Consequentia probatur, nam queritur [108ra] quid sit iste actus primus quem dat forma
+						materie, quia vel est quidam effectus formalis forme, vel est ipsemet actus
+						substantialis forme. Si detur primum, habetur propositum. Si detur secundum, dicetur
+						statim quod, sicut forma dat se ipsam materie sive suum actum substantialem qui est idem
+						quod ipsa, ita intelligentia dat se ipsam celo, et per consequens actum substantialem
+						qui est ipsa. Si ergo ex hoc solo quod forma dat actum substantialem materie videtur
+						sibi dare actum primum qui est esse pari ratione intelligentia dando celo se ipsam et
+						suum actum substantialem, dicetur sibi dare actum primum qui est esse, et per consequens
+						non magis perficiet forma materiam quam intelligentia celum.</p>
+					<p>Preterea, sequeretur quod actus secundus qui est operari esset solius forme, ita quod
+						nullo modo communicaretur materie, quod est evidenter falsum, cum operationes sint
+						totius compositi, ut patet I <title>De anima</title>. Consequentia probatur, quia actus
+						secundus presupponit actum primum, et ideo nisi materia acquirat a forma actum primum
+						qui est esse et effectus formalis forme, nunquam erit simul cum forma ad principiandum
+						actum secundum qui est actus operari, et sic patet, ut videtur isti doctori, prima
+						conclusio.</p>
+					<p>Secundam vero probat faciliter, quia nullus effectus est idem realiter quod sua causa,
+						sed modus iste derelictus a forma est effectus ipsius forme, igitur non est realiter cum
+						ipsa vel idem quod ipsa.</p>
+					<p>Tertiam etiam probat faciliter, quia, si iste modus esset aliqua res media inter
+						subiectum sive inter materiam et formam, tunc esset questio de ista re utrum esset
+						participata a subiecto mediante alia re vel immediate. Si dicatur quod immediate, pari
+						ratione et forma poterit participari a subiecto immediate. Si vero dicatur quod mediante
+						alia re, tunc iterum fiet questio de illa re et fiet processus in infinitum, quod est
+						inconveniens.</p>
+					<p>Contra <name>Gerardum</name></p>
+					<p>Hec opinio multa ponit que comuniter non tenentur, nec credo esse vera. Ad presens ea
+						discurrere non intendo, quia non intendo pro nunc inquirere an ex coniunctione forme cum
+						materia vel subiecto derelinquatur aliquis modus realis in ipso, sed solum ostendere
+						quod talis modus non est ponendus vel si ponatur quod necessario est idem realiter cum
+						forma, vel res media inter subiectum et formam. Et istud videtur mihi satis evidens,
+						quia vel iste modus supposito quod derelinquatur a forma in subiecto vel in materia est
+						aliqua entitas, vel nulla. Si nulla, ergo nihil. Si aliqua, ergo realis vel rationis
+						tantum. Non rationis tantum, ut patet per eos, ergo realis. Quo posito arguo sic: hec
+						entitas realis demonstrata entitate modi predicti vel est etiam realiter materia, vel
+						est realiter forma, vel nec realiter forma, nec materia. Non potest dici quod sit
+						realiter materia, ut patet ex secunda propositione deducta productione prime
+						conclusionis mee. Relinquitur ergo quod sit realiter forma, et sic habetur prima pars
+						illius conclusionis vel quod nec sit realiter forma, nec realiter materia, et sic
+						habetur secunda, quia entitatem illam realem que non est realiter materia nec forma voco
+						rem mediam inter materiam et formam, sed, si doctor iste non vult vocare hanc entitatem
+						rem, sed modum rei, non curo. Sufficit mihi quod modus iste, si ponatur, sit aliqua
+						entitas realis media inter materiam et formam sic quod nec sit realiter materia, nec
+						realiter forma, nec aliud; intelligo per conclusionem illam nisi quod omnem talem
+						entitatem ego voco rem.</p>
+					<p>Forte dicetur quod iste modus non est realiter materia, nec realiter forma, sed
+						utrumque, et ideo non sequitur quod sit res media inter materiam et formam.</p>
+					<p>Ista tamen evasio, si daretur, destrueret positionem, sicut patet multipliciter. Primo,
+						quia hoc posito modus ille non esset una entitas precise, sed plures, cuius oppositum
+						intendit iste doctor noster, et cuius oppositum una cum eis ego suppono in
+						deductione.</p>
+					<p>Secundo, quia ipsimet concedunt quod iste modus sit idem realiter cum materia.</p>
+					<p>Tertio, quia materia et forma non sunt effectus formalis [108rb] ipsius et iste modus
+						est effectus formalis ipsius, ut asserit iste doctor.</p>
+					<p>His premissis patet quod quelibet illarum trium conclusionum sit falsa. Manet ergo
+						conclusio mea, nec teneor respondere ad salvandam eam nisi ad rationes unius
+						conclusionis quecumque sit illa. Verum, quia omnes rationes sunt solubiles, ut mihi
+						videtur, respondeo ad eas.</p>
+					<p>Responsio ad rationes <name>Gerardi</name></p>
+					<p>Ad primam, pro prima conclusione negetur antecedens et ad probationem: si intelligat
+						quod ex antecedente negato materia non haberet aliquam partibilitatem intrinsece in sua
+						essentia et que sit de intrinseca ratione ipsius verum est, quia nulla partibilitas est
+						de intrinseca ratione ipsius materie, si vero intelligat quod ipsa materia secundum se
+						non esset partibilis, sed sola quantitas, nego consequentiam ad probationem quando
+						dicitur quod talis partibilitas non est aliud quam quidam modus realis derelictus a
+						quantitate in materia, dico per interemptionem, quia ad hoc quod materia sit partibilis
+						sufficit quod sit quantitati coniuncta, nec requiritur aliquis modus derelictus a
+						quantitate in ipsa.</p>
+					<p>Ad secundam, primo ostendo ex ipsa quod iste doctor contradicit sibi. Secundo respondeo
+						ad eam. Primum patet, quia in ista ratione dicit quod modus iste realis derelictus a
+						forma in materia est esse materie. Tunc quero an sit esse forme a qua derelinquitur, vel
+						non. Si dicit quod non, contradicit sibi evidenter, quia in principali positione ponit
+						quod iste modus sit esse forme ipsius secundum quod forma dicitur magis et minus
+						sucipere. Si dicat quod sic, etiam contradicit sibi ipsi, quia infra in quinta ratione
+						dicit expresse quod esse forme non est esse materie, et sic contradictio in dictis.</p>
+					<p>Et ulterius, si modus iste derelictus a forma in materia sit esse materie, cum talis
+						modus intendatur et remittatur secundum eum, sequitur quod materia susciperet magis et
+						minus secundum esse, quod est falsum et contra eum.</p>
+					<p>Et confirmatur, quia per eum forma dicitur suscipere magis et minus secundum esse, quia
+						iste modus qui est eius esse intenditur et remittitur, ergo, si modus iste sit esse
+						materie, susciperet magis et minus secundum esse non minus quam forma, quod ipse negat
+						una cum doctore quem sequitur.</p>
+					<p>Ad rationem igitur nego consequentiam et ad probationem dico quod esse, de quo
+							<name>Aristoteles</name> loquitur, est idem quod materia vel subiectum acquirit ex
+						coniunctione sui cum forma utpote esse album quod subiectum acquirit ex coniunctione sui
+						cum albedine vel esse nigrum, quod subiectum acquirit ex coniunctione cum nigredine, et
+						istud non est aliquis modus derelictus a forma in subiecto, quia ad hoc quod subiectum
+						sit album vel nigrum sufficit quod sit albedini vel nigredini per informationem
+						coniunctum, sicut ad precedentem rationem dicebatur de materia et quantitate.</p>
+					<p>Ad tertiam nego similiter consequentiam et ad probationem concedo quod, sicut
+						substantia forme non sit substantia materie, ita perfectio intrinseca et essentialis
+						forme non sit intrinseca et essentialis ipsi materie. Ex hoc tamen non sequitur quod
+						materia non sit magis perfecta sub forma quam sub privatione, quia materia privata
+						quantitate non est partibilis nec extensa, et tamen informata quantitate est partibilis
+						et extensa, nec ad hoc requiritur quod aliqua perfectio intrinseca et essentialis forma
+						fiat intrinseca et essentialis ipsi materie, nec requiritur quod ista partialitas sit
+						modus derelictus a quantitate in materia. Sufficit enim ad hoc quod materia sit
+						quantitati coniuncta, ut dictum est supra.</p>
+					<p>Ad quartam primo reduco rationem contra eum, quia, si deductio illa sit bona, sequitur
+						quod in forma derelinquatur aliquis modus realis ab ipsa materia, sicut in materia
+						relinquitur forma secundum eum, quod tamen est falsum secundum omnes. Consequentia
+						patet, quia, si detur oppositum, sequitur per deductionem suam quod materia non habeat
+						causalitatem cause materialis respectu forme, quod tamen est falsum per probationem
+						summam. Consequentia patet, quia, si detur oppositum, sequitur per deductionem suam quod
+						materia [108va] non habeat causalitatem cause materialis respectu forme, quod tamen est
+						falsum per probationem suam, quia, cum sit materia solius forme, non habet causalitatem
+						cause materialis nisi respectu ipsius, quod patet falsum, et tamen ipse sic deducit de
+						forma.</p>
+					<p>Ad rationem potest responderi dupliciter. Primo admittendo consequens, quia non videtur
+						quod forma habeat causalitatem cause formalis respectu materie, sed respectu compositi,
+						quia nec sit materia, nec sit forma, sed totum compositum, VII
+							<title>Metaphysice</title>.</p>
+					<p>Secundo negando consequentiam, quia posito quod in bono sensu concedatur quod forma
+						habet causalitatem cause formalis respectu materie et materia causalitatem cause
+						materialis respectu forme, adhuc non erit necesse ponere tales modos derelictos, quia
+						cause intrinsece cuiusmodi sunt materia et forma secundum multos non habent effectus
+						distinctos a se.</p>
+					<p>Ad quintam nego consequentiam et ad probationem dicitur quod illud esse specificum in
+						quo variatur materia non est materia precise, nec forma, nec est modus derelictus a
+						forma in materia, sed est materia existens sub forma vel forma unita materie, quia,
+						sicut ad hoc quod materia sit extensa sufficit quod sit quantitati coniuncta, ita ad hoc
+						quod habet tale esse sufficit quod sit tali vel tali forme coiuncta, ut patet ex
+						dictis.</p>
+					<p>Ad sextam nego consequentiam et ad probationem patet quid dicendum, quia actus primus
+						que dat forma materie non oportet quod sit modus realis distinctus a forma, quia ad hoc
+						quod forma dat materie actum primum qui est esse sufficit quod materia per informationem
+						sit coniuncta illi forme, ut dictum est supra.</p>
+					<p>Ad ultimam etiam nego consequentiam ad sensum suum, quia concedo quod operationes sint
+						totius coniuncti, etiam ad probationem dico quod patet quid dicendum, quia materia
+						potest habere a forma actum primum qui est esse circumscripto omnimodo derelicto ab
+						ipsa, ut patet ex dictis. Sic igitur possent respondere ad istas rationes qui negarent
+						conclusionem istam.</p>
+					<p>Ad rationem vero pro secunda conclusione diceretur sicut tactum est supra quod, licet
+						cause extrinsece habeant effectus distinctos a se, non tamen intrinsece.</p>
+					<p>Ad rationem autem tertie conclusionis concedo quod res illa que est modus derelictus a
+						forma in subiecto si ponatur distincta ab utroque, participatur a subiecto immediate et
+						non mediante alia re. Et quando dicitur quod pari ratione forma potest participari a
+						subiecto immediate, nego, quia non est simile de forma et de modo derelicto a forma et
+						presertim, si modus iste non sit nisi participatio forme, ut videtur isti doctori, sicut
+						non est de essentia et esse, secundum doctorem nostrum, nec de fundamento et relatione
+						secundum multos, immo, si deductio illa esset bona, probaret quod esse non distinguitur
+						realiter ab essentia, quod est contra eum et contra doctorem, quem sequitur et quod
+						nulla relatio distingueretur realiter a suo fundamento, cuius oppositum videtur multis,
+						ut declarabitur alias. Talis ergo modus arguendi tantum tenet in his que sunt eiusdem
+						rationis, sicut declarat doctor noster et bene suo tractatu <title>De esse et
+							essentia</title>, questione 9 in solutione argumenti, igitur rationes istarum
+						conclusionum patet non concludere quicquid sit de veritate earum, quia quantum pertinet
+						ad propositum meum sufficit negare alteram eorum quecumque sit illa, ut dictum est
+						supra.</p>
+					<p>Contra secundam et tertiam conclusionem posset argui. Verum, quia doctor iste contra
+						quem sunt posite non probat, sed supponit oppositas esse veras, et difficultas earum
+						principaliter consistit in quattuor; supersedeo ad presens.</p>
+					<p>Contra quartam vero conclusionem et eius correlarias propositiones est opinio
+							<name>sancti Thome</name> et doctoris nostri qui ponit caritatem et universaliter
+						omnem formam intensibile suscipere magis et minus solum secundum esse secundum quod dat
+						magis et minus esse a subiecto secundum maiorem et minorem dispositionem subiecti ipsius
+						sive secundum radicationem maiorem et participationem sui a subiecto, quod idem est,
+						quia maior et minor participatio vel radicatio forme in subiecto sine maiori et minori
+						dispositione [108vb] subiecti esse non potest secundum eos.</p>
+					<p>Probant igitur isti doctores et sequaces eorum duas conclusiones. Prima, quod una forma
+						intensibilis potest suscipere magis et minus secundum essentiam.</p>
+					<p>Secunda est quod caritas et verisimiliter quelibet talis forma suscipit magis et minus
+						secundum esse quod dat subiecto ipsa mediate indivisibili secundum essentiam.</p>
+					<p>Primam conclusionem probat quidam doctor noster ex fundamentis fratris
+							<name>Egidii</name>.</p>
+					<p><name>Thomas de Argentina</name> ubi supra</p>
+					<p>Primo sic: gradus forme mutatus in essentia mutat speciem, quia forme sunt sicut
+						numeri, ut patet VIII <title>Metaphysice</title>; sicut in numeris quacumque unitate
+						addita vel remota mutatur species, sic quocumque gradu mutato quantum ad essentiam forme
+						mutatur species secundum talem formam, sed caritas et albedo et cetera similia
+						accidentia in eadem specie manentia suscipiunt magis et minus; ergo huiusmodi susceptio
+						non erit quantum ad gradus in essentia. </p>
+					<p>Preterea, si caritas et cetere forme intensibiles suscipiunt magis et minus secundum
+						essentiam suam, tunc in abstracto dicentur secundum magis et minus. Consequens est
+						falsum, igitur et antecedens. Falsitas consequentis patet per <name>Philosophum</name>
+						in <title>Predicamentis</title> dicens quod iustitia non dicitur secundum magis et
+						minus. Probatur consequentia, quia quicquid competit forme secundum suam essentiam,
+						competit ei in abstracto.</p>
+					<p>Preterea, si caritas augeretur secundum partes essentiales sibi additas successive aut
+						ille partes different numero solum, et hoc non, quia plura accidentia solo numero
+						differentia non possunt simul esse in eodem subiecto, aut different specie, et tunc
+						caritas aucta non esset eiusdem rationis, quorum utrumque est inconveniens.</p>
+					<p><name>Gerardus de Senis</name>, distinctione 2, questione ubi supra, articulo 7</p>
+					<p>Preterea, ad idem arguit quidam alius doctor de nostris, quia, si caritas vel alia
+						forma augeretur in sua essentia, multa inconvenientia sequerentur.</p>
+					<p>Primum inconveniens, quia tunc forma secundum suam essentiam non haberet rationem
+						totius et perfecti, quod videtur esse falsum. Consequentia patet, quia omne quod
+						augetur, ideo augetur, quia imperfectum, et per consequens habet rationem partis.
+						Falsitas consequentis probatur, quia forma secundum suam essentiam habet rationem
+						speciei, et per consequens rationem totius et perfecti respectu individuorum a quibus
+						potest participari.</p>
+					<p>Secundum inconveniens est quod forma secundum suam essentiam non esset simplex, cuius
+						oppositum patet per auctorem VI <title>Principiorum</title>.</p>
+					<p>Tertium inconveniens est quia esse forme non salvaretur in aliquo gradu infra
+						suppositum, quod patet esse falsum. Consequentia probatur, quia essentia rei non
+						salvatur nisi habeat omnia que sunt de sua intrinseca ratione. Quapropter, si forma
+						augetur in sua essentia, non poterit salvari in aliquo gradu preterque in supremo
+						includente omnes alios.</p>
+					<p>Quartum inconveniens est quia, sicut quantitas molis non habet statum in augmento et
+						decremento, quia potest augeri et minui in infinitum quantum est ex se, ita etiam talis
+						forma poterit augeri vel minui quantum est ex se, quod patet esse falsum. Consequentia
+						probatur, quia tota ratio quare quantitas potest augeri et minui in infinitum est quod
+						ex intrinseco sue nature sibi competit dividi, et per consequens minui et augeri.
+						Quapropter, si alicui alteri forme extrinseco sue nature competit minui et augeri, pari
+						ratione potest minui in infinitum.</p>
+					<p>Quintum inconveniens est quia nulla talis forma esset difficilis, et per consequens nec
+						scilibils secundum suam essentiam, quod patet esse falsum. Consequentia probatur, quia
+						illud quod est difficile vel scibile debet esse aliquid certum vel determinatum, et per
+						consequens invariabile. Quapropter, si forma aliqua propter sui essentiam potest augeri
+						et variari, sequitur necessario quod non possit diffiniri, et per consequens nec
+						sciri.</p>
+					<p>Sextum inconveniens est quod nulla forma suscipiens magis et minus poterit habere
+						rationem mensure in suo genere, quod patet esse falsum in multis generibus. Videmus enim
+						quod albedo recipit magis et minus, et tamen habet rationem mensure in genere
+						co-[109ra]-lorum, ut patet X <title>Metaphysice</title>, et eodem modo patet se habere
+						in pluribus aliis generibus. Consequentia probatur, quia de ratione mensure est esse
+						invariabile. Illud autem quod est variabile secundum suam essentiam simpliciter est
+						variabile, quapropter nullo modo poterit habere rationem mensure.</p>
+					<p>Ad idem possent adduci multe difficiles rationes difficultates varias includentes, de
+						quibus alias videbitur in questionibus sequentibus, et ideo ad presens non intromitto me
+						de eis.</p>
+					<p><name>Thomas</name>, ubi supra</p>
+					<p>Secundam conclusionem primus istorum doctorum deducit sic: sicut se habet virtus ad
+						agere, sic essentia ad esse, sed eadem virtus in nullo variata secundum gradus essentie
+						magis et minus agit in passum, secundum quod est magis et minus dispositi; ergo eadem
+						essentia essentialiter et intrinsece in nullo variata eidem subiecto dat magis et minus
+						esse secundum quod ipsum subiectum est magis et minus dispositum. Et potest hec ratio
+						confirmari, quia aer magis et minus dispositus secundum raritatem et presentiam eiusdem
+						claritatis solis secundum magis et minus illuminatur, ut experientia manifestat, igitur
+						claritas essentialiter et intrinsece in nullo variata dat suo subiecto magis et minus
+						esse secundum quod ipsum est magis et minus dispositum; et similiter potest argui de
+						calore et duobus calefactibilibus a magis et minus dispositis et de multis aliis.</p>
+					<p>Iste due conclusiones simul confirmantur multis auctoritatibus. Primo, auctoritate
+							<name>Philosophi</name> in <title>Predicamentis</title>, ubi dicit expresse quod
+						iustitia non sufficit magis et minus, sed iustum. Secundo, auctoritate
+							<name>Commentatoris</name> VIII <title>Metaphysice</title>, commento 10, dicens quod
+						forma non suscipit magis et minus nisi secundum quod est in materia. Tertio, auctoritate
+							<name>Simplicii</name>
+						<title>Super Predicamentis</title> dicens quod de intentione <name>Aristotelis</name>
+						fuit quod forme non suscipiunt magis et minus de se, sed prout participantur a subiecto.
+						Multe consimiles possunt auctoritates adduci quas dimitto causa brevitatis.</p>
+					<p>Responsio ad rationes <name>Thome</name></p>
+					<p>Ista quamvis sint difficilia non videntur concludere. Ad primum pro prima conclusione
+						nego maiorem et ad probationem quando dicitur quod forme sunt sicut numeri etc., concedo
+						ad intellectum <name>Philosophi</name> quod, sicut unitas addita numero preexistenti vel
+						remota ab eo variat numerum et facit quod numerus ille transferatur in aliam naturam
+						numeri, ita quod quelibet differentia formalis addita generi sine speciei vel remota ab
+						ipsis variat naturam. Hoc est diffinitionem ipsorum, quia facit quod diffinitio
+						transferatur ad diffinitionem alterius nature, et ad istum sensum dicit
+							<name>Aristoteles</name> quod forme, id est diffinitiones formales, sunt sicut numeri,
+						unde <name>Commentator</name> exponens predicta verba sic inquit et quemadmodum quando
+						alicui numero additur unum vel ab eo diminuitur unum transiertur ad aliam naturam
+						numeri. Similiter diffinitiones composite ex primo genere et pluribus differentiis
+						quando ab eis diminuitur aliqua differentia transfertur diffinitio ad diffinitiones
+						alterius nature, et similiter quando additur eis aliqua differentia. Verbi gratia inquit
+							<name>Commentator</name>, quoniam cum dixerimus in diffinitione animalis quod est
+						corpus sensibile nutribile, si deminueremus ultimam differentiam, remanebit diffinitio
+						vegetabilium et, si additur alia differentia, scilicet rationale, fit diffinitio
+						hominis. Et similiter quattuor, quando eis additur unum, fiunt quinque et quando
+						diminuitur unum, fiunt tres. Hec <name>Commentator</name>. </p>
+					<p>Sed ex his non sequitur quod quocumque gradu mutato quantum ad essentiam forme varietur
+						species forme, sicut infertur, quia in intensione et remissione forme gradus additur vel
+						remotus non est differentia formalis, nec ab eo sumitur differentia specifica seu
+						quiditativa qua addita vel remota ab eo transfertur eius diffinitio in diffinitionem
+						alterius nature eo modo quo dictum est, igitur auctoritas illa <name>Philosophi</name>
+						in qua multum fundatur opinio non est ad propositum, ut patet per
+							<name>Commentatorem</name>.</p>
+					<p>Ad secundum concedo consequens ad bonum [109rb] sensum, quia non solum album suscipit
+						magis et minus, sed albedo, immo si albedo non susciperet magis et minus secundum se.
+						Hoc est si non esset maior vel minor intensive secundum essentiam suam, non posset dari
+						magis et minus album, ut patet ex dictis.</p>
+					<p>Et ad probationem quando dicitur quod iustitia non dicitur magis et minus iustitia
+						secundum <name>Aristotelem</name>, dico quod non fuit intentio <name>Aristotelis</name>
+						quod una iustitia non sit intensior et perfectior alia secundum essentiam, sed quod de
+						suis inferioribus non dicitur cum his adverbiis magis et minus, et ita non repugnant
+						quod una iustitia non est magis vel minus iustitia quam alia una si est perfectior et
+						maior intensive quam alia, ut declarabitur infra.</p>
+					<p>Responsio ad rationes <name>Gerardi</name></p>
+					<p>Ad tertium apparebit quid dicendum in tertia questione.</p>
+					<p>Ad primum vero in consequens alterius doctoris concedo quod quelibet forma habet
+						rationem totius et perfecti secundum essentiam suam quantum pertinet ad rationem
+						speciei. Sed ex hoc non sequitur quod quelibet habeat rationem totius et perfecti sic
+						quod infra speciem illam non posset augeri et esse perfectior secundum essentiam aliter
+						caritas Christi non esset per se perfectior caritate lini, quod ego nollem
+						concedere.</p>
+					<p>Ad secundum dico quod quelibet forma, secundum essentiam suam est simplex, quia nulla
+						forma est composita ex materia et forma sicut homo, nec ex partibus quantitativis sicut
+						continuum, sed non est ita simplex quin possit esse composita ex partibus
+						perfectionalibus ad suam essentiam pertinentibus, nec oppositum intellexit auctor VI
+							<title>Principiorum</title>.</p>
+					<p>Ad tertium nego consequentiam, quia non sequitur forma est intensibilis et remissibilis
+						secundum essentiam, igitur essentia ipsius non salvatur in aliquo gradu infra supremum.
+						Et quando dicitur quod essentia rei non salvatur nisi habeat omnia que sunt de sua
+						intrinseca ratione, concedo: si intelligitur sicut debet intelligi, videlicet quod
+						essentia rei non salvatur nisi habeat omnia que pertinent ad suam diffinitionem vel
+						quiditativam rationem, sed ex hoc non concluditur, quia isti gradus non variant
+						diffinitionem, nec per consequens rationem quiditativam forme, ut patet ex dictis. </p>
+					<p>Ad quartam concedo quod quelibet talis forma sicut et quantitas molis potest augeri et
+						minui in infinitum. Qui tamen vellet hoc negare posset dicere quod ratio quam assignat
+						non est totalis, quia, si quantitas molis non haberet partes infinitas, non posset
+						dividi in infinitum, etiam supposito quod ex intrinseco sue nature competeret ei
+						dividi.</p>
+					<p>Ad quintam nego consequentiam et ad probationem quando dicitur quod illud quod est
+						diffinibile vel scibile debet esse aliquid certum et invariabile, concedo quantum ad
+						eius formalem differentiam a qua sumitur diffinitio, quia qualibet tali addita vel
+						remota variatur diffinitio, ut dictum est supra, cum hoc tamen stat quod illud sit
+						variabile secundum gradus perfectionales predictos, quia ab his non sumitur differentia
+						formalis, ut patet ex dictis.</p>
+					<p>Ad sextum etiam nego consequentiam et ad probationem dico quod de ratione mensure eo
+						modo quo nunc loquimur de mensura est esse invariabile quantum ad illa quibus variatis
+						variatur eius ratio diffinitiva vel quiditativa et illud stat cum varietate forme
+						quantum ad gradus de quibus loquimur.</p>
+					<p>Responsio ad rationes <name>Thome</name></p>
+					<p>Ad primam pro secunda conclusione nego maiorem, quia non est simile de agere et virtute
+						sive potentia et de esse et essentia, tum quia agere distinguitur realiter a potentia et
+						separatur ab ea, esse vero vel non distinguitur ab essentia, vel non separatur ab ipsa,
+						tum quia multa requiruntur ad agere supposita essentia forme requiritur ad agere
+						supposita virtute in agente debita approximatio et disposito subiecti que non
+						requiruntur ad esse supposita essentia forme in subiecto etiam debito, et ideo non est
+						mirum si manifeste eadem virtute actio potest indendi vel remitti. Ex hoc tamen non
+						sequitur quod manente eadem essentia intendatur et remittatur esse. [109va] </p>
+					<p>Ad confirmationem nego consequentiam, quia, si aer magis et minus dispositus secundum
+						raritatem ad presentiam eiusdem claritatis solaris, id est ad presentiam eiusdem solis,
+						magis et minus illuminatur. Hoc ideo est, quia in aere magis disposito ab eodem agente
+						vel illuminante inducitur maior claritas intensive, unde dispositio subiecti facit ad
+						hoc quod agens perfectiorem formam inducat, sed, si forma lucis inducta non esset maior
+						intensive, aer magis dispositus non esset magis luminosus, et similiter dicendum est de
+						calore inducto ab eodem igne in duobus calefactibilibus secundum magis et minus
+						dispositis et similibus.</p>
+					<p>Ad primam auctoritatem dico quod, sicut tangebatur superius quod intentio
+							<name>Philosophi</name> fuit quod iustitia non verificatur de suis inferioribus cum
+						his adverbiis ‘magis’ et ‘minus’ cum quibus tamen verificatur de subiecto suo, una enim
+						iustitia non est magis vel minus iustitia quam alia, quamvis unus homo magis vel minus
+						sit iustus quam alius.</p>
+					<p>Ex hoc tamen non sequitur quod iustitia non suscipiat magis vel minus secundum
+						essentiam, id est quod una iustitia secundum essentiam suam non sit maior et perfectior
+						intensive quam alia. Cuius gratia est advertendum quod predicatio qua iustitia
+						predicatur de suis inferioribus est formalis et quiditativa cum sit per se in primo
+						modo, quia ratio formalis et quiditative iustitie non est magis in maiori iustitia quam
+						in minori. Idcirco, una iustitia non dicitur magis vel minus iustitia quam alia, cum hoc
+						tamen stat quod una sit perfectior et maior intensive quam alia, quia hec maioritas et
+						perfectio attenditur solum quantum ad gradus qui non variant rationem formale, quia
+						ratio formalis cum sumatur a differentia formali, id est a differentia specifica et
+						quiditativa, non variatur nisi variata tali differentia specifica, et intensione vel
+						remissione forme gradus additus vel remotus non est differentia talis, nec ab eo potest
+						sumi talis differentia, ut dictum est. Predicatio vero qua iustitia predicatur de suo
+						subiecto vel subiectis non est formalis nec quiditativa, sed tantum denominativa et,
+						quia forma perfectior perfectius denominat subiectum et imperfectior imperfectius,
+						idcirco dicitur homo magis vel minus iustus secundum quod est in ipso maior vel minor
+						iustitia, non aliter, et quod dictum est de iustitia intelligendum est de qualibet
+						consimili forma.</p>
+					<p>Ad secundam vero et tertiam eodem modo, quia intentio <name>Philosophi</name> fuit quod
+						forma non verificatur cum predictis adverbiis de suis inferioribus, sed solum de
+						subiecto vel subiectis de quibus dicitur, et ideo dicit <name>Commentator</name> quod
+						non suscipit magis et minus nisi secundum quod est in materia, et
+							<name>Simplicius</name> quod non secundum se prout participatur a subiecto, quod verum
+						est modo dicto.</p>
+				</div>
+				<div>
+					<head>Ad rationes principales</head>
+					<p>Ad primam nego antecedens quantum ad illam partem qua dicitur quod forma non augetur
+						secundum essentiam.</p>
+					<p>Ad probationem que fundatur in auctoritate auctoris VI <name>Principiorum</name> est
+						responsum supra. Et secundam rationem concedo et, si bene intelligatur, credo eam
+						concludere.</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

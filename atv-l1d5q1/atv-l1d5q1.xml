@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Liber I, Distinctio 5, Quaestio 1</title>
+				<author>Alphonsus Toletanus Vargas</author>
+				<editor>Luciana Cioca</editor>
+				<respStmt>
+					<name>Jeffrey C. Witt</name>
+					<resp>TEI Encoder</resp>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="0.0.0-dev">
+					<date when="2016-09-02">September 02, 2016</date>
+				</edition>
+			</editionStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="http://www.thesis-project.ro/">ERC-THESIS project n° 313339</ref>
+				</authority>
+				<availability status="free">
+					<p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref></p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="V" n="Venice1490">Venice1490</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+			<schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"> </schemaRef>
+			<editorialDecl>
+				<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+					guidelines for a critical edition</p>
+			</editorialDecl>
+		</encodingDesc>
+		<revisionDesc status="draft">
+			<listChange>
+				<change when="2016-09-02" who="#JW" status="draft" n="0.0.0">
+					<p>Created file for the first time.</p>
+				</change>
+			</listChange>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:lang="la">
+		<front>
+			<div xml:id="includeList">
+			</div>
+			<div xml:id="starts-on">
+				<pb ed="#V" n="85-r"/>
+				<cb ed="#V" n="b"/>
+			</div>
+		</front>
+		<body>
+			<div xml:id="atv-l1d5q1">
+				<head xml:id="atv-l1d5q1-Hd1e107">Liber I, Distinctio 5, Quaestio 1</head>
+				<p xml:id="atv-l1d5q1-d1e110">Post hoc queritur etc. Circa istam quintam distinctionem quero conformiter cum
+						<name>Magistro</name>: utrum essentia divina generet vel generetur. </p>
+				<div xml:id="atv-l1d5q1-Dd1e116" type="rationes-principales">
+					<head xml:id="atv-l1d5q1-Hd1e118">Rationes principales</head>
+					<p xml:id="atv-l1d5q1-d1e121">Et videtur primo quod sic, quia de quocumque predicatur subiectum et propria passio
+						subiecti, sed generare est propria passio Patris, igitur de quocumque predicatur Pater
+						et generare, sed hec est vera, immo necessaria. Essentia divina est Pater, igitur et hec
+						erit vera essentia divina generat.</p>
+					<p xml:id="atv-l1d5q1-d1e124">Ad oppositum est <name>Magister</name> in littera.</p>
+				</div>
+				<div xml:id="atv-l1d5q1-Dd1e131">
+					<head xml:id="atv-l1d5q1-Hd1e133">Divisio quaestionis</head>
+					<p xml:id="atv-l1d5q1-d1e136">In ista questione erunt quattuor articuli, quia primo ponam unius termini
+						declarationem, secundo quadruplicem conclusionem. Tertio movebo dubia. Quarto
+						respondebo.</p>
+				</div>
+				<div xml:id="atv-l1d5q1-Dd1e140" type="articulus">
+					<head xml:id="atv-l1d5q1-Hd1e142">Primus articulus</head>
+					<p xml:id="atv-l1d5q1-d1e145">Quantum ad primum articulum terminus declarandus 
+						
+						<pb ed="#V" n="85-v"/>
+						<cb ed="#V" n="a"/> 
+						
+						est essentia divina que non
+						accipitur in proposito pro omni re que est essentia, quia Pater est res que est essentia
+						et tamen generat et Filius est res que est essentia, et tamen generatur, sed accipitur
+						pro natura ipsa divina que communis est tribus personis, quia de essentia sic sumpta
+						fuit controversia inter <name>Magistrum</name> et abbatem <name>Ioachim</name> et multum
+						refert inter hanc et illam acceptionem essentie, quia, licet omnis res que est essentia
+						sit communis tribus personis sicut essentia, quia Pater est res que est essentia et
+						tamen Pater non est Filius, nec Spiritus Sanctus sicut essentia, igitur sumpta secundo
+						modo non primo proponitur presens questio. Et hec de primo articulo.</p>
+				</div>
+				<div xml:id="atv-l1d5q1-Dd1e156" type="articulus">
+					<head xml:id="atv-l1d5q1-Hd1e158">Secundus articulus</head>
+					<p xml:id="atv-l1d5q1-d1e161">Quantum ad secundum articulum pono quattuor conclusiones. </p>
+					<p xml:id="atv-l1d5q1-d1e164">Prima est quod Pater non generat divinam essentiam. </p>
+					<p xml:id="atv-l1d5q1-d1e167">Secunda est quod essentia divina non generat Filium. </p>
+					<p xml:id="atv-l1d5q1-d1e170">Tertia est quod essentia in divinis non generat essentiam. </p>
+					<p xml:id="atv-l1d5q1-d1e174">Quarta est quod universaliter essentia divina nec generat, nec generatur, nec spirat,
+						nec spiratur. </p>
+					<p xml:id="atv-l1d5q1-d1e177">Iste conclusiones sunt <name>Magistri</name> in littera, nec debet catholicis esse
+					  dubie. Sunt enim per Ecclesiam determinate <ref xml:id="atv-l1d5q1-Rd1e182" corresp="#atv-l1d5q1-Qd1e188">extra <title>De summa trinitate et fides
+					    catholica</title>, “Damnamus”,</ref> ubi sic inquit propterea: <quote xml:id="atv-l1d5q1-Qd1e188" source="http://scta.info/resource/cice-l1t1-d1e134">Nos autem sacro approbante
+						concilio credimus et confitemur cum Petro quod una summa res sit essentia, vel natura
+						divina que nec generat, nec generatur</quote>, etc. Sed difficile est assignare rationem
+						sufficientem ad hoc, et ideo diverse rationes assignantur a diversis, unde a quodam
+						doctore.</p>
+					<div xml:id="atv-l1d5q1-Dd1e186">
+						<head xml:id="atv-l1d5q1-Hd1e188"><name>Scotus</name> in I, distinctione 5, questione 1, articulo 2</head>
+						<p xml:id="atv-l1d5q1-d1e193">Ratio logicalis assignatur ista quandocumque subiectum est abstractum ultimata
+							abstractione et predicatum ex ratione sua non potest predicari nisi formaliter, ibi
+							non potest propositio esse vera nisi per se in primo modo; sed in ista propositione
+							‘essentia divina generat’ subiectum est abstractum ultima abstractione et predicatum
+							de ratione sua non predicatur nisi formaliter, igitur propositio non potest esse vera
+							nisi sit per se primo modo, sed ista non est per se primo modo, quia predicatum non
+							est de per se intellectu subiecti. Omne enim quod dicitur ad aliquid est ad aliquid
+							preter relationem VII <title>De Trinitate</title>, capitulo 2, ita quod relatio non
+							est conceptum illius absoluti; ergo etc. Istius syllogismi primo declaratur maior,
+							deinde minor pro declaratione maioris. Primo declaratur que sit ultimata abstractio,
+							secundo que sunt predicata que ex ratione sua non possunt predicari nisi formaliter. </p>
+						<p xml:id="atv-l1d5q1-d1e199">Quantum ad primum dicitur quod in entibus est triplex abstractio. </p>
+						<p xml:id="atv-l1d5q1-d1e202">Una in substantiis quando natura vel quiditas abstrahitur a suppositis proprie
+							nature, sicut abstrahitur cum concipitur humanitas. Et hec abstractio in substantiis
+							est maxima, quia substantie non sunt nate concernere aliquid alterius nature, et ideo
+							humanitas vel quecumque alia substantia sic concepta est precise ipsamet, quia
+							cuilibet alii extranea, sicut dicit <name>Avicenna</name> V <title>Metaphysica</title>
+							quod “equinitas est tantum equinitas et nihil aliud”.</p>
+						<p xml:id="atv-l1d5q1-d1e211">Secunda abstractio est in accidentibus absolutis et ista sit quando accidens
+							abstrahitur primo de subiecto quod est suppositum alterius nature, secundo ad
+							individuis proprie nature. Exemplum primi: albedo abstrahitur a subiecto, quia album
+							non albedo concernit subiectum, sed non abstrahit ab individuis proprie nature, quia
+							albedo concernit hanc albedinem et illam que sunt individua sua. Exemplum secundi:
+							albeitas vel quiditas albedinis abstrahit ab utroque, quia nec concernit subiectum,
+							nec hanc albedinem, nec illam.</p>
+						<p xml:id="atv-l1d5q1-d1e215">Tertia abstractio est in relationibus et ista fit quando relatio abstrahitur non
+							solum a subiecto, sed a fundamento et ab individuis proprii generis, sicut paternitas
+							ut paternitas vel quiditas paternitatis que non concernit subiectum, nec fundamentum,
+							nec hanc paternitatem, nec illam.</p>
+						<p xml:id="atv-l1d5q1-d1e218">Ex istis narratis patet, ut dicunt, que sit ultimata abstractio, quia ultimata
+							abstractio est quiditatis absolutissime sumpte ab omni eo quod est 
+							
+							<pb ed="#V" n="85-v"/>
+							<cb ed="#V" n="b"/> 
+							
+							quocumque
+							extra ratione quiditatis. </p>
+						<p xml:id="atv-l1d5q1-d1e221">Quantum ad secundum dicitur esse notandum quod substantiva possunt dupliciter
+							predicari in divinis, quandoque formaliter et quandoque per identitatem, sed
+							adiectiva, si predicantur de necessitate, predicantur formaliter et hoc quia sunt
+							adiectiva. Nam ex hoc quod sunt adiectiva significant formam per modum informantis, et
+							ideo de nullo vere dicuntur nisi de eo ad quod se habent per modum informantis de quo
+							videlicet formaliter dicuntur et talia, ut dicunt, sunt non solum nomina adiectiva,
+							sed omnia participia et verba. </p>
+						<p xml:id="atv-l1d5q1-d1e224">His duobus declaratis patet illa maior, scilicet quod quando aliquid est abstractum
+							ultimata abstractione, ita quod est abstractum ab omni eo quod est extra rationem eius
+							et predicatum non predicatur de aliquo alio nisi formaliter, non est vera unio talium
+							extremorum nisi sit formalis et per se primo modo, quia ex quo illud predicatum
+							precise natum est predicari formaliter non potest salvari veritas propter identitatem
+							tantum. Et, quia subiectum est ultimata abstractione abstractum, non potest stare per
+							qualitercumque alio a se, sed precise pro se formaliter, et ideo oportet quod sua
+							ratio precise formaliter sit idem illi predicato, quod non posset esse nisi illa ratio
+							precise includeret predicatum. Patet igitur maior. Minor autem est clara, videlicet
+							quod talia sunt ista extrema essentia vel deitas generat, quia essentia et deitas sunt
+							abstracta summa abstractione. Generat autem est verbum ideo non potest predicari nisi
+							formaliter.</p>
+					</div>
+					<div xml:id="atv-l1d5q1-Dd1e228">
+						<head xml:id="atv-l1d5q1-Hd1e230">Contra <name>Scotum</name></head>
+						<p xml:id="atv-l1d5q1-d1e235">Ista tamen ratio deficit multipliciter, licet logicis videatur apparens. Quod ostendo
+							primo, quia hec est vera: ‘essentia divina creat’, ‘essentia divina conservat’, et
+							tamen per eum subiectum est abstractum ultimata abstractione et predicatum, cum sit
+							verbum, non potest predicari nisi formaliter.</p>
+						<p xml:id="atv-l1d5q1-d1e238">Preterea, hec est vera ‘essentia est una’ et tamen non est per se primo modo,
+							secundum istum doctorem, et tamen subiectum est abstractum etc. Et predicatum non est
+							natum predicari nisi formaliter per eum cum sit adiectivum. Et similiter hec sunt
+							vere: ‘essentia divina est bona’, ‘essentia divina est vera’, et tamen nulla earum est
+							vera per se et primo modo, secundum eum, et quelibet habet conditiones predictas.</p>
+						<p xml:id="atv-l1d5q1-d1e241">Preterea, hec est vera secundum decretalem predictam: ‘essentia divina est res summa’
+							et habet conditiones predictas, et tamen predicatum non inest subiecto secundum eum,
+							cum non dicatur summa res nisi in habitudine ad creaturas. Et similiter ista essentia
+							videtur ab intellectu creato, et sic de aliis.</p>
+					</div>
+					<div xml:id="atv-l1d5q1-Dd1e245">
+						<p xml:id="atv-l1d5q1-d1e247">Ad istas rationes respondet quidam doctor de suis.</p>
+						<p xml:id="atv-l1d5q1-d1e250"><name>Franciscus de Maronis</name>, distinctione 5, questione 2, articulo 1</p>
+						<p xml:id="atv-l1d5q1-d1e255">Ad primam concedit quod essentia divina non est creans, nec conservans, nec creat,
+							nec conservat, quia creatio non est ei intimior quam generatio.</p>
+						<p xml:id="atv-l1d5q1-d1e258">Ad secundam dicit quod unitas, cum sit passio privativa, non est quiditative
+							distincta, et ideo ratio non tenet in passionibus privativis.</p>
+						<p xml:id="atv-l1d5q1-d1e261">Ad tertiam dicit quod iste due passiones veritas et bonitas dicunt respectus
+							fundamentales ad intellectum et voluntatem et in talibus regula illa sive maior tenere
+							non potest pro eo quod non sunt formaliter nisi respectus rationis.</p>
+						<p xml:id="atv-l1d5q1-d1e265">Ad quartam etiam dicit quod illa summitas etiam formaliter et actualiter non dicit
+							nisi respectum rationis super additum essentie.</p>
+						<p xml:id="atv-l1d5q1-d1e268">Ad quintam dicit quod essentia divina se ipsa est terminus visionis et dilectionis
+							beatifice primo modo.</p>
+					</div>
+					<div xml:id="atv-l1d5q1-Dd1e272">
+						<head xml:id="atv-l1d5q1-Hd1e274">Contra <name>Franciscum</name></head>
+						<p xml:id="atv-l1d5q1-d1e279">Iste tamen solutiones non satisfaciunt, quia nulla ratio solvitur de predictis. </p>
+						<p xml:id="atv-l1d5q1-d1e282">Non quidem prima, quia illa propositio ‘essentia divina creat’ non negatur ab aliquo
+							sancto, nec doctore, igitur negare propositionem est non posse solvere rationem. </p>
+						<p xml:id="atv-l1d5q1-d1e285">Nec secunda, propter 
+							
+							<pb ed="#V" n="86-r"/>
+							<cb ed="#V" n="a"/> 
+							
+							duo. </p>
+						<p xml:id="atv-l1d5q1-d1e292">Primo, quia et si unitas non sit quiditative distincta, non est tamen eadem deitati
+							quiditative per eos, quia nulla ratio privativa est eadem formaliter et quiditative
+							rationi positive, ut dicunt, et hoc sufficit iuxta regulam eorum ad hoc quod ista
+							propositio ‘essentia divina vel deitas est una’ non sit vera, quia ultimata
+							abstractio, ut dicunt, est quiditatis absolutissime sumpte ab omni eo quod est
+							quomodocumque extra rationem quiditatis, sed quod non est idem alteri quiditative est
+							extra rationem illius; ergo etc. Et confirmatur, quia sicut <name>Avicenna</name>
+							dicit quod allegat. Hec est falsa ‘equinitas est una’, quia equinitas, ut dicit, est
+							tantum equinitas, nec est una, nec plures, igitur, si dictum <name>Avicenne</name> est
+							eis ad propositum, oportet concedere quod hec sit falsa ‘essentia divina est una’,
+							cuius opopsitum decretalis ponit et fides. </p>
+						<p xml:id="atv-l1d5q1-d1e302">Secundo, quia concedit quod ista regula sive propositio non tenet in passionibus
+							privativis, igitur non est universalis, et per consequens in tali processu committitur
+							consequentis fallacia. Et confirmatur, quia abstractum ultimata abstractione non magis
+							abstrahitur a suis passionibus positivis quam a privativis, quia non magis repugnat
+							sibi quod sit sua passio positiva quam sit privativa, igitur sic abstractum non magis
+							recipit predicationem passionis privative quam positive, igitur, si regula non tenet
+							in passionibus privativis, nec in positivis, et sic in nulla.</p>
+						<p xml:id="atv-l1d5q1-d1e305">Nec tertia ratio solvitur propter tria. </p>
+						<!-- possibile division break here -->
+						<p xml:id="atv-l1d5q1-d1e310">Primo, quia non est verum quod veritas et bonitas non sint formaliter nisi respectus
+							rationis, quia circumscripto omni eo quod non est Deus essentia divina est vera et
+							bona, sicut et sapiens, et constat quod nullus respectus rationis est Deus, igitur
+							circumscripto omni respectu rationis essentia divina erit vera et bona, igitur
+							huiusmodi passiones non sunt formaliter respectus rationis. Et confirmatur, quia
+							nullus respectus rationis est perfectio formaliter simpliciter et intrinsece veritas
+							et bonitas sunt perfectiones simpliciter formaliter et intrisece, ut patet per
+								<name>Anselmum</name>
+							<title>Monologion</title> 15; igitur etc. </p>
+						<p xml:id="atv-l1d5q1-d1e319">Secundo, quia supposito quod iste due passiones non essent formaliter nisi respectus
+							rationis, adhuc intelligere velle et esse sapientem et huiusmodi sunt aliquid
+							respectus non minus quam generare et quamvis omnes ille sint vere ‘essentia divina
+							intelligit’, ‘essentia divina est sapiens’, et consimiles, licet nulla earum sit vera
+							per se primo modo, secundum ipsum propter distinctionem formalem. Et confirmatur, quia
+							hec est vera secundum istum doctorem: ‘essentia divina communicatur Filio et Spiritui
+							Sancto’ et constat quod communicari est aliquid respective non minus quam generare, et
+							tamen predicatum huius propositionis est verbum, quod non predicatur nisi formaliter,
+							ut dicit et non est per se primo modo. </p>
+						<p xml:id="atv-l1d5q1-d1e322">Tertio, quia sic exponere regulam est loqui ad placitum ex quo non assignatur causa
+							quare magis debeat tenere in predicamentis realibus quam rationis, quia ita poterit
+							unus alius dicere quod non tenet in predicamentis realibus, sed rationis. Et
+							confirmatur, quia abstractio ultimata abstractione non minus abstrahitur ab ente
+							rationis quam ab ente reali, quia non minus repugnat sibi quod sit ens rationis quam
+							quod sit quodcumque ens reale sibi extraneum, igitur sic abstractum non magis recipit
+							predicationem entis rationis quam entis realis, igitur propter talem abstractionem hec
+							est falsa ‘essentia generat’ et hec esset falsa ‘essentia est bona vel vera’, quia
+							supponitur quod ista dicant precise respectus rationis.</p>
+						<p xml:id="atv-l1d5q1-d1e326">Preterea, respectus rationis non sunt minus extranei essentie divine quam actus
+							generationis, sed propter extraneitatem predicati. Hec est falsa, ut dicunt: ‘essentia
+							generat’, igitur et illa ‘essentia est bona vel vera’ si dicunt precise respectum
+							rationis.</p>
+						<p xml:id="atv-l1d5q1-d1e329">Preterea, posita eadem causato tali et precisa idem efficitur, sed totalis causa et
+							precisa quare generare non predicatur de divina essentia, ut dicunt, est quia
+							subiectum est abstractum ultimata abstractione et predicatum non est natum predicari
+							nisi formaliter, sed ista causa est communis, ut predicetur predicatum reale sive
+							rationis, dum tamen non sit natum Patri nisi formaliter, igitur idem sequitur de
+							utroque. Ex his patet quod non solvitur 
+							
+							<pb ed="#V" n="86-r"/>
+							<cb ed="#V" n="b"/> 
+							
+							quarta ratio, quia recursus ad
+							respectum rationis est nullus et ulterius posito quod esse summum dicat respectum
+							rationis ad creaturam esse tamen perfectissimum per inclusionem omnis perfectionis non
+							dicit respectum rationis, quia hoc competit Deo, etiam si per impossibile nulla
+							creatura esset possibilis; et tamen hec est vera: ‘essentia dum est perfectissima per
+							inclusionem etc’ et predicatum non est natum predicari nisi formaliter cum sit
+							adiectivum et iuxta doctrinam eorum non est per se primo modo, quia non omnis
+							perfectio est ei quiditativa, ut dicunt.</p>
+						<p xml:id="atv-l1d5q1-d1e332">Quinta ratio etiam non solvitur, quia concesso quod essentia divina se ipsa sit
+							terminus visionis beatifice non sequitur quod actualiter videri ab intellectu creato
+							sit ei quiditativum, igitur ista essentia actualiter videtur ab intellectu creato, non
+							est per se primo modo et tamen est vera, igitur illa regula logicalis est falsa.</p>
+						<p xml:id="atv-l1d5q1-d1e335">Dimisso igitur ipso et multis aliis modis dicendi videtur mihi quod rationes
+								<name>Magistri</name> sint efficatiores in hac materia, quarum prima hec est:
+							‘generantis ad genitum est relatio realis’ et econverso, igitur, si essentia generat
+							vel generatur realiter, refertur et est ad aliquid. Consequens est impossibile, quia,
+							si essentia esset ad aliquid, essentia non esset essentia, ut patet per <name>beatum
+								Augustinum</name>
+							<title>De Trinitate</title>, capitulo 5 et 2, igitur et antecedens. </p>
+						<p xml:id="atv-l1d5q1-d1e347">Secunda est hec: ‘generantis et geniti est distinctio realis’, quia nulla res se
+							ipsam gignit, ut patet I <title>De Trinitate</title>, capitulo 1, igitur, si essentia
+							divina generat realiter, distinguitur a genito et, si generatur realiter, distinguitur
+							a generante, quorum quodlibet est impossibile, quia in divinis nihil realiter
+							distinguitur ab essentia, igitur tota causa quare essentia divina nec generat, nec
+							generatur est, quia omne generans distinguitur realiter a genito et refertur realiter
+							ad ipsam, quod essentie divine repugnat. Et hec de secundo articulo.</p>
+					</div>
+				</div>
+				<div xml:id="atv-l1d5q1-Dd1e355" type="articulus">
+					<head xml:id="atv-l1d5q1-Hd1e357">Tertius et quartus articulus</head>
+					<p xml:id="atv-l1d5q1-d1e360">Quantum ad tertium et quartum articulum simul contra conclusiones istas movenda et
+						dissolvenda sunt dubia, quia et ultima conclusio continet primas tres. Contra
+						conclusionem illam potest multipliciter argui. </p>
+					<p xml:id="atv-l1d5q1-d1e363">Primo sic: omnis Pater generat vel saltem genuit. Hoc patet, quia Pater ideo est Pater,
+						quia generat, sed essentia divina est Pater, ergo essentia divina generat.</p>
+					<p xml:id="atv-l1d5q1-d1e366">Preterea, per syllogismum expositorium sic: hic Pater generat. Hec essentia divina est
+						hic Pater; ergo essentia divina generat. Et confirmatur, quia sequitur: hec essentia
+						divina non generat. Hic Pater est hec essentia divina; ergo hic Pater non generat.
+						Consequentia est falsa et non minor, ergo maior.</p>
+					<p xml:id="atv-l1d5q1-d1e369">Preterea, essentia divina est generans, ergo generat. Consequentia est bona. Antecedens
+						probatur, quia hec est falsa: ‘nullum generans est essentia divina’, igitur et eius
+						conversa, scilicet ‘aliqua essentia divina non est generans’, igitur et hec indefinita
+						est: ‘vera essentia divina est generans’.</p>
+					<p xml:id="atv-l1d5q1-d1e373">Preterea, essentia divina est Pater Filii, ergo essentia divina generat. Antecens patet
+						per conversionem, quia Pater Filii est essentia, igitur essentia est Pater Filii.
+						Consequentia probatur, quia sequitur essentia est Pater Filii, ergo Filius est Filius
+						essentie, quia in relativis est consequentia mutua, sed sequitur Filius est Filius
+						essentie, ergo essentia generat; ergo etc.</p>
+					<p xml:id="atv-l1d5q1-d1e376">Preterea, quando aliqua sunt idem et non distinguuntur ex natura rei quicquid realiter
+						predicatur de uno et de altero, sed essentia et Pater sunt idem et non distinguuntur ex
+						natura rei, ut suppono ad presens, et hec est vera ‘Pater generatur’, igitur et hec
+						essentia generat. Et confirmatur, quia quando aliqua sunt idem omnibus modis ex natura
+						rei de quocumque predicatur unum et reliquum, sed paternitas et generare sunt idem
+						omnibus modis ex natura rei et hec est vera ‘essentia est paternitas’; ergo et hec
+						‘essentia generat’. Et confirmatur ulterius, quia, cum dicitur ‘essentia generat’, vel
+						predicatum est idem realiter cum subiecto, vel non. Si sic, igitur propositio vera. Si
+						non, igitur aliquid in Deo distinguitur realiter ab essentia divina, quod non est
+						verum.</p>
+					<p xml:id="atv-l1d5q1-d1e379">Preterea, sicut se habet actus essentialis ad personam, ita personalis ad essentiam,
+						sed actus essentialis attribuitur persone, quia persona intelligit et vult; igitur actus
+						personalis attribuitur essentie. </p>
+					<p xml:id="atv-l1d5q1-d1e382">Prete-
+						
+						<pb ed="#V" n="86-v"/>
+						<cb ed="#V" n="a"/>
+						
+						-rea, essentia generatur, ergo generat.
+						Consequentia patet, quia non magis repugnat sibi generare quam generari. Antecedens est
+							<name>beati Augustini</name> VII <title>De Trinitate</title>, capitulo 1, dicens quod
+						“Deus Pater genuit essentiam suam, quia est quicquid est. Sicut enim magnus est non nisi
+						quam genuit magnitudinem ita et est non nisi ea quam genuit essentia”. Et paucis
+						interpositis dicit quod “una eademque essentia est Pater et Filius quam essentiam Pater
+						genuit et qua essentia est quicquid est”. Et confirmatur, quia sapientia in divinis est
+						genita, igitur et essentia. Consequentia patet, quia sapientia in divinis est ad se et
+						non ad aliud, sicut et essentia. Antecedens est <name>beati Augustini</name>, ut supra
+						dicens quod sapientia est genita et quod Pater genuit sapientiam. Et capitulo sequenti
+						dicit quod idem dici accipiamus cum dicitur verbum ac si dicatur sapientia nata, ut in
+						uno eorum in eo, scilicet quod nata est et verbum et imago et Filius intelligatur et in
+						his omnibus nominibus non ostendatur essentia, quia relative dicuntur et in altero, quod
+						est sapientia, quoniam ad se dicitur essentia demonstretur. Vult igitur
+							<name>Augustinus</name> quod sapientia, etiam ut dicitur ad se, dicatur nata etc.</p>
+					<p xml:id="atv-l1d5q1-d1e400">Preterea, <name>beatus Augustinus</name>, ubi supra, concedit has propositiones in
+						divinis ‘sapientia est de sapientia’, ‘essentia est de essentia’, igitur sapientia est
+						gignens et genita et similiter essentia. Ista consequentia patet, quia bene sequitur
+						essentia non est gignens nec genita, ergo essentia non est de essentia, quod est
+						oppositum antecedentis.</p>
+					<p xml:id="atv-l1d5q1-d1e406">Preterea, <name>Ricardus</name> VI <title>De Trinitate</title>, capitulo 22, videtur
+						expresse loqui contra <name>Magistrum</name> dicens: “multi temporibus nostris
+						surexerunt qui non audent dicere substantiam genitam quin potius, quod est periculosius.
+						Et contra sanctorum auctoritatem audent negare et modis omnibus conantur repellere quod
+						substantia gignat substantiam pertinaciter negant quod omnes sancti affirmant ad illud
+						quod dicunt auctoritatem non posse invenire ad illud quod dicimus auctoritates multas
+						etiam ipsi adducunt in morem Golie”. Hec <name>Ricardus</name>. Asserit igitur
+							<name>Ricardus</name> quod substantia generat et generatur et dicit hoc esse de
+						intentione sanctorum.</p>
+					<p xml:id="atv-l1d5q1-d1e425">Preterea, ad idem arguit <name>abbas Ioachim</name> contra <name>Magistrum</name>
+						dicens ipsum esse hereticum sic: “si essentia divina non generat, nec generatur in
+						divinis, erit quaternitas rerum, quod est hereticum”. Consequentia probatur, quia in
+						divinis sunt tres res, quarum prima est generans, secunda genita, tertia spirata,
+						igitur, si sit aliqua res que nec sit generans, nec genita, nec spirata, erunt quattuor
+						res.</p>
+					<p xml:id="atv-l1d5q1-d1e434">Pro solutione harum rationum premitto aliquas propositiones. </p>
+					<p xml:id="atv-l1d5q1-d1e437">Prima est quod paternitas in divinis est tantum essentia. Hoc patet, quia paternitas
+						est essentia et nihil aliud quam essentia. </p>
+					<p xml:id="atv-l1d5q1-d1e440">Secunda est quod essentia non est tantum paternitas. Hoc patet, quia, licet essentia
+						sit paternitas, et tamen filiatio que non est paternitas.</p>
+					<p xml:id="atv-l1d5q1-d1e443">Tertia est quod, licet ista sit vera ‘paternitas est tantum essentia’, ista tamen est
+						falsa ‘tantum paternitas est essentia’, aliter filiatio esset paternitas, vel non esset
+						essentia, quorum quodlibet est erroneum. Et, quia in Patre non est nisi paternitas et
+						essentia, sequuntur tres propositiones consimiles. </p>
+					<p xml:id="atv-l1d5q1-d1e446">Prima est quod Pater est tantum essentia. </p>
+					<p xml:id="atv-l1d5q1-d1e450">Secunda, quod essentia non est tantum Pater. </p>
+					<p xml:id="atv-l1d5q1-d1e453">Tertia, quod, licet ista sit vera ‘Pater est tantum essentia’, ista tamen est falsa
+						‘tantum Pater est essentia’. Patet ut prius. Et quod dictum est de paternitate et Patre
+						dicendum est de qualibet alia persona et eius proprietate. </p>
+					<p xml:id="atv-l1d5q1-d1e456">Hiis premissis. </p>
+					<p xml:id="atv-l1d5q1-d1e459">Ad primum quando dicitur omnis Pater generat etc, dico quod propositio potest
+						dupliciter intelligi. Uno modo sic: omnis Pater generat, id est omnis res que est tantum
+						Pater generat, et sub illo sensu maior est vera et minor falsa, quia essentia divina non
+						est tantum Pater, ut patet ex secunda propositione. Alio modo sic: omnis Pater generat,
+						id est omnis res que est Pater generat, et sub illo sensu minor est vera, sed maior est
+						falsa, quia res que sic est Pater quod non est tantum Pater potest esse Filius, et per
+						consequens non poterit generare, quia non distinguitur realiter a Filio, nec refertur
+						realiter ad ipsum, et sic est in proposito, ut patet. </p>
+					<p xml:id="atv-l1d5q1-d1e462">Ad secundum dico quod sylogismus expositorius solum tenet gratia forme in
+						termi-
+						
+						<pb ed="#V" n="86-v"/>
+						<cb ed="#V" n="b"/> 
+						
+						-nis convertibilibus vel equipollentibus et ad hoc additur pronomen
+						demonstrativum, quia, licet substantia animal et homo non sint termini convertibiles,
+						addito tamen pronomine demonstrativo supponunt pro eodem et equivalent convertibilibus
+						dicendo ‘hoc animal est hec substantia’, ‘hic homo est hoc anima’, ergo ‘hic homo est
+						hec substantia’ et nisi ita esset in omni sylogismo expositorio esse variatio medii,
+						sicut esset dicendo ‘hoc animal currit’ demonstrato homine currente, ‘hic homo est
+						animal’ demonstrato Petro non currente, igitur hic homo currit. Et, quia essentia divina
+						et proprietas non sunt termini convertibiles, nec equivalent convertibilibus etiam
+						addito pronomine demonstrativo eo quod proprietas sit tantum essentia, non autem
+						econverso, ut patet ex dictis. Sequitur quod omnis syllogismus expositorius ad hos
+						terminos applicatus peccant in forma, et ideo non sequitur ‘hic Pater generat’, ‘hec
+						essentia divina est hic Pater’; ergo ‘hec essentia generat’, quia essentia divina non
+						est tantum Pater etiam super addito pronomine demonstrativo, et per consequens in omni
+						tali silogismo committitur fallacia consequentis. Et per hoc patet quid dicendum ad
+						confirmationem.</p>
+					<p xml:id="atv-l1d5q1-d1e465">Ad tertium dico quod essentia divina est generans si ly ‘generans’ teneatur
+						substantive, quia tunc est sensus ‘essentia est Pater qui est generans’ et hec est vera,
+						sed sic concesso antecedente, consequentia est nulla, quia non sequitur nisi quod
+						essentia est Pater qui generat quod verum est et sub illo sensu tenent propositiones
+						antecedentis; sed, si ly ‘generans’ teneatur pure adiective, licet consequentia sit
+						bona, antecedens tamen est falsum, quia essentia divina non est generans isto modo, et
+						sic loquitur <name>Magister</name> in littera et decretalis, ut patet ibidem in
+							<title>Glossa</title>.</p>
+					<p xml:id="atv-l1d5q1-d1e475">Ad quartum dico eodem modo quod essentia divina est Pater Filii. Si ly ‘Pater’ teneatur
+						substantive, quia tunc est sensus quod essentia est Pater qui est Pater Filii, sed
+						essentia non est Pater Filii si li ‘Pater’ teneatur adiective, tunc est sensus quod
+						essentia est Pater generando Filium. In primo sensu concedo antecedens, sed consequentia
+						non valet, nec eius probatio, quia in huiusmodi relativis non est mutua consequentia
+						nisi ly ‘Pater’ teneatur adiective. In secundo autem sensu patet antecedens esse falsum,
+						nec probatio per conversionem valet, quia, si li ‘Pater’ teneatur substantive,
+						conceditur conversa, scilicet quod essentia est Pater Filii, sed, si teneatur adiective,
+						debet sic converti Pater Filii est essentia, igitur aliquid quod est essentia est Pater
+						Filii et hec est vera sicut illa ‘individuum est homo’ non convertitur in istam ‘homo
+						est individuum’, sed in illam ‘aliquid quod est homo est individuum’.</p>
+					<p xml:id="atv-l1d5q1-d1e478">Ad quintum: si ratio esset bona, sequeretur quod Pater esset Filius, quia hec est vera
+						‘essentia est Filius’. Dicendum ergo quod maior non est vera ubi termini non sunt idem
+						convertibiliter et adequate et sic est in proposito, ut patet, licet forte non semper
+						sit vera etiam ubi termini non sunt idem convertibiliter propter alium et alium modum
+						significandi, de hoc tamen alias. </p>
+					<p xml:id="atv-l1d5q1-d1e481">Et ad primam confirmationem concedo quod, sicut hec est vera ‘essentia est paternitas’,
+						ita et hec ‘essentia est generare’, sed ex hoc non sequitur, ergo essentia generat
+						propter rationes <name>Magistri</name> superius adductas. </p>
+					<p xml:id="atv-l1d5q1-d1e487">Ad secundam eodem modo dico, quia concedo quod generare sit idem realiter cum essentia,
+						sed ex hoc non sequitur essentia generat, sed essentia est generare.</p>
+					<p xml:id="atv-l1d5q1-d1e490">Ad sextum nego maiorem si ly ‘sicut’ sit nota omnimode similitudinis, quia actus
+						essentialis non repugnat persone. Personalis autem repugnat essentie, ut patet ex
+						dictis, licet sit vera si li ‘sicut’ sit nota identitas, quia, sicut actus essentialis
+						est idem persone, ita personalis est idem essentie.</p>
+					<p xml:id="atv-l1d5q1-d1e493">Ad septimum nego antecedens. Et ad probationem <name>beati Augustini</name> respondet
+							<name>Magister</name> in littera, distinctione 5, exponendo auctoritates et declarando
+						expositiones ex dictis met <name>Augustini</name>. Et per hoc patet quid dicendum ad
+						confirmationem et ad octavum argumen-
+						
+						<pb ed="#V" n="87-r"/>
+						<cb ed="#V" n="a"/> 
+						
+						-tum.</p>
+					<p xml:id="atv-l1d5q1-d1e506">Ad nonum nego <name>Ricardum</name> in hac parte, quia oppositum postea determinavit
+						Ecclesia.</p>
+					<p xml:id="atv-l1d5q1-d1e512">Ad decimum respondet decretalis quod, propter simplicitatem persone divine, quelibet
+						persona est illa res que nec generat, nec generatur et omnes tres persone sunt illa res,
+						et ideo non sequitur quaternitas rerum.</p>
+				</div>
+				<div xml:id="atv-l1d5q1-Dd1e516">
+					<head xml:id="atv-l1d5q1-Hd1e518">Ad rationes principales</head>
+					<p xml:id="atv-l1d5q1-d1e521">Ad primam concedo maiorem, minorem et conclusionem que gratia forme sequitur ex
+						premissis, quia non sequitur quod essentia generat, sed quia essentia sit ipsum
+						generare, et hoc est verum. Determinationem <name>Magistri</name> concedo et est per
+						Ecclesiam approbata et hec satis de hac distinctione.</p>
+
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

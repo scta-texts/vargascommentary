@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Liber I, Distinctio 22 et 23, Quaestio 1</title>
+				<author>Alphonsus Toletanus Vargas</author>
+				<editor>Luciana Cioca</editor>
+				<respStmt>
+					<name>Jeffrey C. Witt</name>
+					<resp>TEI Encoder</resp>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="0.0.0-dev">
+					<date when="2016-09-15">September 15, 2016</date>
+				</edition>
+			</editionStmt>
+			<publicationStmt>
+				<authority>THESIS project</authority>
+				<availability status="free">
+					<p>Public Domain</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="P" n="Paris1490">Paris1490</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+			<schemaRef n="lbp-critical-1.0.0"
+				target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/1.0/critical.rng"> </schemaRef>
+			<editorialDecl>
+				<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+					guidelines for a critical edition</p>
+			</editorialDecl>
+		</encodingDesc>
+		<revisionDesc status="draft">
+			<listChange>
+				<change when="2016-09-02" who="#JW" status="draft" n="0.0.0">
+					<p>Created file for the first time.</p>
+				</change>
+			</listChange>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:lang="la">
+		<front>
+			<div xml:id="includeList">
+				<xi:include
+					href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+					xpointer="worksCited"/>
+				<xi:include
+					href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+					xpointer="prosopography"/>
+			</div>
+			<div xml:id="starts-on">
+				<pb ed="#P" n=""/>
+				<cb ed="#P" n=""/>
+			</div>
+		</front>
+		<body>
+			<div xml:id="atv-l1d22et23q1">
+				<head>Liber I, Distinctio 22 et 23, Quaestio 1</head>
+				<p>Post predicta etc differendum nobis etc. Circa distinctionem istam 22 et sequentem in
+					quibus Magister agit de divinis nominibus quero: utrum nomina dicta de Deo dicuntur de
+					ipso formaliter. </p>
+				<div type="rationes-principales">
+					<head>Rationes principales</head>
+					<p>Et videtur primo quod non, quia Deus non potest aliquo nomine proprie nominari, ergo
+						nullum nomen dicitur de ipso formaliter. Consequentia nota. Antecedens est <name>beati
+							Augustini</name>
+						<title>De verbis Domini</title>, sermone 34, dicens quicquid potest fari non est
+						ineffabile. Ineffabilis autem est Deus, ex quibus evidenter sequitur quod Deus non
+						potest fari et, si non potest fari, non potest aliquo nomine proprio nominari.</p>
+
+					<p>Contra Deus est formaliter iustus sapiens et bonus, et sic de singulis que dicunt
+						perfectionem simpliciter, ergo saltem ista nomina dicuntur de Deo formaliter.</p>
+				</div>
+				<div>
+					<head>Divisio quaestionis</head>
+					<p>In ista questione primo ponam aliquas distinctiones, secundo conclusiones. Tertio
+						dubia. Quarto respondebo.</p>
+				</div>
+				<div type="articulus">
+					<head>Primus articulus</head>
+
+					<p>Quantum ad primum distinguo primo de nominibus que de Deo dicuntur privative sive
+						negative, sicut infinitus, immortalis, invisibilis, et huiusmodi. Quedam vero dicuntur
+						de Deo positive sive affirmative, sicut ens, vivens, omnipotens etc. </p>
+
+					<p>Secundo, distinguo de nominibus que dicuntur de Deo positive seu affirmative, quia
+						quedam dicuntur tantum figuraliter et metaphorice sicut agnus, leo etc. Vero quedam
+						dicuntur de ipso proprie et non ut cognoscens diligens et similia metaphorice. </p>
+
+					<p>Tertio, distinguo de nominibus que dicuntur de Deo proprie, quia quedam dicuntur de Deo
+						ex tempore et tantum in ordine ad creaturam, sicut creator et conservator, dominus etc.,
+						de quibus tractat <name>beatus Augustinus</name> V <title>De Trinitate</title>, capitulo
+						ultimo. Quedam vero dicuntur de eo simpliciter et sine habitudine ad aliquam creaturam,
+						sicut sapiens, iustus, generans. </p>
+
+					<p>Quarto, distinguo de nominibus que de Deo dicuntur simpliciter et sine habitudine ad
+						creaturam, quia quedam de singulis dicuntur personis vel saltem de duabus, non tamen de
+						omnibus, et huiusmodi nomina relative dicuntur adinvicem, sicut Pater Filius spirare et
+						spirari sive spiratio activa et passiva, quod idem est. Quedam vero de singulis
+						sigillatim dicuntur de personis et de omnibus communiter, non tamen pluraliter, sed
+						singulariter sicut Deus bonus, magnus et huiusmodi. Quedam autem vel saltem aliquid de
+						singulis personis sigillatim et de omnibus communiter, non tamen singulariter, sed
+						pluraliter, sicut persona. Dicimus enim quod Pater est persona, Filius est persona,
+						Spiritus Sanctus est persona, et tamen non dicimus quod Pater et Filius et Spiritus
+						Sanctus sunt una persona, sed tres persone. Quedam vero de nulla persona dicitur
+						sigillatim, sed de omnibus similiter, sicut trinitas et istud nomen non dicitur secundum
+						substantiam, sed quasi collectivum pluralitatem designat personarum, ut patet per
+							<name>Magistrum</name> in littera.</p>
+
+					<p>His premissis patent septem differentie nominum quibus uti possumus loquendo de Deo et
+						de omnibus potest intelligi questio.</p>
+				</div>
+				<div type="articulus">
+					<head>Articulus secundus</head>
+
+					<p>Quantum ad secundum articulum. </p>
+
+					<div>
+						<head><supplied>Conclusio prima</supplied></head>
+
+						<p>Prima conclusio est quod aliqua nomina dicta de Deo privative dicuntur de ipso
+							formaliter, aliqua vero non. Pro cuius declaratione premitto duas distinctiones de
+							nominibus privativis, cum quibusdam propositionibus.</p>
+
+						<p>Prima distinctio est de nominibus privativis absolute, quia quedam sunt privativa
+							absoluta secundum rem et secundum vocem, sicut tenebra in aere et cecitas in visu et
+							universaliter omnia quibus significantur subiectum privari aliqua perfectione sibi
+							debita. Quedam vero sunt privativa secundum vocem, non autem secundum rem, sicut
+							invisibilitas in sono insensibilitas in angelo et huiusmodi quibus non subiectum
+							privari aliqua perfectione debita sibi et tamen quantum ad [131rb] modum significandi
+							sunt privationes vel significant ad modum privationum. </p>
+
+						<p>Secunda distinctio est de nominibus privativis secundum vocem et non secundum rem,
+							quia talia sunt adhuc in duplici differentia. Quedam enim sunt privativa secundum
+							vocem et non positiva secundum rem et talia sunt nomina quibus significatur quid res
+							sit, et tamen habent modum significandi privativum et quod aliqua sint huiusmodi
+							apparebit inferius. Quedam enim sunt privativa secundum vocem et pure negativa
+							secundum rem et talia sunt omnia nomina privativa secundum vocem quibus non
+							significatur quid res sit secundum tantum quid non sit, sicut invisibilitas in sono,
+							insensibilitas in angelo etc. Et hec de primo. </p>
+
+						<p>De secundo premitto aliquas propositiones. Prima est quod nullum privativum secundum
+							vocem et secundum rem potest vere dici de Deo. Et hec est evidens, quia impossibile
+							est Deum privari vel carere aliquo sibi debito. </p>
+
+						<p>Secunda est quod aliqua nomina dicta de Deo sunt privativa secundum vocem et tamen
+							positiva secundum rem. Probatur sic: infinitas et immensitas vere dicuntur de Deo et
+							sunt nomina privativa secundum vocem et positiva secundum rem. Consequentia est nota
+							et antecedens quantum ad duas primas partes quantum ad tertiam probatur sic: infinitas
+							est de per se et primo intellectu quiditativo deitatis, ergo non est ratio privativa,
+							nec negativa, sed positiva secundum rem. Antecedens fuit declaratum in Prologo,
+							questione 5, articulo 2, conclusione 3. Et consequentia videtur nota, quia nulla ratio
+							privativa vel negativa secundum rem potest esse de per se et primo intellectu
+							quiditativa rationis positive qualis est ratio deitatis; ergo etc.</p>
+
+						<p>Secundo sic: infinitas in Deo dicit perfectionem simpliciter, ergo non est ratio
+							privativa nec negativa, sed positiva secundum rem. Antecedens communiter est
+							concessum. Et consequentia patet, quia nulla ratio privativa nec negativa secundum rem
+							dicit perfectionem simpliciter, cum omnis perfectio simpliciter sit aliquid in re
+							etiam circumscripto opere intellectus et nulla ratio privativa seu negativa secundum
+							rem sit sic aliquid in re.</p>
+
+						<p>Tertio sic: substantia divina est ratio positiva non privativa, nec negativa secundum
+							rem; infinitas divina est substantia divina, ergo infinitas divina est ratio positiva,
+							non privativa. Maior est nota et minorem ponit <name>Ricardus</name> II <title>De
+								Trinitate</title>, capitulo 2, dicens: pro certo habemus quod substantia divina non
+							sit aliud quam immensitas sua. Immensitas autem divina non est aliud quam infinitas
+							sua, nec econverso; igitur etc.</p>
+
+						<p>Ultimo sic: infinitas et immensitas dicta de Deo significant quid Deus sit et non
+							solum quid non sit, igitur non sunt nomina pure negativa, sed positiva secundum rem.
+							Consequentia est nota et antecedens videtur clarum, quia, cum dicitur quod Deus est
+							infinitas, non solum significat quod Deus non est finitus, quia tunc infinitas ita
+							verificaretur de chimera sicut de Deo, quia hec est simpliciter vera. Chimera non est
+							finita, quia non est, sed significat quod Deus est quo maius nec esse, nec cogitari
+							potest vel quod omnem perfectionem et omnem gradum perfectionis in se ipso
+							comprehendit, iuxta sententiam <name>Damasceni</name> libro I, capitulo 11, dicens
+							quod totum in se ipso comprehendit, velut quodam Pelagus, substantie infinite.</p>
+
+						<p>Tertia propositio est quod aliqua nomina dicta de Deo sunt privativa secundum vocem
+							et pure negativa secundum rem. Probatur sic: aliqua nomina privativa secundum vocem
+							distinguuntur de Deo quibus non significantur quid Deus sit, sed solum quid non sit,
+							igitur aliqua nomina privativa secundum vocem dicuntur de Deo que non sunt positiva,
+							sed pure negativa secundum rem. Consequentia est nota et antecedens videtur clarum,
+							quia incorporitas, intensibilitas, invisibilitas et huiusmodi que vere de Deo dicuntur
+							sunt nomina privativa secundum vocem et constat quod per ipsa non significantur quid
+							Deus sit, sed solum quid non sit, ergo aliqua nomina privativa secundum vocem dicuntur
+							de Deo quibus non significatur quid Deus sit, quia, cum dicitur quod Deus est
+							incorporeus, non significatur nisi quod Deus non est corpus. Et quando dicitur quod
+							est insensibilis non significatur nisi quod non potest sentire, nec sentiri sensui
+							corporeo. Et quando dicitur quod est invisibilis non significatur nisi quod non potest
+							videri oculo corporali. </p>
+
+						<p>Quarta propositio est quod nomina dicta de Deo privative secundum vocem et positive
+							secundum rem, sicut infinitas, immensitas et huiusmodi vere dicuntur [131va] de ipso
+							formaliter. Probatur sic: infinitas et immensitas sunt de ratione formali et
+							intrinseca deitatis, igitur formaliter distinguuntur de Deo. Consequentia est nota,
+							quia bene sequitur animal est de ratione formali hominis, igitur formaliter dicitur de
+							homine, et sic de ceteris quibuscumque et antecedens etiam patet, quia infinitas. Et
+							per consequens immensitas sunt de per se et primo intellectu quiditativo deitatis, ut
+							dictum est. </p>
+
+						<p>Ultima propositio est quod nomina dicta de Deo privative secundum vocem et pure
+							negative secundum rem non dicuntur de ipso formaliter, et hoc est evidens, quia illa
+							nomina quibus non significatur quid Deus sit, sed solum quid non sit, non
+							distinguuntur de ipso formaliter. </p>
+
+						<p>His premissis patet conclusio principalis neque quod aliqua nomina dicta de Deo
+							privative dicantur de Deo formaliter. Aliqua vero non, quia illa que dicuntur de Deo
+							privative secundum vocem et positive secundum rem distinguuntur de ipso formaliter.
+							Illa vero que dicuntur de Deo privative secundum vocem et pure negative secundum rem
+							dicuntur de ipso formaliter.</p>
+					</div>
+					<div>
+						<head><supplied>Conclusio secunda</supplied></head>
+
+						<p>Secunda conclusio est quod nomina positiva dicta de Deo tantum figuraliter et
+							metaphorice non dicuntur de ipso formaliter, et hoc est evidens. Certum est enim quod
+							Deus non est formaliter petra, nec leo, nec agnus, et sic de aliis que dicuntur de
+							ipso per similitudinem non per proprietatem, propter quod <name>beatus
+								Augustinus</name> in quadam homilia dicit quod magis ipsa sunt vera ex quibus
+							dicuntur iste similitudines, non proprietates.</p>
+					</div>
+					<div>
+						<head><supplied>Conclusio tertia</supplied></head>
+
+						<p>Tertia conclusio est quod nomina positiva dicta de Deo ex tempore et tantum inordine
+							ad creaturas non dicuntur de ipso formaliter, et hoc est evidens, quia quid convenit
+							Deo formaliter, convenit sibi circumscripto omni eo, quod non est Deus, sed quod
+							convenit sibi circumscripto omni eo quod non est Deus.</p>
+					</div>
+					<div>
+						<head><supplied>Conclusio quarta</supplied></head>
+
+						<p>Quarta est quod nomina positiva dicta de Deo simpliciter et sine habitudine ad
+							creaturas quecumque sint. Vere dicuntur de ipso formaliter. </p>
+
+						<p>Probatur primo de omnibus in generali sic: quod proprie competit Deo circumscripto
+							omni eo quod non est Deus convenit formaliter ei, sed omnia nomina predicta proprie
+							dicuntur de ipso Deo. Patet de se ex articulo precedenti et circumscripto omni eo quod
+							non est Deus, cum dicantur de eo simpliciter et sine habitudine ad creaturam. </p>
+
+						<p>Secundo, probo conclusionem in speciali de nominibus importantibus perfectionem
+							simpliciter sic quod convenit Deo per propriam rationem formalem convenit ei
+							formaliter, sed esse bonum, esse sapientem, esse intelligentem, et sic de singulis que
+							dicunt perfectionem simpliciter conveniunt Deo per suam propriam rationem formalem;
+							ergo maior est evidens. Et minor videtur clara, quia Deus est, ergo maius cogitari non
+							potest, ut patet per <name>Anselmum</name>
+							<title>Proslogion</title> II et III, Deus per suam propriam rationem formalem est
+							bonus sapiens et intelligens et huiusmodi. Ista consequentia patet, quia sequitur Deus
+							non est sapiens, ergo non est illud quo maius cogitari non potest, et similiter potest
+							argui de bonitate et huiusmodi que sunt perfectiones simpliciter. Et hoc de
+							secundo.</p>
+					</div>
+				</div>
+				<div type="articulus">
+					<head>Articulus tertius et quartus</head>
+
+					<p>Quantum ad tertium et quartum articulos simul contra conclusiones istas movenda et
+						dissolvenda sunt dubia. Et primo contra primam est quedam opinio que ponit universaliter
+						quod nullum nomen de Deo dictum privative convenit sibi formaliter extra intellectum,
+						sed solum per considerationem intellectus, nec infinitas, nec immensitas, nec aliud
+						quodcumque sit illud et pro ista opinione quidam doctor arguit primo sic:</p>
+
+					<p><name>Franciscus de Marchia</name> in I, distinctione 22, questione 1, articulo 2</p>
+
+					<p>Omne quod convenit alicui formaliter aut convenit sibi formaliter per informationem,
+						aut per identitatem, sed nulla privatio vel negatio convenit Deo formaliter per
+						informationem, quia actus simplex et purus [131vb] non potest esse subiectum alicuius
+						per informationem, secundum <name>Boetium</name> I <title>De Trinitate</title>, capitulo
+						2, nec convenit sibi per identitatem, quia nec negativum, nec privativum potest
+						coincidere per identitatem cum positivo, quia tunc positivum esset realiter positivum et
+						privativum, ergo nulla privatio vel negatio convenit Deo formaliter extra
+						intellectum.</p>
+
+					<p>Preterea, nullum finitum convenit Deo formaliter extra intellectum, quia tunc in Deo
+						esset formaliter extra intellectum, quia tunc in Deo formalitas esset extra intellectum,
+						sed immutabilitas infinitas huiusmodi privationes sunt formaliter finite intensive.
+						Probatur: tanta est privatio in ordine privationis quantus est habitus in ordine
+						positionis et non maior, quia, si maior, in aliquo esset privatio et nullus esset
+						privatio, sed mutabilitas finitas et huiusmodi qui sunt habitus oppositi istis
+						privationibus sunt formaliter finite intensive, quia quicquid est formaliter in creatura
+						est simpliciter; ergo ista non sunt formaliter extra in Deo.</p>
+
+					<p>Preterea, nihil quod est in determinato genere accidentis est formaliter in Deo extra
+						intellectum, quia Deus non est subiectum alicuius accidentis positivi nec negativi
+						secundum rem, sed mutabilitas est in genere accidentis determinato, quia privatio et
+						habitus ad idem genus reducuntur; ergo ista non sunt in Deo extra.</p>
+
+					<p>Preterea, habitus et privatio habent consimilem modum essendi in subiecto, sed
+						mutabilitas est in subiecto suo per informationem, ergo immutabilitas in quocumque
+						ponatur formaliter esset in eo per informationem. In Deo autem nihil est per
+						informationem, igitur ista non sunt in Deo formaliter, sed tantum per considerationem
+						intellectus qui non inveniens in Deo affirmationes oppositas concipit circa ipsum
+						negativas earum.</p>
+
+					<p>Responsio ad rationes <name>Francisci</name></p>
+
+					<p>Ad primam dico quod infinitas, immensitas et huiusmodi que dicuntur de Deo privative
+						secundum vocem et positive secundum rem conveniunt Deo per identitatem non minus quam
+						illa que dicuntur de ipso positive sive affirmative. </p>
+
+					<p>Ad probationem dico quod privativum sive negativum secundum rem non potest coincidere
+						per identitatem positivo. Privativum tamen vel negativum secundum vocem et positivum
+						secundum rem bene potest coincidere per identitatem cum positivo. Sic est hic. </p>
+
+					<p>Ad secundam nego minorem, quia implicatio contradictionis est quod infinitas intensive
+						que vere dicitur de Deo sit formaliter finita intensive. Et ad probationem patet quid
+						dicendum, quia talis finitas non est privatio, sed vera entitas positiva secundum rem et
+						per idem patet ad tertium et ad quartum quid dicendum.</p>
+
+					<p>Contra secundam et tertiam conclusionem posset argui, sed, quia non sunt dubie, nec
+						opinabiles, pertranseo.</p>
+
+					<p><name>Franciscus de Marchia</name>, libro II, distinctione quibus supra questionem 2,
+						articulo 3 et 4</p>
+
+					<p>Sed contra quartam est opinio cuiusdam doctoris qui ponit quod nomina positiva dicta de
+						Deo perfectionaliter sicut ens sapiens, vivens, etc que dicunt perfectionem simpliciter
+						non dicuntur de ipso formaliter, sed eminenter, et ut clarius videatur quod dicitur.
+						Primo doctor iste ponit quandam distinctionem. Secundo deducit conclusionem.</p>
+
+					<p>Quantum ad primum dicit quod aliquid esse in alio potest intelligi tripliciter. Nam
+						aliquid est in alio causaliter, sicut calor in sole, unde sol dicitur calidus, non quod
+						calor sit in ipso formaliter, sed solum virtualiter.</p>
+
+					<p>Secundo, aliquid est in aliquo formaliter sicut calor est in igne formaliter.</p>
+
+					<p>Tertio, aliquid est in alio perfectionaliter et quodammodo eminenter, sicut vegetativum
+						in sensitivo et sensitivum in intellectivo, ut patet II <title>De anima</title>.
+						Vegetativum tamen non est in sensitivo [132ra] formaliter, quia sunt gradus specie
+						distincti, nec virtualiter, quia sensitivum potest per se causare vegetativum specie
+						distinctum, sed continet ipsum aliquo modo perfectionaliter et eminenter secundum modum
+						essendi altiorem et superiorem, quia inquantum sensitivum habet gradum vite altiorem et
+						superiorem continet perfectionaliter et quidam modo eminenter perfectiones simpliciter,
+						sic sapientia bonitas et huiusmodi non sunt in Deo formaliter extra intellectum, nec
+						sunt in ipso tantum causaliter sive virtualiter, sed sunt perfectionaliter sive
+						eminenter modo altiori et superiori, quod multipliciter deducitur.</p>
+
+					<p>Primo sic: nulla ratio simpliciter contrahibilis et determinabilis est formaliter in eo
+						in quo nihil est contrahibile, nec determinabile. Patet de se, quia, si aliqua earum
+						esset in eo, esset ipsa contrahibilis, et per consequens aliquod esset contrahibile in
+						eo in quo nihil est contrahibile, sed quelibet transcendentis ratio sive entitas sive
+						sapientia bonitas, et sic de aliis est de se contrahibilis et determinabilis dupliciter
+						per inferiores rationes transcedens. In Deo autem extra intellectum nihil est formaliter
+						contrahibile, nec determinabile, quia tunc extra intellectum esset ex actuali
+						potentiali, cum omne contrahibile sit potentiale respectu contrahentis, ergo nulla
+						perfectio transcendens est formaliter in Deo extra intellectum. Maior istius rationis
+						patet ex dictis, sed minor probatur quantum ad utramque partem et primo quantum ad
+						primam partem sic: illud quod non est de se hoc et singulare est contrahibile et
+						determinabile per illud quod se ipso est hoc, sed nulla perfectio transcendens est se
+						ipsa. Hoc patet, quia illi quod est se ipso hoc repugnat contradictorie predicari de
+						pluribus, ergo nulla se ipsa est hoc, ergo quelibet est contrahibilis et determinabilis
+						per rationem inferiorem.</p>
+
+					<p>Secundo probatur alia pars sic: illud quod cum alio reddit conceptum particulario rem
+						quam sine illo est contrahibile, determinabile, sed qualibet perfectio per ipsum
+						transcendens accepta simul cum aliis perfectionibus transcendentibus reddit conceptum
+						particulariorem et magis determinatum quam ens et vivens tantum, ergo qualibet earum est
+						contrahibilis per aliam.</p>
+
+					<p>Secundo ad principale sic: quando aliqua se ipsis totaliter distinguuntur et in nullo
+						formaliter conveniunt, nulla ratio abstracta formaliter ab uno convenit alteri
+						formaliter. Patet, quia omnis ratio formaliter abstracta ab aliquo et communis
+						formaliter alteri est communis formaliter ei a quo formaliter abstrahitur et rei cui
+						attribuitur, sed Deus et creatura ex parte rei se totis distinguuntur et in nullo
+						formaliter conveniunt, quia, si in aliquo tertio convenirent ex parte rei formaliter,
+						tunc illud tertium esset contrahibile per utrumque, et ita Deus esset compositus ex
+						potentiali et actuali, ergo nulla perfectio abstracta formaliter a creatura convenit
+						formaliter Deo, sed omnis perfectio formaliter abstracta transcendens quam habet
+						intellectus viatoris de communi lege est abstracta formaliter a creatura, ergo nulla
+						earum convenit formaliter Deo extra intellectum. Probatur minor, quia queritur unde
+						intellectus habet perfectiones transcendens aut accipit eas immediate a Deo, aut
+						fabricat eas a se, aut abstrahit ab aliquo creato. Primum dari non potest, quia Deus non
+						movet per se et immediate intellectum viatoris, igitur non accipit eas immediate a Deo.
+						Nec potest dari secundum, quia, si intellectus fabricaret eas a se ipso, non essent
+						perfectiones simpliciter, cum nullum fabricatum per intellectum sit perfectio
+						simpliciter. Relinquitur ergo tertio, scilicet quod sit abstracta a creatura, et per
+						consequens convenit cum Deo formaliter.</p>
+
+					<p>Tertio sic: si volitio non est formaliter in Deo, igitur nec bonitas, nec sapientia,
+						nec aliqua perfectio simpliciter quecumque sit illa. Consequentia nota, quia non est
+						maior ratio de una quam de alia. Antecedens probatur sic: illud quod per unam rationem
+						continet unitive perfectionem duorum oppositorum non est formaliter magis unum illorum
+						quam alterum, sed Deus per unicam rationem continet perfectionem volitionis et
+						nolitionis, quia eodem actu formaliter est vo-[132rb]-lens et nolens. Volens bonum et
+						nolens malum, igitur non est magis formaliter volens bonum quam sit formaliter nolens
+						malum, sed nolitio non est formaliter in Deo, quia tunc in eo possent formaliter esse
+						actus contrarii, cum velle et nolle sint contraria, ergo in ipso non est formaliter
+						volitio.</p>
+
+					<p>Confirmatur, quia, sicut velle bonum est perfectionis, ita nolla malum et iniustum est
+						perfectionis in creatura rationali, sed nolle non est formaliter in Deo quamvis sit
+						perfectionis, ergo nec velle est in ipso formaliter quamvis sit perfectionis.</p>
+
+					<p>Confirmatur iterum, quia nullus actus habens contrarium positive est formaliter in Deo,
+						sed actus volendi in communi habet formaliter actum contrarium nolendi, ergo actus
+						nolendi non est formaliter in Deo.</p>
+
+					<p>Contra <name>Franciscum</name></p>
+
+					<p>Sed ad veritatem ista positio non videtur mihi rationalis nec bene tuta, quia quod non
+						est tale formaliter, sed solum eminenter simpliciter et absolute, non dicitur tale. Hoc
+						patet etiam per exempla istius doctoris. Anima enim intellectiva non est anima
+						sensitiva, nec vegetativa formaliter, nec virtualiter, ut dicit, sed solum eminenter, et
+						ideo simpliciter et absolute loquendo. Anima intellectiva non est anima sensitiva nec
+						vegetativa, immo specifice, et sic realiter distinguitur ab ipsis, etiam per eum. Iterum
+						secundum eum ibidem; sol quando est aura serena et clara dicitur candidus et albus, non
+						quidem formaliter nec virtualiter, sed solum eminenter. Sed constat quod simpliciter et
+						absolute loquendo sol non est candidus nec albus, igitur quod non est tale formaliter,
+						sed solum eminenter simpliciter et absolute non dicitur tale etiam per eum, sed Deus non
+						est ens, nec vivens, nec bonus, nec sapiens formaliter, sed solum eminenter secundum
+						istam positionem, igitur Deus absolute loquendo non est ens, nec bonus etc, quod non
+						videtur rationabiliter dictum; ergo etc.</p>
+
+					<p>Confirmatur, quia quod non est in aliquo formaliter, sed solum eminenter simpliciter et
+						absolute non est in illo. Hoc patet etiam per eum. Anima enim sensitiva non est
+						intellectiva simpliciter et absolute, nec candor in sole, et sic de ceteris, sed
+						secundum istam positionem entitas bonitas sapientia etc non sunt in Deo formaliter, sed
+						solum eminenter, ergo talis non sunt in Deo absolute loquendo, et per consequens
+						absolute et simpliciter loquendo Deus non est bonus, nec sapiens etc. Et ne fiat
+						cavillatio verbalis in conclusione huius rationis accipio esse in non quidem per
+						informationem, sed per identitatem, sicut etiam iste doctor concedit aliquid esse in
+						Deo. Confirmatur iterum, quia quod in unoquoque melius est esse quam non esse non solum
+						eminenter, sed etiam formaliter est in Deo accipiendo esse in, sicut statim dicebatur.
+						Hoc patet, quia quod non est in Deo formaliter, sed solum eminenter, simpliciter et
+						absolute non est in eo, ut patet ex dictis. Sed quod in unoquoquam melius est esse quam
+						non esse simpliciter et absolute est in Deo, igitur quod in unoquoque melius est esse
+						quam non esse non solum eminenter, sed formaliter est in Deo, sed constat quod in
+						unoquoque melius est esse sapientem intelligentem etc., que dicunt perfectionem
+						simpliciter quam non esse, igitur hec omnia formaliter sunt in Deo, non solum eminenter.
+						Istam rationem pro conclusione ista expresse facit <name>Anselmus</name>
+						<title>Monologion</title> 15, ut patet videntibus ipsum etc.</p>
+
+					<p>Responsio ad rationes <name>Francisci</name></p>
+
+					<p>Ad primum ergo istorum quando dicitur in minori quod quodlibet transcendens sive
+						entitas, sive sapientia, et sic de aliis est de se contrahibilis et determinabilis etc.
+						Dico quod ratio peccat per fallaciam equivocationis, quia per huiusmodi rationes
+						transcendentes iste doctor intelligit entita-[132va]-tem et sapientiam et bonitatem in
+						communi que de entitate sapientia et bonitate creata et increata vere predicantur vel
+						intelligit bonitatem sapientiam et entitatem increatam que est Deus. Si detur primum,
+						concedo maiorem minorem et conclusionem, ut patet, quia nulla talis ratio transcendens
+						convenit Deo formaliter extra intellectum, quia talia communia non sunt aliqua res,
+						prout res distinguitur contra voces et conceptus et entia rationis et quod non est
+						aliqua res non convenit Deo formaliter extra intellectum. Si detur secundum, minor est
+						falsa, quia nulla perfectio que est Deus est contrahibilis vel determinabilis per aliam.
+						Entitas enim vel bonitas increata non est contrahibilis, sed se ipsa est hec et
+						singularis cum non sit nisi ipsamet essentia divina. </p>
+
+					<p>Ad secundum: si ratio esset bona, sequeretur quod homo formaliter non esset animal,
+						quod est evidenter falsum. Deductio est mihi clara, quia homo et asinus se ipsis
+						formaliter distinguuntur sic quod in nullo formaliter conveniunt ex parte rei, quia
+						nulla entitas de mundo est realis nisi sit entitas singularis, ut suppono pro nunc,
+						igitur, si per hoc quod ratio bonitatis abstrahitur a creatura, Deus qui in nullo
+						convenit cum creatura ex parte rei non esset formaliter bonus. Pari ratione, quia ratio
+						animalitatis que abstrahitur ab asino homo qui in nullo convenit cum asino ex parte rei
+						non esset formaliter animal.</p>
+
+					<p>Ad formam igitur rationis dico quod non probat nisi quod ratio abstracta per
+						intellectum a creatura non convenit Deo formaliter extra intellectum. Et hoc est verum,
+						quia talis ratio communis et abstracta non habet esse reale, sed rationis tantum. Ex hoc
+						tamen non sequitur quod bonitas et sapientia increata non conveniant Deo formaliter,
+						quia bonitas et sapientia increata non abstrahuntur a creatura, sicut iste doctor
+						videtur imaginari.</p>
+
+					<p>Ad tertium nego antecedens et ad probationem concedo totam primam deductionem, scilicet
+						quando dicitur quod nolitio non esset formaliter in Deo. Nego, quia nolle malum est
+						actus positivus sicut velle bonum, et ideo sicut Deus est formaliter volens bonum, sic
+						etiam est formaliter nolens malum. Et quando dicitur quod tunc in ipso essent formaliter
+						actus contrarii, nego, quia velle bonum et nolle malum non sunt actus contrarii, quia
+						non sunt respectu eiusdem. Et hoc est evidens, quia anima Christi est formaliter volens
+						bonum et formaliter nolens malum. Et tamen ex hoc non sequitur quod in ipsa sint
+						formaliter actus contrarii et non nisi, quia tales actus non sunt contrarii proprie
+						loquendo, et per hoc patet quid dicendum ad confirmationem.</p>
+
+				</div>
+				<div>
+					<head>Ad argumentia principalia</head>
+					<!-- I added this -->
+					<p>Ad primam dico quod Deus potest a nobis aliquo nomine proprio nominari, licet
+						imperfecte. Et ad probationem <name>beati Augustini</name> concedo quod ineffabilis est
+						Deus, quia non potest a nobis perfecte nominari, sicut loquitur ipse. Sed ex hoc non
+						sequitur quod non possit aliquo nomine simpliciter proprio imperfecte nominari.</p>
+					<!-- I added this break -->
+					<p>Secundam rationem concedo etc.</p>
+
+				</div>
+
+
+			</div>
+		</body>
+	</text>
+</TEI>

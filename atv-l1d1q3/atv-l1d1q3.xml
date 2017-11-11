@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber I, Distinctio 1, Quaestio 3</title>
+        <author>Alphonsus Toletanus Vargas</author>
+        <editor>Luciana Cioca</editor>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2016-09-04">September 04, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://www.thesis-project.ro/">ERC-THESIS project n° 313339</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="Venice1490">Venice1490</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <variantEncoding method="parallel-segmentation" location="internal"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"> </schemaRef>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2016-09-04" who="#JW" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="41-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="atv-l1d1q3">
+        <head xml:id="atv-l1d1q3-Hd1e3735">Liber I, Distinctio 1, Quaestio 3</head>
+        <p xml:id="atv-l1d1q3-d1e3738">Tertio queritur: utrum fruitio proprie dicta in creaturis sit solius voluntatis
+          formaliter et subiective. </p>
+        <div xml:id="atv-l1d1q3-Dd1e3741" type="rationes-principales">
+          <head xml:id="atv-l1d1q3-Hd1e3743">Rationes principales</head>
+          <p xml:id="atv-l1d1q3-d1e3746">Et videtur primo quod non, quia eiusdem est frui et delectari in aliquo propter se, cum
+            fruitio sit ultima delectatio. Sed delectari in aliquo propter se non est solius
+            voluntatis, sed cuiuslibet appetitus et cuiuslibet potentie beatificabilis, ut videtur;
+            ergo. </p>
+          <p xml:id="atv-l1d1q3-d1e3749">Contra: illius potentie est precipue fruitio formaliter et subiective que habet Deum
+            pro obiecto sub ratione summi boni et ultimi finis. Sola voluntas est huiusmodi; ergo.
+            Probatur maior, quia ratio finis est ratio fruibilitatis in obiecto per se fruibili.</p>
+        </div>
+        <div xml:id="atv-l1d1q3-Dd1e3753">
+          <head xml:id="atv-l1d1q3-Hd1e3755">Divisio quaestionis</head>
+          <p xml:id="atv-l1d1q3-d1e3758">Respondeo. In ista questione erunt quattuor articuli, quia primo ponam aliquas
+            distinctiones, secundo conclusiones, tertio movebo dubia, et ultimo respondebo.</p>
+        </div>
+        <div xml:id="atv-l1d1q3-Dd1e3762" type="articulus">
+          <head xml:id="atv-l1d1q3-Hd1e3764">Primus articulus</head>
+          <p xml:id="atv-l1d1q3-d1e3767">Quantum ad primum articulum, distinguo primo de fruitione in communi, quia quedam est
+            proprie dicta, quedam largo modo sumpta. Pro cuius declaratione notandum quod de ratione
+            fruitionis est inherere obiecto fruibili per se, ut patet ex questione precedenti, quod
+            contingit fieri dupliciter negative, scilicet et positive. Negative quidem, quia
+            appetitus inheret illi et non per alterum cui magis vel minus inhereat, sed absolute
+            acceptatur sine comparatione ad alius. Positive vero, quia prefert illud cuicumque
+            alteri, et per consequens acceptatur ut summum. Et quia huiusmodi inhesio sit per amorem
+            et delectationem simul, patet ex eadem questione. Dico quod fruitio proprie dicta est
+            amore inherere alicui rei propter se positive cum fine delectationis. Et hoc tantum
+            convenit nature intellectuali, quia sola intellectualis natura potest aliquid acceptare
+            ut summum. Et de tali loquitur <name>beatus Augustinus</name> X <title>De
+              Trinitate</title>, capitulo 23, dicens quod <quote xml:id="atv-l1d1q3-Qd1e3775">fruimur cognitis</quote> etc. Fruitio vero largo
+            moro sumpta est amore inherere alicui rei propter se negative cum fine delectationis et
+            hoc possibile etiam ipsis brutis, unde <name>beatus Augustinus</name>
+            <title>83 Questiones</title> IV, 30: <quote xml:id="atv-l1d1q3-Qd1e3785">frui</quote>, inquit, <quote xml:id="atv-l1d1q3-Qd1e3788">cibo et qualibet corporali voluptate
+            non absurde extimantur et bestie</quote>. Secundo distinguo de fruitione proprie dicta, quia
+            quedam est creata et quedam increata, sicut in precedenti questione dicebatur.</p>
+          <p xml:id="atv-l1d1q3-d1e3792">His premissis patet titulus questionis, quia non queritur de fruitione largo modo
+            sumpta. Talis enim potest esse in parte sensitiva, cum sit communicabilis ipsis brutis;
+            nec de fruitione increata. Talis enim non est in aliquo subiective, quia esse in aliquo
+            subiective convenit accidenti. In Deo autem nullum est accidens, sed tantum de fruitione
+            proprie dicta in creaturis.</p> 
+          <p xml:id="atv-l1d1q3-d1e3795">Et hoc de primo.</p>
+          
+        </div>
+        <div xml:id="atv-l1d1q3-Dd1e3800" type="articulus">
+          <p xml:id="atv-l1d1q3-d1e3802">Secundus articulus</p>
+          <p xml:id="atv-l1d1q3-d1e3805">Quantum ad secundum articulum pono quattuor conclusiones. </p>
+          <div xml:id="atv-l1d1q3-Dd1e3808">
+            <head xml:id="atv-l1d1q3-Hd1e3810"><supplied>Conclusio prima</supplied></head>
+            <p xml:id="atv-l1d1q3-d1e3814">Prima est quod delectari non est alicuius potentie cognitive, sed solius appetitive
+              formaliter et subiective. </p>
+              <p xml:id="atv-l1d1q3-d1e3817">Probatur primo sic: cuius est formaliter delectari, eius est
+              formaliter tristari. Hoc patet, quia contraria nata sunt fieri circa idem, sed constat
+              quod nullius potentie cognitive est formaliter tristari, sed appetitive tantum, cum
+              tristitia sit de his que nobis nolentibus accidunt, secundum <name>Philosophum</name>
+              et experientiam; 
+                <pb ed="#V" n="41-r"/>
+                <cb ed="#V" n="b"/> 
+                ergo etc.</p>
+            <p xml:id="atv-l1d1q3-d1e3827">Secundo sic: eiusdem potentie est formaliter delectatio de re presenti et desiderium
+              de re absenti. Sed desiderium est solius potentie appetitive et non cognitive in
+              quibus experitur; ergo.</p>
+            <p xml:id="atv-l1d1q3-d1e3830">Tertio sic: intellectus creati non est formaliter delectari, ergo nullius potentie
+              cognitive. Consequentia patet, quia, si aliqua potentia cognitiva posset in creaturis
+              delectari, hoc maxime esset potentia intellectiva. Antecedens probatur ad presens
+              dupliciter. Primo sic: si delectatio esset formaliter in intellectu, precederet omnem
+              actum voluntatis, et sic actum dilectionis cuius oppositum experimur, quia, si aliquis
+              intelligat aliud et non diligat illud, non delectatur in illo, immo potest tristari si
+              illud odiat. Consequentia patet, quia, si delectatio esset in intellectu, vel esset
+              actus vel passio consequens actum naturaliter. Si detur primum, clara est
+              consequentia, quia actus intellectus precedit actum voluntatis. Si detur secundum,
+              idem sequitur, quia passio non est duratione posterior eo cuius est passio; ergo etc. </p>
+            <p xml:id="atv-l1d1q3-d1e3834">Secundo sic: si delectatio esset in intellectu, de eodem posset esse delectatio in
+              intellectu et tristitia in voluntate, quod est manifeste falsum. Consequentia
+              probatur, quia, si delectatio est in intellectu cum intellectus intelligit, aliquod
+              conveniens delectatur. Et certum est quod illud potest voluntas odire cum sit potentia
+              libera et sic tristari; igitur etc.</p>
+            <p xml:id="atv-l1d1q3-d1e3837">Ex ista conclusione sequitur quod non omnis potentia fruitur in patria accepta
+              fruitione pro delectatione, sicut videtur quidam. Deductio est evidens, quia cuius non
+              est delectari, eius non est frui accepta fruitione pro delectatione. Sed non omnis
+              potentia delectatur etiam in patria, cum nullius potentie cognitive sit delectari
+              formaliter et subiective, ut patet ex conclusione precedenti.</p>
+          </div>
+          <div xml:id="atv-l1d1q3-Dd1e3841">
+            <head xml:id="atv-l1d1q3-Hd1e3843"><supplied>Conclusio secunda</supplied></head>
+            <p xml:id="atv-l1d1q3-d1e3847">Secunda conclusio est quod fruitio patrie non est beatitudo convertibiliter et
+              adequate. </p>
+              <p xml:id="atv-l1d1q3-d1e3850">Ista conclusio pro nunc non debet alicui catholico esse dubia, licet alias
+              fuerit aliquibus, immo multis et magnis doctoribus dubia. Ratio huius est, quia
+              beatitudo formalis creature rationalis est essentialiter fruitio et aliquid quod non
+              est fruitio nec aliquid fruitionis essentialiter et intrinsece, igitur beatitudo non
+              est convertibiliter fruitio, nec econverso. Consequentia evidens est, aliter totum et
+              pars essent convertibiliter et adequate, quod est impossibile. Et antecedens patet,
+              quia beatitudo formalis creature consistit in visione et fruitione essentialiter et
+              intrinsece, sicut patet ex questione precedenti.</p>
+            <p xml:id="atv-l1d1q3-d1e3853">Et confirmatur, quia, si visio esset fruitio vel aliud eius intrinsece essentialiter,
+              valde improprie diceretur quod beatitudo consistit in visione et fruitione, quia quod
+              sic est fruitio vel aliquid eius non condividitur fruitioni.</p>
+            <p xml:id="atv-l1d1q3-d1e3856">Ex ista conclusione sequitur quod ista consequentia est nulla. Intellectus
+              beatificetur in patria, igitur fruitur in patria, cuius contrarium videtur quibusdam.
+              Deductio est evidens, quia beatitudo non est convertibilis cum fruitione, sed fruitio
+              est aliquid quod non est beatitudo, nec aliquid eius essentialiter et intrinsece, ut
+              patet ex dictis.</p>
+          </div>
+          <div xml:id="atv-l1d1q3-Dd1e3860">
+            <head xml:id="atv-l1d1q3-Hd1e3862"><supplied>Conclusio tertia</supplied></head>
+            <p xml:id="atv-l1d1q3-d1e3866">Tertia conclusio est quod fruitio proprie dicta in creaturis non est solius
+              intellectus formaliter et subiective. </p>
+              <p xml:id="atv-l1d1q3-d1e3869">Probatur primo sic: cuius non est formaliter
+              diligere, eius non est precise frui formaliter et subiective. Hoc patet, quia dilectio
+              est aliquid fruitionis essentialiter et intrinsece, sicut patet ex questione
+              precedentis. Sed constat quod diligere non est formaliter ipsius intellectus, nec
+              alicuius potentie cognitive; ergo etc.</p>
+            <p xml:id="atv-l1d1q3-d1e3872">Secundo sic: cuius non est formaliter delectari, eius non est precise frui. Hoc
+              patet, sicut et maior precedentis rationis, quia delectatio est de ratione formali et
+              intrinseca fruitionis ex eadem questione. Sed delectari non est ipsius intellectus,
+              nec aliquid potentie cognitive formaliter et subiective, sicut patet ex prima
+              conclusione; igitur etc.</p>
+            <p xml:id="atv-l1d1q3-d1e3875">Tertio sic: de ratione fruitionis est in obiecto fruibili ultimate quietari, sed
+              fruitio secundum <name>beatum Augustinum</name>
+              <title>De Trinitate</title>, capitulo <gap/>: <quote xml:id="atv-l1d1q3-Qd1e3885">Frui dicitur a fructu. Fructus autem est
+              ultimum quod de arbore expectatur</quote>. Et per consequens quietat ultimate, igitur ex
+              opposito cuius non est ultimate quietari eius non est precise frui. Sed potentie
+              intellective non est ultimate quietari, cum eius actus non sit simpliciter
+              ulti-<pb ed="#V" n="41-v"/><cb ed="#V" n="a"/>-mus; ergo etc.</p>
+            <p xml:id="atv-l1d1q3-d1e3893">Quarto sic: si fruitio proprie dicta in creaturis esset solius intellectus formaliter
+              et subiective, posita operatione intellectus posset poni fruitio in potentia volitiva
+              per possibile vel impossibile quocumque posito vel remoto. Consequens est falsum,
+              igitur antecedens. Consequentia est nota. Falsitas consequentis probatur, quia positis
+              in voluntate odio et tristitia respectu obiecti fruibilis amore et delectatione
+              remotis, non potest poni fruitio et presertim beatifica; igitur etc.</p>
+          </div>
+          <div xml:id="atv-l1d1q3-Dd1e3898">
+            <head xml:id="atv-l1d1q3-Hd1e3900"><supplied>Conclusio quarta</supplied></head>
+            <p xml:id="atv-l1d1q3-d1e3904">Quarta conclusio est quod fruitio proprie dicta in creaturis non est utriusque
+              potentie intellectus, scilicet et voluntatis formaliter et subiective, sed voluntatis
+              precise. </p>
+              <p xml:id="atv-l1d1q3-d1e3907">Probatur primo sic: solius voluntatis in creaturis est amore inherere obiecto
+              fruibili propter se positive cum fine delectationis, igitur solius voluntatis est
+              proprie frui formaliter et subiective. Antecedens patet de se et ex supradictis.
+              Consequentia tenet per locum a diffinitione, quia hec est diffinitio fruitionis
+              proprie dicta, ut patet ex primo articulo, igitur.</p>
+            <p xml:id="atv-l1d1q3-d1e3910">Secundo sic: quod convenit voluntati, ut
+              distinguitur ab intellectu, non convenit intellectui et voluntati, sed voluntati
+              precise. Frui est huiusmodi,; ergo. Minor probatur auctoritate <name>beati
+                Augustini</name> X <title>De Trinitate</title>, capitulo 10, de magnis, vel 33 de
+              parvis, ubi facta comparatione inter memoriam, intellectum et voluntatem subdit
+              duobus, igitur horum trium memoria et intelligentia multarum rerum notitia atque
+              scientia continetur. Voluntas autem adest per quam fruatur eius vel utatur, igitur
+              frui et uti conveniunt voluntati ut prescindit ab intellectu pariter et memoria;
+              igitur etc.</p>
+            <p xml:id="atv-l1d1q3-d1e3919">Tertio sic: uti non est utriusque potentie formaliter et subiective, sed voluntatis
+              precise, igitur et frui. Consequentia patet, eiusdem potentie est moveri in finem et
+              quiescere in eodem, cum motus sit propter quietem. Sed uti nihil alius est quam moveri
+              in finem, frui autem quiescere in eodem; ergo. Antecedens probatur tripliciter. Primo,
+              quia uti convenit voluntati ut prescindit ab intellectu ex ratione precedenti.
+              Secundo, quia abuti non est utriusque potentie formaliter et subiective, sed
+              voluntatis precise, ergo et uti. Consequentia patet, quia contraria nata sunt fieri
+              circa idem, cum in eodem susceptibili vicissim insunt. Uti autem et abuti sunt actus
+              contrarii. Antecedens probatur, quia abuti rebus est demeritum et peccatum. Peccare
+              autem et demereri non est intellectus, sed voluntatis precise, dicens <name>beatus
+                Augustinus</name>
+              <title>De libero arbitrio</title>, libro 3, capitulo 11, quod <quote xml:id="atv-l1d1q3-Qd1e3927">non est cui imputetur
+              recte peccatum nisi soli voluntati</quote>, quod pulcre deducit I
+                <title>Retractationum</title>, capitulo dicens: <quote xml:id="atv-l1d1q3-Qd1e3933">Non est cui recte imputetur
+              peccatum nisi peccanti</quote>. Non est ergo cui recte imputetur peccatum nisi volenti,
+              propter quod concludit ibidem, capitulo sequenti.</p>
+            <p xml:id="atv-l1d1q3-d1e3938">Tertio, quia cuiuscumque potentie est uti, est eiusdem mereri, cum uti sit mereri
+              supposita gratia, sicut abuti demereri per locum ab oppositis. Sed mereri non est
+              utriusque potentie, sed voluntatis precise, ut patet per <name>beatum
+                Augustinum</name>; igitur etc.</p>
+            <p xml:id="atv-l1d1q3-d1e3944">Quarto ad principale sic: fruitio inordinata non est utriusque potentie formaliter et
+              subiective, sed voluntatis precise, igitur nec ordinata, et sic nulla. Patet secunda
+              consequentia, quia omnis fruitio proprie dicta est ordinata vel inordinata. Patet ex
+              prima, quia eiusdem potentie est frui inordinate et ordinate et non alterius ubi
+              possibilis est inordinata fruitio. Probatur antecedens, quia fruitio inordinata est
+              demeritoria in viatore, dicente <name>beato Augustino</name> X <title>De
+                Trinitate</title>, capitulo 10, quod <quote xml:id="atv-l1d1q3-Qd1e3952">non est alia vita hominum vitiosa atque
+              culpabilis quam male utens et male fruens</quote>. Et <title>83 Questiones</title>, questione
+              30, quod <quote xml:id="atv-l1d1q3-Qd1e3958">omnis perversitas voluntatis que vitium nominatur est frui utendis et uti
+              fruendis</quote>, ut allegatum est supra. Sed demeritorium non est utriusque potentie
+              formaliter et subiective, sed voluntatis precise ex ratione precedenti; igitur
+              etc.</p>
+          </div>
+        </div>
+        <div xml:id="atv-l1d1q3-Dd1e3964" type="articulus">
+          <head xml:id="atv-l1d1q3-Hd1e3966">Tertius et quartus articulus</head>
+          <p xml:id="atv-l1d1q3-d1e3969">Quantum ad tertium et quartum articulum simul contra conclusiones istas movenda et
+            dissolvenda sunt dubia. Et primo contra primam conclusionem et eius corellarium est
+            quedam opinio cuiusdam moderni doctores que potest reduci ad duo puncta, quia primo
+            distinguit de fruitione dicens 
+            <pb ed="#V" n="41-v"/>
+            <cb ed="#V" n="b"/>
+            quod fruitio quandoque accipitur pro mero actu,
+            quandoque pro mera passione, quandoque pro utroque simul.</p>
+          <p xml:id="atv-l1d1q3-d1e3976"><note><name>Landulphus</name> in I, libro I, questione ultima, articulo 2</note></p>
+          <p xml:id="atv-l1d1q3-d1e3982">Pro mero actu accipitur I <title>De doctrina christiana</title>, capitulo 1, ubi
+            dicitur quod <quote xml:id="atv-l1d1q3-Qd1e3987">frui est amore inherere</quote> etc. Pro mera passione accipitur I <title>De
+              Trinitate</title>, capitulo 23, ubi dicitur quod <quote xml:id="atv-l1d1q3-Qd1e3993">plenum gaudium nostrum est frui
+            trinitate Deo</quote>. Pro utroque vero simul accipitur X <title>De Trinitate</title>, capitulo
+            10, ubi dicitur quod <quote xml:id="atv-l1d1q3-Qd1e4000">fruimur cognitis</quote>. </p>
+          <p xml:id="atv-l1d1q3-d1e4004">Secundo ponit conclusiones. Et dimissis conclusionibus quibusdam que non sunt ad
+            propositum capio ex dictis suis quinque conclusiones. </p>
+          <p xml:id="atv-l1d1q3-d1e4008">Prima est quod frui, quando accipitur pro actu, non est idem quod delectari. Ratio
+            huius est, quia amor et delectatio non sunt idem eo quod actus non est passio sequens
+            eum. Frui autem, ut est actus, est idem quod amor. </p>
+          <p xml:id="atv-l1d1q3-d1e4011">Secunda conclusio est quod frui, si accipitur pro passione, est idem quod delectari et
+            ita fruitio est idem quod delectatio. Ratio huius est, quia delectatio est passio, ut
+            patet in infinitis locis libri <title>Ethicorum</title>, igitur fruitio que est passio
+            est idem quod delectatio.</p>
+          <p xml:id="atv-l1d1q3-d1e4017">Tertia conclusio est quod frui, ut includit actum et passionem, non est delectari
+            precise, sed simul est amare et delectari, quia includens actum et passionem sequentem
+            est simul amor et delectatio. Sed frui isto modo includit actum et passionem; ergo
+            etc.</p>
+          <p xml:id="atv-l1d1q3-d1e4020">Quarta conclusio est quod delectari est cuiuslibet potentie tam cognitive quam
+            appetitive formaliter et subiective, et hec opponitur contradictorie conclusioni mee.
+            Ista conclusio probatur ex dictis suis. Primo de delectatione consequente apprehensionem
+            sensuum particularium, quia vel talis delectatio est in ipsis sensibus particularibus,
+            vel in appetitu sensitivo, vel in appetitu sensibus particularibus complantato. Non in
+            appetitu sensitivo, quia posito quod delectatio non esset in potentiis apprehensivis,
+            sed in appetitu consequente, adhuc non poneretur in appetitu sensitivo nisi delectatio
+            illa que consequitur apprehensionem imaginativam et fantasticam. Nec in appetitu
+            sensibus particularibus complantato, quia vel talis appetitus esset aliqua potentia
+            realiter distincta a sensibus, vel eadem. Si alia, ergo quot erunt potentie cognitive
+            tot erunt appetitus, et tunc virtus moralis circa passiones sequentes operationem
+            alicuius sensus particularis poneretur in appetitu complantato in sensibus, non in
+            appetitu sensitivo, et tunc temperantia esset in appetitu gustui complantato et tactui,
+            quod est falsum. Et confirmatur, quia in illo ponitur virtus ubi est passio circa quam
+            est virtus. Sed passio est in illo appetitu complantato ex supposito;, igitur ibi erit
+            virtus, quod est contra <name>Aristotelem</name>. Si autem ille appetitus complantatus
+            est idem realiter quod sensus, sicut delectatio est in illo appetitu, ita et in sensu.
+            Non enim est aliud appetitus complantatus quam naturalis inclinatio sensus que non est
+            alia res a sensu, sicut appetitus et inclinatio gravis non est alius a gravi. Patet
+            igitur quod talis delectatio non est in appetitu sensitivo, nec in appetitu sensibus
+            exterioribus complantato et ab ipsis realiter distincto, igitur erit in ipsis sensibus,
+            quod est propositum. </p>
+          <p xml:id="atv-l1d1q3-d1e4026">Secundo probatur conclusio de delectatione consequente apprehensionem intellectivam.
+            Primo sic: non est aliqua delectatio in voluntate absque aliquo actu in ea. Sed potest
+            esse summa speculatio in intellectu absque actu in voluntate; igitur delectatio sequens
+            speculationem non est in voluntate, et per consequens in intellectu erit. Maior patet,
+            quia non potest voluntas delectari nullo habitu actu circa delectabile. Minor etiam
+            patet, quia non est necessarium quod voluntas velit quod intellectus speculetur.</p>
+          <p xml:id="atv-l1d1q3-d1e4029">Tertio sic: <name>Philosophus</name> posuit felicitatem principaliter in intellectu
+            quia in speculatione, et ad ipsam sequi maximam delectationem, X
+            <title>Ethicorum</title>, et quod se ipsa nullo modo delectaretur potentia speculari non
+            videtur ad eius intentionem.</p>
+          <p xml:id="atv-l1d1q3-d1e4039">Quinta conclusio istius doctoris est quod accepta fruitione pro delectatione omnis
+            potentia, tam cognitiva quam appetitiva, fruitur in patria et hoc contradicit correlario
+            meo. Ratio istius conclusionis est quod in patria omnis potentia delectabitur in summo,
+            igitur, si frui sit delectari, frui erit omnium potentiarum.</p>
+          <p xml:id="atv-l1d1q3-d1e4042">Contra <name>Landulphum</name>.</p>
+          <p xml:id="atv-l1d1q3-d1e4048">
+            <pb ed="#V" n="42-r"/>
+            <cb ed="#V" n="a"/>
+            Ista opinio multa ponit et propter ultimas duas conclusiones in quibus contradicit
+            conclusioni et correlario meo que non reputo vera. Et ideo pono contra eas aliquas
+            propositiones. </p>
+          <p xml:id="atv-l1d1q3-d1e4055">Prima est quod fruitio proprie dicta nunquam accipitur a <name>beato Augustino</name>,
+            nec potest accipi pro mera passione, sicut iste doctor in distinctione sua. Ista
+            propositio fuit aliqualiter declarata in quarta conclusione precedentis questione, quia,
+            cum fruitio sit de ratione formali et intrinseca beatitudinis, nulla passio potest esse
+            fruitio, nec aliquid eius essentialiter et intrinsece. Et potest confirmari, quia nulla
+            passio potest esse ultima et suprema perfectio nature intellectualis, nec aliquid eius
+            essentialiter et intrinsece, cum talis sit eius ultimus finis quo. Sed fruitio est
+            ultima et suprema perfectio nature intellectualis; ergo etc.</p>
+          <p xml:id="atv-l1d1q3-d1e4061">Secunda propositio est quod fruitio accepta pro aliquo actu est idem quod delectatio,
+            cuius oppositum patet per secundam conclusionem suam. Ista propositio patet ex
+            supradictis, quia fruitio accepta pro delectatione est idem quod delectatio, sed accepta
+            pro delectatione accipitur pro actu, non pro passione, quia delectatio que ponitur de
+            ratione formali et intrinseca fruitionis non est passio, sed actus sive operatio, ut
+            patet ex conclusionibus precedentibus, ergo. Nec ratio istius doctoris concludit, quia
+            frui, ut est actus, non est idem quod amor convertibiliter et adequate. Includit enim
+            actum amoris et delectationis essentialiter et intrinsece, ut dictum est pluries.</p>
+          <p xml:id="atv-l1d1q3-d1e4064">Tertia propositio est quod ista propositio non est vera. Frui, ut accipitur pro
+            passione, est idem quod delectari, sicut iste doctor imaginatur. Et hec sequitur ex
+            precedentibus. Primo, quia illa propositio non est vera que implicat unam falsam, sed
+            illa propositio ‘frui, ut accipitur pro passione, est idem quod delectari’ implicat
+            istam 'frui quandoque accipitur pro passione' et hec est falsa, sicut patet ex prima
+            propositione, ergo. Secundo, quia fruitio accepta pro delectatione accipitur pro actu,
+            non pro passione, sicut patet ex secunda propositione, igitur accepta pro passione,
+            etiam si posset sic accipi, non est idem quod delectari. Nec ratio istius doctoris
+            valet, quia nusquam invenitur dictum ab <name>Aristotele</name> quod omnis delectatio
+            sit passio, nec iste doctor adducit aliquam auctoritatem ad hoc, licet dicat quod in
+            infinitis locis libri <name>Aristotelis</name> seu <title>Ethicorum</title> habeatur. Ex
+            istis sequitur quod etiam tertia conclusio illius doctoris non est vera, videlicet quod
+            frui, ut includit actum et passionem, simul est amare et delectari. Deductio est
+            evidens. Et ad rationem illius patet quid sit dicendum ex supradictis. Patet igitur quod
+            iste doctor minus sufficienter loquit de fruitione, quia, licet fruitio includat
+            dilectionem et delectationem essentialiter et intrinsece, illa tamen delectatio non est
+            passio, sed operatio. Nec rationes quas adducit pro quarta et quinta conclusione que
+            directe sunt ad propositum concludunt. Primo igitur pro quarta conclusione dico quod
+            delectatio consequens apprehensionem sensuum particularium non est in istis sensibus
+            subiective, sed in appetitu sensitivo, secundum <name>Aristotelem</name> et secundum
+            eum, sicut et virtus moralis circa passiones sequentes operationes sensuum particularium
+            non est in ipsis sensibus, sed in appetitu sensitivo, secundum <name>Aristotelem</name>
+            et eum. Nec probatio valet, quia in appetitu sensitivo non solum est delectatio que
+            sequitur apprehensionem imaginativam et fantasticam, sed etiam delectatio que sequitur
+            apprehensionem sensuum exteriorum. Et quod ita oporteat dicere patet ex dictis suis,
+            quia in illo ponitur delectatio consequens apprehensionem sensuum exteriorum in quo
+            ponitur virtus moralis circa passiones sequentes operationes ipsorum. Ista propositio
+            patet ex dictis suis, quia ipse probat quod talis delectatio non sit in appetitu
+            sensibus complantato, quia, si sic, virtus moralis predicta poneretur in ipso. Hec autem
+            deductio, ut patet, non tenet nisi in virtute propositionis assumpte. Sed virtus illa
+            moralis, secundum <name>Aristotelem</name> et secundum ipsum, non est in ipsis sensibus
+            exterioribus, sed in appetitu sensitivo; igitur. Et in hoc iste doctor contradicit sibi
+            et videtur. </p>
+          <p xml:id="atv-l1d1q3-d1e4087">Secundo potest responderi ad rationem, etiam si concedatur quod cuilibet sensui
+            exteriorum sit complantatus proprius appetitus, quia tunc dicetur quod talis delectatio
+            est in appetitu illo sensibus complantato. Et quando dicitur quod vel iste appetitus est
+            aliqua potentia realiter distincta a sensibus, vel eadem, concedo quod sit distinca et
+            concedo ultimus quod tot erunt appetitus complantati quasi potentie cognitive. Et quando
+            infertur quod tunc virtus moralis circa passiones sequentes operationem alicuius sensus
+            particula-<pb ed="#V" n="42-r"/>
+            <cb ed="#V" n="b"/>-ris ponetur in appetitu illo sensibus complantato, potest dupliciter
+            responderi. </p>
+          <p xml:id="atv-l1d1q3-d1e4093">Primo quidem potest concedi consequens, quia non videtur aliquod inconveniens supposito
+            quod sit dare talem appetitum complantatum quod temperantia circa gustum sit in appetitu
+            gustui complantato et temperantia circa tactum in appetitu tactui complantato. Nec illud
+            est contra <name>Aristotelem</name>, quia <name>Aristoteles</name> non dicit nisi quod
+            talis appetitus est in appetitu sensitivo. Et constat quod talis appetitus sensui
+            complantatus est appetitus sensitivus. </p>
+          <p xml:id="atv-l1d1q3-d1e4102">Secundo potest negari consequentia, quia non omnem secundum eum quod virtus moralis sit
+            in eodem cum delectatione, aliter cum illa delectatio in ipsis sensibus secundum eum
+            virtus illa moralis esset in sensibus, quod est contra eum. Et ad confirmationem quando
+            dicitur quod 'in illo ponitur virtus moralis, ubi est passio circa quam est virtus', vel
+            loquitur de passione que est delectatio, vel de alia. Si de alia, non est ad propositum,
+            quia non est concessum quod aliqua alia passio sit in illo appetitu, sed de
+            delectatione. Patet per eum quod propositio non est vera vel omnem ipsum concedere quod
+            virtus illa moralis non sit in appetitu sensitivo, sed in ipsis sensibus exterioribus,
+            quod tamen negat. Nec valet evasio istius doctoris. Dicit enim quod in sensu delectatio
+            non est mala, sed bona, quia sequitur operationem, sed est mala vel bona inquantum
+            appetitus ordinate vel inordinate delectatur in eo quod causatur in ipso. Ratio non est
+            simile de sensu et appetitu. Nec sequitur quod virtus moralis sit in sensu sicut
+            sequitur quod sit in appetitu. Ista tamen evasio est nulla, quod patet. </p>
+          <p xml:id="atv-l1d1q3-d1e4105">Primo, quia delectatio que ponitur passio operationis non est bona vel mala nisi
+            propter bonitatem vel malitiam operationis, igitur, si delectatio illa non est mala, sed
+            bona in sensu quia sequitur operationem, non erit mala, sed bona in appetitu per eadem
+            causam quia sequitur operationem. </p>
+          <p xml:id="atv-l1d1q3-d1e4108">Secundo, quia, secundum eum, delectatio in appetitu ideo est mala vel bona, quia
+            appetitus ordinate vel inordinate delectatur, igitur, si ponatur in sensu, poterit esse
+            bona vel mala. Consequentia patet, quia, si delectatio sit in sensu, sensus delectabitur
+            ordinate vel inordinate. Non est enim possibile quod aliqua potentia delectetur et non
+            delectetur ordinate vel inordinate, cum omnis delectatio sit ordinata vel inordinata, et
+            per consequens, si sequitur ex hoc quod virtus moralis sit in appetitu, ita sequitur
+            quod sit in sensu, quod est propositum. </p>
+          <p xml:id="atv-l1d1q3-d1e4111">Tertio, quia vel illa delectatio, que appetitus ordinate vel inordinate delectatur, est
+            passio consequens operationem sensus exterioris, vel non. Si non, non est verum quod in
+            illo ponatur virtus ubi est passio consequens talem operationem, cuius oppositum patet
+            per deductionem suam. Si sic, sequitur quod duplex delectatio consequitur operationem
+            sensus exterioris, sicut passio quarum una ponitur in sensu et altera in appetitu, quod
+            est sine ratione dictum. Patet igitur evasionem illam esse nullam. </p>
+          <p xml:id="atv-l1d1q3-d1e4115">Ad secundum principale potest uno modo dici quod non potest naturaliter esse summa
+            speculatio in intellectu absque actu aliquo in voluntate, nec illud probatur ex eo.
+            Secundo potest dici quod, si concedatur assumptum quod talem speculationem nulla
+            sequitur delectatio quia non ponitur ex supposito aliquis, actus voluntatis et omnis
+            delectatio sicut et omnis tristitia consequens apprehensionem intellectivam presupponit
+            necessario actum aliquem voluntatis. </p>
+          <p xml:id="atv-l1d1q3-d1e4118">Ad tertium concedo quod ad felicitatem quam posuit <name>Aristoteles</name>
+            principaliter in intellectu sequitur secundum ipsum maxima delectatio, sed non oportet
+            quod ista delectatio sit in intellectu. Videmus enim quod ad cognitionem beatificam
+            sequitur maxima delectatio et maxima dilectio. Et tamen non oportet quod intellectus se
+            ipso diligat quicquid sit de dilectione. Patent igitur rationes istius quarte
+            conclusionis non concludere. </p>
+          <p xml:id="atv-l1d1q3-d1e4124">Ad rationem vero quinte patet quid dicendum ex dictis, quia non est verum quod omnis
+            potentia delectetur, nec in via, nec in patria.</p>
+          <p xml:id="atv-l1d1q3-d1e4127"><note><name>Iohannes Forestarii</name>, distinctio 1 in I, questione 2, articulo 3</note></p>
+          <p xml:id="atv-l1d1q3-d1e4133">Contra secundam conclusionem est quidam doctor noster qui ponit quod fruitio patrie est
+            idem quod beatitudo convertibiliter et adequate. Ista conclusio probatur auctoritate
+              <name>beati Augustini</name>
+            <title>De doctrina christiana</title>, capitulo 38, ubi dicit quod <quote xml:id="atv-l1d1q3-Qd1e4141">summa merces est ut
+            Deo perfruamur</quote>. Sed constat quod ipsa merces est ipsa beatitudo; ergo frui est ipsa
+            beatitudo et econverso, et potest multis aliis auctoritatibus confirmari. </p>
+          <p xml:id="atv-l1d1q3-d1e4145">Primo auctoritate eiusdem <name>beati Augustini</name>, libro preallegato, dicens: <quote xml:id="atv-l1d1q3-Qd1e4150">Frui
+            Deo 
+            <pb ed="#V" n="42-v"/>
+            <cb ed="#V" n="a"/> 
+            beate vivere est</quote>; et capitulo 38, exponens illud <name>Apostoli</name>
+            <title>Ad Philemonem</title>: <quote xml:id="atv-l1d1q3-Qd1e4163">Itaque frater, ego te fruar in domino</quote>, dicit: <quote xml:id="atv-l1d1q3-Qd1e4167">Si non
+            addidisset in domino et te fruar tantum dixisset, in eo consistuisset spem beatitudinis
+            sue</quote>. Hec autem consequentia est nulla nisi fruitio esset idem quod beatitudo. </p>
+          <p xml:id="atv-l1d1q3-d1e4172">Secundo auctoritate <name>Anselmis</name>, libro II <title>Cur Deus homo</title>,
+            capitulo 1, ubi dicit rationem creaturam a Deo factam esse iustam, ut illo fruendo beata
+            esset dubitari non debet. Deo autem fruendo non esset beata nisi frui sit idem quod
+            beatificari. </p>
+          <p xml:id="atv-l1d1q3-d1e4181">Tertio auctoritate <name>Hugonis</name>
+            <title>De laude caritatis</title> dicens finaliter quod <quote xml:id="atv-l1d1q3-Qd1e4189">sicut idem est cursus et
+            currere diligere et dilectio, ita fruitio et ipsa beatitudo</quote>. Sed constat quod cursus et
+            currere, diligere et dilectio, sunt idem convertibiliter et adequate.</p>
+          <p xml:id="atv-l1d1q3-d1e4193">Responsio ad auctoritates istas</p>
+          <p xml:id="atv-l1d1q3-d1e4196">Sed auctoritates iste non convincunt, nec sunt sic intelligende. Sola fruitio sit
+            formalis beatitudo, sicut istis et multis aliis doctoribus fuit visum antequam ecclesia
+            determinaret oppositum. Concedo igitur quod fruitio sit summa merces sive beatitudo
+            partialiter sicut visio, non tamen totaliter, et sic intelligere sunt omnes
+            auctoritates ille et quecumque consimiles.</p>
+          <p xml:id="atv-l1d1q3-d1e4199">Advertendum tamen quod beatitudo principalius consistit in fruitione quam in visione,
+            ut suppono pro nunc, et ideo fruitio proprius potest vocari beatitudo quam visio, propter
+            quod a doctoribus pluries fruitio absolute et simpliciter dicitur beatitudo et talis
+            modus loquendi est nota principaliter, non totaliter, licet etiam inveniatur aliquotiens
+            quod sola visio sit beatitudo nostra propter inseparabilitatem ipsius a fruitione, prout
+            in prima conclusione supra Prologum extitit declaratum.</p>
+          <p xml:id="atv-l1d1q3-d1e4202">Ulterius etiam est advertendum quod beatitudo incipit in visione et completur in
+            fruitione, cum fruitio ordine nature sit posterior visione, et ideo absolute dicitur a
+            doctoribus quod Deo fruendo beati sumus, non quod fruitio sit tota beatitudo, sed quod
+            in ipsa completur beatitudo. </p>
+          <p xml:id="atv-l1d1q3-d1e4206">Et quando dicitur in auctoritate ultimo allegata quod 'sicut idem est cursus et currere'
+            etc., potest dupliciter responderi. Primo quidem potest dici quod cursus et currere,
+            diligere et dilectio, non sunt idem convertibiliter et adequate, sicut declarabitur
+            questione secunda. Secundo potest dici quod <name>Hugo</name> in auctoritate illa
+            loquitur de fruitione cum inclusione visionis, sicut <name>beatus Augustinus</name>
+            loquitur de visione cum inclusione fruitionis quando dicitur quod visio est tota.</p>
+          <p xml:id="atv-l1d1q3-d1e4215">Contra tertiam conclusionem, licet non videatur merces dubia, potest argui primo sic:
+            in actu supreme potentie consistit precise fruitio, cum ipsa sit nobilissima perfectio
+            creature. Sed intellectus est simpliciter suprema potentia, cum sit omnium aliarum
+            regulativus et directivus, ut patet; ergo.</p>
+          <p xml:id="atv-l1d1q3-d1e4218">Preterea, fruitio non est nisi visio, igitur solius intellectus est actus et perfectio.
+            Consequentia est nota. Antecedens probatur, quia summa merces est ut Deo fruamur, ut
+            patet per <name>beatum Augustinum</name> iam allegatum. Sed summa merces non est nisi
+            visio, ipso dicente I <title>De Trinitate</title>, capitulo 11, quod <quote xml:id="atv-l1d1q3-Qd1e4226">sola visio Dei est
+            summum bonum nostrum premium et finis</quote>; ergo etc.</p>
+          <p xml:id="atv-l1d1q3-d1e4230">Preterea, in actu illius potentie consistit fruitio precise que verius et perfectius
+            inheret obiecto fruibili propter se. Hoc patet, quia non quecumque inhesio est de
+            ratione fruitionis, sed sola perfectissima cum ipsa sit actus perfectissimus creature.
+          Sed intellectus verius et perfectius inheret obiecto fruibili propter se quam ipsa
+            voluntas; ergo. Probatur minor, quia potentie cognitive per proprios actus verius et
+            perfectius inherent suis per se obiectis quam appetitive cum potentie appetitive, ut
+            multis et magnis doctoribus videtur <gap unit="word" quantity="1" reason="illegible"/> propter cognitivas et actus ipsarum propter
+            actus potentiarum cognitivarum quos naturaliter consequuntur sicut propter finem; igitur
+            etc.</p>
+          <p xml:id="atv-l1d1q3-d1e4235">Preterea, uti est solius intellectus, igitur et frui. Consequentia patet etiam per me.
+            Antecedens probatur, quia uti est prudentie, dicente <name>Aristotele</name> VII
+              <name>Ethicorum</name> quod <quote xml:id="atv-l1d1q3-Qd1e4243">prudentis est ordinare in finem</quote>. Sed ordinare in finem
+            est idem quod uti et econverso, sed prudentia solius intellectus est habitus; igitur uti
+            solius intellectus erit actus.</p>
+          <p xml:id="atv-l1d1q3-d1e4247">Responsio ad ista</p>
+          <p xml:id="atv-l1d1q3-d1e4251">Ad primum istorum nego minorem, quia voluntas, cuius est intellectui et ceteris
+            potentiis imperare, est suprema potentia creature, ut suppono pro nunc. Nec probatio
+            valet, quia quamvis intellectus sit dirigere et ordinare per modum ostendentis et
+            ministrantis, voluntatis tamen est imperare per modum precipientis et prudentis et hoc
+            est simpliciter nobilius.</p>
+          <p xml:id="atv-l1d1q3-d1e4254">Ad secundum patet quid dicendum ex supradictis, quia nec sola visio, nec sola fruitio
+            est summa merces et beatitudo nostra nisi eo modo que dictum 
+            <pb ed="#V" n="42-v"/>
+            <cb ed="#V" n="b"/> 
+            est.</p>
+          <p xml:id="atv-l1d1q3-d1e4261">Ad tertium nego minorem, quia voluntas verius et perfectius inheret obiecto fruibili
+            propter se quam intellectus, tum quia intellectus inheret impulsus a voluntate, cum ei
+            possit imperare, tum quia <choice><sic/><corr>in</corr></choice> intelligendo sit motus rerum ad animam, in volendo autem motus
+            anime ad res, et per consequens voluntas perfectius inheret obiecto fruibili ut est in
+            se ipso quam intellectus. Nec probatio valet, quia salva reverentia illorum doctorum nec
+            voluntas est propter intellectum, nec actus voluntatis propter actum intellectus, sed
+            potius econverso, cum voluntas sit suprema potentia simpliciter. Et hec est expressa
+            sententia <name>Anselmis</name>
+            <title>Cur Deus Homo</title>, libro 2, capitulo 1, dicens: <quote xml:id="atv-l1d1q3-Qd1e4274">Rationalis natura ad hoc
+            accepit potestatem discernendum bonum et malum, ut odiret et vitaret malum ac amaret et
+            diligeret bonum</quote>. Ex quibus verbis liquide apparet quod actus intellectus est propter
+            actum voluntatis, et per consequens potentia propter potentiam, non autem econverso.</p>
+          <p xml:id="atv-l1d1q3-d1e4278">Ad quartum patet antecedens esse falsum per <name>beatum Augustinum</name> superius
+            allegatum. Et ad probationem dico quod ordinare per modum dirigentis et consulentis
+            pertinet ad prudentiam, secundum <name>Philosophum</name>, et per consequens ad
+            intellectum. Sed ordinare per modum dominantis et imperantis pertinet ad voluntatem et,
+            quia uti est ordinare secundo modo et non primo, ratio est ad oppositum, non ad
+            propositum.</p>
+          <p xml:id="atv-l1d1q3-d1e4287">Contra quartam conclusionem</p>
+          <p xml:id="atv-l1d1q3-d1e4290">Contra quartam conclusionem etiam potest argui primo sic: illud est de ratione formali
+            et intrinseca fruitionis sine quo impossibile est ipsam esse quacumque virtute. Sed sine
+            cognitione impossibile est fruitionem esse quacumque virtute; igitur cognitio est de
+            intrinseca ratione illius. Quo posito sequitur quod ipsa non sit solius potentie
+            volitive, sed etiam cognitive formaliter et subiective. Maior patet, quia ponere
+            fruitionem circumscripto omni eo quod non est de ratione formali ipsius nullam implicat
+            contradictionem et omne tale potest poni in esse, saltem divina virtute. Minore
+            probatur, quia, si per aliquem virtutem esset possibilis fruitio sine cognitione,
+            possemus frui incognito, quod est impossibile et contra <name>beatum Augustinum</name> X
+              <title>De Trinitate</title>; ergo etc.</p>
+          <p xml:id="atv-l1d1q3-d1e4300">Preterea, omnis potentia habens Deum pro obiecto sub ratione illa sub qua est obiectum
+            fruibile vere fruitur. Intellectus et voluntas sunt huiusmodi, non sola voluntas;
+            igitur. Maior videtur nota. Minor probatur primo de voluntate, quia habet Deum pro
+            obiecto sub ratione summi boni et ultimi finis, et sic non habet aliter ratione obiecti
+            fruibilis. Secundo de intellectu, quia, si intellectus non haberet ipsum pro obiecto sub
+            illa ratione, voluntas haberet ipsum pro obiecto sub ratione ignota, quod est
+            impossibile.</p>
+          <p xml:id="atv-l1d1q3-d1e4303">Responsio ad ista</p>
+          <p xml:id="atv-l1d1q3-d1e4306">Ad primum istorum concedo quod fruitio potest esse formaliter in creatura sine omni
+            cognitione de potentia Dei absoluta. Et quando dicitur quod 'tunc possemus frui ignoto',
+            nego consequentiam, quia de potentia Dei absoluta fruitio qua creatura rationalis nunc
+            fruitur formaliter poterit esse in eius voluntate et ipsa non fruetur, prout
+            declarabitur questione sequenti.</p>
+          <p xml:id="atv-l1d1q3-d1e4309">Ad secundum dico quod non quecumque potentia habet Deum pro obiecto sub ratione obiecti
+            fruibilis, quia nulla potentia vere fruitur nisi eius sit amare et in amato delectari et
+            talis est sola voluntas. Utrum autem intellectus habeat Deum pro obiecto sub ratione
+            obiecti fruibilis apparebit cum agetur de differentia vel indifferentia obiecti
+            intellectus et voluntatis.</p>
+        </div>
+        <div xml:id="atv-l1d1q3-Dd1e4313">
+          <head xml:id="atv-l1d1q3-Hd1e4315">Ad argumenta principalia</head>
+          <p xml:id="atv-l1d1q3-d1e4318">Ad rationes principales. Ad primam patet quod delectari non est cuiuslibet potentie
+            beatificabilis. </p>
+          <p xml:id="atv-l1d1q3-d1e4321">Ad secundam, licet verum concludat, patet quod non quecumque potentia <choice><sic/><corr>que</corr></choice> habet Deum pro
+            obiecto sub ratione summi boni et ultimi finis vere fruitur, nisi eius sit amare et in
+            amato delectari, quicquid sit de minori, etc.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

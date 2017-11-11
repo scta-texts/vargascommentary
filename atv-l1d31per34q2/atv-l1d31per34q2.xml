@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Liber I, distinctiones 31, 32, 33, 34, quaestio 2</title>
+                <author>Alphonsus Toletanus Vargas</author>
+                <editor>Luciana Cioca</editor>
+                <respStmt>
+                    <name>Jeffrey C. Witt</name>
+                    <name>Luciana Cioca</name>
+                    <resp>TEI Encoder</resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.0.0-dev">
+                    <date when="2017-11-11">November 2017</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <authority>
+                    <ref target="http://www.thesis-project.ro/">ERC-THESIS project n° 313339</ref>
+                </authority>
+                <availability status="free">
+                    <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref></p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="V" n="Venice1490">Venice1490</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+            <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"> </schemaRef>
+            <editorialDecl>
+                <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+                    guidelines for a critical edition</p>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc status="draft">
+            <listChange>
+                <change when="2017-11-11" who="#LC" status="draft" n="0.0.0">
+                    <p>Created file for the first time.</p>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="la">
+        <front>
+            <div xml:id="includeList">
+            </div>
+            <div xml:id="starts-on">
+                <pb ed="#V" n="149-v"/>
+                <cb ed="#V" n="a"/>
+            </div>
+        </front>
+        <body>
+            <div xml:id="atv-l1d31per34q2"> 
+                <head>Liber I, distinctiones 31, 32, 33, 34, quaestio 2</head>
+                <p>Secundo quero: utrum essentia divina sit eadem formaliter proprietatibus. </p>
+                <p>Et videtur primo quod non, quia Pater per paternitatem distinguitur formaliter a Filio, et per essentiam non distinguitur formaliter ab ipso; igitur essentia non est formaliter paternitas, nec econtra. Et similiter potest argui de ceteris proprietatibus relativis.</p>
+                <p>Contra: illud quod est eodem supposito non componit formaliter, cum essentia non distinguitur formaliter ab ipsa, sed paternitas in supposito Patris non componit formaliter cum essentia, quia Pater non est compositus formaliter nec realiter. </p>
+                <p>In ista questione primo ponam aliquis distinctiones, secundo conclusiones. Tertio movebo dubia. Quarto respondebo.</p>
+                
+                <div type="articulus">
+                    <head>Primus articulus</head>
+                    <p>Quantum ad primum est advertendum primo quod ista propositio ‘essentia divina est eadem formaliter proprietatibus relativis’ potest intelligi dupliciter, secundum quod ly ‘formaliter’ potest dupliciter accipi. Uno modo, secundum quod est quidam modus et facit propositionem modalem, et sic sumendo formaliter intellectus quasi est utrum essentia divina de proprietate vel proprietatis de essentia predicatio sit formaliter et, quia predicatio formalis secundum communem modum loquendi est illa que est in primo modo dicendi per se, intellectus questionis sic summendo formaliter esset utrum essentia divina predicetur in primo modo dicendi per se de proprietatibus relativis vel econtra. Alio modo, potest accipi ly ‘formaliter’ secundum quod potest dici a formalitate sicut realiter a realitate, et tunc est sensus utrum essentia sit eadem formalis cum proprietatibus relativis vel alia et alia, sive utrum essentie et proprietatis sit eadem formalitas, sive alia et alia, unde, sicut ista propositio ‘essentia est eadem realiter paternitati’ equivalet isti ‘essentia est eadem res cum paternitate’ sive isti ‘essentie et paternitatis est eadem realitas et non alia’ sic et ista ‘essentia est eadem formaliter paternitati’ equivalet isti ‘essentia est eadem formalitas cum paternitate’, sive isti ‘essentie et paternitati est eadem formalitas’ et non alia et, licet in utroque sensu possit intelligi presens questio, intelligo eam tantum in secundo, tum quia pertractare eam in primo non esset particulatio realis, sed logicalis tantum, tum quia in secundo sensu <name>Scotus</name> contra quem eam proposui tenet conclusionem negativam.</p>
+                    <p>Iterum accipiendo questionem in sensu dato adhuc est ulterius advertendum secundum quod assumpta propositio potest dupliciter intelligi. Potest enim queri an essentia divina sit eadem formaliter proprietatibus relativis convertibiliter et adequate, an sit ea-
+                        <pb ed="#V" n="149-v"/>
+                        <cb ed="#V" n="b"/>
+                        -dem formaliter eis inconvertibiliter et inadequate, ut in conclusionibus apparebit.</p>
+                </div>
+                
+                <div type="articulus">
+                    <head>Secundus articulus</head>
+                    <p>Quantum ad secundum articulum, quia conformiter videtur mihi esse dicendum de formalitate et realitate, pono quattuor conclusiones consimiles conclusionibus positis in questione precedenti. </p>
+                    
+                    <div>
+                        <head><supplied>Conclusio prima</supplied></head>
+                        <p>Prima est quod essentia divina est eadem formaliter cuilibet proprietati relative per exclusionem omnis distinctionis et dualitatis formalis. </p>
+                        <p>Istius conclusionis primo ostendo possibilitatem, secundo necessitatem. Possibilitatem sic: non est maior repugnantia tres simplicitates relativas distinctas formaliter esse unam formalitatem absolutam formaliter per exclusionem omnis distinctionis et dualitatis formalis quam tres realitates relativas distinctas realiter esse unam realitatem absolutam realiter per exclusionem omnis distinctionis et dualitatis realis. Patet ex terminis, sed non obstante huiusmodi repugnantia in creaturis. In divinis tum tres realitates relative trium proprietatum que secundum fidei veritatem realiter sunt distincte sunt una realitas absoluta essentie realiter per exclusionem omnis distinctionis et dualitatis realis, ut patet ex questione precedente. Necessitatem vero deduco sic: cuicumque rei essentia divina est eadem realiter per exclusionem omnis distinctionis et dualitatis realis eidem est eadem formaliter per exclusionem omnis distinctionis et dualitatis formalis, sed cuilibet proprietati relative est eadem realiter per exclusionem etc; ergo etc. Minor patet ex questione precedente. Maiorem deduco sic: realitas et formalitas cuiuscumque rei sunt idem omnibus modis extra intellectum per exclusionem omnis distinctionis et dualitatis ex natura rei, ergo cuicumque rei essentia divina est eadem realiter eidem est eadem formaliter per exclusionem omnis distinctionis et dualitatis formalis. Consequentia est nota secundum omnes et antecedens etiam ex fundamentis tenetium conclusionem oppositam. Constat enim secundum omnes quod realitas et formalitas cuiuscumque rei sunt idem aliquo modo ex natura rei. Sequitur quod ex natura rei sunt idem et distantur. Quo posito quero, sicut querebatur distinctione 13, questione 1, articulo 2, conclusione 2, ubi ista ratio tangebatur an uno et eodem omnibus modis extra intellectum sint idem et distinguantur an alio et alio. Primum dari non potest, iuxta principia eorum, quia potissimum principium eorum est quod quecumque conveniunt et differunt aliquo sui conveniunt et aliquo sui differunt. Si detur secundum, sequitur quod realitas cuiuscumque rei aliquo sui sit idem sue formalitati et alio sui distinguatur ab ea ex natura rei. Et similiter sequitur quod formalitas cuiuscumque rei aliquo sui sit idem sue realitati et aliquo sui distinguatur ab ea ex natura rei et de illis arguitur, sicut argutum est de realitate et formalitate, et concludetur intentum vel proceditur in infinitum, quod est omnino impossibile etiam per eos.</p>
+                        
+                        <div>
+                            <head><supplied>Correlaria</supplied></head>
+                            <p>Ex ista conclusione sequuntur due propositiones correlarie. </p>
+                            <p>Prima est quod essentia divina est eadem formaliter cuilibet persone divine per exclusionem omnis distinctionis et dualitatis formalis. Deductio est evidens, quia non minus est eadem persone divine quam proprietati relative.</p>
+                            <p>Secunda est quod quelibet proprietas relativa est sic eadem persone divine cuius est proprietas. Illa patet, quia proprietas relativa Patris non minus quam essentia est eadem Patri. </p>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <head><supplied>Conclusio secunda</supplied></head>
+                        <p>Secunda conclusio principalis est quod essentia divina non est eadem formaliter alicui proprietati relative convertibiliter et adequate. Ista conclusio potest probari per rationes quibus probatur secunda conclusio principalis questionis precedentis, solum mutando realiter informaliter applicatis est evidens, ideo pertranseo.</p>
+                        <p>Potest etiam ex eadem conclusione deduci sic: cuicumque rei essentia divina non est eadem realiter convertibiliter et adequate, nec formaliter. Hoc patet, quia realitas et formalitas essentie divine, sicut et cuiuscumque alterius rei, sunt idem omnibus modis extra intellectum per exclusionem omnis distinctionis et dualitatis ex natura rei, ut patet ex dictis, sed nulli proprietati relative est sic eadem realiter, ut patet ex conclusione predicta, igitur nec formaliter. Ex ista conclusione sequitur quod essentia divina non est eadem forma-
+                            <pb ed="#V" n="150-r"/>
+                            <cb ed="#V" n="a"/>
+                            -liter alicui persone divine convertibiliter et adequate. Deductio est evidens.</p>
+                    </div>
+                    
+                    <div>
+                        <head><supplied>Conclusio tertia</supplied></head>
+                        <p>Tertia conclusio est quod ad hoc quod essentia divina non sit eadem formaliter alicui proprietati relative convertibiliter et adequate non oportet ponere aliquam distinctionem vel non identitatem priorem inter essentiam et proprietatem. </p>
+                        <p>Probatur sic: ad hoc quod essentia divina non sit eadem realiter alicui proprietati relative convertibiliter et adequate non oportet ponere talem distinctionem vel non identitatem priorem, igitur nec ad hoc quod non sit sic eadem formaliter ei. Consequentia est nota. Antecedens patet ex tertia conclusione questionis precedentis, rationes etiam adducte pro conclusione <choice><sic>nulla mutatio</sic><corr></corr></choice> realiter informaliter possunt adduci pro ista.</p>
+                    </div>
+                    
+                    <div>
+                        <head><supplied>Conclusio quarta</supplied></head>
+                        <p>Quarta conclusio est quod de his que sunt una formalitas sive unum formaliter per exclusionem omnis distinctionis et dualitatis formalis sine contradictione verificantur predicata contradictoria formaliter in divinis. </p>
+                        <p>Probatur sic: de istis que sunt una realitas sive unum realiter per exclusionem omnis distinctionis et dualitatis realis sine contradictione verificantur predicata contradictoria realiter in divinis, igitur de his que sunt una formalitas sive unum formaliter per exclusionem etc sine contradictione verificantur predicata contradictoria formaliter in divinis. Consequentia est bona, tum quia non est maior repugnantia hic quam ibi, tum quia realitas et conformitas cuiuscumque rei sunt idem convertibiliter et adequate, ut patet ex dictis etc. Antecendes patet ex quarta conclusione questionis precedentis, ergo etc. Rationes etiam probantes illam conclusionem possent probare istam mutando realitatem informalitatem seu realiter informaliter, ut patet. Reductiones rationum sunt evidentes, ideo pertranseo etc.</p>
+                    </div>
+                </div>
+                
+                <div type="articulus">
+                    <head>Tertius et quartus articulus</head>
+                    <p>Quantum ad tertium et quartum articulos est quedam opinio satis communis que quantum pertinet ad propositum ponit duas conclusiones.</p>
+                    
+                    <div>
+                        <head>Opinio <name>Scoti</name> et suorum</head>
+                        <p>Prima est quod essentia et proprietas in divinis distinguuntur circumscripto omni opere intellectus et rationis nostre.</p>
+                        <p>Secunda est quod essentia et proprietas in divinis distinguuntur formaliter. Ex istis sequitur quod proprietas personalis formaliter distinguitur a persona et quod persona formaliter distinguitur ab essentia. Primam istarum conclusionum ex fundamentis <name>Scoti</name> probat quidam doctor de suis.</p>
+                    </div>
+                    
+                    <div>
+                        <head><name>Franciscus de Maronis</name> in I, distinctione 33, questione 2, articulo 1</head>
+                        <p>Sic omnis essentia est ad se, nulla relatio est ad se circumscripto utrobique opere intellectus; igitur nulla relatio est essentia. Vel sic: nulla relatio est ad se, omnis substantia est ad se; ergo nulla substantia est relatio. Isti duo syllogismi sunt in primo et in secundo modo secunde figure et utraque premissarum conceditur, ergo conclusio debet inferri et concedit, ut dicit per locum a toto quantitate quod divina essentia non est relatio, et econtra.</p>
+                        <p>Ista ratio confirmatur multiplici auctoritate <name>beati Augustini</name>. </p>
+                        <p>Prima est in VII <title>De Trinitate</title> dicens quod, si essentia relative dicitur et est ad aliud, essentia iam non est essentia. </p>
+                        <p>Secunda est ibidem, ut dicit quod in nominibus que relative dicuntur in divinis non ostenditur substantia, et tamen secundum ipsum ostenditur ibi relatio. Alias auctoritates et rationes adducit que solvuntur eodem modo, igitur etc.</p>
+                    </div>
+                    
+                    <div>
+                        <head><name>Franciscus</name> ubi supra</head>
+                        <p>Secundam conclusionem probat ibidem doctor quadrupliciter. </p>
+                        <p>Primo sic, quia ens formaliter dividitur in absolutum et respectivum et essentia cadit sub absoluto, relatio vero sub respectivo. </p>
+                        <p>Secundo, quia in diffinitione essentie ponitur ad se in diffinitione relationis ad aliud. </p>
+                        <p>Tertio, quia, secundum rationem descriptam essentie, essentia est ens in se et relatio ens in fundamento. </p>
+                        <p>Quarto, per viam reduplicationis, quia relatio, inquantum relatio, non beatificat. Deitas autem, inquantum deitas, beatificat et iste sunt quattuor vie, ut dicit ad investigandum distinctionem forma-
+                            <pb ed="#V" n="150-r"/>
+                            <cb ed="#V" n="b"/>
+                            -lem.</p>
+                    </div>
+                    
+                    <div>
+                        <head>Contra <name>Scotum</name></head>
+                        <p>Sed istis non obstantibus salvo meliori iudicio videtur mihi quod hec opinio sit irrationalis omnino, tum quia talis distinctio est impossibilis inter quecumque, ut patet ex dictis, tum quia, si esset possibilis, adhuc per eam non salvaretur forma syllogistica in divinis, quam tamen isti doctores intendunt per ipsam salvare, nec vitatur repugnantia predicamentorum oppositorum que distinguitur decentia et relatione quam credunt omnino vitare, et ideo contra conclusionem istam pono duas conclusiones.</p>
+                        <p>Prima est quod ad tollendum repugnantiam predicamentorum oppositorum que dicuntur de essentia et relatione non sufficit sola distinctio formalis relationis et essentie, etiam si esset possibilis in divinis.</p>
+                        <p>Secunda est quod forma syllogistica in divinis per solam distinctionem formalem salvari non potest. Et loquor in istis conclusionibus de distinctione formali secundum imaginationem istorum doctorum prescindendo eam a distinctione reali, sic igitur sumpta distinctione formali pro deductione prime conclusionis premitto duas propositiones. </p>
+                        <p>Prima est quod ad tollendum repugnantiam contradictionis extremorum realium non sufficit sola distinctio formalis. </p>
+                        <p>Probatur primo sic: illa sola distinctio sufficit ad tollendum repugnantiam contradictionis extremorum realium que tollit unitatem vel gradum unitatis necessario requisitam vel requisitum ad contradictionem talium extremorum. Hoc patet, quia distinctio non tollit repugnantiam contradictionis nisi quia tollit unitatem etc, sed distinctio formalis non tollit unitatem nec gradum unitatis necessario requisitum ad contradictionem extremorum realium, etiam per ponentes ipsam, quia talis est unitas vel gradus unitatis realis et nullum istorum tollitur per distinctionem formalem, quia distinctio formalis, ut dicit, stat cum unitate reali et gradu unitatis realis quocumque.</p>
+                        <p>Secundo sic: ista distinctio non tollit distinctionem extremorum realium que stat cum tali contradictione, sed distinctio formalis stat cum contradictione extremorum realium, secundum ponentes eam; ergo. Maior patet, quia quod tollit aliquid non stat simul cum illo. Minor probatur, quia intellectus et voluntas in Deo distinguuntur formaliter secundum eos. Et tamen contradictio est quod voluntas communicetur realiter et intellectus non communicetur realiter vel econverso, ergo.</p>
+                        <p>Tertio sic: nulla distinctio minor distinctione formali sufficit ad tollendum repugnantiam contradictionis extremorum formalium, igitur nulla distinctio minor distinctione reali sufficit ad tollendum distinctionem vel repugnantiam contradictionis extremorum realium. Antecedens patet per eos et consequentia videtur nota, quia non est maior ratio de uno quam de alio, sed distinctio formalis, ut dicunt, est minor distinctione reali, ergo.</p>
+                        <p>Quarto sic: illa distinctio sufficit ad tollendum repugnantiam contradictionis realis qua posita adhuc predicata contradictoria realiter verificantur de eodem penitur indistincto. Patet ex terminis, sic est in proposito, ergo. Probatur minor, quia talia predicata non solum verificantur de formalitatibus in divinis, sed etiam de realitatibus precise sumptis ut prescindunt a formalitatibus, quia, sicut iste sunt vere formalitas essentie communicatur  formalitas paternitatis non communicatur, sic iste realitas essentie communicatur realitas paternitatis non communicatur. Tunc quero ab istis an inter realitatem essentie et realitatem paternitatis ut prescindunt a formalitatibus sit aliqua distinctio vel non. Si non, patet quod predicata contradictoria realiter verificantur de eodem penitus indistincto, sicut minor probanda ponebat. Si sic, sequitur quod inter essentiam et paternitatem non solum sit distinctio formalis, sed etiam realis, quod est impossibile etiam per eos.</p>
+                        <p>Secunda propositio est quod de essentia et relatione verificantur predicata contradictoria extremorum realium in divinis. Hoc est evidens, quia essentia non solum non communicatur formaliter, sed etiam nec realiter, ut statim tangebatur.</p>
+                        <p>His propositionibus premissis deduco conclusionem primam sic: ad tollendum repugnantiam contradictionis extremorum realium non sufficit sola distinctio formalis. Hoc patet ex prima propositione, sed de essentia et relatione verificantur predicata contradictoria extremorum realium, ut patet ex secunda conclusione.</p>
+                        <p>Ex ista conclusione 
+                            <pb ed="#V" n="150-v"/>
+                            <cb ed="#V" n="a"/> 
+                            sequitur quod ad tollendum huiusmodi repugnantiam formalem non sufficit sola divisio rationis, prout quibusdam doctoribus videtur. Deductio est evidens, quia distinctio rationis minus potest sufficiere quam formalis que tamen non sufficit, ut patet ex dictis.</p>
+                        <p>Secundam conclusionem deduco primo sic: in illa materia in qua syllogismum non est peccans in materia, nec in forma concludit conclusionem falsam non habet locum forma syllogistica, sed in divinis stante sola divisione formali inter essentiam et relationem syllogismus concludens falsam conclusionem non peccat in materia, nec in forma, igitur. Maior supponitur. Minor probatur arguendo tam affirmative quam negative. Affirmative quidem sic: omnis realitas proprietatis relative in divinis distinguit realiter personam a persona, realitas essentie non distinguit realiter personam a persona; igitur realitas essentie non est realitas proprietatis relative. Ista conclusio est falsa stante sola distinctione formali inter essentiam et proprietatem et tamen premisse sunt vere et salvatur forma syllogistica, ergo. Negative sic: quedam realitas proprietatis relative non est realitas paternitatis, omnis realitas essentie proprietatis relative est realitas; ergo realitas essentie non est realitas paternitatis. Conclusio est falsa sicut precedens stante supposito et tamen forma est bona.</p>
+                        <p>Secundo sic: ubi principia roborantia syllogismos non habent locum nec ipsa forma syllogistica, sed in divinis talia principia non habent locum stante sola distinctione formali; ergo etc. Maior patet, quia premisse non applicantur ad conclusionem nisi virtute principiorum. Minor probatur, quia syllogismi affirmativi roborantur per illud principium quecumque uni et eidem sunt eadem inter se sunt eadem, ut patet I <title>Priorum</title> et tamen non habet locum in divinis stante supposito, quia realitas paternitatis et realitas filiationis sunt eedem realitati essentie et tamen non inter se.</p>
+                        <p>Idem patet de principio per quod roborantur syllogismi negativi, quod est quecumque uni et eidem sunt diversa inter se sunt diversa. Ad cuius declarationem est advertendum quod multum refert quod aliqua sint diversa ab eodem et quod sint diversa eidem, nam homo et asinus sunt diversa ad lapidem et universaliter quecumque duo realiter differunt ab aliquo tertio sunt diversa ab eo. Ex talibus tamen terminis non formatur syllogismus negativus in quo oportet quod altera premissarum sit affirmativa. Sed illa dicuntur diversa eidem quorum unum est idem illi. Alterum vero ab eodem realiter differt, et ex terminis sic positis formatur syllogismus negativus dicendo: omnis homo est animal, nullus lapis est animal; ergo nullus lapis est homo. Istud autem principium non habet locum in divinis stante supposito quod realitas essentie et realitas paternitatis sunt sic diversa realitati relationis. Et tamen non inter se, ut dictum est pluries.</p>
+                        <p>Forte dicetur ad istas rationes quod realitas essentie et realitas proprietatis non sunt idem convertibiliter et adequate, et ideo non sequitur realitas proprietatis esse idem inter se, sed sic dicendo habetur principale propositum, quia tunc non salvatur forma syllogistica in divinis, nec tollitur repugnantia contradictionis per distinctionem formalem, sed per inconvertibilitatem, et per consequens frustra fingitur talis distinctio et illud principaliter movet me ad non ponendum eam, quia etiam si ponatur nullam vitat difficultatem etc.</p>
+                    </div>
+                    
+                    <div>
+                        <head>Respondeo ad rationes <name>Francisci</name></head>
+                        <p>Nec motiva opinionis concludunt, quia omnia probant distinctionem realem si aliquam probant quam tamen omnino negant et iste est unus de principalioribus defectibus huius positionis, quia omnis ratio quam adducunt ad probandum distinctionem formalem ex natura rei potest reduci contra eos, quia per eam probabitur distinctio realis, ut patet videnti rationes eorum.</p>
+                        <p>Ad rationes ergo pro prima conclusione dico primo quod potest reduci contra eos, quia, sicut iste sunt vere ‘omnis essentia est ad se’, ‘nulla relatio est ad se’, sic et iste ‘omnis realitas essentie est ad se’, ‘nulla realitas relationis est ad se’, et per consequens, si probant aliquid probant distinctionem realem, nec tamen illam probant, nec aliam, 
+                            <pb ed="#V" n="150-v"/>
+                            <cb ed="#V" n="b"/>  
+                            quia ad solvendum talia sophismata sufficit quod essentia non sit tantum proprietas sive quod non sit convertibiliter et adequate proprietas, ut patet ex dictis. Et per idem patet ad auctoritates <name>beati Augustini</name>, quia concedo quod, si essentia diceretur relative, non esset essentia, sed ex hoc non sequitur quod distinguatur a relatione aliquo modo. Sufficit enim ad hoc quod non sit convertibiliter relatio. Et conformiter concedo quod in omnibus que relative dicuntur non ostenditur substantia supple adequate, quia ostenditur relatio que non est adequate substantia. </p>
+                        <p>Ad rationes vero secunde conclusionis satis patet quid dicendum ex dictis omnes, namque possunt reduci contra eos et solvi faciliter. Hoc patet de primo, quia, si ex hoc quod ens dividitur formaliter per absolutum et relativum concluditur divisio formalis relationis et essentie, pari ratione concludetur realis, quia ens dividitur realiter per ista, et sic per eos non concluditur ex hoc secunda, nec secundum veritatem prima et conformiter est ad alias respondendum.</p>
+                    </div>
+                    
+                    <div>
+                        <head>Ad principalia</head>
+                        <p>Ad primam patet ex dictis quod non concludit quod essentia non sit eadem formaliter paternitati, sed quod non sit eadem sibi formaliter convertibiliter et adequate quod utique verum est.</p>
+                        <p>Secundam rationem concedo.</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+

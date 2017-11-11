@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Liber I, Distinctio 21, Quaestio 1</title>
+				<author>Alphonsus Toletanus Vargas</author>
+				<editor>Luciana Cioca</editor>
+				<respStmt>
+					<name>Jeffrey C. Witt</name>
+					<resp>TEI Encoder</resp>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="0.0.0-dev">
+					<date when="2016-09-15">September 15, 2016</date>
+				</edition>
+			</editionStmt>
+			<publicationStmt>
+				<authority>THESIS project</authority>
+				<availability status="free">
+					<p>Public Domain</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="P" n="Paris1490">Paris1490</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+			<schemaRef n="lbp-critical-1.0.0"
+				target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/1.0/critical.rng"> </schemaRef>
+			<editorialDecl>
+				<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+					guidelines for a critical edition</p>
+			</editorialDecl>
+		</encodingDesc>
+		<revisionDesc status="draft">
+			<listChange>
+				<change when="2016-09-02" who="#JW" status="draft" n="0.0.0">
+					<p>Created file for the first time.</p>
+				</change>
+			</listChange>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:lang="la">
+		<front>
+			<div xml:id="includeList">
+				<xi:include
+					href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+					xpointer="worksCited"/>
+				<xi:include
+					href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+					xpointer="prosopography"/>
+			</div>
+			<div xml:id="starts-on">
+				<pb ed="#P" n=""/>
+				<cb ed="#P" n=""/>
+			</div>
+		</front>
+		<body>
+			<div xml:id="atv-l1d21q1">
+				<head>Liber I, Distinctio 21, Quaestio 1</head>
+
+				<p>Hic oritur questio trahens originem ex dictis. Circa distinctionem istam 21 in qua
+						<name>Magister</name> arguit de exclusivis, quero conformiter cum ipso: utrum ista
+					propositio sit concedenda ‘solus Pater est Deus’. </p>
+
+				<div type="rationes-principales">
+					<head>Rationes principales</head>
+
+					<p>Et videtur primo quod sic. Hec est concedenda ‘solus Deus est Pater’, igitur et hec
+						solus ‘Pater est Deus’. Antecedens est notum. Consequentia patet per conversionem, quia
+						ista propositio ‘solus Deus est Pater’ debet converti in istam ‘solus Pater est Deus’. </p>
+
+					<p>Contra hoc est vera ‘Filius est Deus’, ergo hec est falsa ‘solus Pater est Deus’.
+						Antecedens patet et consequentia videtur nota, quia sequitur ‘solus Pater est Deus’,
+						igitur nullus alius a Patre est Deus. Hoc patet, quia proceditur [129va] ab exclusiva ad
+						suam exponentem et sequitur nullus alius a Patre est Deus, igitur Filius non est Deus,
+						quod est oppositum antecedentis.</p>
+				</div>
+				<div>
+					<head>Divisio quaestionis</head>
+					<p>In ista questione primo ponam unicam distinctionem, secundo quattuor conclusiones.
+						Tertio movebo dubia. Ultimo respondebo.</p>
+				</div>
+				<div type="articulus">
+					<head>Articulus primus</head>
+
+					<p>Quantum ad primum advertendum est quod ista propositio ‘solus Pater est Deus’ est
+						distinguenda eo quod ly ‘solus’ potest teneri exclusive et precisive. Si teneatur
+						exclusive, sensus propositionis est quod Pater est vere Deus et quod nullus alius a
+						Patre est vere Deus, sicut sensus huius ‘solus Socrates currit’, si ly ‘solus’ teneatur
+						exclusive, quod Socrates currit et nil aliud a Socrate currit. Ratio huius est, quia per
+						tales propositiones universaliter denotat quod predicatum vere competit subiecto et quod
+						vere negatur ab omni eo a quo vere negatur subiectum, et hoc ostenditur per duas
+						exponentes per unam affirmativam in qua predicatum attribuitur subiecto et per unam
+						negativam in qua predicatum removetur ab illo a quo removetur subiectum. Si vero
+						teneatur precisive, sensus propositionis est quod Pater per se et precise sumptus est
+						vere Deus, sicut sensus huius ‘solus Socrates currit’ est, si ly ‘solus’ teneatur
+						precise, quod Socrates per se et precise sumptus nullo alio sibi addito currit sive
+						alius ab eo currit, sive non. Ratio huius est, quia per tales propositiones non
+						denotatur nisi quod predicatum vere competit subiecto per se et precise sumptus nullo
+						alio sibi addito et isto modo conceditur quod solus Pater est tantus quantus est Pater
+						et Filius et Spiritus Sanctus et econverso. Et hoc de primo.</p>
+				</div>
+				<div type="articulus">
+					<head>Articulus secundus</head>
+
+					<p>Quantum ad secundum pono quattuor conclusiones: duas preambulas necessarias ad
+						propositum et duas de principali quesito.</p>
+					<div>
+						<head>
+							<supplied>Conclusio prima</supplied>
+						</head>
+
+						<p>Prima conclusio est quod unum relativum non est de principali conceptu sive
+							quiditativo intellectu alterius. </p>
+
+						<p>Probatur primo sic: quod non est de ratione formali et intrinseca alicuius, non est
+							de principali conceptu sive quiditativo intellectu illius. Hoc patet, quia tantum illa
+							que sunt de ratione formali et intrinseca alicuius rei sunt de principali conceptu
+							sive quiditativo intellectu ipsius, sed unum relativum non est de ratione formali et
+							intrinseca alterius cum distinguatur realiter ab ipso; ergo etc.</p>
+
+						<p>Confirmatur, quia quod distinguitur essentialiter ab aliquo non est de ratione
+							formali et intrinseca illius, sed unum relativum saltem in creaturis est ab altero
+							essentialiter distinctum secundum omnes.</p>
+
+						<p>Confirmatur iterum, quia unum oppositorum non est de ratione formali et intrinseca
+							alterius, sed duo relativa vere sunt opposita.</p>
+
+						<p>Secundo ad principale sic, et est ratio doctoris nostri sic: quandocumque aliqua sic
+							se habent quod ita unum est de principali conceptu sive quiditativo intellectu
+							alterius, si unum additur alteri, sit nugatio, sicut patet dicendo homo animal vel
+							homo substantia, sed nulla est nugatio cum dicitur Pater Filii, ergo Filius non est de
+							principali conceptu seu intellectu quiditativo intellectu Patris et similiter potest
+							argui de ceteris relativis.</p>
+
+						<p>Tertio sic: si unum relativum esset de principali conceptu alterius, sequeretur quod
+							duorum relativorum, puta Patris et Filii, essent conceptus synonymi. Consequens est
+							falsum secundum omnes, igitur et antecedens. Consequentia probatur, quia conceptus qui
+							sunt de eiusdem obiectis primo sunt conceptus synonymi; si unum relativorum esset de
+							principali conceptu alterius, tunc conceptus utriusque essent de eisdem obiectis.
+							Primo, quia conceptus unius esset primo de utroque et conceptus alterius esset primo
+							de utroque, igitur, si relativum esset de principali conceptu, alterius conceptus
+							relativorum essent conceptus synonymi. </p>
+					</div>
+					<div>
+						<head>
+							<supplied>Conclusio secunda</supplied>
+						</head>
+
+						<p>Secunda conclusio est quod dictio exclusiva addita uni relativorum excludit alterum.
+							Hanc probo primo sic: dictione exclusiva addita alicui subiecto excluditur omne illud
+							quod non est de principali conceptu sive quiditativo intellectu [129vb] illius
+							subiecti. Hec patet, quia de nullo tali vere dicitur illud subiectum, sed unum
+							relativum non est de principali conceptu seu quiditativo intellectu alterius, ut patet
+							ex conclusione precedenti; igitur etc.</p>
+
+						<p>Confirmatur, quia dictio exclusiva addita alicui subiecto excludit omne illud a quo
+							subiectum illud vere negatur, ut patet ex articulo precedenti, sed unum relativum vere
+							negatur ab alio, quia hec est vera ‘Pater non est Filius’, et econverso.</p>
+
+						<p>Secundo sic: solus idem quod non cum alio, ut patet I <title>Elenchorum</title>,
+							igitur, si solus Pater est vel solus Pater generat, Filius non est vel Filius non
+							generat. Patet consequentia, quia Filius est alius a Patre tam in creaturis quam in
+							divinis. Hec est determinatio <name>Philosophi</name> I <title>Physicorum</title> ubi
+							sic arguit: tantum principium est, ergo principium non est. Hec autem consequentia
+							esset nulla si dictio exclusiva addita uni relativorum non excluderet alterum. Et
+							confirmatur, quia, si detur oppositum, sequitur quod ista propositio esset concedenda
+							‘tantum creator est’ vel ‘tantum creatura est’, quod tamen est falsum. Consequentia
+							patet, quia omne quod est, est creator vel creatura, igitur, si non excluditur
+							creatura cum dicitur ‘tantum creator est’, nec creatura cum dicitur ‘tantum creatura
+							est’, quelibet istarum propositionum est vera, et per consequens concedenda, quia
+							simul stant quod tantum creator sit quod et tantum creatura sit ex quo non excluditur,
+							nec econverso.</p>
+
+						<p>Ex ista conclusione sequitur quod omnes propositiones exclusive que sunt de
+							predicatis que non possunt inesse uni correlativo sine altero sunt false et
+							simpliciter impossibiles, sed ille que sunt de predicatis que possunt inesse uni
+							correlativo sine altero possunt vere esse unde, licet ista sit vera ‘Pater solus
+							generat’, quia illud predicatum generat potest inesse Patri sine Filio. Ista tamen est
+							impossibilis et falsa ‘solus Pater est’, quia sequitur ‘solus Pater est’, igitur Pater
+							est et sequitur Pater est, ergo Filius est et sequitur Filius est, ergo non solus
+							Pater est, et per consequens sequitur solus Pater non est, ergo solus Pater non est,
+							quod est impossibile et implicativum contradictionis. </p>
+
+						<p>Ex hoc statim apparet quod iste propositiones ‘tantum principium est’, vel ‘tantum
+							principiatum est’, vel ista ‘tantum creator est’, vel ‘tantum creatura est’ et similes
+							in quibus predicatum non potest inesse uni correlativo sine altero sunt omnino
+							impossibiles et false simpliciter.</p>
+					</div>
+					<div>
+						<head><supplied>Conclusio tertia</supplied></head>
+
+						<p>Tertia conclusio est quod ista propositio ‘solus Pater est’ non est concedenda
+							proprie loquendo si ly ‘solus’ teneatur pure exclusive. Hanc probo primo sic: sequitur
+							solus Pater est Deus, igitur Filius non est Deus. Consequens est falsum, igitur et
+							antecedens. Consequentia patet, quia dicto exclusiva addita uni correlativorum
+							excludit alterum, ut patet ex conclusione precedenti. Secundo sic: sensus istius
+							propositionis ‘solus Pater est Deus’ est, si ly ‘solus’ teneatur exclusive, quod Pater
+							est Deus et quod nullus alius Pater est Deus, ut patet ex articulo precedenti. Sed
+							constat quod, licet ista sit vera ‘Pater est Deus’, ista tamen est falsa ‘nullus alius
+							a Patre est Deus’, quia Filius et Spiritus Sanctus sunt vere Deus.</p>
+
+						<p>Confirmatur, quia, si altera exponentum propositionis exclusive est falsa, tota
+							propositio erit falsa. Verbi gratia: ‘solus Socrates currit’ exponitur per istas
+							exponentes Socrates currit et nihil aliud a Socrate currit quacumque istarum existente
+							falsa. Propositio est falsa, sed altera exponentium istius ‘solus Pater est Deus’ est
+							falsa, quia, licet affirmativa sit vera, negativa tamen est falsa.</p>
+
+						<p>Tertio sic: propositio exclusiva de subiecto finito equipollet universali negative de
+							infinito. Verbi gratia: ‘solus Socrates curret’ equipollet huic ‘nihil non Socrates
+							curret’, ergo ista ‘solus Pater est Deus’ equipollet huic ‘nullus non Pater est Deus’,
+							sed hec est falsa ‘nullus non Pater est Deus, cum Filius sit Deus’, ergo etc.</p>
+
+						<p>Ad istum intellectum loquitur in ista materia distinctionis, capitulo 2, ubi querit
+							istam questionem et respondet dicens ad quod dicimus quod Pater, Filius et Spiritus
+							Sanctus dicitur et est unus Deus trinitas proprie dicitur solus Deus esse sicut solus
+							sapiens, solus potens. Et subdit statim quod videtur debere dici a nobis nostris
+							verbis utentibus nisi ubi sermo auctoritatis occurrit ‘solus Pater est Deus’ et ita
+							[130ra] de Filio et de Spiritu Sancto dicimus. Hec <name>Magister</name>.</p>
+
+						<p>Ad istum intellectum loquitur etiam <name>beatus Augustinus</name> IX <title>De
+								Trinitate</title>, capitulo penultimo, dicens quoniam ostendimus quomodo posset dici
+							solus Pater, quia non nisi ipse ibi Pater. Consideranda est illa sententia qua dicitur
+							verum Deum solum non esse solum Patrem, sed Patrem, Filium et Spiritum Sanctum. Si
+							quis non interroget Pater solus utrum sit Deus quomodo respondebitur non esse nisi
+							forte, ita dicamus esse quidem Patrem Deum, sed non eum solum esse solum, Deum autem
+							solum Deum Patrem, Filium et Spiritum Sanctum. Hec <name>Augustinus</name>. Ubi
+							evidenter apparet, sicut dicit <name>Magister</name> in littera, quod Pater non debet
+							dici solus Deus si ly ‘solus’ teneatur exclusive, sicut <name>beatus Augustinus</name>
+							et <name>Magister</name> loquuntur.</p>
+					</div>
+					<div>
+						<head><supplied>Conclusio quarta</supplied></head>
+
+						<p>Quarta conclusio est quod, licet ista propositio ‘solus Pater est Deus’ non sit
+							concedenda si ly ‘solus’ teneatur exclusive, verumtamen est concedenda si ly ‘solus’
+							teneatur precise. </p>
+
+						<p>Probatur primo sic: Pater per se et precise sumptus nullo alio sibi addito est vere
+							Deus, igitur hec est vera ‘solus Pater est Deus’ si ly ‘solus’ teneatur precise et
+							antecedens notum est. Consequentia patet, quia hic est sensus illius propositionis si
+							ly ‘solus’ teneatur precise, ut patet ex articulo precedenti, igitur etc. Et hoc de
+							secundo articulo.</p>
+					</div>
+				</div>
+				<div type="articulus">
+					<head>Articulus tertius et quartus</head>
+
+					<p>Quantum ad tertium et quartum articulos contra conclusiones istas movenda et
+						dissolvenda sunt dubia. Et primo contra primam est quedam opinio que ponit quod unum
+						relativum est de quiditativo intellectu alterius sive quod unum includit aliud in primo
+						intellecto suo, quod idem est. Potest probari primo sic: illud sine quo res non potest
+						intelligi et diffiniri est de primo et quiditativo intellectu ipsius, sed unum relativum
+						non potest intelligi et diffiniri sine altero, ut patet per <name>Philosophum</name> in
+							<title>Predicamentis</title>.</p>
+
+					<p>Preterea, illud de cuius ratione primaria est esse ad aliud in primo intellectu suo
+						includit aliud, sed de ratione primaria relativi est esse ad aliud, quia relativa sunt
+						quorum esse est ad aliud se habere, secundum <name>Philosophum</name> ubi supra, ergo
+						relativum in primo intellectu suo includit aliud. Illud autem est alterum
+						correlativum.</p>
+
+					<p>Confirmatur, quia vel primarius conceptus relativi est esse ad se, vel esse ad aliud
+						non potest dici quod sit esse ad se, quia tunc primarius conceptus relativi esset
+						absolutus, quod non est verum. Relinquitur ergo quod sit esse ad aliud, sed esse ad
+						aliud includit aliud, igitur primarius conceptus relativi includit aliud, istud autem
+						non est nisi alterum correlativum; ergo etc.</p>
+
+					<p>Preterea, conceptus primarius rei potest absolvi per intellectum a conceptu alterius
+						secundario, sed conceptus unius relativi non potest absolvi per intellectum a conceptu
+						alterius, quia qui diffinite novit unum, diffinite novit reliquum, igitur unum non est
+						de conceptu alterius, igitur est de conceptu primari.</p>
+
+					<p>Confirmatur, quia per divinam potentiam conceptus primarius rei potest absolvi a
+						conceptu secundario, sed per divinam potentiam conceptus unius relativi non potest
+						absolvi a conceptu alterius, quia Deus non potest facere quod cognito uno relativorum
+						non cognoscatur reliquum.</p>
+
+					<p>Preterea, unum relativum magis est de intellectu alterius quam rationale de intellectu
+						hominis unum includit reliquum in primo intellectu suo. Consequentia nota, quia constat
+						quod rationale est de intellectu primo hominis. Antecedens probatur, quia homo potest
+						concipi aliquo conceptu sine rationali, quia saltem, ut est animal, potest intelligi
+						sine ipso, unum autem relativum nullo conceptu potest concipi sine altero; ergo etc.</p>
+
+					<p><name>Responsio</name> ad rationes opinionum</p>
+
+					<p>Ad primam nego maiorem, quia materia non potest concipi sine forma, ut patet VII
+							<title>Metaphysice</title> et etiam per <name>Commentatorem</name> ibi de commento 35,
+						ubi expresse dicit quod materia non cognoscitur per se, sed per formam. Et, si non
+						potest intelligi sine forma nec diffiniri, et tamen forma non est de primo et
+						quiditativo intellectu materie, cum sint due res absolute essentialiter et quiditative
+						distincte, iterum, relatio non potest intelligi nec diffiniri sine fundamento, sicut nec
+						sine termino, cum non sit nisi habitudo termini ad fundamentum et tamen nullus ponit
+						quod fundamentum sit de primo [130rb] et quiditativo intellectu ipsius, quare etc. </p>
+
+					<p>Ad secundam etiam nego maiorem, quia illud de cuius ratione primaria est esse ad aliud
+						tanquam ad terminum extrinsecum, id est tanquam ad terminum essentialiter vel saltem
+						realiter distinctum in primo intellectu suo, non includit aliud. Ratio huius est, quia
+						quod distinguitur essentialiter vel realiter ab aliquo non est de primo et quiditativo
+						intellectu illius, et sic est in proposito, quia de ratione primaria unius relativi non
+						est esse ad aliud nisi tamquam ad terminum extrinsecum, id est essentialiter distinctum
+						in sicut creaturis vel realiter sicut in divinis, et per hoc patet quid dicendum ad
+						confirmationem, quia concedo quod primarius conceptus relativi non est ad se, sed ad
+						aliud modo iam dicto, quia non est ad aliud tanquam ad aliquid intrinsecum, sed
+						extrinsecum terminans tendentiam et lationem ipsius et cuius conceptus sic est ad
+						aliquid in primo intellectu suo non includit illud, ut patet ex dictis supra.</p>
+
+					<p>Ad tertium ne laboremus in equivoco distinguo de conceptu primario et secundario, cuius
+						gratia est advertendum quod conceptus accipit aliquotiens pro actu intelligendi sive
+						concipiendi aliquotiens pro re concepta et vocatur a doctore conceptus obiectivus.
+						Conceptus ergo primarius et secundarius possint distinguere actus intellectus, et sic
+						non est verum quod relativum habeat conceptum primarium et secundarium, quia eodem
+						simplici actu intellectus quo intelligit unum correlativorum intelligit reliquum, cum
+						sit simul naturali intelligentia, secundum <name>Philosophum</name> vel possunt
+						distinguere conceptum obiectivum, id est rem conceptam et secundum hoc relativum habet
+						duos conceptus: unum quidem primarium in recto, alterum quidem secundarium et in
+						obliquo, quia, licet eodem actu intellctus quo intelligitur unum relativum intelligatur
+						reliquum, unum tamen eorum intelligitur sive concipitur principaliter et in recto, et
+						sic primario alterum indirecte et in obliquo, et sic secundario. Verbi gratia: cum
+						concipio Patrem Pater concipitur principaliter et in recto, et per consequens est
+						primarium obiectum talis conceptus. Filius vero concipitur indirecte et in obliquo, quia
+						solum per modum extremi terminantis tendentiam et lationem ipsius, et per consequens
+						erit obiectum secundarium.</p>
+
+					<p>His premissis dico ad formam rationis quod conceptus primarius rei potest absolvi per
+						intellectum a secundario accipiendo conceptum primarium et secundarium pro actu
+						intelligendi. Sed propositio non est universaliter vera accipiendo intellectum primarium
+						et secundarium obiective, sicut est in proposito. Et per hoc patet quid dicendum ad
+						confirmationem.</p>
+
+					<p>Ad ultimum nego antecedens, quia rationale est differentia constitutiva homini, et per
+						consequens de intrinseca ratione ipsius et unum relativum non est intrinsecum alteri. Et
+						ad probationem dico quod homo, ut homo est, non potest concipi aliquo conceptu sine
+						rationali. Homo tamen, ut animal potest, concipi sine ipso, sed talis conceptus proprie
+						loquendo non est hominis, sed animalis et isto modo relativum potest etiam concipi sine
+						altero, quia potest concipi ut est ens, altero non concepto.</p>
+
+					<p>Opinio aliorum</p>
+
+					<p>Contra secundam conclusionem est etiam quedam opinio que ponit quod dictio exclusiva
+						addita uni correlativorum non excludit reliquum, quod probatur primo, quia per dictionem
+						exclusivam non excluditur illud quod est de intellectu termini cui additur. Non enim
+						sequitur solus homo est, ergo animal non est, quia animal est de intellectu hominis, sed
+						unum relativum est de intellectu alterius.</p>
+
+					<p>Preterea, dictio exclusiva non videtur excludere nisi ea que possunt mutuo separari,
+						sed unum relativum non potest ab alio separari, nec in essendo nec intelligendo; igitur
+						etc.</p>
+
+					<p>Et confirmatur, quia sequitur solus Pater est, ergo Pater est et sequitur Pater est,
+						ergo Filius est, et per consequens dicendo Pater est non ex-[130va]-cluditur Filius.</p>
+
+					<p>Preterea, maior est connexio unius relativi ad alterum quam totius ad suam partem
+						integralem. Hec patet, quia relativa posita se ponunt et perempta se perimunt, et tamen
+						posita parte integrali non necessario ponitur suum totum, sed dictione exclusiva addita
+						toti non excluditur pars, quia non sequitur sola domus est, ergo paries non est, aut
+						sola domus est alba, ergo paries non est alba, immo totum oppositum; igitur etc.</p>
+
+					<p>Responsio ad rationes contra secundam opinionem</p>
+
+					<p>Ad primum patet quod minor est falsa, etc.</p>
+
+					<p>Ad secundam nego maiorem, quia dictio exclusiva addita alicui subiecto excluditur omne
+						illud a quo subiectum illud vere negatur sive talia possunt se mutuo separari, sive non,
+						ut patet ex articulo precedenti. Et ad confirmationem patet ex eodem articulo quod non
+						probat quod dictio exclusiva addita uni correlativorum non excludit alterum, sed quia
+						omnes propositiones exclusive que sunt de predicatis que non possunt inesse uni
+						correlativorum sive altero sunt simpliciter impossibiles et implicative contradictionis,
+						quod utique verum est.</p>
+
+					<p>Ad ultimum potest responderi dupliciter. Primo quidem potest negari maior, quia pars
+						integralis realiter est aliquid totius, et per consequens aliquo modo sibi intrinseca.
+						Unum autem relativum non est realiter aliquid alterius, nec intrinsecum alteri, igitur
+						etc. Secundo potest dici quod de virtute sermonis dictione exclusiva addita toti
+						excluditur pars, unde non stant simul ‘sola domus est’ et ‘paries est’, vel ‘sola domus
+						est alba’ et ‘paries est alba’, quia ista non est vera ‘paries est domus’. Et dictione
+						exclusiva addita subiecto excluditur omne illud a quo subiectum illud vere negatur, ut
+						dictum est pluries. Ex communi tamen usu loquendi admittuntur tales propositiones
+						propter breviorem modum loquendi.</p>
+
+					<p>Opinio quorundam</p>
+
+					<p>Contra tertiam conclusionem sunt due opiniones quarum prima ponit absolute quod illa
+						propositio ‘solus Pater est Deus’, si ly ‘solus’ teneatur exclusive, de virtute sermonis
+						et natura dictionis exclusive est vera et simpliciter concedenda. Ratio fundamentalis
+						huius opinionis est, quia dictio exclusiva addita uni relativorum non excludit alterum,
+						sed persone divine sunt correlative, igitur dictio exclusiva addita uni persone non
+						excludit alteram, et per consequens hec est vera ex natura dictionis exclusive ‘solus
+						Pater est Deus’, quia cum hoc stat quod Filius et Spiritus Sanctus sint Deus.</p>
+
+					<p><name>Aureolus</name> in I, distinctione 21, questione 1, articulo 3</p>
+
+					<p>Alia vero ponit cum precedente quod ista propositio ‘solus Pater est Deus’ est vera et
+						concedenda, quia dictio exclusiva addita uni persone in ordine ad predicatum essentiale
+						alteram non excludit, sed hoc non provenit ex natura dictionis exclusive in generali,
+						nec ex natura relativorum, sicut precedens opinio ponebat, quoniam dictio exclusiva
+						addita uni potest excludere reliquum, sed hoc provenit ex dictione divinarum personarum
+						que omnino sunt unum in ordine ad predicatum essentiale unde, si conditio divinarum
+						personarum, ut isti dicunt, loyco non esset, eque daretur regula ab eodem quod dictio
+						exclusiva addita uni persone aliam non excluderet in ordine ad predicatum essentiale in
+						quo simpliciter sunt unum, sicut datur ab eo relativa de toto integrali et partibus vel
+						de superiori et inferiori. Ratio fundamentalis est, quia manente eadem ratione debet
+						idem manere. Nunc autem quod dictio exclusiva addita inferiori superius non excludit
+						respectu predicatorum in quibus sunt idem superius et inferius. Excludit autem respectu
+						eorum in quo non sunt idem verbi gratia dicendo tantum Socrates erit non excluditur
+						homo, quia incurrere non distinguitur homo et Socrates et tamen, si non esset aliud
+						individuum hominis nisi Socrates dicendo tantum Socrates est individuum, hominis
+						excluderetur animal et corpus animatum que non sunt individua hominis, quod utique sic
+						contingat. Hoc pervenit, ut isti dicunt, ex eo quod superius [130vb] et inferius sunt
+						unum respectu unius predicati et non sunt unum respectu alterius et simile, ut dicunt,
+						reperitur in toto integrali et eius partibus. Nam dicendo solus paries est albus non
+						excluditur lapis. Dicendo vero quod solus paries componitur ex lapidibus et cemento
+						excluderetur lapis. Totum enim integrale et partes sunt unum in esse album et non sunt
+						unum in esse compositum, ergo pari ratione persone divine cum sint unum in ordine ad
+						predicata essentialia, non unum in ordine ad notiobilia non videntur se mutuo excludere
+						ab illa quamvis in ordine ad ista.</p>
+
+					<p>Ista positio confirmatur auctoritate <name>beati Augustini</name>
+						<title>Contra Maximinum</title> libro III, capitulo 13 dicens quod, si de solo Patre
+						diceretur quod esset sapiens et Deus, non tamen excluderetur Filius et Spiritus Sanctus,
+						quia hii tres unum sunt et quia inseparabiles sunt.</p>
+
+					<p>Ad rationes opinionum</p>
+
+					<p>Istis opinionibus non obstantibus adhuc videtur esse dicendum, ut prius, propter
+						rationes et auctoritates superius adductas, nec motiva harum opinionum concludunt. Non
+						quidem prime, quia non est verum quod dictio exclusiva addita uni correlativorum non
+						excludat alterum, ut dictum est supra, nec secunde. Accipit enim non causam pro causa,
+						quia quod dictio exclusiva addita alicui subiecto excludat alterum vel non excludat. Non
+						provenit ex hoc quod illa subiecta sunt unum respectu unius predicati et non sunt unum
+						respectu alterius, sed ex hoc quod subiectum illud cui additur dictio exclusiva vere
+						negatur vel non negatur ab altero, ut patet ex dictis.</p>
+
+					<p>Ad auctoritatem vero <name>beati Augustini</name> patet per auctoritates ipsius
+						superius allegatas quod non est intentio sua quod ista propositio ‘solus Pater est Deus’
+						proprie et de virtute sermonis sit concedenda si ly ‘solus’ teneatur exclusive et idem
+						etiam patet III <title>Contra Maximinum</title>, ubi nunc allegatur, quia ante verba per
+						istum doctorem allegata in capitulo immediate precedenti loquens de adventu domini
+						nostri Ihesu Christi ostendet utique Deus qui non solus est Pater, quia secundum
+						veritatem non secundum vestrum errorem loquitur illis hereticis. Trinitas unus est Deus
+						et solus potens rex regum dominus dominantium. Ecce quod expresse dicit <name>beatus
+							Augustinus</name> quod non solus Pater est Deus, sed tota trinitas, et per consequens
+						non est intentio sua quod ista propositio sit sic concedenda sicut isti doctores
+						imaginari videntur. Sed intentio ipsius est quod quando tales auctoritates inveniuntur
+						in Scriptura, quia in pluribus locis occurrunt, ut patet per <name>Magistrum</name> in
+						littera non sunt sic intelligende quod, si dictio exclusiva additur uni persone,
+						Scriptura intendat ceteras excludere, quia tunc auctoritates ille essent false, quia
+						divine persone unum sunt et inseparabiles et hoc intendit probare <title>Contra
+							Maximinum</title> qui dicit Patrem esse sapientiorem Filio, quia Apostolus dicit soli
+						sapienti Deo dicens, etiam quod, si diceret Scriptura soli sapienti Patri, adhuc
+						intendit excludere Filium sicut non intendit excludere Patrem quando de Filio dicit in
+							<title>Apocalypsis</title> quod habet nomen scriptum, quod nemo scit nisi ipse. Et, si
+						dicitur cur Scriptura utitur talibus propositionibus, dico quod utitur eis propter
+						breviorem modum loquendi super ponens in talibus debere intelligi de omnibus personis
+						quod dicitur tantum de una propter unitatem et inseparabilitatem earum, utitur etiam eis
+						aliquotiens, prout ly ‘solus’ tenetur precisive, et sic sunt simpliciter concedende.</p>
+
+					<p>Contra quartam conclusionem posset argui. Verum, quia satis est nota transeo.</p>
+				</div>
+				<div>
+
+					<head>Ad argumenta principalia</head>
+
+					<p>Ad primam dico quod non sequitur solus Deus est Pater, ergo solus Pater est Deus. Et ad
+						probationem dico quod hec propositio ‘solus Deus est Pater’ non debet converti in
+						exclusivam, sed in universalem affirmativam de terminis transpositis. Non ergo debet
+						converti in istam ‘solus Pater est Deus’, sed in istam ‘omnis Pater vel omnis
+						per-[131ra]-sona Patris est Deus’, et hec est vera.</p>
+
+					<p>Secundam rationem concedo, quia sufficienter probat quod hec propositio non est
+						concedenda ‘solus Pater est Deus’ si ly ‘solus’ teneatur exclusive, etc.</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,1074 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Liber I, Distinctio 17, Quaestio 2</title>
+				<author>Alphonsus Toletanus Vargas</author>
+				<editor>Luciana Cioca</editor>
+				<respStmt>
+					<name>Jeffrey C. Witt</name>
+					<resp>TEI Encoder</resp>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="0.0.0-dev">
+					<date when="2016-09-14">September 14, 2016</date>
+				</edition>
+			</editionStmt>
+			<publicationStmt>
+				<authority>THESIS project</authority>
+				<availability status="free">
+					<p>Public Domain</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="P" n="Paris1490">Paris1490</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+			<schemaRef n="lbp-critical-1.0.0"
+				target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/1.0/critical.rng"> </schemaRef>
+			<editorialDecl>
+				<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+					guidelines for a critical edition</p>
+			</editorialDecl>
+		</encodingDesc>
+		<revisionDesc status="draft">
+			<listChange>
+				<change when="2016-09-02" who="#JW" status="draft" n="0.0.0">
+					<p>Created file for the first time.</p>
+				</change>
+			</listChange>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:lang="la">
+		<front>
+			<div xml:id="includeList">
+				<xi:include
+					href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+					xpointer="worksCited"/>
+				<xi:include
+					href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+					xpointer="prosopography"/>
+			</div>
+			<div xml:id="starts-on">
+				<pb ed="#P" n=""/>
+				<cb ed="#P" n=""/>
+			</div>
+		</front>
+		<body>
+			<div xml:id="atv-l1d17q2">
+				<head>Liber I, Distinctio 17, Quaestio 2</head>
+
+
+				<p>Secundo quero: utrum caritas augeatur per depurationem a contrario. </p>
+				<div type="rationes-principales">
+					<head>Rationes principales</head>
+					<p>Et videtur primo quod sic, quia forma intensibilis augetur per depurationem a contrario
+						et caritas est huiusmodi; ergo etc. Consequentia est nota et antecedens probatur sic:
+						nulla forma remittitur nisi per admixtione contrarii, igitur nulla augetur nisi per
+						depurationem a contrario. Consequentia nota est. Antecedens est
+							<name>Commentatoris</name> V <title>Physicorum</title>, commento 50, dicens quod
+						diminutum in omni genere est diminutum per admixtionem contrarii; ergo.</p>
+
+					<p>Contra: caritas infusa de qua est questio non habet contrarium admixtum, igitur non
+						augetur per depurationem a contrario. Consequentia est nota et antecedens videtur
+						clarum, quia caritati infuse opponitur cupiditas mortalis. Cupiditas autem [109vb]
+						mortalis et caritas infusa in eodem simul esse non possunt. </p>
+
+				</div>
+				<div>
+					<head>Divisio quaestionis</head>
+					<p>In ista questione primo pono unam distinctionem, secundo quattuor conclusiones. Tertio
+						movebo dubia. Quarto respondebo.</p>
+				</div>
+				<div type="articulus">
+					<head>Primus articulus</head>
+
+					<p>Quantum ad primum quadrupliciter potest intelligi caritatem vel aliam formam
+						intensibilem a suo contrario depurari. </p>
+
+					<p>Primo: si dicatur a contrario depurari, quia minus permiscetur et intimatur forme
+						contrarie, utraque tamen earum remanente secundum se uniformiter sicut prius. Et, si
+						dicatur quod caliditas in aqua depuratur a frigiditate, quia minus permiscetur et
+						intimatur sibi quam prius quamvis in ipsa nulla sit facta variatio gradualis. </p>
+
+					<p>Secundo: si dicatur depurari a contrario, quia forma contraria gradualiter minuitur,
+						ipsa tamen secundum se gradualiter non mutata. Verbi gratia, si dicatur quod caliditas
+						depuratur a frigiditate, quia frigiditas minuitur in aliquo gradu, licet caliditas
+						secundum se non sit gradualiter aucta nec diminuta. </p>
+
+					<p>Tertio: si dicatur a contrario depurari, quia ipsa secundum se gradualiter augetur
+						forma contraria gradualiter non mutata, ut, si dicamus caliditatem depurari a
+						frigiditate, quia ipsa secundum se augetur in aliquo gradu, frigiditate non aucta, nec
+						diminuta.</p>
+
+					<p>Quarto: si dicatur depurari a contrario utroque istorum duorum modorum, videlicet quod
+						ipsa secundum se gradualiter augetur et eius contrarium minuitur. Verbi gratia, si
+						dicatur quod caliditas depuratur a frigiditate, quia caliditas augetur in aliquo gradu
+						et frigiditas minuitur.</p>
+
+					<p>Ista distinctione premissa patet quod questio potest habere quadruplicem sensum.
+						Quadrupliciter enim potest intelligi caritatem vel aliam formam augeri per depurationem
+						a contrario, sicut et ipsas a contrario depurari quadrupliciter potest intelligi iuxta
+						membra distinctionis predicta. Et hoc de primo articulo. </p>
+				</div>
+				<div type="articulus">
+					<head>Secundus articulus</head>
+
+					<p>Quantum ad secundum. </p>
+
+					<div>
+						<head><supplied>Conclusio prima</supplied></head>
+
+						<p>Prima conclusio est quod impossibile est per naturam duo contraria simul esse in
+							eadem parte subiecti et quia secundum aliquos omnes forme contrarie sunt secundum
+							aliquos divisibiles et secundum aliquos indivisibiles gradualiter. Ad maiorem
+							declarationem conclusionis ostendam primo quod impossibile est per naturam esse duo
+							contraria simul in eadem parte subiecti supposito quod forme contrarie sint secundum
+							se divisibiles gradualiter.</p>
+
+						<p>Secundo: hoc idem ostendam si ponantur gradualiter indivisibiles. Primum istorum
+							deduco primo sic: impossibile per naturam duo contraria in suis excellentiis sive in
+							summo simul esse in eadem parte subiecti. Hec est ab omnibus communiter concessa. Sed
+							supposito quod omnes forme contrarie sint secundum se indivisibiles gradualiter,
+							impossibile est ipsas esse in eadem parte subiecti nisi in summo. Patet hoc, quia, si
+							detur oppositum, sequitur quod sint divisibiles secundum se, quod est contra positum,
+							igitur hoc supposito impossibile est per naturam suam duas formas contrarias simul
+							esse in eadem parte subiecti. Secundo sic: illud est impossibile ad cuius positionem
+							inesse; sequitur impossibile, sed, si duo contraria sint simul in eadem parte subiecti
+							supposito quod omnes forme contrarie sint secundum se indivisibiles gradualiter,
+							sequitur impossibile secundum naturam, igitur hoc fieri est impossibile per naturam.
+							Maior est nota et minor videtur clara, quia, si stante supposito quod omnes forme
+							contrarie sint simul in eadem parte subiecti, sequeretur quod subiectum erit simul
+							album et nigrum vel quod non erit album neque nigrum, quorum quodlibet est impossibile
+							per naturam. Ista consequentia patet, quia, sicut se habet summa albedo ad dare esse
+							album, sic summa nigredo ad dare esse nigrum, sed stante supposito in eadem parte
+							subiecti erit summa albedo et summa nigredo, igitur, si albedo illa daret esse album
+							subiecto et nigredo daret esse nigrum, sic subiectum simul esset album et nigrum vel,
+							si albedo [110ra] non daret esse album nec nigredo nigrum, sic subiectum non esset
+							album nec nigrum.</p>
+
+						<p>Huic rationi forte diceretur supposito quod omnis forma intensibilis sit secundum
+							essentiam indivisibilis gradualiter quod, si albedo et nigredo sint simul in eodem
+							subiecto primo quod subiectum illud nec erit album, nec nigrum. Sed ad veritatem ista
+							solutio est impossibilis. Primo, quia, si ita esset, sequeretur quod subiectum illud
+							non esset aliquo colore coloratum, quod est falsum et naturaliter impossibile. Ista
+							consequentia patet, quia pono quod subiectum illud non sit coloratum aliquo colore qui
+							non sit albedo nec nigredo.</p>
+
+						<p>Et confirmatur, quia ex albedine et nigredine illa resultat aliquis color qui non est
+							albedo nec nigredo, vel non. Si non, patet quod, si subiectum istud non sit album nec
+							nigrum, non esset aliquo colore coloratum, quod est propositum. Si sic, vel una cum
+							hoc albedo manet albedo et nigredo manet nigredo, vel non. Primum est simpliciter
+							impossibile non est dubium, etiam si esset possibile, adhuc maneret eadem difficultas,
+							quia pari ratione qua albedo et nigredo non denominat subiectum illud nec color ille
+							tertius ipsum denominabit. Relinquitur ergo secundum et habetur principale intentum,
+							quia sic casu posito albedo non manet albedo, nec nigredo manet nigredo. Habetur ergo
+							quod due forme contrarie non sunt in eodem subiecti primo.</p>
+
+						<p>Preterea, impossibile est per naturam quod albedo saltem in summo sit in subiecto
+							sine effectu formali ipsius. Sed effectus formalis illius est esse album, igitur
+							impossibile per naturam quod albedo saltem in summo sit in aliquo subiecto primo nisi
+							illud sit album, et per eandem rationem patet quod impossibile est quod nigredo in
+							summo sit in aliquo subiecto quin illud subiectum sit nigrum, sed, si albedo et
+							nigredo sint forme indivisibiles gradualiter, non possunt esse in aliquo nisi in
+							summo, ut patet ex dictis; ergo etc. Sic igitur patet primum, scilicet quod
+							impossibile est per naturam duo contraria esse simul in eodem subiecto primo supposito
+							quod omnes forme sint indivisibiles secundum se gradualiter.</p>
+
+						<p>Secundo, hoc idem ostendo si ponantur gradualiter divisibiles et arguo primo sic: si
+							forme contrarie stante supposito possunt simul esse in eadem parte subiecti vel essent
+							simul in gradibus equalibus, vel in gradibus inequalibus. Non primo, quia, si albedo
+							10 graduum et nigredo 10 gradum simul essent in eodem subiecto primo, adhuc sequeretur
+							quod illud subiectum non erit album nec nigrum, quorum quodlibet est naturaliter
+							impossibile, vel quod simul esset album et nigrum, ut patet ex dictis. Ista
+							consequentia patet, quia, sicut se habet albedo 10 graduum ad dare esse album, ita
+							nigredo ad dare esse nigrum. Nec secundo, quia, si albedo 10 graduum excludit a
+							subiecto in quo est nigredinem 10 graduum, multo magis albedo intensior, utputa 15
+							graduum excludit albedinem ut 10, tum quia non minus, immo magis repugnat cuique
+							nigredini albedo intensa quam remissa. Et confirmatur, quia, si albedo ut 5 compatitur
+							secum in eodem nigredinem ut 10 pono quod albedo illa remittatur naturaliter in 5; et
+							quero an illa corrumpatur vel remittatur saltem in aliquo gradu, vel non. Si non,
+							sequitur quod albedo et nigredo in gradibus equalibus simul erunt in eodem subiecto,
+							quod patet esse falsum ex dictis. Si sic, sequitur quod remittens albedinem necessario
+							corrumperet vel remitteret nigredinem, quod est falsum, quia, sicut remittens
+							caliditatem non necessario corrumpit vel remittit frigiditatem, ita nec remittens
+							albedinem necessario corrumperet vel remitteret nigredinem,</p>
+
+						<p>Secundo autem principaliter arguitur primo sic: si stante supposito due forme
+							contrarie possent esse in eadem parte subiecti vel essent simul in gradibus intensis
+							vel remissis, vel una earum essent intensa, altera remissa. Sed nec sic, nec sic,
+							igitur nullo modo. Minor quantum ad primam partem communiter est concessa. Quantum ad
+							secundam partem probatur, quia, sicut se habet intensum ad intensum, ita remissum ad
+							remissum, igitur, si due forme contrarie non possunt simul esse in gradibus
+							inten-[110rb]-sis, sequitur quod nec in gradibus remissis. Et confirmatur, quia omnes
+							gradus forme sunt eiusdem rationis si forme contrarie non possunt simul esse in
+							gradibus intensis nec remissis. Et confirmatur ulterius per rationem prius factam,
+							quia, sicut se habet caliditas remissa ad dare esse calidum, ita frigiditas remissa ad
+							dare esse frigidum, et per consequens, si caliditas remissa et frigiditas remissa
+							simul essent in eodem subiecto primo vel subiectum illud non esset calidum nec
+							frigidum, vel simul esset calidum et frigidum quamvis remisse, quarum quodlibet est
+							naturaliter impossibile. Et ex hoc statim apparet quantum ad tertium, quia non minus
+							repugnat caliditas intensa et frigiditas remissa quam caliditas remissa et frigiditas
+							remissa, cum caliditas intensa includat caliditatem remissam et aliquid plus, sed
+							caliditas et frigiditas remissa non possunt simul esse in eadem parte subiecti; ergo
+							nec caliditas intensa et frigiditas remissa. Et confirmatur, quia caliditas intensa
+							potest expellere omnem frigiditatem quam potest expellere caliditas remissa. Hoc
+							patet, quia quod agens minoris virtutis potest facere, hoc agens maioris virtutis si
+							sit eiusdem rationis, sed caliditas remissa potest expellere a subiecto in quo est
+							frigiditatem et expellit de facto, ut patet ex dictis; ergo et caliditas intensa. Sed
+							que se mutuo expellunt non se compatiuntur in eodem subiecto primo; ergo etc.</p>
+
+						<p>Tertio ad idem arguo sic: impossibile est duo contraria simul in suis excelentiis
+							sive in summo simul esse in eadem parte subiecti, ergo naturaliter est impossibile
+							quod simul sint in quibuscumque gradibus. Antecedens est concessum ab omnibus etiam a
+							tenentibus conclusionem oppositam. Consequentia probatur, quia duabus formis
+							contrariis, ut caliditati et frigiditati vel albedini et nigredini non repugnat in
+							suis excelentiis simul esse in eadem parte subiecti nisi quia sunt contrarie. Patet,
+							quia, si non essent contrarie non magis repugnaret eis quam albedini et dulcedini,
+							unde, si queratur cur repugnat eis et non albedini et dulcedini, non potest assignari
+							alia causa nisi quia sunt contrarie, sed caliditas et frigiditas albedo et nigredo et
+							universaliter omnes forme contrarie in quibuscumque gradibus sunt vere contrarie non
+							solum in suis excelentiis; igitur, si repugnat eis esse in eodem subiecto primo in
+							suis excelentiis, repugnabit etiam in quibuscumque gradibus. </p>
+
+						<p>Forte dicetur ad istam rationem quod albedo, nigredo, caliditas et frigiditas non
+							sunt contrarie sub quibuscumque gradibus, sed solum sub gradibus intensis, et per
+							consequens minor sicut assumitur non est vera.</p>
+
+						<p>Ista tamen evasio, si daretur, esset nulla, quia contrarietas, secundum
+								<name>Aristotelem</name> X <title>Metaphysice</title>, est oppositio secundum
+							formam. Albedo igitur nigredo, caliditas et frigiditas contrariantur secundum suas
+							formas, et per consequens ubicumque inveniuntur forme albedinis et nigredinis
+							caliditatis et frigiditatis, ibi est contrarietas. Sed constat quod in qualibet
+							albedine quantumcumque remissa invenitur forma albedinis et in qualibet nigredine
+							quantumcumque remissa invenitur forma nigredinis, et similiter de caliditate et
+							frigiditate, igitur albedo, nigredo, caliditas et frigiditas sub quibuscumque gradibus
+							quantumcumque remissis sunt vere contrarie, et per consequens incompossibiles in
+							eodem.</p>
+
+						<p>Preterea, species albedinis et species nigredinis sunt primo contrarie, igitur
+							quelibet albedo contrariatur cuicumque nigredini, igitur albedo et nigredo sub
+							quibuscumque gradibus sunt vere contrarie. Secunda consequentia patet et prima videtur
+							satis clara, quia cum in qualibet albedine vere salvetur species albedinis et in
+							qualibet nigredine species nigredinis, si species albedinis et nigredinis sunt primo
+							contrarie, necessario quelibet albedo contrariatur cuicumque [110va] nigredini.
+							Antecedens probatur, quia, si detur oppositum, albedo et nigredo non essent species
+							contrarie, quod nullus ponit. </p>
+
+						<p>Preterea, sic dicendo conceditur principaliter conclusio, quia, si albedo et nigredo
+							non sunt contraria sub quibuscumque gradibus, sed sub intensis precise cum sub
+							gradibus intensis, non sint compossibiles in eodem secundum omnes, quia albedo et
+							nigredo non sunt compossibiles in eodem, quod est propositum. Et confirmatur, quia, si
+							albedo et nigredo non sunt compossibiles in eodem nisi sub gradibus remissis et sub
+							talibus non sunt contrarie, non sequitur ex hoc duo contraria simul esse.</p>
+
+						<p>Quarto ad principale sic: viriditas et rubedo in suis excelentiis cum in summo non
+							possunt simul esse in eadem parte subiecti, igitur nec albedo et nigredo sub
+							quibuscumque gradibus. Antecedens videtur notum, quia, si detur oppositum, idem corpus
+							secundum eadem partem simul esset viride et rubeum, quod naturaliter est impossibile.
+							Contra probatur, quia ubi est maior repugnantia, ibi maior incompossibilitas, sed
+							albedo et nigredo sub quibuscumque gradibus magis repugnant quam viriditas et rubedo
+							in summo; igitur, si viriditas et rubedo in summo non possit simul esse in eadem parte
+							subiecti, multo minus albedo et nigredo sub quibuscumque gradibus. Maior est de se
+							nota. Minor autem probatur, quia extrema contraria magis opponuntur, et per consequens
+							magis repugnant quam quecumque media, sed albedo et nigredo sub quibuscumque gradibus
+							sunt extrema contraria, ut patet ex dictis. Viriditas autem et rubedo etiam in suis
+							excellentiis sunt tantum media; igitur etc. Et confirmatur, quia extrema plus distant
+							distantia formali quam medium et extremum vel medium et medium, ergo magis repugnant.
+							Patet igitur secundum, scilicet quod impossibile est per naturam duo contraria esse in
+							eadem parte subiecti supposito quod forme contrarie secundum se sint gradualiter
+							divisibiles. Ex his sequitur absolute quod impossibile est per naturam duo contraria
+							esse in eadem parte subiecti. Hec est determinatio <name>beati Augustini</name>
+							<title>Enchiridion</title>, capitulo 16, ubi ab ista regula excludit subiectum bonum
+							et malum quam proprie non opponuntur contrarie, sed privative secundum eum unde
+							postquam ostendit malum non esse nisi privatione boni et in bono concludit quapropter
+							in his contrariis que bona et mala vocantur illa dialeticorum regula deficit qua
+							dicunt nulli rei duo simul in esse contraria. Nullus enim aer simul est tenebrosus et
+							lucidus, nullus cibus aut potus simul dulcis et amarus, nullum simul ibi difforme ubi
+							formosum. Et subdit: et hoc in multis aut pene in omnibus contrariis reperitur, ut in
+							una re simul esse non possint. Hec <name>Augustinus</name>. Hec est etiam expressa
+							sententia <name>Philosophi</name> in capitulo de quantitate: nihil est quod videatur
+							contraria simul sustinere, ut substantia quidem susceptibilis contrariorum esse
+							videtur, sed non suscipit in uno eodemque tempore. Nam nullus simul sanus et eger,
+							albus et niger. Et infert nihilque aliud contraria simul sustinet, et per hoc tanquam
+							per medium notissimum probat parvum et magnum, quia idem simul esse potest magnum et
+							parvum respectu diversorum.</p>
+
+						<p>Item per hoc probat IV <title>Metaphysice</title> quod impossibile est aliquem
+							opinari duo contradictoria simul esse vera, quia opiniones contradictariorum sunt
+							contrarie et impossibile est eundem simul habere contraria, et idem etiam dicit
+							ubicumque loquitur de materia ista, nec illud potest esse dubium videntibus dicta sua.
+						</p>
+					</div>
+
+					<div>
+						<head><supplied>Conclusio secunda</supplied></head>
+
+						<p>Secunda conclusio est quod nulla forma intensibilis augetur per depurationem a
+							contrario qualitercumque intelligatur opposita. Conclusio probatur primo sic:
+							impossibile est per naturam duo contraria simul esse in eadem parte subiecti, igitur
+							impossibile est per naturam aliquam formam intendi per depurationem a contrario,
+							igitur nulla sic intenditur de facto. Antecedens patet ex precedenti questione et
+							consequentie sunt evidentes etiam per adversarios; igitur etc.</p>
+
+						<p>Secundo sic: non omnis forma intensibilis augetur per depurationem a contrario,
+							igitur nec aliqua. Consequentia patet per tenentes conclusionem oppositam, quia
+							[110vb] conformiter per eos est dicendum de omni forma, et ideo universaliter dicunt
+							omnem formam intensibilem augeri per depurationem a contrario. </p>
+
+						<p>Et confirmatur, quia, si aliqua forma potest augeri et non per depurationem a
+							contrario, pari ratione re alia quecumque et sit omnes. Antecedens vero probatur
+							multipliciter. </p>
+
+						<p>Primo sic: aliqua forma, immo multe forme non habentes contrarium, augentur de facto,
+							igitur non omnis forma intensibilis augetur per depurationem a contrario. Consequentia
+							est nota et antecedens patet. Primo, quia luci nihil est contrarium. Lux enim et
+							tenebre non opponuntur contrarie, sed privative et tamen ad sensum videmus quod lux
+							intenditur in aere. Secundo, quia, secundum <name>Aristotelem</name> III
+								<title>Topicorum</title>, delectationi que est in sciendo nihil est contrarium, et
+							tamen experientia docet quod unus plus delectatur in sciendo quam alius. Tertio, quia
+							actus videndi et audiendi intenduntur, et tamen constat eos non habere contrarium, et
+							tamen in multis aliis potest idem ostendi.</p>
+
+						<p>Secundo probatur antecedens primum sic: habitus scientiarum et virtutum augmentantur
+							et non per depurationem a contrario, igitur non omnis forma intensibilis augetur per
+							depurationem a contrario. Consequentia est nota et antecedens quantum ad primam
+							partem. Quantum ad secundam probatur, quia in habitu scientifico cum generetur et
+							augmentatur ex actu sciendi nihil est forme contrarie, quia, si esset, quero a quo
+							causaretur. Non ab actu sciendi certum est, nec ab actu errorum, quia pono quod nullus
+							actus erroris precesserit actum sciendi, nec fuerit simul cum eo. Similiter potest
+							argui de habitu virtuoso, quia, cum talis generetur et augmentetur ex actu virtutis,
+							non habet aliquid forme contrarie, quia, si haberet, vel illa forma contraria causatur
+							ex actu virtuoso, quod nullus diceret, vel ab actu vitioso, quod non est verum, quia
+							pono quod nullus talis precesserit nec fuerit simul cum actu virtuoso. Nec potest dici
+							quod non possunt simul esse in aliquo actu sciendi et virtutis sine actibus erroris et
+							vitii, quia tunc nullus posset esse virtuosus sive bonus moraliter nisi prius, vel
+							saltem simul erraverit circa illam, nec posset aliquis acquirere habitum scientie seu
+							virtutis nisi prius seu simul cum ipsis acquireret habitum erroris et vitii, quod
+							nullus sane mentis diceret; ergo etc.</p>
+
+						<p>Tertio sic: calor intensus est sine omni frigiditate et frigus remissum sine omni
+							calore, igitur nullum eorum augetur per depurationem a contrario. Consequentia est
+							nota et antecedens est <name>beati Anselmi</name>
+							<title>De concordia</title>, capitulo ultimo, ubi dicit expresse quod calor est sine
+							omni frigore, et tamen potest aliquis maior esse calor et frigus sine omni calore,
+							tamen maius valeat esse frigus. Ex quibus verbis apparet evidenter quod caliditas et
+							frigiditas non sunt in eodem simul, sicut dicebatur in precedenti questione. Apparet
+							etiam quod calor remissior non est, quia habet contrarium admixtum, nec per consequens
+							augetur per depurationem a contrario secundum <name>Anselmum</name>.</p>
+
+						<p>Ex ista conclusione sequitur quod caritas non augetur per depurationem a contrario.
+						</p>
+					</div>
+					<div>
+						<head><supplied>Conclusio tertia</supplied></head>
+
+						<p>Tertia conclusio est quod impossibile est formam augeri per depurationem a contrario
+							in primo sensu superius posito, supposito etiam quod duo contraria simul essent in
+							eadem parte subiecti.</p>
+
+						<p>Hanc conclusionem probo dupliciter. </p>
+
+						<p>Primo sic: impossibile est duo contraria esse in eodem subiecto adequato et nullo
+							eorum gradualiter variato unum alteri minus permisceri prius tempore quam alio, igitur
+							impossibile est aliquem formam augeri per depurationem a contrario in illo sensu,
+							etiam supposito quod duo contraria sint simul in eodem subiecto adequato. Consequentia
+							est nota, quia formam augeri per depurationem a contrario in illo sensu est ipsam
+							minus permisceri forme contrarie nulla earum gradualiter variata, ut patet ex articulo
+							precedenti. Et antecedens declarabitur, quia, si due forme contrarie sint simul in
+							eodem subiecto adequato, quelibet earum informat totum illud subiectum immediate, et
+							per consequens non possunt uno [111ra] tempore magis intimari, nec minus permisceri
+							quam alio saltem una earum gradualiter variata. </p>
+
+						<p>Secundo sic: si intensio formarum fieret per depurationem a contrario in illo sensu
+							etiam in eorum contrariorum simultate, sequeretur quod nulla forma posset augeri nisi
+							cum simul augeretur forma contraria. Consequens est falsum secundum omnes et contra
+							experientias, igitur et antecedens. Consequentia probatur, quia, si una forma minus
+							permiscetur alteri in illo sensu, necesse est quod altera minus permisceatur illi, et
+							per consequens non est possibile formam aliquam augeri, quia minus permiscetur forme
+							contrarie nisi simul cum ea augeatur forma contraria.</p>
+					</div>
+					<div>
+						<head><supplied>Conclusio quarta</supplied></head>
+
+						<p>Quarta conclusio est quod implicatio contradictionis est formam aliquam augeri per
+							depurationem a contrario penes in secundo, vel tertio, vel quarto sensu superius
+							positis et ipsas non posse gradualiter augeri per additionem partis ad partem. </p>
+
+						<p>Ista conclusio est de se nota quoad tertium et quartum sensum, quia formam augeri per
+							depurationem a contrario in tertio sensu est ipsam secundum se gradualiter augeri
+							forma contraria gradualiter non mutata et in quarto est ipsam gradualiter augeri
+							secundum se forma contraria gradualiter diminuta, et per consequens quocumque istorum
+							modorum augeatur forma sequitur quod augeatur gradualiter secundum se per additionem
+							alterius partis. Dicere ergo quod forma non augetur gradualiter secundum se per
+							additionem alicuius partis est dicere cum hoc quod augetur per depurationem a
+							contrario aliquo predictorum modorum est implicatio contradictionis.</p>
+
+						<p>Sed quoad sensum secundum probatur satis faciliter et clare, quia formam augeri per
+							depurationem in illo sensu est formam contrariam gradualiter minui ipsa secundum se
+							gradualiter non mutata, sed qua ratione una forma contraria potest augeri in illo
+							sensu et altera. Verbi gratia: qua ratione caliditas potest augeri, quia frigiditas
+							gradualiter secundum se minuitur, pari ratione frigiditas potest augeri, quia
+							caliditas secundum se gradualiter minuitur, et per consequens quecumque forma augetur
+							per depurationem a contrario in illo sensu, potest secundum se minui gradualiter per
+							abstractionem partis, sed quecumque forma potest secundum se minui gradualiter per
+							abstractionem partis a parte, etiam secundum se potest gradualiter augeri per
+							additionem partis ad partem; igitur quecumque forma augetur per depurationem a
+							contrario in illo sensu potest secundum se gradualiter augeri per additionem partis ad
+							partem. Dicere ergo formam aliquam augeri per depurationem a contrario in illo sensu
+							et ipsa non posse gradualiter augeri secundum se per additionem partis ad partem est
+							implicare contradictoria sicut prius.</p>
+
+						<p>Ex istis conclusionibus patet impossibilitas illius opinionis que ponit formam
+							intensiorem fieri per depurationem a contrario et non per additionem partis ad partem,
+							quia ex primis duobus apparet eius impossibilitas propter repugnantiam contrariorum in
+							eodem ex aliis duobus etiam supposita simultate contrariorum. Formam enim augeri per
+							depurationem a contrario, etiam supposita contrariorum simultate non potest intelligi
+							nisi altero istorum quattuor modorum et in quolibet eorum opinio est impossibilis, ut
+							ex conclusionibus ultimo deductis patere potest intuenti. Et hec de secundo.</p>
+					</div>
+				</div>
+				<div type="articulus">
+					<head>Tertius et quartus articulus</head>
+
+					<p>Quantum ad tertium et quartum articulos simul contra conclusiones istas movenda et
+						dissolvenda sunt dubia. Et primo contra primam est quedam opinio que ponit quod quamvis
+						duo contraria non possit naturaliter simul esse in gradibus intensis, possunt tamen
+						simul esse et sunt de facto in gradibus remissis.</p>
+
+					<p><name>Michael de Massa</name> I, distinctione 7, questione 5, articulo 1</p>
+
+					<p>Pro qua quidem doctor arguit multipliciter. </p>
+
+					<p>Primo sic: secundum <name>Philosophum</name> V <title>Physicorum</title> et
+							<name>Commentatorem</name> ibidem, 6 commento, omnes motus qui sunt ad contraria sunt
+						ex contrariis et econverso, sed certum est quod convenit moveri ex eadem forma
+						me-[111rb]-dia ad formas contrarias, sicut ex rubedine vel fuscedine contingit moveri ad
+						albedinem vel nigredinem; igitur in rubedine vel fuscedine sunt forme contrarie et non
+						sub esse intenso, igitur non sub esse remisso. Quo posito sequentur duo contradictoria
+						simul in eodem subiecto adequato sub gradibus remissis.</p>
+
+					<p>Ista ratio confirmatur multis auctoritatibus et rationibus. </p>
+
+					<p>Primo, auctoritate <name>Commentatoris</name> ubi supra, dicens quod, si aliquid mobile
+						moveatur a fusco in nigrum, illud movetur ab albedine que est in fusco, unde fuscendo
+						non est primus terminus a quo, sed albedo et nigredo que est incolore fusco. </p>
+
+					<p>Secundo, auctoritate <name>Philosophi</name> X <title>Metaphysice</title> dicens
+						expresse quod media componuntur extremis, super quo verbo dicit
+						<name>Commentator</name>, commento 23, quod color medius componitur ex coloribus
+						extremis non compositione quantitativa, sed qualitativa. </p>
+
+					<p>Tertio, auctoritate eiusdem <name>Commentatoris</name> I <title>Physicorum</title>,
+						commento 58, ubi dicit quod colores extremi sunt in colore medio non in actu puro, nec
+						potentia pura, sed medio modo inter potentiam et actum, et hoc est esse formaliter, non
+						tamen sub esse intenso et perfecto. Si enim sic fieret mixtio colorum extremorum in
+						colore medio non in actu puro, nec in potentia pura, quod sic resultaret tertia essentia
+						quod tamen essentia colorum extremorum non maneret formaliter absque totali
+						deperditione, tunc colores extremi non remarerent in colore medio nisi tantum in
+						potentia, quod <name>Commentator</name> negat. Item, si colores extremi manerent sub
+						esse intenso et perfecto, sequitur quod manerent in actu puro sicut sunt antequam
+						misceantur in medio colore, quod etiam negat <name>Commentator</name>. Oportet igitur
+						quod maneant formaliter sub esse tamen diminuto et remisso. </p>
+
+					<p>Quarto, etiam auctoritate <name>Commentatoris</name> V <title>Physicorum</title>,
+						commento 52, dicens quod quando sit transmutatio ex viridi in album non sit transmutatio
+						in viridi nisi ex parte nigra que est viridi. Sed certum est quod
+							<name>Commentator</name> non accipit ibi partem nigram nisi eo modo quo pars nigra que
+						est in viridi colore est terminus a quo transmutationis in albedinem et, quia talis
+						transmutatio est de termino formali in terminum formalem, sicut patet V
+							<title>Physicorum</title>, sequitur quod nigredo in viridi colore habet rationem
+						partis formalis et pars formalis distinguitur contra partem virtualem, licet possit non
+						habere rationem partis formalis, ut distinguitur contra partem materialem, sed non
+						haberet nigredo rationem partis formalis in colore viridi prout pars vel esse formale
+						distinguitur contra esse virtuale nisi essentia nigredinis maneret in colore viridi
+						formaliter, igitur esse nigredinis maneret formaliter in colore viridi et pari ratione
+						essentia albedinis, ut patet per <name>Commentatorem</name> ibidem. Multas alias
+						auctoritates adducit quas dimitto, quia solvuntur istis solutis.</p>
+
+					<p>Sed confirmatur ulterius ista prefata ratio rationibus. </p>
+
+					<p>Primo sic: si in forma media composita ex extremis contrariis nihil esset formaliter de
+						quolibet contrario extremo, sequeretur ex forma media fieret transitus ad contrarium
+						extremum in instanti, sicut verbi gratia: si in tepido non erit aliquid formaliter de
+						essentia frigiditatis, ita quod per formam tepidam vel minus calidam importaretur
+						precise sola privatio summe caliditatis absque inclusione frigiditatis, sequitur quod ex
+						tepido vel minus calido fieret transitus ad summum calidum in instanti. Consequens est
+						impossibile et contra illud quod experimur sensu, igitur et antecedens. Consequentia
+						probatur, quia certum est quod successio in motu alterationis non causatur nisi ex
+						resistentia mobilis ad motorem, sed privatio in minus calido sive in tepido non potest
+						resistere motori cum non sit positivum et resistere sit vere positivum; ergo oportet
+						quod in tepido sive in minus calido sit aliquid preter privationem caloris intensissimi
+						ratione cuius resistit motori calefacienti ne subito et in instanti ex tepido fiat
+						calidum sub esse intensissimo, et hoc non est nisi natura et essentia formalis ipsiusmet
+						frigiditatis. [111va] </p>
+
+					<p>Secundo sic: medium comparatum uni extremo habet rationem alterius extremi et
+						econverso, ut patet V <title>Physicorum</title>, sicut tepiditas comparata calori in
+						summo habet rationem caloris. Tunc arguitur sic: impossibile est quod tepiditas habeat
+						per illud rationem caloris per quod contrariatur calori, quia impossibile est quod per
+						idem conveniat aliquid cum aliquo realiter et opponatur illi saltem in istis rebus
+						limitatis, sed tepiditas convenit cum calore et opponitur calori; ergo in tepiditate
+						sunt due nature: una per quam habet rationem caloris secundum quam contrariatur
+						frigiditati, et aliam per quam habet rationem frigiditatis secundum quam contrariatur
+						calori, sed non contrariatur calori nisi per frigiditatem, nec frigiditati nisi per
+						colorem; ergo in tepiditate sunt formaliter calor et frigiditas.</p>
+
+					<p>Secundo ad principale iste doctor arguit sic: quando sit transitus ex frigiditate in
+						calorem, queritur utrum essentia frigiditatis abiiciatur in tempore vel in instanti quo
+						subiectum alteratur sine interpollatione. Si dicatur quod in instanti, hoc est
+						impossibile, tum quia hoc est contra sensum, tum quia mobile dum moveretur non haberet
+						aliquid de termino a quo, tum quia certum est quod non abiciatur in eodem instanti in
+						quo incipit motus, quia tunc motus de contrario in contrarium fieret in instanti, ergo
+						ante instans pro quo desinit frigiditas mansit forma et essentia frigiditatis per quod
+						tempus medium inter instans in quo desinit esse motus, et instans primum in quo incipit
+						esse motus. Nam motus, licet non fiat in instanti, tamen initiatur et terminatur in
+						instanti. Patet ergo quod per aliquod tempus post primum instans in quo incipit esse
+						motus mansit sine definitione essentia frigiditatis, sed pro illo eodem tempore pro quo
+						mansit essentia frigiditatis ponitur mobile continue moveri ad calorem, et per
+						consequens pro toto illo tempore habet aliquid formaliter de essentia caloris alias
+						mobile dum movetur non haberet aliquid de termino ad quem, ergo pro illo tempore sunt
+						simul calor et frigiditas, et sic intentum. Alias rationes adducit iste doctor quibus
+						poterit responderi ex solutione istarum ideo admitto eas etc.</p>
+
+					<p><name> Caton</name></p>
+
+					<p>Ad idem quidam doctor arguit primo sic: certum est quod quando unum contrarium agit in
+						alterum vel in subiectum in quo est alterum non introducit totam formam sed in tempore
+						et partem post partem, vel igitur hoc est propter incompossibilitatem partium forme
+						inducende. Et hoc non, quia omnes sunt eiusdem rationis et nate componere perfectiorem
+						formam vel hoc est propter insufficientiam agentis. Et hoc non, quia hoc tollitur si
+						ponatur agens sufficientissimum et perfectissimum. Et hoc non, quia subiectum non potest
+						eas recipere simul. Et hoc etiam non est verum, quia omnes sibi simul inerunt in fine
+						motus vel hoc est propter caliditates et disponens contrarias in passo repugnantes forme
+						introducende, et habetur propositum, quia simul cum parte forme introducte est pars
+						prioris repugnans parti introducende, et sic contraria pro illo tempore sunt simul in
+						gradibus remissis.</p>
+
+					<p>Preterea, constat quod in mixto manent formaliter et remisse qualitates quattuor
+						elementorum quicquid sit de formis substantialibus eorum. Hoc patet, quia, si detur
+						oppositum, non aliter disponeretur materia ad formam mixti quam ad formam elementi, cum
+						igitur quelibet pars mixti sit mixta sunt simul quattuor qualitates elementorum, sed
+						qualiditates elementorum sunt contrarie; ergo in qualibet parte mixti sunt simul
+						qualitates contrarie in esse remisso.</p>
+
+					<p>Preterea, ad idem arguunt quidam alii sic: calidum et frigidum approximata in distantia
+						et dispositione debita ad agendum et patiendum et medium intersit minimum naturale,
+						utputa minimus aer, et sint calidum et frigidum sub talibus gradibus quod utrumque
+						possit agere in reliquum per tale medium. Isto casu possibili, ut videtur, posito
+						arguitur sic: distans non potest agere indistans nisi agendo in medium, ut patet ex II
+							<title>De anima</title>, cum ergo calidum agat in frigidum et econverso. Ex supposito
+						patet quod utrumque agit in totum medium cum sit minimum naturale, sed actiones istorum
+						sunt contra-[111vb]-rie, igitur illud minimum simul totum movebitur motibus contrariis,
+						et per consequens motus contrarii sunt simul in eodem et etiam forme contrarie
+						permanentes simul erunt in eodem, videlicet caliditas et frigiditas. </p>
+
+					<p>Preterea, motus sursum et motus deorsum sunt contrarii, ut patet V
+							<title>Physicorum</title>, sed hi possunt naturaliter simul esse; igitur. Probatur
+						minor, quia, si lancea moveatur sursum et formica existens super lancea moveatur deorsum
+						proprio motu, patet, quia illa formica simul movetur sursum et deorsum.</p>
+
+					<p>Preterea, gravitas et levitas sunt contraria et sunt simul in eodem; igitur etc.
+						Consequentia nota et antecedens quantum ad primam partem patet. Quantum ad secundam est
+							<name>Aristotelis</name> IV <title>De celo</title>, ubi dicit quod aer est gravis et
+						levis et idem dicit de aqua. </p>
+
+					<p>Preterea, perfecte vitiosus potest elicere actum virtuosum et econverso, naturaliter
+						ergo contraria possunt simul esse in eodem. Antecedens est clarum. Consequentia
+						probatur, quia, si perfecte vitiosus eliciat actum virtuosum, aliquid causabitur per
+						illum, aliter per nullum alium aliquid causaretur illud, igitur quod causabitur vel erit
+						virtus, vel dispositio ad virtutem. Si sit virtus, habetur propositum, quia simul stabit
+						cum habitu vitioso per aliquod tempus. Consequentia patet, quia habitus vitiosus non
+						corrumpitur per unum actum virtuosum, sicut nec habitus virtuosus per unum actum
+						vitiosum. Si vero sit dispositio ad virtutem, adhuc idem sequitur, quia constat quod
+						dispositio illa est realitas que sit postea habitus, et per consequens realitates
+						formarum contrariarum videlicet realitas vitii expellendi et realitas virtutis generande
+						simul erunt in eodem, quod est propositum.</p>
+
+					<p>Responsio ad rationes <name>Michaelis</name></p>
+
+					<p>Pro solutione istarum rationum et presertim illarum que fundantur in auctoritatibus
+							<name>Philosophi</name> et <name>Commentatoris</name> premitto aliquas distinctiones. </p>
+
+					<p>Primo, distinguo de medio. Medium enim, ut patet per <name>Commentatorem</name> IV
+							<title>Celi et mundi</title>, commento 26, est duplex, quia quoddam est medium
+						secundum compositionem et medium secundum comparationem. Medium secundum compositionem
+						est illud quod realiter componitur ex extremis. Medium enim secundum comparationem est
+						illud quod magis convenit cum utroque extremorum secundum se quam unum extremum cum
+						altero, quamvis realiter non componatur ex extremis.</p>
+
+					<p>Secundo distinguo de contrarietate, quia quedam sunt contraria absolute, quedam
+						comparate sive in respectu vel quod idem est, quedam sunt contraria simpliciter, quedam
+						quodammodo et secundum quid. Primo modo tantum dicuntur contraria que maxima et ultimata
+						contrarietate contrariantur que solum est inter maxime distantia, ut patet X
+							<title>Metaphysice</title>. Secundo modo possunt dici contraria etiam illa inter que
+						non est maxima distantia, ut vult <name>Philosophus</name>. Has distinctiones ad
+						propositum reducendo non est imaginandum quod medius color inter colores extremos sit
+						medium secundum compositionem, non enim componitur realiter ex coloribus extremis, ut
+						aliqui opinantur, quia, si sic, medius color non esset unus color per se, immo non esset
+						color, sed duo colores extremi, cuius oppositum vult <name>Commentator</name> VI
+							<title>Physicorum</title>, commento 36. Sed medium secundum comparationem, quia color
+						medius, utputa rubedo vel fuscedo, magis convenit cum coloribus extremis secundum se,
+						videlicet cum albedine et nigredine, quam albedo et nigredo conveniant inter se.</p>
+
+					<p>Ex isto statim sequitur quod medius color non contrariatur coloribus extremis
+						simpliciter et absolute, quia non distant ab aliquo extremorum maxima distantia.
+						Contrariatur tamen ei quodammodo et in respectu, quia propter maiorem convenientiam quam
+						color medius habet cum extremis coloribus quam colores habeant inter se et ad unum
+						comparatus dicitur habere rationem alterius extremi et econverso, unde rubedo vel
+						fuscedo comparata albedini dicitur habere rationem nigredinis et comparata nigredini
+						habet rationem albedinis propter causam predictam, et ita color medius, ut rubedo vel
+						fuscedo, dicitur contrariari coloribus extremis, non quidem simpliciter et absolute, sed
+						quodammodo et in respectu, quia, ut habet rationem albedinis, dicitur
+						contra-[112ra]-riari nigredini, ut habet rationem nigredinis albedini.</p>
+
+					<p>His premissis respondeo ad rationem. </p>
+
+					<p>Ad primam dico quod omnes motus sunt ad contrario sicut ex contrariis simpliciter et
+						absolute vel ex contrariis quodammodo et in respectu, et sic loquitur
+							<name>Commentator</name> et <title>Philosophus</title>. Sed ex hoc non sequitur quod
+						in medio colore sint forme contrarie, nec in esse intenso, nec in esse remisso, sicut
+						infertur, sed sequitur quod medius color contrarietur coloribus extremis simpliciter et
+						absolute vel quoddamodo et in respectu, et illud ultimum est verum. Ex hoc tamen non
+						sequitur conclusio quam intendunt, ut patet ex dictis.</p>
+
+					<p>Ad confirmationem respondeo. </p>
+
+					<p>Ad primam, quando dicitur quod, si aliquod mobile movetur a fusco in nigrum, illud
+						movetur ab albedine que est in fusco, secundum <name>Commentatorem</name>, dico quod per
+						albedinem que est in fusco non intelligit <name>Commentator</name> realitatem aliquam
+						que sit vere albedo, quia tunc illud mobile non movetur a fusco in nigrum, sed ab albo
+						in nigrum, cuius oppositum vult <name>Commentator</name>, sed intelligit realitatem
+						fuscedinis tantum que est albedo et nigredo, non quidem simpliciter loquendo, sed per
+						comparationem ex eo quod comparata ad nigredinem habet rationem albedinis et econverso,
+						secundum intellectum superius dictum.</p>
+
+					<p>Ad secundam, quando dicitur quod colores medii componuntur ex coloribus extremis,
+						secundum <name>Philosophum</name> et <name>Commentatorem</name>, dico quod colores medii
+						non componuntur ex coloribus extremis realiter, sed tantum virtualiter, et hoc
+						intelligunt <name>Philosophus</name> et <name>Commentator</name>, nec aliud intelligit
+							<name>Commentator</name> per compositionem qualitativam.</p>
+
+					<p>Ad tertiam, quando dicitur quod colores extremi, secundum <name>Commentatorem</name>,
+						sunt in colore medio modo inter potentiam et actum, dico quod per hec verba non
+						intelligit <name>Commentator</name> quod colores extremi sint in colore medio realiter,
+						nec in esse intenso, nec remisso, sicut infertur, quia quocumque istorum modorum
+						remanerent in actu et non medio modo inter potentiam et actum, quod est contra
+							<name>Commentatorem</name>. Ista consequentia patet expresse, quia albedo remissa est
+						albedo in actu et nigredo remissa est nigredo in actu, aliter nullum corpus esset album
+						vel nigrum in actu nisi in eo esset albedo vel nigredo in summo, quod est evidenter
+						falsum. Intelligit ergo <name>Commentator</name> quod colores extremi sunt in colore
+						medio modo inter potentiam et actum, quia sunt in ipso virtualiter et secundum
+						comparationem eo quod color medius comparatus ad albedinem est nigredo quodammodo, sed
+						non simpliciter. Comparatus autem ad nigredinem est albedo quodammodo, sicut dictum est
+						supra, et hoc intelligit per medium modum inter potentiam et actum.</p>
+
+					<p>Ad quartam, quando dicitur quod quando sit transmutatio ex viridi in album non fit
+						transmutatio nisi ex parte nigri que est in viridi, patet quid dicendum ex solutione
+						prime confirmationis. Hec enim auctoritas et illo consimiles sunt et simili modo
+						intelligende, et sic intelligendo auctoritatem concedo quod in colore viridi nigredo
+						habet rationem partis formalis, sed ex hoc non sequitur quod essentia nigredinis maneat
+						in colore viridi, quia per nigredinem que est in colore viridi iuxta expositionem datam
+						non intelligitur aliqua essentia que sit vere nigredo, sed ipsamet essentia viriditatis
+						que comparata albedini habet rationem nigredinis, ut patet ex dictis.</p>
+
+					<p>Ad quintum dicitur: si forma media non esset composita ex extremis, sequeretur quod
+						forma media fieret transitus ad contrarium extremum in instanti. Nego consequentiam et
+						ad probationem, licet non procedat de forma media, quia caliditas que est in minus
+						calido non est forma media inter caliditatem et frigiditatem, sed est caliditas remissa,
+						dico quod successio in motu augmenti etiam minoris forme potest aliquando pervenire
+						propter imperfectionem agentis, quia, si agens sit imperfectum, non potest simul
+						inducere totam formam quam potest inducere successive aliquando propter improportionem
+						distantie.</p>
+
+					<p>Ad sensum enim videmus quod, si aliud corpus luminosus continue appropinquatur aeri,
+						quanto magis appropinquatur, tanto magis in aere lumen intenditur aliunde propter
+						indispositionem subiecti, quia, si subie-[112rb]-ctum non est in principio ita bene
+						dispositum quod tota forma possit simul induci, sicut continue magis disponitur, sic
+						continue plus de illa forma inducitur. Et hoc apparet de lumine sensibiliter, quia, si
+						lumen causatur a sole in nube grossa, non ita intensum est in principio sicut est
+						postea, cum nubes illa per actionem solis subtiliatur et rarefit et, sicut ipsa continue
+						magis ac magis subtiliatur, et per consequens magis ac magis disponitur, sic lumen in
+						ipsa magis ac magis intenditur, ut patet ad sensum. Hec est ergo causa quare de minus
+						calido non sit subito summe calidum, quia, licet in minus calido non sit aliquid
+						frigiditatis, ut patet per <name>Anselmum</name> superius allegatum, non sit tamen summe
+						calidum vel quia calefaciens non est ita perfectum quod possit simul summum calorem
+						inducere, vel quia distantia non est summe proportionata, vel subiectum non est perfecte
+						dispositum ad summum calorem, et ideo, sicut successive magis ac magis disponitur, sic
+						et successive magis ac magis calefacit. Ex hoc statim apparet defectus probationis, quia
+						talis successio non provenit ex eo quod privatio que est in minus calido resistat
+						motori, sed quia calefaciens non est ita perfectum vel quia approximatio non est
+						sufficiens, vel quia subiectum illud non est perfecte dispositum ad summum calorem.</p>
+
+					<p>Ad sextam concedo quod medium comparatum uni extremo habet rationem alterius et
+						econverso eodem modo quo dictum est. Et quando dicitur quod impossibile est quod
+						tepiditas per illud habeat rationem caloris per quod contrariatur calori, nego. Et ad
+						probationem dico quod, licet sit impossibile quod per idem aliquid conveniat cum aliqua
+						realiter et opponatur illi simpliciter et absolute, non tamen impossibile est quod per
+						idem aliquid conveniat cum aliquo realiter et componatur illi quodammodo et in respectu.
+						Ratio huius est, quia per eandem realitatem aliquid potest magis convenire extremis
+						contrariis quam ipsa extrema conveniant inter se, et per consequens per eandem
+						realitatem poterit convenire cum aliquo extremorum et contrariari eidem quodammodo et in
+						respectu prout habet rationem alterius extremi, sic est in proposito, ut patet ex
+						dictis.</p>
+
+					<p>Ad secundam rationem principalem concedo quod, quando fit transitus ex frigiditate in
+						calorem essentiam frigiditatis, manet per aliquod tempus post primum et instans in quo
+						incipit motus. Et quando dicitur quod mobile pro toto tempore illo habet aliquid de
+						essentia caloris, nego si intelligitur quod in eadem parte in qua est frigiditas sit
+						aliquid de calore. Et ad probationem quando dicitur quod aliter mobile dum movetur non
+						haberet aliquid de termino, ad quem potest multipliciter responderi, primo potest dici
+						quod dum mobile movetur ex frigiditate in calorem habet aliquid de frigiditate et
+						aliquid de calore, non quidem secundum eandem partem, sed secundum aliam et aliam, et
+						forte sic loquitur <name>Philosophus</name> VI <title>Physicorum</title>. </p>
+
+					<p>Secundo potest dici quod mobile dum movetur habere aliquid de termino ad quem potest
+						intelligi dupliciter, formaliter scilicet vel per accessum. Primo modo non est verum
+						secundum eandem partem, nec unquam <name>Philosophus</name> intellexit, sed secundo,
+						quia, si mobile movetur motu continuo ex frigiditate in calorem, continue remittitur
+						frigiditas et quanto magis remittitur frigiditas, tanto magis illud mobile accedit sive
+						minus distat a calore et in instanti in quo esset primo completa remissio sive coruptio
+						frigiditatis introducetur primo forma caloris, et sic intelligendo
+							<name>Philosophum</name> patet quod forme contrarie nunquam simul erunt in eodem
+						subiecto. </p>
+
+					<p>Tertio potest dici quod dum mobile movetur ad formam aliquid habet de dispositione
+						forme ad quem movetur, sed non oportet quod habeat aliquid de specie illius forme ad
+						quam movetur, sed mobile dum movetur habet aliquam formam propinquiorem forme ad quam
+						movetur quam sit terminus sive forma a qua incipit moveri, et sic potest intelligi illud
+						dictum <name>Philosophi</name>: omne quod movetur partem habet de termino quo et partem
+						de termino ad quem, id est partem de dispositione termini a quo et partem de
+						dispositione termini ad quem intelligendo [112va] per dispositionem formam mediam inter
+						terminum a quo et terminum ad quem, nec illa dispositio sive forma media est composita
+						ex contrariis, sed est forma simplex habens maiorem convenientiam cum utroque termino
+						quam termini habeant inter se.</p>
+
+					<p>Responsio ad rationes <name>Catonis</name></p>
+
+					<p>Ad primum vero alterius doctor potest uno modo dici quod procedit ex insufficienti,
+						quia quod agens non introducat subito totam formam, potest aliquando provenire, quia
+						subiectum non est perfecte dispositum ad ipsam, etiam si nullam habet dispositionem
+						contrariam, ut dictum est ad quintam confirmationem prime rationis.</p>
+
+					<p>Potest etiam dici secundo, sicut communiter dicitur, quod hoc provenit propter
+						dispositionem contrariam, non quidem simpliciter, sed quodammodo que est in passo, quia
+						tam contrarium simpliciter quam contrarium quodammodo forme inducende resistit
+						intelligendo per dispositionem contrariam quodammodo formam mediam, ut dictum est
+						supra.</p>
+
+					<p>Ad secundam nego maiorem, quia, sicut in mixto non manent formaliter forme
+						substantiales quattuor elementorum, sic nec contrarie qualitates earum et, sicut forma
+						substantialis mixti est alia a formis substantialibus quattuor elementorum, sic et
+						qualitates mixti sunt alie a qualitatibus contrariis eorum. Qualitates mixti sunt tamen
+						medie inter qualitates contrarias elementorum non quidem secundum compositionem, quia
+						non componuntur realiter ex ipsis, sed secundum comparationem, quia magis conveniunt cum
+						qualitatibus elementorum quam eorum conveniant qualitates inter se. Et ad probationem
+						quando dicitur quod tunc materia non disponeretur aliter ad formationem mixti quam ad
+						formationem elementi per interpretationem, quia, sicut alia est forma substantialis
+						mixti et alia forma substantialis elementorum, sic per alias qualitates disponitur
+						materia ad formam mixti et per alias ad formam elementi. Nec est bona consequentia,
+						qualitates elementorum non manent formaliter in mixto, igitur materia non disponitur
+						aliter ad formam mixti quam ad formam elementi.</p>
+
+					<p><name>Gualterus Burlee</name> in tractatu <title>De intensione formarum</title>,
+						capitulo 3</p>
+
+					<p>Ad primum vero aliorum quidam doctor respondet dicens quod non videtur sibi quod sit
+						dare minimum naturale quo non possit minus moveri in actum alterationis. Non enim est
+						dare minimum motum quo minus per se non possit moveri nisi in animalibus. Ratio propter
+						quam non est dare minimum motum in motu alterationis potest esse ut dicit, quia,
+						quodcumque mobile detur, oportet quod sit divisibile, ut probatur VI
+							<name>Physicorum</name>, et per consequens propinquior alteranti fortius alteratur et
+						intensius quam pars remotior, et per consequens pars propinquior alteranti citius
+						assimilabitur quam pars remotior. Cum ergo pars sit minor suo toto, sequitur quocumque
+						alterabili per se dato est dare alterabile per se minus illo. </p>
+
+					<p>His premissis dicit ad formam rationis quod, si medium corpus susceptivum caloris et
+						frigoris ponitur inter calidum et frigiditum, sit equalis virtutis in agendo et corpus
+						medium sit equaliter dispositum ad recipiendum actionem utriusque, una medietas
+						calefiet, scilicet medietas propinquior calido et alia medietas frigefiet, scilicet
+						medietas propinquior frigido. Et, cum probatur quod totum id corpus calefit et frigefit,
+						quia tam calidum quam frigidum agit in totum, dicit quod non est verum quod totum
+						calefiat et frigefiat, immo una medietas calefit et alia frigefit, et concedit quod tam
+						calidum quam frigidum agit in totum. Ex hoc tamen sequitur, ut dicit, quod totum
+						calefiat et totum frigefiat, quia calidum calefacit, ut dicit, medietatem remotiorem ab
+						eo et frigidum per oppositum frigefacit medietatem sibi propinquiorem et calefacit
+						medietatem remotiorem ab eo, unde tam calidum quam frigidum agit in totum, non tamen
+						causant motus contrarios in totum.</p>
+
+					<p>Contra <name>Burleum</name></p>
+
+					<p>Sed ad veritatem ista solutio est omnino impossibilis quantum ad hoc quod dicit quod
+						illius corporis intermedii calidum [112vb] frigefacit medietatem remotiorem ab eo et
+						frigidum calefacit etiam medietatem remotiorem ab eo. Et ostendo primo quod simpliciter
+						est impossibile calidum frigefacere et frigidum calefacere, et per consequens quod
+						assumitur in solutione est simpliciter impossibile.</p>
+
+					<p>Et secundo ostendo quod etiam eo quod assumitur adhuc non solvitur ratio, immo in
+						dictis implicatur contradictio.</p>
+
+					<p>Primum ostendo primo, quia contrariorum contrarii sunt effectus, sed calidum et
+						frigidum sunt contraria; igitur habent effectus contrarios. Et per consequens nec
+						calidum frigefacit, nec frigidum frigefacit.</p>
+
+					<p>Huic rationi dicit quod calidum potest frigefacere inducendo frigiditatem remissiorem
+						quam induceret frigus si ipsum solum ageret unde, si illi corpori medio inter calidum et
+						frigidum non esset approximatum nisi frigidum, tunc intensius frigefieret medietas
+						propinquior frigido quam frigefiat approximato calido, et ita calor est causa
+						remissionis frigiditatis quam causaret frigidum per se.</p>
+
+					<p>Ad rationem igitur dicit quod calidum non frigefit per se, tanquam causa totalis potest
+						tamen frigefacere tanquam causa partialis, frigido tamen coagente cum eo. </p>
+
+					<p>Ista tamen evacuatio est nulla, quia nihil dicitur ad formam rationis, immo si ita
+						dicatur. Adhuc manet tota difficultas, quia adhuc sequitur quod effectus contrariorum
+						non sint contrarii. Consequentia patet, quia adhuc sequitur quod calidum frigefacit et
+						frigidum calefacit, quia bene sequitur calidum inducit remissiorem frigiditatem quam
+						induceret frigidum sine calore, igitur frigefacit. Iterum bene sequitur calidum
+						frigefacit sicut causa partialis, igitur frigefacit et similiter potest argui de frigido
+						et calore. Et confirmatur, quia stante solutione data frigidum et calidum causant eandem
+						frigiditatem et eandem caliditatem numero, igitur effectus eorum non sunt contrarii.
+						Consequentia est nota. Antecedens patet, quia calidum frigefacit tanquam causa partialis
+						frigido coagente cum eo, ut asserit illa solutio, et per consequens frigefacit tanquam
+						causa partialis calido coagente, quod non est verum nisi causarent eandem frigiditatem
+						et eandem caliditatem numero. Et confirmatur ad hominem, quia vel frigiditas quam
+						calidum inducit immedietate propinquiori frigido et frigiditas quam frigidum inducit in
+						eadem medietate est eadem frigiditas numero, vel non. Si sic, habetur propositum. Si
+						non, igitur illa frigiditas componitur ex alio et alio gradu frigiditatis, cuius
+						oppositum doctor iste credit demonstrare.</p>
+
+					<p>Preterea, ad principale sic: si calidum per se posset esse causa et frigiditatis
+						frigidum caliditatis, sequeretur quod effectus esset perfectior sua per se causa, et sic
+						aliquid ageret ultra suam speciem, quod est falsum et contra <name>Philosophum</name>.
+						Consequentia probatur, quia que distinguuntur specie equalis perfectionis esse non
+						possunt, ut patet per <name>beatum Augustinum</name> III <title>De libero
+							arbitrio</title>, capitulo 21, sed caliditas et frigiditas distinguuntur specie;
+						igitur equalis perfectionis esse non possunt; vel igitur caliditas est perfectior
+						frigiditate, vel econverso. Quocumque dato habetur propositum, quia, si caliditas sit
+						perfectior cum frigiditas sit per se causa caliditatis ex supposito, effectus erit
+						perfectior sua per se causa et, si fridigitas sit perfectior, adhuc idem sequitur cum
+						caliditas sit per se causa frigiditatis ex supposito et similiter potest argui
+						econverso.</p>
+
+					<p>Ad istam rationem diceret iste doctor quod caliditas et frigiditas non distinguuntur
+						specie, quia secundum esse forme contrarie sunt eiusdem speciei specialissime. Hec tamen
+						evacuatio est nulla et impossibilis omnino, quia que sub eodem genere maxime distant,
+						non sunt eiusdem speciei specialissime et quecumque forme contrarie sunt huiusmodi per
+						diffinitionem contrariorum. De hoc tamen ad presens non plus, quia satis est per se
+						notum cuicumque philosophanti quod forme contrarie non sunt eiusdem speciei
+						specialissime. Quo posito patet quod nec frigidum potest calefacere, nec econtra. Quod
+						erat primo declarandum, licet hoc deberet supponi a quocumque tanquam per se [113ra]
+						notum. Secundum vero deduco, videlicet quod, si concedatur assumptum, adhuc non
+						solvitur, immo in dictis implicatur contradictio quod ex ista solutione sequitur quod
+						totum illud corpus medium calefiat et totum medium frigefiat, cum oppositum solutio
+						concedit expresse. Assumptum probatur, quia, sicut dicebatur in arguendo distans non
+						agit naturaliter in distans nisi agendo in medium, igitur distans non calefit nec
+						frigefit nisi calefaciat vel frigefaciat medium, sed frigidum secundum istam solutionem
+						calefacere medietatem remotiorem corporis intermedii; igitur et medietatem
+						propinquiorem, et per consequens totum corpus medium calefit et totum frigefit et eodem
+						modo potest probari quod calidum totum illud corpus medium calefacit et totum
+						frigescit.</p>
+
+					<p>Et confirmatur, quia calidum non potest calefacere remotiorem partem aeris non
+						calefaciendo propinquiorem, igitur multo minus potest frigescere remotiorem quam
+						frigescendo propinquiorem, etiam supposito quod calidum possit frigescere. Consequentia
+						nota est, quia non maioris virtutis est ad calidum quam ad frigidum et antecedens a
+						nullo negatur; ergo etc.</p>
+
+					<p>Preterea, ad hanc solutionem sequitur quod calidum et frigidum sint agentia in se
+						invicem mutuo et non sunt agentia in se mutuo que manifeste contradicunt. Primam partem
+						huius contradictionis iste doctor concedit expresse. Secundam vero deduco ex solutione
+						data, quia per eum frigidum non frigefit, sed calefacit partem propinquiorem calido.
+						Tunc sic frigidum non agit in calidum nisi vel in frigidando ipsum vel remittendo
+						calorem ipsius, ut tandem possit frigiditatem inducere. Sed stante supposito frigidum
+						nullo istorum modorum potest agere in calidum, igitur stante supposito frigidum non agit
+						in calidum et per consimilem rationem probatur quod calidum non agit in frigidum. Maior
+						est de se nota. Minorem vero declaro. Primo quantum ad primam partem, videlicet quod
+						frigidum non agit in calidum infrigidando ipsum, stante supposito, quia, si sic, vel
+						infrigidat ipsum per calorem quem causat in parte propinquiori calido, vel frigiditatem
+						quam causat in parte propinquiori frigido. Non primo modo, quia est impossibile quod
+						aliquid per caliditatem frigefaciat, nec secundo modo, quia per ipsam frigiditatem non
+						attingit calidum et non est possibile frigidum aliquid frigefacere per frigiditatem per
+						quam non attingit illud; et per rationem consimilem patet illa maior quantum ad secundam
+						partem, quia vel frigidum remittit calorem calidi per calorem quem causat in parte
+						propinquiori calido et hoc non, quia calor non remittit, sed augmentat calorem, vel per
+						frigiditatem quam causat in parte remotiori calido et propinquiori frigido et hoc non,
+						quia per illam non attingit ipsum, ut dictum est prius.</p>
+
+					<p>Exclusa igitur ista solutione quantum ad illud in quo male dicit non dubito una concedo
+						cum doctore isto quod non est dare minimum naturale quo minus non potest moveri in motu
+						alterationis, et tunc ad rationem dico quod calidum et frigidum, si sint equalis
+						virtutis in agendo sic quod tantum punctualiter possit frigidum frigescere quantum
+						calidum calefacere, et econverso, et aer ille medius sit equaliter dispositus ad
+						recipiendum actionem utriusque, nec frigidum calefacit partem propinquiorem calido, nec
+						calidum frigefacit partem propinquiorem frigido, quia hoc est simpliciter impossibile,
+						nec totus aer calefiet, nec totus frigefiet, sed medietas propinquior frigido frigefiet
+						calidum tamen et frigidum. Isto casu posito qui forte non est bene possibilis
+						naturaliter non agent in se invicem mutuo, quia nec calidum potest totum aerem
+						intermedium calefacere, nec frigidum frigefacere eo quod tantum potest frigidum
+						frigefacere quantum calidum calefacere et aer medius est equaliter dispositus ad
+						recipiendum actionem utriusque ex supposito. Si vero unum contrariorum sit maioris
+						virtutis quam reliquum vel aer sit magis dispositus ad recipiendum actionem unius quam
+						alterius poterunt agere in se invicem, quia quamvis in principio unum contrariorum
+						inducat formam [113rb] suam in maiorem partem aeris et reliquum in maiorem secundum
+						propositionem excessus contrarii ad contrarium vel secundum proportionem dispositionis
+						aeris. Contrarium tamen inducens formam suam in maiorem partem aeris continue remittit
+						formam inductam ab altero, quia habet dominium super ipsam quousque totaliter corrumpat
+						eam quo facto poterit agere in alterum. Si quis tamen concederet quod sit dare minimum
+						naturale in motu alterationis quo minus moveri non potest, haberet concedere
+						consequenter quod, si calidum et frigidum sint equalis virtutis punctualiter in agendo
+						et aer ille medius sit equaliter dispositus ad recipiendum actionem utriusque, tunc
+						neutrum contrariorum agit in illud medium nec unum agit in reliquum mediante tali medio.
+						Si vero unum contrariorum sit maioris virtutis quam reliquum et aer sit equaliter
+						dispositus ad recipiendum actionem utriusque movebitur ad formam contrarii fortioris et
+						non ad formam contrarii debilioris, ut, si calidum sit maioris virtutis in calefaciendo
+						quam frigidum in frigefaciendo, aer ille medius calefiet et non frigefiet, quia frigidum
+						non agit in ipsum, nec in aliquam partem ipsius. Non enim potest agere in totum, quia
+						agens fortius impedit, nec in aliquam partem eius, quia nulla pars ipsius potest per se
+						moveri, quia cum aer ille ponatur minimum naturale esset dare minus minimo, quod est
+						impossibile. Si vero ille aer medius sit magis dispositus ad formam unius contrarii quam
+						ad formam alterius et contraria sint equalis virtutis in agendo, movebitur ad formam ad
+						quam magis est dispositus. Si vero contraria sint inequalis virtutis et aer est magis
+						dispositus ad formam contrarii debilioris attendenda est proportio virtutis ad virtutum
+						et dispositionis aeris et secundum hoc aliter et aliter est respondendum.</p>
+
+					<p>Ad secundum dico: sicut communiter dicitur quod aliquid moveri sursum et deorsum potest
+						intelligi dupliciter, scilicet simpliciter et in respectu sine secundum quid, illud
+						dicitur moveri sursum simipliciter quod per motum sit propinquius loco simpliciter
+						sursum, quod prius erat; et per oppositum illud dicitur moveri deorsum simpliciter, quod
+						per motum sit propinquius loco simpliciter deorsum, videlicet centro mundi. Illud vero
+						dicitur moveri sursum secundum quid et in respectu quod per motum fit propinquius quam
+						prius erat alicui loco sursum, non quidem simpliciter, sed secundum quid; et per
+						oppositum illud dicitur moveri deorsum secundum quid quod per motum fit propinquius
+						alicui loco deorsum secundum quid sicut in proposito formica dicitur moveri sursum
+						secundum quid, quando per motum sit propinquior extremitati lancee que est sursum et
+						dicitur moveri secundum quid deorsum quando per motum sit propinquior extremitati lancee
+						que est deorsum.</p>
+
+					<p>His premissis dico ad formam rationis, quia vel motus lancee est velocior versus sursum
+						quam motus formice deorsum vel econverso, vel sunt equales. Si detur primum, tunc
+						formica illa movetur simpliciter sursum, sed non movetur simpliciter deorsum, quia non
+						sit propinquior centro mundi movetur tamen deorsum secundum quid et in respectu, quia
+						continue sit propinquior extremitati lancee que est deorsum. Si vero detur secundum,
+						videlicet quod motus formice versus deorsum sit velocior quam motus lancee versus
+						sursum, tunc formica movebitur simpliciter deorsum et continuo fiet propinquior centro
+						mundi, sed non movebitur sursum simpliciter, quia non fiet propinquior loco simpliciter
+						sursum, nec in respectu, quia non fiet propinquior extremitati lancee que est sursum,
+						sed extremitati que est deorsum cum ponatur moveri deorsum motu proprio. Si vero detur
+						tertium, videlicet quod motus lancee sursum et motus formice deorsum sint velocitatis
+						equalis, tunc formica illa nec movebitur simpliciter sursum, nec simpliciter deorsum,
+						quia continue distabit equalitate a loco simpliciter deorsum et a centro mundi qui est
+						simpliciter locus deorsum movebitur tamen deorsum secundum quid et in
+						respe-[113va]-ctum, quia continue fiet propinquior extremitati lancee que est deorsum et
+						ita nunquam sequitur quod motus contrarii sint simul in eodem, quia motus simpliciter
+						sursum et motus deorsum secundum quid et in respectu non sunt contrarii.</p>
+
+					<p>Ad tertium etiam dico, sicut communiter dicitur, quod gravitas et levitas possunt
+						accipi dupliciter, scilicet simpliciter et in respectu. Gravitas simpliciter inest terre
+						et levitas simpliciter inest igni. Gravitas autem et levitas in respectu insunt aeri et
+						aque. </p>
+
+					<p>Ad rationem igitur dico quod gravitas et levitas simpliciter sunt contraria, sed illa
+						non sunt, nec possunt simul esse naturaliter in eodem, nec auctoritas
+							<name>Aristotelis</name> hoc convincit, quia non intelligit sic quod aer sit gravis et
+						levis sic quod eius gravitas et levitas componatur ex gravitate simpliciter et levitate
+						simpliciter, quia tunc non esset una qualitas simplex, quod est omnino inconveniens,
+						quia caliditas corporis naturalis simplicis debet esse simplex. Gravitas autem et
+						levitas in respectu non sunt contraria, sed sunt eadem qualitas simplex, quia per eandem
+						qualitatem numero aer est gravis respectu ignis et levis respectu terre et hoc
+						intelligit <name>Aristoteles</name> cum dicit quod aer est gravis et levis et idem
+						intelligit de aqua.</p>
+
+					<p>Ad ultimum nego consequentiam ad probationem potest dupliciter responderi. Primo quidem
+						quod, si perfecte vitiosus eliceat unum actum virtuosum, nihil causabitur per illum, sed
+						remittetur habitus vitiosus. Et quando dicitur quod pari ratione per nullum alium
+						causaretur aliquid per interemptionem, quia, si talis continuet actus virtuosus, habitus
+						vitiosus finaliter corrumpetur et illo corrupto causabitur habitus virtuosus. Secundo
+						potest etiam dici quod concesso quod per illum actum aliquid causetur quod illud quod
+						per ipsum causabitur non esset virtus, sed dispositio ad virtutem et quando dicitur quod
+						dispositio illa est realis que fit postea habitus, nego, quia illa dispositio non est
+						eiusdem speciei cum virtute sive cum habitu virtuoso, sed est quedam forma media inter
+						vitium et virtutem habens maiorem convenientiam cum utroque quam ipsa habeant inter se.
+						Contra secundam conclusionem est quedam…</p>
+
+					<p>Opinio <name>Simplicii</name></p>
+
+					<p>…Opinio que ponit, ut superius dicebatur, formarum intensionem fieri per depurationem
+						et segregationem a contrario. Et videtur hec opinio habere aliquas auctoritates tam
+						sanctorum quam philosophorum. Ait enim <name>beatus Augustinus</name>
+						<title>83 Questiones</title>, questione 36, quod venenum caritatis est cupiditas, ubi
+						enim nulla cupiditas ibi est perfecta caritas. Et in <name>Enchiridion</name>, capitulo
+						ultimo, dicit quod minuitur cupiditas caritate crescente. Hec autem non esset vera nisi
+						caritas augeretur per hoc quod a suo contrario vel opposito depuratur. </p>
+
+					<p>Item III <title>Thopicorum</title> dicitur quod albius est quod est nigro impermixtius.
+						Et <name>Commentator</name> V <title>Physicorum</title>, commento 19, dicit quod aliquid
+						non sit minus album nisi ex permixtione contrarii. Verbi gratia: quando illud fit minus
+						album dicitur transmutari ad aliquod nigrum, quoniam illud fit minus album, sed hec non
+						essent vera nisi intensio albedinis fieret per depurationem a contrario, id est
+						nigredine, igitur idem quod prius.</p>
+
+					<p>Responsio ad obiecta</p>
+
+					<p>Ad primam auctoritatem <name>beati Augustini</name> dicitur quod quedam cupiditas est
+						mortalis, quedam venialis. Mortalis directe opponitur caritati, venialis autem non nisi
+						dispositive pro quanto disponit ad mortale. Prima non potest stare simul in eodem cum
+						caritate, aliter caritas simul staret cum peccato mortali, quod non esset catholice
+						dictum. Secundo vero sic: non est intentio <name>beati Augustini</name> quod ubi magna
+						caritas, ibi parva cupiditas mortalis, nec quod caritate crescente minuatur cupiditas
+						mortalis, quia caritas in quocumque gradu habeatur excludit totaliter cupiditatem
+						mortalem, nec per consequens est intentio sua quod caritas augeatur per depurationem a
+						contrario, sed intelligit quod quanto caritas magis intenditur tanto excludit
+						cupiditatem venialem, si-[113vb]-cut unum oppositum excludit illud, quod disponit ad
+						alterum et hoc est verum etc.</p>
+
+					<p>Auctoritas <name>Philosophi</name> et <name>Commentatoris</name> etiam nihil
+						concludunt. Ad primam dicitur quod permiscere aliquid cum aliquo potest intelligi
+						dupliciter: proprie et large. Proprie quidem, quia realiter permiscetur cum illo. Large
+						vero, quia magis accedit vel minus distat ab illo et isto secundo modo minus curvum
+						dicitur permisceri cum recto. </p>
+
+					<p>Ad proposito dico quod illud non est intentio <name>Philosophi</name> quod illud est
+						albius quod realiter minus permiscetur cum nigro, quia secundum eum duo contraria in
+						eodem subiecto primo simul esse non possunt. Sed intelligit quod illud est albius quod
+						est nigro impermixtius, id est quod a nigro est distantius. Et hoc est verum, quia,
+						sicut illa linea est curvior que magis distat a recta, sic illud est albius quod magis
+						distat a nigro et recedit a nigro. Et eodem modo dicendum est ad auctoritatem
+							<name>Commentatoris</name>, quia aliquid non fit minus album, nisi ex commixtione
+						contrarii, id est nisi quia minus distat et recedit a nigro, et ideo quod sit minus
+						album dicitur transmutari ad nigrum et quanto sit minus album, tanto minus distat a
+						nigro.</p>
+
+					<p>Contra tertiam et quartam conclusionem posset argui. Verum, quia conclusiones ille non
+						sunt posite nisi ad ostendendum impossibilitatem opinionis que ponit formaliter
+						intensiones fieri per depurationem a contrario et motiva illius opinionis sunt soluta,
+						ideo nunc pertranseo.</p>
+				</div>
+				<div>
+					<head>Ad rationes principales</head>
+
+					<p>Ad primam nego antecedes. Oppositum enim patet ex dictis et ad probationem nego iterum
+						antecedens, quia, sicut nulla forma augetur per depurationem a contrario, sic nulla
+						remittitur per admixtionem contrarii.</p>
+
+					<p>Et ad auctoritatem <name>Commentatoris</name> patet quid dicendum ex dictis, quia non
+						intelligit nisi quod quanto unum contrariorum, magis remittitur tanto minus distat ab
+						alio. Secundam rationem concedo et credo eam concludere.</p>
+				</div>
+
+
+
+
+
+			</div>
+		</body>
+	</text>
+</TEI>

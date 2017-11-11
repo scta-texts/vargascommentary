@@ -1,0 +1,2198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Prologus, Quaestio 1</title>
+        <author>Alphonsus Toletanus Vargas</author>
+        <editor>Luciana Cioca</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Prologus, Quaestio 1</title>
+          <date when="2015-11-05">November 05, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://www.thesis-project.ro/">ERC-THESIS project n° 313339</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Creative Commons Attribution 4.0 International</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="Venice1490">Venice1490</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-05" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="1-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="atv-l1prolq1">
+        <head xml:id="atvl1prolq1-Hd1e3470">Prologus, Quaestio 1</head>
+        <p xml:id="atvl1prolq1-d1e3473">Circa prologum istius operis queritur
+          primo: utrum aliqua notitia evidens de
+          veritatibus theologie sit possibilis
+          viatori de potentia Dei absoluta, que sit
+          scientia proprie dicta.</p>
+        <p xml:id="atvl1prolq1-d1e3476">Et videtur primo
+          quod non, quia scientia proprie dicta est effectus
+          demonstrationis cuius medium est diffinitio,
+          ex <ref>I <title ref="#PosteriorAnalytics">Posteriorum</title>;</ref> igitur cuius non est diffinitio, nec scientia
+          proprie dicta. Dei autem non est diffinitio cum sit simpliciter simplex;
+          igitur nec scientia proprie dicta. Quo
+          posito sequitur quod de veritatibus theologie non sit possibilis
+          scientia.</p>
+        <p xml:id="atvl1prolq1-d1e3485">Contra: omnis scientia que non est beatifica
+          est communicabilis viatori saltem divina virtute.
+          Notitia abstractiva de subiecto theologiae et veritatibus
+          theologicis non est beatifica quantumcumque sit
+          evidens et scientifica, quia sola intuitiva ponitur beatifi<cb ed="#V" n="b"/>ca;
+          igitur etc.</p>
+        <p xml:id="atvl1prolq1-d1e3490">Respondeo. In ista questione erunt quattuor articuli,
+          quia primo ponam aliquorum terminorum declarationes
+          cum quibusdam distinctionibus, secundo conclusiones cum
+          suis deductionibus. Tertio movebo dubia. Quarto
+          respondebo et dicam ad argumenta principalia.</p>
+        <div>
+          <head xml:id="atvl1prolq1-Hd1e3496">Primus articulus</head>
+          <p xml:id="atvl1prolq1-d1e3499">Quantum ad primum primi articuli, primo declarabitur
+            quid per viatorem, secundo quid per veritates
+            theologicas importetur.</p>
+          <p xml:id="atvl1prolq1-d1e3507">De primo dico quod viator est
+            ille qui non habet beatitudinem sibi possibilem de potentia
+            Dei ordinata et est in statu merendi. Et per primum
+            excludit beatus qui habet beatitudinem sibi debitam.
+            Per secundum, damnatus, cui beatitudo non est possibilis
+            de potentia Dei ordinata quamvis sit sibi possibilis
+            de potentia Dei absoluta. Per tertium, ad purgatorium
+            destinatus, qui non est in statu merendi.</p>
+          <div>
+            <head xml:id="atvl1prolq1-Hd1e3527"><supplied>Aliquae propositiones</supplied></head>
+            <p xml:id="atvl1prolq1-d1e3531">Ex ista descriptione sequuntur alique propositiones.</p>
+            <p xml:id="atvl1prolq1-d1e3535">Prima est quod non repugnat viatori evidens notitia deitatis,
+              quia quod non ponit viatorem extra terminum vie sibi non
+              repugnat inquantum viatori. Evidens notitia deitatis
+              est huiusmodi; ergo. Probatur minor, quia per solam notitiam
+              deitatis non habetur beatitudo possibilis viatori de
+              potentia Dei ordinata, cum talis consistat in visione et
+              fruitione Dei, secundum determinationem ecclesie, igitur
+              non ponit ipsum extra terminum vie.</p> 
+            <p xml:id="atvl1prolq1-d1e3552">Contra descriptionem quam dat <name ref="#Ockham">Ockham</name> de viatoris
+              intellectu in <title>Prologo</title> 1, questione 1, articulo 1.</p>
+            <p xml:id="atvl1prolq1-d1e3564">Secunda est quod improprie et minus sufficienter
+              describunt intellectum viatoris quod intellectus
+              viatoris est ille qui non habet notitiam intuitivam
+              deitatis sibi possibilem de potentia Dei ordinata, quia
+              sic intellectus existentis in purgatorio esset intellectus
+              viator, quod est improprie dictum. Et confirmatur, quia tunc
+              omnes sancti patres <title>Veteris Testamenti</title> fuissent viatores
+              usque ad ascensionem Christi, quod non conceditur.</p>
+            <p xml:id="atvl1prolq1-d1e3587">Preterea, illa descriptio est nulla cuius oppositum
+              per aliquam potentiam potest inesse descripto. Sed sic
+              in proposito est, quia notitia intuitiva deitatis per aliquam
+              potentiam potest intellectui viatoris communicari,
+              ut patet ex propositione precedenti et clarius
+              apparebit articulo sequenti, conclusione secunda; igitur etc.</p>
+            <p xml:id="atvl1prolq1-d1e3601">Contra descriptionem quam dat <ref><name ref="#JohnOfRodington">Roddenton</name> de viatore
+              in <title>Prologo</title> primi, questione 2, articulo 1.</ref></p>
+            <p xml:id="atvl1prolq1-d1e3613">Tertia est quod insufficienter etiam describunt
+              viatorem quod viator est ille qui cognoscit per
+              speculum et est in statu merendi. Et hec sequitur ex
+              prima, quia si non repugnat viatori inquantum viator,
+              evidens notitia deitatis non est de ratione ipsius cognoscere
+              per speculum.</p>
+            <p xml:id="atvl1prolq1-d1e3627">De secundo dico quod per se
+              veritates theologice revelate, de quibus nunc agitur,
+              sunt tantum ille quibus firmiter adheremus solum per fidem,
+              non per experientiam vel rationem demonstrativam,
+              etiam si de facto habeamus aliquam notitiam,
+              aliter fides non esset viatoribus meritoria, <name ref="#GregoryGreat">beato Gregorio</name>
+              dicente quod <quote xml:id="atvl1prolq1-Qd1e3643">fides non habet meritum ubi humana ratio prebet experimentum.</quote></p>
+            <p xml:id="atvl1prolq1-d1e3646">Ex hoc infero quod nulla veritas
+              nobis naturaliter per se nota vel ex per se notis deducta
+              est per se de consideratione theologici habitus
+              revelati, ut prescindit a naturaliter acquisitis, quia ad
+              assentiendum talibus sine fide cogitur intellectus.</p>
+            <p xml:id="atvl1prolq1-d1e3657">Et confirmatur, quia vel notitia de veritatibus theologice
+              revelate est viatoribus clara, vel enigmatica.
+              Si clara, non videmus nunc per speculum et in enigmate,
+              contra <name ref="#Paul">Apostolum</name>. Et ulterius frustra queritur an notitia
+              evidens de huiusmodi veritatibus sit possibilis viatori.
+              Si enigmatica, igitur non est per se nota nec deducta
+              ex aliquo per se noto.</p>
+            <!-- note type desciription for next paragraph <p>Evasio <name ref="#Ockham">Ockham</name> ubi supra.</p> -->
+            <p xml:id="atvl1prolq1-d1e3680">Nec valet evasio dicens quod alique veritates theologice
+              supernaturaliter sunt cognoscibiles, ut quod Deus
+              <pb ed="#V" n="2-r"/>
+              <cb ed="#V" n="a"/>
+              sit trinus et unus. Alique autem naturaliter cognoscibiles considerantur
+              in habitu theologie revelate ut prescindit etc., sicut
+              principia vel sicut conclusiones. Non sicut principia, quia
+              ex principiis per se notis vel deductis ex per se notis deducitur
+              conclusio evidens, et sic omnis veritas theologica
+              esset evidenter nota, quod est contra positum. Et confirmatur, quia
+              principia theologici habitus revelati, ut prescindit etc.,
+              sunt articuli fidei omnes vel saltem aliqui, ut suppono
+              ad presens, qui non sunt nobis evidenter noti. Nec sicut
+              conclusiones, quia vel deducerentur ex principiis creditis,
+              vel evidenter notis. Non evidenter notis, ut patet ex dictis.
+              Si ex creditis, non sunt naturaliter evidentes, et sic contradictio in dictis.</p>
+            <!-- discuss this paragraph with Lucia, as I think the Ockham section is a note and the paragrah should read: "sed contra proposition istam..."
+              she has "istam" starting a new paragraph, because it looks separated on account of the marginal note -->
+            <p xml:id="atvl1prolq1-d1e3715">Sed contra propositionem <!-- not style description of paragraph <ref><name ref="#Ockham">Ockham<supplied>i</supplied></name> ubi supra</ref> -->
+              istam instatur ab eis, quia omnes veritates necessarie homini
+              viatori ad eternam beatitudinem consequendam sunt veritates
+              theologie dicente <ref><name ref="#Augustine">beato Augustino</name> XIV <title ref="#deTrinitate">De Trinitate</title>, capitulo 1,</ref>
+              quod <quote xml:id="atvl1prolq1-Qd1e3737" ana="#Augustine_deTrinitate_14_1_3_b">Non utique quicquid ab homine sciri potest in rebus humanis,
+              ut plurimum supervacue vanitatis et noxie curiositatis est,
+              huic scientiae tribuendum, sed illud tantummodo quo
+              fides saluberrima, que ad veram beatitudinem ducit, gignitur,
+              nutritur, defenditur et roboratur.</quote> Sed multe tales sunt
+              naturaliter cognoscibiles etc.</p>
+            <p xml:id="atvl1prolq1-d1e3751">Preterea, iste veritates
+              <mentioned>Deus est unus, sapiens et bonus</mentioned> sunt theologice, cum sint
+              necessarie ad salutem et tamen naturaliter cognoscibiles.</p>
+            <p xml:id="atvl1prolq1-d1e3760">Ad primum istorum dico quod theologia quedam est revelata,
+              quedam acquisita. Theologia revelata procedit ex articulis
+              omnibus vel aliquibus tamquam ex principiis, ut nunc suppono.
+              Theologia vero acquisita est articulorum declarativa
+              et defensiva ex probabilibus nobis notis in lumine
+              naturali non quidem ut per rationem ad fidem accedamus,
+              sed ut eorum que credimus quantum possimus intellectu
+              et contemplatione delectemur, sicut docet <ref><name ref="#Anselm">Anselmus</name> I <title ref="#Anselm_CurDeusHomo">Cur
+                Deus Homo</title>, capitulo 1.</ref></p>
+            <p xml:id="atvl1prolq1-d1e3788">His premissis dico quod non omnes veritates
+              necessarie viatori ad eternam beatitudinem
+              sunt veritates theologice revelate, ut prescindunt a
+              naturaliter acquisitis nisi sint articuli fidei vel ex articulis
+              per se deducte, cuius ratio est, quia omnis veritas per se considerata
+              in habitu quocumque est in eodem principium vel conclusio.
+              Nec auctoritas <name ref="#Augustine">beati Augustini</name> est ad propositum, quia loquitur de
+              habitu theologie acquisite, non revelate, prout patet
+              ibidem.</p>
+            <p xml:id="atvl1prolq1-d1e3812">Ad secundum dico quod tales veritates sunt per
+              se de consideratione metaphysice vel theologie acquisite,
+              non revelate, ut patet ex dictis.</p>
+            <p xml:id="atvl1prolq1-d1e3819">Quantum ad secundam partem huius primi articuli distinguo
+              primo de habitu scientifico, quia potest accipi communiter,
+              proprie, et magis proprie. Communiter quidem accipitur
+              pro notitia mentis clara vel enigmatica cum adhesione
+              firma, et sic fides potest dici scientia, sicut loquitur <ref><name ref="#Augustine">beatus
+                Augustinus</name> XV <title ref="#deTrinitate">De Trinitate</title>, capitulo 32, de parvulis,</ref> dicens <quote xml:id="atvl1prolq1-Qd1e3840">Absit ut scire
+              nos negemus quod testimonio didicimus antiquorum.</quote>
+              Proprie autem accipitur pro notitia mentis quacumque firma
+              ratione comprehensa, et sic distinguitur a fide, non tamen a sapientia.
+              Sic loquitur <ref><name ref="#Augustine">beatus Augustinus</name> I <title ref="#Retractationum">Retractationum</title>, capitulo
+                14,</ref> dicens: <quote xml:id="atvl1prolq1-Qd1e3861">Proprie quippe cum loquimur illud solum scire didicimus
+                  quod mentis firma ratione comprehendimus.</quote> Scientia
+              igitur proprie dicta est notitia mentis scibilis infallibilis
+              firma ratione comprehensa, quia notitia mentis non convenit
+              cum ceteris virtutibus intellectualibus, quia scibilis infallibilis
+              distinguitur ab opinione, prudentia, et arte, que
+              possunt esse de contingentibus, quia firma ratione comprehensa
+              distinguitur ab intellectu principiorum et fide. Magis proprie
+              vero accipitur pro notitia mentis rerum temporalium firma
+              ratione comprehensa, et sic scientia distinguitur a sapientia.
+              Sic loquitur <ref><name ref="#Augustine">beatus Augustinus</name> XII <title ref="#deTrinitate">De Trinitate</title>, capitulo finali,</ref> dicens quod <quote xml:id="atvl1prolq1-Qd1e3894">Hec est
+              sapientie et scientie recta distinctio, ut ad sapientiam pertineat
+              eternarum rerum cognitio intellectualis; ad scientiam
+                vero temporalium rerum cognitio rationalis.</quote> Scientia igitur sic
+              sumpta est notitia mentis scibilis infallibilis, non
+              eterni, sed temporalis firma ratione comprehensa.</p>
+            <p xml:id="atvl1prolq1-d1e3907">Secundo
+              <cb ed="#V" n="b"/>
+              distinguo de notitia enigmatica, quia quedam est intuitiva,
+              quedam abstractiva, quedam superintuitiva, et quedam
+              discursiva sive deductiva.</p>
+          </div>
+          <div>
+            <head>Notitia intuitiva</head>
+            <p xml:id="atvl1prolq1-d1e3970">Notitia intuitiva
+              est cognitio rei in se ipsa actualiter et presentialiter existentis,
+              qualis est cognitio facialis de qua loquitur <ref><name ref="#Paul">Apostolus</name>
+                <title ref="#Icor">I Ad Corinthos</title>, 13:</ref> <quote xml:id="atvl1prolq1-Qd1e3930" ana="#Icor13_12">Videmus nunc per speculum et in enigmate,
+                  tunc autem facie ad faciem.</quote> Et quod ista distinctio sit convertibilis
+              patet, quia omnis cognitio rei in se ipsa est intuitiva
+              et omnis intuitiva est cognitio rei in se ipsa, quod patet
+              in notitia intuitiva sensitiva que non potest haberi sine
+              actuali presentia obiecti, dicente <ref><name ref="#Augustine">beato Augustino</name> XI <title ref="#deTrinitate">De Trinitate</title>,
+                4, de parvis</ref> quod <quote xml:id="atvl1prolq1-Qd1e3952">Re visibili detracta nulla est, nec ulla
+                  omnino potest esse visio si corpus non sit quod videri possit.</quote> Et
+              capitulo sequenti dicit quod <quote xml:id="atvl1prolq1-Qd1e3957">Informatio sensus que visio dicitur
+                a solo imprimitur corpore, quod videtur, id est a re aliqua visibili,
+                qua detracta nulla remanet forma que inherat
+                sensui dum adesset illud quod videbatur, velut in aqua vestigium
+                tamdiu est, donec ipsum corpus quod imprimitur
+                ibi est quo ablato nullum erit.</quote> Hec <name ref="#Augustine">Augustinus</name>. Notitia igitur
+              sensitiva, si sit intuitiva, est cognitio rei sensibilis in se ipsa.
+              Et quia sicut notitia intuitiva sensitiva se habet ad sensibile,
+              sic intellectiva ad intelligibile, idem sequitur
+              ad intellectivam intuitivam.</p>
+            <div>
+            <head xml:id="atvl1prolq1-Hd1e3984"><supplied>Duae propositiones</supplied></head>
+            <p xml:id="atvl1prolq1-d1e3988">Ex hiis sequuntur due propositiones.</p>
+            <p xml:id="atvl1prolq1-d1e3993">Prima est quod Deus ab eterno non cognovit
+              creaturas intuitive, quia notitia intuitiva est cognitio
+              rei in se ipsa. Creature autem non fuerunt ab eterno. Istam
+              rationem tangit <ref><name ref="#Augustine">beatus Augustinus</name> IV <title ref="#DeGenesiAdLitteram">Super Genesim ad Litteram</title>, capitulo 3,
+                de magnis,</ref> ubi inquit <quote xml:id="atvl1prolq1-Qd1e4011">Ubi Deus cernebat creaturas
+                  antequam producerentur, <!-- end quote seg -->dicit <!--start second quote seg--> Neque enim extra se ipsum
+                  cernebat sicut cernimus oculis corporeis que videmus
+                  que utique nondum erant cum disponerentur, ut fierent.</quote></p>
+            <p xml:id="atvl1prolq1-d1e4024">Secunda est quod notitia intuitiva de creaturis non est perfectissima,
+              quia Deus ab eterno cognovit perfectissime
+              creaturas, non tamen intuitive. Et confirmatur, quia cognitio
+              vespertina non est perfectissima. Sed cognitio intuitiva
+              de creaturis est vespertina, dicente <ref><name ref="#Augustine">beato Augustino</name>, libro predicto, capitulo 5,</ref>
+              quod <quote xml:id="atvl1prolq1-Qd1e4042">Postquam Deus fecit firmamentum, non solum
+                in verbo Dei sicut ante, sed in ipsa eius natura cognoscitur.</quote>
+              Ecce cognitio eius intuitiva. Et subdit immediate
+              <quote xml:id="atvl1prolq1-Qd1e4050">que cognitio communi nomine, id est recte vespere nomine significatur;</quote>
+              ergo etc.</p>
+            <!-- <name>Aureolus</name> in <title>Prologo</title> primi, questione 2, articulo 3. --> <!-- i would call this a note in the diplomatic transcription, similar to marginal note, which should be embeded in the paragraph; see what I've done with wodehmam -->
+            <p xml:id="atvl1prolq1-d1e4061">Contra diffinitionem tamen istam instatur sic: notitia
+              intuitiva potest haberi sine actuali presentia obiecti,
+              igitur non est cognitio rei in se ipsa actualiter etc.
+              Consequentia est nota. Antecedens probatur multiplici experientia.</p>
+            <p xml:id="atvl1prolq1-d1e4072">Prima est in visionibus derelictis ex forti visibili
+              quam <ref><name ref="#Augustine">beatus Augustinus</name> XI <!-- should this be II; check with Lucia --> <title ref="#deTrinitate">De Trinitate</title>, capitulo 1,</ref> ubi ait quod <quote xml:id="atvl1prolq1-Qd1e4086">plerumque cum
+                diu solem attenderimus vel quecumque luminaria et deinde
+                oculos clauserimus, quasi versantur in conspectu quidam
+                colores lucidi varie sese concomitantes, et minus minusque
+                fulgentes, donec omnino desistant, quas intelligimus
+                reliquias esse illius forme que facta erat in sensu.</quote> Et
+              concludit quod <quote xml:id="atvl1prolq1-Qd1e4104">erat idem cum illa cum videremus, sed illa clarior et expressior, sed multum coniuncta cum specie rei eius que cernebatur, ut discerni divino non posset et ipsa erat visio.</quote> Hec <name>Augustinus</name>.</p>
+            <p xml:id="atvl1prolq1-d1e4112">Ex quo patet quod visio solis aut aliorum
+              luminarium remanet in oculo obiecto recedente,
+              secundum <name ref="#Augustine">Augustinum</name> et experientiam.</p>
+            <p xml:id="atvl1prolq1-d1e4122">Secunda est in somniis, quam ponit
+              <ref><name ref="#Averroes">Commentator</name> in tractatu suo <title>De somno et vigilia</title></ref> fere
+              circa medium, dicens quod <quote xml:id="atvl1prolq1-Qd1e4135">In somno videt homo et sentit
+                per quinque sensus absque eo quod sit ibi aliquod sensibile
+                extrinsecum. Hoc autem accidit per motum contrarium ei qui est in vigilia.
+                In vigilia enim sensibilia extrinseca movent sensus et
+                sensus communis movet virtutem imaginativam. In somno autem
+                revertetur intentio imaginativa et movebit sensum communem
+                et sensus communis movebit virtutem particularem;
+                et sic accidit quod homo comprehendit sensibilia, licet non
+                sint extrinsecus.</quote> Hec <name>Commentator</name>.</p>
+            <p xml:id="atvl1prolq1-d1e4159">Ex quo patet quod
+              visio est in oculis somniantis se videre et auditio in
+              <pb ed="#V" n="2-v"/>
+              <cb ed="#V" n="a"/>
+              auditu et tactus in tactu in absentia reali obiectorum.</p>
+            <p xml:id="atvl1prolq1-d1e4167">Tertia est in timentibus qui sonos audiunt et terribilia
+              vident, dissoluti timore, teste <name ref="#Averroes">Commentatore</name> qui
+              ait, ubi supra, quod <quote>Hoc accidit habentibus timorem et infirmis
+              propter debilitatem virtutis cogitative que dissolvitur,
+              unde accidit eis accidens tale.</quote></p>
+            <p xml:id="atvl1prolq1-d1e4183">Quarta est in ludificatis
+              de quibus constat quod vident ea que non sunt, ut
+              castra, canes, lepores et similia.</p>
+            <p xml:id="atvl1prolq1-d1e4190">Quinta est in habentibus
+              oculos molles in quibus, cum viderint rubeum,
+              derelinquitur visio rubei, ita ut rubeum appareat eis
+              omne quod viderint. Et confirmatur, quia Deus potest facere
+              quicquid non implicat contradictionem. Sed servare fundamentum
+              relationis corrupto termino et transeunte
+              respectu non implicat contradictionem; igitur potest fieri
+              a Deo. Sed notitia intuitiva est aliquod absolutum fundans
+              respectum ad rem intuitive cognitam; igitur Deus poterit
+              facere eius notitiam corrupto termino et re presentialiter non
+              existente.</p>
+            <p xml:id="atvl1prolq1-d1e4214">Preterea, Deus potest omnem rem conservare absque omni
+              alia re a qua non dependet nisi effective. Sed absolutum
+              intuitive notitie est quedam res de predicamento
+              qualitatis et per consequens non dependet ab obiecto
+              nisi effective tantum; igitur etc. Sed istis non obstantibus
+              dicendum quod notitia intuitiva sine reali et actuali obiecti
+              presentia haberi non potest, sicut patet per <name ref="#Augustine">beatum Augustinum</name>
+              superius allegatum.</p>
+            <p xml:id="atvl1prolq1-d1e4235">Ad experientias dicendum quod huiusmodi
+              visiones vere sunt et obiecti presentes sunt
+              et actualiter existentes, sed iudicium sensus inter omnes est
+              falsum, sicut docet <ref><name ref="#Anselm">Anselmus</name> <title>De veritate </title>, capitulo 6,</ref> ubi
+              ad consimiles experientias respondet dicens quod <quote xml:id="atvl1prolq1-Qd1e4254">ipse sensus interior
+                se fallit, non illud mentitur exterior.</quote></p>
+            <p xml:id="atvl1prolq1-d1e4259">Ad primam
+              igitur dico quod visio solis non remanet in oculo sole
+              recedente, nec illa fuit intentio <name ref="#Augustine">beati Augustini</name>, immo totum
+              oppositum, ut patet ex supradictis et ex dictis in
+              eodem capitulo. Dicit enim ibidem quod sicut si liquido humori
+              adiungeretur anulus, eo detracto, nihil imaginis
+              apparet et tamen in illo humore antequam detraheretur fuit
+              anuli forma; sic a simili de visionibus respectu obiecti
+              sensus oculorum, ideo non habet imaginem corporis
+              quod videtur quamdiu videtur, qui eo detracto non remanet
+              et loquitur expresse de imagine que est visio sole; igitur vel
+              quocumque alio luminari detracto non remanet visio
+              illius, secundum <name ref="#Augustine">Augustinum</name>. Et in auctoritate videlicet ad oppositum
+              allegata dicit quod <quote>Colores illi lucidi sunt reliquie
+              illius forme que facta fuit in sensu dum corpus
+              lucidum videretur.</quote> Non igitur vult quod tunc corpus
+              lucidum videatur, sed quod fuerit visum. Non est ergo
+              intentio <name ref="#Augustine">beati Augustini</name> quod visio sit de luminari absente,
+              sed de speciebus vel impressionibus derelictis ab ipso
+              in lampadibus oculorum que prius fuerunt ratio videndi,
+              tunc autem visionis obiectum. Iudicium tamen
+              sensus interior potest esse falsum, quia propter similitudinem istorum
+              colorum et solis iudicabit visionem esse solis, cum tamen
+              non sit.</p>
+            <p xml:id="atvl1prolq1-d1e4321">Ad secundam potest uno modo dici quod in oculis somniantis
+              se videre non est vera visio, nec in auditu auditio;
+              nec <name ref="#Averroes">Commentator</name> dicit quod in somniis videt homo et
+              sentit per quinque sensus, sed quod videtur quod videat per
+              quinque sensus, quia videtur sibi quod sentiat, cum tamen nulla
+              sit sensatio in sensu exteriori, quod patet ex dictis <name ref="#Averroes">Commentatoris</name>,
+              ibidem, qui diffiniens somnium dicit: <quote xml:id="atvl1prolq1-Qd1e4342">Somnus
+                est sensus in potentia in natura rerum existentium.</quote> Et subdit
+              immediate: <quote xml:id="atvl1prolq1-Qd1e4349">Dormiens enim videt quasi quod comedat et bibat
+                et sentiat per quinque sensus.</quote> Sed certum est quod dormiens
+              somnians se comedere non vere comedit, nec
+              somnians se bibere vere bibit; igitur non videtur quod
+              somnians se sentire per quinque sensus vere sentiat,
+              quamvis sibi sic videatur. Ista videtur intentio <ref><name ref="#Augustine">beati
+                Augustini</name> XI <title ref="#deTrinitate">De Trinitate</title>, capitulo 4, de magnis, vel 11, de parvis,</ref> ubi
+              dicit quod <quote xml:id="atvl1prolq1-Qd1e4375">Cum voluntas ad interiorem fantasiam tota confluxerit,
+                atque a presentia corporum que circumiacent
+                <cb ed="#V" n="b"/>
+                sensibus corporis, atque ab ipsis corporis sensibus
+                animi aciem omnino avertit, atque ad eam que intus
+                cernitur imaginem convertit, tanta effunditur similitudo
+                speciei corporalis expressa in memoria, ut nec ipsa
+                ratio discernere sinatur utrum foris corpus ipsum videatur
+                vel intus tale aliquod cogitetur. Nam interdum
+                homines nimia cogitatione rerum visibilium vel allecti,
+                vel perterriti, etiam huiusmodi repente voces ediderunt,
+                quasi revera in mediis talibus actionibus seu passionibus
+                versarentur.</quote> Et subdit modicum infra. <quote xml:id="atvl1prolq1-Qd1e4403">Ex eodem
+                  genere actionis, id etiam est quod in somniis per
+                  imagines illuduntur.</quote> Hec <name ref="#Augustine">Augustinus</name>.</p>
+            <p xml:id="atvl1prolq1-d1e4415">Ex quibus verbis satis
+              evidenter apparet quod in somniis corpus ipsum foris non
+              videtur, sed intus tale aliquid cogitatur.</p>
+            <p xml:id="atvl1prolq1-d1e4422">Potest etiam dici
+              secundo si concedatur quod visio sit in oculo somniantis se videre
+              quod talis non est sine actuali presentia obiecti, quia obiectum
+              non est sensibile extrinsecum absens, nec tale intuetur
+              in somniis, sed species eius actualiter existens in lampadibus
+              oculorum. Et hoc accidit per contrarium motum
+              ei qui est in vigilia, secundum <name ref="#Averroes">Commentatorem</name>. Non est igitur visio
+              sine actuali presentia obiecti, licet iudicium sensus
+              interioris possit esse falsum, quod iudicabit visionem illam
+              esse sensibilis extrinseci, cum non sit.</p>
+            <p xml:id="atvl1prolq1-d1e4447">Potest etiam dici
+              tertio si concedatur quod somnians se videre vere videat
+              sensibile extrinsecum absens, quia talis visio non est intuitiva
+              sensibilis extrinseci, sed abstractiva tantum, licet sit intuitiva
+              speciei, quia non est visio extrinseci in se, sed in eius
+              imagine vel specie. Nec debet putari mirabile casu
+              posito quod aliqua visio sit abstractiva sensibilis extrinseci,
+              immo forte talis est omnis visio qua quis faciem
+              suam videt vel alterius in speculo, cum non ipsam in se,
+              sed in eius imagine vel specie videat.</p>
+            <p xml:id="atvl1prolq1-d1e4471">Ad tertiam patet
+              quid dicendum ex dictis <name ref="#Augustine">beati Augustini</name> <ref>in prima solutione
+                ad precedentem experientiam allegatam.</ref> Non enim
+              dissoluti timore vident vel audiunt aliquid extra, sed
+              intus tale ab eis aliquid cogitatur, licet nec ipsa ratio hoc
+              discernere sinatur. Cum his concordat <ref><name ref="#Ambrose">Ambrosius</name> Super
+                illud Lucae XI</ref>: <quote xml:id="atvl1prolq1-Qd1e4501">Hominis cuiusdam divitis fructus uberes agri
+                  attulit, dicens quod hi, qui per insaniam mente<supplied>m</supplied> translati sunt, iam
+                  non res ipsas, sed passionis fantasias vident.</quote> Possunt tamen aliquotiens
+              huiusmodi voces vel strepitus machinationibus demonum
+              fieri, sed tunc non erit sensatio sine actuali
+              presentia obiecti.</p>
+            <p xml:id="atvl1prolq1-d1e4518">Ad quartam, de ludificatis, respondet
+              <ref><name ref="#Augustine">beatus Augustinus</name> IV <title ref="#deTrinitate">De Trinitate</title>, capitulo 22 de parvis,</ref> dicens: <quote xml:id="atvl1prolq1-Qd1e4530">Quid
+                magnum est diabolo et angelis eius de corporeis
+                elementis per aer<supplied>i</supplied>a corpora facere quae caro miretur,
+                aut etiam occultis inspirationibus ad illudendum humanos
+                sensus fantasmata imaginum machinari quibus
+                vigilantes dormientesve decipiant vel furentes
+                exagitent.</quote> Hec <name ref="#Augustine">Augustinus</name>.</p>
+            <p xml:id="atvl1prolq1-d1e4553">In talibus igitur illusionibus
+              sive fiant machinationibus demonum, sive per artificium
+              perspective appareant in aere corpora colorata.
+              Que vere sunt aliquid in rerum natura non fit
+              visio sine obiecto, sed iudicium sensus interioris
+              fallitur, quia aliter iudicat illud esse quam sit.</p>
+            <p xml:id="atvl1prolq1-d1e4572">Ad quintam
+              respondet <ref><name ref="#Anselm">Anselmus</name> in similis</ref> ubi supra dicens quod <quote xml:id="atvl1prolq1-Qd1e4581">Si visus,
+                si affectus aliquo colore alium quicunque occurrat
+                aut nullatenus, aut minus integre suscipit; ideo
+                illum, quem prius cepit, aut solum, aut cum eo qui prius
+                occurrit renunciat. Si enim visus quantum capax est
+                coloris tantum afficitur priori colore; non potest alium simul
+                sentire colorem. Si autem minus quam colorem sentire
+                possit, priori afficitur, potest alium sentire, ut si transit
+                per aliquod corpus, velut per vitrum, quod ita sit
+                perfecte rubicundum ut omnino ipse visus afficiatur
+                eius rubore, nequit diverso simul affici colore.
+                Si autem non tam perfectum invenit ruborem qui prior
+                occurrit quantum coloris capax est quasi nondum
+                plenus, adhuc alium valet assumere colorem in<pb ed="#V" n="3-r"/><pb ed="#V" n="a"/>quantum
+                eius capacitas priore colore non est satiata.</quote>
+              Et subdit immediate: <quote xml:id="atvl1prolq1-Qd1e4617">Qui ergo hoc nescit putat visum
+                renunciare, quia omnia quae post prius assumptum colorem
+                sentit aut omnino, aut aliquatenus eiusdem sint coloris.
+                Unde contingit ut sensus interior culpam suam imponat
+                sensui exteriori.</quote> Hec <name ref="#Anselm">Anselmus</name>.</p>
+            <p xml:id="atvl1prolq1-d1e4632">Et quia habentes oculos
+              molles faciliter afficiuntur coloribus decipitur sensus
+              interior; non est tamen visio sine actuali presentia obiecti.</p>
+            <p xml:id="atvl1prolq1-d1e4639">Ad rationes simul concedo quod Deus potest facere et conservare
+              absolutum intuitive notitie, ut puta absolutum
+              visionis corrupto termino et transeunte respectu,
+              sed casu posito habens huiusmodi visionem non videret,
+              nec est implicatio contradictionis quod aliquis habeat absolutum
+              visionis formaliter in visu et non videat, ut suppono
+              ad presens, quod ex intentione declarabitur in <ref>prima
+              distinctione.</ref> Non igitur sequitur quod possit aliquid intuitive
+              cognosci corrupto termino et transeunte respectu, sicut
+              iste doctor imaginatur. Patet igitur hiis solutis quod
+              intuitiva est cognitio notitia rei in se ipsa actualiter existente.</p>
+            </div>
+          </div>
+          <div>
+            <head>Notitia abstractiva</head>
+            <p xml:id="atvl1prolq1-d1e4666">Notitia vero abstractiva est cognitio rei in eius representativo
+              creato, qualiter cognoscimus res absentes per
+              earum species, sicut docet <name ref="#Augustine">beatus Augustinus</name> II <title ref="#deTrinitate">De Trinitate</title> per totum.
+              Et quod ista diffinitio sit convertibilis patet, quia omnis
+              cognitio rei in eius representativo creato est abstractiva
+              et omnis abstractiva est cognitio rei in eius representativo
+              creato; igitur etc. Patet quod in abstractiva
+              sensus cuiusmodi est imaginatio que non potest haberi
+              sine huiusmodi representativo, sicut patet per <ref><name ref="#Averroes">Commentatorem</name>
+                <title>De somno et vigilia</title>,</ref> per totum. Et ex sensitiva idem
+              concluditur de intellectiva. Hec est expressa sententia <ref><name ref="#Augustine">beati
+                Augustini</name> II <title ref="#deTrinitate">De Trinitate</title>, capitulo 4, de magnis, vel 13, de parvis,</ref>
+              ubi sic inquit: <quote xml:id="atvl1prolq1-Qd1e4721">Quod ad corpori sensum est aliquod corpus
+                in loco, hoc est ad animi aciem similitudo corporis in
+                memoria. Et quod est aspicientis visio ad eam speciem
+                corporis ex qua sensus formatur, hoc est visio cogitantis
+                ad imaginem corporis in memoria constitutam.</quote>
+              Et capitulo sequenti dicit: <quote xml:id="atvl1prolq1-Qd1e4735">Sicut cum forma et species corpori interierit,
+                non potest ad eum voluntas sensum revocare cernentis
+                ita cum imago quam memoria gerit oblivione deleta
+                est non erit quo animo aciem formet voluntas recordando
+                retorqueat.</quote> Hec <name ref="#Augustine">Augustinus</name>.</p>
+          <!-- could add subsection here -->
+            <p xml:id="atvl1prolq1-d1e4754">Ex hiis sequuntur
+              alique propositiones.</p>
+            <p xml:id="atvl1prolq1-d1e4759">Prima est quod notitia intuitiva
+              et abstractiva possunt esse de eodem obiecto sub eadem
+              ratione formali, quia idem obiectum re et ratione potest cognosci
+              in se ipso et sic intuitive cognoscitur. Potest etiam cognosci
+              in suo representativo creato et sic abstractive nisi
+              tali repugnet propter infinitatem sic representari.</p>
+            <p xml:id="atvl1prolq1-d1e4772">Secunda est
+              quod abstractiva notitia potest haberi de actuali rei existentia,
+              quia per speciem in memoria constitutam non solum
+              attingitur quidditas, sed actualis existentia rei.Recordamur
+              enim de actualibus rebus quas vidimus, sicut
+              docet experientia.</p>
+            <p xml:id="atvl1prolq1-d1e4790">Tertia est quod notitia intuitiva
+              in ratione evidentie est universaliter perfectior abstractiva,
+              quia sicut res se habet ad esse, ita ad cognosci;
+              igitur, ubi perfectius habet esse, evidentius cognoscitur.
+              Sed perfectius habet esse in se ipsa quam in suo representativo
+              creato; ergo etc.</p>
+            <p xml:id="atvl1prolq1-d1e4803">Quarta est quod Deus ab eterno
+              non cognovit creaturas abstractive, tum quia non cognovit
+              eas in aliquo representativo creato, tum quia perfectissime
+              cognovit eas et cognitio abstractiva non est perfectissima,
+              ut patet ex propositione precedenti.</p>
+            <p xml:id="atvl1prolq1-d1e4815">Quinta est quod notitia intuitiva et abstractiva quantum ad
+              ipsarum absoluta non distinguuntur specifice, quia que distinguuntur
+              specifice distinguuntur numero, ut patet per
+              <ref><name ref="#Aristotle">Philosophum</name> V <title ref="#Metaphysics">Metaphysica</title>, capitulo de uno.</ref> Notitia vero intuitiva
+              et abstractiva quantum ad absoluta non necessario distinguuntur
+              numero. Eadem enim notitia numero non variata
+              in aliquo absoluto que nunc est intuitiva alicuius
+              obiecti potest esse abstractiva eiusdem; ergo etc.
+              <cb ed="#V" n="b"/>Assumptum probatur, quia manente eadem notitia numero
+              quantum ad eius absolutum qua nunc angelus vel homo
+              cognoscit rosam intuitive, rosa desinat esse presens intellectui
+              in se ipsa et fiat presens in eius imagine vel specie.
+              Patet quod eadem notitia numero non variata in aliquo
+              absoluto, que prius fuit intuitiva rose, nunc erit abstractiva
+              eiusdem. Et si iterum desinat esse presens
+              in eius imagine vel specie et fiat presens in se ipsa, eadem
+              notitia numero quantum ad absolutum, que fuit abstractiva
+              rose, nunc erit intuitiva eiusdem, ergo.</p>
+            <p xml:id="atvl1prolq1-d1e4863">Sexta
+              est quod notitia intuitiva et abstractiva, prout includunt
+              respectus attingentie ad obiecta, specifice distinguuntur,
+              tum quia sic earum diffinitiones convertibiles
+              et adequate sunt differentes, ut patet ex dictis,
+              tum quia sic in ratione evidentie perfectionalis adequari
+              non possunt, tum quia sic magis differunt in ratione notitie
+              quam quecumque due intuitive vel abstractive que saltem
+              numeraliter sunt distincte.</p>
+            <div>
+            <head xml:id="atvl1prolq1-Hd1e4886"><supplied>Landulphus</supplied></head> <!-- this should be a note in diplomatic transcription <name ref="#LandulphusCaracciolo">Landulphus</name> in <title>Prologo</title> I, questione 1, articulo 1. -->
+            <p xml:id="atvl1prolq1-d1e4899">Sed contra istas duas ultimas propositiones instatur, quia contra
+              primam est opinio dicentium quod hec due notitie differunt se
+              ipsis specifice, quod probatur.</p>
+            <p xml:id="atvl1prolq1-d1e4907">Primo sic: quecumque sunt infra unum
+              specie aut equantur, aut unum excedit alterum. Sed
+              iste due notitie nec equantur nec una alteram excedit
+              in eadem specie; igitur non sunt eiusdem speciei. Maior patet,
+              quia participantia eadem speciem aut participant eam equaliter,
+              aut inequaliter. Minor probatur, quia notitia abstractiva
+              et intuitiva non sunt equales, alias sicut intuitiva
+              de Deo est beatifica, ita esset et abstractiva. Nec inequales,
+              quia per intensionem una posset attingere aliam,
+              sicut minus album attingeret magis album per
+              intensionem.</p>
+            <p xml:id="atvl1prolq1-d1e4931">Secundo sic: quia que infra idem genus differunt
+              plusquam numero, differunt specie saltem. Sed he due
+              notitie infra genus cognitionis differunt plusquam numero;
+              igitur differunt specie. Maior patet. Minor probatur,
+              quia plus differunt intuitiva et abstractiva quam intuitiva
+              et intuitiva. Plus enim differunt abstractiva mea
+              de Deo et intuitiva quecumque quam intuitiva <name>beati Guillelmi</name>
+              et intuitiva <name ref="#Paul">beati Pauli</name>.</p>
+          </div>
+          <div>
+            <head xml:id="atvl1prolq1-Hd1e4958"><supplied> Bernardus Oliverii</supplied> <!-- this should be a marginal note in documentary transcription <name>Bernardus Oliverii</name> in <title>Prologo</title> I, questione 18, articulo 1. --></head>
+            <p xml:id="atvl1prolq1-d1e4964">Contra secundam est opinio dicentium absolute quod
+              hec due notitie sunt interdum eiusdem speciei, quod probatur.</p>
+            <p xml:id="atvl1prolq1-d1e4970">Primo sic: scientie specificantur ab obiectis formaliter sumptis.
+              Sed idem sub eadem ratione formali potest esse obiectum
+              notitie intuitive et abstractive; ergo interdum
+              sunt eiusdem speciei.</p>
+            <p xml:id="atvl1prolq1-d1e4980">Preterea, si notitia intuitiva et
+              abstractiva distinguerentur specifice, notitia intuitiva
+              quam habet angelus de vilissimo obiecto esset nobilior
+              secundum speciem cognitione abstractiva quam habet de Deo,
+              quod non est verum. Consequentia probatur, quia quandocumque due
+              differentie, quarum una perfectior est altera, dividunt
+              aliquod commune, omne contentum sub perfectiorem nobilius
+              quocumque contento sub ignobiliori. Patet de corporeo
+              et incorporeo et similibus. Sed stante hypostasi
+              intuitivum et abstractivum sunt due differentie dividentes
+              notitiam in communi, quia omnis notitia est intuitiva
+              vel abstractiva et intuitiva est nobilior abstractiva;
+              ergo etc.</p>
+            <p xml:id="atvl1prolq1-d1e5009">Preterea, si intuitivum et abstractivum essent
+              differentie esentiales scientie, practicum et speculativum
+              non essent differentie essentiales, quod tamen est falsum. Consequentia
+              probatur, quia vel practicum et speculativum
+              essent differentie universaliores aut minus universales,
+              vel equales. Non equales, quia vel essent eedem, vel
+              ex opposito condistincte. Non eedem, quia quelibet istarum
+              potest reperiri sine intuitiva. Nec opposite, quia non possent
+              de eodem predicari, quod tamen est falsum. Nec universaliores,
+              quia differentie minus universales semper excludunt unam de differentiis universalioribus.
+              Patet de animato et inanimato, que totaliter exclu<pb ed="#V" n="3-v"/><cb ed="#V" n="a"/>dunt
+              incorporeum. Intuitivum autem et abstractivum dicuntur
+              de scientia practica et speculativa. Nec sunt minus universales,
+              quia per eadem rationem practicum et speculativum
+              non dicerentur nisi de intuitivo tantum vel abstractivo,
+              quod non est verum.</p>
+            <p xml:id="atvl1prolq1-d1e5051">Preterea, si abstractivum et intuitivum
+              inducerent differentiam specificam in notitiis, intuitiva
+              sensitiva nostra de accidente et intuitiva quam
+              habet angelus de homine vel alio angelo magis convenirent
+              quam intuitiva et abstractiva quas habet idem
+              angelus de eodem homine vel de eodem angelo. Quod tamen est
+              falsum, quia visio corporalis magis differt a cognitione
+              angeli quacumque quam una notitia angeli differat ab
+              alia. Consequentia patet, quia que differunt priori differentia,
+              magis differunt quam que differunt posteriori.</p>
+            <p xml:id="atvl1prolq1-d1e5073">Istis tamen obstantibus non videtur posse concedi sine
+              distinctione quod iste due notitie sint idem vel distinguantur
+              specifice, quia, licet sint eiusdem speciei quantum
+              ad absoluta, distinguuntur tamen specifice prout includunt
+              respectus attingentie ad obiecta; nec rationes
+              istarum opiniorum convincunt.</p>
+          </div>
+          <div>
+            <head xml:id="atvl1prolq1-Hd1e5091"><supplied>Ad rationes Landulphi</supplied></head>
+            <!-- feels like note or heading<p>Ad rationes <name ref="#LandulphusCaracciolo">Landulphi</name>.</p> -->
+            <p xml:id="atvl1prolq1-d1e5097">Ad primum igitur prime opinionis dico quod iste due notitie
+              quantum ad absoluta possunt equari sub eadem
+              specie, quia eadem notitia numero non variata in aliquo
+              absoluto potest esse intuitiva et abstractiva eiusdem obiecti
+              in alio et alio tempore, ut patet ex quinta propositione.
+              Et quando dicitur quod tunc abstractiva de Deo esset beatifica
+              sicut et intuitiva, potest uno modo dici quod ista de Deo supponit
+              quod notitia abstractiva possit haberi de Deo secundum proprium
+              eius conceptum, quod non est verum, prout in sequentibus
+              apparebit.</p>
+            <p xml:id="atvl1prolq1-d1e5120">Potest ulterius dici secundo, si concedatur
+              quod talis notitia possit haberi de Deo, quod ista consequentia
+              nulla est: intuitiva et abstractiva equantur
+              sub eadem specie quantum ad earum absoluta, igitur, si una
+              earum est beatifica, et altera, quia notitia intuitiva
+              non beatificat ratione sui absoluti precise, sed prout includit
+              respectum attingentie ad obiectum. Igitur, si absolutum
+              notitie qua nunc beatus cognoscit Deum intuitive
+              poneretur in lapide, lapis intuitive esset beatus, quod est impossibile.</p>
+            <p xml:id="atvl1prolq1-d1e5140">Ad secundum patet quod iste due
+              notitie quantum ad earum absoluta non differunt plusquam
+              numero. Et quando dicitur quod plus differunt quam due intuitive,
+              si intelligatur quantum ad absoluta, non est verum,
+              quia eadem notitia numero non variata quantum ad absolutum
+              potest esse intuitiva et abstractiva, ut patet
+              ex dictis.</p>
+          </div>
+          <div>
+            <head xml:id="atvl1prolq1-Hd1e5159"><supplied>Ad rationes Bernardi</supplied></head>
+            <!-- feels like this is a heading or marginal note <p>Ad rationes <name>Bernardi</name>.</p> -->
+            <p xml:id="atvl1prolq1-d1e5165">Ad primum vero secunde opinionis dico quod, licet scientie specificentur
+              et per consequens distinguantur per sua obiecta,
+              non tamen quecumque notitie, sicut patet de fide, opinione, et scientia,
+              que distinguuntur per media non per obiecta. Et in
+              talibus ex unitate obiecti non probatur unitas notitie.
+              Sic est autem in proposito, quia notitia intuitiva et abstractiva
+              non distinguuntur per obiecta, sed per modum tendendi
+              in obiectum, quia intuitiva tendit in obiectum ut presens est
+              in se ipso, abstractiva vero ut est presens in suo representativo
+              creato. Et ulterius ista ratio videtur imaginari quod
+              omnis notitia intuitiva et abstractiva sit scientifica,
+              aliter minor non caderet sub maiori, quod tamen est falsum,
+              quia aliqua notitia sensitiva est intutiva et aliqua
+              abstractiva, cum tamen nulla sit scientifica. Item, non
+              omnis notitia est scientifica et tamen omnis notitia per eum in
+              secunda ratione est intuitiva vel abstractiva; igitur, non omnis
+              notitia intuitiva vel abstractiva est scientifica.</p>
+            <p xml:id="atvl1prolq1-d1e5202">Ad secundum: si ratio concluderet, probaret quod omnis scientia quam
+              habet homo de vilissimo obiecto esset simpliciter nobilior opinione
+              quam habet de Deo, quod non est minus inconveniens eo quod
+              assumitur, cum magis desideremus scire modicum de
+              rebus incorruptibilibus et eternis etiam si probabiliter
+              illud sciamus quam reliqua que sunt hic apud nos et
+              cum certitudine apud <name ref="#Aristotle">Philosophum</name>. Dicendum ergo quod una noti<cb ed="#V" n="b"/>tia
+              potest esse nobilior altera ratione obiecti vel ratione evidentie
+              ex <ref>Prologo <title>De anima</title>.</ref> Et conceditur quod quecumque intuitiva,
+              prout includit respectum attingentie ad obiectum
+              sicut nunc loquimur, est perfectior qualibet abstractiva
+              in ratione evidentie, sicut quelibet scientia quacumque opinione,
+              non autem ratione subiecti vel obiecti. In ratione etiam
+              assumitur unum falsum, quia non omnis notitia est intuitiva vel
+              abstractiva, immo est dare 3 et 4 genus ex distinctione
+              data.</p>
+            <p xml:id="atvl1prolq1-d1e5247">Ad tertium: si ratio esset bona, demonstraret quod, si finitum
+              et infinitum dividunt ens per immediata, quod absolutum
+              et respectivum non dividunt ipsum, quod non est verum. Consequentia
+              deducitur sicut sua. Dicendum ergo quod iste differentie
+              sunt equales. Et quando dicitur vel eedem vel opposite,
+              nec hoc, nec illud, sed disparate et ideo non repugnat
+              eis de eodem predicari, sicut patet de absoluto
+              et respectivo finito et infinito respectu entis.</p>
+            <p xml:id="atvl1prolq1-d1e5266">Ad
+              quartum: si forma esset bona, sequeretur quod quecumque duo
+              absoluta magis convenirent quam quecumque duo, quorum
+              unum sit absolutum et aliud respectivum, quia talia differunt
+              priori differentia, quod tamen est falsum, aliter Deus
+              et homo magis convenirent quam respectus hominis et homo,
+              immo quam paternitas et essentia in divinis. Dicendum ergo
+              quod notitia intuitiva sensitiva quam habemus de
+              accidente, prout includit respectum attingentie ad
+              obiectum intuitive cognitum, magis convenit cum intuitiva
+              angeli quacumque in ratione evidentie quam abstractiva
+              et intuitiva angeli, non tamen simpliciter. Patet igitur his
+              solutis descriptio abstractive notitie cum suis correlariis.</p>
+          </div>
+          </div>
+          <div>
+            <head>Notitia superintuitiva</head>
+            <p xml:id="atvl1prolq1-nvsssd">Notitia vero superintuitiva est cognitio rei
+              in eo in quo perfectius habet esse et cognosci quam in se
+              ipsa, qualis est cognitio creaturarum in verbo, sicut docet
+              <ref><name ref="#Augustine">beatus Augustinus</name> IV <title ref="#DeGenesiAdLitteram">Super Genesim ad Litteram</title>, capitulo 5.</ref> Et quod huiusmodi
+              notitia, prout includit respectum attingentie ad
+              obiectum ab intuitiva et abstractiva, specifice sit distincta.</p>
+  
+            <p xml:id="atvl1prolq1-d1e5318">Patet primo, quia non est cognitio rei in se ipsa per
+              <name ref="#Augustine">Augustinum</name>, ubi supra, igitur, non est inuitiva per locum a diffinitone,
+              nec est cognitio rei in suo representativo creato;
+              igitur, non est abstractiva.</p>
+            <p xml:id="atvl1prolq1-d1e5329">Secundo, quia non possunt in ratione
+              evidentie perfectionaliter adequari, quia cognitio
+              rerum in verbo est simpliciter perfectior cognitione ipsarum
+              in proprio genere, sive talis sit abstractiva, sive
+              intuitiva, <name ref="#Augustine">beato Augustino</name>, ubi supra, dicente <quote xml:id="atvl1prolq1-Qd1e5343">Multum quippe
+                interest inter cognitionem rei cuiuslibet in Verbo Dei
+                et cognitionem eius in natura eius, ut illud merito ad diem
+                pertineat, hoc autem ad vesperam. In comparatione enim
+                lucis illius que in verbo Dei est conspicitur omnis cognitio
+                qua creaturam quamlibet in se ipsam novimus non immerito
+                nox dici potest.</quote> Hec <name ref="#Augustine">Augustinus</name>.</p>
+            <p xml:id="atvl1prolq1-d1e5363">Tertio, quia magis differat
+              a qualibet istarum in ratione notitie quam due intuitive vel
+              due abstractive quecumque, immo magis quam intuitiva de
+              creatura differunt ab abstractiva.</p>
+            <p xml:id="atvl1prolq1-d1e5372">Quarto, quia aliter
+              attingit obiectum cognitum quam intuitiva vel abstractiva.
+              Intuitiva namque attingit ipsum ut habet esse realiter
+              et actualiter in se ipso, abstractiva vero ut habet esse
+              in suo representativo creato. Hoc autem, ut dicitur, est visio
+              in suo representativo supereminenti et eterno. Si
+              quis tamen huiusmodi notitiam voluerit vocare superintuitivam
+              non curo, dum concedat quod quedam est notitia rei
+              in se ipsa, quedam in suo representativo creato, ut puta
+              in eius imagine vel specie, quedam in suo representativo
+              supereminenti et eterno in quo perfectius est
+              creatura et cognoscitur quam in se ipsa. Non enim intendo disputare
+              de nominibus, sed de rebus.</p>
+            <p xml:id="atvl1prolq1-ptepdi">Primam tamen ego
+              voco intuitivam, secundam abstractivam, tertiam superintuitivam,
+              quia perfectior est quam sit notitia in se ipsa que
+              sola proprie dicitur intuitiva.</p>
+            <div>
+              <head xml:id="atvl1prolq1-Hd1e5410"><supplied>Aliquae propositiones</supplied></head>
+              <p xml:id="atvl1prolq1-d1e5414">Ex his sequuntur alique
+                propositiones.</p>
+  
+              <p xml:id="atvl1prolq1-d1e5419">Prima est quod notitia superintuitiva
+                non potest haberi de Deo, quia cum sit id quo maius
+                cogitari non potest, in alio non potest perfectius esse nec
+                <pb ed="#V" n="4-r"/>
+                <cb ed="#V" n="a"/>
+                cognosci quam in se ipso.</p>
+            <p xml:id="atvl1prolq1-d1e5428">Secunda est quod huiusmodi notitia
+              potest haberi de creatura quocumque ente possibili,
+              quia creature antequam producerentur in esse nondum erant, et
+              tamen cognoscebantur in Verbo Dei, secundum <ref><name ref="#Augustine">beatum Augustinum</name> ubi supra,
+              capitulo 3,</ref> ubi perfectius habent esse quam in se ipsis, sicut
+              deducit <ref><name ref="#Anselm">Anselmus</name> <title ref="#Monologion">Monologion</title>.</ref></p>
+            <p xml:id="atvl1prolq1-d1e5454">Tertia est quod Deus ab eterno
+              cognovit creaturas superintuitive quia in se ipso, per
+              <name ref="#Augustine">Augustinum</name>, ubi supra.</p>
+            <p xml:id="atvl1prolq1-d1e5464">Quarta est quod sola notitia superintuitiva
+              de creatura est matutina, quia sola talis est perfectissima.</p>
+            <p xml:id="atvl1prolq1-d1e5471">Quinta est quod notitia intuitiva et superintuitiva
+              et abstractiva possunt esse de eodem obiecto sub
+              eadem ratione formali, quia illud idem est re et ratione quod potest cognosci
+              in se ipso et sic intuitive, et in suo representativo
+              creato et sic abstractive potest cognosci in Verbo Dei,
+              et sic superintuitive.</p>
+            <p xml:id="atvl1prolq1-d1e5484">Sexta est quod, licet notitia superintuitiva,
+              intuitiva, abstractiva, prout includunt respectus
+              attingentie ad obiecta, specifice distinguantur, ut
+              patet ex dictis, tamen quantum ad earum absoluta non
+              distinguuntur specifice, quia eadem notitia numero non variata
+              ex aliquo absoluto potest esse superintuitiva, intuitiva,
+              et abstractiva eiusdem obiecti in alio et alio
+              tempore. Probatur manifeste eadem notitia numero quantum
+              ad eius absolutum qua beatus nunc cognoscit rosam
+              in verbo et sic superintuitive; Deus potest facere quod rosa
+              desinat esse presens sibi in verbo et fiat presens in
+              se ipsa. Quo facto, patet quod eadem notitia numero non
+              variata in aliquo absoluto, que prius fuit superintuitiva
+              rose, nunc erit intuitiva eiusdem. Et si iterum
+              desinat esse presens in se ipsa et fiat presens in eius imagine
+              vel specie eadem notitia numero quantum ad absolutum
+              qua fuit intuitiva rose, erit nunc abstractiva etc.</p>
+          </div>
+          <div>
+            <head xml:id="atvl1prolq1-Hd1e5525">Opinio communis</head>
+            <p xml:id="atvl1prolq1-d1e5528">Sed contra istum tertium genus notitie est communis opinio que
+              ponit notitiam creaturarum in verbo esse intuitivam, pro
+              qua arguitur.</p>
+            <p xml:id="atvl1prolq1-d1e5535">Primo sic: Deus cognovit ab eterno omnes creaturas
+              in se ipso scientia visionis. Sed scientia visionis est idem
+              quod notitia intuitiva, quia intuitio, secundum <name ref="#HughOfStVictor">Hugonem</name>, nihil aliud
+              est quam inspectio et visio etc.</p>
+            <p xml:id="atvl1prolq1-d1e5547">Preterea, Deus cognoscit
+              creaturas factas intuitive, igitur et fiendas. Consequentia
+              patet, quia non aliter cognoscit facta quam fienda,
+              secundum <name ref="#Augustine">Augustinum</name>, sed creaturas fiendas cognoscit in se ipso,
+              igitur et factas et talis notitia erit intuitiva.</p>
+            <p xml:id="atvl1prolq1-d1e5561">Preterea,
+              omnis notitia Dei est perfectissima. Sola notitia intuitiva
+              est perfectissima, cum ipsa sola sit beatifica; igitur omnis
+              notitia Dei est beatifica, et per consequens notitia que
+              cognoscit creaturas in Verbo erit intuitiva.</p>
+            <p xml:id="atvl1prolq1-d1e5573">Preterea,
+              eadem notitia numero Deus cognoscit Verbum et
+              creaturas in Verbo. Sed notitia qua cognoscit verbum
+              est intuitiva; igitur et notitia qua cognoscit creaturas
+              in Verbo erit intuitiva.</p>
+            <p xml:id="atvl1prolq1-d1e5584">Et confirmatur, quia hec notitia
+              demonstrata notitia qua Deus cognoscit Verbum
+              est intuitiva. Hec notitia est illa qua cognoscit creaturas
+              in Verbo; igitur notitia que cognoscit creaturas in Verbo
+              erit intuitiva.</p>
+          </div>
+          <div>
+            <head xml:id="atvl1prolq1-Hd1e5598">Responsiones</head>
+            <p xml:id="atvl1prolq1-d1e5601">Sed ista non obstant.</p>
+            <p xml:id="atvl1prolq1-d1e5604">Ad primum
+              igitur dico quod, licet perfectissima notitia possibilis haberi
+              de Deo sit notitia eius intuitiva, quia non potest in alio
+              perfectius esse nec cognosci quam in se ipso, perfectissima
+              tamen notitia que potest haberi de creatura non est intuitiva
+              eiusdem, cum talis sit notitia rei in se ipsa et
+              creatura in alio perfectius possit cognosci quam sit in
+              se ipsa. His premissis dicendum ad maiorem, quia, licet scientia
+              visionis cum sit perfectissima sit idem quod notitia intuitiva
+              illius cuius intuitiva est perfectissima, non tamen illius
+              cuius notitia intuitiva non est perfectissima, sicut est
+              in proposito. Et ad probationem dicendum quod intuitio nihil
+              aliud est quam inspectio et visio rei in se ipsa, non in alio.</p>
+            <p xml:id="atvl1prolq1-d1e5633">Ad secundum: si concedatur quod Deus cognoscat aliquid
+              extra se, ut multis et magnis doctoribus videtur, et sic
+              creaturam factam in se ipsa et per consequens intuitive,
+              <cb ed="#V" n="b"/>
+              neganda est consequentia. Nec propter hoc aliter cognoscit facta
+              quam fienda si ly <mentioned>aliter</mentioned> determinet cognitionem, quia eadem
+              cognitione invariabili qua cognoscit creaturam
+              in Verbo quando non est cognoscit eam in se ipsa quando est, licet
+              cognoscat aliter facta quam fienda si ly <mentioned>aliter</mentioned> determinet
+              creaturam qua cognoscit creaturam factam esse in se ipsa
+              quam fiendam cognoscebat in se ipsa non esse. Si vero dicatur
+              quod Deus non cognoscit aliquid extra se, sed in se ipso cognoscit
+              omnia, quod videtur rationabiliter dictum, dicendum quod notitia
+              Dei est perfectissima et notitia creaturarum in proprio
+              genere non est perfectissima, ut patet per <name ref="#Augustine">beatum Augustinum</name>
+              pluries allegatum. Negandum est antecedens, de hoc tamen alias.</p>
+            <p xml:id="atvl1prolq1-d1e5675">Ad tertium patet quid dicendum ex solutione primi, quia,
+              licet sola notitia intuitiva de Deo sit perfectissima cum
+              ipsa sola sit beatifica, notitia tamen intuitiva de creatura
+              non est perfectissima, et ideo non sequitur quod omnis notitia
+              Dei sit intuitiva, sed quod notitia Dei de se ipso sit intuitiva,
+              quod conceditur.</p>
+            <p xml:id="atvl1prolq1-d1e5690">Ad quartum dicendum quod non est aliquid inconveniens quod eadem notitia numero sit intuitiva unius
+              et non sit intuitiva alterius, sed sic est implicatio quod eadem
+              notitia sit intuitiva et non sit intuitiva respectu
+              eiusdem. Notitia igitur qua Deus cognoscit Verbum et creaturas
+              in Verbo est intuitiva Verbi, quia ipsum cognoscit in
+              se ipso, sed non est intuitiva creature, quia non cognoscit ipsam
+              in se ipsa, sed in Verbo. Et ad confirmationem minor est concedenda
+              uno addito, videlicet quod hec notitia demonstrata
+              notitia qua Deus cognoscit Verbum est intuitiva Verbi,
+              et tunc concedo quod sequitur gratia forme, quod notitia
+              qua Deus cognoscit creaturas in Verbo est intuitiva
+              Verbi, quod conceditur. Non tamen sequitur quod sit intuitiva creature.
+              Et est simile ac si dicatur hec notitia, demonstrata
+              notitia qua Deus cognoscit Verbum est notitia rei
+              in se ipsa, quia notitia Verbi quod cognoscitur in se ipso. Sed
+              hec notitia est illa qua cognoscit creaturas in Verbo;
+              igitur notitia qua cognoscit creaturam in Verbo est notitia
+              creature in se ipsa. Patet quod illatio est nulla. Patet igitur
+              ex predictis quid sit superintuitiva notitia.</p>
+          </div>
+          </div>
+          <div>
+            <head>Notitia discursiva</head>
+            <p xml:id="atvl1prolq1-nvdssd">Notitia
+              vero discursiva sive deductiva est cognitio rei
+              per discursum rationis ex alterius cognitione deducta.
+              Sic Deum ex creaturis aliqualiter cognoscere possimus,
+              sicut docet <ref><name ref="#Augustine">beatus Augustinus</name> XV <title ref="#deTrinitate">De trinitate</title>, capitulo 2, de magnis
+                vel 3, de parvis.</ref> Et quod huiusmodi notitia, prout
+              includit respectum attingentie ad rem deductive cognitam
+              a superintuitiva, intuitiva, abstractiva, specifice
+              sit distincta, probatur.</p>
+            <p xml:id="atvl1prolq1-d1e5761">Primo, quia non est cognitio rei
+              in verbo, igitur non est superintuitiva. Nec in se ipsa, igitur
+              non est intuitiva. Nec in eius representativo creato, igitur
+              non abstractiva.</p>
+            <p xml:id="atvl1prolq1-d1e5772">Secundo, quia ille notitie specifice sunt
+              distincte quarum obiecta primo formaliter distinguuntur. 
+              Hoc patet, quia, licet regulariter non semper sit verum quod distincti
+              habitus vel notitie terminetur ad distincta obiecta
+              formaliter, sicut patet de opinione et scientia de intuitiva et abstractiva
+              que possunt haberi de eodem obiecto sub eadem
+              ratione formali, ut patet ex supradictis, conversa tamen eius
+              semper est vera, videlicet quod distinctorum obiectorum formaliter
+              sunt distincti habitus vel notitie, dicente <ref><name ref="#Aristotle">Aristotele</name>
+                II <title ref="#deAnima">De anima</title>,</ref> quod potentie distinguuntur per actus et actus
+              per obiecta. Sed sic est in proposito, quia obiectum primum
+              superintuitive est res cognita ut presens intellectui in eo
+              in quo perfectius habet esse quam in se ipsa. Obiectum autem intuitive
+              est res cognita ut presens intellectui in se ipsa. Obiectum
+              vero abstractive est res cognita ut presens intellectui
+              in eius imagine vel specie. Sed obiectum primum
+              deductive non est res deductive cognita, sed illa ex
+              cuius cognitione per discursus rationis deducitur eius cognitio,
+              ut patet ex dictis.</p>
+            <p xml:id="atvl1prolq1-d1e5822">Tertio, quia notitia deductiva
+              reperitur sine intuitiva, abstractiva, et superintuitiva,
+              igitur non est aliqua illarum. Consequentia patet, quia nulla
+              res potest esse sine se ipsa. Antecedens probatur, quia de unitate et
+              <pb ed="#V" n="4-v"/>
+              <cb ed="#V" n="a"/>simplicitate Dei habetur cognitio deductiva de facto,
+              per <name ref="#Augustine">beatum Augustinum</name>, ubi supra et per <ref><name ref="#Aristotle">Aristotelem</name> XII <title ref="#Metaphysics">Metaphysice</title>
+              2;</ref> nam de hoc non habetur intuitiva, quia nec unitatem nec
+              simplicitatem  Dei cognoscimus in se ipsis; nec abstractiva,
+              quia non in eorum specie vel imagine; nec superintuitiva,
+              ut patet; ergo etc.</p>
+            <div>
+            <head xml:id="atvl1prolq1-Hd1e5859"><supplied>Aliquae propositiones</supplied></head>
+            <p xml:id="atvl1prolq1-d1e5863">Ex his videntur sequi alique
+              propositiones.</p>
+            <p xml:id="atvl1prolq1-d1e5868">Prima est quod sola notitia deductiva
+              sive discursiva est scientifica scientia proprie dicta, quia
+              omnis notitia per discursum rationis ex alterius cognitione deducta
+              est deductiva sive discursiva per locum a diffinitione.
+              Sed omnis notitia scientifica scientia proprie dicta est huiusmodi,
+              quia notitia conclusionis ex notitia principiorum per
+              discursum rationis habetur; ergo etc.</p>
+            <p xml:id="atvl1prolq1-d1e5884">Secunda est quod notitia
+              deductiva deducta ex cognitione earum superintuitiva
+              est certior quam sit deducta ex cognitione earum intuitiva,
+              et deducta ex intuitiva est certior quam deducta tantum
+              ex abstractiva, quia notitia conclusionis ex notitia principiorum
+              mensuratur. Et notitia creaturarum superintuitiva
+              certior est et perfectior intuitiva, et intuitiva quam
+              abstractiva; igitur etc.</p>
+            <p xml:id="atvl1prolq1-d1e5902">Tertia est quod notitia abstractiva
+              in ratione evidentie perfectior est quam sit deductiva
+              sive discursiva deducta ex cognitione aliorum abstractiva,
+              quia notitia principiorum ceteris paribus est evidentior
+              notitia conclusionis, dicente <ref><name ref="#Aristotle">Aristotele</name> I <title ref="#PosteriorAnalytics">Posteriorum</title>:</ref> <quote xml:id="atvl1prolq1-Qd1e5921">Propter
+                quod unumquodque tale, et illud magis.</quote></p>
+            <p xml:id="atvl1prolq1-d1e5927">Quarta est quod
+              notitia deductiva sive discursiva deducta ex cognitione
+              alterius intuitiva certior est et evidentior abstractiva
+              de eodem, quia intantum intuitiva ex qua ponitur
+              deduci perfectior est abstractiva quod nisi sit defectus in deducendo
+              habens ipsum et minus potest decipi.</p>
+            <p xml:id="atvl1prolq1-d1e5942">Quinta est
+              quod notitia deductiva sive discursiva deducta ex cognitione
+              creaturarum superintuitiva certior est abstractiva
+              et intuitiva ipsarum, quia notitia superintuitiva creaturarum
+              magis excedit intuitivam earum quam intuitiva excedat abstractivam.
+              Sed propter istum excessum notitia discursiva deducta
+              ex cognitione intuitiva est certior abstractiva de eodem,
+              ex propositione precedenti; ergo etc.</p>
+          </div>
+          <div>
+            <head xml:id="atvl1prolq1-Hd1e5963">Opinio communis</head>
+            <p xml:id="atvl1prolq1-d1e5966">Sed contra istud quartum genus notitie sicut et contra tertium
+              est communis opinio que solum dividit notitiam in abstractivam
+              et intuitivam, pro qua potest ad propositum argui.</p>
+            <p xml:id="atvl1prolq1-d1e5973">Primo
+              sic: nulla res cognoscitur cognito eo quod est omnino aliud
+              separatum ab ea, igitur notitia deductiva est impossibilis.
+              Consequentia patet, quia notitia deductiva ponitur cognitio
+              rei ex alterius cognitione deducta. Antecedens est <ref><name ref="#Aristotle">Aristotelis</name>
+                <unclear>III</unclear> <title ref="#Metaphysics">Metaphysice</title>,</ref> qui arguens contra ideas <name ref="#Plato">Platonis</name> ex ipso
+              tamquam ex infallibili veritate ostendit quod, si homo esset separatus,
+              qui terminaret aspectum intellectus non cognosceretur
+              particularia; ergo etc.</p>
+            <p xml:id="atvl1prolq1-d1e6004">Preterea, posito
+              quod notitia deductiva sit possibilis, adhuc enim videtur distingui
+              ab intuitiva et abstractiva, quia cognitione deductiva
+              deducta ex cognitione alterius abstractiva non est aliud
+              quam due cognitiones abstractive quarum una deducitur
+              ex alia. Et deducta ex intuitiva non est aliud quam due
+              intuitive quarum una deducitur ex alia, igitur ab ipsis distincta.</p>
+            <p xml:id="atvl1prolq1-d1e6022">Preterea, posito quod sit possibilis et distincta,
+              non videtur quod ipsa sola sit scientifica, quia, si sic, sequitur
+              quod nec Deus nec angelus habeant scientiam de rebus,
+              quod non est verum. Consequentia patet, quia intellectus divinus non
+              ponitur discursivus, nec etiam angelicus.</p>
+            <p xml:id="atvl1prolq1-d1e6034">Et confirmatur,
+              quia ex imperfectione intellectus nostri est quod discurrat a magis
+              notis ad minus nota, igitur repugnat saltem divino
+              intellectui.</p>
+            <p xml:id="atvl1prolq1-d1e6043">Preterea, si sola notitia deductiva sit
+              scientifica scientia proprie dicta, non solum nec Deus nec
+              angelus, sed nec aliquis in patria haberet de aliquo
+              scientiam proprie dictam, quod est evidenter falsum. Consequentia probatur,
+              quia ubi non est mentis ratiocinatio, ibi non est notitia deductiva,
+              nec per consequens scientifica scientia proprie dicta
+              stante supposito. Sed in patria non est mentis ratiocinatio,
+              dicente <ref><name ref="#Augustine">beato Augustino</name> XV <title ref="#deTrinitate">De trinitate</title>, capitulo 71, de parvis,</ref> quod <quote xml:id="atvl1prolq1-Qd1e6068">illa feli<cb ed="#V" n="b"/>citate
+                veritatem sine ulla difficultate videbimus, nec
+                aliquid queremus mente rationantes, sed contemplantes
+                cernemus;</quote> ergo etc.</p>
+          </div>
+          <div>
+            <head xml:id="atvl1prolq1-Hd1e6082"><supplied>Responsiones</supplied></head>
+            <p xml:id="atvl1prolq1-d1e6086">Ad primum istorum dico quod antecedens
+              non est verum, aliter periret notitia creaturarum in
+              verbo, quod est contra veritatem fidei et doctrinam <name ref="#Augustine">beati Augustini</name>.
+              Et ad probationem dico quod <name ref="#Aristotle">Aristoteles</name> non vult probare nisi
+              quod notitia idearum, quas <name ref="#Plato">Plato</name> ponebat, non poterat
+              nos deducere in notitia singularium sub propriis rationibus,
+              quia cognito universali separato a singularibus non cognoscuntur
+              singularia sub propriis rationibus. Ex hoc tamen non
+              sequitur quod ex notitia unius rei non possimus in notitiam
+              alterius per discursum rationis deduci.</p>
+            <p xml:id="atvl1prolq1-d1e6118">Ad secundum dico
+              quod quando notitia deductiva deducitur ex cognitione alterius
+              abstractiva non sunt due cognitiones abstractive
+              nec quando deducitur ex cognitione alterius intuitiva
+              sunt due cognitiones intuitive, quinimmo possibile
+              est quod in intellectu sint due notitie intuitive vel abstractive
+              duorum terminorum simplicium quod nihil cognoscetur
+              deductive, sicut patet si intellectus cognoscat
+              hominem et asinum intuitive vel abstractive sic tamen quod in
+              cognitio unius non deducatur ex alio tamquam ex medio
+              cognito nec econverso. Et, si contingat quod unum istorum cognoscatur
+              per aliud, alterum autem per se et immediate intuitive
+              vel abstractive, tunc simul erunt in cognoscente
+              due notitie specifice distincte, scilicet deductiva et intuitiva
+              vel deductiva et abstractiva.</p>
+            <p xml:id="atvl1prolq1-d1e6151">Ad tertium negatur
+              consequentia. Et ad probationem dico quod, licet Deus vel angelus
+              non discurrant secundum ordinem durationis, discurrunt tamen secundum
+              ordinem nature. Scit enim angelus ac etiam Deus quod homo est
+              risibilis quia animal rationale, et quod triangulus habet tres
+              <supplied>anguli</supplied> quia figura plana tribus lineis contenta, quia ita est in re.
+              Et hoc sufficit ad hoc quod Deus et angelus habeant de rebus
+              notitiam deductivam et scientiam proprie dictam, quia de
+              ratione istorum non est discursus demonstrationis, sed
+              nature tantum.</p>
+            <p xml:id="atvl1prolq1-d1e6175">Et ad confirmationem concedo quod Deus
+              non discurrit a magis ad minus, quia omnia cognoscit infinite.
+              Ex hoc tamen non sequitur qui discurrat discursu sufficienti
+              ad notitiam deductivam et scientiam proprie dictam,
+              ut patet ex dictis.</p>
+            <p xml:id="atvl1prolq1-d1e6187">Ad quartum etiam negatur consequentia.
+              Nec probatio valet, quia in patria est mentis ratiocinatio, sicut
+              est discursus secundum ordinem nature, quicquid sit de mentis
+              ratiocinatione secundum ordinem durationis nec oppositum
+              istius asserit <name ref="#Augustine">Augustinus</name>. Et hec de primo.</p>
+          </div>
+        </div>
+        </div>
+        <div>
+          <head xml:id="atvl1prolq1-Hd1e6205">Secundus articulus</head>
+          <p xml:id="atvl1prolq1-d1e6208">Quantum ad secundum pono quattuor conclusiones.</p>
+          <div>
+            <head xml:id="atvl1prolq1-Hd1e6213">Conclusio prima</head>
+            <p xml:id="atvl1prolq1-d1e6216">Prima
+              est quod abstractiva notitia deitatis secundum proprium eius
+              conceptum non est viatori nec alteri communicabilis propter implicationem
+              contradictionis. Advertendum tamen quod huiusmodi
+              notitia non est incompossibilis viatori ratione status vie,
+              ut quibusdam videtur, quia non repugnat viatori inquantum
+              viator evidens notitia deitatis, ut patet ex supradictis.
+              Nec est ei incompossibilis quia non potest haberi notitia
+              de divina essentia quin habeat de eius existentia,
+              ut videtur aliis, quia abstractiva notitia potest haberi
+              de actuali rei existentia etiam ex supradictis, sed est ei et
+              cuilibet alteri incompossibilis precise quia abstractiva notitia
+              est cognitio rei in eius representativo creato, utputa
+              in eius imagine vel specie. Repugnat autem deitati secundum
+              proprium eius conceptum in aliquo creato representari. Potest
+              igitur una generalis ratio sic formari cuius non est possibile
+              aliquod representativum creatum eius non est possibilis abstractiva
+              notitia propter implicationem contradictionis. Sed Dei non
+              est possibile huiusmodi representativum secundum proprium eius conceptum;
+              ergo etc. Maior patet per diffinitionem abstractive. Minor
+              vero a qua dependet tota deductio probatur dupliciter in
+              genere.</p>
+            <p xml:id="atvl1prolq1-d1e6219">Primo: si ponatur, ut a multis conceditur etiam oppositum opinativum,
+              quod omni creature repugnet infinitas perfectionis propter
+              implicationem contradictionis et ostendo quod, si aliquid creatum
+              sit representativum deitatis secundum proprium eius conceptum, nec est
+              <pb ed="#V" n="5-r"/>
+              <cb ed="#V" n="a"/>
+              ipsum esse perfecte naturaliter infinitum, quod repugnet supposito.</p>
+            <p xml:id="atvl1prolq1-d1e6222">Primo sic: omne representativum quod suppleret propriam causalitatem
+              in ratione movendi vel terminandi alicuius obiecti
+              quod excedit omne aliud in infinitum est perfectionabiliter infinitum.
+              Tale est omne representativum deitatis secundum proprium eius conceptum,
+              ut patet; ergo etc. Maior probatur, quia sic supplere
+              propriam causalitatem alicuius obiecti perfectionabiliter in
+              aliquo certo gradu est alicuius perfectionis et sic regulariter
+              ascendendo, igitur sic supplere propriam causalitatem obiecti
+              perfectionabiliter infiniti est infinite perfectionis.</p>
+            <p xml:id="atvl1prolq1-d1e6225">Secundo
+              sic: sequitur quod demonstrato quocumque hoc est representativum
+              universitatis creaturarum existentium et possibilium secundum proprios
+              conceptus earum, igitur est perfectionabiliter infinitum. Ista
+              consequentia patet, quia representativum deitatis secundum proprium eius conceptum
+              non est minoris, immo maioris perfectionis quam representativum
+              universitatis creaturarum existentium. Si poneret utrumque,
+              antecedens probatur, quia ubicumque pluralitas concludit maiorem
+              perfectionem quam paucitas, ibi infinitas numeralis concludit
+              infinitatem perfectionis. Exemplum: quia posse ferre 10 concludit
+              maiorem perfectionem virtutis motive quam posse ferre 5.
+              Idcirco posse ferre infinita concludit infinitam virtutem
+              motivam. Sed simul representare duas creaturas secundum proprios
+              conceptus earum concludit in representativo maiorem perfectionem
+              quam representare alteram precise earum; igitur sic
+              representare infinitas sicut sunt entes et possibiles concludit
+              infinitatem perfectionis.</p>
+            <p xml:id="atvl1prolq1-d1e6229">Tertio sic: representativo
+              deitatis secundum proprium eius conceptum non potest dari representativum
+              perfectius, igitur necesse est ipsum esse perfectionabiliter infinitum.
+              Consequentia patet, quia quocumque finito potest dari maius et sic
+              perfectius. Antecedens probatur, quia, si sic, illud erit representativum
+              deitatis secundum proprium eius conceptum et non primum, quod est contra positum.
+            </p>
+              <p xml:id="atvl1prolq1-d1e6232">Secundo minor fundamentalis ratio probatur simpliciter
+              etiam si huiusmodi representativum ponatur infinitum.</p>
+            <p>
+            Primo sic: quod
+              deficit a perfectione alterius in infinitum non est sufficiens representativum
+              illius secundum proprium eius conceptum. Omne creatum deficit
+              a perfectione deitatis in infinitum etiam si sit infinitum; ergo
+              etc. Probatur maior primo, quia inter representativum et representatum
+              est aliqua proportio. Secundo, quia representativum, ut nunc loquimur, est
+              imago et similitudo expressiva representati. Sed quod deficit a
+              perfectione alterius in infinitum non est imago expressiva illius
+              secundum proprium eius conceptum; ergo etc.
+            </p>
+            <p xml:id="atvl1prolq1-d1e6235">Secundo sic: quandocumque
+              aliqui duo obiecta se habent per modum excedentis et excessi,
+              sic quod tota intelligibilitas excessi continetur in excedente
+              et exceditur ab eo, si excesso repugnat habere representativum
+              creatum et excedenti, patet ex terminis. Sed universitas creaturarum
+              existentium  et possibilium et essentia divina secundum proprium eius
+              conceptum sic se habent, ut quilibet catholicus confitetur et universitati
+              creaturarum repugnat representari aliqui catholico secundum proprios
+              conceptus earum, cum propter ipsarum diversitatem et oppositionem,
+              quia in rationibus earum sunt aliqui primo diversa que in nullo conveniunt
+              propter doctrinam oppositum opinantium, cum propter ipsarum
+              multitudinem et illimitationem, quia saltem possibiles sunt infinite
+              et infinita secundum proprium conceptum eius, licet aliqui uno etiam si
+              sit infinitum representari non possunt nisi sit infinitum extra genus,
+              quod simpliciter creature repugnat; ergo etc.</p>
+            <p xml:id="atvl1prolq1-d1e6238">Et confirmatur,
+              quia tale representativum creaturarum, si poneretur, equaretur
+              essentie divine in ratione representandi, quod est impossibile.</p>
+          </div>
+          <div>
+            <head xml:id="atvl1prolq1-Hd1e6244">Conclusio secunda</head>
+            <p xml:id="atvl1prolq1-d1e6247">Secunda
+              conclusio est quod notitia intuitiva deitatis de potentia Dei
+              absoluta est communicabilis viatori. </p>
+            <p xml:id="atvl1prolq1-d1e6250">Probatur primo sic: omnis notitia
+              possibilis haberi de Deo que non ponit creaturam rationalem in termino
+              beatitudinis est communicabilis viatori de potentia Dei absoluta.
+              Notitia intuitiva deitatis est huiusmodi; igitur. Maior conceditur et minor
+              quantum ad primam partem patet, quia notitia intuitiva deitatis est habita,
+              igitur possibilis haberi. Quantum ad secundam probatur: quia non est
+              beatificabilis patet, quia illa notitia que distinctis operibus habetur, quarum
+              una realiter non est alia, non est beata nec per consequens in termino
+              beatitudinis per alteram earum precise creatura ponitur. Oppositum
+              predicati infert oppositum subiecti. Sed creatura
+              rationalis est beatificabilis visione et fruitione
+              <cb ed="#V" n="b"/>que in ipsa realiter distinguuntur, ut patet <ref>per illam
+              decretalem extravagantem</ref> domini Benedicti <title>De visione animarum</title>;
+              igitur non est beata nec in termino beatitudinis per alteram earum precise.
+              Notitia igitur intuitiva deitatis non ponit creaturam rationalem
+              in termino beatitudinis.</p>
+            <p xml:id="atvl1prolq1-d1e6253">Secundo sic: omnis notitia possibilis
+              haberi de Deo que non ponit viatorem extra terminum vie est sibi communicabilis
+              saltem divina virtute. Notitia intuitiva deitatis est
+              huiusmodi; ergo. Maior est evidens et minor quantum ad primam partem patet ut
+              prius. Quantum ad secundam probatur, quia tamdiu est viator intra terminum
+              vie quamdiu nec est damnatus, nec beatus, nec ad purgatorium
+              destinatus, ut patet. Sed habita tali notitia non est homo damnatus,
+              nec salvatus, nec ad purgatorium destinatus ex ratione precedenti;
+              ergo etc.</p>
+            <p xml:id="atvl1prolq1-d1e6256">Tertio sic: omnis notitia probabilis haberi de Deo que non repugnat
+              viatori inquantum viator potest sibi communicari de potentia
+              Dei absoluta. Notitia intuitiva deitatis est huiusmodi; ergo. Maior
+              et minor quantum ad primam partem patent ut prius. Quantum ad secundam
+              partem probatur minor, quia illud non repugnat viatori inquantum viator
+              qui posito in ipso adhuc convenit sibi diffinitio viatoris.
+              Sed talem notitia deitatis intuitiva, quia ipsa sola posita in viatore,
+              adhuc viator non habet beatitudinem sibi possibilem de potentia
+              Dei ordinata, cum talis consistat in visione et fruitione, ut
+              dictum est pluries et est in statu merendi ex supposito. Et hec
+              est diffinitio viatoris in articulo precedenti; ergo etc.</p>
+            <p xml:id="atvl1prolq1-d1e6260">Quarto: et est quasi una
+              declaratio precedentium rationum sic: de potentia Dei absoluta
+              fieri potest quod creatura rationalis videat Deum intuitive et nullum
+              actum fruitionis habeat circa ipsum, igitur notitia intuitiva deitatis de
+              potentia Dei absoluta potest communicari viatori. Antecedens suppono
+              pro nunc, quia ex intuitione declarabitur vel probabitur in potentia Dei. Consequentia
+              declaratur, quia talis creatura non est beata cum non fruatur Deo, nec
+              damnata cum clare videat Deum, nec necessario ad purgandum
+              destinata non est dubium, igitur quod potest esse viator. Ista conclusio confirmatur,
+              non solum de possibili, sed etiam de facto auctoritate <ref><name ref="#Augustine">beati Augustini</name> in questionibus
+                Orosii ad ipsum in solutione 62 questionis,</ref> ubi sic inquit: <quote xml:id="atvl1prolq1-Qd1e6267">Adhuc profecto
+                  venerat <name ref="#Paul">Paulus</name> ut Deum sic in ista vita videret, sic sancti
+                  post hanc vitam videbunt ipsum intuitive</quote>. Sed constat quod sancti post
+                  hanc vitam videbunt ipsum intuitive; ergo etc. Possibilitatem vero conclusionis
+              ostendit <ref><name ref="#Augustine">Augustinus</name> XII <title ref="#DeGenesiAdLitteram">Super Genesim ad Litteram</title>, capitulo 74,</ref> ubi sic
+              ait: <quote xml:id="atvl1prolq1-Qd1e6281">Illo ergo modo in illa specie que Deus est, longe ineffabiliter securius
+                et presentius loquimur locutione ineffabbili, ubi eum nemo videns
+                vivet vita ista, qua mortaliter vivitur in istis sensibus corporis,
+                nisi ab hac vita quodammodo moriatur, sive omnino exiens
+                de corpore, sive ita aversus et alienatus a corporeis sensibus,
+                ut merito nesciat, sicut <name ref="#Paul">Apostolus</name> ait, utrum in corpore an
+                extra corpus sit, cum in illa rapitur et subvehitur visione.</quote> Hec
+              <name ref="#Augustine">Augustinus</name>.</p>
+            <p xml:id="atvl1prolq1-d1e6291">Ex quibus verbis patet quod predicta notitia sit possibilis
+              viatori et viventi in hac vita mortali.</p>
+          </div>
+          <div>
+            <head>Tertia conclusio</head>
+            <p xml:id="atvl1prolq1-d1e6294">Tertia conclusio est quod de potentia
+              absoluta potest communicari viatori evidens notitia deductiva
+              de
+              <app>
+                <lem>veritatibus</lem>
+                <rdg wit="#V">virtutibus</rdg>
+                <note xml:lang="en">Though the incunabula (V) clear writes virtutibus, we conjecture that
+                the reading should be "veritatibus"</note>
+              </app>
+              theologicis.</p>
+            <div>
+            <head xml:id="atvl1prolq1-Hd1e6300">Opinio Michaelis</head>
+            <!-- <head><name>Michael de Massa</name> in <title>Prologo</title> I, questione 1, articulo 1.</head> -->
+            <p xml:id="atvl1prolq1-d1e6305">Istam conclusionem quidam probatur primo sic: supponatur quod Deus possit
+              annihilare omnem creaturam intellectualem conservando in esse
+              unum angelum in puris naturalibus et ponatur quod tunc divina virtute
+              formetur ista propositio <mentioned>Deus est trinus et unus</mentioned> quod fieri potest vel
+              per aeris fractionem vel per aliquam mentalem locutionem, tunc certum
+              est quod angelus in puris naturalibus existens cognoscit vel cognoscere
+              potest quod in rerum nature nihil est quod possit istam propositionem formare
+              nisi ipse vel Deus. Nunc autem de se ipso certus est quod eam non formavit
+              et eodem discursu certus est quod virtute divina est formata.
+              Sed in puris naturalibus existens potest deductive evidenter
+              scire quod Deus mentiri non potest; ergo in puris naturalibus existens potest
+              evidenter scire hanc propositionem <mentioned>Deum esse trinum et unum</mentioned> infallibiliter
+              esse veram.</p>
+            <p xml:id="atvl1prolq1-d1e6308">Preterea, de facto certa cognitio articuli
+              trinitatis communicatur damnato, igitur non repugnat talis cognitio
+              viatori. Consequentia supponitur. Antecedens probatur. Nam hereticus damnatus
+              scit se iuste damnari. Scit enim quod impossibile est Deo facere iniustitiam,
+              ergo scit quod illud propter quod ipse tamquam hereticus est damnatus
+              est falsum et impossibile, ergo existens damnatus scit infallibiliter quod
+              oppositum illius, quod ipse vivens negabat, est necessarium et infallibile.
+              Sed negabat articulum trinitatis, igitur existens damnatus
+              cognoscit infallibiliter quod articulus trinitatis est neces<pb ed="#V" n="5-v"/><cb ed="#V" n="a"/>sarius
+              et impossibilis aliter se habere.</p>
+            <p xml:id="atvl1prolq1-d1e6313">Preterea, demones
+              sunt certi de articulo trinitatis certitudine deductiva,
+              igitur talis cognitio deductiva non est incompossibilis viatori.
+              Consequentia supponitur sicut prius. Antecedens probatur, quia demones
+              certi sunt absque omni hesitatione quod redemptio hominis fieri
+              non poterat per puram creaturam, sicut demonstrare
+              intendit <ref><name ref="#Anselm">Anselmus</name> in libro <title ref="#Anselm_CurDeusHomo">Cur Deus homo</title>.</ref> Item, certi sunt quod redemptio
+              hominum facta est et quod infernus spoliatus est, igitur certi
+              sunt quod Christus per quem redemptio facta est non est pura creatura,
+              sed Deus et homo, et per consequens certi sunt quod quicquid dixit <mentioned>Christus</mentioned>
+              est infallibiliter verum. Sed dixit <mentioned>Deum esse trinum et unum;</mentioned> ergo
+              etc.</p>
+          </div>
+          <div>
+            <head xml:id="atvl1prolq1-Hd1e6331">Contra <name>Michaelem</name>.</head>
+            <p xml:id="atvl1prolq1-d1e6341">Sed, licet ista conclusio sit vera, ut puto, iste tamen rationes
+              non concludunt. Non quidem prima propter multa.</p>
+            <p xml:id="atvl1prolq1-d1e6344">Primo,
+              quia procedit de intellectu angelico qui non est intellectus viatoris
+              et cui plura sunt naturaliter nota quam intellectui viatoris,
+              et ideo supposito quod esset notitia non esset ad propositum.</p>
+            <p xml:id="atvl1prolq1-d1e6347">Secundo, quia non videtur per se notum, nec deductum ex
+              aliquo per se noto quod Deus possit annihilare omnem creaturam
+              intellectualem, quia sic annihilatio esset demonstrabilis
+              et creatio, quod philosophi non concederent, igitur conclusio
+              que procedit isto supposito non est demonstrata. Nec valet
+              solutio istius doctoris, videlicet quod concessis principiis
+              que theologi concedunt de posse Dei ratio concludit evidenter,
+              quia repugnat conclusioni quam intendit. Certum est enim
+              quod concessis articulis que theologi de Deo concedunt multe
+              conclusiones theologice deducerentur evidenter, quia suppositis
+              principiis deductio est evidens. Conclusio tamen deducta
+              non est evidens, sicut nec principia ex quibus deducitur.
+              Ipse vero vult proprie quod conclusio sit evidens, non solum deductio.</p>
+            <p xml:id="atvl1prolq1-d1e6351">Tertio, quia posito quod sit evidenter notum quod Deus
+              possit annihilare omnem creaturam, adhuc non videtur
+              intellectui creato in puris naturalibus constituto notum evidenter
+              quod omnes creaturas intellectuales alias a se annihilaverit
+              de facto, et sic non cognoscet evidenter quod in rerum
+              nature nihil sit quod possit predictam propositionem formare,
+              nisi Deus vel ipse.</p>
+            <p xml:id="atvl1prolq1-d1e6354">Quarto, quia supposito quod sciat
+              evidenter quod Deus annihilaverit omnem creaturam intellectualem
+              distinctam ab ipso, adhuc poterit dubitare an
+              Deus creavit aliquem de novo ipso nesciente, quod non est impossibile
+              quod huiusmodi propositionem formaverit.</p>
+            <p xml:id="atvl1prolq1-d1e6357">Patet igitur quod
+              ista ratio non concludit evidenter nec etiam secunda valet, ut
+              videtur.</p>
+            <p xml:id="atvl1prolq1-d1e6360">Primo, quia posset negari antecedens. Nec deductio illa
+              convincit, quia, licet hereticus damnatus sciat se iuste damnari
+              forte, non constat sibi evidenter quod propter heresim illam
+              damnetur, quia potuit alia committere unde meruit damnari.
+              Nec valet si ponatur quod hereticus ille nihil aliud commiserit
+              unde meruit damnari, quia, sicut in hac vita nemo
+              scit evidenter utrum odio vel amore dignus sit, ita forte
+              et in alia non constat evidenter heretico damnato nihil aliud
+              comisisse unde damnari meruit.</p>
+            <p xml:id="atvl1prolq1-d1e6363">Secundo, quia admisso
+              antecedente, non enim assero quod constet hoc heretico sic
+              damnato. Adhuc consequentia est nulla, quia hereticus ille damnatus
+              habet ex supposito notitiam aliquam evidenter, unde potest
+              articulus trinitatis deduci, quam non habet viator in puris
+              naturalibus constitutus.</p>
+            <p xml:id="atvl1prolq1-d1e6366">Et ex hoc patet quod tertia ratio non concludit,
+              quia demones habuerunt notitiam etiam intuitivam de spoliatione
+              inferni per Christum factam, unde potuerunt ipsum cognoscere
+              esse Deum, quam non habuit nec habet viator; et ratio non est
+              similiter de viatoribus et demonibus, immo non est simile de demonibus
+              ante huiusmodi spoliationem et post, quia ante mortem Christi non
+              cognoverunt Christum evidenter esse Deum. Si enim dominum glorie
+              cognovissent, ipsum non crucifixissent. Cognoverunt autem
+              post.</p>
+            <p xml:id="atvl1prolq1-d1e6370">Dimissis igitur rationibus predictis pro conclusione potest
+              argui primo sic: cui potest communicari notitia intuitiva de
+              subiecto theologie, eidem potest communicari evidens notitia
+              deductiva de veritatibus theologicis. Hoc patet primo per
+              descriptionem deductive.</p>
+            <p xml:id="atvl1prolq1-d1e6373">Secundo, quia aliter beati non haberent
+              evidentem notitiam deductivam de veritatibus theo<cb ed="#V" n="b"/>logicis.</p>
+            <p xml:id="atvl1prolq1-d1e6376">Tertio, quia cui communicari potest notitia intuitiva,
+              eisdem potest communicari evidens notitia deductiva de veritatibus
+              theologicis, igitur a simili cui potest, etc. Sed prima notitia
+              est communicabilis viatori conclusione precedenti; igitur etc.</p>
+            <p xml:id="atvl1prolq1-d1e6379">Quarto sic: videns Deum intuitive post visionem potest recordari
+              se vidisse Deum infallibiliter. Sic patet de <name ref="#Paul">Paulo</name>, igitur
+              videns intuitive Christum esse Deum post visionem potest recordari
+              se vidisse Christum esse Deum infallibiliter; igitur si recordatur,
+              scit quod ita est sicut videt esse et sic recordatur se vidisse,
+              ergo scire potest evidenter Christum non fuisse mentitum, quia scire
+              potest evidenter quicquid dixit Christus infallibiliter esse verum, igitur
+              scire potest evidenter veritates theologicas a Christo infallibiliter
+              esse veras. Sic constat quod videns intuitive Christum esse Deum
+              post visionem potest esse viator, sicut et Paulus fuit post visionem
+              Dei; ergo etc.</p>
+            <p xml:id="atvl1prolq1-d1e6385">Sed forte dicetur ad istam rationem primo
+              quod videns intuitive Christum esse Deum post visionem non
+              poterit recordari distincte Christum esse Deum, sicut nec <name ref="#Paul">Paulus</name>
+              de Deo post visionem Dei.</p>
+            <p xml:id="atvl1prolq1-d1e6391">Secundo, quia concesso quod talis
+              viator scire possit evidenter quod quicquid Deus dixit sit infallibiliter
+              verum, sibi tamen non constat evidenter veritates theologicas
+              a Christo dictas esse veras, quia hic viatoribus sola
+              fide tenetur. Sed iste solutiones non infringunt rationem.
+              Non quidem prima, quia aliud est quod videns Deum intuitive post
+              visionem recordetur se vidisse Deum et aliud quod recordetur
+              quid sit Deus secundum proprium eius conceptum. Et, licet secundum sit impossibile,
+              quia deitas secundum proprium eius conceptum non potest representari
+              alicui creato, ut patet ex prima conclusione, primum
+              tamen nulli catholico vertitur in dubium, sicut patet ex dictis
+              <ref><name ref="#Paul">Pauli</name> <title ref="#IIcor">Ad II Corinthos</title> 15.</ref> Similiter ergo, ut patet dicendum, est in proposito.</p>
+            <p xml:id="atvl1prolq1-d1e6403">Nec secunda propter duo.</p>
+            <p xml:id="atvl1prolq1-d1e6406">Primo, quia, si <name ref="#Peter">beatus Petrus</name>, qui nunc
+              videt intuitive Christum esse Deum, fiat viator, quod fieri potest
+              de potentia Dei absoluta, scire poterit evidenter quod
+              quicquid Christus dixit infallibiliter sit verum, ut patet ex illa deductione.
+              Et sibi constat veritates theologicas esse dictas
+              a Christo, quia ipsemet audivit ab ipso, igitur saltem viatori
+              poterit communicari evidens notitia deductiva de veritatibus
+              theologicis.</p>
+            <p xml:id="atvl1prolq1-d1e6412">Secundo, quia quicumque viator videt
+              intuitive Deum esse potest in ipso videre quod Christus dixit veritates
+              theologicas et de huiusmodi post visionem recordari
+              et sic constat sibi evidenter, etc.</p>
+            <p xml:id="atvl1prolq1-d1e6415">Tertio ad principalem
+              sic et est quasi confirmatio precedentis rationis: quicumque potest intuitive
+              videre Christum esse Deum potest deductive cognoscere
+              veritates theologicas infallibiliter esse veras. Hoc
+              patet, quia talis potest evidenter scire Christum non fuisse mentitum et potest
+              in ipso videre quod ipse dixerit huiusmodi veritates. Sed viator
+              manens viator potest intuitive videre Christum esse Deum.
+              Patet minor, quia quicumque potest intuitive videre Deum, potest similiter
+              videre Christum esse Deum. Patet primum ex conclusione precedenti;
+              igitur etc.</p>
+              </div>
+          </div>
+          <div>
+            <head xml:id="atvl1prolq1-Hd1e6421">Conclusio quarta</head>
+            <p xml:id="atvl1prolq1-d1e6424">Quarta conclusio est quod huiusmodi notitia deductiva
+              de veritatibus theologie possibilis viatori de potentia
+              Dei absoluta est scientia proprie dicta. Hoc patet per <ref><name ref="#Augustine">beatum Augustinum</name>
+                I <title ref="#Retractationum">Retractationum</title>, capitulo 14</ref> et per diffinitionem scientie proprie
+              dicte superius assignate. Sed notitia deductiva de veritatibus
+              theologie possibilis viatori de potentia Dei absoluta
+              est huiusmodi ex conclusione precedenti; ergo etc.</p>
+            <p xml:id="atvl1prolq1-d1e6435">Secundo sic: omnis
+              notitia evidens in sua veritate est habitus veridicus realiter
+              a fide distinctus. Sed notitia deductiva possibilis etc. est
+              huiusmodi, ut patet ex supradictis; igitur est habitus veridicus a fide
+              distinctus. Sed tales sunt tantum quinque secundum <ref><name ref="#Aristotle">Philosophum</name> VI <title ref="#Ethics">Ethicorum</title>,</ref> scilicet intellectus,
+              sapientia, scientia, ars, et prudentia. Et certum est
+              quod notitia de qua loquimur non est intellectus, quia talis notitia
+              non habetur per discursum sillogisticum, nec ars, nec prudentia,
+              quia ille sunt respectu agibilium et factibilium tantum, igitur
+              est scientia vel sapientia. Et quocumque dato habetur propositum,
+              quia scientia proprie dicta non distinguitur a sapientia ex articulo
+              precedenti; ergo etc. Et hec de secundo.</p>
+          </div>
+        </div>
+        <div>
+          <head xml:id="atvl1prolq1-Hd1e6450">Tertius et quartus articulus</head>
+          <p xml:id="atvl1prolq1-d1e6453">Quantum ad tertium et quartum articulum simul movenda et
+            dissolvenda sunt dubia. Et primo contra primam conclusionem
+            <pb ed="#V" n="6-r"/>
+            <cb ed="#V" n="a"/>est opinio <name ref="#Scotus">Scoti</name> et suorum pro qua arguitur primo sic.</p>
+          <div>
+            <head xml:id="atvl1prolq1-Hd1e6463">Ratio fundamentalis <name ref="#Scotus">Scoti</name>.</head>
+            <p xml:id="atvl1prolq1-d1e6469">Quod quid Deus potest facere mediante sua essentia, potest immediate
+              per suam voluntatem, cum voluntas divina sit causa prima
+              et immediata omnis motionis ad extra. Sed mediante
+              sua essentia in ratione obiecti cogniti potest causare notitiam
+              claram et evidentem de essentia sua; ergo poterit immediate
+              per suam voluntatem non concurrente sua essentia. Talis
+              autem notitia non erit intuitiva, quia abstrahit a presentialitate
+              et existentia essentie divine, igitur abstractiva.</p>
+          </div>
+          <div>
+            <head xml:id="atvl1prolq1-Hd1e6475"><supplied>Opinio Landulphi</supplied></head>
+            <!-- <head><name ref="#LandulphusCaracciolo">Landulphus</name> in <title>Prologo</title> I, questione 1, articulo 1.</head> -->
+            <p xml:id="atvl1prolq1-d1e6481">Ad idem quidem alii ex fundamentis tamen <name ref="#Scotus">Scoti</name> arguunt
+              secundo sic: habens notitiam intuitivam alicuius obiecti potest
+              cognoscere illud obiectum actu reflexo abstractive. Sed
+              <name ref="#Paul">Paulus</name> et <name ref="#Moses">Moyses,</name> secundum <name ref="#Augustine">Augustinum</name> <title>De videndo Deum ad Paulinam</title>,
+              <unclear>illam</unclear> habuerunt intuitivam notitiam de divina essentia;
+              igitur potuerunt habere actu reflexo abstractivam de
+              eadem. Probatur maior, quia potens cognoscere aliquid obiectum
+              potest cognoscere respectum fundatum in eo, et per consequens
+              extremum huius respectus saltem divina virtute. Sed habens
+              notitiam alicuius obiecti potest cognoscere actu
+              reflexo actum suum intuitivum; igitur et respectum fundatum
+              in actu intuitivo ad eius obiectum et sic obiectum. Sed constat
+              quod ista notitia non esset intuitiva, igitur abstractiva.</p>
+            <p xml:id="atvl1prolq1-d1e6499">Et confirmatur, quia qui potest cognoscere actum et respectum
+              fundatum in actu aliquo genere cognitionis potest cognoscere
+              eo modo cognitionis extremum huius respectus saltem
+              divina virtute. Sed viator potest cognoscere actum beatificum
+              et respectum fundatum in eo, cum uterque sit creatura et
+              cognoscitur multis intellectibus; igitur viator poterit abstractive
+              cognoscere divinam essentiam que est extremum
+              huius respectus.</p>
+            <p xml:id="atvl1prolq1-d1e6502">Preterea, potens habere omnia requisita
+              ad aliquam notitiam potest habere illam notitiam. Sed intellectus viatoris
+              potest habere omnia requisita ad abstractiva de divina
+              essentia; ergo. Probatur minor, quia ad talem notitiam requiritur potentia
+              disposita et hec non deest. Requiritur essentia divina
+              in ratione motivi, cum non requiratur nisi ad movendam potentiam
+              et hoc etiam non deest, quia Deus potest facere sine omni presentia
+              totam eius causalitatem, cum possit supplere causalitatem
+              omnis cause secunde motive. Et confirmatur, quia, licet obiectum sit
+              motivum potentie et terminativum actus, si sit aliquid supplens
+              vicem eius inquantum motivum, sufficit obiectum absens
+              in ratione termini in cognitione abstractiva, quia in tali non
+              requiritur obiectum presens ut terminet actum, sed ut moveat
+              ad actum.</p>
+            <p xml:id="atvl1prolq1-d1e6506">Preterea, quicquid potest intellectus intelligere
+              potest memoria memorari per <ref><name ref="#Augustine">beatum Augustinum</name> X <title ref="#deTrinitate">De trinitate</title>, capitulo 7,</ref>
+              ubi dicit quod <quote xml:id="atvl1prolq1-Qd1e6516">partes imaginis sunt equalis ambitus.</quote> Sed
+              intellectus <name ref="#Paul">Pauli</name> et <name ref="#Moses">Moysi</name> intellexerunt divinam essentiam; ergo
+              potuerunt eius memorari. Sed omne illud cuius possumus memorari,
+              possumus abstractive cognoscere; ergo etc.</p>
+            <p xml:id="atvl1prolq1-d1e6526">Et
+              confirmatur per <name ref="#Paul">Paulum</name>, qui optime recordabatur de illa visione,
+              sicut patet <ref><title ref="#IIcor">II Ad Corinthos</title> 12,</ref> ubi totam visionem refert per
+              ordinem; ergo etc.</p>
+            <p xml:id="atvl1prolq1-d1e6535">Preterea, illud de quo habetur aliquid
+              verum representativum potest abstractive cognosci; de divina
+              essentia habebatur a <name ref="#Paul">Paulo</name> et <name ref="#Moses">Moyse</name> verum representativum.
+              Hoc patet, quia de hoc habuerunt memoriam et, cum nihil sit
+              memoria nisi species vel habitus, oportebat quod haberent
+              de ea aliquid representativum, igitur poterant ipsa et abstractive
+              cognoscere.</p>
+          </div>
+          <div>
+            <head xml:id="atvl1prolq1-Hd1e6547"><supplied>Opinio Roddenton</supplied></head>
+            <!-- <head><name ref="#JohnOfRodington">Roddenton</name> in <title>Prologo</title> I, questione 2, articulo 2.</head> -->
+            <p xml:id="atvl1prolq1-d1e6553">Ad idem arguunt quidam alii sic: quod non ponit viatorem
+              extra terminum vie potest sibi communicari. Huiusmodi est cognitio
+              abstractiva deitatis; ergo. Probatur minor, quia sequitur solum viator
+              habet cognitionem abstractivam, ergo non videt. Et sic non
+              est beatus, igitur est viator.</p>
+            <p xml:id="atvl1prolq1-d1e6556">Preterea, Deus de potentia
+              absoluta potest omne accidens absolutum, quod est in beato ponere
+              in viatore, igitur et visiones alicuius beati. Illa autem ostendit
+              de hoc quedam eius quod prius, sed non intuitiva, quia sic esset beatus,
+              igitur abstractiva.</p>
+          </div>
+          <div>
+            <head xml:id="atvl1prolq1-Hd1e6563">Responsio ad rationes Scoti</head>
+            <!-- this seems more a heading or note than paragraph  <p xml:id="atvl1prolq1-d1e6567">Respondeo ad rationes <name ref="#Scotus">Scoti</name>.</p> -->
+            <p xml:id="atvl1prolq1-d1e6573">Ad primum istorum primo reducam rationem contra suum actorem
+              <cb ed="#V" n="b"/>
+              sic: quicquid Deus potest facere mediante sua essentia, potest immediate
+              per suam voluntatem. Sed mediante sua essentia in ratione
+              obiecti cogniti potest causare notitiam intuitivam de se
+              ipso; igitur poterit immediate per suam voluntatem non concurrente
+              sua essentia, quod est contra eum et contra rationem, quia talis notitia
+              esset intuitiva et non esset intuitiva.</p>
+          </div>
+          <div>
+            <head xml:id="atvl1prolq1-Hd1e6581"><supplied>Opinio Aureoli</supplied></head>
+            <!--  <head><name ref="#Aureoli">Aureolus</name> in <title>Prologo</title> I, questione 2, articulo 3.</head> -->
+            <p xml:id="atvl1prolq1-d1e6587">Sed ad istam instantiam conatur <name ref="#Aureoli">quidam doctor</name> respondere
+              dicens quod signanter dicitur in ratione illa quicquid Deus potest facere,
+              etc. Et non dicitur omne ad aliquid, quia intuitiva includit necessario
+              respectum ad actualitatem et existentiam obiecti
+              secundum illum doctorem, cum sit existentis vel existens est et presentis ut presens
+              est secundum eum. Abstractiva autem non, cum sit existentis et non
+              existentis, presentis et non presentis. Et ideo non sequitur quod Deus
+              possit facere intuitivam de se ipso non concurrente sua
+              essentia, quia non potest facere respectum illum sine presentialitate
+              obiecti, sicut nec Filium sine Patre. Abstractiva
+              autem sic, quia talem respectum non includit. Sed ista solutio
+              non satisfacit, quia vel iste doctor intendit quod notitia
+              intuitiva necessario includit respectum ad actualitatem
+              et existentiam obiecti, vel non. Si non, patet quod instantia non solvitur,
+              quia non est verum quod notitia intuitiva necessario includit respectum predictum ex supposito. Si sic, contradicit sibi
+              ipsi, quia in eadem questione et intentione probat quod Deus potest facere
+              notitiam intuitivam corrupto respectu et rei presentialitate
+              non existente, igitur non necessario includit respectum
+              ad actualitatem et existentiam obiecti secundum eum. Et probatur
+              assumptum sic: res que non dependet realiter et res dependens
+              realiter non sunt eadem res. Sed notitia intuitiva secundum
+              suam entitatem absolutam est independens formaliter ab omni
+              alio extra se, licet dependeat effective a Deo et ad obiecto
+              et respectus fundatus in ea ad obiectum intuitum est res
+              dependens realiter; igitur non sunt idem realiter. Igitur poterunt
+              per divinam potentiam ab invicem separari. Hec ille.</p>
+            <p xml:id="atvl1prolq1-d1e6590">Quo posito
+              patet quod notitia intuitiva non necessario includit
+              respectum predictum secundum eum et sic contradictio in
+              dictis.</p>
+            <p xml:id="atvl1prolq1-d1e6593">Preterea, omnis cognitio qua creatura
+              cognoscit fundat respectum realem ad terminum
+              obiectalem cognitum. Hoc patet, quia refertur ad ipsum
+              sicut mensuratum ad mensuram. Mensurari autem
+              ad mensuram est relatio realis ex <ref>V <title ref="#Metaphysics">Metaphysice</title>,</ref>
+              licet non econverso. Igitur, si propter huiusmodi respectum
+              de intuitiva nihil concluditur et nihil etiam concludetur
+              de abstractiva, quia pari ratione mutabitur
+              quid in ad aliquid et erit in argumento figura dictionis.</p>
+            <p xml:id="atvl1prolq1-d1e6600">Preterea,
+              vel <name ref="#Aureoli">iste doctor</name> intelligit quod huiusmodi respectus, secundum <name ref="#Scotus">Scotum</name>
+              sunt intuitive intrinsecus, vel extrinsecus. Si extrinsecus, sequitur
+              quod intuitiva, ut intuitiva, non includit respectum et sic manet
+              tota deductio, quia non mutatur quid in aliquid. Si intrinsecus,
+              contradicit doctori, quia vult sustinere quod secundum eum tales respectus
+              sunt res distincte a rebus absolutis et, si oppositum diceret,
+              falsum assumeret, quia nullus respectus creatus est idem
+              respectu et intrinsece cum rebus absolutis, ut suppono
+              pro nunc. Patet igitur instantiam non esse solutam.</p>
+          </div>
+          <div>
+            <head xml:id="atvl1prolq1-Hd1e6609"><supplied>Responsio ad rationes</supplied></head>
+            <p xml:id="atvl1prolq1-d1e6613">Respondeo
+              ergo ad rationes dupliciter.</p>
+            <p xml:id="atvl1prolq1-d1e6616">Primo dico quod maior sicut assumitur
+              non est vera, quia tunc idem concluderetur de intuitiva, sicut
+              patet ex dictis. Nec probatio valet. Imaginatur enim quod voluntas
+              divina sit causa primaria omnis causalitatis et productionis
+              ad extra et essentia divina secundaria, quod est falsum,
+              quia essentia et voluntas in Deo non sunt due cause alicuius
+              creature, sed una tantum, sicut nec Pater et Filius, qui magis differunt
+              quam essentia et voluntas, non sunt duo principia, sed
+              unum. Et ulterius, si primaria causalitas creature, ut producta
+              de nihilo, debeat attribui alicui istorum, hec erit
+              voluntas, quia voluntas et omne attributum est infinitum propter identitatem
+              cum essentia. Et sic per <name>istum doctorem</name> causalitas primaria
+              creature, ut producta de nihilo, attribuitur nature infinite,
+              ut est infinita, igitur ratio nulla.</p>
+            <p xml:id="atvl1prolq1-d1e6619">Secundo dico quod nec mediante
+              sua essentia nec immediate per suam voluntatem potest
+              <pb ed="#V" n="6-v"/>
+              <cb ed="#V" n="a"/>
+              Deus facere abstractivam notitiam deitatis propter implicationem
+              contradictionis, ut patet ex supradictis. Et sic minor est falsa
+              vel non est ad propositum. Nec valet quando dicitur quod talis notitia
+              non esset intuitiva, igitur abstractiva, quia posset esse
+              deductiva.</p>
+          </div>
+          <div>
+            <head xml:id="atvl1prolq1-Hd1e6627"><supplied>Responsio ad rationes Landulphi</supplied></head>
+            <!-- <p xml:id="atvl1prolq1-d1e6631">Respondeo ad rationes <name ref="#LandulphusCaracciolo">Landulphi</name></p> -->
+            <p xml:id="atvl1prolq1-d1e6636">Ad secundum nego maiorem si illud obiectum non possit
+              intuenti representari in eius imagine vel specie, sicut
+              est in proposito. Et ad probationem concesso toto processu non
+              habetur intentum, quia cognito actu intuitivo et respectu
+              fundato in actu ad divinam essentiam non oportet quod
+              cognoscatur essentia divina abstactive, quia sufficit quod
+              cognoscatur deductive. Et quando dicitur quod talis notitia
+              non est intuitiva, igitur abstractiva, contradicit sibi, quia
+              est dare tertium genus per eum in eadem questione. Et
+              ad formam argumenti patet quid sit dicendum, quia non
+              oportet quod qui potest cognoscere actum abstractive et
+              respectum fundatum in actu possit extremum illius respectus
+              cognoscere abstractive si tali extremo repugnat
+              representari in aliquo creato, sicut est in proposito.</p>
+            <p xml:id="atvl1prolq1-d1e6639">Ad tertium ex dictis patet quod minor est falsa, quia
+              ad notitiam abstractivam de divina essentia requiritur
+              eius representativum creatum de quo ratio non facit
+              aliquam mentionem. Et per idem patet quid dicendum
+              ad confirmationem.</p>
+            <p xml:id="atvl1prolq1-d1e6642">Ad quartum potest uno modo dici quod
+              quicquid potest intellectus intelligere, potest memoria
+              memorari quantum est de se si sit possibile illud representari
+              in eius imagine vel specie, quod in proposito non
+              est possibile. Potest etiam dici quod quicquid potest intellectus
+              intelligere, potest memoria memorari distincte vel confuse.
+              Sed non est verum quod omne illud cuius possumus confuse
+              memorari, possumus abstractive cognoscere.
+              Per hec patet quod dicendum ad confirmationem, quia <name ref="#Paul">Paulus</name>
+              recordabatur de visione illa in confuse, sed non distincte
+              ipso dicente: <quote>sive in corpore, sive extra corpus nescio,
+              Deus scit</quote>. Recordabatur enim se vidisse Deum. Quod autem esset
+              deitas secundum proprium eius conceptum non recolebat, sicut
+              <name ref="#Nebuchadnezzar">Nabuchodonosor</name> recordabatur se vidisse in somnis
+              aliquid magni, sed non quid in speciali vidisset.</p>
+            <p xml:id="atvl1prolq1-d1e6652">Ex
+              his patet quid dicendum ad quintum, quia <name ref="#Paul">Paulus</name> non habuit
+              memoriam distinctam deitatis secundum proprium eius conceptum,
+              et ideo non oportet quod habuerit aliquid representativum
+              ipsius. Deberet autem ratio formari per oppositum,
+              quia sequitur non potuit <name ref="#Paul">Paulus</name> habere aliquid representativum
+              deitatis secundum eius proprium conceptum, igitur non potuit
+              nec per consequens abstractive cognoscere. Ista videtur
+              intentio <name ref="#Augustine">beati Augustini</name> super illo verbo <ref><title ref="#Icor">I Corinthos</title> 13:</ref> <quote ana="#Icor13_12">Nunc
+              cognosco ex parte,</quote> ubi dicitur et habetur in <title>Glossa</title> quod non solum
+              alii, sed etiam <name ref="#P">Paulus</name> cognovit obscure et imperfecte, igitur
+              non habuit ex memoria visionis claram notitiam deitatis,
+              sicut <name ref="#LandulphusCaracciolo">iste doctor</name> imaginatur.</p>
+          </div>
+          <div>
+            <head xml:id="atvl1prolq1-Hd1e6679">Responsio ad rationes Roddenton</head>
+            <!-- <p xml:id="atvl1prolq1-d1e6683">Respondeo ad rationes <name ref="#JohnOfRodington">Roddenton</name></p> -->
+            <p xml:id="atvl1prolq1-d1e6688">Ad sextum primo reduco rationem. Quicquid non ponit viatorem
+              extra terminum vie potest sibi communicari. Huiusmodi est cognitio
+              intuitiva deitatis; igitur potest viatori communicari, quod
+              ipse negat. Minor probatur sicut et sua, quia sequitur solum habet
+              cognitionem intuitivam, igitur non diligit. Et sic non est beatus,
+              ergo est viator. Dico ergo quod maior est vera si illud sit possibile
+              communicari. Et sub isto sensu minor est falsa, quia cognitio
+              abstractiva deitatis est omnino impossibilis. Probatur igitur ratio
+              quod abstractiva non repugnat viatori ratione status vie
+              quod conceditur, sed non probat quod sit possibilis de quo agitur.</p>
+            <p xml:id="atvl1prolq1-d1e6691">Ad septimum: multi negarent antecedens, quia communiter non conceditur
+              quod fruitio que nunc est in anima Christi vel alterius beati possit
+              poni in voluntate viatoris. Quicquid tamen sit de huiusmodi, quia
+              mihi non videtur antecedens impossibile, dico quod, si visio alicuius
+              beati poneretur in intellectu viatoris vel viator per eam non
+              videret Deum, quia non esset sibi presens in ratione obiecti, vel sicut
+              per eam non videret Deum intuitive, quia non esset visio Dei
+              in se ipso, ita nec abstractive, quia non esset visio sive cogni<cb ed="#V" n="b"/>tio
+              Dei in eius representativo.</p>
+          </div>
+          <div>
+            <head xml:id="atvl1prolq1-Hd1e6697">Opinio communis contra secundam conclusionem.</head>
+            <p xml:id="atvl1prolq1-d1e6700">Contra secundam conclusionem est opinio communis pro qua potest
+              argui primo sic: illud potest communicari viatori quod evacuat
+              fidem et tollit meritum sive merendi statum, quia istis remotis
+              viator non manet viator, quia evacuatum est quod ex
+              parte est. Sed stante supposito sic esset in proposito; igitur. Probatur
+              minor, quia visio Dei clara qualis ponitur intuitiva est
+              visio et est merces. Inquantum visio, evacuat fidem que est substantia rerum
+              sperandarum. Argumentum non apparentium, secundum <name ref="#Paul">Apostolum</name>. Inquantum
+              merces, evacuat merendi statum, ergo.</p>
+            <p xml:id="atvl1prolq1-d1e6706">Preterea,
+              illud non potest viatori communicari quod ponit ipsum extra
+              terminum vie. Notitia intuitiva deitatis huiusmodi;
+              ergo. Probatur minor, quia secundum <ref><name ref="#Augustine">beatum Augustinum</name> I <title ref="#deTrinitate">De trinitate</title>, 22, de parvis:</ref> <quote xml:id="atvl1prolq1-Qd1e6716">Visio
+                Dei facialis est finis omnium actionum nostram,</quote> igitur ponit
+              viatorem extra terminum vie. Ista consequentia patet, quia finis omnium
+              actionum nostrarum non habetur in via.</p>
+            <p xml:id="atvl1prolq1-d1e6720">Preterea,
+              confirmatur, quia illud non est communicabile viatori per quod status
+              beatorum distinguitur a statu viatoris. Sed notitia intuitiva
+              deitatis est huiusmodi, dicente <ref><name ref="#Paul">Apostolo</name> <title ref="#Icor">I Ad Corinthos</title> 13:</ref> <quote xml:id="atvl1prolq1-Qd1e6730" ana="#Icor13_12">Videmus
+                nunc per speculum in enigmate, tunc autem facie ad faciem;</quote> ergo.</p>
+            <p xml:id="atvl1prolq1-d1e6734">Preterea, implicatio contradictionis est quod viator manens
+              viator videat Deum intuitive sicut totaliter beatus,
+              quia quicumque videt Deum intuitive est totaliter beatus, quia sola
+              visio Dei est summum bonum nostrum primum et finis, sicut
+              docet <ref><name ref="#Augustine">beatus Augustinus</name> I <title ref="#deTrinitate">De trinitate</title>, capitulo 41, de parvis,</ref> igitur implicatio
+              contradictionis est quod viator manens viator videat Deum intuitive.</p>
+            <p xml:id="atvl1prolq1-d1e6746">Confirmatur, quia visio est tota merces, ut patet per <name ref="#Augustine">beatum
+              Augustinum</name>, igitur quicumque videt Deum intuitive necessario est
+              beatus.</p>
+            <p xml:id="atvl1prolq1-d1e6752">Preterea, illa notitia non est communicabilis viatori
+              per quam necessario communicatur fruitio beatifica. Notitia
+              intuitiva deitatis est huiusmodi; ergo. Maior patet, quia fruitio beatifica
+              non est communicabilis viatori. Minor probatur, quia, si voluntas
+              posset non frui obiecto beatifico intuitive viso,
+              vel hoc esset per propriam libertatem et efficaciam voluntatis, vel
+              per Dei potentiam absolutam suspendentis actum fruitionis. Primum
+              dari non potest, quia omnes beati esse volunt, sicut docet
+              <ref><name ref="#Augustine">beatus Augustinus</name> XIII <title ref="#deTrinitate">De trinitate</title>, capitulis 3 et 4.</ref> Nec secundum, quia, si Deus
+              suspenderet actum fruitionis predictum, vellet voluntatem
+              illam esse miseram. Sed illa sola voluntas est misera que vult quod
+              Deus non vult eam velle vel que non vult quod Deus vult eam velle;
+              igitur Deus vult eam volutatem velle quod non vult eam velle,
+              quod est aperta contradictio.</p>
+            <p xml:id="atvl1prolq1-d1e6761">Preterea, contra consequentiam istam videtur
+              esse <ref>articulus Parisiensis et est in numero articulorum 35</ref> ubi
+              dicitur quod <quote>Deum in hac vita mortali possumus intelligere per essentiam</quote>,
+              quod est error.</p>
+            <p xml:id="atvl1prolq1-d1e6764">Preterea, ista videtur esse intentio <ref><name ref="#Augustine">beati
+              Augustini</name> II <title ref="#deTrinitate">De trinitate</title>, capitulo 36, de parvis,</ref> ubi loquens de Christo, sic inquit:
+              <quote xml:id="atvl1prolq1-Qd1e6774">Facies autem illa Dei forma in qua non rapinam arbitratur
+                esse equalem Deo Patri, quam nemo utique potest videre et vivere.</quote>
+              Et in <ref>VIII, capitulo 2,</ref> dicit quod <quote xml:id="atvl1prolq1-Qd1e6780">intellectus viatoris que creata
+                sunt sentit. Veritatem autem ipsam qua creata sunt non potest intueri;</quote>
+              ergo.</p>
+          </div>
+          <div>
+            <head xml:id="atvl1prolq1-Hd1e6788">Responsio ad argumenta obiecta</head>
+            <!-- <p xml:id="atvl1prolq1-d1e6792">Respondeo ad argumenta obiecta.</p> -->
+            <p xml:id="atvl1prolq1-d1e6795">Ad primum istorum quod continet duas difficultates, quarum
+              prima est de fide, secunda de merito sive merendi statu
+              potest dupliciter responderi.</p>
+            <p xml:id="atvl1prolq1-d1e6798">Primo per interemptionem minoris.
+              Et ad probationem quantum ad primam eius partem dico quod
+              visio non evacuat simpliciter fidem, quia fides quantum ad habitum
+              et etiam quantum ad actum potest stare simul in eodem cum clara visione
+              Dei de potentia Dei absoluta, dum tamen habens actum fidei
+              non credat. Nec est impossibile quod aliquis habeat actum videndi
+              et non videat, ut suppono pro nunc.</p>
+            <p xml:id="atvl1prolq1-d1e6801">Quantum ad secundum non
+              probatur quod notitia Dei intuitiva evacuat merendi statum, quia,
+              licet sit merces partialiter, non tamen totaliter iuxta determinatione
+              domini <name>Benedicti</name>.</p>
+            <p xml:id="atvl1prolq1-d1e6805">Secundo potest responderi distinguendo
+              maiorem quantum ad secundam eius partem, quia vel per merendi
+              statum intelligitur absolute status presentis vite, qui est simpliciter status
+              merendi, aut intelligitur precise status ille in
+              quo aliquis manens potest actu mereri. Et hec acceptio
+              differt a prima, quia, licet peccator sit in hac vita
+              <pb ed="#V" n="7-r"/>
+              <cb ed="#V" n="a"/>
+              mortali et sit in statu merendi primo modo, non tamen
+              est in statu merendi secundo modo, cum non possit mereri
+              manens peccator. Si intelligitur primo modo, patet ex supradictis,
+              quia minor non est vera nec probatio valet ex solutione precedenti.
+              Si vero intelligitur secundo modo, sicut ratio videtur imaginari,
+              potest negari maior quantum ad quamlibet sui partem.</p>
+            <p xml:id="atvl1prolq1-d1e6810">Et ad probationem, cum dicitur quod 'istis remotis viator
+              non manet viator', per interemptionem respondetur, quia, licet secundum
+              ordinem qui nunc est et de potentia Dei ordinata, <quote>dum sumus
+              in corpore per fidem ambulemus</quote>, secundum <name ref="#Paul">Apostolum</name>. De potentia
+              tamen Dei absoluta posset fides in nobis evacuari
+              per claram visionem Dei et ideo non est verum quod remota fide
+              viator non possit manere viator. Item, non est de ratione
+              viatoris, ut viator est, quod sit in statu merendi primo
+              modo, licet sit de ratione ipsius quod sit in statu merendi secundo
+              modo, aliter peccator non esset viator, ut patet ex dictis,
+              nec istis remotis evacuatur omne quod ex parte est sicut
+              assumitur.</p>
+            <p xml:id="atvl1prolq1-d1e6816">Ad secundum nego minorem. Et ad probationem
+              dico quod visio Dei facialis potest uno modo sumi cum exclusione
+              fruitionis et cuiuscumque quod non est ipsa. Alio modo
+              cum exclusione fruitionis beatifice que ipsam concomitatur
+              necessario secundum ordinem qui nunc est et sic est finis omnium
+              actionum nostrarum. Non primo modo, nisi partialiter. Et
+              quod sic intelligat <name ref="#Augustine">beatus Augustinus</name> patet. Dicit enim in eodem
+              causa modicum infra quod tunc erit quod scriptum est <quote>adimplebis
+              me leticia cum vultu tuo</quote>. Hec ergo duo simul
+              secundum <name ref="#Augustine">beatum Augustinum</name> visio, scilicet et fruitio sunt finis omnium
+              actionum nostrarum, non sola visio. Et ad confirmationem
+              dicendum quod status beatorum nunc de facto per notitiam
+              Dei intuitivam distinguitur a statu viatorum, quia talis
+              notitia de potentia Dei ordinata viatori non communicatur
+              de lege communi, sed quod non sit sibi communicabilis de potentia
+              Dei absoluta non dicit <name ref="#Paul">Apostolus</name>.</p>
+            <p xml:id="atvl1prolq1-d1e6828">Ad tertium etiam nego
+              minorem, quia, licet visio sit aliquid beatitudinis, non est tamen
+              totalis beatitudo secundum determinationem ecclesie. Et
+              ad auctoritatem <name ref="#Augustine">beati Augustini</name> dico quod dictio exclusiva
+              secundum eum aliquotiens additur termino propter inseparabilitatem
+              eius ab alio sine exclusione alterius. Ipso <ref>I dicens <title ref="#deTrinitate">De trinitate</title>,
+                capitulo 8, de magnis vel 24, de parvis:</ref> <quote xml:id="atvl1prolq1-Qd1e6839">Demum propter
+                  ipsam inseparabilitatem sufficienter aliquando nominatur vel Pater
+                  solus, vel Filius solus adimpleturus nos leticia cum
+                  vultu suo et quia visio Dei facialis de potentia Dei ordinata
+                  secundum ordinem qui nunc est inseparabilis est de lege communi ab illa
+                  fruitione que plenum gaudium nostrum est per ipsum, ubi supra.
+                  Idcirco visio Dei sola dicitur summum bonum nostrum
+                  premium et finis non per exclusionem fruitionis, sed cum
+                  inclusione eiusdem,</quote> quod ipsemet ostendit ibidem modicum
+              infra dicens quod <quote xml:id="atvl1prolq1-Qd1e6842">quando Christus videbitur in ea claritate quam habuit
+                apud Patrem priusquam mundus fieret, tunc tradet regnum
+                Deo patri, ut intret servus fidelis in gaudium domini
+                sui.</quote> Ecce quod cum visione subiunxit gaudium, ut beatitudinem
+              ostenderet in utroque consistere. Per idem
+              patet quid dicendum ad confirmationem, quia visio non est
+              tota merces nisi cum inclusione fruitionis beatifice,
+              sed dicitur absolute tota merces, sicut ipsa dicitur summum bonum
+              nostrum premium et finis propter inseparabilitatem ipsius
+              a fruitione.</p>
+            <p xml:id="atvl1prolq1-d1e6846">Ad quartum dico quod, licet fruitio beatifica
+              sit inseparabilis a visione de lege communi, potest tamen esse visio sine
+              fruitione de potentia Dei absoluta, ut patet ex dictis
+              et clarius apparebit in prima distinctione. Et
+              quando dicitur quod 'si Deus suspendere actum fruitionis a voluntate
+              videntis Deum intuitive vellet voluntatem esse miseram',
+              dicendum quod dupliciter voluntas potest dici misera
+              positive, scilicet et privative. Positive quidem, quia in ipsa
+              est odium et tristitia, et sic voluntas damnati est in summa miseria.
+              Privative vero, quia non est in ipsa dilectio et delectatio
+              sibi possibilis et sic Deus vult voluntatem predictam
+              esse miseram extendendo nomen miserie et quasi improprie
+              utendo ipso non primo modo. Et quando dicitur quod 'illa
+              <cb ed="#V" n="b"/>
+              sola voluntas est misera que vult quod Deus non vult eam
+              velle' etc., verum est de miseria voluntatis primo modo sumpta,
+              quia velle quod Deus non vult eam velle et nolle quod
+              Deus vult eam velle sunt actus positivi. Et ideo non
+              sequitur quod Deus vult eam esse miseram propter variationem
+              medii, immo casu posito nihil vult eam velle.</p>
+            <p xml:id="atvl1prolq1-d1e6849">Ad quintum dico quod articulus non est contra me,
+              quia intelligitur naturaliter et ex principiis nature, sicut
+              patet per <name ref="#Aristotle">Aristotelem</name> exponentem ipsum ubi dicitur quod intellectus
+              noster potest pertingere ad notitiam prime
+              cause per sua naturalia. Hoc male sonat et est error
+              si intelligatur de cognitione immediata. Ego vero loquor
+              de potentia Dei absoluta et habeo auctoritatem
+              expressam <name ref="#Augustine">beati Augustini</name>. Articulus ergo non est ad propositum.</p>
+            <p xml:id="atvl1prolq1-d1e6859">Ad auctoritates <name ref="#Augustine">beati Augustini</name> et consimiles dicendum
+              quod loquuntur ex principiis nature sicut et articulus
+              statim declaratus vel secundum ordinem quem credimus
+              insitutum de lege communi, non autem de potentia
+              Dei absoluta, sicut probant auctoritates eiusdem
+              superius allegate.</p>
+          </div>
+          <div>
+            <head xml:id="atvl1prolq1-Hd1e6868">Opinio communis.</head>
+            <p xml:id="atvl1prolq1-d1e6871">Contra tertiam conclusionem est etiam communis
+              opinio et dimissis rationibus generalibus de fide
+              et merito que possent deduci contra eam, sicut et contra
+              precedentem, quia ad hoc patet quid dicendum ex
+              supradictis, potest in speciali argui primo sic: evidens
+              notitia deductiva de veritatibus theologie non
+              potest viatori communicari sine intuitiva precedente
+              de subiecto theologie, igitur nec cum ipsa, ergo nullo
+              modo. Antecedens patet per me, quia non probavi possibilitatem
+              huius notitie nisi quod repugnat videre Deum
+              intuitive, vel quia sibi non repugnat intuitive videre
+              Christum esse Deum. Et quocumque istorum dato patet,
+              quod non potest communicari viatori sine intuitiva precedente
+              de subiecto theologie. Secunda consequentia
+              est nota. Prima probatur, quia quicquid Deus potest facere
+              mediante intuitiva, potest facere sine ea, quia quid
+              potest facere mediante causa secunda et per se.</p>
+            <p xml:id="atvl1prolq1-d1e6874">Preterea,
+              notitia evidens istarum veritatum: <mentioned><choice><sic>ante Christus</sic><corr>antichristus</corr></choice>
+                est futurus,</mentioned> <mentioned>generalis resurrectio mortuorum erit</mentioned>
+              dependet ex notitia terminorum intuitiva, quia abstractiva
+              non sufficit. Sed de his non habetur pro nunc,
+              nec potest haberi notitia intuitiva, cum sint sicut futura
+              contingentia; igitur etc.</p>
+            <p xml:id="atvl1prolq1-d1e6877">Preterea, si talis notitia
+              posset communicari viatori, Deus posset facere
+              viatorem evidentius cognoscere veritatem contingentem
+              quam beatus cognoscat de facto, quod videtur
+              impossibile. Consequentia probatur, quia ex quo
+              est certa distantia inter istas evidentias tantum posset
+              augeri evidentia viatoris quod excederet evidentiam
+              comprehensoris.</p>
+            <p xml:id="atvl1prolq1-d1e6880">Preterea, vel evidens notitia deductiva
+              istius veritatis <mentioned>Deus est trinus et unus</mentioned> est
+              perfectior ratione evidentie quam sit abstractiva de eadem,
+              vel equalis, vel minus perfecta. Non minus perfecta,
+              quia notitia deductiva deducta ex cognitione
+              intuitiva certior est et evidentior abstractiva de
+              eodem per me. Si perfectior, sequitur quod non possit
+              communicari viatori, cum sibi non possit communicari
+              abstractiva per me que tamen ponitur minus perfecta.
+              Si equalis, idem sequitur; igitur etc.</p>
+          </div>
+          <div>
+            <head xml:id="atvl1prolq1-Hd1e6886">Responsio ad obiecta</head>
+            <!-- responsio seems better -->
+            <!-- <p xml:id="atvl1prolq1-d1e6890">Respondeo ad obiecta.</p> -->
+            <p xml:id="atvl1prolq1-d1e6893">Ad primum istorum quicquid sit de antecedente, nego
+              primam consequentiam, quia pari ratione probaretur
+              quod voluntas rationalis posset Deum diligere
+              sine cognitione, quia potest ipsum diligere mediante
+              cognitione, quod est evidenter falsum. Et quando
+              dicitur 'quicquid Deus potest mediante causa secunda,
+              potest etiam per se', verum est si effectus dependet
+              a causa secunda in genere cause efficientis precise. Sed non simpliciter,
+              aliter posset facere paternitatem sine filiatione et quod
+              <pb ed="#V" n="7-v"/>
+              <cb ed="#V" n="a"/>
+              creatura diligeret sine cognitione. In proposito vero patet
+              quod talis deductiva notitia non dependet ab intuitiva
+              in genere cause efficientis, etiam si presupponat ipsam necessario,
+              sicut diligere presupponit cognitionem.</p>
+            <p xml:id="atvl1prolq1-d1e6896">Ad secundam nego
+              maiorem, quia ad habendam evidentem notitiam deductivam
+              de veritatibus illis et ceteris theologicis veritatibus
+              sufficit quod viator possit intuitive videre Christum
+              esse Deum et huiusmodi veritates esse dictas a Christo sine
+              notitia quacumque intuitiva vel abstractiva de terminis
+              earum. Item Deus habet veritatem evidentem istarum
+              veritatum sine notitia intuitiva terminorum, cum non
+              cognoscat aliquam creaturam intuitive, sed superintuitive,
+              ut patet ex primo articulo, et sic viator posset cognoscere
+              terminos istarum veritatum, cum sibi non repugnet
+              intuitiva notitia deitatis, ut patet ex supradictis.</p>
+          </div>
+          <div>
+            <head xml:id="atvl1prolq1-Hd1e6902"><supplied>Opinio Roddenton</supplied></head>
+            <!-- <head><name ref="#JohnOfRodington">Roddenton</name> in <title>Prologo</title> I, questione 2, articulo 2.</head> -->
+            <p xml:id="atvl1prolq1-d1e6908">Ad tertiam aliqui dicunt interimendo consequentiam
+              et ad probationem quod, sicut quantumcumque augeretur abstractiva
+              manente abstractiva nunquam attingeret ad claram
+              visionem, quia sunt alterius rationis, sic in proposito quantumcumque
+              augeretur evidentia viatoris nunquam attingeret evidentiam
+              comprehensoris, cum sint etiam alterius speciei.</p>
+            <p xml:id="atvl1prolq1-d1e6911">Sed istud non valet, quia cum notitia deitatis intuitiva
+              sit communicabilis viatori. Patet, quia evidentia viatoris
+              et comprehensoris de veritatibus contingentibus possunt
+              esse eiusdem rationis. Et ideo admitto consequens, quia sicut Deus
+              potest facere quod unus beatus evidentius cognoscat veritatem
+              contingentem quam alius, ita potest facere de potentia
+              abstractiva quod aliquis viator evidentius cognoscat aliqui
+              comprehensore, cum sint vel possint esse evidentie eiusdem
+              rationis et una non excedit aliam in infinitum.</p>
+            <p xml:id="atvl1prolq1-d1e6914">Ad quartum
+              concedo quod evidens notitia deductiva istius veritatis
+              <mentioned>Deus est trinus et unus</mentioned> deducta notitia intuitiva
+              deitatis certior esset et evidentior abstractiva de
+              eadem si esset possibilis abstractiva. Ex hoc tamen non sequitur
+              quod non possit communicari viatori, quia abstractiva non
+              repugnat ei propter sui perfectionem, sed quia non est possibilis.</p>
+          </div>
+          <div>
+            <head xml:id="atvl1prolq1-Hd1e6920"><supplied>Opinio Ockham</supplied></head>
+            <!-- <head><name ref="#Ockham">Ockham</name> in <title>Prologo</title> I, questione 2, articulo 2</head> -->
+            <p xml:id="atvl1prolq1-d1e6926">Contra quartam conclusionem est quedam opinio que ponit
+              quod nulla propositio in qua aliquid intrinsecum Deo de divina
+              essentia probatur est vere scibilis scientia proprie dicta. Pro qua
+              quid arguunt.</p>
+            <p xml:id="atvl1prolq1-d1e6929">Primo sic: nihil intrinsecum potest de divina
+              essentia demonstrari, igitur nec scientia proprie dicta. Consequentia patet,
+              quia scientia proprie dicta est habitus conclusionis demonstrate.
+              Antecedens probatur dupliciter.</p>
+            <p xml:id="atvl1prolq1-d1e6932">Primo sic: omnis propositio demonstrabilis
+              est dubitabilis. Nulla propositio in qua aliquid
+              intrinsecum Deo de divina essentia predicatur est dubitabilis;
+              ergo etc. Probatur minor, quia impossibile est quod aliqua sint idem
+              realiter et intuitive vel abstractive, et distincte intelligantur
+              et quod dubitetur de identitate eorum, quia si aliqua propositio
+              sit per se nota, illa erit maxime in qua predicatur
+              idem realiter de eodem realiter, sed essentia divina est idem
+              realiter cum quolibet quod est realiter Deus, ergo nulla talis propositio
+              est dubitabilis.</p>
+            <p xml:id="atvl1prolq1-d1e6936">Secundo sic: omne quod demonstratur
+              de aliquo per prius predicatur de aliquo per quod demonstratur.
+              Sed nihil realiter idem cum Deo potest predicari prius de
+              aliquo quam de divina essentia, quia nihil tale est; ergo etc.</p>
+            <p xml:id="atvl1prolq1-d1e6939">Secundo ad principale sic: nulla propositio immediata
+              est vere scita scientia proprie dicta. Omnis propositio in qua conceptus
+              communis Deo et creature de divina essentia predicatur
+              est immediata; igitur saltem nulla talis est vere scita
+              scientia proprie dicta. Probatur minor, quia omne commune immediate predicatur
+              de aliquo contento in quod primo dividitur. Sed quilibet
+              talis conceptus immediate dividitur in Deum et in creaturam,
+              sicut prima divisio sapientie est quod quedam est increata
+              et quedam creata, similiter intellectus quidam creatus et
+              quidam increatus, bonitas alia creata, alia increata
+              et sic de similibus; ergo etc.</p>
+          </div>
+          <div>
+            <head xml:id="atvl1prolq1-Hd1e6945"><supplied>Opinio Roddenton</supplied></head>
+            <!-- <head><name ref="#JohnOfRodington">Roddenton</name> in <title>Prologo</title> I, questione 3, articulo 2. </head> -->
+            <p xml:id="atvl1prolq1-d1e6951">
+              <cb ed="#V" n="b"/>
+              Ad idem arguunt quidam alii sic: nulla propositio potest
+              sciri in qua termini precise supponunt pro eodem. Sed in omni propositione
+              in qua aliquid intrinsecum Deo de divina essentia
+              predicatur termini supponunt pro eodem precise, quia pro
+              Deo; igitur etc.</p>
+            <p xml:id="atvl1prolq1-d1e6955">Preterea, de quo non potest haberi conceptus quiditativus
+              et denominativus, nec scientia proprie dicta, sed videns
+              Deum non potest habere de aliquo intrinseco Deo conceptum
+              denominativum, igitur nec scientiam proprie dictam. Minor probatur
+              tripliciter.</p>
+            <p xml:id="atvl1prolq1-d1e6958">Primo sic: conceptus denominativus non habetur
+              nisi concipiatur res que est apta nata denominare aliquid.
+              Sed solo Deo viso non concipitur tale quid, quia totum
+              quod concipitur de Deo est res simplex omnino, et per consequens non est
+              ibi aliquid nisi persone distincte, quarum una non est magis
+              nata denominare aliam quam econverso; ergo etc.</p>
+            <p xml:id="atvl1prolq1-d1e6962">Secundo,
+              quia respectu eiusdem rei simpliciter non sunt duo conceptus
+              alterius rationis si nihil correspondeat nisi una res simpliciter.
+              Deus autem et omne intrinsecum sunt simpliciter una res;
+              igitur etc.</p>
+            <p xml:id="atvl1prolq1-d1e6965">Tertio, quia quando duo sunt similia tertio, et inter
+              se. Sed si huiusmodi conceptus possent haberi solo Deo viso
+              essent similes tertio, cum conceptus sit quedam similitudo
+              obiecti; igitur et inter se. Quod patet esse falsum, quia tunc
+              non essent alterius rationis.</p>
+            <p xml:id="atvl1prolq1-d1e6968">Quarto, quia ubi pluralitas
+              nominum tantum et una res, ibi non est diversitas conceptuum
+              alterius rationis, sed pluralitas attributorum est tantum pluralitas
+              nominum et una res; ergo etc.</p>
+          </div>
+          <div>
+            <head xml:id="atvl1prolq1-Hd1e6975">Responsio ad rationes Ockham</head>
+            <!-- responsio seems best -->
+            <!-- <p xml:id="atvl1prolq1-d1e6979">Respondeo ad rationes <name ref="#Ockham">Ockham</name>.</p> -->
+            <p xml:id="atvl1prolq1-d1e6985">Ad primum istorum nego antecedens, quia <ref><name ref="#Anselm">Anselmus</name>, <title ref="#Monologion">Monologion</title>
+              15,</ref> demonstrat de Deo perfectiones simpliciter per rationem infiniti.
+              Et ad primam probationem dico quod maior est falsa, quia
+              nulla propositio per se nota est dubitabilis et tamen multe
+              sunt demonstrabiles, sicut declarabitur distinctio 2. Et ulterius
+              vel intendit quod propositio dubitabilis sit demonstrabilis
+              apud omnem intellectum, vel apud aliquem sic et apud aliquem
+              non. Si primo modo, sequitur quod nulla propositio sit demonstrabilis,
+              cum nulla sit dubitabilis apud divinum intellectum.
+              Si secundo modo, minor est falsa vel non sumitur sub maiori,
+              quia multe propositiones in quibus est aliquid intrinsecum
+              Deo de divina essentia predicatur sunt dubitabiles apud
+              aliquem intellectum. Et si dicatur quod omnis propositio est demonstrabilis,
+              est dubitabilis intellectui demonstranti ipsam.
+              Contra Deus scit quod luna eclipsatur, quia terra interponitur
+              et non econverso, igitur ista propositio est demonstrabilis
+              a Deo et tamen non est dubitabilis ab ipso.</p>
+            <p xml:id="atvl1prolq1-d1e6996">Ad secundum
+              nego minorem, quia si medium in demonstrando sit diffinitio subiecti
+              in habentibus diffinitionem vel ratio formalis et quiditativa
+              in non habentibus diffinitionem, sicut videtur aliquibus perfectiones
+              attributales, per prius predicantur de ratione formali
+              et quiditativa ipsius Dei quam de divina essentia vel de Deo,
+              quia de Deo demonstratur per rationem quiditativam ipsius, non autem
+              econverso. Nec valet si dicatur quod tunc ratio formalis et quiditativa
+              Dei et Deus distinguerentur ex natura rei, quia, sicut
+              passio demonstrabilis de suo subiecto per prius predicatur de
+              diffinitione quam de diffinito in habentibus diffinitionem, quia per
+              diffinitionem demonstratur passio de diffinito, non autem
+              econverso. Et cum diffinitio et diffinitum sint idem penitus
+              ex natura rei, secundum <name ref="#Averroes">Commentatorem</name>, et hanc credo veriorem
+              doctrinam, sic etiam in proposito. Si vero diffinitio passionis
+              et non subiecti sit medium in demonstratione sicut
+              videtur aliis, dicetur quod inter perfectiones intrinsecas demonstrabiles
+              de Deo est ordo prioritatis non quidem in
+              essendo, quia sic nulla prioritas est in divinis ad intra,
+              ut suppono pro nunc, sed inserendo. Ordinem autem illum ille
+              cognoscit qui videt Deum intuitive.</p>
+            <p xml:id="atvl1prolq1-d1e7002">Ad secundum
+              principale patet per <name ref="#Anselm">Anselmum</name> quod minor est falsa et ad probationem
+              quando dicitur quod omne commune immediate predicatur. Et sic potest
+              uno modo dici quod ista propositio est duplex, quia uno modo
+              potest intelligi quod omne commune immediate contradicatur de quolibet
+              contento in quod primo dividitur, quia inter
+              ipsum et in quo primo dividitur non cadit commune
+              <pb ed="#V" n="8-r"/>
+              <cb ed="#V" n="a"/>
+              medium. Sic species specialissima predicatur immediate
+              de suis singularibus et sub isto sensu propositio est
+              vera, sed non est ad propositum. Alio modo, quia illud commune
+              de hiis in que primo dividitur non potest ex aliis evidenter
+              concludi et sub isto sensu esset ad propositum, quia tunc
+              faceret propositionem immediatam. Sed sic est falsa,
+              quia aut potest evidenter concludi de homine in quod tamen dividitur
+              arguendo sic: omnis substantia animata sensibilis est.
+              Sed omnis homo est substantia animata sensibilis; ergo
+              omnis homo est animal, et sic de aliis. Potest etiam dici secundo
+              quod per rationem non probatur, etiam si aliquid concludat nisi
+              quod ista propositio <mentioned>sapientia creata est sapientia</mentioned> sit immediata
+              et similiter ista <mentioned>sapientia increata est sapientia.</mentioned> Sed non
+              probatur quod ista sit immediata <mentioned>Deus est sapiens sapientia
+                increata.</mentioned> Nec valet si dicatur quod Deus et sapientia
+              increata sunt idem penitus, quia ad hoc sufficit distinctio
+              rationis, cum talis demonstratio non sit a priori
+              et per causam in essendo, sed tantum in inferendo et qualem
+              ordinem servant aliqua in essendo ubi realiter distinguuntur.
+              Talem servant in inferendo ubi secundum rationem sive conceptibiliter
+              sunt distincta. Sufficit etiam ad hoc distinctio
+              virtualis, quia ista res simplicissima una que est deitas
+              et sapientia equipollet distinctis, rebus sicut <ref>declarabitur
+              distinctio 2.</ref></p>
+            <p xml:id="atvl1prolq1-d1e7009">Ad tertium conceditur minor secundum communem
+              doctrinam si termini supponunt pro eodem et
+              re et ratione, sed sub illo sensu minor est falsa.</p>
+          </div>
+          <div>
+            <head xml:id="atvl1prolq1-Hd1e7015">Responsio ad rationes Reddentoni</head>
+            <!-- This confirms the reading of responsio over respondeo <p xml:id="atvl1prolq1-d1e7019">Responsio ad rationes <name ref="#JohnOfRodington">Roddentoni</name></p> -->
+            <p xml:id="atvl1prolq1-d1e7024">Potest etiam dici quod maior non est vera si termini
+              supponant pro eadem re. Equipollente tamen distinctis
+              rebus, sicut est in proposito.</p>
+            <p xml:id="atvl1prolq1-d1e7027">Ad quartum nego
+              minorem. Est enim expresse contra <ref><name ref="#JohnDamascenus">Damascenum</name>, libro I, capitulo 4,</ref> ubi dicit quod
+              <quote xml:id="atvl1prolq1-Qd1e7034" ana="#JohnDamescenus_DeFide_I_4_a">si bonum, si iustum, si sapiens dixeris, non naturam dicis
+                Dei, sed que sunt circa naturam</quote> quod non potest intelligi
+              quoad rem, cum deitas et sapientia sint una res, igitur quoad
+              conceptum. Quo posito sequitur quod nihil videns nisi Deum
+              potest habere de aliqui intrinseco Deo conceptum qualitativum
+              sive denominativum. Et ad probationem potest uno modo dici
+              interimendo minorem, quia solo Deo viso concipitur sapientia
+              que est apta nata denominare. Et quando dicitur
+              quod totum quod concipitur de Deo est res simplex omnino verum
+              est, quia distinctio rationis vel virtualis sive equipollenter
+              distinctis rebus, quod idem est que sufficit, adhuc
+              stat cum summa simplicitate.</p>
+            <p xml:id="atvl1prolq1-d1e7038">Potest etiam dici secundo interimendo
+              maiorem, quia ad habendum conceptum denominatum
+              sufficit quod concipiatur res cuius conceptus possit
+              denominative sive qualitative predicari. Et sic est
+              in proposito, ut patet per <name ref="#JohnDamascenus">Damascenum</name>.</p>
+            <p xml:id="atvl1prolq1-d1e7045">Ad quintum nego maiorem,
+              quia de eadem re simplicissima possunt haberi duo
+              conceptus alterius rationis si illa res simplicissima
+              equipolleat distinctis rebus, sicut est in proposito.</p>
+            <p xml:id="atvl1prolq1-d1e7048">Potest etiam dici quod ad habendum tales conceptus sufficit
+              sola distinctio rationis.</p>
+            <p xml:id="atvl1prolq1-d1e7051">Ad sextum eodem modo, quia non
+              est inconveniens quod duo conceptus dissimiles sint similes
+              sive similitudines eiusdem rei equipollenti tamen distinctis
+              rebus.</p>
+            <p xml:id="atvl1prolq1-d1e7054">Per idem patet dicendum ad quartum quod
+              quia ad diversitatem talium conceptuum sufficit quod ista una
+              res equipolleat distinctis.</p>
+          </div>
+          <div>
+            <head xml:id="atvl1prolq1-Hd1e7060">Responsio ad argumenta principalia.</head>
+            <p xml:id="atvl1prolq1-d1e7063">Ad argumenta principalia. Ad primum potest uno
+              modo dici quod, si talia predicata non possunt demonstrari
+              de Deo a priori, adhuc possent a posteriori et
+              in tali demonstratione medium non est diffinitio. Potest etiam
+              dici secundo quod medium demonstrationis non est diffinitio subiecti,
+              sed passionis. Quo posito patet quod ratio nihil concludit.
+              Potest ulterius dici tertio, si concedatur quod diffinitio
+              passionis non sit medium in demonstratione, quod medium ipsius
+              est diffinitio subiecti vel eius ratio formalis et quiditativa
+              que potest dici diffinitio largo modo sumpta.</p>
+            <p xml:id="atvl1prolq1-d1e7066">Ad
+              secundum, licet sit pro conclusione mea, etiam patet quod assumit secundum,
+              <cb ed="#V" n="b"/>quia notitia abstractiva deitatis secundum proprium eius conceptum
+              non potest alicui communicari, ut declaratum est supra.</p>
+          </div>
+        </div>
+      </div>
+     </body>
+   </text>
+ </TEI>

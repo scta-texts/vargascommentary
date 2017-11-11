@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prologus, Quaestio 8</title>
+                <author>Alphonsus Toletanus Vargas</author>
+                <editor>Luciana Cioca</editor>
+                <respStmt>
+                    <name>Jeffrey C. Witt</name>
+                    <name>Luciana Cioca</name>
+                    <resp>TEI Encoder</resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.0.0-dev">
+                    <date when="2017-10-02">October 2017</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <authority>
+                    <ref target="http://www.thesis-project.ro/">ERC-THESIS project n° 313339</ref>
+                </authority>
+                <availability status="free">
+                    <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref></p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="V" n="Venice1490">Venice1490</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+            <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"> </schemaRef>
+            <editorialDecl>
+                <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+                    guidelines for a critical edition</p>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc status="draft">
+            <listChange>
+                <change when="2017-10-25" who="#LC" status="draft" n="0.0.0">
+                    <p>Created file for the first time.</p>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="la">
+        <front>
+            <div xml:id="includeList">
+            </div>
+            <div xml:id="starts-on">
+                <pb ed="#V" n="27-r"/>
+                <cb ed="#V" n="b"/>
+            </div>
+        </front>
+        <body>
+            <div xml:id="atv-l1prolq8"> 
+                <head>Prologus, questio 8</head>
+                <p>Quarto ad maiorem declarationem predictorum quero: utrum ex infinitate subiecti primi formaliter sumpti necessario concludatur infinitas habitus scientifici.</p>
+                <p>Et videtur primo quod non, quia ex dignitate subiecti non necessario concluditur dignitas scientie, ergo nec ex infinitate infinitas. Consequentia est nota. Antecedens probatur, quia scientia non specificatur a subiecto, igitur nec dignificatur ab eo. Consequentia patet, quia scientia esse digniorem est ipsam habere gradum specificum altiorem. Et antecedens videtur clarum, quia unaqueque res specificatur per principia sua intrinseca et subiectum est scientie extrinsecum non intrinsecum.</p>
+                <p>Contra: inter subiectum et scientiam debet esse propositio, igitur, sicut subiecti finiti est scientia finita, sic etiam infiniti erit infinita.</p>
+                <p>Responsio. In ista questione erunt quattuor articuli, quia primo ponam aliquas distinctiones. Secundo conclusiones. Tertio movebo dubia. Et quarto respondebo.</p>
+                
+                <div type="articulus">
+                    <head>Primus articulus</head>
+                    <p>Quantum ad primum articulum distinguo primo de infinitate subiecti intensiva et extensiva, molis et perfectionis. Et intelligo questionem de infinitate perfectionis et intensiva, quia certum est quod ex infinitate molis vel extensiva subiecti non necessario concluditur infinitas perfectionis scientie.</p>
+                    <p>Secundo, quia ex infinitate perfectionali subiecti non concluditur infinitas perfectionis scientie, nisi ex dignitate concludatur dignitas. Distinguo de dignitate et perfectione scientie, quia dupliciter potest intelligi quod ex dignitate et perfectione subiecti concludatur dignitas et perfectio habitus scientifici. Uno modo simpliciter et adequate, sic quod tanta sit simpliciter dignitas et perfectio scientie quanta est dignitas et perfectio subiecti. Et tantum una scientia simpliciter excedit aliam quantum subiectum unius excedit subiectum alterius. Alio modo proportionabiliter et commensurative ad istum sensum quod quanto subiectum excedit subiectum tanto proportionabiliter, licet non simpliciter scientia excedit scientiam in duplo, ut si subiectum excedit subiectum in duplo, scientia excedit scientiam in duplo.</p>
+                    <p>Et sic regulariter in primo sensu non est possibile quod ex dignitate subiecti concludatur dignitas scientie, quia omnis scientia in creaturis est accidens et subiectum alicuius potest esse substantia et certum est quod nullum accidens est tante perfectionis simpliciter sicut substantia. Nec etiam est possibile quod scientia quam habet homo de angelo tantum excedat simpliciter scientiam quam habet de albedine quantum angelus excedit albedinem. Nec in isto sensu aliquis doctor ponit quod ex dignitate subiecti necessario concludatur dignitas scientie.</p>
+                    <p>In secundo vero sensu sic quod credo verum esse sicut declarabitur articulo sequenti. </p>
+                    <p>Tertio et quasi conformiter distinguo de infinitate perfectionis habitus vel scientie, quia dupliciter potest intelligi quod ex habitu perfectionali subiecti con-
+                        <pb ed="#V" n="27-v"/>
+                        <cb ed="#V" n="a"/>
+                        -cludatur finitas perfectionis scientie. Uno modo simpliciter et adequate modo exposito. Alio modo simpliciter in genere suo, non tamen adequate ad istum sensum quod scientia sit perfectionaliter infinita in genere scientie si subiectum sit perfectionaliter infinitum, licet non sit necessario equalis perfectionis cum ipso. Et in isto secundo sensu intelligo questionem, non in primo, quia certum est quod, si angelus esset perfectionaliter infinitus et scientia quam habet homo de angelo esset in genere suo perfectionaliter infinita, adhuc non adequaret sibi in perfectione, immo non adequaretur angelo finito, quia adhuc talis scientia in homine esset accidens. Et hoc de primo.</p>
+                </div>
+                
+                <div type="articulus">
+                    <head>Secundus articulus</head>
+                    <p>Quantum ad secundum articulum pono quattuor conclusiones. </p>
+                    
+                    <div>
+                        <head><supplied>Conclusio prima</supplied></head>
+                        <p>Prima est quod ex unitate subiecti primi formaliter sumpti necessario concluditur unitas specifica habitus scientifici. </p>
+                        <p>Probatur primo sic: sicut se habet distinctio subiecti ad distinctionem scientie, <choice><sic>sicut</sic><corr>sic</corr></choice> se habet unitas ad unitatem, sed ex distinctione subiecti primi formaliter sumpti necessario concluditur specifica distinctio habitus scienfitici, ergo. Maior supponitur, quia <choice><sic></sic><corr>per</corr></choice> eadem scientia et quacumque alia res distinguitur ab aliis et est una, quia esse unum est esse indivisum in se et divisum ab aliis, ex V et X <title>Metaphysice</title>. Minor probatur ratione et auctoritate. Auctoritate quidem <name>Philosophi</name> III <title>De anima</title> dicentis quod “secantur scientie quemadmodum et res”. Ratione sic. Ex distictione subiecti primi et passionis demonstrabilis de subiecto necessario concluditur specifica distinctio habitus scientifici, sed ex distinctione subiecti primi formaliter sumpti necessario concluditur distinctio passionis demonstrabilis de subiecto, igitur ex distinctione subiecti primi formaliter sumpti necessario concluditur specifica distinctio habitus scientifici. Maior est evidens et ab omnibus concessa. Minor probatur, quia ex alia et alia ratione formali subiecti oritur alia et alia passio demonstrabilis de subiecto, non eadem, ut patet, ergo. Sed forte dicetur quod minor istius probationis non est universaliter vera, quia angelus et homo distinguuntur specifice et sic formaliter, et tamen eadem passio est demonstrabilis de utroque, quia quilibet eorum est beatificabilis. Ista tamen evasio est nulla, quia esse beatificabile non convenit angelo et homini per illud in quo distinguuntur, sed per illud in quo conveniunt, dicente <name>Aristotele</name> I <title>Priorum</title> quod quicquid convenit differentibus specie convenientis per aliquod commune subiectum, angelus igitur et homo prout de ipsis demonstratur esse beatificabile non sunt distincta subiecta formalia, sed unum tantum, quia unum non demontratur de ipsis nisi per aliquod in quo convenit eo modo in quo declaratum est in questione de ratione formali subiecti, articulo 4. </p>
+                        <p>Secundo ad principale arguitur primo sic: ex unitate subiecti primi et passionis demonstrabilis de subiecto necessario concluditur unitas specifica habitus scientifici, cum scientia sit habitus conclusionis demonstrate I <title>Posteriorum</title>, sed ex unitate subiecti primi formaliter sumpti necessario et concluditur unitas passionis demonstrabilis de subiecto, quia, si per rationem formalem eandem plures passiones essent demonstrabiles de eodem subiecto, demonstratio non esset ex propriis, sed ex communibus, quod est contra <name>Aristotelem</name> I <title>Posteriorum</title>; ergo etc.</p>
+                        <p>Sed forte dicetur quod minor istius rationis est falsa, quia de eodem subiecto simpliciter re et ratione utputa de homine diverse passionis sunt demonstrabiles, quia de ipso demonstratur quod sit risibilis et quod sit beatificabilis. Ista tamen solutio est nulla, quia esse beatificabile convenit homini per illud in quo convenit cum angelo, ut patet ex dictis. Esse vero risibile convenit ei per illud in quo distinguitur ab angelo, non ergo convenit ei per eandem rationem formalem, sed per aliam et aliam sive distinguatur in ipsa re sine ratione de quo alia videbitur. Ista con-
+                            <pb ed="#V" n="27-v"/>
+                            <cb ed="#V" n="b"/>
+                            -clusio confirmatur auctoritate <name>Philosophi</name> I <title>Posteriorum</title> dicente quod “scientia est una que est unius generis subiecti” etc. Et constat quod loqui de veritate specifica; igitur etc.</p>
+                    </div>
+                    
+                    <div>
+                        <head><supplied>Conclusio secunda</supplied></head>
+                        <p>Secunda conclusio est quod ex nobilitate et perfectione subiecti primi formaliter sumpti proportionabiliter concludit nobilitas et perfectio habitus scientifici probatur primo sic: ab eodem scientia fortitur specificam unitatem et perfectionem sive dignitati. Hoc patet, quia scientiam esse digniorem sive perfectiorem est ipsam habere unitatem sive gradum specificum altiori, sed primum fortiter ex subiecto primo formaliter sumpto ex conclusione precedenti, igitur et secundum.</p>
+                        <p>Secundo sic: ab eodem scientia fortitur specificam distinctionem et dignitatem sive perfectionem. Hoc patet, quia quecumque specifice perfectionaliter se excedunt, sicut patet per <name>beatum Augustinum</name> III <title>De libero arbitrio</title>, capitulo 21, ubi probat quod equalitas perfectionis aliquarum rerum illas eiusdem speciei esse convincit, unde, si luna equaretur soli secundum perfectionem, non essent sol et luna, sed duo soles, igitur eodem formaliter qua res aliqua specifice distinguitur ab alia est dignior vel indignior ipsa, sed distinctionem specificam scientia fortitur ex subiecto primo formaliter sumpto, ut patet ex supradictis; ergo etc.</p>
+                        <p>Tertio sic: ex nobilitate et perfectione subiecti primi et passionis demonstrabilis de subiecto necessario concluditur nobilitas et perfectio habitus scientifici secundum res, sed ex nobilitate subiecti primi formaliter sumpti proportionabiliter concluditur nobilitas et perfectio passionis demonstrabilis, ergo. Probatur minor quod passio oritur naturaliter ex principiis propriis subiecti formaliter sumpti, igitur ex subiecto nobiliori oritur nobilior passio. Patet ista consequentia, quia natura agit toto conatu. </p>
+                        <p>Quarto sic: qualis est ordo formalis rationis in obiecto primo potentie ad potentiam talis in subiecto primo scientie ad scientiam et presertim quoad maiorem vel minorem perfectionem habitus vel potentie, sed ratio formalis in obiecto primo potentie in aliquo perfecto certo gradu concludit necessario in maiorem perfectionem potentie quam minus perfecta; ergo etc. Minor patet per totum processum <name>Aristotelis</name> II et III <title>De anima</title>, ubi in diversis locis concludit ordinem perfectionem  potentiarum et perfectione et ordine obiectorum debere sumi. Patet etiam discurrendo per omnes potentias anime, tam cognitivas quam apperitivas. Patet etiam et actibus earum, quia actus nobilior est nobilioris potentie secundum omnes. Et constat quod actus nobilior est respectu nobilior obiecti. Et huic est quod <name>Aristoteles</name> dicit potentias distingui per actus et actus per obiecta; igitur etc.</p>
+                        <p>Ista conclusio potest confirmari multis auctoritatibus <name>Philosophi</name> et <name>Commentatoris</name> qui istam materiam tractaverunt. </p>
+                        <p>Primo auctoritate expressa <name>Philosophi</name> in Prohemio <title>De anima</title> bonorum honorabilium etc. Et, licet <name>Aristoteles</name> ponat in littera duas conclusiones dicens unam scientiam esse nobiliorem alia vel quia de nobiliori subiecto, vel quia procedit certiori modo, prima tamen est potissima, quia constat quod metaphysica simpliciter excedit scientias mathematicas propter nobilitatem subiecti non obstante quod excedatur ab eis certitudine demonstrationis cum sint in primo ordine certitudinis, secundum <name>Commentatorem</name> II <title>Metaphysice</title>, commento 6; ergo etc. Et potest ex dictis formari una ratio talis. Nulla scientia potest aliam excedere nisi nobilitate subiecti vel certitudine demonstrationis, vel utroque istorum. Hoc patet per <name>Commentatorem</name> exponentem verva predicta <name>Philosophi</name> primo commento, ubi sic inquit: “artes enim non differunt ab invicem, nisi altero duorum modorum, scilicet aut confirmatione demonstrationis aut nobilitate subiecti, aut utroque modo”. Si igitur scientia de nobiliori subiecto non sit nobilior, quero in quo exceditur ab alia. Non potest dari stante supposito nisi confirmatio demonstrationis, sed hoc non obstat, ut declaratum est de metaphysica et scientiis mathematicis; ergo etc. </p>
+                        <p>Secundo potest confirmari auctoritate <name>Philosophi</name> V <title>Metaphysice</title>, ubi, postquam probavit me-
+                            <pb ed="#V" n="28-r"/>
+                            <cb ed="#V" n="a"/>
+                            -taphisicam esse aliam a physica, concludit ipsam esse perfectiorem ex maiori perfectione subiecti, super quo verbo sic inquit <name>Commentator</name>, commento 2. Et tamen manifestum est per se quod scientia nobilior est generis nobilior et scientia divina est nobilior, ergo est generis nobilior et loquitur <name>Commentator</name> de genere subiecti, sicut <name>Aristoteles</name> quando dicit quod scientia est una que est unius generis subiecti, propter quod subdit <name>Commentator</name> immediate. Omnes enim scientie speculative, licet sint nobiles, tamen scientia Dei est nobilior, quia eius subiectum est nobilius omnibus subiectis. Multe auctoritates consimiles adducuntur a doctoribus, et ideo pertranseo. </p>
+                    </div>
+                    
+                    <div>
+                        <head><supplied>Conclusio tertia</supplied></head>
+                        <p>Tertia conclusio est quod ex infinitate primi subiecti formaliter sumpti necessario concluditur infinitas habitus scientifici. </p>
+                        <p>Probatur primo sic: ex infinitate primi subiecti et passionis demonstrabilis de subiecto necessario concluditur infinitas habitus scientifici, sed ex infinitate subiecti primi formaliter sumpti necessario concluditur infinitas passionis, ergo. Maior patet, quia eadem scientia est finita et infinita et ab aliis specifice distincta, sed adhuc posito quod una scientia specifice distinguatur ab alia solo subiecto, nullus potest negare quin distinguatur subiecto et passione demonstrabili de ipso, cum scientia non sit nisi habitus conclusionis demonstrate. Minor probatur primo, quia quod oritur ex propriis principiis infiniti, ut infinitum est, est necessario infinitum, sed passio demonstrabilis de subiecto infinito formaliter sumpto oritur ex propriis principiis infiniti, ut infinitum est, ut patet, ergo. Secundo, quia quod oritur naturaliter ex propriis principiis subiecti infiniti formaliter sumpti est necessario infinitum. Hoc patet, quia, sicut dicebatur superius natura agit toto conatu, sed passio demonstrabilis de subiecto infinito, ut infinitum est, est huiusmodi; ergo etc.</p>
+                        <p>Secundo ad principale sic: ad augmentum perfectionis subiecti primi formaliter sumpti necessario proportionabiliter sequitur augmentum perfectionis habitus scientifici. Et ad maius sequitur maius, igitur ad infinitum sequitur infinitum. Antecedens patet ex conclusione precedenti. Consequentia tenet virtute istius deductionis quam <name>Aristoteles</name> et <name>Commentator</name> faciunt VIII <title>Physicorum</title>. Si tanta virtus in tanto tempore et maior in minori, igitur infinita in non tempore. Et confirmatur, ponatur quod Deus creet unum angelum perfectionaliter infinitum eiusdem tamen rationis specifice cum Gabriele et quod aliquis homo habeat scientiam de ipso, ut infinitus est, et idem vel alius homo scientiam de Gabriele qui non est infinitus, tunc quero an scientia quam habet homo de angelo infinito excedat scientiam quam habet de Gabriele finite vel infinite. Si infinite, propositum. Si finite, ponatur quod Deus augmentet perfectionem Gabrielis tantum quantum proportionabiliter scientia de angelo infinito excedit scientiam de Gabriele. Quo posito sequitur stante antecedente predicto quod scientia quam etiam haberet homo de Gabriele esset equalis perfectionis cum scientia quam habet de angelo infinito, quod est omnino impossibile propter duo. </p>
+                        <p>Primo, quia adhuc perfectio Gabrielis esset finita, non infinita, et per consequens scientia de subiecto finito equaretur scientie de subiecto infinito, quod est impossibile.</p>
+                        <p>Secundo, quia ponatur quod Deus interim augmentet perfectionem Gabrielis in duplo et tunc scientia hominis de Gabriele finito esset perfectior in duplo quam scientia de angelo infinito quod nullus diceret et repugnat antecedenti. </p>
+                        <p>Ex ista ratione patet deductio doctoris nostri dicentis quod inter subiectum et scientiam debet esse proportio secundum augmentum perfectionis scientie, et ideo sicut subiecti finiti est scientia finita, ita infiniti, ut infinitum est, sive sub ratione infiniti est scientia infinita. </p>
+                        <p>Ex istis duabus conclusionibus sequitur supposito quod Deus possit producere effectum proportionabiliter infinitum in genere utputa colorem vel angelum infinitum in suo genere quod aliqua scientia finita potest esse simpliciter perfectio scientia infinita. Deductio patet, quia, si color et angelus essent infiniti scientia angeli de colore, ut infinitus est, esset infinita ex conclusione precedenti, et tamen non equaretur scientie infinite quam 
+                            <pb ed="#V" n="28-r"/>
+                            <cb ed="#V" n="b"/>
+                            habet angelus de Deo, immo non equaretur scientie finite quam habet de homine, quod patet ex duobus.</p>
+                        <p>Primo, quia quantum subiectum excedit subiectum, tantum proportionabiliter scientia excedit scientiam, sicut patet ex secunda conclusione, sed homo quantumcumque finitus est simpliciter perfectior colore infinito, igitur scientia de homine finita erit simpliciter perfectior scientia de colore quantumcumque infinita. </p>
+                        <p>Secundo, quia scientia de colore et scientia de homine sunt diversarum rationum, si unum cresceret in infinitum, adhuc non equaretur perfecti per alter alteri; ergo etc.</p>
+                    </div>
+                    
+                    <div>
+                        <head><supplied>Conclusio quarta</supplied></head>
+                        <p>Quarta conclusio est quod, si theologia creature esset de Deo tanquam de subiecto primo sub ratione infiniti vel sub ratione deitatis absolute sumpta, esset perfectionaliter infinita. Ista conclusio quantum ad primam partem sequitur ex predictis, quia scientia de Deo sub ratione infinita est de infinito, ut infinitum est, et talis est perfectionaliter infinita ex conclusione precedenti. Quantum ad secundam etiam patet, quia infinitas est de per se et primo intellectu quiditativo deitatis, ut declaratum est supra, igitur, si theologia sit de Deo sub ratione deitatis absolute sumpta et hec erit de infinito sub ratione infiniti et sic perfectionaliter infinita et hec est deductio doctoris nostri.</p>
+                        
+                        <div>
+                            <head><name>Henricus</name> <title>Quolibet</title> XII, questione 1</head>
+                            <p>Est tamen hic advertendum quod quidam solemnis doctoris volens vitare illam difficultatem doctoris dicit quod aliter Deus sub ratione deitatis obicitur intellectui divino et aliter creato, quia intellectui divino non solum obicitur ratio deitatis absolute sumpta, sed etiam ratio infinitatis in ratione obiecti cogniti, et ideo actus vel intellectus habitus divini est intrinsece et formaliter infinitus. Intellectui vero creato sive in via sive in patria obicitur ratio deitatis absolute sumpta in ratione obiecti cogniti specificantur actum vel habitum. Ratio tamen infinitatis non obicitur in ratione obiecti cogniti, et ideo, ut dicit, non sequitur quod actus vel habitus intellectus creati sit intrinsece et formaliter infinitus.</p>
+                            <p>Ista tamen solutio est nulla, quia, cum infinitas sit de per se et primo intellectu quiditativo deitatis, simpliciter est impossibile quod ratio deitatis absolute sumpta obiciatur intellectui creato in ratione obiecti cogniti et quod ratio infinitatis non obiciatur ei. Et ideo sic theologia creature esset infinita si esset de Deo, ut infinitus est, sive sub ratione infinitatis secundum istum doctorem, quia tunc ratio infinitatis obiceretur ei in ratione obiecti cogniti specificantur actum vel habitum, ut dicit ita omnem eum concedere quod sit infinita si sit de Deo, ut Deus est, sive sub ratione deitatis absolute sumpta. </p>
+                            <p>Et hoc de secundo.</p>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                
+                <div type="articulus">
+                    <head>Tertius et quartus articulus</head>
+                    <p>Quantum ad tertium et quartum articulum simul contra conclusiones istas movenda et dissolvenda sunt dubia. Et primo contra primam conclusionem quidam doctor arguit primo sic:</p>
+                    
+                    <div>
+                        <head><name>Aureolus</name> in <title>Prologo</title> I, questione 4, articulo 3</head>
+                        <p>Si unitas subiecti sufficit ad causandum unitatem in scientifico habitu, adhuc unitas est specifica aut generis subalterni, aut generis generalissimi, aut ipsius entis. Primum dari non potest, quia tunc tot essent scientie quot sunt species specialissime. Nec secundum, quia pari ratione tot essent scientie quot genera subalterna. Nec tertium, quia tunc essent decem scientie iuxta denarium numerum predicamentorum. Nec quartum, quia tunc tantum esset una scientia et maxime si ens sit unius rationis, igitur unitas subiecti non tribuit habitui unitatem.</p>
+                        <p>Preterea, sicut habitus refertur ad obiectum, sic et potentia, sed due potentie possunt ferri super idem obiectum et sub eadem ratione, ut sensus communis, et visus super colorem et intellectus et voluntas super rationem boni, igitur duo habitus ferri poterunt super idem obiectum et sub eadem ratione formali.</p>
+                        <p>Preterea, opinio et scientia sunt habitus diversi et tamen possunt esse de eodem sub eadem ratione, igitur idem quod prius Et potest ista ratio confirmari, quia opinio et scientia plus differunt quam due scientie, sicut patet per <name>Philosophum</name> VI <title>Ethicorum</title>, igitur si non repugnat opinioni et scientie habere idem subiectum et sub eadem ratione formali nec duabus scientiis.</p>
+                    </div>
+                    
+                    <div>
+                        <head><name>Ockham</name> in <title>Prologo</title> I, questione 5, articulo 1</head>
+                        <p><pb ed="#V" n="28-v"/>
+                            <cb ed="#V" n="a"/>
+                            Preterea, ad idem quidam alius arguit sic: de subiecto simpliciter re et ratione possunt esse distincte scientie propter distinctionem passionum sicut hec: ‘omnis homo est risibilis’, ‘omnis homo est beatificabilis’, igitur unitas scientie non necessario concluditur ex unitate subiecti.</p>
+                    </div>
+                    
+                    <div>
+                        <head>Responsio ad rationes <name>Aureoli</name></head>
+                        <p>Ad primum istorum dico quod ratio formalis subiecti non necessario est una aliqua illarum unitatum, quia potest esse una unitate numerali vel unitate per se ordinis que non est aliqua istarum, licet possit stare cum omnibus, sicut fuit declaratum questione de ratione formali subiecti, articulo 4, et ideo ratio nulla.</p>
+                        <p>Ad secundum dico quod due potentie non possunt habere idem obiecti sub eadem ratione formali, quia potentie distinguuntur per actus et actus per obiecta, sicut patet per <name>Aristotelem</name> II et III <title>De anima</title>.</p> 
+                        <p>Et ad probationes. </p>
+                        <p>Ad primam dico quod, licet sensus communis possit ferri super colorem, color tamen non est eius obiectum formale, sed pars obiectiva sui per se obiecti.</p>
+                        <p>Ad secundum videbitur quod dicendum, cum inquiretur de ratione obiectiva intellectus et voluntatis.</p>
+                        <p>Ad tertium dico quod non est simile de opinione et scientia de duabus scientiis, quia opinio non distinguitur a scientia per subiectum sed per medium, et ideo non repugnat eis esse de eodem subiecto et formaliter sumpto. Scientia vero distinguitur a scientia per subiectum, ut patet ex dictis, et ideo distincte scientie non possunt habere idem subiectum formale. </p>
+                        <p>Ex his patet quid dicendum ad confirmationem, quia, licet opinio et scientia plus different quam due scientie, ex hoc tamen non sequitur quod, si opinio et scientia possunt esse de eodem subiecto, quod due scientie possint, quia opinio et scientia non distinguuntur per subiecta sicut due scientie. Et est simile ac si dicatur risibilitas et quantitas plus differunt quam risibilitas et hinibilitas et risibilitas et quantitas possunt esse in eodem subiecto, igitur risibilitas et hinibilitas. Patet quod non sequitur, quia risibilitas et quantitas non distinguuntur per subiectum sicut risibilitas et hinibilitas.</p>
+                    </div>
+                    
+                    <div>
+                        <head>Responsio ad rationes <name>Ockham</name></head>
+                        <p>Ad quartum patet quid dicendum ex prima conclusione, secundo articulo, quia ex unitate subiecti primi formaliter sumpti necessario concluditur unitas passionis, et ideo, licet distincte passiones possint demonstrari de eodem subiecto materiali sumpto, non tamen formaliter, quod patet etiam in exemplo suo, quia esse risibile convenit homini per rationem boni, quia convenit tantum homini, esse vero beatificabile non convenit tantum homini; ergo etc. Igitur exempla sua sunt ad oppositum, quia per aliam rationem est risibilis et per aliam beatificabilis. Et ulterius ista deductio contradicit <name>Commentatori</name>, sicut patet ex secunda conclusione eiusdem articuli, quia artes non differunt ab invicem sicut fuit allegatum ibi nisi altero duorum modorum, scilicet aut confirmatione demonstrationis, aut nobilitate subiecti, aut utroque modo, igitur non differunt propter distinctionem passionum nisi pro quanto ex distinctione subiectorum concluditur distinctio passionum, sicut declaratum est supra.</p>
+                    </div>
+                    
+                    <div>
+                        <head><name>Michael de Massa</name> in <title>Prologo</title> I, questione 5, articulo 1</head>
+                        <p>Contra secundam conclusionem quidam doctor noster arguit primo sic: si habitus scientialis perfectiones et dignitatem sumeret regulariter ex subiecto, tunc secundum augmentum et excessum perfectionis subiecti ad subiectum esset augmentum et excessus perfectionis habitus ad habitum. Sed hoc est falsum, quia habitus qui specificatur a substantia non excedit habitum qui specificatur a quantitate, sicut substantia excedit quantitatem. Hec patet, quia excessus perfectionis substantie ad quantitatem est excessus impossibilis in eodem predicamento, sed excessus cuiuscumque habitus ad alium habitum non est incompossibilis in eodem predicamento, cum omnes habitus scientiales sint in eodem predicamento; ergo etc.</p>
+                        <p>Preterea, impossibilie est aliquem habitum creatum tantum excedere alium habitum creatum quantum Deus secundum illam rationem, secundum quam <choice><sic>terminant</sic><corr>terminat</corr></choice> actum vel habitum creature excedit quodcumque ens creatum, ergo impossibile est quod regulariter sit verum quod habitus sumat proportionabiliter perfectionem et dignitatem ex subiecto vel obiecto. Consequentia patet, quia, si regulariter secundum signitatem obiectorum formalium esset dignitas habituum intrinseca et intensiva, igitur cuiuscumque rei ratio formalis subiectiva est improportionabilis et improportionabiliter excedens omnem rationem 
+                            <pb ed="#V" n="28-v"/>
+                            <cb ed="#V" n="b"/> 
+                            subiectivam aliarum rerum et habitus transiens super rem illam quantumcumque. Antecedens declaratur, quia ratio secundum quam Deus terminat actum vel habitum beatificum creature sive sit ratio finita, sive infinita eo ipso quod est ratio beatifica non est proportionabilis alicui rationi non beatifice et tamen omnis perfectio habitus creati est proportionabilis perfectioni cuiuslibet alterius habitus creati, quia utraque perfectio est creata et dependens, sed non est sic ex contradictorum, quia obiectum beatificum non est creatum, nec dependens, etiam dato quod beatificaret sub ratione formaliter finita.</p>
+                        <p>Preterea, subiecto existente eodem formaliter potest haberi scientia magis et minus perfecta propter aliam et aliam passionem nobilem de nobilitate subiecti et dignitate subiecti non arguitur regulariter nobilitas scientie. Consequentia patet et antecedens probatur, quia nobilior est cognitio qua cognosco hominem esse beatificabilem quam cognitio qua cognosco ipsum mortalem supposito quod cognoscam utrumque eque evidenter et tamen subiectum est penitus idem.</p>
+                    </div>
+                    
+                    <div>
+                        <head>Responsio ad rationem <name>Michaelis</name></head>
+                        <p>Ad primum istorum concedo quod secundum augmentum et excessum perfectionis subiecti ad subiectum est augmentum et excessus habitus perfectionis ad habitu, non quidem simpliciter et adequate, sed proportionabiliter et commensurative eo modo quo in primo articulo extitit declaratum. Et quando dicitur quod habitus qui specificatur a subiecto non excedit habitum qui specificatur a quantitate, sicut substantia excedit quantitatem, si intelligatur in primo sensu, concedo, quia tunc serveretur sicut deducit et bene, quia scientia de substantia non esset in eodem predicamento, non scientia de quantitate. Si in secundo, sic nego, nec sequitur ex hoc quod scientia de substantia non sit in eodem predicamento cum scientia de quantitate, sicut nec substantia cum quantitate, quia non tantum excedit scientia scientiam simpliciter quantum substantia quantitatem, sed solum probabiliter.</p>
+                        <p>Ad secundum eodem modo dico, quia non oportet quod habitus theologicus creature simpliciter excedit omnem alium habitum quantum ratio formalis subiecti theologie excedit quodcumque ens creatum, sed solum proportionabiliter. Et hoc est verum. Nec ex hoc sequitur quod theologia creature non sit dependens ac creata, quia non tantum excedit alias scientias creature simpliciter quantum ratio formalis sui subiecti sive sit finita, sive infinita excedit quodcumque ens creatum, sed solum proportionabiliter eo modo quo declaratum est supra.</p>
+                        <p>Ad tertium patet ex secundo articulo quod antecedens non est verum, quia, licet due passiones, quarum una est nobilior altera, conveniant eidem subiecto materialiter sumpto, non tamen formaliter, ut patet ex exemplo suo, quia esse beatificabile convenit homini per aliquod commune sibi et angelis in quo distinguitur a bruto in quo primo distinguitur ab angelis, igitur hec et illa passio non conveniunt homini per eadem rationem formalem.</p>
+                    </div>
+                    
+                    <div>
+                        <head><name>Roddenton</name> in <title>Prologo</title> I, questione 4, articulo 2</head>
+                        <p>Contra tertiam et quartam conclusionem simul quidam doctor arguit sic: de subiecto finito potest esse et est scientia infinita, igitur et de subiecto infinito potest esse scientia finita. Antecedens patet, quia Deus habet scientiam infinitam de subiecto finito, utputa de creatura. Consequentia probatur, quia, si finitas in subiecto non concludit finitatem in habitu, nec infinitas infinitatem.</p>
+                        <p>Ad idem arguitur communiter sic: scientia non magis fortitur quantitatem quam speciem a subiecto, immo non fortitur quantitatem a subiecto nisi fortitur speciem ab eo, sed sic fortitur species a subiecto quod tum non est eiusdem speciei cum subiecto, igitur sicut fortitur quantitatem ab ipso, quod non erit, tamen eiusdem quantitatis cum eo. Et per consequens, sicut scientia de lapide non est lapis, sic scientia de infinito non oportet quod sit infinita.</p>
+                        <p>Propterea, scientia naturalis est de infinito, sicut patet per <name>Philosophum</name> III <title>Physicorum</title> et tamen est finita, non infinita, igitur non est universaliter verum quod scientia de infinito sit infinita. Et confirmatur, quia de infinitate Dei <name>Philosophus</name> tradit scientiam VIII <title>Physicorum</title> et XII <title>Metaphysice</title>, et tamen nulla illarum scientiarum est infinita.</p>
+                        <p>Preterea, sicut se habet potentia ad effectum, <choice><sic>sicut</sic><corr>sic</corr></choice> se habet subiectum ad habitum et obiectum ad intellectum, sed potentia infinita potest causare et de facto causat effectum finitum, igitur subiectum et obiectum infinitum actum et habitum fini-
+                            <pb ed="#V" n="29-r"/>
+                            <cb ed="#V" n="a"/> 
+                            -tum. Et confirmatur, quia non magis fortitur scientia suam quantitatem ex subiecto quam effectus ex sua causa productiva, sed causa infinita potest causare effectum finitum; ergo etc.</p>
+                    </div>
+                    
+                    <div>
+                        <head>Responsio ad rationes <name>Roddentoni</name></head>
+                        <p>Ad primum istorum potest responderi quod scientia Dei non est de aliquo finito tanquam de subiecto primo, sed de infinito, quia de Deo, ut simpliciter infinitus, sive sub ratione infiniti et ideo est infinita. Non enim imaginor quod subiectum primum scientie quam Deus habet de lapide sit lapis, sed essentia divina, ut simpliciter infinita, qua cognita Deus cognoscit lapide et omne cognoscibile quantum est cognoscibile. Secundo potest dici si concedatur quod subiectum primum scientie quam Deus habet de creatura est creatura quod scientia quam Deus habet de creatura est finita virtualiter, licet sit infinita formaliter. Ratio istius potest esse, quia illud non convenit Deo, ut infinitus est, quod posset sibi competere etiam si esset finitus, sed Deus posset habere scientiam quam habet de creatura sive de subiecto finito etiam si esset finitus, ergo. Potest igitur dici quod intellectus divinus nihil agnoscit, ut infinitus est, nisi essentiam divinam que simpliciter est infinita. Cetera vero, utputa creaturas cognoscit non quidem ut infinitus, quia earum cognitio non repugnat sibi etiam si esset finitus, sed ut finitus. Non quidem formaliter, sed tantum virtualiter eo modo quo in precedenti questione extitit declaratum est maior repugnantia quod scientia Dei sit infinita formaliter et finita virtualiter respectu alicuius obiecti quam quod deitas sit infinita formaliter et tamen finita virtualiter in ratione obiecti, sicut declaratum est supra. Potest etiam dici tertio quod scientiam quam Deus habet de creatura est illamet quam habet de se ipso et ideo talis scientia est infinita, non quia est scientia de creatura, sed quia est de Deo qui simpliciter est infinitus.</p>
+                        <p>Ad secundum concedo quod scientia sic fortitur quantitatem a subiecto quod tamen non est eiusdem quantitatis simpliciter cum ipso, quia non est tante perfectionis simpliciter si subiectum eius est substantia, immo si scientia creature esset infinita adhuc non equaretur in perfectione substantie finite. Est tamen eiusdem quantitatis proportionabiliter, ut deductum est supra. Et hoc sufficit ad hoc quod scientia de infinito sit infinita in suo genere, et ideo non sequitur scientia de lapide non est lapis, igitur scientia de infinito non est infinita, quia poterit esse infinita etiam si non sit eiusdem rationis, nec equalis perfectionis simpliciter cum ipso, sed non poterit esse lapis nisi sit eiusdem rationis et equalis perfectionis simpliciter cum lapide.</p>
+                        <p>Ad tertium dico quod naturalis III <title>Physicorum</title> non determinat de infinito quantum ad quid rei, sed quantum ad quid nominis tantum. Et, si determinaret de infinito quantum ad quid rei, adhuc non inquantum infinitum, sive sub ratione infinita, sed finita, quia infinitum, ut infinitum, est ignotum, ut <name>Aristoteles</name> demonstrat ibidem. Per idem patet quid dicendum ad confirmationem, quia, licet <name>Aristoteles</name> probet VIII <title>Physicorum</title> et XII <title>Metaphysice</title> Deum esse infinitum, ex hoc tamen non sequitur quod determinet de Deo, ut infinitus est, sive sub ratione infiniti, quia aliud est cognoscere quod Deus sit infinitus et aliud est ipsum cognoscere sub ratione infiniti, ut declaratum est supra.</p>
+                        <p>Ad quartum patet ex quarta conclusione primi articuli precedentis conclusionis quod Deus nullum effectum producit, ut infinitus est, sive sub ratione infiniti. Et ista videtur sententia <name>beati Augustini</name> <title>83 Questiones</title>, questione 9, dicens quod alia ratione conditus est homo et alia ratione conditus est equus quod non potest verificari si Deus, ut Deus et ut simpliciter est infinitus, produceret hominem et equum. Et credo quod Deus nihil producit, ut infinitus sive sub ratione infinita, nisi Filium et Spiritum Sanctum qui sunt simpliciter infiniti. Per idem patet quid dicendum ad confirmationem.</p>
+                    </div>
+                    
+                    <div>
+                        <head>Responsio ad rationes principales</head>
+                        <p>Ad primam nego antecedens, quia, sicut patet ex secunda conclusione ex dignitate subiecti, necessario concluditur dignitas scientie. Et ad probationem quando dicitur quod scientia non specificatur a subiecto, si intelligitur intrinsece, sic verum est ad istum sensum, quia subiectum non est aliquid scientia formaliter et intrinsece. Si vero intelligatur extrinsece ad istum sensum quod alterius et alterius subiecti secundum 
+                            <pb ed="#V" n="29-r"/>
+                            <cb ed="#V" n="b"/>  
+                            speciem, non est necessario alia et alia scientia secundum speciem falsum. Oppositum enim patet ex supradictis. Et istud sufficit ad hoc quod scientia dignitatem consequatur regulariter ex subiecto. Et quod istud sit possibile patet in simili, quia propria passio non semper specificatur a subiecto primo modo cum aliqua res sit distinca, ut communiter tenetur et tamen specificatur secundo modo, quia alterius et alterius subiecti est alia et alia passio secundum speciem, et ideo in eius diffinitione semper supponitur subiectum loco differentie, ut patet per <name>Aristotelem</name> VII <title>Metaphysice</title>.</p>
+                        <p>Ratio secunda est pro conclusione quam teneo et credo ipsam concludere, ut patet ex dictis.</p>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </body>
+    </text>
+</TEI>
+

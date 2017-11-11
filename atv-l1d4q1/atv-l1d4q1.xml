@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Liber I, Distinctio 4, Quaestio 1</title>
+				<author>Alphonsus Toletanus Vargas</author>
+				<editor>Luciana Cioca</editor>
+				<respStmt>
+					<name>Jeffrey C. Witt</name>
+					<resp>TEI Encoder</resp>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="0.0.0-dev">
+					<date when="2016-09-01">September 01, 2016</date>
+				</edition>
+			</editionStmt>
+			<publicationStmt>
+				<authority>
+					<ref target="http://www.thesis-project.ro/">ERC-THESIS project n° 313339</ref>
+				</authority>
+				<availability status="free">
+					<p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref></p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="V" n="Venice1490">Venice1490</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+			<schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"> </schemaRef>
+			<editorialDecl>
+				<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+					guidelines for a critical edition</p>
+			</editorialDecl>
+		</encodingDesc>
+		<revisionDesc status="draft">
+			<listChange>
+				<change when="2016-09-02" who="#JW" status="draft" n="0.0.0">
+					<p>Created file for the first time.</p>
+				</change>
+			</listChange>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:lang="la">
+		<front>
+			<div xml:id="starts-on">
+				<pb ed="#V" n="82-v"/>
+				<cb ed="#V" n="b"/>
+			</div>
+		</front>
+		<body>
+			<div xml:id="atv-l1d4q1">
+				<head xml:id="atv-l1d4q1-Hd1e3505">Liber I, Distinctio 4, Quaestio 1</head>
+				<p xml:id="atv-l1d4q1-d1e3508"><quote xml:id="atv-l1d4q1-Qd1e3509">Hic oritur questio satis necessaria</quote>, etc.</p>
+				<p xml:id="atv-l1d4q1-d1e3513">Circa distinctionem quartam in qua <name ref="#Lombard">Magister</name> arguit de eterna
+					generatione Filii a Patre inquirens utrum concedendum sit quod Deus genuit Deum etc.,
+					quero istam questionem: utrum potentia generandi in Deo sit vera potentia productiva. </p>
+				<div xml:id="atv-l1d4q1-Dd1e3519" type="rationes-principales">
+					<p xml:id="atv-l1d4q1-d1e3521">Et videtur primo quod non, quia potentia productiva non recipit intra se actum, sed
+						actus egreditur ab ea, sed generare non egreditur a Patre, immo est Pater et in Patre,
+						ergo potentia quam habet Pater ad generare non est potentia productiva, sed magis
+						identitativa, quia nihil est aliud Patrem posse generare quam Patrem posse esse ipsummet
+						generare, quod non pertinet ad potentiam productivam.</p>
+					<p xml:id="atv-l1d4q1-d1e3524">Contra illud quo producens producit est sibi potentia productiva sicut illud quo agens
+						agit est sibi potentia activa, sed potentia generandi in Patre est illud quo Pater
+						producit Filium; ergo etc.</p>
+				</div>
+				<div xml:id="atv-l1d4q1-Dd1e3528">
+					<head xml:id="atv-l1d4q1-Hd1e3530">Division quaestionis</head>
+					<p xml:id="atv-l1d4q1-d1e3533">Respondeo. In ista questione erunt quattuor articuli, quia primo ponam aliquas
+						distinctiones, secundo conclusiones. Tertio movebo dubia et quarto respondebo.</p>
+				</div>
+				<div xml:id="atv-l1d4q1-Dd1e3538" type="articulus">
+					<head xml:id="atv-l1d4q1-Hd1e3540">Articulus primus</head>
+					<p xml:id="atv-l1d4q1-d1e3543">Quantum ad primum articulum distinguo primo de potentia, quia quedam dicitur potentia
+						logica, quedam vero realis et metaphysica. Potentia primo modo dicta dicit me dum
+						compositionis facte ab intellectu et precise nominat non repugnantiam terminorum. Talis
+						est potentia qua homo potest esse animal et qua triangulus potest habere tres angulos et
+						universaliter talis est potentia qua dicitur possibile omne illud cuius termini non
+						repugnant. De tali dicit <name>Aristoteles</name> V <title>Metaphysice</title>, capitulo
+						de potentia, quod “illud est possibile cuius contrarium non est de necessitate verum”.
+						Potentia vero dicta secundo modo, si sit potentia productiva, de qua nunc queritur, est
+						principium formale quo producens producit, sicut potentia activa est principium formale
+						quo agens agit et potentia intellectiva principium formale quo intellectus intelligit
+						sive tale principium sit res distincta a producente, sive non.</p>
+					<p xml:id="atv-l1d4q1-d1e3552">Secundo distinguo conformiter de potentia generandi, quia potest accipi uno modo pro
+						potentia logica et sic in divinis hec est possibilis Pater generat, quia isti termini
+						non repugnant. Hec autem est impossibilis Filius vel Spiritus Sanctus generat, quia isti
+						termini repugnant, sicut hec est possibilis potentia sic sumpta homo est animal. Hec
+						autem impossibilis lapis est animal. Et isto modo non oportet quod potentia generandi
+						sit aliquod principium quo aliquis sit potens generare. Sufficit enim sola non
+						repugnantia terminorum. Alio modo potest accipi potentia agendi pro potentia reali et
+						metaphysica, et sic potentia generandi in divinis et in creaturis est principium formale
+						quo generans gignit genitum sive tale principium sit res distincta a generante, sive
+						non. His premissis patet intellectus questionis. Queritur enim utrum potentia generandi
+						in Deo sit precise potentia logica qua Pater potest esse ipsum generare, sicut homo
+						potest esse animal, prout videtur quibusdam an sit vera potentia realis et metaphysica,
+						et per consequens vera potentia productiva, prout videtur aliis. Et hec de primo.</p>
+				</div>
+				<div xml:id="atv-l1d4q1-Dd1e3556" type="articulus">
+					<head xml:id="atv-l1d4q1-Hd1e3558">Secundus articulus</head>
+					<p xml:id="atv-l1d4q1-d1e3561">Quantum ad secundum articulum pono quattuor conclusiones.</p>
+					<div xml:id="atv-l1d4q1-Dd1e3564">
+						<head xml:id="atv-l1d4q1-Hd1e3566"><supplied>Conclusio prima</supplied></head>
+						<p xml:id="atv-l1d4q1-d1e3570">Prima est quod in divinis est vera potentia generandi. Hanc probo primo sic:
+							ubi-
+							
+							<pb ed="#V" n="83-r"/>
+							<cb ed="#V" n="a"/>
+							
+							-cumque est vere generans et vere genitum et vera generatio, ibi est vera
+							potentia generandi. Hoc patet, quia ubicumque est vere generans etc, ibi est aliquod
+							principium quo generans gignit genitum, sed illud vocamus potentiam generandi; ergo
+							etc. Et confirmatur, quia, si negetur illa propositio, perit omnis via probandi
+							potentiam generandi esse in aliquo, sed constat quod in divinis est generans vere et
+							vere genitus et vera generatio; ergo etc.</p>
+						<p xml:id="atv-l1d4q1-d1e3573">Ista ratio confirmatur auctoritate <name>Augustini</name>
+							<title>De spiritu et anima</title> ultra medium, ubi dicit quod “sicut qui vult habet
+							voluntatem, ita potestatem qui potest”, sed implicatio contradictionis est aliquem
+							velle et non habere voluntatem, igitur implicatio est aliquem posse et non habere
+							potestatem; ergo etc. Quicumque generat fine in divinis sive in creaturis habet
+							potestatem, sive potentiam generandi.</p>
+						<p xml:id="atv-l1d4q1-d1e3582">Secundo sic: Filius in divinis est vere genitus, vel igitur ab eo qui habet potentiam
+							generandi ipsum vel ab eo qui non habet potentiam generandi ipsum. Secundum dari non
+							potest, quia, sicut implicatio contradictionis est quod aliquid creetur ab illo qui
+							non habet potentiam creandi ipsum, sic implicatio est quod aliquid generetur ab illo
+							qui non habet potentiam generandi ipsum. Relinquitur ergo primum, et sic intentum.</p>
+						<p xml:id="atv-l1d4q1-d1e3585">Tertio sic: sicut se habet agens ad potentiam activam, sic generans ad potentiam
+							generandi, sed implicatio contradictionis est quod aliquid sit vere et realiter agens
+							et non habeat potentiam activam, igitur implicatio contradictionis est quod aliquid
+							sit vere et realiter generans et non habeat potentiam generativam. Et confirmatur,
+							quia nunquam aliquis catholicus negavit quin in Patre sit aliquid principium quo
+							generandi Filium et illud doctores vocant potentiam generandi, ergo hec est sententia
+							expressa <name>Magistri</name>, distinctione 7 per totum; igitur etc.</p>
+					</div>
+					<div xml:id="atv-l1d4q1-Dd1e3592">
+						<head xml:id="atv-l1d4q1-Hd1e3594"><supplied>Conclusio secunda</supplied></head>
+						<p xml:id="atv-l1d4q1-d1e3598">Secunda conclusio est quod potentia generandi in divinis est vera potentia productiva
+							et hec est ad questionem responsiva. Probatur autem primo sic: ubicumque generans est
+							vere producens et genitum vere productum et generatio vera productio, illa potentia
+							generandi est vera potentia productiva. Patet ex terminis, sed in divinis Pater
+							generans est vere producens et Filius genitus est vere productus et generatio vera
+							productio, iuxta doctrinam <name>beati Augustini</name> V <title>De Trinitate</title>,
+							per totum, et catholicam veritatem; ergo etc. Et confirmatur, quia potentia creandi
+							est vera productiva, quia Deus creans est vere producens et creatura vere producta et
+							creatio vera productio, igitur a simili potentia generandi erit vera potentia
+							productiva, quia Pater generans est vere producens etc.</p>
+						<p xml:id="atv-l1d4q1-d1e3607">Secundo sic: omnis potentia que est ad aliquid producendum est vera potentia
+							productiva, sed potentia generandi in divinis est ad aliquid producendum; ergo. Maior
+							patet, quia omnis potentia que est ad aliquid generandum est generativa et omnis
+							potentia que est ad aliquid producendum est productiva. Minor autem est nota, quia
+							potentia generativa Patris est ad producendum Filium, sicut potentia spirativa Patris
+							et Filii est ad producendum Spiritum Sanctum; ergo etc.</p>
+						<p xml:id="atv-l1d4q1-d1e3610">Et confirmatur sic, quia, sicut se habet potentia activa ad agendum, sic potentia
+							productiva ad producendum, sed omnis potentia que est ad aliquid agendum est potentia
+							activa, igitur omnis potentia que est ad aliquid producendum erit potentia
+							productiva.</p>
+						<p xml:id="atv-l1d4q1-d1e3613">Tertio sic: potentia productiva Filii in divinis dicit perfectionem simpliciter, ergo
+							convenit Deo formaliter. Consequentia est <name>Anselmi</name>
+							<title>Monologion</title> 15 capitulo, ubi ex intentione probat quod omnis perfectio
+							simpliciter convenit Deo formaliter. Antecedens conceditur etiam ab adversariis, quia
+							potentia productiva creature dicit perfectionem simpliciter, igitur multo magis, ut
+							dicunt, potentia productiva Dei et creatoris. Et confirmatur, quia quandocumque actus
+							et potentia sic se habent quod potentia dicit perfectionem 
+							
+							<pb ed="#V" n="83-r"/>
+							<cb ed="#V" n="b"/>
+							
+							simpliciter, actus
+							autem non. Non minus, immo magis enti perfectissimo simpliciter competit potentia quam
+							actus. Patet ex terminis, sed potentia productiva Filii et Spiritus Sancti dicit
+							perfectionem simpliciter. Productiones autem non etiam per adversarios, igitur non
+							minus, immo magis enti perfectissimo simpliciter cuiusmodi est Deus convenit potentia
+							productiva Filii et Spiritus Sancti quam ipsa productio.</p>
+
+						<div xml:id="atv-l1d4q1-Dd1e3623">
+
+							<head xml:id="atv-l1d4q1-Hd1e3625"><name ref="#Aureoli">Aureolus</name> in I, distinctione 7, questione 1, articulo
+								2</head>
+							<p xml:id="atv-l1d4q1-d1e3630">Nec valet evasio dicentium quod potentia productiva Filii vel Spiritus Sancti, si
+								esset possibilis, diceret perfectionem simpliciter. Non est autem possibilis, sed
+								impossibilis, quia sequitur aliqua perfectio simpliciter est impossibilis Deo,
+								igitur Deus non est simpliciter perfectus per inclusionem omnis perfectionis, quod
+								est hereticum. Et ulterius sequitur igitur Deus non est Deus, quod est contradictio.
+								Et confirmatur, quia, si velle vel intelligere est Deo impossibile, Deus non esset
+								simpliciter perfectus, quia hec dicunt perfectionem simpliciter, igitur a simili, si
+								potentia productiva Filii vel Spiritus Sancti dicit perfectionem simpliciter et est
+								in Deo impossibilis, Deus non erit simpliciter et universaliter perfectus, igitur
+								evasio data non est catholica.</p>
+							<p xml:id="atv-l1d4q1-d1e3633">Quarto ad principale sic: potentia generandi in divinis non est precise potentia
+								logica que solum est necessitas vel non repugnantia terminorum qualis est potentia
+								qua homo vel leo potest esse animal, igitur est vera potentia productiva.
+								Consequentia patet ex fundamentis oppositum opinantium qui ideo dicunt potentiam
+								generandi non esse potentiam productivam, quia solum est potentia logica. Antecedens
+								probatur, quia potentia logica est precise potentia ad esse, non ad agere vel
+								operari, sicut patet de potentia qua homo potest esse animal, et sic de aliis; sed
+								potentia generandi in patre non est precise potentia ad esse, ita quod non ad agere
+								vel producere, aliter Pater in divinis non magis produceret Filium quam econverso,
+								quod est erroneum; ergo etc. Et confirmatur, quia <name>Magister</name> infra
+								distinctionem 7, concedit quod eadem est potentia qua Pater potest generare et qua
+								Filius potest generari et quod potentia generandi sit in Filio. Hec autem essent
+								falsa si potentia generandi esset precise potentia logica qua Pater potest esse
+								Pater, sicut homo potest esse animal, quia constat quod in Filio non est aliqua
+								potentia qua possit esse Pater, igitur talis est vera potentia productiva.</p>
+							<p xml:id="atv-l1d4q1-d1e3639">Preterea, <name>beatus Augustinus</name> libro III <title>Contra Maximinum</title>,
+								7 capitulo, arguit sic: “aut Deus Pater potuit gignere Filium sibi equalem et
+								noluit, et sic invidus, aut voluit et non potuit, et sic impotens et infirmus”. Hec
+								autem illatio est nulla si negatio generative potentie non esset negatio alicuius
+								potentie, sed sequitur etiam per tenentes conclusionem oppositam negatio generative
+								potentie est negatio alicuius potentie, igitur potentia generandi non solum est
+								potentia logica, sed vera potentia productiva; igitur etc.</p>
+							<p xml:id="atv-l1d4q1-d1e3648">Item <name>beatus Augustinus</name> contra eundem hereticum ibidem arguit sic: “si
+								Pater non potest generare Filium sibi equalem ubi est omnipotentia Dei Patris”. Hec
+								autem illatio est nulla, sicut et precedens si potentia generandi non pertineret ad
+								omnipotentiam, sed bene sequitur potentia generandi pertinet ad omnipotentiam,
+								igitur non solum est potentia logica, sed vera potentia productiva; ergo etc. </p>
+							<p xml:id="atv-l1d4q1-d1e3655">Ad istas tamen auctoritates quidam doctor…</p>
+							<!-- these divisions are confusing -->
+							<p xml:id="atv-l1d4q1-d1e3660"><name>Aureolus</name>, questione 1 supra articulo 3</p>
+							<p xml:id="atv-l1d4q1-d1e3665">…multipliciter respondet dicens quod non intendit <name>beatus Augustinus</name>
+								quod potentia generandi pertineat ad omnipotentiam Patris cum quicquid pertinet ad
+								omnipotentiam sit perfectio simpliciter, et per consequens commune Patri et Filio.
+								Arguit ergo ibi, ut dicit, contra hominem, quia contra hereticum Maximinum qui
+								putabat quod potuisse gignere creatorem celi et terre esset magna potentia. Ex quo
+								inferebat quod Pater esset potentior Filio. Et ex eodem 
+								
+								<pb ed="#V" n="83-v"/>
+								<cb ed="#V" n="a"/>
+								
+								medio, ut dicit iste
+								doctor, arguit <name>Augustinus</name> contra eum, quod immo Filius sit omnipotens,
+								alioquin Pater non erit omnipotens nisi potuerit. Si voluerit omnipotentem Filium
+								generare, non igitur fallit mens <name>Augustini</name> quod potentia generandi sit
+								aliqua productiva potentia, alioquin in eisdem verbis contradiceret sibi; quod patet
+								ex duobus, ut dicit iste doctor. Primo, quia dicit Patrem non esse omnipotentem nisi
+								omnipotentem Filium genuisset. Non, quia non potuit per hoc excludens ab
+								omnipotentia potentiam generandi. Secundo, quia ait Filium non genuisse. Non, quia
+								non potuit hoc est non ratione impotentie alicuius. Sed ad veritatem expositio
+								istius contradicit dictis <name>beati Augustini</name> et dictis propriis. </p>
+							<p xml:id="atv-l1d4q1-d1e3680">Primum patet, quia <name>beatus Augustinus</name> vult quod potentia generandi non
+								solum sit in Patre, sed etiam in Filio. Arguebat enim hereticum contra eum sic: si
+								Pater posset generare cum Filius non possit generare, Pater erit potentior Filio. Ad
+								quod respondet <name>beatus Augustinus</name>, ubi supra, capitulo 13, dicens quod
+								“Filius non genuit non quia non potuit, sed quia non oportuit”, quod exponens
+									<name>Magister</name> distinctione 7, capitulo 5, dicit quod “non quia non potuit
+								est dictum quod non ex impotentia fuit, quia potentia generandi est in Filio”, ut
+								declarat <name>Magister</name> ibidem, capitulo sequenti. Vult ergo <name>beatus
+									Augustinus</name> quod Filius non esset omnipotens si potentia generandi non esset
+								in eo, et per consequens potentia generandi, secundum <name>beatum Augustinum</name>
+								et <name>Magistrum</name>, pertinet ad omnipotentiam.</p>
+							<p xml:id="atv-l1d4q1-d1e3705">Preterea, qui dicit Patrem non esse omnipotentem nisi possit omnipotentem Filium
+								generare non excludit ex omnipotentia potentiam generandi. Oppositum predicati
+								infert oppositum subiecti, sed <name>beatus Augustinus</name> dicit hoc expresse, ut
+								patet per auctoritatem superius allegatam, ergo secundum eum patet, quia iste doctor
+								in eadem questione dicit quod potentia productiva Dei et creatoris dicit perfectione
+								simpliciter. Nunc vero dicit oppositum. Probat enim quod talis potentia non pertinet
+								ad omnipotentiam, quia quicquid pertinet ad omnipotentiam est perfectio simpliciter,
+								et per consequens commune Patri et Filio, et ista contradicunt expresse. Et
+								confirmatur, quia vel potentia productiva Dei et creatoris est perfectio
+								simpliciter, vel non. Si dicatur quod non, contradicit sibi evidenter. Si dicatur
+								quod sic, igitur non probat quod non pertineat ad omnipotentiam, cum sit perfectio
+								simpliciter, quia quicquid pertinet ad omnipotentiam dicit perfectionem simpliciter,
+								cuius oppositum dicit in hac solutione.</p>
+							<p xml:id="atv-l1d4q1-d1e3712">Preterea, ratio <name>beati Augustini</name>, secundum istum doctorem, est bona
+									<title>Contra Maximinum</title> qui putabat quod posse gignere creatorem celi et
+								terre esset magna potentia, igitur est bona contra eum. Ipse enim concedit quod ista
+								sit magna potentia, immo concedit quod dicit perfectionem simpliciter, quia potentia
+								productiva creature importat perfectionem simpliciter, ideo multo fortius ut dicit
+								potentia productiva Dei et creatoris. Patet igitur quod ex potentia illa contradicit
+								non solum dictis <name>beati Augustini</name>, sed etiam dictis propriis. Per
+								consequens patet illa conclusio.</p>
+						</div>
+					</div>
+					<div xml:id="atv-l1d4q1-Dd1e3726">
+						<head xml:id="atv-l1d4q1-Hd1e3728"><supplied>Conclusio tertia</supplied></head>
+						<p xml:id="atv-l1d4q1-d1e3732">Tertia conclusio est quod potentia generandi in divinis est potentia productiva
+							verbi. </p>
+						<p xml:id="atv-l1d4q1-d1e3735">Probatur primo sic: omne quod producit aliquid realiter a se distinctum habet
+							potentiam productivam respectu illius, sed Pater generans in divinis vere et realiter
+							producit Filium realiter a se distinctum; ergo. Maior patet, quia omne quod vere et
+							realiter producit alterum habet potentiam per quam potest illud producere, sed
+							potentia productiva non est aliud quam potentia per quam producens potest alterum
+							producere; ergo. Minor autem est catholica; igitur etc.</p>
+						<p xml:id="atv-l1d4q1-d1e3738">Secundo sic: Filius in divinis est vere productus, vel igitur ab illo qui habet
+							virtutem producendi ipsum vel ab illo qui habet potentiam producendi ipsum. Secundum
+							dari non potest, quia, sicut est implicatio quod aliquid generetur ab illo qui non
+							habet potentiam generandi ipsum, ut patet ex prima conclusione, ita est implicatio
+							quod aliquid producatur ab illo qui non habet potentiam producendi. Relinquitur ergo
+							primum et sic intentum, quia constat quod talis potentia non est nisi potentia
+							generandi, et per consequens potentia generandi in divinis est potentia productiva
+							Filii. Ista conclusio posset confirmari pluribus aliis rationibus. 
+							
+							<pb ed="#V" n="83-v"/>
+							<cb ed="#V" n="b"/>
+							
+							Verum, quia
+							satis evidenter sequitur ex precedenti, quia sequitur potentia generandi in divinis
+							est vera potentia productiva, igitur est productiva verbi, idcirco pertranseo.</p>
+					</div>
+					<div xml:id="atv-l1d4q1-Dd1e3743">
+						<head xml:id="atv-l1d4q1-Hd1e3745"><supplied>Conclusio quarta</supplied></head>
+						<p xml:id="atv-l1d4q1-d1e3749">Quarta conclusio est quod, licet potentia generandi in divinis sit potentia
+							productiva verbi, non est tamen productiva sive elicitiva generationis active. </p>
+						<p xml:id="atv-l1d4q1-d1e3752">Et hoc probatur primo sic: implicatio contradictionis est quod formale constitutivum
+							suppositi totaliter in producti sit elicitum vel productum. Hoc patet, quia oppositum
+							predicati infert oppositum subiecti. Generatio activa est huiusmodi; ergo. Probatur
+							minor, quia paternitas est formale constitutivum suppositi paterni, quod est totaliter
+							improductum. Paternitas autem et generatio activa idem sunt penitus solum distincta
+							nomini aliter, ut patet per <name>Magistrum</name> distinctione 27; igitur etc.</p>
+						<p xml:id="atv-l1d4q1-d1e3758">Secundo sic: si generatio activa sit elicita vel producta, eius principium elicitivum
+							aut est essentia, vel proprietas, vel persona. Non essentia, quia cum nihil eliceat
+							nec producat seipsum, secundum <name>Augustinum</name> I <title>De Trinitate</title>,
+							capitulo 1, generatio activa in divinis non esset essentia, quod est erroneum. Nec
+							proprietas, quia vel proprietas Patris puta paternitas vel proprietas Filii vel
+							Spiritus Sancti. Non paternitas, quia sequeretur quod generatio activa non esset
+							paternitas, quod est contra <name>Magistrum</name> et veritatem, nec proprietas Filii
+							vel Spiritus Sancti, quia repugnat proprietati persone producte elicere formale
+							constitutivum eius a quo producitur. Nec persona, quia vel persona Patris vel Spiritus
+							Sancti, vel alia. Non persona Patris, tum quia distingueretur realiter a Patre, tum
+							quia nullum suppositum elicit vel producit formale constitutivum sui. Nec persona
+							Filii vel Spiritus Sancti, tum quia Pater nihil accipit a Filio, nec a Spiritu Sancto,
+							sed econtra, tum quia Pater aliquo modo esset a Filio et a Spiritu Sancto, tum quia,
+							cum Pater sit Pater quia generat, Pater haberet a Filio et a Spiritu Sancto quod esset
+							Pater, quod non consonat catholice veritati. Nec ab alio, quia tunc in divinis esset
+							quaternitas personarum, quod est contra determinationem ecclesie, ut patet extra de
+							summa trinitatis capitulo, “condemnamus”.</p>
+						<p xml:id="atv-l1d4q1-d1e3770">Tertio sic: repugnantia contradictionis est quod realis proprietas suppositi divini
+							quod secundum nihil sui est ab alio sit elicita vel producta, sed generatio activa est
+							realis proprietas; ergo etc. Maior patet, quia, si talis proprietas esset elicita, vel
+							eliceretur ab alio, vel ab illo cuius est proprietas. Si ab alio, igitur suppositum
+							eius esset secundum aliquid sui ab alio et ex supposito secundum nihil sui est ab
+							alio, et sic contradictio. Si ab illo, cum nihil eliceat se ipsum, distingueretur
+							realiter ab eo, et per consequens tale suppositum non erit suppositum divinum, quod
+							est contra positum et sic contradictio. Maior probatur, quia generatio activa in
+							divinis est realis proprietas Patris. Pater autem secundum nihil sui est ab alio,
+							quia, secundum regulam <name>beati Augustini</name>: “sicut quicquid habet Filius
+							habet a Patre, sicut quicquid habet Pater habet a se”.</p>
+						<p xml:id="atv-l1d4q1-d1e3777">Quarto sic: nullus actus proprius primi suppositi divini elicitur ab alio et ex quo
+							est inseparabilis ab eo est elicitus vel productus. Generare est huiusmodi; ergo.
+							Maior patet, quia ex quo est actus proprius primi suppositi divini non elicitur ab
+							alio et ex quo est inseparabilis ab eo non elicitur ab ipso, et sic a nullo. Minor est
+							nota; igitur etc. Et hec de secundo articulo.</p>
+					</div>
+				</div>
+				<div xml:id="atv-l1d4q1-Dd1e3782" type="articulus">
+					<head xml:id="atv-l1d4q1-Hd1e3784">Tertius et quartus articulus</head>
+					<p xml:id="atv-l1d4q1-d1e3787">Quantum ad tertium et quartum articulum contra conclusiones istas movenda et
+						dissolvenda sunt dubia. Et primo contra tres primas conclusiones simul est quedam opinio
+						que ponit quod potentia generandi non nominat aliquod principium productivum in divinis,
+						nec per consequens est potentia productiva, sed solum identitativa, sicut potentia qua
+						Deus potest esse Deus vel Pater potest esse Pater.</p>
+					<div xml:id="atv-l1d4q1-Dd1e3790">
+						<head xml:id="atv-l1d4q1-Hd1e3792"><name>Aureolus</name> ubi supra, articulo 2</head>
+						<p xml:id="atv-l1d4q1-d1e3797">Et pro opinione arguitur multipliciter. </p>
+						<p xml:id="atv-l1d4q1-d1e3800">Primo sic: ubi productio non est elicita, ibi non est potentia productiva, sed in
+							divinis generare et spirare non sunt productiones elicite, quia Pater nihil habet
+							elicitum et po-
+							
+							<pb ed="#V" n="84-r"/>
+							<cb ed="#V" n="a"/>
+							
+							-tissime id quo formaliter constituitur in esse suppositi non
+							potest esse elicitum et aliunde, aliter non esset suppositum in productum; ergo
+							etc.</p>
+						<p xml:id="atv-l1d4q1-d1e3803">Preterea, posse esse Patrem non est posse potentie productive, sed est posse
+							connexionis necessarie eo modo quo potest esse animal vel diameter potest non
+							commensurari coste, sed posse generare in Deo non est posse potentie productive. Maior
+							patet, quia, si posse esse Patrem, caderet sub aliqua potentia productiva. Necessario
+							Pater produceret in esse Patrem in divinis, quod est erroneum. Minor probatur, quia
+							idem est paternitas et generatio, igitur idem est posse esse Patrem et posse generare.
+							Et confirmatur per istas duas potentias et impotentias. Pater potest esse Pater.
+							Filius non potest esse Pater. Pater potest generare. Filius non potest generare, quod
+							non esset verum nisi posse generare et posse esse Patrem essent idem.</p>
+						<p xml:id="atv-l1d4q1-d1e3806">Preterea, si potentia generandi est vera potentia productiva, aliqua perfectio
+							simpliciter est in Patre que non est in Filio, et sic Filius non esset simpliciter
+							perfectus, quod est erroneum. Consequentia probatur, quia potentia productiva creature
+							importat perfectionem simpliciter, igitur multo fortius potentia productiva Dei et
+							creatoris, igitur, si potentia generandi sit vera potentia productiva cum potentia
+							generandi non sit in Filio, aliqua perfectio simpliciter erit in Patre que non erit in
+							Filio.</p>
+						<p xml:id="atv-l1d4q1-d1e3810">Preterea, cuius negatio non est negatio potentie ipsum non est formaliter potentia,
+							sed negatio generative potentie non est negatio alicuius potentie, sed
+							impossibilitatis terminorum tantummodo; ergo. Maior patet, quia negatio potentie est
+							negatio alicuius quod est formaliter potentia. Minor est <name>beati Augustini</name>,
+							ut dicit <title>Contra Maximinum</title>, libro III, capitulo 13, dicens quod “Filius
+							non genuit non quia non potuit, sed quia non oportuit”; quod exponens
+								<name>Magister</name>, distinctione 7, dicit quod “non potuit est dictum quod nulla
+							impotentia seu negatio potentie fuit, alioquin denegaretur Filio aliqua potentia quam
+							habet Pater, et ita esset Pater potentior Filio et plures potentias habens, cuius
+							oppositum <name>Augustinus</name> dicit et fides”.</p>
+						<p xml:id="atv-l1d4q1-d1e3825">Preterea, in Patre formaliter et necessario non potest poni aliqua potentia medians
+							inter ipsum et suum formale, igitur potentia que dicit possibilitatem simul et
+							necessitatem terminorum. Hoc patet, quia, si poneretur potentia productiva inter ipsum
+							et suum formale, sequeretur ipsum producere suum formale, quod est omnino impossibile,
+							sed res importata per generare est formale constitutivum Patris sic quod per illam rem
+							Pater est formaliter suppositum reale, ergo potentia generandi medians inter Patrem et
+							generare non est potentia productiva, sed pura necessitas et actualitas terminorum,
+							sicut homo habet potentiam ut sit animal.</p>
+						<p xml:id="atv-l1d4q1-d1e3828">Preterea, <name>Philosophus</name> dicit V <title>Metaphysice</title> quod “negatio
+							alicuius proprietatis debite generi aut speciei dicitur privatio in contento infra
+							genus vel species, unde talpa dicitur privari visu, quia genus animalis habet visum”;
+							sed privatio potentie est impotentia, igitur illud potest dici impotens quod caret
+							potentia debita suo generi, sed constat quod Filius caret potentia generandi, igitur,
+							si potentia generandi est potentia productiva, Filius carebit potentia debita alicui
+							eiusdem rationis, et per consequens impotens dici poterit et erit in eo impotentia,
+							quod negat <name>Magister</name> et <name>Augustinus</name> et fides.</p>
+						<p xml:id="atv-l1d4q1-d1e3843">Preterea, cuius oppositum non est impotentia, sed impossibilitas ipsum, non est
+							potentia productiva, sed tantum impossibilitas terminorum, sicut patet quod in
+							diametro non posse mensurare costam non est impotentia, sed impossibilitas, sed
+							expresse dicit <name>Magister</name> quod “Filium non posse generare non est
+							impotentia, sed est non oportere ita esse, quia Filius proprietate necessitatis Filius
+							est qua oportet eum non esse Patrem”, igitur potentia generandi non est principium
+							productivum.</p>
+						<p xml:id="atv-l1d4q1-d1e3849">Preterea, <name>Magister</name> in Principio, 7 distinctione, capitulo ita etiam
+							equiparat has duas propositiones: “Pater non habet potentiam qua possit esse Filius.
+							Filius non habet potentiam qua possit esse Pater”; sed constat quod impotentia qua
+							Pater non potest esse 
+							
+							<pb ed="#V" n="84-r"/>
+							<cb ed="#V" n="b"/>
+							
+							Filius non est carentia alicuius potentie productive, sed
+							impossibilitas pura et repugnantia terminorum, igitur nec impotentia qua Filius non
+							potest esse Pater. Hec autem est eadem cum illa quod non potest generare, igitur non
+							posse generare non est negatio potentie productive.</p>
+						<p xml:id="atv-l1d4q1-d1e3855">Preterea, si potentia generandi sit aliquid formale principium quo Pater eliciat
+							generare, aut illud est paternitas, aut essentia, aut tota persona utrumque includens.
+							Non paternitas, quia generare et paternitas sunt eadem res solum distincta
+							nominaliter, ut dicit <name>Magister</name>. Idem autem non potest esse principium
+							producendi respectu sui ipsius, nec persona, quia tunc generare egrederetur a persone
+							et esset aliud realiter ab ea cum nihil egrediatur a se, nec essentia per eandem
+							rationem, igitur impossibile est poni quod generare importet aliquam potentiam vel
+							principium productivum. Et confirmatur, quia, si generare proflueret ab aliqua
+							potentia productiva, ipsum esset quoddam possibile produci inquantum generare facit
+							ipsum esse Patrem et iterum Pater ageret in se causando in se generationem et
+							spirationem et infinita impossibilia que sequuntur. Non igitur potest poni generare
+							profluere a generativa potentia tanquam a principio productivo formaliter. Ista
+							videtur intentio <name>Philosophi</name> XII <title>Metaphysice</title> dicentis quod
+							“quamvis videatur quod omne agens habeat potentiam qua possit agere”, non tamen est
+							sic quod exponit <name>Commentator</name>, commento 30, dicens quod “impossibile est
+							quod omnis motor et agens habeat potentiam movendi et agendi. Omne enim eternum est
+							est actio pura et omne quod est actio pura non habet potentiam”; sed constat quod Deus
+							Pater producens est eternus et actio pura in producendo, ergo non oportet quod habeat
+							potentiam productivam. Item in eodem XII probat quod “primus motor non est in potentia
+							ad motionem”, immo sibi repugnat ratione sue perfectionis, sed potentia generandi, si
+							esset productiva, non esset dubium quod esset activa, ergo talis potentia non est
+							ponenda in Deo.</p>
+					</div>
+					<div xml:id="atv-l1d4q1-Dd1e3871">
+						<head xml:id="atv-l1d4q1-Hd1e3873">Ad rationes <name>Aureoli</name></head>
+						<p xml:id="atv-l1d4q1-d1e3878">Ad primum istorum nego maiorem, quia, licet ubi productio non sit elicita, ibi non
+							sit potentia productiva illius productionis, potest tamen esse potentia productiva
+							illius termini producti per illam productionem, igitur sic arguendo proceditur a
+							pluribus causis veritatis ad unam, et per consequens committitur fallacia
+							consequentis.</p>
+						<p xml:id="atv-l1d4q1-d1e3881">Ad secundum dico ad maiorem quod, licet posse esse Patrem, non sit posse potentie
+							productive respectu paternitatis vel generationis active, quia sic Pater produceretur
+							in esse Patrem est tum posse potentie productive respectu verbi, quia ideo Pater, quia
+							generat Filium vel verbum. Et sub isto sensu est admissa minore concedo quod posse
+							generare in Deo non est posse potentie productive respectu generationis active vel
+							paternitas, sed respectu suppositi verbi. Et ad confirmationem <name>Magistri</name>
+							concedo quod posse esse Patrem et posse generare idem sunt, quia Pater non est Pater
+							nisi quia generat, nec potest esse Pater nisi quia potest generare, et ideo Filius non
+							potest esse Pater, quia non potest generare. Sed ex hoc non sequitur quod potentia
+							generandi in Patre non sit vera potentia productiva verbi, licet sequatur quod non sit
+							potentia productiva generationis active, ut patet ex dictis.</p>
+						<p xml:id="atv-l1d4q1-d1e3887">Ad tertium nego consequentiam. Et ad probationem concedo quod potentia productiva Dei
+							creatoris dicit perfectione simpliciter et ex hoc concluditur quod necessario
+							conveniat Deo formaliter, ut patet ex tertia ratione superius adducta. Sed quando
+							dicitur quod potentia generandi non est in Filio, falsum est, immo oppositum huius
+							ponit <name>beatus Augustinus</name> et <name>Magister</name> in littera, distinctione
+							7. </p>
+						<p xml:id="atv-l1d4q1-d1e3896">Ad quartum nego minorem. Et ad probationem dico quod <name>Augustinus</name> et
+								<name>Magister</name> dicunt oppositum. Vult enim <name>beatus Augustinus</name>
+							quod Filius non genuit non quia non potuit, id est non quia non fuit in ipso potentia
+							generandi, et hec est glossa <name>Magistri</name>. Et quando dicitur quod
+								<name>Magister</name> dicit quod non potuit est dictu quod nulla impotentia vel
+							negatio impotentia fuit. Ista propositio potest habere bonum vel malum intellectum.
+							Potest quidem habere bonum si di-
+							
+							<pb ed="#V" n="84-v"/>
+							<cb ed="#V" n="a"/>
+							
+							-catur quod non potuit est dictu quod nulla
+							impotentia fuit, id est quod non posse non provenit ex eo quod potentia generandi non
+							sit in Filio. Potest etiam habere malum si intelligatur quod nulla potentia fuit, id
+							est quod potentia generandi non sit aliqua potentia. Primum intellectum habuit
+								<name>Magister</name>secundum arguens, et ideo ratio nulla.</p>
+						<p xml:id="atv-l1d4q1-d1e3919">Ad quintum concedo conclusionem, quia solum sequitur quod potentia generandi in Patre
+							non sit potentia productiva generationis active per quam Pater constituitur etc. Sed
+							ex hoc non sequitur quod non sit potentia productiva verbi. </p>
+						<p xml:id="atv-l1d4q1-d1e3922">Ad sextum patet quod procedit ex falso fundamento, quia supponit quod potentia
+							generandi non sit in Filio, quod est falsum.</p>
+						<p xml:id="atv-l1d4q1-d1e3925">Ad septimum dico quod pervertit dicta <name>Magistri</name>, quia non vult
+								<name>Magister</name> quod Filium non posse generare non sit in potentia, id est
+							quod negatio potentie generandi non sit in potentia, sed ideo non posse generare non
+							est in potentia in Filio, quia in ipso est potentia generandi, licet non sit nec esse
+							possit actus generationis. Et hec est sententia <name>beati Augustini</name> quam
+								<name>Magister</name> exponit. </p>
+						<p xml:id="atv-l1d4q1-d1e3940">Ad octavum dico quod in divinis generare et posse generare idem sunt, quia ibi non
+							differunt esse et posse esse, et ideo posse esse includit duo, scilicet potentiam
+							generandi et ipsum generare et, quia in divinis posse generare et posse esse Patrem
+							idem sunt, posse esse Patrem includit potentiam generandi et ipsum generare. Quibus
+							premissis dico quod Filius non habet potentiam qua possit esse Pater, licet habeat
+							potentiam generandi. Non tamen habet ipsum generare, nec habere potest, et ideo non
+							potest esse Pater, et sic loquitur <name>Magister</name>. Et ideo concedo quod non
+							posse esse Patrem vel non posse generare non est negatio potentie productive, quia
+							ista possunt negari ab aliquo habente potentiam generandi, sed non habere potentiam
+							generandi est vere et realiter negatio potentie productive.</p>
+						<p xml:id="atv-l1d4q1-d1e3946">Ad nonum concedo quod potentia generandi non est aliquod formale principium quo Pater
+							eliciat generare. Est tamen formale principium quo producit verbum. Utrum autem tale
+							principium sit essentia vel paternitas vel persona, videbitur distinctione 7.</p>
+						<p xml:id="atv-l1d4q1-d1e3949">Ad confirmationem patet quod supponit potentiam generandi esse productivam sive
+							elicitivam generationis active, quod non est verum. </p>
+						<p xml:id="atv-l1d4q1-d1e3953">Ad auctoritates <name>Philosophi</name> et <name>Commentatoris</name> dico quod
+							potentia quedam est abiciens actum et quedam coniuncta actui, ut patet per
+								<name>Philosophum</name> II <title>De anima</title>. Intentio ergo
+								<name>Philosophi</name> et <name>Commentatoris</name> est quod primus motor cum sit
+							eternus non habet potentiam abicientem aliquotiens actum sic quod modo moveat et modo
+							non. Habet tamen potentiam semper coniunctam actui, et ideo secundum eos est actio
+							pura, id est semper agens sive movens et quod illa sit intentio
+								<name>Commentatoris</name> patet ibidem. Dicit enim in principio illius commenti
+							exponens verba <name>Philosophi</name> dicens quod “primus motor est actio pura sine
+							aliqua potentia quod in nulla hora est motor in potentia”. Si enim non fuerit actio
+							pura, sed cum potentia aliqua hora erit in qua non erit motio, igitur loquitur de
+							potentia abiciente actum et non de potentia simpliciter, igitur dicta
+								<name>Philosophi</name> et <name>Commentatoris</name> non sunt ad propositum.</p>
+					</div>
+					<div xml:id="atv-l1d4q1-Dd1e3988">
+						<head xml:id="atv-l1d4q1-Hd1e3990">Opinio Micahelis de Massa</head>
+						<p xml:id="atv-l1d4q1-d1e3993">Contra quartam conclusionem quidam doctor noster arguit.</p>
+						<!-- <p><name>Michael de Massa</name> in I, distinctione 5, questione 2, articulo 2</p> -->
+						<p xml:id="atv-l1d4q1-d1e3998">Primo sic: quandocumque unum relativum infert aliud et producit ipsum secundum veram
+							habitudinem originat, oportet ibi esse originationem et principium elicitivum
+							originationis tanquam actionis et elicitum termini originati tanquam acti vel
+							producti, sed in divinis unum relativum infert aliud et originat, igitur oportet ibi
+							esse originationem et principium elicitivum etc. Maior patet, quia dato quod non sit
+							ibi vera originatio, igitur ibi non erit verum originativum. Item dato quod non sit
+							ibi verum principium elicitivum originationis tanquam actionis, igitur illa originatio
+							non est vera actio de genere actionis. Item dato quod non sit ibi principium
+							elicitivum termini originati tanquam acti vel producti, ergo erit originans et
+							originatum sine principio originativo et elicitativo, quod est
+							contradi-
+							
+							<pb ed="#V" n="84-v"/>
+							<cb ed="#V" n="b"/>
+							
+							-ctio.</p>
+						<p xml:id="atv-l1d4q1-d1e4001">Preterea, in omni supposito in quo respectu alicuius termini producti est duplex quo,
+							scilicet principium elicitivum et ipsamet productio de genere actionis, idem est
+							principium elicitivum sive productivum actionis et termini producti sub alia tamen et
+							alia ratione, quia actionis quoddam est principium productivum tanquam eius quo agit
+							sicut actione. Nam actio est secundum quam agens agere dicitur secundum auctorem VI
+								<title>Principiorum</title>. Termini vero producti est productivum tanquam eius
+							quod, sicut termini producti agens agit, sed in Patre in divinis respectu Filii
+							producti est duplex quo, scilicet essentia que est quo sicut principium elicitivum et
+							ipsa actio que est quo sicut actio, sed quam Pater producit Filium, ergo essentia
+							divina eadem penitus existens est principium elicitivum sive productivum generationis
+							active tanquam actionis et Filii tanquam termini producti.</p>
+						<p xml:id="atv-l1d4q1-d1e4008">Preterea, sicut se habet spiratio activa stando infra ambitum efficienter vel
+							originanter ad supposita Patris et Filii, ita se habet generatio activa ad suppositum
+							Patris, sed stando infra dictam habitudinem Pater et Filius non habent spirationem
+							activam nisi elicitive ita quod spiratio activa vere est elicitiva sicut actio, igitur
+							eodem modo Pater habet generationem activam. Maior patet, quia ex quo excipitur eadem
+							habitudo et secundum eandem rationem oportet quod uniformiter se habeant. Minor autem
+							est nota, ut dicunt; ergo etc.</p>
+						<p xml:id="atv-l1d4q1-d1e4011">Preterea, illud a quo non est generatio actio, nec tanquam terminus productus, nec
+							tanquam productio secundum quam agens producit, non potest generare sive producere
+							aliquid active; sed a Patre non est generatio actio nec sicut terminus productus, nec
+							sicut productio secundum quam agens habet quod producat actualiter productum, igitur
+							Pater nihil producit active, quod est erroneum. Probatur maior, quia, sicut dicit
+							auctor VI <title>Principiorum</title>, “actio est secundum quam agere dicemur”. Si
+							ergo non se habet active ad generationem que est actio, nihil producit active.</p>
+						<p xml:id="atv-l1d4q1-d1e4017">Preterea, si per impossibile poneretur calefacio in aliquo non habente ad ipsam,
+							aliquo modo habitudinem cause efficientis sequeretur quod inter calefacionem et habens
+							eam sit precise formalis habitudo vel quasi formalis; sed per habitudinem formalem
+							precise non habet aliquod suppositum quod efficiat aliquid aliud a se, ergo habens
+							affectionem sive calefactionem activam dummodo non habeat eam active sic quod habitudo
+							habentis calefactionem ad ipsam calefactionem sit habitudo infra ambitum agentis non
+							potest per illam calefactionem aliquid producere active.</p>
+						<p xml:id="atv-l1d4q1-d1e4020">Preterea, sicut se habet formalis perfectio ad denominandum aliquid denominatione
+							formali, sic suo modo actualis perfectio activa que est actio ad denominandum aliquid
+							denominatione activa, sed impossibile est quod aliquid denominetur tali denominatione
+							formali nisi stando infra ambitum denominationis formalis. Nam quamvis aliquid habeat
+							ad calorem habitudinem efficientem, si non habeat habitudinem formalem, non dicetur
+							calidum, sicut patet de Deo, ergo eodem modo, si aliquid haberet ad actionem
+							habitudinem formalem, si non haberet habitudinem efficientem, nunquam diceretur active
+							agere vel efficere, igitur, si Pater in divinis non habeat ad generationem activam
+							habitudinem agentis, ita quod in Patre sit principium elicitivum, ipsius Pater per
+							huiusmodi generationem nihil producit active, quod est erroneum.</p>
+						<p xml:id="atv-l1d4q1-d1e4023">Preterea, quando duo extrema respiciunt se mutuo precise, per aliquod medium eandem
+							habitudinem habet extremum ad extremum quam habent extrema ad medium, quia dato quod
+							aliter se mutuo respiciant, igitur non se respiciunt per illud medium precise, sed
+							calefaciens respicit calefactivum per calefactionem tanquam per medium, ergo eandem
+							habitudinem habet calefaciens ad calefactum quam habet ad calefactionem; sed 
+							
+							<pb ed="#V" n="85-r"/>
+							<cb ed="#V" n="a"/>
+							
+							stante conclusione posita non habet ad calefactionem habitudinem agentis, sed solum
+							respicit eam sicut formam suam, ergo nec ad ipsum calefactivum poterit habere
+							habitudinem agentis, et per consequens nunquam calefaciet active ipsum calefactivum,
+							quod est impossibile. Et similiter potest ad omnia applicari.</p>
+						<p xml:id="atv-l1d4q1-d1e4026">Preterea, ubi est formaliter actio de genere actionis sive sit constitutiva
+							suppositi, sive non. In eodem est formalis et quiditativa ratio actionis, sed
+							quiditativa ratio actionis, inquantum est de genere actionis, est quod sit ab aliquo
+							sicut ab agente, ut patet III <title>Physicorum</title>, igitur hoc convenit omni
+							actioni de genere actionis. Cum igitur in divinis sit vera actio formaliter, oportet
+							quod ipsa actio sit ab aliquo agente in quo sit principium eius tanquam actionis,
+							licet non tanquam rei acte vel producte per modum termini.</p>
+						<p xml:id="atv-l1d4q1-d1e4033">Preterea, vel intelligis quod non sit de ratione actionis quod egrediatur ab agente
+							tanquam terminus productus, et hoc conceditur, vel quod non est de ratione sui quod
+							egrediatur tanquam actio; sed sufficit quod actio formalis sit eius, et tunc
+							sequeretur quod essentia divina habens generationem activam formaliter generaret
+							active, quod est contra fidem et concilium extra de fide catholica etc.</p>
+					  <p xml:id="atv-l1d4q1-d1e4036">Preterea, <ref target="http://scta.info/resource/cice-l1t1-d1e134">concilium in illo capitulo “Damnamus”</ref> concedit quod Pater generat et negat
+							quod essentia generat, sed negat essentiam generare elicitive, sicut quod essentie ad
+							generationem activam sit habitudo cause agentis vel producentis, igitur sub eodem
+							intellectu, secundum intentionem concilii, oportet quod Patris ad generationem activam
+							sit habitudo cause agentis vel producentis. Minor probatur, quia concilium in negando
+							activam generationem ab essentia capit sententiam <name>beati Augustini</name> I
+								<title>De Trinitate</title>, prima distinctione, quod “nulla res se ipsam gignit ut
+							sit”. Sed constat quod communiter <name>beatus Augustinus</name> dicit quod “nulla res
+							se ipsam” etc, ipse accipit gignere secundum habitudinem cause agentis; igitur
+							etc.</p>
+					</div>
+					<div xml:id="atv-l1d4q1-Dd1e4050">
+						<head xml:id="atv-l1d4q1-Hd1e4052">Responsio ad rationes <name>Michaelis</name></head>
+						<p xml:id="atv-l1d4q1-d1e4057">Ad primum istorum nego maiorem quantum ad illum punctum quod oportet ibi esse
+							principium elicitivum originationis. Et ad probationem quando dicitur quod non sit ibi
+							verum principium elicitivum generationis, illa originatio non erit vera actio per
+							interemptionem, quia non est de ratione actionis, ut actio est, licet forte sit de
+							ratione actionis limitate est elici vel produci, sed solum esse id secundum quod agens
+							vel producens dicitur agere vel producere et presertim hoc habet veritatem ubi actio
+							non est constitutiva suppositi totaliter in producti, sicut in proposito. Potest etiam
+							dici quod ista ratio una cum sequentibus supponitur quod generatio activa in divinis
+							sit vera actio de genere actionis, quod ab omnibus non conceditur.</p>
+						<p xml:id="atv-l1d4q1-d1e4060">Ad secundum etiam nego maiorem, quia, licet forte veritatem habeat de actione
+							limitata que non est constitutiva suppositi totaliter improducti, non tamen de actione
+							illimitata et constitutiva suppositi totaliter improducti in qualis est generatio
+							activa in divinis. Nec auctoritas auctoris VI <title>Principiorum</title> est ad
+							propositum, quia non sequitur actio est secundum quam agens agere dicitur, igitur est
+							elicita vel producta, nec sicut terminus productus, nec aliquo modo, immo hoc accidit
+							totaliter actioni et etiam creaturis.</p>
+						<p xml:id="atv-l1d4q1-d1e4066">Ad tertium nego minorem, quia spiratio activa cum sit in Patre totaliter improducto
+							non est aliquo modo elicita vel producta.</p>
+						<p xml:id="atv-l1d4q1-d1e4069">Ad quartum nego maiorem. Si intelligatur quod illud a quo non est generatio actio
+							elicitive non potest generare, quia ad hoc quod generet sufficit quod habeat potentiam
+							generandi coniunctam actui generationis sive talis generatio sit elicita, sive non.
+							Nec auctoritas VI <title>Principiorum</title>, ut patet ex dictis, est ad
+							propositum.</p>
+						<p xml:id="atv-l1d4q1-d1e4076">Ad quintum concedo quod per habitudinem formaliter precise non habet aliquod
+							suppositum quod eliciat, sed 
+							
+							<pb ed="#V" n="85-r"/>
+							<cb ed="#V" n="b"/>
+							
+							quod respectu unius habet habitudinem formalem
+							respectu alterius potest habere habitudinem efficientis vel producentis, et sic est in
+							proposito, quia, licet Pater respectu generationis active precise habeat habitudinem
+							formalem eo modo quo talis habitudo locum habet in divinis, respectu tamen Filii habet
+							habitudinem generantis et producentis, et ideo vere et realiter producit Filium, licet
+							generationem activam non producat aliquo modo quod patet in exemplo suo, quia, si
+							aliquis vere et realiter haberet calorem sive potentiam calefaciendi et calefactionem
+							activam, etiam si nullum istorum produceret in se ipso vere et realiter posset
+							calefacere et calorem in alio producere, igitur ratio non est ad propositum.</p>
+						<p xml:id="atv-l1d4q1-d1e4079">Ad sextum concedo maiorem, minorem et conclusionem, quia gratia forme sequitur ex
+							premissis, sed non sequitur nisi quod respectu generationis active ad quam Pater habet
+							precise habitudinem formalem non sit agens vel producens, quod conceditur, sed quod
+							per ipsam non sit productivus Filii non probatur per rationem.</p>
+						<p xml:id="atv-l1d4q1-d1e4082">Ad septimum: si ratio esset bona, probaret quod generatio activa sit vere producta
+							non solum sicut actio, sed sicut per se terminus productionis, quod negat iste doctor,
+							quia assumpta eadem maiore et minore, sequitur quod, si generans non respicit
+							generationem, sicut per se terminum productionis nec ipsum genitum, quod est falsum.
+							Patet igitur quod maior est falsa, immo implicat incompossibilia, quia, si eadem
+							penitus esset habitudo extremi ad extremum et ad medium medium non esset medium, sed
+							extremum.</p>
+						<p xml:id="atv-l1d4q1-d1e4085">Ad octavum nego minorem, quia, ut patet ex dictis, non est de ratione actionis, ut
+							actio est esse ab agente.</p>
+						<p xml:id="atv-l1d4q1-d1e4088">Ad nonum intelligo quod non est de ratione actionis quod egrediatur ab agente aliquo
+							modo. Et quando dicitur quod tunc essentia divina habens generationem activam
+							formaliter generat active, nego, quia actiones sunt suppositorum et essentia divina
+							non habet ipsam sicut suppositum, sed Pater.</p>
+						<p xml:id="atv-l1d4q1-d1e4091">Ad decimum patet quod male accipit sententiam concilii, quia non intelligit quod
+							essentia divina non sit elicitiva generationis active et Pater sic, sed quod essentia
+							divina non sit generativa Filli, Pater autem sic. Hoc autem potest fieri sive
+							generatio sit elicita sive non, et ideo nihil ad propositum.</p>
+					</div>
+				</div>
+				<div xml:id="atv-l1d4q1-Dd1e4096">
+					<head xml:id="atv-l1d4q1-Hd1e4098">Ad rationes principales</head>
+					<p xml:id="atv-l1d4q1-d1e4101">Ad primam multi negarent maiorem, etiam de actu elicito, quia, si actio sit in agente,
+						ut videtur multis cum actio in creaturis sit aliquo modo elicita, potentia activa
+						productiva poterit recipere intra se actum quem elicit, sed, quicquid sit de hoc, dico
+						quod non est aliquod inconveniens quod potentia productiva recipiat intra se actum qui
+						non elicitur ab ea, et sic est in proposito eo modo quo recipere et recipi locum habent
+						in divinis, quia generare non est actus elicitus, ut patet ex predictis.</p>
+					<p xml:id="atv-l1d4q1-d1e4104">Secundam rationem concedo et credo eam concludere etc.</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>
