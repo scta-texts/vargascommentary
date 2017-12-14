@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -32,8 +32,7 @@
 		</fileDesc>
 		<encodingDesc>
 			<variantEncoding method="parallel-segmentation" location="internal"/>
-			<schemaRef n="lbp-critical-1.0.0"
-				target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/1.0/critical.rng"> </schemaRef>
+			<schemaRef n="lbp-critical-1.0.0" target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/1.0/critical.rng"> </schemaRef>
 			<editorialDecl>
 				<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
 					guidelines for a critical edition</p>
@@ -49,14 +48,6 @@
 	</teiHeader>
 	<text xml:lang="la">
 		<front>
-			<div xml:id="includeList">
-				<xi:include
-					href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
-					xpointer="worksCited"/>
-				<xi:include
-					href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
-					xpointer="prosopography"/>
-			</div>
 			<div xml:id="starts-on">
 				<pb ed="#P" n=""/>
 				<cb ed="#P" n=""/>
@@ -64,44 +55,44 @@
 		</front>
 		<body>
 			<div xml:id="atv-l1d19et20q2">
-				<head>Liber I, Distinctio 19et20, Quaestio 2</head>
+				<head xml:id="atv-l1d19et20q2-Hd1e3505">Liber I, Distinctio 19et20, Quaestio 2</head>
 
-				<p>Secundo quero utrum trium personarum in divinis sit equalitas summa. </p>
-				<div type="rationes-principales">
-					<head>Rationes principales</head>
-					<p>Et videtur primo quod non, quia aliquid potest una persona divina quod non potest alia
+				<p xml:id="atv-l1d19et20q2-d1e3508">Secundo quero utrum trium personarum in divinis sit equalitas summa. </p>
+				<div xml:id="atv-l1d19et20q2-Dd1e3511" type="rationes-principales">
+					<head xml:id="atv-l1d19et20q2-Hd1e3513">Rationes principales</head>
+					<p xml:id="atv-l1d19et20q2-d1e3516">Et videtur primo quod non, quia aliquid potest una persona divina quod non potest alia
 						persona, igitur earum equalitas non est summa. Consequentia patet, quia, si aliquid
 						potest una persona quod non potest alia persona, non sunt equales in potentia, ergo per
 						consequens equalitas earum non est summa. Antecedens probatur, quia Pater potest
 						generare, Filius autem non, nec Spiritus Sanctus, ergo non sunt equales.</p>
 
-					<p>Contra: tres persone divine sunt summe equales, igitur earum equalitas est summa.
+					<p xml:id="atv-l1d19et20q2-d1e3519">Contra: tres persone divine sunt summe equales, igitur earum equalitas est summa.
 						Antecedens est <name>beati Augustini</name> V et VI <title>De Trinitate</title> per
 						totum. Consequentia est bona; ergo etc.</p>
 				</div>
-				<div>
-					<head>Divisio Quaestionis</head>
-					<p>In ista questione primo ponam unicam distinctionem, secundo quadruplicem conclusionem.
+				<div xml:id="atv-l1d19et20q2-Dd1e3529">
+					<head xml:id="atv-l1d19et20q2-Hd1e3531">Divisio Quaestionis</head>
+					<p xml:id="atv-l1d19et20q2-d1e3534">In ista questione primo ponam unicam distinctionem, secundo quadruplicem conclusionem.
 						Tertio movebo dubia. Quarto respondebo.</p>
 				</div>
-				<div type="articulus">
-					<head>Articulus primus </head>
+				<div xml:id="atv-l1d19et20q2-Dd1e3538" type="articulus">
+					<head xml:id="atv-l1d19et20q2-Hd1e3540">Articulus primus </head>
 
-					<p>[126va]Quantum ad primum supposita distinctione de qualitate proprie dicta et largo
+					<p xml:id="atv-l1d19et20q2-d1e3543">[126va]Quantum ad primum supposita distinctione de qualitate proprie dicta et largo
 						modo sumpta in precedenti questione declarata distinguo de summa equalitate, quia uno
 						modo potest accipi pro equalitate qua non potest maior dari in genere equalitatis
 						proprie dicta. Alio modo, pro equalitate qua non potest dari maior in genere equalitatis
 						largo modo sumpte et secundum hoc aliter est dicendum ad questionem, ut declarabitur
 						articulo sequenti.</p>
 				</div>
-				<div type="articulus">
-					<head>Secundus articulus</head>
+				<div xml:id="atv-l1d19et20q2-Dd1e3548" type="articulus">
+					<head xml:id="atv-l1d19et20q2-Hd1e3550">Secundus articulus</head>
 
-					<p>Quantum ad secundum. </p>
-					<div>
-						<head><supplied>Conclusio prima</supplied></head>
+					<p xml:id="atv-l1d19et20q2-d1e3553">Quantum ad secundum. </p>
+					<div xml:id="atv-l1d19et20q2-Dd1e3556">
+						<head xml:id="atv-l1d19et20q2-Hd1e3558"><supplied>Conclusio prima</supplied></head>
 
-						<p>Prima conclusio est quod inter personas divinas non est equalitas proprie dicta. Hanc
+						<p xml:id="atv-l1d19et20q2-d1e3562">Prima conclusio est quod inter personas divinas non est equalitas proprie dicta. Hanc
 							probo sic: trium personarum in divinis non est alia et alia quantitas, igitur inter
 							ipsas non est equalitas proprie dicta. Consequentia patet, quia equalitas proprie
 							dicta est habitudo quantitatis non ad se, sed ad aliam quantitatem, ut patet ex
@@ -114,25 +105,25 @@
 								Trinitate</title>, capitulis 2 et 22 de parvis, sed que dicunt perfectionem
 							simpliciter in divinis multiplicari non possunt; igitur etc. </p>
 
-						<p>Ex ista conclusione sequitur quod inter personas divinas non est similitudo proprie
+						<p xml:id="atv-l1d19et20q2-d1e3577">Ex ista conclusione sequitur quod inter personas divinas non est similitudo proprie
 							dicta. Deductio est evidens, quia, sicut earum non est alia et alia quantitas, ita nec
 							alia et alia qualitas et similitudo proprie dicta est habitudo qualitatis non ad se,
 							sed ad aliam qualitatem sicut equalitas proprie dicta est habitudo quantitatis non ad
 							se, sed ad aliam quantitatem.</p>
 					</div>
-					<div>
-						<head><supplied>Conclusio secunda</supplied></head>
+					<div xml:id="atv-l1d19et20q2-Dd1e3581">
+						<head xml:id="atv-l1d19et20q2-Hd1e3583"><supplied>Conclusio secunda</supplied></head>
 
-						<p>Secunda conclusio est quod inter personas divinas est equalitas largo modo sumpta,
+						<p xml:id="atv-l1d19et20q2-d1e3587">Secunda conclusio est quod inter personas divinas est equalitas largo modo sumpta,
 							pro cuius declaratione premitto aliquas propositiones.</p>
 
-						<p>Prima est quod inter personas divinas est identitas relativa. Hoc patet, quia quorum
+						<p xml:id="atv-l1d19et20q2-d1e3590">Prima est quod inter personas divinas est identitas relativa. Hoc patet, quia quorum
 							est una substantia, illorum est identitas relativa. Hoc patet, quia eadem
 							distinguuntur identitate relativa, quorum substantia est una, ut patet V
 								<title>Metaphysice</title>, sed trium personarum in divinis est una substantia; ergo
 							etc.</p>
 
-						<p>Secunda est quod inter personas divinas est equalitas relativa et hoc etiam patet
+						<p xml:id="atv-l1d19et20q2-d1e3596">Secunda est quod inter personas divinas est equalitas relativa et hoc etiam patet
 							primo per determinationem <name>Magistri</name> distinctione 31, ubi inquirit an Pater
 							sit equalis et similis Filio relative et determinat quod sic. Secundo, quia omne
 							absolutum in divinis esset una tantum persona. Equalitas autem non esset si una tantum
@@ -145,20 +136,20 @@
 							etiam per adversarios, sed equale vel equalitas non est ad se, sed ad alterum, ut
 							patet ex dictis; ergo etc.</p>
 
-						<p>Tertia propositio est quod equalitas relativa divinis non est nisi identitas. Hoc
+						<p xml:id="atv-l1d19et20q2-d1e3614">Tertia propositio est quod equalitas relativa divinis non est nisi identitas. Hoc
 							patet primo ex conclusione precedenti, quia, si equalitas relativa non esset identitas
 							in divinis, pari ratione nec similitudo erit identitas, nec equalitas esset
 							similitudo, sed omnis equalitas relativa condivisa identitati et similitudini est
 							equalis proprie dicta; ergo in divinis ad intra esset proprie dicta equalitas, cuius
 							contrarium patet ex conclusione precedenti.</p>
 
-						<p>Preterea, ubi magnitudo non distinguitur ab essentia sive substantia, ibi equalitas
+						<p xml:id="atv-l1d19et20q2-d1e3618">Preterea, ubi magnitudo non distinguitur ab essentia sive substantia, ibi equalitas
 							non distinguitur ab identitate. Hoc patet, quia equalis est proportio fundamenti ad
 							fundamentum, talis relationis ad relationem. Sed in divinis magnitudo nullo modo
 							distinguitur ab essentia ex natura rei, ut patet ex 8 distinctione et questionibus
 							super Prologo.</p>
 
-						<p>His propositionibus premissis patet assumpta conclusio, quia omnis equalitas relativa
+						<p xml:id="atv-l1d19et20q2-d1e3621">His propositionibus premissis patet assumpta conclusio, quia omnis equalitas relativa
 							que non est nisi identitas est equalitas lar-[126vb]-go modo sumpta, sed inter
 							personas divinas est equalitas relativa, ut patet ex secunda propositione que non est
 							nisi identitas, ut patet ex tertia; ergo etc. Et confirmatur, quia in divinis ad intra
@@ -167,30 +158,30 @@
 							dictam et largo modo sumptam. Antecedens quantum ad primam partem patet ex secunda
 							propositione. Quantum ad secundam patet ex conclusione precedenti.</p>
 					</div>
-					<div>
-						<head><supplied>Conclusio tertia</supplied></head>
+					<div xml:id="atv-l1d19et20q2-Dd1e3625">
+						<head xml:id="atv-l1d19et20q2-Hd1e3627"><supplied>Conclusio tertia</supplied></head>
 
-						<p>Tertia conclusio est quod huius equalitas relativa que ponitur inter persona divinas
+						<p xml:id="atv-l1d19et20q2-d1e3631">Tertia conclusio est quod huius equalitas relativa que ponitur inter persona divinas
 							est relatio realis, non rationis, pro cuius declaratione premitto aliquas
 							propositiones.</p>
 
-						<p>Prima est quod nulla identitas eiusdem ad se ipsam est relatio realis. Hanc probo
+						<p xml:id="atv-l1d19et20q2-d1e3634">Prima est quod nulla identitas eiusdem ad se ipsam est relatio realis. Hanc probo
 							primo, quia tali relationi non convenit diffinitio relationis realis que est esse
 							realiter ad aliud. Assumptum patet, quia unum et unum non est aliud a se ipso.</p>
 
-						<p>Secundo, quia omnis relatio realis est realis habitudo duorum, quorum unum habet
+						<p xml:id="atv-l1d19et20q2-d1e3637">Secundo, quia omnis relatio realis est realis habitudo duorum, quorum unum habet
 							rationem fundamenti alterum rationem termini, sed constat quod unum et idem, ut sic,
 							non habet rationem duorum etc.</p>
 
-						<p>Tertio, quia, sicut relatio rationis ad extrema rationis, ita relatio realis ad
+						<p xml:id="atv-l1d19et20q2-d1e3640">Tertio, quia, sicut relatio rationis ad extrema rationis, ita relatio realis ad
 							extrema realia, sed omnis relatio rationis requirit duo extrema secundum rationem,
 							igitur omnis relatio realis duo extrema secundum rem, quod in proposito dici non
 							potest.</p>
 
-						<p>Quarto, quia realiter relativa sunt realiter opposita, sed eiusdem ad se ipsum non
+						<p xml:id="atv-l1d19et20q2-d1e3644">Quarto, quia realiter relativa sunt realiter opposita, sed eiusdem ad se ipsum non
 							est realis oppositio, igitur nec realis relatio.</p>
 
-						<p>Secunda propositio est quod omnis identitas relativa eiusdem ad se ipsum est relatio
+						<p xml:id="atv-l1d19et20q2-d1e3647">Secunda propositio est quod omnis identitas relativa eiusdem ad se ipsum est relatio
 							rationis et hoc sequitur ex precedenti, quia omnis relatio est realis vel rationis.
 							Sed identitas relativa eiusdem ad se ipsum est formaliter relatio et non realis, ut
 							patet ex propositione precedenti, igitur est rationis. Maior nulli deberet esse
@@ -199,31 +190,31 @@
 							est fabricata ab anima, vel non. Si sic, igitur est relatio rationis. Si non, ergo
 							realis quorum quodlibet est contra positum.</p>
 
-						<p>Secundo, et est quasi confirmatio precedentis rationis, quia vel talis relatio
+						<p xml:id="atv-l1d19et20q2-d1e3650">Secundo, et est quasi confirmatio precedentis rationis, quia vel talis relatio
 							consurgit inter extrema et natura rei circumscripta omni apprehensione actuali ipsius
 							anime comparantis unum extremum et aliud, vel non. Si sic, ergo est realis. Si non,
 							ergo est rationis, quia nomine relationis rationis non intelligitur nisi relatio illa
 							que non consurgit ex natura rei inter extrema. </p>
 
-						<p>Tertio, quia relatio realis et relatio rationis non minus evacuant naturam relationis
+						<p xml:id="atv-l1d19et20q2-d1e3653">Tertio, quia relatio realis et relatio rationis non minus evacuant naturam relationis
 							quam ens reale et ens rationis evacuent naturam entis, sed impossibile est dare
 							aliquod ens quin sit reale vel rationis, ergo ista propositio expresse ponitur a
 								<name>Philosopho</name> V <title>Metaphysice</title> in capitulo 8 ad aliquid. </p>
 
-						<p>Tertia propositio est quod nulla identitas relativa unius rei ad aliam rem in
+						<p xml:id="atv-l1d19et20q2-d1e3662">Tertia propositio est quod nulla identitas relativa unius rei ad aliam rem in
 							creaturis est relatio realis. Patet primo sic: nulle due res distincte in creaturis
 							realiter sunt unum realiter, igitur nulla identitas relativa; ergo etc. Antecedens
 							supponitur et ponitur a <name>Damasceno</name>, libro I, capitulo 11. Consequentia
 							probatur, quia ad realem identitatem relativam duarum rerum necessario requiritur
 							realis unitas ipsarum.</p>
 
-						<p>Secundo sic: omnis relatio realis consurgit inter extrema ex natura circumscripta
+						<p xml:id="atv-l1d19et20q2-d1e3668">Secundo sic: omnis relatio realis consurgit inter extrema ex natura circumscripta
 							omni apprehensione anime identitas relativa unius rei ad aliam in creaturis non
 							cosurgit; ergo etc. Probatur minor, quia circumscripta omni apprehensione anime
 							conscribitur omnis unitas unius rei ad aliam in creaturis, per
 								<name>Damanscenum</name> ubi supra, ergo et omnis identitas relativa ipsarum.</p>
 
-						<p>Tertio sic: omnis identitas relativa realis presupponit realem identitatem extremorum
+						<p xml:id="atv-l1d19et20q2-d1e3675">Tertio sic: omnis identitas relativa realis presupponit realem identitatem extremorum
 							in aliquo absoluto, sed identitas relativa unius rei ad aliam in creaturis non
 							presupponit; igitur etc. Minor probatur, quia nulle res in creaturis distincte
 							realiter sunt idem realiter in aliquo absoluto, ut dictum est supra, igitur identitas
@@ -233,24 +224,24 @@
 							una realiter, illa non sunt eadem realiter, sed substantia duarum rerum in creatarum
 							non est una realiter; igitur. </p>
 
-						<p>Quarta propositio est: omnis identitas relativa unius rei ad aliam in creaturis est
+						<p xml:id="atv-l1d19et20q2-d1e3684">Quarta propositio est: omnis identitas relativa unius rei ad aliam in creaturis est
 							relatio rationis. Ista sequitur ad precedentem et patet eius deductio ex deductione
 							secunde. </p>
 
-						<p>Quinta propositio est quod omnis identitas relativa unius rei ad aliam in divinis est
+						<p xml:id="atv-l1d19et20q2-d1e3687">Quinta propositio est quod omnis identitas relativa unius rei ad aliam in divinis est
 							relatio realis. Hec patet primo, quia in divinis omnes res distincte realiter sunt
 							idem realiter, igitur earum identitas relativa est relatio realis.</p>
 
-						<p>Secundo, quia omnis relatio que manet in re circumscripto opere intellectus est
+						<p xml:id="atv-l1d19et20q2-d1e3690">Secundo, quia omnis relatio que manet in re circumscripto opere intellectus est
 							realis, sed relatio identitatis que ponitur inter personas divinas est huiusmodi, quia
 							identitas personarum in divinis non dependet ab intellectu.</p>
 
-						<p>Tertio, quia illa sunt eadem identitate relativa quorum substantia est una, V
+						<p xml:id="atv-l1d19et20q2-d1e3693">Tertio, quia illa sunt eadem identitate relativa quorum substantia est una, V
 								<title>Metaphysice</title>, igitur illa sunt eadem identitate relativa reali cuius
 							substantia est una unitate reali, sed constat quod substantia trium personarum in
 							divinis est una unitate reali; ergo etc.</p>
 
-						<p>Quarto, quia identitas relativa in divinis ad intra habet omnia ad relationem
+						<p xml:id="atv-l1d19et20q2-d1e3699">Quarto, quia identitas relativa in divinis ad intra habet omnia ad relationem
 							necessario requisita, ergo est relatio realis. Consequentia est nota. Antecedens
 							probatur, quia ad rationem realem sufficiunt tria. Primo, quod fundamentum sit reale
 							et terminus realis, quia entis ad non ens vel entis realis ad ens rationis non est
@@ -266,27 +257,27 @@
 							est operatione intellectus, quia ipsarum substantia est una unitate reali non rationis
 							tantum.</p>
 
-						<p>His propositionibus premissis assumpta conclusio arguitur sic: omnis identitas
+						<p xml:id="atv-l1d19et20q2-d1e3703">His propositionibus premissis assumpta conclusio arguitur sic: omnis identitas
 							relativa unius rei ad aliam rem in divinis est relatio realis, sed equalitas relativa
 							que ponitur inter divinas personas non est identitas relativa unius rei ad aliam rem,
 							ut patet ex dictis.</p>
 					</div>
-					<div>
-						<head>
+					<div xml:id="atv-l1d19et20q2-Dd1e3708">
+						<head xml:id="atv-l1d19et20q2-Hd1e3710">
 							<supplied>Conclusio quarta</supplied>
 						</head>
 
-						<p>Ultima conclusio est quod equalitas trium personarum in divinis est summa equalitas.
+						<p xml:id="atv-l1d19et20q2-d1e3716">Ultima conclusio est quod equalitas trium personarum in divinis est summa equalitas.
 							Probatur sic: summa identitas unius rei ad aliam rem est identitas trium personarum,
 							ergo summa equalitas est equalitas earum. Antecedens patet, quia omnis alia identitas
 							unius rei ad aliam deficit ab hac identitate. Consequentia est bona, quia equalitas
 							trium personarum non est nisi identitas earum, ut patet ex dictis.</p>
 
-						<p>Est tamen advertandum quod inter personas divinas non est equalitas summa in genere
+						<p xml:id="atv-l1d19et20q2-d1e3719">Est tamen advertandum quod inter personas divinas non est equalitas summa in genere
 							equalitatis proprie dicte, quia inter ipsas non est equalitas proprie dicta, sed in
 							genere equalitatis largo modo sumpte, ut satis patet ex precedentibus.</p>
 
-						<p>Ex ista conclusione sequitur quod persone divine sunt summe equales in substantia
+						<p xml:id="atv-l1d19et20q2-d1e3722">Ex ista conclusione sequitur quod persone divine sunt summe equales in substantia
 							potentia et magnitudine et universaliter omni perfectione. Deductio ista est evidens,
 							quia in omnibus istis sunt summe idem, ergo et summe equales, et hic est processus
 								<name>beati Augustini</name> VI <title>De Trinitate</title>, per totum, ubi ex summa
@@ -294,23 +285,23 @@
 							perfectionibus probat earum summa equalitatem. Et hoc de secundo articulo.</p>
 					</div>
 				</div>
-				<div>
-					<head>Tertius et quartus articulos</head>
+				<div xml:id="atv-l1d19et20q2-Dd1e3733">
+					<head xml:id="atv-l1d19et20q2-Hd1e3735">Tertius et quartus articulos</head>
 
-					<p>Quantum ad tertium et quartum articulos simul contra conclusiones istas movenda et
+					<p xml:id="atv-l1d19et20q2-d1e3738">Quantum ad tertium et quartum articulos simul contra conclusiones istas movenda et
 						dissolvenda sunt dubia. Et primo contra primam est opinio…</p>
 
-					<p>Opinio <name>Scoti</name> in I, distinctione 31, questione 1 et in
+					<p xml:id="atv-l1d19et20q2-d1e3741">Opinio <name>Scoti</name> in I, distinctione 31, questione 1 et in
 							<title>Quolibet</title>, questione 6</p>
 
-					<p>…Que ponit quod inter personas divinas est equalitas [127rb] proprie dicta non solum
+					<p xml:id="atv-l1d19et20q2-d1e3750">…Que ponit quod inter personas divinas est equalitas [127rb] proprie dicta non solum
 						largo modo sumpta. Ex pro ista opinione ex fundamentis <name>Scoti</name> quidam doctor
 						sic arguit.</p>
 
-					<p><name>Landulphus</name> in I, distinctione 18, questione 2, articulo 1, conclusione
+					<p xml:id="atv-l1d19et20q2-d1e3756"><name>Landulphus</name> in I, distinctione 18, questione 2, articulo 1, conclusione
 						5</p>
 
-					<p>Ubicumque est perfecta ratio fundamenti et distinctio extremorum, ibi est vera relatio,
+					<p xml:id="atv-l1d19et20q2-d1e3762">Ubicumque est perfecta ratio fundamenti et distinctio extremorum, ibi est vera relatio,
 						sed inter personas divinas est perfecta ratio fundamenti equalitatis proprie dicte et
 						distinctio extremorum, ergo inter ipsas est talis relatio equalitatis. Maior patet, quia
 						ex sufficientia cause infertur effectus et fundamentum et extrema sunt sufficiens causa
@@ -319,7 +310,7 @@
 						perfecta, quia infinitas ibi est etiam unitas fundamenti, quia una magnitudo numero est
 						in tribus personis, sequitur ergo quod ibi sit perfecta et propria equalitas.</p>
 
-					<p>Secundo sic: ad fundamentum equalitatem et similitudinem proprie dictam sufficit unitas
+					<p xml:id="atv-l1d19et20q2-d1e3765">Secundo sic: ad fundamentum equalitatem et similitudinem proprie dictam sufficit unitas
 						numeralis fundamenti, ergo inter personas divinas est ponenda equalitas et similitudo
 						proprie dicta. Consequentia patet, quia per me totalis causa quare inter ipsas non est
 						ponenda talis equalitas nec similitudo est quod earum non est alia et alia quantitas,
@@ -327,10 +318,10 @@
 						sufficit unitas numeralis fundamenti. Antecedens vero probatur ab eodem doctore
 						quadrupliciter. Primo sic:</p>
 
-					<p><name>Landulphus</name> in I, distinctione 3, questione 1, articulo 1, conclusione
+					<p xml:id="atv-l1d19et20q2-d1e3768"><name>Landulphus</name> in I, distinctione 3, questione 1, articulo 1, conclusione
 						2</p>
 
-					<p>Non plus repugnat unitas fundamenti relationibus fundatis super uno sicut est idem
+					<p xml:id="atv-l1d19et20q2-d1e3773">Non plus repugnat unitas fundamenti relationibus fundatis super uno sicut est idem
 						similiter et equale quam relationibus non fundatis super uno secundum relationes que non
 						fundantur super uno. Possunt esse vere relationes et proprie cum unitate numerali
 						fundati, ergo multo plus relationes fundate super uno. Maior patet, quia relationes
@@ -340,7 +331,7 @@
 						producentis et productivo fundatur in eadem essentia numero et similiter in creaturis
 						res fundat relationem moventis et moti sicut voluntas.</p>
 
-					<p>Secundo sic: habita una quantitate et una qualitate reali numero in duobus realiter
+					<p xml:id="atv-l1d19et20q2-d1e3779">Secundo sic: habita una quantitate et una qualitate reali numero in duobus realiter
 						distinctis illa dicuntur equalia et similia realiter et proprie, ergo cum una unitate
 						numerali fundati stabit relatio realis fundata. Consequentia patet. Antecedens probatur,
 						quia dicemus quantitatem et albedinem separatam in sacramento eucharistie vini et alteri
@@ -351,7 +342,7 @@
 						extremi, sed, si rediret idem panis transubstantiatus et maneret esset equalis pani
 						affecti illis accidentibus et tamen esset idem fundamentum numero.</p>
 
-					<p>Tertio sic: unitas numeralis fundamenti non plus repugnat relationibus equiparantie
+					<p xml:id="atv-l1d19et20q2-d1e3782">Tertio sic: unitas numeralis fundamenti non plus repugnat relationibus equiparantie
 						quam relationibus super positionis, sed istis non repugnat, ergo nec illis. Maior patet,
 						quia relativa suppositionis plus recedunt ab unitate quam relativa equiparantie. Minor
 						probatur, quia totum ad partem se habet secundum rationem excedentis, quia omne totum
@@ -359,7 +350,7 @@
 						suppositionis stat cum unitate numerali, et per consequens multo plus relatio
 						equiparantie.</p>
 
-					<p>Quarto sic: in entibus est dare perfectam distinctionem et inequalitatem realiter et
+					<p xml:id="atv-l1d19et20q2-d1e3786">Quarto sic: in entibus est dare perfectam distinctionem et inequalitatem realiter et
 						perfectam identitatem et equalitatem. Ista consequentia patet, quia, secundum
 							<name>beatum Augustinum</name>, equalitas perfectior est simpliciter inequalitate et
 						identitas distinctione. Si ergo est dare in universo illud quod est imperfectius,
@@ -368,14 +359,14 @@
 						identitas, nec perfecta equalitas nisi cum distinctione extremorum reali stet unitas
 						substantie numeralis, sic est in divinis personis; ergo etc.</p>
 
-					<p>Responsio ad rationes <name>Landulphi</name></p>
+					<p xml:id="atv-l1d19et20q2-d1e3792">Responsio ad rationes <name>Landulphi</name></p>
 
-					<p>Ad primum istorum nego minorem et ad probationem concedo quod in divinis non est
+					<p xml:id="atv-l1d19et20q2-d1e3797">Ad primum istorum nego minorem et ad probationem concedo quod in divinis non est
 						magnitudo perfecta, sed ex hoc non sequitur quod ibi sit ratio fundamenti et equalitatis
 						proprie dicte, quia sic ibi est perfecta magnitudo, quod non est ibi alia et alia
 						magnitudo que tamen requiritur ad equalitatem ut condividitur identitati.</p>
 
-					<p>Ad secundum nego antecedens et ad probationem dico ad primam dupliciter. Primo, per
+					<p xml:id="atv-l1d19et20q2-d1e3800">Ad secundum nego antecedens et ad probationem dico ad primam dupliciter. Primo, per
 						interemptionem maioris, quia non est simile de relationibus originis que non fundatur
 						super uno et de relationibus que fundantur super uno. Ratio dissimilis est, quia
 						relationes originis sunt alterius et alterius rationis in extremis, et ideo non
@@ -396,18 +387,18 @@
 							<name>Philosophum</name> unde voluntas non secundum illud quod movet movetur, sed
 						secundum aliud etc. </p>
 
-					<p>Contra solutionem istam instatur dupliciter. Primo, quia, si propter transitum originum
+					<p xml:id="atv-l1d19et20q2-d1e3806">Contra solutionem istam instatur dupliciter. Primo, quia, si propter transitum originum
 						in essentia non esset fundamentum, et tamen vere sunt origines distincte realiter, ita
 						dicetur in proposito quod identitas et similitudo et equalitas transeunt in essentiam,
 						quia non distinguuntur ab ea realiter, et tamen cum vera unitate numerali ipsius stabit
 						quod erunt reales realiter distincte et nil aliud queritur.</p>
 
-					<p>Secundo, de voluntate, quia illud aliud et aliud aut est alia et alia res totaliter, et
+					<p xml:id="atv-l1d19et20q2-d1e3809">Secundo, de voluntate, quia illud aliud et aliud aut est alia et alia res totaliter, et
 						tunc erunt in nobis due volunttes, vel saltem una composita ex duobus realibus nullo
 						modo eiusdem nisi compositive, aut illud aliud et aliud in voluntate est diversa ratio
 						formalis cum unitate reali, et hoc etiam nego ego.</p>
 
-					<p>Ad primam concedo quod, si tales relationes essent possibiles in divinis, non
+					<p xml:id="atv-l1d19et20q2-d1e3813">Ad primam concedo quod, si tales relationes essent possibiles in divinis, non
 						fundarentur realiter in essentia, sed essent ipsa, sed ista non est causa, quia non sunt
 						possibiles in divinis, sed tota causa est, quia equalitas sic sumpta non est possibilis
 						ubi non est alia et alia quantitas, sicut nec relationes originis sunt possibiles ubi
@@ -415,19 +406,19 @@
 						originantis originati et non alia et alia quantitas, poterunt esse in divinis relationes
 						originis distincte realiter et non similitudo, nec equalitas proprie dicta. </p>
 
-					<p>Ad secundum concedo quod in nobis sunt due voluntates, agens scilicet et possibilis, ut
+					<p xml:id="atv-l1d19et20q2-d1e3816">Ad secundum concedo quod in nobis sunt due voluntates, agens scilicet et possibilis, ut
 						alibi fuit declaratum.</p>
 
-					<p>Ad secundam probationem antecedentis nego antecedens unde dico quod, si eadem quantitas
+					<p xml:id="atv-l1d19et20q2-d1e3819">Ad secundam probationem antecedentis nego antecedens unde dico quod, si eadem quantitas
 						numero esset in duobus realiter distinctis, talis non essent equalia, sed eadem. Et ad
 						probationem dico quod, si rediret idem panis transubstantiatus, non esset equalis pani
 						affecto illis accidentibus, sed idem in quantitate, licet diversus in substantia.</p>
 
-					<p>Ad tertiam posset dici sicut ad primam per interemptionem maioris. Secundo et melius,
+					<p xml:id="atv-l1d19et20q2-d1e3822">Ad tertiam posset dici sicut ad primam per interemptionem maioris. Secundo et melius,
 						ut credo per interemptionem minoris. Nec [127vb] probatio valet, quia totum realiter
 						distinguitur a qualibet sui parte ratione alterius.</p>
 
-					<p>Ad quartam concedo quod in entibus potest reperiri perfecta equalitas, immo, si in
+					<p xml:id="atv-l1d19et20q2-d1e3825">Ad quartam concedo quod in entibus potest reperiri perfecta equalitas, immo, si in
 						entibus reperitur equalitas proprie dicta, necessario est perfecta, quia consistit in
 						esse punctuali et non suscipit magis et minus. Sed quando dicitur ulterius quod
 						equalitas perfecta et identitas perfecta non possunt esse nisi cum distinctione
@@ -436,14 +427,14 @@
 						oppositum, quia cum unitate quantitatis numeralis nunquam stat equalitas proprie
 						dicta.</p>
 
-					<p>Contra secundam conclusionem non arguo, quia contra eam in speciali non sunt nisi illa
+					<p xml:id="atv-l1d19et20q2-d1e3828">Contra secundam conclusionem non arguo, quia contra eam in speciali non sunt nisi illa
 						que adducta sunt contra primam. Sed contra propositiones quas premisi pro deductione
 						ipsius sunt diversi doctores. Et primo contra primam et secundam simul est quidam
 						doctor…</p>
 
-					<p><name>Aureolus</name> I, distinctione 31, questione 1, articulo 3, conclusione 3</p>
+					<p xml:id="atv-l1d19et20q2-d1e3832"><name>Aureolus</name> I, distinctione 31, questione 1, articulo 3, conclusione 3</p>
 
-					<p>…Qui ponit quod identitas equalitas et similitudo in divinis personis nullam
+					<p xml:id="atv-l1d19et20q2-d1e3837">…Qui ponit quod identitas equalitas et similitudo in divinis personis nullam
 						habitudinem ponunt nec realem, nec rationis, sed unitatem absolutam et indistinctam sive
 						indistinctionem quantitatis et magnitudinis virtualis et qualitatis essentialis, ad
 						cuius declarationem premittit quod unitas potest accipi tripliciter. Uno modo, pro
@@ -472,14 +463,14 @@
 						habere unam magnitudinem indivisam non est aliqua unitas relativa, sed absoluta, ut
 						patet ex dictis.</p>
 
-					<p>Preterea, contra easdem conclusiones potest argui ex dictis <name>Magistri</name> sic:
+					<p xml:id="atv-l1d19et20q2-d1e3840">Preterea, contra easdem conclusiones potest argui ex dictis <name>Magistri</name> sic:
 						omnis relatio est aliquid positivum equalitas et similitudo inter personas divinas non
 						est aliquid positivum, ergo non sunt relationes. Maior est nota. Minorem ponit
-							<name>Magister</name> distinctione 31, capitulo 2, dicens quod non indocte quibusdam
-						videtur nomine equalitatis vel similitudinis non aliquid poni, sed removeri; ergo
+					  <ref xml:id="atv-l1d19et20q2-Rd1e3845"><name>Magister</name> distinctione 31, capitulo 2</ref>, dicens <quote xml:id="atv-l1d19et20q2-Qd1e3850" source="http://scta.info/resource/pll1d31c1-d1e3583">quod non indocte quibusdam
+						videtur nomine equalitatis vel similitudinis non aliquid poni, sed removeri</quote>; ergo
 						etc.</p>
 
-					<p>Preterea, persone divine non sunt equales secundum relationem, sed secundum
+					<p xml:id="atv-l1d19et20q2-d1e3854">Preterea, persone divine non sunt equales secundum relationem, sed secundum
 						substantiam, igitur earum equalitas non est relativa, sed absoluta. Consequentia videtur
 						nota. Antecedens <name>Magister</name> deducit distinctione 31 per <name>beatum
 							Augustinum</name> qui dicit V <title>De Trinitate</title>, capitulo 7: querimus
@@ -487,19 +478,19 @@
 						est equalis Patri et restat [128ra] quod secundum illud quod ad se dicitur sit equalis
 						et infert, ergo ut substantia sit equalis. </p>
 
-					<p>Et confirmatur per Magistrum quo post verba <name>Augustini</name> concludit sic:
+					<p xml:id="atv-l1d19et20q2-d1e3866">Et confirmatur per Magistrum quo post verba <name>Augustini</name> concludit sic:
 						equalitas Patris et Filii non est relatio vel notio, sed vere unitas.</p>
 
-					<p><name>Scotus</name> et sui sequaces</p>
+					<p xml:id="atv-l1d19et20q2-d1e3872"><name>Scotus</name> et sui sequaces</p>
 
-					<p>Contra tertiam conclusionem est communis opinio multorum que ponit quod equalitas
+					<p xml:id="atv-l1d19et20q2-d1e3878">Contra tertiam conclusionem est communis opinio multorum que ponit quod equalitas
 						divinarum personarum est relatio distincta ad identitate et similitudine quod a
 						quibusdam sic probatur:</p>
 
-					<p><name>Landulphus</name> in I, distinctione 19, questione 2, articulo 2, conclusione
+					<p xml:id="atv-l1d19et20q2-d1e3881"><name>Landulphus</name> in I, distinctione 19, questione 2, articulo 2, conclusione
 						1</p>
 
-					<p>Fundamenta non eadem ex natura rei fundantia relationem ad equalitatem rationem
+					<p xml:id="atv-l1d19et20q2-d1e3886">Fundamenta non eadem ex natura rei fundantia relationem ad equalitatem rationem
 						fundamenti necessario fundant relationes distinctas, sed infinitas et essentia et
 						similiter infinitas et sapientia sunt non idem ex natura rei et fundant relationes
 						adequantes suam rationem totalem; ergo fundant relationes distinctas, et per consequens
@@ -512,9 +503,9 @@
 						Filio equalis secundum totam infinitatem adequate et similiter idem secundum essentiam
 						et similis secundum sapientiam adequatissime.</p>
 
-					<p>Ad rationes <name>Aureoli</name></p>
+					<p xml:id="atv-l1d19et20q2-d1e3889">Ad rationes <name>Aureoli</name></p>
 
-					<p>Ad primam istorum, licet in isto processu verbali sint aliqua dubia, venio tamen ad
+					<p xml:id="atv-l1d19et20q2-d1e3894">Ad primam istorum, licet in isto processu verbali sint aliqua dubia, venio tamen ad
 						punctum rationis et dico quod personas esse equales equalitate relativa, ut nunc
 						loquimur, non significat eas habere unam magnitudinem indivisam, nec significat quod
 						magnitudo, prout est in una, comensuretur etc, quia tunc inter personas divinas esset
@@ -522,7 +513,7 @@
 						et omni perfectione esse idem identitate relativa, non absoluta. Ratio huius est, quia
 						ibi talis equalitas non est nisi identitas.</p>
 
-					<p>Ad secundum dico quod <name>Magister</name> intendit quod similitudo et equalitas non
+					<p xml:id="atv-l1d19et20q2-d1e3897">Ad secundum dico quod <name>Magister</name> intendit quod similitudo et equalitas non
 						ponunt habitudinem sine relationem aliquam in divinis distinctam ab identitate, quia in
 						divinis ad intra non est similitudo, nec equalitas proprie dicta. Vult etiam quod
 						removeant in equalitatem oppositam equalitati proprie dicte, quia talis inequalitas non
@@ -530,7 +521,7 @@
 						positivum, cum ipse dicat in principio illius distinctionis quod Pater est equalis et
 						similis Filio relative, ut dictum est.</p>
 
-					<p>Ad tertium concedo quod Filius non est equalis Patri secundum relationem fundamentalem,
+					<p xml:id="atv-l1d19et20q2-d1e3904">Ad tertium concedo quod Filius non est equalis Patri secundum relationem fundamentalem,
 						sed secundum substantiam, quia equalitas inter personas non attenditur inter notionalia,
 						sed inter essentialia et sicut loquitur <name>Augustinus</name> et etiam
 							<name>Magister</name>, sed ex hoc non sequitur quod inter personas non sit equalitas
@@ -540,15 +531,15 @@
 						relativa, cum dixerit oppositum in principio dicente, sed intendit quod equalitas
 						fundamentalis non sit relatio, sed absolutum, et hec est verum.</p>
 
-					<p>Ad rationes <name>Landulphi</name></p>
+					<p xml:id="atv-l1d19et20q2-d1e3916">Ad rationes <name>Landulphi</name></p>
 
-					<p>Ad rationem contra tertiam propositionem nego minorem, quia, ut patet ex 8
+					<p xml:id="atv-l1d19et20q2-d1e3921">Ad rationem contra tertiam propositionem nego minorem, quia, ut patet ex 8
 						distinctione, inter infinitatem et essentiam nulla est distinctio, nec materialis, nec
 						formalis, nec aliqua ex natura rei, et ideo ratio est ad oppositum, quia fundamenta
 						penitus indistincta ex natura rei fundantia relationes adequatas etc. fundant
 						indistinctas relationes; sic est in proposito, ergo etc.</p>
 
-					<p>Contra tertiam conclusionem et propositiones quas premisi pro deductione eius potest
+					<p xml:id="atv-l1d19et20q2-d1e3924">Contra tertiam conclusionem et propositiones quas premisi pro deductione eius potest
 						multipliciter argui. Et primo contra duas propositiones primas est quedam opinio que
 						ponit quod identitas numeralis qua idem ad se ipsum dicitur relative est relatio realis,
 						non rationis, ubi est advertendum secundum imaginationem istorum quod aliquid dicitur ad
@@ -558,7 +549,7 @@
 						re-[128rb]-alis, ut dicunt, existens completive et actualiter extra animam sive quis
 						intelligatur sive non quod potest probari ex dictis eorum multipliciter. </p>
 
-					<p>Primo sic: identitas eiusdem ad se ipsum manet in re circumscripto opere intellectus,
+					<p xml:id="atv-l1d19et20q2-d1e3927">Primo sic: identitas eiusdem ad se ipsum manet in re circumscripto opere intellectus,
 						igitur est relatio realis non rationis. Consequentia est bona. Antecedens patet, quia
 						sive quis intelligat, sive non, quelibet res est eadem sibi, patet. Si unum contrariorum
 						est aliquid reale et alterum est formaliter aliquid reale, sed identitas et diversitas
@@ -568,42 +559,42 @@
 						animam, sequitur quod identitas sit relatio realis completive et actualiter extra
 						animam.</p>
 
-					<p>Preterea, quandocumque aliqua duo ex opposito dividunt aliquod commune reale si unum
+					<p xml:id="atv-l1d19et20q2-d1e3930">Preterea, quandocumque aliqua duo ex opposito dividunt aliquod commune reale si unum
 						dividentium est reale et alterum, sed idem et diversum dividunt totum ens reale et
 						diversitas est relatio realis, ergo et identitas.</p>
 
-					<p>Preterea, si identitas eiusdem ad se ipsum esset relatio rationis, sequeretur quod
+					<p xml:id="atv-l1d19et20q2-d1e3934">Preterea, si identitas eiusdem ad se ipsum esset relatio rationis, sequeretur quod
 						nihil esset sibi idem per se. Consequens est impossibile, quia nihil dicitur magis per
 						se quam idem de se ipso. Consequentia probatur, quia tunc in conceptu identitatis
 						eiusdem ad se ipsum sive in eo quod est esse idem sibi ipsi includeretur ens rationis,
 						sed constat quod ens reale et ens rationis non faciunt unum per se, sed per
 						accidens.</p>
 
-					<p>Preterea, si identitas eiusdem ad se ipsum sit relatio rationis, erit processus in
+					<p xml:id="atv-l1d19et20q2-d1e3937">Preterea, si identitas eiusdem ad se ipsum sit relatio rationis, erit processus in
 						infinitum in identitatibus posito uno solo ente. Consequens est falsum, igitur et
 						antecedens. Consequentia probatur, quia, si ens reale est sibi ipsi idem per relationem
 						rationis, pari ratione et illa relatio erit sibi ipsi idem per relationem rationis per
 						aliam relationem identitatis secundum rationem, sic et in infinitum; igitur etc. </p>
 
-					<p>Opinio <name>Scoti</name> et suorum</p>
+					<p xml:id="atv-l1d19et20q2-d1e3940">Opinio <name>Scoti</name> et suorum</p>
 
-					<p>Contra tertiam propositionem simul et quartam est quedam alia opinio que ponit quod
+					<p xml:id="atv-l1d19et20q2-d1e3946">Contra tertiam propositionem simul et quartam est quedam alia opinio que ponit quod
 						identitas relativa unius rei ad aliam rem in creaturis est relatio realis et non
 						rationis, quod probatur multipliciter. </p>
 
-					<p>Primo sic: omnis relatio que manet in re circumscripto opere intellectus est relatio
+					<p xml:id="atv-l1d19et20q2-d1e3949">Primo sic: omnis relatio que manet in re circumscripto opere intellectus est relatio
 						realis; relatio identitatis unius rei ad aliam rem in creaturis est huiusmodi, igitur.
 						Probatur minor, quia sive intellectus intelligat, sive non,. magis sunt idem Petrus et
 						Iohannes quam Petrus et asinus, igitur ipsorum identitas est in re circumscripto opere
 						intellectus.</p>
 
-					<p>Preterea, cuius oppositum est realiter et actualiter extra animam ipsum est realiter et
+					<p xml:id="atv-l1d19et20q2-d1e3952">Preterea, cuius oppositum est realiter et actualiter extra animam ipsum est realiter et
 						actualiter extra animam, sed diversitas et identitas unius rei ad aliam rem sunt
 						relationes opposite et constat quod diversitas est realiter et actualiter extra animam,
 						quia circumscripto omni opere intellectus duo contraria, puta albedo et nigredo, magis
 						differunt inter se quam duo non contraria.</p>
 
-					<p>Preterea, omnis effectus naturalis cuius omnes cause sunt realiter et actualiter extra
+					<p xml:id="atv-l1d19et20q2-d1e3956">Preterea, omnis effectus naturalis cuius omnes cause sunt realiter et actualiter extra
 						animam est realiter et actualiter extra animam, sed identitas predicta est effectus
 						naturalis cuius etc; igitur. Maior patet. Minor probatur, quia per se cause identitatis
 						relative unius rei ad aliam rem non sunt nisi extrema et medium sive finitum, sed hic
@@ -612,7 +603,7 @@
 						individuorum sub eadem specie fundantur super unitatem speciei que est unitas realis non
 						rationis, ut supponitur ab istis; ergo etc.</p>
 
-					<p>Preterea, omnis relatio in qua omnia illa reperiuntur qua requiruntur ad relationem
+					<p xml:id="atv-l1d19et20q2-d1e3959">Preterea, omnis relatio in qua omnia illa reperiuntur qua requiruntur ad relationem
 						realem est vere realis; identitas predicta est huiusmodi, igitur. Probatur minor, quia
 						ad talem relationem requiritur quod extrema sint realia et quod sint realiter distincta
 						et quod relatio consurgat inter ea ex natura rei. Hic autem omnis reperiuntur in
@@ -620,15 +611,15 @@
 						inter ipsos consurgit relatio identitatis ex natura rei, quia sive intellectus
 						intelligat, sive non. Certum est quod duo homines sunt eiusdem speciei; ergo.</p>
 
-					<p>Contra quintam propositionem et principalem conclusionem simul est quedam opinio
+					<p xml:id="atv-l1d19et20q2-d1e3962">Contra quintam propositionem et principalem conclusionem simul est quedam opinio
 						communi multis que ponit quod identitas et similitudo et equalitas trium [128va]
 						personarum in divinis non sunt relationes reales, sed rationis tantum, quod probatur ab
 						aliquibus.</p>
 
-					<p><name>Aureolis</name> in I, distinctione 31, questione 1, articulo 3, propositione
+					<p xml:id="atv-l1d19et20q2-d1e3965"><name>Aureolis</name> in I, distinctione 31, questione 1, articulo 3, propositione
 						1</p>
 
-					<p>Primo sic: impossibile est relationes reales et oppositas esse in eodem subiecto primo
+					<p xml:id="atv-l1d19et20q2-d1e3970">Primo sic: impossibile est relationes reales et oppositas esse in eodem subiecto primo
 						alioquin cum contradictoria includantur in qualibet oppositione. Sequitur quod
 						contradictoria erunt in eodem subiecto primo, sed equalitas et similitudo habent pro
 						primo subiecto quantitatem dimensivam vel virtualem et qualitatem substantialem vel
@@ -638,46 +629,46 @@
 						quantumcumque distinguuntur, quia in divina essentia que est primum subiectum essent
 						opposita simul.</p>
 
-					<p>Preterea, impossibile est quod aliquid in divinis habeat rationem generis sive speciei,
+					<p xml:id="atv-l1d19et20q2-d1e3973">Preterea, impossibile est quod aliquid in divinis habeat rationem generis sive speciei,
 						secundum <name>Augustinum</name> VII <title>De Trinitate</title>, capitulo 9, sed, si
 						equalitas sit relatio realis vel similitudo in divinis universale et species erunt ibi
 						plures equalitates solo numero differentes a quibus potest abstrahi equalitas in communi
 						que predicabitur de pluribus differentibus solo numero tanquam species vera, et idem
 						erit de similitudine, ergo illud poni non potest.</p>
 
-					<p>Preterea, non est magis intima similitudo creatis qualitatibus aut equalitas
+					<p xml:id="atv-l1d19et20q2-d1e3983">Preterea, non est magis intima similitudo creatis qualitatibus aut equalitas
 						quantitatibus quam sint similitudo et equalitas divinis personis, sed in creaturis non
 						sunt res in actu existentes in qualitatibus vel quantitatibus; ergo minus erunt res in
 						divinis.</p>
 
-					<p>Preterea, si similitudo et equalitas sunt reales relationes, erunt 16 reales in divinis
+					<p xml:id="atv-l1d19et20q2-d1e3986">Preterea, si similitudo et equalitas sunt reales relationes, erunt 16 reales in divinis
 						personis, quattuor quidem origines et 6 similitudines et 6 equalitates, quia quelibet
 						persona est equalis duabus, et sic habet duas equalitates et similiter similitudines,
 						sed hoc videtur absonum et superfluum tot realitates multiplicare in Deo, ergo
 						irrationale est illud poni.</p>
 
-					<p>Preterea, si essent relationes reales, fundarentur in divina essentia, prout est
+					<p xml:id="atv-l1d19et20q2-d1e3989">Preterea, si essent relationes reales, fundarentur in divina essentia, prout est
 						equalitas et magnitudo, et per consequens haberent se ad omnia tanquam ad fundamentum.
 						Relatio vero actuat suum fundamentum suo modo et fundamentum suam relationem recipit et
 						est impotens ad ipsum, sed constat quod hec omnia impossibilia sunt in divinis et
 						repugnantia summe perfectioni, igitur et sicut argutum est de similitudine potest argui
 						de identitate.</p>
 
-					<p><name>Thomas de Argentina</name> in I, distinctione 31, questione 1, articulo 2</p>
+					<p xml:id="atv-l1d19et20q2-d1e3992"><name>Thomas de Argentina</name> in I, distinctione 31, questione 1, articulo 2</p>
 
-					<p>Preterea, ad idem quidam doctor noster arguit. </p>
+					<p xml:id="atv-l1d19et20q2-d1e3997">Preterea, ad idem quidam doctor noster arguit. </p>
 
-					<p>Primo sic: illa relatio non est realis cuius esse dependet completive ab intellectu,
+					<p xml:id="atv-l1d19et20q2-d1e4000">Primo sic: illa relatio non est realis cuius esse dependet completive ab intellectu,
 						sed equalitas in divinis est huiusmodi, quia Pater non potest concipi equalis Filio;
 						ergo nisi eadem magnitudo divina his accipiatur per intellectum puta semel in Patre et
 						semel in Filio.</p>
 
-					<p>Preterea, inter eadem extrema super eodem fundamento non possunt fundari plures
+					<p xml:id="atv-l1d19et20q2-d1e4004">Preterea, inter eadem extrema super eodem fundamento non possunt fundari plures
 						oppositiones realium relationum, sed inter Patrem et Filium super eodem fundamento
 						fundatur paternitas ex parte Patris et filiatio ex parte Filii, ergo nulla alia relatio
 						inter Patrem et Filium in divinis poterit esse realis.</p>
 
-					<p>Preterea, hec est differentia inter relationes modo potentie et modo unius sive modo
+					<p xml:id="atv-l1d19et20q2-d1e4007">Preterea, hec est differentia inter relationes modo potentie et modo unius sive modo
 						numeri, quia relationibus modo potentie fundamenta non referuntur nec relationibus quas
 						fundant, ut denominantur formaliter, sed solum ipsa supposita. Potentia enim generativa
 						Socrate non est pater, sed ipse Socrate est pater. Sed relationibus modo unius ac modo
@@ -690,9 +681,9 @@
 						refererentur, quod est impossibile, cum unum tantum sit fundamentum et eiusdem ad se
 						ipsum non possit esse realis relatio; igitur etc. [128vb] </p>
 
-					<p>Responsio ad rationes factas contra primam et secundam conclusionem</p>
+					<p xml:id="atv-l1d19et20q2-d1e4010">Responsio ad rationes factas contra primam et secundam conclusionem</p>
 
-					<p>Pro solutione istarum rationum advertendum quod identitas eiusdem rei ad se ipsam est
+					<p xml:id="atv-l1d19et20q2-d1e4013">Pro solutione istarum rationum advertendum quod identitas eiusdem rei ad se ipsam est
 						duplex, quedam fundamentalis et absoluta, quedam formalis et relativa. Prima non est
 						nisi unitas essentialis secundum quam quelibet res est eadem sibi ipsi essentialiter,
 						quia indivisa a se et divisa ab omni alia re et identitas sic sumpta non est relatio
@@ -700,24 +691,24 @@
 						essentialiter enti et uno, ut patet. Secunda vero est formaliter relatio rei vel
 						rationis, quia est habitudo inter terminos secundum rem vel secundum rationis.</p>
 
-					<p>His premissis dico quod primam quod identitas fundamentalis et absoluta manet in re
+					<p xml:id="atv-l1d19et20q2-d1e4016">His premissis dico quod primam quod identitas fundamentalis et absoluta manet in re
 						circumscripto opere intellectus, sed talis non est relatio identitatis eiusdem ad se
 						ipsum formalis et relativa et non manet in re circumscripto opere intellectus, quia ad
 						talem intellectus utitur uno ut duobus, V <title>Metaphysice</title>.</p>
 
-					<p>Ad secundum dico quod diversitas realis non opponitur identitati eiusdem rei ad se
+					<p xml:id="atv-l1d19et20q2-d1e4022">Ad secundum dico quod diversitas realis non opponitur identitati eiusdem rei ad se
 						ipsam, quia ista simul stant res sit eadem sibi et diversa realiter ab omni alia, unde
 						concesso quod diversitas realis sit relatio realis, ex hoc non sequitur quod identitas
 						eiusdem ad se ipsum sit relatio realis, quia non opponitur sibi. Et per hoc patet ad
 						tertium.</p>
 
-					<p>Ad quartum: ratio est contra eos, quia, si identitas etc sit relatio realis, adhuc
+					<p xml:id="atv-l1d19et20q2-d1e4026">Ad quartum: ratio est contra eos, quia, si identitas etc sit relatio realis, adhuc
 						nihil esset sibi ipsa idem per se per declarationem suam, quia existente absoluto et
 						relativo non sit aliquid per se unum in creaturis. Concedo ergo quod nullum ens creatum
 						est sic sibi ipsi idem per se identitate formali et relativa, sed quodlibet ens est idem
 						per se identitate formali et absoluta.</p>
 
-					<p>Ad quintum etiam dico quod ratio est ad oppositum, quia, si ratio aliquid concludit,
+					<p xml:id="atv-l1d19et20q2-d1e4029">Ad quintum etiam dico quod ratio est ad oppositum, quia, si ratio aliquid concludit,
 						melius concludit quod, si ens reale est sibi ipsi idem per relationem realem, quod pari
 						ratione illa relatio esset sibi ipsi per aliam relationem identitatis realem, et sic in
 						infinitum, potest tamen dici quod processus in infinitum non est possibilis in entibus
@@ -726,9 +717,9 @@
 						valet si dicatur quod pari ratione standum erat in primo, quia non sunt eiusdem
 						rationis. Manent ergo propositiones solutis rationibus.</p>
 
-					<p>Responsio ad tertiam et quartam propositionem</p>
+					<p xml:id="atv-l1d19et20q2-d1e4032">Responsio ad tertiam et quartam propositionem</p>
 
-					<p>Ad primam nego minorem. Et ad probationem dico quod Petrus et Iohannis non sunt magis
+					<p xml:id="atv-l1d19et20q2-d1e4035">Ad primam nego minorem. Et ad probationem dico quod Petrus et Iohannis non sunt magis
 						idem realiter quam Petrus et unus asinus, quia non conveniunt in aliqua una realitate
 						neque si dicatur quod tunc a Petro et Iohanne non magis posset abstrahi unus conceptus
 						quam Petro et asino, quia in Petro et Marco est similitudo essentialis que non est in
@@ -736,28 +727,28 @@
 						intentionem, ut patet per <name>Commentatorem</name> I <title>De anima</title>, commento
 						8.</p>
 
-					<p>Ad secundum nego minorem et ad probationem dico quod diversitas numeralis que sola est
+					<p xml:id="atv-l1d19et20q2-d1e4044">Ad secundum nego minorem et ad probationem dico quod diversitas numeralis que sola est
 						diversitas realis non opponitur identitati specifice, immo stat simul cum ea, et ideo
 						non oportet quod talis identitas sit realis.</p>
 
-					<p>Ad tertium similiter dicitur quod minor est falsa, quia, licet extrema talis
+					<p xml:id="atv-l1d19et20q2-d1e4047">Ad tertium similiter dicitur quod minor est falsa, quia, licet extrema talis
 						identitatis sint realiter extra animam, medium tamen sive fundamentum non est realiter
 						extra animam, quia unitas specifica non est realis, sed rationis, ut dictum est
 						pluris.</p>
 
-					<p>Ad ultimum etiam patet quod minor non est vera, quia quamvis duo homines, utputa Petrus
+					<p xml:id="atv-l1d19et20q2-d1e4051">Ad ultimum etiam patet quod minor non est vera, quia quamvis duo homines, utputa Petrus
 						et Paulus, sint extrema realis realiter distincta, relatio tamen identitatis non
 						consurgit inter eos ex natura rei, sed ex operatione intellectus comparantis unum ad
 						aliud in specie cuius unitas non est realis sed rationis. Patet igitur rationes non
 						concludere.</p>
 
-					<p>Ad rationes <name>Aureoli</name> contra quintam propositionem et principalem
+					<p xml:id="atv-l1d19et20q2-d1e4054">Ad rationes <name>Aureoli</name> contra quintam propositionem et principalem
 						conclusionem</p>
 
-					<p>Restat ergo respondere ad ea que adducebantur contra quintam propositionem et
+					<p xml:id="atv-l1d19et20q2-d1e4060">Restat ergo respondere ad ea que adducebantur contra quintam propositionem et
 						principalem conclusionem.</p>
 
-					<p>Ad primum concedo quod impossibile est relationes reales oppositas esse in eodem
+					<p xml:id="atv-l1d19et20q2-d1e4063">Ad primum concedo quod impossibile est relationes reales oppositas esse in eodem
 						subiecto primo proprie [129ra] loquendo sic quod realiter insint ei sive quod realiter
 						fundentur in ipso, sed ex hoc nil concluditur, quia equalitas et similitudo in divinis
 						non sunt sic in aliquo tanquam in subiecto unde, sicut relationis originis non fundantur
@@ -765,7 +756,7 @@
 						equalitas et similitudo non fundantur realiter in Deo in quantitate virtuali et
 						qualitate substantiali, sed sunt realiter ista.</p>
 
-					<p>Ad secundum reduco primo rationem contra facientem, quia, si ratio sit bona, sequitur
+					<p xml:id="atv-l1d19et20q2-d1e4066">Ad secundum reduco primo rationem contra facientem, quia, si ratio sit bona, sequitur
 						quod paternitas et filiatio non sint relationes reales in divinis. Deductio est evidens,
 						quia per modum suum arguendi si paternitas et filiatio in divinis sunt relationes
 						reales, in divinis erit universale. Erunt enim sic plures relationes reales a quibus
@@ -774,13 +765,13 @@
 						non sequitur quod aliquid in divinis habeat rationem generis vel speciei, quia nihil est
 						quod realiter Deus proprie non est in genere, nec in specie.</p>
 
-					<p>Ad tertium patet ex questione precedenti quod equalitas et similitudo in creaturis sunt
+					<p xml:id="atv-l1d19et20q2-d1e4069">Ad tertium patet ex questione precedenti quod equalitas et similitudo in creaturis sunt
 						res actu existentes. Est tamen magna differentia inter illa in creaturis et in divinis,
 						quia in creaturis sunt equalitas et similitudo proprie dicte et sunt in quantitatibus et
 						qualitatibus subiective. In divinis autem non est equalis, nec similitudo proprie dicta,
 						nec est in aliquo subiective, ut patet ex dictis.</p>
 
-					<p>Ad quartum potest uno modo dici quod non sequeretur ex hoc quod in divinis essent 16
+					<p xml:id="atv-l1d19et20q2-d1e4073">Ad quartum potest uno modo dici quod non sequeretur ex hoc quod in divinis essent 16
 						relationes, ut patuit equalitas et similitudo in divinis personis non sunt nisi
 						identitas, et per consequens non sequitur quod in qualibet persona sint due equalitates
 						et due similitudines distincte, immo non sequitur quod in qualibet persona sint due
@@ -796,7 +787,7 @@
 						reales originis in divinis, sic et non aliter debemus concedere 7, 4, scilicet originis
 						et 3 identitates predictas videas ibi. </p>
 
-					<p>Ad quintum. Primo, reduco rationem contra facientem, quia vel de ratione realis
+					<p xml:id="atv-l1d19et20q2-d1e4076">Ad quintum. Primo, reduco rationem contra facientem, quia vel de ratione realis
 						relationis est fundari realiter in aliquo, vel non. Si dicatur quod non, patet quod
 						ratio nihil concludit, quia tunc non oportet quod huiusmodi relationes, si sint reales,
 						fundentur realiter in essentia divina, nec in aliquo. Si dicatur quod sic, sequitur quod
@@ -805,7 +796,7 @@
 						huiusmodi relationes et essent in potentia ad ipsas, quod est omnino impossibile sive
 						illud sit essentia divina, sive persona divina, sive quicquid assignetur ab ipso.</p>
 
-					<p>Ad rationem igitur dicitur, sicut dictum est supra, quod huiusmodi relationes sicut nec
+					<p xml:id="atv-l1d19et20q2-d1e4079">Ad rationem igitur dicitur, sicut dictum est supra, quod huiusmodi relationes sicut nec
 						relationes originis non fundatur realiter in aliquo proprie loquendo tantum large. Et
 						secundum nostrum modum intelligendi conceditur a doctoribus fundari in essentia, quia,
 						si essent realiter distincte ab ipsa, fundarentur realiter in ipsa. Est tamen
@@ -816,16 +807,16 @@
 						referuntur et in isto secundo sensu dixi superius quod persone divine sunt fundamentum
 						et terminus istarum [129rb] relationum, et hoc est verum.</p>
 
-					<p>Responsio ad rationes <name>Thome de Argentina</name></p>
+					<p xml:id="atv-l1d19et20q2-d1e4082">Responsio ad rationes <name>Thome de Argentina</name></p>
 
-					<p>Ad primum nego minorem, quia persone divine vere et realiter sunt equales sive quis
+					<p xml:id="atv-l1d19et20q2-d1e4087">Ad primum nego minorem, quia persone divine vere et realiter sunt equales sive quis
 						intelligat, sive non, et ad probationem quando dicitur quod Pater non potest concipi
 						equalis Filio nisi eadem magnitudo divina his accipiatur per intellectum, nego, quia
 						huiusmodi esse equalitas non est nisi identitas et ad hoc quod Pater concipiatur esse
 						idem Filio non oportet quod eadem magnitudo divina his accipiatur per intellectum quod
 						circumscripto omni opere intellectus Pater est idem Filio.</p>
 
-					<p>Ad secundum potest dici uno modo quod ista ratio supponit relationes divinas in aliquo
+					<p xml:id="atv-l1d19et20q2-d1e4090">Ad secundum potest dici uno modo quod ista ratio supponit relationes divinas in aliquo
 						fundari, quod non est verum proprie loquendo quod dictum est supra, ideo nihil
 						concludit. Secundo potest dici quod maior est falsa etiam in creaturis, quia eadem
 						albedo est fundamentum similitudinis et distinctionis que tamen in creaturis sunt plures
@@ -837,7 +828,7 @@
 						filiatio, licet improprie dicantur relationes divine fundari in essentia, cum realiter
 						sint ipsa.</p>
 
-					<p>Ad tertium potest uno modo dici quod quicquid sit de differentia illa quam iste doctor
+					<p xml:id="atv-l1d19et20q2-d1e4094">Ad tertium potest uno modo dici quod quicquid sit de differentia illa quam iste doctor
 						assignat inter relationes modo posite et modo unius in creaturis, in divinis tamen
 						differentia illa non habet locum, quia, licet in creaturis potentia generativa Socrate
 						non sit pater, sed ipse Socrate ut dicit, in divinis tamen potentia generativa patris
@@ -845,15 +836,15 @@
 						rationem, quia ratio presupponit relationes divinas in aliquo fundari realiter, quod
 						tamen est falsum proprie loquendo.</p>
 
-					<p>Contra quartam conclusionem et propositiones correlarias potest argui, quia aliquid
+					<p xml:id="atv-l1d19et20q2-d1e4097">Contra quartam conclusionem et propositiones correlarias potest argui, quia aliquid
 						potest una persona quod non potest alia, sed, quia istud dubium tactum est in proponendo
 						questionem, pertranseo.</p>
 				</div>
-				<div>
+				<div xml:id="atv-l1d19et20q2-Dd1e4101">
 
-					<head>Responsio ad argumenta principalia</head>
+					<head xml:id="atv-l1d19et20q2-Hd1e4103">Responsio ad argumenta principalia</head>
 
-					<p>Ad primum dico quod Patrem posse aliquid quod non potest Filius intelligitur
+					<p xml:id="atv-l1d19et20q2-d1e4106">Ad primum dico quod Patrem posse aliquid quod non potest Filius intelligitur
 						dupliciter. Uno modo, quia Pater habet potentiam ad aliquid faciendum quam non habet
 						Filius, sicut homo habet potentiam ad intelligendum quam non habet leo. Alio modo, quia,
 						licet eandem potentiam numero habent Pater et Filius, in Patre tamen est alicui
