@@ -1,709 +1,703 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title>Liber I, Distinctio 11 et 12, Quaestio 1</title>
-				<author>Alphonsus Toletanus Vargas</author>
-				<editor>Luciana Cioca</editor>
-				<respStmt>
-					<name>Jeffrey C. Witt</name>
-					<resp>TEI Encoder</resp>
-				</respStmt>
-			</titleStmt>
-			<editionStmt>
-				<edition n="0.0.0-dev">
-					<date when="2016-09-02">September 02, 2016</date>
-				</edition>
-			</editionStmt>
-			<publicationStmt>
-				<authority>THESIS project</authority>
-				<availability status="free">
-					<p>Public Domain</p>
-				</availability>
-			</publicationStmt>
-			<sourceDesc>
-				<listWit>
-					<witness xml:id="P" n="Paris1490">Paris1490</witness>
-				</listWit>
-			</sourceDesc>
-		</fileDesc>
-		<encodingDesc>
-			<variantEncoding method="parallel-segmentation" location="internal"/>
-			<schemaRef n="lbp-critical-1.0.0"
-				target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/1.0/critical.rng"> </schemaRef>
-			<editorialDecl>
-				<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-					guidelines for a critical edition</p>
-			</editorialDecl>
-		</encodingDesc>
-		<revisionDesc status="draft">
-			<listChange>
-				<change when="2016-09-02" who="#JW" status="draft" n="0.0.0">
-					<p>Created file for the first time.</p>
-				</change>
-			</listChange>
-		</revisionDesc>
-	</teiHeader>
-	<text xml:lang="la">
-		<front>
-			<div xml:id="includeList">
-				<xi:include
-					href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
-					xpointer="worksCited"/>
-				<xi:include
-					href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
-					xpointer="prosopography"/>
-			</div>
-			<div xml:id="starts-on">
-				<pb ed="#P" n=""/>
-				<cb ed="#P" n=""/>
-			</div>
-		</front>
-		<body>
-			<div xml:id="atv-l1d11et12q1">
-				<head>Liber I, Distinctio 11 et 12, Quaestio 1</head>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber I, Distinctio 11 et 12, Quaestio 1</title>
+        <author>Alphonsus Toletanus Vargas</author>
+        <editor>Luciana Cioca</editor>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2016-09-02">September 02, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>THESIS project</authority>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="Paris1490">Paris1490</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <variantEncoding method="parallel-segmentation" location="internal"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/critical.rng"> </schemaRef>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2016-09-02" who="#JW" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+      
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#P" n=""/>
+        <cb ed="#P" n=""/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="atv-l1d11et12q1">
+        <head xml:id="atv-l1d11et12q1-Hd1e3505">Liber I, Distinctio 11 et 12, Quaestio 1</head>
 
-				<p><quote><supplied>N</supplied>>unc dicendum Spiritum Sanctum esse a Patre et
-						Filio.</quote>
-					<name>Magister</name> in hac 11 distinctione ostendit, contra Grecos, Spiritum Sanctum a
-					Patre et Filio procedere. Et in 12 inquirit an prius vel magis procedat a Patre quam a
-					Filio, quod non est possibile si Pa-[100va]-ter et Filius sint ipsius unum principium et
-					non plura.</p>
-				<p>Idcirco iuxta materiam istarum duarum distinctionum quero: utrum Spiritus Sanctus
-					procedat a Patre et Filio tanquam ab uno libero principio.</p>
-				<div type="rationes-principales">
-					<head>Rationes principales</head>
-					<p>Et videtur primo quod non, quia Spiritus Sanctus non producitur libere, ergo non
-						procedit a Patre et Filio tanquam ab uno libero principio. Consequentia patet.
-						Antecedens probatur, quia quicquid libere producitur, contingenter producitur; sed
-						Spiritus Sanctus non producitur contingenter, quia tunc esset contingens; ergo etc.</p>
-					<p>Contra: principium productivum Spiritus Sancti in Patre et in Filio est voluntas;
-						igitur procedit ab eis tanquam ab uno libero principio. Antecedens supponitur.
-						Consequentia probatur, quia voluntas est potentia libera et una tantum in utroque.</p>
-					<p>In ista questione primo ponam distinctiones, secundo conclusiones, tertio movebo dubia,
-						quarto respondeo.</p>
-				</div>
-				<div type="articulus">
-					<head>Primus articulus</head>
-					<p><supplied>Q</supplied>uantum ad primum articulum, distinguo primo de principio quo et
-						quod, et intelligo questionem de principio quod et non quo. Secundo distinguo de
-						principio libero, dupliciter enim principium potest dici liberum: uno modo distinguendo
-						liberum contra necessarium simpliciter et universaliter dictum, et sic omne principium
-						liberum isto modo est liberum libertate contradictionis et contingentiae. Sic Deus
-						dicitur principium liberum respectu creaturarum. Alio modo distinguendo liberum
-							<supplied>contra</supplied> naturale praecise. Primo liberum modo non accipitur in
-						proposito, quia certum est quod Pater et Filius necessario producunt Spiritum Sanctum,
-						non contingenter, aliter sibi non repugnaret posse non esse, quod est impossibile, cum
-						sit summum necesse esse. Sed secundo, quia, ut communiter ponitur a doctoribus, Filius
-						producitur naturaliter, non libere.</p>
-				</div>
-				<div type="articulus">
-					<head>Secundus articulus</head>
-					<p><supplied>Q</supplied>uantum ad secundum articulum, quia in questione supponitur
-						Spiritum Sanctum procedere a Patre et Filio, ut de supposito pariter et quesito aliquid
-						videatur, pono quattuor conclusiones.</p>
-					<div>
-						<head><supplied>Conclusio prima</supplied></head>
-						<p>Prima est quod Spiritus Sanctus non procedit a solo Patre, sed a Patre simul et
-							Filio. Ista conclusio catholicis non est dubia, cum sit per Ecclesiam determinata, ut
-							patet Extra, <title>De summa trinitate et fide catholica</title>. Diversi tamen
-							diversimode nituntur eam glosare et probare. </p>
-						<div>
-							<head><name>Sanctus Thomas</name>, prima parte, questione 36, articulo 2</head>
-							<p>Unde quidam probant eam primo sic: si Spiritus Sanctus non procederet a Filio, non
-								posset ab eo personaliter distingui. Consequens est falsum, igitur et antecedens.
-								Consequentia probatur, quia non est possibile quod secundum aliquod absolutum
-								persone divine distinguuntur ab invicem, igitur solis relationibus distinguuntur.
-								Relationes autem non possunt personas distinguere nisi secundum quod sunt oppositae.
-								Hoc patet, quia Pater habet duas relationes quarum una refertur ad Filium et
-									<supplied>ad</supplied> alia ad Spiritum Sanctum, et tamen, quia non sunt
-								opposite, non constituunt duas personas, sed unam. Igitur, si Filius et Spiritus
-								Sanctus non haberent relationes oppositas, non essent due persone, sed una tantum.
-								Sed, si Spiritus Sanctus non procederet a Filio, vel econverso, non haberet
-								relationes oppositas, quia non possunt esse in divinis alie relationes opposite nisi
-								originis. Igitur, si Filius non procederet a Spiritu Sancto, quod nullus diceret,
-								vel Spiritus Sanctus non procederet a Filio, quod nos confitemur, non possent ab
-								invicem personaliter distingui.</p>
-							<p>Praeterea, Filius procedit per modum intellectus ut Verbum, et Spiritus Sanctus per
-								modum voluntatis ut amor; sed amor procedit a verbo, non enim aliquid amamus nisi
-								quod conceptione mentis apprehendimus; ergo Spiritus Sanctus procedit a Filio.</p>
-							<p>Praeterea, nusquam invenimus quod ab uno procedant plura absque ordine, nisi in
-								illis que solum materialiter differunt, sicut unus faber producit multos cultellos
-								materialiter nullum ordinem habentes ad invicem; sed in rebus in quibus non est sola
-								materialis distinctio, semper invenitur in multitudine productorum aliquis ordo; si
-								igitur ab una persona Patris procedunt due persone, scilicet Filius et Spiritus
-								Sanctus, oportet esse aliquem ordinem earum ad invicem. Sed nullus alius ordo potest
-								assignari nisi ordo nature quo est unus ab alio, igitur vel Spiritus Sanctus est a
-								Filio, vel econverso. Secundum impo-[100vb]-ssibile est, igitur primum est
-								necessarium.</p>
-						</div>
-						<div>
-							<head>Contra <name>Sanctum Thomam</name></head>
-							<p>Sed quamvis conclusio sit catholica et sine hesitatione aliqua tenenda, rationes
-								tamen non videntur concludere. Non prima, quia, si Spiritus Sanctus non procederet a
-								Filio, adhuc distingueretur personaliter ab eo. Quod probo tripliciter. </p>
-							<p>Primo sic: si Spiritus Sanctus non procederet a Filio, sed ambo procederent a solo
-								Patre, adhuc Filius sic esset genitus quod non spiratus, et Spiritus Sanctus
-								spiratus sic quod non genitus. Igitur casu posito, nec Filius esset Spiritus
-								Sanctus, nec econverso. Consequentia est nota, quia Spiritus Sanctus ideo non est
-								Filius quia non est genitus, ut patet per <name>beatum Augustinum</name>, IX
-									<title>De Trinitate</title>, capitulo 2. Etiam pari ratione Filius non est
-								Spiritus Sanctus quia non est spiratus.</p>
-							<p>Et confirmatur, quia, licet Spiritus Sanctus de facto procedat a Patre et Filio,
-								tamen non est amborum Filius, quia non ab utroque est genitus, ut patet per
-									<name>beatum Augustinum</name> XV <title>De Trinitate</title>, capitulo 78. Igitur
-								posito quod procederet a solo Patre, adhuc non esset Filius si non esset ab ipso
-								genitus, sed solum spiratus. Et eadem ratione Filius non esset Spiritus Sanctus si
-								non esset a Patre spiratus, sed tantum genitus. Antecedens probatur, quia casu
-								posito adhuc Pater agnoscendo se produceret Verbum, et amando se produceret Spiritum
-								Sanctum; sed cognoscendo se sic generat notitiam suam, que est Filius, quod ipsum
-								non spirat, et amando se sic spirat amorem suum, qui est Spiritus Sanctus quod ipsum
-								non generat, ut patet per <name>beatum Augustinum</name>, IX <title>De
-									Trinitate</title>, capitulis 30 et 31; ideo casu illo posito, adhuc Verbum sive
-								Filius sic esset generatus quod non esset spiratus, et Spiritus Sanctus sic esset
-								spiratus quod non esset genitus.</p>
-							<p>Et confirmatur, quia posito quod Spiritus Sanctus procedat a solo Patre, adhuc
-								Pater generaret Filium et spiraret Spiritum Sanctum, igitur adhuc Filius esset
-								genitus et Spiritus Sanctus spiratus. Vel igitur casu posito Filius sic esset
-								genitus quod non esset spiratus, vel simul erit genitus et spiratus. Secundum dari
-								non potest, quia sic Filius esset productus duabus productionibus totalibus, quarum
-								altera non posita, adhuc esset sufficienter productus, quod est impossibile. Ista
-								consequentia patet, quia remota spiratione, adhuc erit sufficienter productus per
-								generationem. Relinquitur ergo primum, quod est propositum. Et similiter potest
-								argui de Spiritu Sancto; igitur etc.</p>
-							<p>Secundo ad principale sic: si Spiritus Sanctus non procederet a Filio, sed a solo
-								Patre, adhuc non procederet quomodo natus, sed quomodo datus; igitur adhuc non esset
-								Filius. Consequentia patet, quia hec est ratio quare de facto nunc non est Filius,
-								ut patet per <name>beatum Augustinum</name>, V <title>De Trinitate</title>, capitulo
-								32. Et antecedens videtur clarum, quia adhuc non erit genitus, sed spiratus, per
-								rationem precedentem; igitur adhuc non procederet quomodo natus, sed quomodo
-								datus.</p>
-							<p>Et confirmatur, quia ille qui procedit a Patre quomodo datus non est Filius. Hoc
-								patet, quia Filio repugnat sic procedere a Patre sicut sibi repugnat spirari; sed
-								ponendo quod Spiritus Sanctus esset a solo Patre, adhuc procederet ab eo quomodo
-								datus, quia adhuc erit ab eo spiratus; igitur adhuc nec esset Filius.</p>
-							<p>Tertio sic: eodem modo quelibet persona constituitur in esse personali formaliter
-								et distinguitur ab omni alia persona. Patet ex terminis; sed Filius constituitur
-								formaliter in esse personali filiatione et non activa spiratione, quia tunc Pater et
-								Filius haberent unam personalitatem; igitur posita filiatione et circumscripta per
-								impossibile activa spiratione, adhuc Filius distingueretur per filiationem a Spiritu
-								Sancto, sicut ab omni alia persona personaliter.</p>
-							<p>Et confirmatur: vel filiatio nunc de facto distinguitur realiter a spiratione
-								passiva, vel non. Si non, igitur et Filius et Spiritus Sanctus, quantum ad eorum
-								propria, non sunt due res, quod non esset catholice dictum, ut patet per
-									<name>Anselmum</name>, <title>De incarnatione Verbi</title>, capitulo 2. Et, si
-								sic, igitur Filius nunc de facto per filiationem realiter distinguitur a Spiritu
-								Sancto, et per consequens, ipsa sola manente in Filio, adhuc differt realiter ab
-								eo.</p>
-							<p>Et ad probationem istius doctoris, concedo quod persone divine solis relationibus
-								distinguuntur, sed non solis relationibus oppositis, sicut iste doctor imaginatur,
-								ut patet ex dictis, aliter Pater et Filius et Spiritus Sanctus, quantum ad eorum
-								propria, non erunt tres res, quod non esset catholice dictum, ut patet per
-									<name>Anselmum</name> ubi supra.</p>
-							<p>Et quando dicitur quod, licet Pater habeat duas relationes, tamen quia non sunt
-								opposite, non constituunt duas personas, sed unam, dico quod accipit non causam pro
-								causa, quia causa quare paternitas et spiratio activa non constituit du-[101ra]-as
-								personas non est quia non sunt due relationes opposite, sed quia spiratio activa,
-								cum sit communicabilis Filio, non est constitutiva suppositi, immo si ista esset
-								causa, Filius et Spiritus Sanctus nunc de facto non essent due persone, sed una
-								tantum, quod est hereticum. Consequentia probatur, quia Filius et Spiritus Sanctus
-								nunc de facto non constituuntur relationibus oppositis, quia Filius non constituitur
-								in esse personali per spirationem activam, sed per filiationem, etiam per eum. Et
-								tamen filiatio et spiratio passiva non opponuntur etiam secundum eum, et similiter
-								potest argui de Patre et Spiritu Sancto. Patet igitur quod ratio prima non
-								concludit. Nec secunda, quia non est universaliter verum quod amor procedat a verbo
-								tanquam <supplied>a</supplied> productivo principio, quod patet multipliciter. </p>
-							<p>Primo, quia fruitio beatifica est formaliter amor, et tamen non sic procedit a
-								verbo aliquo mentis nostre, cum sit a solo Deo effective, ut patet ex prima
-								distinctione.</p>
-							<p>Secundo, quia voluntas agens in natura rationali creata est totalis causa effectiva
-								sive productiva omnis actus volendi et nolendi ad quos possibilis est in potentia
-								naturali, ut patet ex tertia distinctione; igitur et amoris, et per consequens amor
-								a verbo in natura rationali non causatur tanquam a principio productivo.</p>
-							<p>Tertio, quia vel iste doctor per 'verbum' intelligit actum intelligendi precise,
-								vel aliquid aliud. Si datur primum, cum actus intelligendi non sit totalis causa
-								effectiva, nec partialis actus volendi, ut ibidem fuit declaratum, sequitur quod
-								amor in nobis non sic procedit a verbo. Si detur secundum, idem sequitur, quod
-								posita potentia volitiva sufficienter disposita non impedita et actu intelligendi
-								quo videtur aliquid esse diligendum, omni alio circumscripto, potest sequi amor;
-								igitur, si verbum non sit actus intelligendi, sed aliquid aliud, circumscripto verbo
-								poterit poni amor; non ergo procedit a verbo.</p>
-							<p>Quarto, quia secundum <name>beatum Augustinum</name>, VIII <title>De
-									Trinitate</title>, capitulo 4, de magnis, amari potest quod ignoratur, si tamen
-								credatur, posito ergo solo actu credendi, potest poni amor; sed constat quod potest
-								esse actus credendi sine omni verbo precedente; igitur non necessario amor procedit
-								a verbo.</p>
-							<p>Ex istis patet quod probatio non est sufficiens, quia non sequitur nihil amamus
-								nisi quod conceptione mentis apprehendimus; igitur amor procedit a verbo tanquam a
-								principio productivo, quod ex dictis patet dupliciter. </p>
-							<p>Primo, quia posito quod nihil posset conceptione mentis apprehendi, nec per
-								consequens diligi sine verbo, adhuc tamen sequitur quod amor procedat a verbo
-								tanquam a principio productivo, quia poterit sic procedere a solo Deo, sicut patet
-								de fruitione beatifica vel a voluntate agente, ut dictum est supra, sicut non
-								sequitur nihil intelligimus nisi quod sensatione alicuius sensus apprehendimus;
-								igitur intelligere procedit a sensatione tanquam a principio productivo.</p>
-							<p>Secundo, quia aliquid potest apprehendi conceptione mentis et diligi sine omni
-								verbo si verbum non sit ipse actus intelligendi et credendi, ut patet ex dictis. </p>
-							<p>Tertia ratio etiam non videtur concludere, quia quicquid sit de facto, de possibili
-								tamen Deus potest immediate producere plures angelos eiusdem speciei, quia, si
-								ponatur in esse, nulla sequitur contradictio. Tales autem angeli non essent
-								materialiter distincti; ergo non est simpliciter verum quod plura non possent
-								procedere ab uno absque ordine nisi in illis que solum differunt materialiter.</p>
-							<p>Preterea, Deus potuit omnes creaturas immediate per se producere, et tamen in
-								omnibus creaturis non est sola materialis distinctio.</p>
-							<p>Preterea, ipsemet solvit rationem suam, quia subdit immediate: unde ipsi Greci
-								processionem Spiritus Sancti aliquem ordinem habere ad Filium intelligunt. Concedunt
-								enim Spiritum Sanctum esse Spiritum Filii, et esse a Patre per Filium. Hec ipse. </p>
-							<p>Ex quibus dictis apparet quod Greci assignant in divinis ordinem alium ab ordine
-								originis quo una persona procedit ab alia, et per consequens, secundum Grecos, non
-								est vera illa propositio, que tamen assumitur sine probatione, scilicet quod nullus
-								alius ordo potest assignari nisi ordo nature quo alius est ab alio, quia assignatur
-								ordo quo aliud est per alium. [101rb] </p>
-						</div>
-						<div>
-							<head><name>Scotus</name> in primo, distinctione 11, questione 1 </head>
-							<p>Et ideo quidam alii probant aliter conclusionem. </p>
-							<p>Primo sic: habens principium productivum perfectum prius quam intelligatur habere
-								productum, potest illo principio producere, quando scilicet principium est ita
-								perfectum quod non dependet a passo, nec potest impediri per aliquid. Filius habet
-								voluntatem que est principium amoris adequati et habet eam ut preintelligitur
-								productioni per actum voluntatis; igitur potest ea producere; igitur ea
-								producitur.</p>
-							<p>Probatur minor, quia generatum et spiratum habent aliquem ordinem, ita quod
-								generatio est aliquo modo prior spiratione. In illo autem priori communicatur genito
-								omnis perfectio divina et ita voluntas, igitur habet tunc voluntatem ut priorem
-								producto per actum voluntatis. Assumptum autem de isto ordine productionum videatur
-								manifestum ex ordine predicatorum. Probatur tamen ex hoc quod quando actus primi
-								habent ordinem in aliquo, si uterque sit activus perfecte, habent etiam similem
-								ordinem in eliciendo actus suos. Additur autem ‘perfecte activus’ ad excludendum
-								formam substantialem et qualitatem, in incorruptibilibus, ubi, licet forma
-								substantialis sit activa et qualitas similiter, et forma substantialis sit prior
-								qualitate, tamen qualitas habet actum suum prius. Sed hoc est ex imperfectione
-								accidentis forme substantialis. In Patre autem intellectus et voluntas sunt perfecte
-								activa et habent quemdam ordinem, quia fecunditas intellectus constituit Patrem, non
-								autem fecunditas voluntatis, igitur ista fecunditas intellectus aliquo modo prius
-								habebit actum suum quam fecunditas voluntatis suum.</p>
-							<p>Et confirmatur, quia inter operationes intellectus et voluntatis est aliquis ordo
-								in quantum sunt potentes productive, igitur inter productiones earum est aliquis
-								ordo in quantum sunt potentie productive. </p>
-						</div>
-						<div>
-							<head>Contra <name>Scotum</name></head>
-							<p>Sed nec ista ratio videtur concludere, quia supponit multa falsa. </p>
-							<p>Primo, quod generatio sit realiter prior spiratione, cuius oppositum patet ex
-								precedenti questione.</p>
-							<p>Secundo, quod prius communicatur Filio fecunditas voluntatis et omnis perfectio
-								divina quam producatur Spiritus Sanctus, ad quod sequitur quod inter personas sit
-								prioritas in quo, non solum a quo, cuius oppositum patet ibidem. </p>
-							<p>Tertio, quod spirare sit actus elicitus, quod non est verum, quia generare non est
-								actus elicitus, ut patet ex quarta distinctione, quia est in Patre in quo nihil est
-								elicitum, nec productum, igitur nec spirare, cum non minus sit in Patre quam
-								generare.</p>
-							<p>Quarto, quod intellectus et voluntas in Deo habent ordinem prioritatis, quod est
-								falsum. Primo, quia intellectus et voluntas in Deo nullo modo distinguuntur ex parte
-								rei, ut patet ex 8 distinctione, et nihil est realiter prius a seipso. Secundo, quod
-								est prius alio vel est prius duratione, vel natura, vel causalitate, vel ordine, vel
-								communitate, vel perfectione, vel secundum locum, vel secundum ordinem prioritatis
-								et posterioritatis aliquorum inter se. Hoc patet ex questione precedenti. Sed
-								intellectus in Deo nullo istorum modorum est prior voluntate. Non quidem duratione,
-								ut patet. Nec natura, cum non possit esse sine voluntate. Nec causalitate, nec
-								origine, quia voluntas non causatur, nec originatur ab intellectu. Nec communitate,
-								nec perfectione, nec secundum locum, patet de se. Nec secundum originem aliquorum
-								inter se, cum insint omnibus divinis personis, igitur nullo modo.</p>
-							<p>Potest etiam multipliciter responderi ad istam rationem. </p>
-							<p>Primo, negando maiorem, quia ubi principium productivum sic est productivum termini
-								quod non est elicitivum actus, non sequitur quod habens principium productivum
-								perfectum, etc., possit illo principio producere nisi cum hoc habeat actum
-								producendi. Unde, si calor non esset principium elicitivum calefactionis, non
-								sequitur quod habens calorem possit illo calore calefacere [101va] nisi cum hoc
-								haberet actum califactionis, quia sine calefactione nihil potest calefacere, et illo
-								calore non posset actum calefactionis elicere ex hypostasi. Et hec est ratio quare
-								Filius non potest generare, licet habeat principium sive potentiam generandi
-								perfectam, ut patet ex 6 distinctione.</p>
-							<p>Secundo potest responderi negando minorem, quia Filius non habet potestatem prius
-								quam Spiritus Sanctus producatur, ut patet ex dictis.</p>
-							<p>Et ad probationem dicendum quod in Deo non est talis potentia, ut patet. Nec actus
-								primi habent originem prioritatis. Nec etiam iste potentie in Deo sunt principia
-								elicitiva actuum, prout iste doctor imaginatur, licet in bono sensu possint dici
-								principia productiva suppositi.</p>
-							<p>Ad confirmationem, si intelligat quod inter operationem intellectus et voluntatis
-								in creaturis sit aliquis ordo prioritatis, potest concedi, sed ex hoc non sequitur
-								‘ergo in divinis’. Si vero intelligatur quod inter operationes istarum potentiarum,
-								que sunt intelligere et velle, sit talis ordo ubique, immo non est verum, quia est
-								petitio principii, et hoc negetur in divinis.</p>
-						</div>
-						<div>
-							<head><name>Franciscus de Maronis</name> in primo, distinctione 12, questione 3,
-								articulo 1</head>
-							<p>Et ideo quidam alii hanc conclusionem probant aliter. </p>
-							<p>Primo, quia eandem vim producendi naturaliter Spiritum Sanctum quam habet Pater,
-								communicat Filio cum sua essentia sive termino adequato, et ideo eadem virtute
-								spirat Spiritum Sanctum et eadem virtute creat sibi essentia communicata ab
-								utroque.</p>
-							<p>Secundo, quia Pater genuit Filium sibi equalem, ut probat <name>Hilarius</name>,
-									<title>De Trinitate</title>, multipliciter ex identitate nature. Et ideo tantam
-								potestatem habet ad spirandum infinitam personam sicut Pater.</p>
-							<p>Tertio, quia inter duas personas est germanitas et summa connexio fundata super
-								unitatem nature. Si autem Spiritus Sanctus non procederet nisi a Patre, tunc maior
-								germanitas esset Patris ad Filium et Spiritum Sanctum quam eorum ad invicem, sicut
-								patris ad filios quam filiorum ad invicem, qui non nisi per Patrem habent
-								germanitatem.</p>
-							<p>Quarto, quia naturalis inclinatio est producentis ad productum et econverso. Et
-								ideo naturalior esset inclinatio et amicitia inter Patrem et duas personas et
-								econverso quam earum ad invicem, que nullam haberent communicationem.</p>
-						</div>
-						<div>
-							<head>Contra <name>Franciscum</name></head>
-							<p>Sed nec iste rationes concludunt. Non quidem prima, ut patet ex solutione
-								precedentis rationis, quia ista ratio non est nisi quedam abbreviatio illius.</p>
-							<p>Nec secunda, quia, si ex hoc quod Filius est equalis sequitur quod spiret Spiritum
-								Sanctum sicut Pater, pari ratione sequitur quod generet Filium sicut Pater. Et, cum
-								non possit generare se ipsum, generabit alium. Sic erit quaternitas in divinis, immo
-								etiam infinitas, quia etiam ille poterit alium generare, et sic in infinitum. Pari
-								ratione etiam sequitur quod Spiritus Sanctus, cum non minus sit equalis Patri quam
-								Filius, possit generare Filium et spirare Spiritum Sanctum sicut Pater, que omnia
-								sunt absurda.</p>
-							<p>Tertia ratio etiam nihil concludit, immo solvit se ipsam, quia germanitas et
-								connexio que est inter personas divinas, ut dicit, fundatur super unitatem nature
-								cum Filio; sed posito quod Spiritus Sanctus procederet a solo Patre, adhuc esset
-								eiusdem nature cum Filio; igitur adhuc maneret germanitas et summa connexio fundata
-								super unitate nature.</p>
-							<p>Et ulterius dicerent Greci quod ad salvandum huiusmodi germanitatem sive
-								connexionem sufficit quod Spiritus Sanctus procedat a Patre per Filium, etiam si non
-								procedat a Filio.</p>
-							<p>Quarta ratio etiam non concludit, quia videtur ex falsa imaginatione procedere.
-								Imaginatur enim quod Filius et Spiritus Sanctus nullam haberent ad invicem
-								communicationem si Spiritus Sanctus non procederet a Filio. Hoc autem est falsum,
-								quia adhuc esset una essentia utriusque, una bonitas, et una voluntas, et sic de
-								singulis perfectionibus divinis. Et hec unitas eorum ad invicem sufficeret ut inter
-								eos summa inclinatio et infinita eorum amicitia esset.</p>
-						</div>
-						<div>
-							<head><name>Ockham</name> in primo, distinctione 11, questione 1, articulo 2</head>
-							<p>Et ideo quidam noviores probant eandem conclusionem per unam rationem quam dicunt
-								non procedere ex falsis sic: quicquid competit Patri est cuilibet alteri persone
-								attri-[101vb]-buendum nisi sit contrarium expressum in Scriptura, vel evidenter
-								sequatur ex contentis in Scriptura Sacra, vel per se, vel mediantibus
-								propositionibus per se notis, vel ab Ecclesia determinatis; sed Greci sicut omnes
-								concedunt quod Spiritus Sanctus procedat a Patre, nec aliquo predictorum modorum
-								invenitur quod Spiritus Sanctus non procedat a Filio; igitur Greci, propter quos
-								ista questio pertractatur, habent concedere quod Spiritus Sanctus procedat a
-									<supplied>Fi</supplied>lio. Maior videtur manifesta, quia quandocumque aliqua duo
-								vere sunt una res simplex et indivisibilis, quicquid dicitur de uno, dicitur de
-								alio, nisi contrarium aliquo predictorum modorum habeatur. Minor etiam est
-								manifesta, quia magis videtur quod Scriptura Sacra innuat hoc. Hec est ratio
-									<name>Anselmi</name>, ut dicit, <title>De processione Spiritus Sancti</title>.
-							</p>
-						</div>
-						<div>
-							<head>Contra <name>Ockham</name></head>
-							<p>Sed ista ratio contra Grecos, contra quos adducitur, nihil concludit. </p>
-							<p>Primo, quia Greci negarent maiorem. Ratio huius est, quia motivum eorum ad
-								probandum Spiritum Sanctum non procedere a Filio est quod nihil est attribuendum
-								personis divinis nisi quod continetur in Evangelio vel saltem in Scriptura Novi
-								Testamenti, quia, secundum <name>Dionysium</name>, non est aliquid audendum dicere
-								de substantiali divinitate preter ea que divinitus nobis ex sacris eloquiis sunt
-								expressa; sed non videtur expresse in Novo Testamento quod Spiritus Sanctus procedat
-								a Filio, ut dicunt; ergo ex ratione patet quod Greci non concederent quod quicquid
-								competit Patri est cuilibet alteri persone attribuendum etc., immo dicerent, et de
-								facto dicunt, quod illud quod competit Patri non est attribuendum aliis personis
-								nisi hoc sit expressum in Novo Testamento. Et ideo, licet non sit expressum in
-								Scriptura quod Spiritus Sanctus non procedat a Filio, nec sequatur etiam, si tamen
-								non sit expressum quod procedat ab eo, Greci non concederent, immo negarent hoc esse
-								attribuendum Filio.</p>
-							<p>Secundo, quia Greci etiam negarent minorem. Different enim et dicunt hoc esse
-								determinatum in pluribus conciliis que apud eos celebrata sunt, ubi Symbola eorum
-								subiunctis anathematibus sanxita sunt, ut nulli de trinitatis fide aliquid docere
-								vel aliquid probare aliter quam ibi contineatur liceat, in quibus quidem Symbolis,
-								cum Spiritus Sanctus commemoretur procedere a Patre et non a Filio, quicumque,
-								inquiunt, “a Filio” cum “procedere” addunt, anathema incurrunt. Unde et nos arguunt
-								anathematis reos.</p>
-							<p>Tertio deficit ista ratio, quia probatio maioris magis videtur ad oppositum quam ad
-								propositum, quia, licet persone divine sint omnes una res que est essentia divina,
-								inter se, tamen sunt vere tres res numero, etc., realiter distincte. Et ideo non
-								sequitur quod quando aliqua sunt una res numero etc., quicquid dicitur de una,
-								dicatur de altera, <supplied>nisi</supplied> ut sunt una res, quia quando sunt
-								aliqua distincte res, quicquid dicitur de una, et de altera, immo videtur magis
-								sequi oppositum. Et ulterius ista ratio non est <name>Anselmi</name>, ut patet
-								videnti <name>Anselmum</name>, licet aliqua verba accipiat ab eo. </p>
-							<p>Dimissis igitur istis rationibus, videtur ista conclusio aliter posse probari. </p>
-							<p>Primo sic: omnis conclusio ex contentis in sacra scriptura per se deducta est
-								simpliciter vera et, ut articulus fidei tenenda, haec est huiusmodi; igitur. Maior
-								est manifesta, et minor est <name>beati Augustini</name>, XV <title>De
-									Trinitate</title>, capitulo 17, ubi dicit expresse quod de Filio Spiritus Sanctus
-								procedere reperitur. Et capitulo 27 dicit: "Difficillimum est generationem a
-								processione distinguere. Sufficiat inter tres eis qui extendi non amplius valent id
-								quod de hac re in sermone quodam proferendo ad aures populi Christiani diximus
-								dictumque conscripsimus.” Et subdit ad propositum immediate: “Inter cetera enim per
-								sanctarum scripturarum testimonia docui de utroque procedere Spiritum Sanctum.” Et
-								libro quarto, 53, et hoc deducit per auctoritatem Sacre Scripture, dicens: "Nec
-								possumus dicere quod Spiritus Sanctus a Filio non procedat. Non enim frustra et
-								Patris et Filii Spiritus dicitur, nec video quod aliud voluit significare Filius cum
-								sufflans ait: ‘Accipite Spiritum Sanctum meum’. Neque enim flatus ille corporeus cum
-								sensu corporaliter tangendi procedens ex corpore substan-[102ra]-tia Spiritus Sancti
-								fuit, licet demonstratio per congruam significationem, non tantum a Patre, sed etiam
-								a Filio, procedere Spiritum Sanctum.” Et subdit quod “ergo ait Dominus: ‘Quem ego
-								mittam vobis a Patre’, ostendit Spiritum Sanctum et Patris et Filii, quia etiam cum
-								dixisset ‘quem mittet Pater’, addit ‘in nomine meo’. Et quia forte diceret aliquis:
-								si Filius dixisset ‘quem mittet Pater a me’, sicut dixit ‘quem ego mittam vobis a
-								Patre’, ostendisset Spiritum Sanctum procedere ab eo, sed non ita dixit.” Subdit
-									<name>Augustinus</name>: “Non tamen dixit ‘quem mittet Pater a me’, quemadmodum
-								dixit ‘quem ego mittam vobis a Patre’, videlicet ostendens quod totius divinitatis
-								vel, si melius dicitur, deitatis, principium Pater est.” Istas etiam rationes facit
-								ibidem <name>Augustinus</name>, libro XV, capitulo 26. Patet igitur ex intentione
-									<name>Augustini</name> quod Spiritum Sanctum procedere a Filio potest ex contentis
-								in sacra scriptura per se deduci; ergo etc.</p>
-							<p>Et ex his patet quid dicendum ad rationem Grecorum, quia, licet non sit expressum
-								in Novo Testamento quod Spiritus Sanctus procedat a Filio, deducitur tamen ex
-								contentis in eo. Et posito quod ego nescirem deducere, adhuc <name>beatus
-									Augustinus</name> dicit posse deduci, et de facto deducit in locis
-								preallegatis.</p>
-							<p>Secundo sic: quicquid non repugnat Filio Pater communicat ei; sed spirare Spiritum
-								Sanctum non repugnat Filio; igitur. Maior patet, quia quicquid potest communicari
-								Filio Pater communicat Filio; sed quicquid non repugnat potest communicari Filio;
-								ergo. Minor autem videtur clara, quia nec per auctoritatem nec per rationem potest
-								convinci quod sibi repugnet; igitur etc.</p>
-						</div>
-					</div>
-					<div>
-						<head><supplied>Conclusio secunda</supplied></head>
-						<p>Secunda conclusio est quod Pater et Filius sunt principium unum Spiritus Sancti et
-							non plura. Ista conclusio est determinata per Ecclesiam extra <title>De summa
-								trinitate et fides catholica</title>, libro VI, ubi dicitur quod Spiritus Sanctus
-							eternaliter ex Patre et Filio non tanquam ex duobus principiis, sed tanquam ex uno
-							principio, non duabus spirationibus, sed una spiratione procedit. Et potest formari
-							una ratio sic: Spiritus Sanctus non procedit a Patre et Filio tanquam ex duobus
-							principiis, sed tanquam ex uno, igitur Pater et Filius non sunt duo principia Spiritus
-							Sancti, sed unum. Antecedens est decretalis et consequentia patet, quia, si sunt duo
-							et non unum, falsum est quod non procedat tanquam ex duobus, sed tanquam ex uno, quod
-							est oppositum antecedentis. Patet etiam ista conclusio per <name>beatum
-								Augustinum</name> V <title>De Trinitate</title>, capitulo 14, de magnis, dicens:
-							“dicendum est Patrem et Filium unum principium esse Spiritus Sancti non duo principia,
-							sed, sicut Pater et Filius unus Deus et ad creaturam relative unus creator et unus
-							Deus, sic relative ad Spiritum Sanctum unum principium. Ad creaturam vero Pater et
-							Filius et Spiritus Sanctus unum principium sicut unus creator et unus Deus.” Hec
-								<name>Augustinus</name>.</p>
-					</div>
-					<div>
-						<head><supplied>Conclusio tertia</supplied></head>
-						<p>Tertia conclusio est quod Spiritus Sanctus procedit a Patre et Filio libere, non
-							naturaliter. </p>
-						<p>Probatur primo sic: principium productivum Spiritus Sancti in Patre et Filio est
-							voluntas vel natura divina quia est voluntas, igitur libere et non naturaliter
-							producitur ab utroque. Consequentia patet, quia, sicut intellectus non habet modum
-							producendi libere, sed naturaliter, ita voluntas non habet modum producendi
-							naturaliter, sed libere, et ideo, sicut in divinis illud producitur naturaliter et non
-							libere cuius principium productivum est intellectus vel natura divina quia est
-							intellectus, ita illud producitur libere et non naturaliter cuius principium
-							productivum est voluntas vel natura divina quia est voluntas. Antecedens probatur sic:
-							quia Spiritus Sanctus est amor productus a Patre et Filio, igitur eius principium
-							productivum in utroque est voluntas vel natura divina, quia est voluntas. Antecedens
-							est <name>beati Augustini</name> XV <title>De Trinitate</title>, capitulis 46, 42, 47,
-							56 et 61, in quibus ostendit quod sicut Filius proprie dicitur sapientia genita, ita
-							Spiritus Sanctus proprie dicitur caritas et amor productus. Et specialiter probat hoc
-							capitulo 47 auctoritate <name>Iohanni</name> in <title>Canonica</title> sua dicens
-							quod “Deus ex Deo est dilectio”, et allegat cum <name>Magister</name>, distinctione
-							19, capitulo 30. Consequentia probatur, quia, sicut se habet sapientia genita ad
-							intellectum, ita amor productus ad voluntatem, sed in divinis principium productivum
-							sapientie genite est intellectus vel natura divina quia est intellectus, quia Pater
-							cognoscendo se generat notitiam suam que est verbum, ut patet per <name>beatum
-								Augustinum</name> V <title>De Trinitate</title>, capitulis 30 et 31, igitur
-							principium productivum amoris producti erit voluntas vel natura divina quia est
-							voluntas.</p>
-						<p>Secundo ad principale sic: Spiritus Sanctus non producitur quomodo natus, igitur non
-							naturaliter, igitur libere. Antecedens est <name>beati Augustini</name> [102rb] V
-								<title>De Trinitate</title>, capitulo 32, ubi vult expresse quod Spiritus Sanctus
-							non procedit quomodo natus, sed quomodo datus et ideo non est Filius. Prima
-							consequentia patet, quia quicquid producitur naturaliter in eadem natura cum
-							producente producitur ut natum, igitur ex opposito quod non producitur ut natum non
-							producitur naturaliter. Et secunda consequentia videtur clara, quia omne quod non
-							producitur naturaliter libere producitur.</p>
-					</div>
-					<div>
-						<head><supplied>Conclusio quarta</supplied></head>
-						<p>Quarta conclusio est quod Spiritus Sanctus procedit a Patre et Filio tanquam ab uno
-							libero principio et hoc sequitur ex dictis. Et sic patet de secundo.</p>
-					</div>
-				</div>
-				<div type="articulus">
-					<head>Tertius et quartus articulus</head>
-					<p><supplied>Q</supplied>uantum ad tertium et quartum articulos simul contra conclusiones
-						istas movenda et dissolvenda sunt dubia. </p>
-					<p>Et primo contra primam conclusionem potest argui sic: nullum productum producitur
-						naturaliter a duobus nisi alterum illorum superfluat vel utrumque sit insufficiens; sed
-						nihil in Deo superfluum, nec aliqua persona est insufficiens.</p>
-					<p>Preterea, Pater sine Filio potest producere Spiritum Sanctum, ergo producit. Patet
-						consequentia, quia in perpetuis non differt esse a posse. Antecedens probatur, quia
-						quicquid habet ex se principium productivum alicuius potest illud producere, omni alio
-						circumscripto; sed Pater habet ex se principium sufficiens productivum Spiritus Sancti;
-						ergo etc.</p>
-					<p>Preterea, impossibile est aliquid productum a duobus producentibus totalibus produci.
-						Hoc patet, quia tunc produceretur ab aliquo, quo non producente nec existente, nihil
-						minus esset; sed Spiritus Sanctus totaliter producitur a Patre et totaliter a Filio, si
-						ponatur produci ab ipso; igitur impossibile est ipsum ab utroque produci.</p>
-					<p>Preterea, illa conclusio non videtur velut articulus fidei tenenda cuius oppositum
-						asseritur a multis, quorum doctrina admittitur et vita commendatur ab Ecclesia. Hoc
-						patet, quia, si sit articulus fidei, quicumque asserit oppositum est hereticus. Doctrina
-						autem heretici non debet admitti nec eius vita ab Ecclesia commendari; sed Spiritum
-						Sanctum non procedere a Filio asserunt multi Grecorum, quorum doctrina, etc. Unde
-							<name>Damascenus</name>, libro primo, capitulo 4: "Credimus in unum Spiritum Sanctum
-						Deum et in vivificantem, ex Patre procedentem, et in Filio quiescentem." Et capitulo 11:
-						"Patrem non dicimus ex aliquo, dicimus autem cum Filii Patrem; Filium autem dicimus ex
-						Patre, et Filium Patris nominamus; ex Filio vero Spiritum Sanctum non dicimus, sed
-						Spiritum Filii nominamus.”</p>
-					<p>Item, <name>beatus Andreas</name> predicavit in Asia Spiritum Sanctum procedere a Patre
-						et in Filio permanere, sicut dicunt Greci. Unde in sua legenda dicitur: "Pax vobis et
-						universis qui credunt in unum Deum Patrem, et in unum Filium eius Dominum nostrum Ihesum
-						Christum, et in unum Spiritum Sanctum procedentem ex Patre et in Filio permanentem." Et
-						posset ex istis argui sic: nihil procedit ab eo in quo permanet; sed Spiritus Sanctus
-						permanet in Filio, ut patet ex dictis; ergo etc.</p>
-					<p>Item, in Symbolo Constantinopolitane synodi sic legitur: "Credimus in Spiritum Sanctum
-						Dominum et vivificantem, ex Patre procedentem, cum Patre et Filio adorandum et
-						glorificandum." Et in Symbolo quod cantatur in missa quod fuit editum in Niceno non
-						continetur quod Spiritus Sanctus procedat a Filio. Quod enim secundum nos ibi dicitur:
-						"Qui ex Patre Filioque procedit," alterum a Latinis est editum, scilicet "Filioque," et
-						tamen in fine illius Symboli subiunctum est quod "qui aliud docuerit anathema sit";
-						igitur debuit a nobis addi quod procedat a Filio. </p>
-					<p>Ad primum istorum potest dici dupliciter. </p>
-					<p>Primo, quod nullum productum producitur naturaliter a duobus ut duo sunt nisi alterum
-						illorum superfluat, vel utrumque sit insufficiens. Potest tamen aliquod productum
-						produci a duobus ut unum sunt. Nec propter hoc sequitur quod alterum superfluat, nec
-						quod utrumque sit insufficiens. Et sic est in proposito, ut patet ex secunda
-						conclusione.</p>
-					<p>Secundo potest dici quod maior non est vera si utrumque simpliciter habeat idem
-						principium productivum, et nulli eorum repugnat producere, sicut est in proposito.</p>
-					<p>Ad secundum, nego antecedens. Ad probationem, dico quod maior est vera, circumscripto
-						omni eo quod non habet ita [102va] perfecte principium productivum, et sic non est de
-						Filio, quia ita perfecte habet voluntatem et essentiam divinam, que est principium
-						productivum quo, sicut Pater, et sibi non repugnat formaliter spirare; igitur etc.</p>
-					<p>Ad tertium, dico quod maior est vera ubi sunt diversa principia productiva et diverse
-						productiones, quod in proposito dici non potest, quia in Patre et in Filio idem est
-						principium sive eadem vis spirativa in numero et spiratio activa eadem numero. Unde, si
-						eadem anima est in diversis hominibus, idem actus intelligendi et volendi posset causari
-						ab utroque totaliter, quia non causaretur ab eis inquantum plures, sed inquantum unus.
-						Similiter potest dici ad istas rationes, quia si aliquid probarent, scilicet probarent
-						Filium et Spiritum Sanctum non posse creare, et tamen est falsum, et contra omnes, sicut
-						Filium non posse spirare. Deductio est evidens.</p>
-					<p><name>Sanctus Thomas</name> ubi supra</p>
-					<p>Ad quartum a diversis diversimode respondetur. Dicunt enim aliqui quod “Spiritum
-						Sanctum non procedere a Filio primo fuit a Nectorianis introductum, ut patet in quodam
-						symbolo Nestorianorum damnato in Ephisino synodo. Et hunc errorem secutus est
-							<name>Theodoricus Nestorianus</name> et plures post eum, inter quos, ut dicunt, fuit
-							<name>Damascenus</name>. Unde in hoc eius sententie non est standum.”</p>
-					<p><name>Scotus</name> ubi supra</p>
-					<p>Alii vero dicunt quod inter Grecos et Latinos non est realis contradictio, sed vocalis
-						tantum. Unde “si duo sapientes, unus Grecus, alius Latinus, uterque amator veritatis, de
-						hac visa contrarietate disquireret, pateret,” ut dicunt, “ipsam contrarietatem non esse
-						veraciter realem sicut est vocalis. Alioquin vel ipsi Greci vel nos Latini vere sumus
-						heretici. Sed quis audeat dicere <name>Iohannem Damascenum</name>, <name>Basilem</name>,
-							<name>Gregorium</name>, <name>Theodoricum</name>, <name>Gregorium Nacanzenum</name>,
-						et <name>Cyrillum</name>, et consimiles patres Grecos esse <unclear>hereticos</unclear>
-						Quis iterum diceret beatos <name>Hieronymum</name>, <name>Augustinum</name>,
-							<name>Hilarium</name>, et consimiles Latinos. Verisimile igitur est quod non subest
-						dictis verbis contrariis contrariorum sanctorum sententia. Multipliciter enim dicitur,
-						sicut hoc huius, ita ex illo, qua multitudine intellecta pateret forte,” ut dicunt,
-						“contrariorum verborum non discors sententia.” Nulla tamen istarum. </p>
-					<p>Contra <name>Sanctum Thomam</name> et <name>Scotum</name></p>
-					<p>Solutio non sufficit, ut mihi videtur. Non quidem prima, quia <name>Iohannes
-							Damascenus</name>, si hunc errorem secutus est, vere fuit hereticus, quod non videtur
-						bene dictum. Et confirmatur, quia librum illum <name>Damasceni</name> recepit papa
-						Eugenius, sicut patet in eius titulo, quod non est verisimile si in ipso talis et tantus
-						error continetur expresse.</p>
-					<p>Nec secunda, quia absolute et sine distinctione dicit quod inter Latinos et Grecos non
-						est realis contradictio, sed vocalis tantum, cuius oppositum patet per
-							<name>Anselmum</name>
-						<title>De processione Spiritus Sancti</title>, capitulo 4 in principio capituli, ubi
-						loquens de quibusdam que premiserat in principio, sic inquit: "Hoc – supplere prius
-						dicta – pariter credimus indubitanter et confitemur et nos qui dicimus Spiritum Sanctum
-						a Filio procedere, et Greci, qui nobiscum de hac re non consentiunt Ecclesie," ubi
-						expresse dicit <name>Anselmus</name> quod Greci de hac re non sentiunt nobiscum, et per
-						consequens inter nos et ipsos est contradictio realis et non tantum vocalis.</p>
-					<p>Et confirmatur, quia Greci nos anathematos dicunt quia dicimus Spiritum Sanctum
-						procedere a Filio, quod non esset verisimile si inter nos et ipsos non esset realis sed
-						tantummodo vocalis contradictio.</p>
-					<p>Dimissis igitur his omnibus, dico quod doctores Grecorum et antiqui, et consequenter
-						omnes Greci qui precesserunt divisionem et separationem horum ab Ecclesia, verissime
-						senserunt Spiritum Sanctum a Patre Filioque procedere, et inter istos et nos non est
-						realis contradictio, sed vocalis tantum. Et quantum ad hos bene dicebat secunda solutio.
-						Greci tamen qui fuerunt post divisionem et separationem predictam non crediderunt ipsum
-						ab utroque procedere, sed a solo Patre, et inter istos et nos non est tantum vocalis
-						contradictio, sed realis.</p>
-					<p>Secundum istorum patet ex his quae dicta sunt contra secundam solutionem. Primo vero
-						probatur primum, quia si detur oppositum, sequitur quod doctores illi Graeci erraverunt
-						in fide et vere fuerunt haeretici, quod non videtur bene dictum, sicut deducebat secunda
-						solutio. [102vb]</p>
-					<p>Secundo, quia, si in tantam heresim fuissent prolapsi, non est verisimile quin
-							<name>beatus Augustinus</name>, qui fuit validissimus malleus hereticorum et pugil
-						fidei, de eis fecisset mentionem. Et quando conatum suum potuisset ad extirpandam eam,
-						sicut fecit de omnibus heresibus que ante tempora sua vel suo tempore fuerunt, quod
-						tamen fecisse non invenitur, immo absolute tanquam ab omnibus universaliter concessum
-						asserit Spiritum Sanctum ab utroque procedere, ubicumque de materia ista loquitur, ut
-						patet videntibus dicta sua; igitur etc.</p>
-					<p>Tertio, quia <name>Magister</name> in littera, distinctione 11, capitulo 4,
-						auctoritatibus <name>Athanasii</name>, <name>Didimi</name>, <name>Cirilli</name>, et
-							<name>Iohannis Crisostomi</name>, qui inter doctores Grecos fuerunt multum solemnes,
-						ostendit Spiritum Sanctum etiam a Filio procedere. Et per hoc probat eos et alios
-						tempore eorum nobiscum in eandem fidem convenire.</p>
-					<p>Et, si queratur cur Greci nunc in tantam heresim sunt prolapsi, nec doctores suos
-						sequuntur, dicitur communiter quod tempore quo translatum est imperium de Grecis ad
-						Germanos, tempore Caroli Magni, Greci indignati inobedientes facti sunt et Ecclesiae et
-						imperatori et, ut viderentur recedere rationabiliter ab obedientia Ecclesie Romane,
-						imposuerunt Latinis heresim, dicentes esse hereticum quod Spiritus Sanctus procedat a
-						Filio, et ita accipientes non causam ut causam seu pro causa in hunc errorem prolapsi
-						sunt.</p>
-					<p>His premissis, nego minorem. Et ad probationem primam <name>Damasceni</name>, dicitur
-						communiter quod iste prepositiones 'ex' et ‘a', ut patet per <name>Linconiensem</name>
-						<title>Super epistolam Damasceni ‘De trisagio’</title>, non solum denotant apud Grecos
-						originem, sed principalitatem quandam secundum quam producens habet a se et non ab alio
-						principium seu potentiam producendi seu generandi. Et isto modo, ut inducit
-							<name>Linconiensis</name> ibidem, <name>Damascenus</name> et alii doctores Grecorum
-						dicunt Spiritum Sanctum non procedere a Filio sive ex Filio, sed a solo Patre, quia
-						quamvis Spiritus Sanctus procedat a Filio, non tamen principaliter modo predicto, quia
-						Filius non habet a se, sed a Patre virtutem spirandi. Non igitur vult
-							<name>Damascenus</name> quod Spiritus Sanctus non procedat a Filio, sed quod non eque
-						principaliter sicut a Patre modo posito.</p>
-					<p>Et istum sensum profert <name>beatus Augustinus</name> XV <title>De Trinitate</title>,
-						capitulo 45, de parvis, "Non frustra": "In hac Trinitate non dicitur Verbum Dei nisi
-						Filius, nec Donum nisi Spiritus Sanctus, nec de quo genitum est Verbum et de quo
-						procedit principaliter Spiritus Sanctus nisi Deus Pater." Et subdit: "Principaliter,
-						ideo autem addidi ‘principaliter’ quia et de Filio Spiritus Sanctus procedere reperitur.
-						Sed hoc quoque illi Pater dedit." Hec <name>Augustinus</name>.</p>
-					<p>Ad secundam vero patet quod ex verbis illis <name>beati Andreae</name>
-						<name>Augustinus</name> non habet quod Spiritus Sanctus non procedat a Filio, quia
-						quando predicabat Spiritum Sanctum procedere a Patre non addit "solum modo." Et quando
-						dicitur quod nihil procedit ab eo in quo permanet, negatur. Constat enim quod Filius
-						procedit a Patre, et tamen dicitur permanere in Patre iuxta illud: "Ego in Patre et
-						Pater in me manet."</p>
-					<p>Ad tertiam, respondet <name>Magister</name> in littera, distinctione XI, capitulo 3,
-						dicens: "Nos autem illa verba ita declaramus: 'Qui aliud docuerit vel aliud
-						predicaverit', id est contrarium docuerit vel contrarium predicaverit, 'anathema sit'.
-						Aliud ergo ponit pro opposito, sicut <name>Apostolus</name>
-						<title>ad Galatas</title>: "Si quis aliud evangelizaverit', id est contrarium, 'anathema
-						sit'. Non dicit: 'Si quis addiderit, nam si illud diceret, sibi ipsi contradiceret, ut
-						ostendit <name>beatus Augustinus</name>."</p>
-					<p>Ex quibus verbis clare patet quod, non obstante determinatione illa ad hoc potuit a
-						nobis addi quod procedit a Filio, quia hec additio non contrariatur determinationi
-						priori.</p>
-					<p>Contra secundam conclusionem posset argui: verum, quia conclusio illa non est
-						catholicis dubia, cum sit per Ecclesiam determinata, pertranseo.</p>
-					<p>Contra tertiam vero occurrit quedam specialis difficultas, eo quod Spiritus Sanctus
-						producitur necessario et necessitas repugnat libertati. Isti tamen difficultati
-						responsum fuit super prima distinctione, questione 6, ubi fuit ostensum quod non omnis
-						necessitas repugnat libertati communiter dicte, licet repugnet libertati contradictionis
-						et contingentie.</p>
-					<p>Contra quartam vero non oportet instare in speciali, quia dependet ex tribus personis,
-						etc.</p>
-				</div>
-				<div>
-					<head>Ad rationes principales</head>
-					<p>[103ra] Ad primum nego antecedens. Et ad probationem, non est verum quod quicquid
-						producitur libere producatur contingenter, ut patet ex prima distinctione, questione
-						preallegata. Secundam rationem concedo concludere.</p>
-				</div>
-			</div>
-		</body>
-	</text>
+        <p xml:id="atv-l1d11et12q1-d1e3508"><quote xml:id="atv-l1d11et12q1-Qd1e3509"><supplied>N</supplied>&gt;unc dicendum Spiritum Sanctum esse a Patre et
+            Filio.</quote>
+          <name>Magister</name> in hac 11 distinctione ostendit, contra Grecos, Spiritum Sanctum a
+          Patre et Filio procedere. Et in 12 inquirit an prius vel magis procedat a Patre quam a
+          Filio, quod non est possibile si Pa-[100va]-ter et Filius sint ipsius unum principium et
+          non plura.</p>
+        <p xml:id="atv-l1d11et12q1-d1e3518">Idcirco iuxta materiam istarum duarum distinctionum quero: utrum Spiritus Sanctus
+          procedat a Patre et Filio tanquam ab uno libero principio.</p>
+        <div xml:id="atv-l1d11et12q1-Dd1e3521" type="rationes-principales">
+          <head xml:id="atv-l1d11et12q1-Hd1e3523">Rationes principales</head>
+          <p xml:id="atv-l1d11et12q1-d1e3526">Et videtur primo quod non, quia Spiritus Sanctus non producitur libere, ergo non
+            procedit a Patre et Filio tanquam ab uno libero principio. Consequentia patet.
+            Antecedens probatur, quia quicquid libere producitur, contingenter producitur; sed
+            Spiritus Sanctus non producitur contingenter, quia tunc esset contingens; ergo etc.</p>
+          <p xml:id="atv-l1d11et12q1-d1e3529">Contra: principium productivum Spiritus Sancti in Patre et in Filio est voluntas;
+            igitur procedit ab eis tanquam ab uno libero principio. Antecedens supponitur.
+            Consequentia probatur, quia voluntas est potentia libera et una tantum in utroque.</p>
+          <p xml:id="atv-l1d11et12q1-d1e3532">In ista questione primo ponam distinctiones, secundo conclusiones, tertio movebo dubia,
+            quarto respondeo.</p>
+        </div>
+        <div xml:id="atv-l1d11et12q1-Dd1e3536" type="articulus">
+          <head xml:id="atv-l1d11et12q1-Hd1e3538">Primus articulus</head>
+          <p xml:id="atv-l1d11et12q1-d1e3541"><supplied>Q</supplied>uantum ad primum articulum, distinguo primo de principio quo et
+            quod, et intelligo questionem de principio quod et non quo. Secundo distinguo de
+            principio libero, dupliciter enim principium potest dici liberum: uno modo distinguendo
+            liberum contra necessarium simpliciter et universaliter dictum, et sic omne principium
+            liberum isto modo est liberum libertate contradictionis et contingentiae. Sic Deus
+            dicitur principium liberum respectu creaturarum. Alio modo distinguendo liberum
+              <supplied>contra</supplied> naturale praecise. Primo liberum modo non accipitur in
+            proposito, quia certum est quod Pater et Filius necessario producunt Spiritum Sanctum,
+            non contingenter, aliter sibi non repugnaret posse non esse, quod est impossibile, cum
+            sit summum necesse esse. Sed secundo, quia, ut communiter ponitur a doctoribus, Filius
+            producitur naturaliter, non libere.</p>
+        </div>
+        <div xml:id="atv-l1d11et12q1-Dd1e3551" type="articulus">
+          <head xml:id="atv-l1d11et12q1-Hd1e3553">Secundus articulus</head>
+          <p xml:id="atv-l1d11et12q1-d1e3556"><supplied>Q</supplied>uantum ad secundum articulum, quia in questione supponitur
+            Spiritum Sanctum procedere a Patre et Filio, ut de supposito pariter et quesito aliquid
+            videatur, pono quattuor conclusiones.</p>
+          <div xml:id="atv-l1d11et12q1-Dd1e3561">
+            <head xml:id="atv-l1d11et12q1-Hd1e3563"><supplied>Conclusio prima</supplied></head>
+            <p xml:id="atv-l1d11et12q1-d1e3567">Prima est quod Spiritus Sanctus non procedit a solo Patre, sed a Patre simul et
+              Filio. Ista conclusio catholicis non est dubia, cum sit per Ecclesiam determinata, ut
+              patet Extra, <title>De summa trinitate et fide catholica</title>. Diversi tamen
+              diversimode nituntur eam glosare et probare. </p>
+            <div xml:id="atv-l1d11et12q1-Dd1e3573">
+              <head xml:id="atv-l1d11et12q1-Hd1e3575"><name>Sanctus Thomas</name>, prima parte, questione 36, articulo 2</head>
+              <p xml:id="atv-l1d11et12q1-d1e3580">Unde quidam probant eam primo sic: si Spiritus Sanctus non procederet a Filio, non
+                posset ab eo personaliter distingui. Consequens est falsum, igitur et antecedens.
+                Consequentia probatur, quia non est possibile quod secundum aliquod absolutum
+                persone divine distinguuntur ab invicem, igitur solis relationibus distinguuntur.
+                Relationes autem non possunt personas distinguere nisi secundum quod sunt oppositae.
+                Hoc patet, quia Pater habet duas relationes quarum una refertur ad Filium et
+                  <supplied>ad</supplied> alia ad Spiritum Sanctum, et tamen, quia non sunt
+                opposite, non constituunt duas personas, sed unam. Igitur, si Filius et Spiritus
+                Sanctus non haberent relationes oppositas, non essent due persone, sed una tantum.
+                Sed, si Spiritus Sanctus non procederet a Filio, vel econverso, non haberet
+                relationes oppositas, quia non possunt esse in divinis alie relationes opposite nisi
+                originis. Igitur, si Filius non procederet a Spiritu Sancto, quod nullus diceret,
+                vel Spiritus Sanctus non procederet a Filio, quod nos confitemur, non possent ab
+                invicem personaliter distingui.</p>
+              <p xml:id="atv-l1d11et12q1-d1e3586">Praeterea, Filius procedit per modum intellectus ut Verbum, et Spiritus Sanctus per
+                modum voluntatis ut amor; sed amor procedit a verbo, non enim aliquid amamus nisi
+                quod conceptione mentis apprehendimus; ergo Spiritus Sanctus procedit a Filio.</p>
+              <p xml:id="atv-l1d11et12q1-d1e3589">Praeterea, nusquam invenimus quod ab uno procedant plura absque ordine, nisi in
+                illis que solum materialiter differunt, sicut unus faber producit multos cultellos
+                materialiter nullum ordinem habentes ad invicem; sed in rebus in quibus non est sola
+                materialis distinctio, semper invenitur in multitudine productorum aliquis ordo; si
+                igitur ab una persona Patris procedunt due persone, scilicet Filius et Spiritus
+                Sanctus, oportet esse aliquem ordinem earum ad invicem. Sed nullus alius ordo potest
+                assignari nisi ordo nature quo est unus ab alio, igitur vel Spiritus Sanctus est a
+                Filio, vel econverso. Secundum impo-[100vb]-ssibile est, igitur primum est
+                necessarium.</p>
+            </div>
+            <div xml:id="atv-l1d11et12q1-Dd1e3593">
+              <head xml:id="atv-l1d11et12q1-Hd1e3595">Contra <name>Sanctum Thomam</name></head>
+              <p xml:id="atv-l1d11et12q1-d1e3600">Sed quamvis conclusio sit catholica et sine hesitatione aliqua tenenda, rationes
+                tamen non videntur concludere. Non prima, quia, si Spiritus Sanctus non procederet a
+                Filio, adhuc distingueretur personaliter ab eo. Quod probo tripliciter. </p>
+              <p xml:id="atv-l1d11et12q1-d1e3603">Primo sic: si Spiritus Sanctus non procederet a Filio, sed ambo procederent a solo
+                Patre, adhuc Filius sic esset genitus quod non spiratus, et Spiritus Sanctus
+                spiratus sic quod non genitus. Igitur casu posito, nec Filius esset Spiritus
+                Sanctus, nec econverso. Consequentia est nota, quia Spiritus Sanctus ideo non est
+                Filius quia non est genitus, ut patet per <name>beatum Augustinum</name>, IX
+                  <title>De Trinitate</title>, capitulo 2. Etiam pari ratione Filius non est
+                Spiritus Sanctus quia non est spiratus.</p>
+              <p xml:id="atv-l1d11et12q1-d1e3612">Et confirmatur, quia, licet Spiritus Sanctus de facto procedat a Patre et Filio,
+                tamen non est amborum Filius, quia non ab utroque est genitus, ut patet per
+                  <name>beatum Augustinum</name> XV <title>De Trinitate</title>, capitulo 78. Igitur
+                posito quod procederet a solo Patre, adhuc non esset Filius si non esset ab ipso
+                genitus, sed solum spiratus. Et eadem ratione Filius non esset Spiritus Sanctus si
+                non esset a Patre spiratus, sed tantum genitus. Antecedens probatur, quia casu
+                posito adhuc Pater agnoscendo se produceret Verbum, et amando se produceret Spiritum
+                Sanctum; sed cognoscendo se sic generat notitiam suam, que est Filius, quod ipsum
+                non spirat, et amando se sic spirat amorem suum, qui est Spiritus Sanctus quod ipsum
+                non generat, ut patet per <name>beatum Augustinum</name>, IX <title>De
+                  Trinitate</title>, capitulis 30 et 31; ideo casu illo posito, adhuc Verbum sive
+                Filius sic esset generatus quod non esset spiratus, et Spiritus Sanctus sic esset
+                spiratus quod non esset genitus.</p>
+              <p xml:id="atv-l1d11et12q1-d1e3627">Et confirmatur, quia posito quod Spiritus Sanctus procedat a solo Patre, adhuc
+                Pater generaret Filium et spiraret Spiritum Sanctum, igitur adhuc Filius esset
+                genitus et Spiritus Sanctus spiratus. Vel igitur casu posito Filius sic esset
+                genitus quod non esset spiratus, vel simul erit genitus et spiratus. Secundum dari
+                non potest, quia sic Filius esset productus duabus productionibus totalibus, quarum
+                altera non posita, adhuc esset sufficienter productus, quod est impossibile. Ista
+                consequentia patet, quia remota spiratione, adhuc erit sufficienter productus per
+                generationem. Relinquitur ergo primum, quod est propositum. Et similiter potest
+                argui de Spiritu Sancto; igitur etc.</p>
+              <p xml:id="atv-l1d11et12q1-d1e3631">Secundo ad principale sic: si Spiritus Sanctus non procederet a Filio, sed a solo
+                Patre, adhuc non procederet quomodo natus, sed quomodo datus; igitur adhuc non esset
+                Filius. Consequentia patet, quia hec est ratio quare de facto nunc non est Filius,
+                ut patet per <name>beatum Augustinum</name>, V <title>De Trinitate</title>, capitulo
+                32. Et antecedens videtur clarum, quia adhuc non erit genitus, sed spiratus, per
+                rationem precedentem; igitur adhuc non procederet quomodo natus, sed quomodo
+                datus.</p>
+              <p xml:id="atv-l1d11et12q1-d1e3640">Et confirmatur, quia ille qui procedit a Patre quomodo datus non est Filius. Hoc
+                patet, quia Filio repugnat sic procedere a Patre sicut sibi repugnat spirari; sed
+                ponendo quod Spiritus Sanctus esset a solo Patre, adhuc procederet ab eo quomodo
+                datus, quia adhuc erit ab eo spiratus; igitur adhuc nec esset Filius.</p>
+              <p xml:id="atv-l1d11et12q1-d1e3643">Tertio sic: eodem modo quelibet persona constituitur in esse personali formaliter
+                et distinguitur ab omni alia persona. Patet ex terminis; sed Filius constituitur
+                formaliter in esse personali filiatione et non activa spiratione, quia tunc Pater et
+                Filius haberent unam personalitatem; igitur posita filiatione et circumscripta per
+                impossibile activa spiratione, adhuc Filius distingueretur per filiationem a Spiritu
+                Sancto, sicut ab omni alia persona personaliter.</p>
+              <p xml:id="atv-l1d11et12q1-d1e3646">Et confirmatur: vel filiatio nunc de facto distinguitur realiter a spiratione
+                passiva, vel non. Si non, igitur et Filius et Spiritus Sanctus, quantum ad eorum
+                propria, non sunt due res, quod non esset catholice dictum, ut patet per
+                  <name>Anselmum</name>, <title>De incarnatione Verbi</title>, capitulo 2. Et, si
+                sic, igitur Filius nunc de facto per filiationem realiter distinguitur a Spiritu
+                Sancto, et per consequens, ipsa sola manente in Filio, adhuc differt realiter ab
+                eo.</p>
+              <p xml:id="atv-l1d11et12q1-d1e3655">Et ad probationem istius doctoris, concedo quod persone divine solis relationibus
+                distinguuntur, sed non solis relationibus oppositis, sicut iste doctor imaginatur,
+                ut patet ex dictis, aliter Pater et Filius et Spiritus Sanctus, quantum ad eorum
+                propria, non erunt tres res, quod non esset catholice dictum, ut patet per
+                  <name>Anselmum</name> ubi supra.</p>
+              <p xml:id="atv-l1d11et12q1-d1e3661">Et quando dicitur quod, licet Pater habeat duas relationes, tamen quia non sunt
+                opposite, non constituunt duas personas, sed unam, dico quod accipit non causam pro
+                causa, quia causa quare paternitas et spiratio activa non constituit du-[101ra]-as
+                personas non est quia non sunt due relationes opposite, sed quia spiratio activa,
+                cum sit communicabilis Filio, non est constitutiva suppositi, immo si ista esset
+                causa, Filius et Spiritus Sanctus nunc de facto non essent due persone, sed una
+                tantum, quod est hereticum. Consequentia probatur, quia Filius et Spiritus Sanctus
+                nunc de facto non constituuntur relationibus oppositis, quia Filius non constituitur
+                in esse personali per spirationem activam, sed per filiationem, etiam per eum. Et
+                tamen filiatio et spiratio passiva non opponuntur etiam secundum eum, et similiter
+                potest argui de Patre et Spiritu Sancto. Patet igitur quod ratio prima non
+                concludit. Nec secunda, quia non est universaliter verum quod amor procedat a verbo
+                tanquam <supplied>a</supplied> productivo principio, quod patet multipliciter. </p>
+              <p xml:id="atv-l1d11et12q1-d1e3668">Primo, quia fruitio beatifica est formaliter amor, et tamen non sic procedit a
+                verbo aliquo mentis nostre, cum sit a solo Deo effective, ut patet ex prima
+                distinctione.</p>
+              <p xml:id="atv-l1d11et12q1-d1e3671">Secundo, quia voluntas agens in natura rationali creata est totalis causa effectiva
+                sive productiva omnis actus volendi et nolendi ad quos possibilis est in potentia
+                naturali, ut patet ex tertia distinctione; igitur et amoris, et per consequens amor
+                a verbo in natura rationali non causatur tanquam a principio productivo.</p>
+              <p xml:id="atv-l1d11et12q1-d1e3674">Tertio, quia vel iste doctor per 'verbum' intelligit actum intelligendi precise,
+                vel aliquid aliud. Si datur primum, cum actus intelligendi non sit totalis causa
+                effectiva, nec partialis actus volendi, ut ibidem fuit declaratum, sequitur quod
+                amor in nobis non sic procedit a verbo. Si detur secundum, idem sequitur, quod
+                posita potentia volitiva sufficienter disposita non impedita et actu intelligendi
+                quo videtur aliquid esse diligendum, omni alio circumscripto, potest sequi amor;
+                igitur, si verbum non sit actus intelligendi, sed aliquid aliud, circumscripto verbo
+                poterit poni amor; non ergo procedit a verbo.</p>
+              <p xml:id="atv-l1d11et12q1-d1e3677">Quarto, quia secundum <name>beatum Augustinum</name>, VIII <title>De
+                  Trinitate</title>, capitulo 4, de magnis, amari potest quod ignoratur, si tamen
+                credatur, posito ergo solo actu credendi, potest poni amor; sed constat quod potest
+                esse actus credendi sine omni verbo precedente; igitur non necessario amor procedit
+                a verbo.</p>
+              <p xml:id="atv-l1d11et12q1-d1e3686">Ex istis patet quod probatio non est sufficiens, quia non sequitur nihil amamus
+                nisi quod conceptione mentis apprehendimus; igitur amor procedit a verbo tanquam a
+                principio productivo, quod ex dictis patet dupliciter. </p>
+              <p xml:id="atv-l1d11et12q1-d1e3689">Primo, quia posito quod nihil posset conceptione mentis apprehendi, nec per
+                consequens diligi sine verbo, adhuc tamen sequitur quod amor procedat a verbo
+                tanquam a principio productivo, quia poterit sic procedere a solo Deo, sicut patet
+                de fruitione beatifica vel a voluntate agente, ut dictum est supra, sicut non
+                sequitur nihil intelligimus nisi quod sensatione alicuius sensus apprehendimus;
+                igitur intelligere procedit a sensatione tanquam a principio productivo.</p>
+              <p xml:id="atv-l1d11et12q1-d1e3693">Secundo, quia aliquid potest apprehendi conceptione mentis et diligi sine omni
+                verbo si verbum non sit ipse actus intelligendi et credendi, ut patet ex dictis. </p>
+              <p xml:id="atv-l1d11et12q1-d1e3696">Tertia ratio etiam non videtur concludere, quia quicquid sit de facto, de possibili
+                tamen Deus potest immediate producere plures angelos eiusdem speciei, quia, si
+                ponatur in esse, nulla sequitur contradictio. Tales autem angeli non essent
+                materialiter distincti; ergo non est simpliciter verum quod plura non possent
+                procedere ab uno absque ordine nisi in illis que solum differunt materialiter.</p>
+              <p xml:id="atv-l1d11et12q1-d1e3699">Preterea, Deus potuit omnes creaturas immediate per se producere, et tamen in
+                omnibus creaturis non est sola materialis distinctio.</p>
+              <p xml:id="atv-l1d11et12q1-d1e3702">Preterea, ipsemet solvit rationem suam, quia subdit immediate: unde ipsi Greci
+                processionem Spiritus Sancti aliquem ordinem habere ad Filium intelligunt. Concedunt
+                enim Spiritum Sanctum esse Spiritum Filii, et esse a Patre per Filium. Hec ipse. </p>
+              <p xml:id="atv-l1d11et12q1-d1e3705">Ex quibus dictis apparet quod Greci assignant in divinis ordinem alium ab ordine
+                originis quo una persona procedit ab alia, et per consequens, secundum Grecos, non
+                est vera illa propositio, que tamen assumitur sine probatione, scilicet quod nullus
+                alius ordo potest assignari nisi ordo nature quo alius est ab alio, quia assignatur
+                ordo quo aliud est per alium. [101rb] </p>
+            </div>
+            <div xml:id="atv-l1d11et12q1-Dd1e3709">
+              <head xml:id="atv-l1d11et12q1-Hd1e3711"><name>Scotus</name> in primo, distinctione 11, questione 1 </head>
+              <p xml:id="atv-l1d11et12q1-d1e3716">Et ideo quidam alii probant aliter conclusionem. </p>
+              <p xml:id="atv-l1d11et12q1-d1e3719">Primo sic: habens principium productivum perfectum prius quam intelligatur habere
+                productum, potest illo principio producere, quando scilicet principium est ita
+                perfectum quod non dependet a passo, nec potest impediri per aliquid. Filius habet
+                voluntatem que est principium amoris adequati et habet eam ut preintelligitur
+                productioni per actum voluntatis; igitur potest ea producere; igitur ea
+                producitur.</p>
+              <p xml:id="atv-l1d11et12q1-d1e3722">Probatur minor, quia generatum et spiratum habent aliquem ordinem, ita quod
+                generatio est aliquo modo prior spiratione. In illo autem priori communicatur genito
+                omnis perfectio divina et ita voluntas, igitur habet tunc voluntatem ut priorem
+                producto per actum voluntatis. Assumptum autem de isto ordine productionum videatur
+                manifestum ex ordine predicatorum. Probatur tamen ex hoc quod quando actus primi
+                habent ordinem in aliquo, si uterque sit activus perfecte, habent etiam similem
+                ordinem in eliciendo actus suos. Additur autem ‘perfecte activus’ ad excludendum
+                formam substantialem et qualitatem, in incorruptibilibus, ubi, licet forma
+                substantialis sit activa et qualitas similiter, et forma substantialis sit prior
+                qualitate, tamen qualitas habet actum suum prius. Sed hoc est ex imperfectione
+                accidentis forme substantialis. In Patre autem intellectus et voluntas sunt perfecte
+                activa et habent quemdam ordinem, quia fecunditas intellectus constituit Patrem, non
+                autem fecunditas voluntatis, igitur ista fecunditas intellectus aliquo modo prius
+                habebit actum suum quam fecunditas voluntatis suum.</p>
+              <p xml:id="atv-l1d11et12q1-d1e3725">Et confirmatur, quia inter operationes intellectus et voluntatis est aliquis ordo
+                in quantum sunt potentes productive, igitur inter productiones earum est aliquis
+                ordo in quantum sunt potentie productive. </p>
+            </div>
+            <div xml:id="atv-l1d11et12q1-Dd1e3730">
+              <head xml:id="atv-l1d11et12q1-Hd1e3732">Contra <name>Scotum</name></head>
+              <p xml:id="atv-l1d11et12q1-d1e3737">Sed nec ista ratio videtur concludere, quia supponit multa falsa. </p>
+              <p xml:id="atv-l1d11et12q1-d1e3740">Primo, quod generatio sit realiter prior spiratione, cuius oppositum patet ex
+                precedenti questione.</p>
+              <p xml:id="atv-l1d11et12q1-d1e3743">Secundo, quod prius communicatur Filio fecunditas voluntatis et omnis perfectio
+                divina quam producatur Spiritus Sanctus, ad quod sequitur quod inter personas sit
+                prioritas in quo, non solum a quo, cuius oppositum patet ibidem. </p>
+              <p xml:id="atv-l1d11et12q1-d1e3746">Tertio, quod spirare sit actus elicitus, quod non est verum, quia generare non est
+                actus elicitus, ut patet ex quarta distinctione, quia est in Patre in quo nihil est
+                elicitum, nec productum, igitur nec spirare, cum non minus sit in Patre quam
+                generare.</p>
+              <p xml:id="atv-l1d11et12q1-d1e3750">Quarto, quod intellectus et voluntas in Deo habent ordinem prioritatis, quod est
+                falsum. Primo, quia intellectus et voluntas in Deo nullo modo distinguuntur ex parte
+                rei, ut patet ex 8 distinctione, et nihil est realiter prius a seipso. Secundo, quod
+                est prius alio vel est prius duratione, vel natura, vel causalitate, vel ordine, vel
+                communitate, vel perfectione, vel secundum locum, vel secundum ordinem prioritatis
+                et posterioritatis aliquorum inter se. Hoc patet ex questione precedenti. Sed
+                intellectus in Deo nullo istorum modorum est prior voluntate. Non quidem duratione,
+                ut patet. Nec natura, cum non possit esse sine voluntate. Nec causalitate, nec
+                origine, quia voluntas non causatur, nec originatur ab intellectu. Nec communitate,
+                nec perfectione, nec secundum locum, patet de se. Nec secundum originem aliquorum
+                inter se, cum insint omnibus divinis personis, igitur nullo modo.</p>
+              <p xml:id="atv-l1d11et12q1-d1e3753">Potest etiam multipliciter responderi ad istam rationem. </p>
+              <p xml:id="atv-l1d11et12q1-d1e3756">Primo, negando maiorem, quia ubi principium productivum sic est productivum termini
+                quod non est elicitivum actus, non sequitur quod habens principium productivum
+                perfectum, etc., possit illo principio producere nisi cum hoc habeat actum
+                producendi. Unde, si calor non esset principium elicitivum calefactionis, non
+                sequitur quod habens calorem possit illo calore calefacere [101va] nisi cum hoc
+                haberet actum califactionis, quia sine calefactione nihil potest calefacere, et illo
+                calore non posset actum calefactionis elicere ex hypostasi. Et hec est ratio quare
+                Filius non potest generare, licet habeat principium sive potentiam generandi
+                perfectam, ut patet ex 6 distinctione.</p>
+              <p xml:id="atv-l1d11et12q1-d1e3759">Secundo potest responderi negando minorem, quia Filius non habet potestatem prius
+                quam Spiritus Sanctus producatur, ut patet ex dictis.</p>
+              <p xml:id="atv-l1d11et12q1-d1e3762">Et ad probationem dicendum quod in Deo non est talis potentia, ut patet. Nec actus
+                primi habent originem prioritatis. Nec etiam iste potentie in Deo sunt principia
+                elicitiva actuum, prout iste doctor imaginatur, licet in bono sensu possint dici
+                principia productiva suppositi.</p>
+              <p xml:id="atv-l1d11et12q1-d1e3765">Ad confirmationem, si intelligat quod inter operationem intellectus et voluntatis
+                in creaturis sit aliquis ordo prioritatis, potest concedi, sed ex hoc non sequitur
+                ‘ergo in divinis’. Si vero intelligatur quod inter operationes istarum potentiarum,
+                que sunt intelligere et velle, sit talis ordo ubique, immo non est verum, quia est
+                petitio principii, et hoc negetur in divinis.</p>
+            </div>
+            <div xml:id="atv-l1d11et12q1-Dd1e3769">
+              <head xml:id="atv-l1d11et12q1-Hd1e3771"><name>Franciscus de Maronis</name> in primo, distinctione 12, questione 3,
+                articulo 1</head>
+              <p xml:id="atv-l1d11et12q1-d1e3776">Et ideo quidam alii hanc conclusionem probant aliter. </p>
+              <p xml:id="atv-l1d11et12q1-d1e3779">Primo, quia eandem vim producendi naturaliter Spiritum Sanctum quam habet Pater,
+                communicat Filio cum sua essentia sive termino adequato, et ideo eadem virtute
+                spirat Spiritum Sanctum et eadem virtute creat sibi essentia communicata ab
+                utroque.</p>
+              <p xml:id="atv-l1d11et12q1-d1e3782">Secundo, quia Pater genuit Filium sibi equalem, ut probat <name>Hilarius</name>,
+                  <title>De Trinitate</title>, multipliciter ex identitate nature. Et ideo tantam
+                potestatem habet ad spirandum infinitam personam sicut Pater.</p>
+              <p xml:id="atv-l1d11et12q1-d1e3791">Tertio, quia inter duas personas est germanitas et summa connexio fundata super
+                unitatem nature. Si autem Spiritus Sanctus non procederet nisi a Patre, tunc maior
+                germanitas esset Patris ad Filium et Spiritum Sanctum quam eorum ad invicem, sicut
+                patris ad filios quam filiorum ad invicem, qui non nisi per Patrem habent
+                germanitatem.</p>
+              <p xml:id="atv-l1d11et12q1-d1e3795">Quarto, quia naturalis inclinatio est producentis ad productum et econverso. Et
+                ideo naturalior esset inclinatio et amicitia inter Patrem et duas personas et
+                econverso quam earum ad invicem, que nullam haberent communicationem.</p>
+            </div>
+            <div xml:id="atv-l1d11et12q1-Dd1e3799">
+              <head xml:id="atv-l1d11et12q1-Hd1e3801">Contra <name>Franciscum</name></head>
+              <p xml:id="atv-l1d11et12q1-d1e3806">Sed nec iste rationes concludunt. Non quidem prima, ut patet ex solutione
+                precedentis rationis, quia ista ratio non est nisi quedam abbreviatio illius.</p>
+              <p xml:id="atv-l1d11et12q1-d1e3809">Nec secunda, quia, si ex hoc quod Filius est equalis sequitur quod spiret Spiritum
+                Sanctum sicut Pater, pari ratione sequitur quod generet Filium sicut Pater. Et, cum
+                non possit generare se ipsum, generabit alium. Sic erit quaternitas in divinis, immo
+                etiam infinitas, quia etiam ille poterit alium generare, et sic in infinitum. Pari
+                ratione etiam sequitur quod Spiritus Sanctus, cum non minus sit equalis Patri quam
+                Filius, possit generare Filium et spirare Spiritum Sanctum sicut Pater, que omnia
+                sunt absurda.</p>
+              <p xml:id="atv-l1d11et12q1-d1e3812">Tertia ratio etiam nihil concludit, immo solvit se ipsam, quia germanitas et
+                connexio que est inter personas divinas, ut dicit, fundatur super unitatem nature
+                cum Filio; sed posito quod Spiritus Sanctus procederet a solo Patre, adhuc esset
+                eiusdem nature cum Filio; igitur adhuc maneret germanitas et summa connexio fundata
+                super unitate nature.</p>
+              <p xml:id="atv-l1d11et12q1-d1e3815">Et ulterius dicerent Greci quod ad salvandum huiusmodi germanitatem sive
+                connexionem sufficit quod Spiritus Sanctus procedat a Patre per Filium, etiam si non
+                procedat a Filio.</p>
+              <p xml:id="atv-l1d11et12q1-d1e3819">Quarta ratio etiam non concludit, quia videtur ex falsa imaginatione procedere.
+                Imaginatur enim quod Filius et Spiritus Sanctus nullam haberent ad invicem
+                communicationem si Spiritus Sanctus non procederet a Filio. Hoc autem est falsum,
+                quia adhuc esset una essentia utriusque, una bonitas, et una voluntas, et sic de
+                singulis perfectionibus divinis. Et hec unitas eorum ad invicem sufficeret ut inter
+                eos summa inclinatio et infinita eorum amicitia esset.</p>
+            </div>
+            <div xml:id="atv-l1d11et12q1-Dd1e3823">
+              <head xml:id="atv-l1d11et12q1-Hd1e3825"><name>Ockham</name> in primo, distinctione 11, questione 1, articulo 2</head>
+              <p xml:id="atv-l1d11et12q1-d1e3830">Et ideo quidam noviores probant eandem conclusionem per unam rationem quam dicunt
+                non procedere ex falsis sic: quicquid competit Patri est cuilibet alteri persone
+                attri-[101vb]-buendum nisi sit contrarium expressum in Scriptura, vel evidenter
+                sequatur ex contentis in Scriptura Sacra, vel per se, vel mediantibus
+                propositionibus per se notis, vel ab Ecclesia determinatis; sed Greci sicut omnes
+                concedunt quod Spiritus Sanctus procedat a Patre, nec aliquo predictorum modorum
+                invenitur quod Spiritus Sanctus non procedat a Filio; igitur Greci, propter quos
+                ista questio pertractatur, habent concedere quod Spiritus Sanctus procedat a
+                  <supplied>Fi</supplied>lio. Maior videtur manifesta, quia quandocumque aliqua duo
+                vere sunt una res simplex et indivisibilis, quicquid dicitur de uno, dicitur de
+                alio, nisi contrarium aliquo predictorum modorum habeatur. Minor etiam est
+                manifesta, quia magis videtur quod Scriptura Sacra innuat hoc. Hec est ratio
+                  <name>Anselmi</name>, ut dicit, <title>De processione Spiritus Sancti</title>.
+              </p>
+            </div>
+            <div xml:id="atv-l1d11et12q1-Dd1e3843">
+              <head xml:id="atv-l1d11et12q1-Hd1e3845">Contra <name>Ockham</name></head>
+              <p xml:id="atv-l1d11et12q1-d1e3850">Sed ista ratio contra Grecos, contra quos adducitur, nihil concludit. </p>
+              <p xml:id="atv-l1d11et12q1-d1e3853">Primo, quia Greci negarent maiorem. Ratio huius est, quia motivum eorum ad
+                probandum Spiritum Sanctum non procedere a Filio est quod nihil est attribuendum
+                personis divinis nisi quod continetur in Evangelio vel saltem in Scriptura Novi
+                Testamenti, quia, secundum <name>Dionysium</name>, non est aliquid audendum dicere
+                de substantiali divinitate preter ea que divinitus nobis ex sacris eloquiis sunt
+                expressa; sed non videtur expresse in Novo Testamento quod Spiritus Sanctus procedat
+                a Filio, ut dicunt; ergo ex ratione patet quod Greci non concederent quod quicquid
+                competit Patri est cuilibet alteri persone attribuendum etc., immo dicerent, et de
+                facto dicunt, quod illud quod competit Patri non est attribuendum aliis personis
+                nisi hoc sit expressum in Novo Testamento. Et ideo, licet non sit expressum in
+                Scriptura quod Spiritus Sanctus non procedat a Filio, nec sequatur etiam, si tamen
+                non sit expressum quod procedat ab eo, Greci non concederent, immo negarent hoc esse
+                attribuendum Filio.</p>
+              <p xml:id="atv-l1d11et12q1-d1e3859">Secundo, quia Greci etiam negarent minorem. Different enim et dicunt hoc esse
+                determinatum in pluribus conciliis que apud eos celebrata sunt, ubi Symbola eorum
+                subiunctis anathematibus sanxita sunt, ut nulli de trinitatis fide aliquid docere
+                vel aliquid probare aliter quam ibi contineatur liceat, in quibus quidem Symbolis,
+                cum Spiritus Sanctus commemoretur procedere a Patre et non a Filio, quicumque,
+                inquiunt, “a Filio” cum “procedere” addunt, anathema incurrunt. Unde et nos arguunt
+                anathematis reos.</p>
+              <p xml:id="atv-l1d11et12q1-d1e3862">Tertio deficit ista ratio, quia probatio maioris magis videtur ad oppositum quam ad
+                propositum, quia, licet persone divine sint omnes una res que est essentia divina,
+                inter se, tamen sunt vere tres res numero, etc., realiter distincte. Et ideo non
+                sequitur quod quando aliqua sunt una res numero etc., quicquid dicitur de una,
+                dicatur de altera, <supplied>nisi</supplied> ut sunt una res, quia quando sunt
+                aliqua distincte res, quicquid dicitur de una, et de altera, immo videtur magis
+                sequi oppositum. Et ulterius ista ratio non est <name>Anselmi</name>, ut patet
+                videnti <name>Anselmum</name>, licet aliqua verba accipiat ab eo. </p>
+              <p xml:id="atv-l1d11et12q1-d1e3875">Dimissis igitur istis rationibus, videtur ista conclusio aliter posse probari. </p>
+              <p xml:id="atv-l1d11et12q1-d1e3878">Primo sic: omnis conclusio ex contentis in sacra scriptura per se deducta est
+                simpliciter vera et, ut articulus fidei tenenda, haec est huiusmodi; igitur. Maior
+                est manifesta, et minor est <name>beati Augustini</name>, XV <title>De
+                  Trinitate</title>, capitulo 17, ubi dicit expresse quod de Filio Spiritus Sanctus
+                procedere reperitur. Et capitulo 27 dicit: "Difficillimum est generationem a
+                processione distinguere. Sufficiat inter tres eis qui extendi non amplius valent id
+                quod de hac re in sermone quodam proferendo ad aures populi Christiani diximus
+                dictumque conscripsimus.” Et subdit ad propositum immediate: “Inter cetera enim per
+                sanctarum scripturarum testimonia docui de utroque procedere Spiritum Sanctum.” Et
+                libro quarto, 53, et hoc deducit per auctoritatem Sacre Scripture, dicens: "Nec
+                possumus dicere quod Spiritus Sanctus a Filio non procedat. Non enim frustra et
+                Patris et Filii Spiritus dicitur, nec video quod aliud voluit significare Filius cum
+                sufflans ait: ‘Accipite Spiritum Sanctum meum’. Neque enim flatus ille corporeus cum
+                sensu corporaliter tangendi procedens ex corpore substan-[102ra]-tia Spiritus Sancti
+                fuit, licet demonstratio per congruam significationem, non tantum a Patre, sed etiam
+                a Filio, procedere Spiritum Sanctum.” Et subdit quod “ergo ait Dominus: ‘Quem ego
+                mittam vobis a Patre’, ostendit Spiritum Sanctum et Patris et Filii, quia etiam cum
+                dixisset ‘quem mittet Pater’, addit ‘in nomine meo’. Et quia forte diceret aliquis:
+                si Filius dixisset ‘quem mittet Pater a me’, sicut dixit ‘quem ego mittam vobis a
+                Patre’, ostendisset Spiritum Sanctum procedere ab eo, sed non ita dixit.” Subdit
+                  <name>Augustinus</name>: “Non tamen dixit ‘quem mittet Pater a me’, quemadmodum
+                dixit ‘quem ego mittam vobis a Patre’, videlicet ostendens quod totius divinitatis
+                vel, si melius dicitur, deitatis, principium Pater est.” Istas etiam rationes facit
+                ibidem <name>Augustinus</name>, libro XV, capitulo 26. Patet igitur ex intentione
+                  <name>Augustini</name> quod Spiritum Sanctum procedere a Filio potest ex contentis
+                in sacra scriptura per se deduci; ergo etc.</p>
+              <p xml:id="atv-l1d11et12q1-d1e3896">Et ex his patet quid dicendum ad rationem Grecorum, quia, licet non sit expressum
+                in Novo Testamento quod Spiritus Sanctus procedat a Filio, deducitur tamen ex
+                contentis in eo. Et posito quod ego nescirem deducere, adhuc <name>beatus
+                  Augustinus</name> dicit posse deduci, et de facto deducit in locis
+                preallegatis.</p>
+              <p xml:id="atv-l1d11et12q1-d1e3902">Secundo sic: quicquid non repugnat Filio Pater communicat ei; sed spirare Spiritum
+                Sanctum non repugnat Filio; igitur. Maior patet, quia quicquid potest communicari
+                Filio Pater communicat Filio; sed quicquid non repugnat potest communicari Filio;
+                ergo. Minor autem videtur clara, quia nec per auctoritatem nec per rationem potest
+                convinci quod sibi repugnet; igitur etc.</p>
+            </div>
+          </div>
+          <div xml:id="atv-l1d11et12q1-Dd1e3907">
+            <head xml:id="atv-l1d11et12q1-Hd1e3909"><supplied>Conclusio secunda</supplied></head>
+            <p xml:id="atv-l1d11et12q1-d1e3913">Secunda conclusio est quod Pater et Filius sunt principium unum Spiritus Sancti et
+              non plura. Ista conclusio est determinata per Ecclesiam extra <title>De summa
+                trinitate et fides catholica</title>, libro VI, ubi dicitur quod Spiritus Sanctus
+              eternaliter ex Patre et Filio non tanquam ex duobus principiis, sed tanquam ex uno
+              principio, non duabus spirationibus, sed una spiratione procedit. Et potest formari
+              una ratio sic: Spiritus Sanctus non procedit a Patre et Filio tanquam ex duobus
+              principiis, sed tanquam ex uno, igitur Pater et Filius non sunt duo principia Spiritus
+              Sancti, sed unum. Antecedens est decretalis et consequentia patet, quia, si sunt duo
+              et non unum, falsum est quod non procedat tanquam ex duobus, sed tanquam ex uno, quod
+              est oppositum antecedentis. Patet etiam ista conclusio per <name>beatum
+                Augustinum</name> V <title>De Trinitate</title>, capitulo 14, de magnis, dicens:
+              “dicendum est Patrem et Filium unum principium esse Spiritus Sancti non duo principia,
+              sed, sicut Pater et Filius unus Deus et ad creaturam relative unus creator et unus
+              Deus, sic relative ad Spiritum Sanctum unum principium. Ad creaturam vero Pater et
+              Filius et Spiritus Sanctus unum principium sicut unus creator et unus Deus.” Hec
+                <name>Augustinus</name>.</p>
+          </div>
+          <div xml:id="atv-l1d11et12q1-Dd1e3929">
+            <head xml:id="atv-l1d11et12q1-Hd1e3931"><supplied>Conclusio tertia</supplied></head>
+            <p xml:id="atv-l1d11et12q1-d1e3935">Tertia conclusio est quod Spiritus Sanctus procedit a Patre et Filio libere, non
+              naturaliter. </p>
+            <p xml:id="atv-l1d11et12q1-d1e3938">Probatur primo sic: principium productivum Spiritus Sancti in Patre et Filio est
+              voluntas vel natura divina quia est voluntas, igitur libere et non naturaliter
+              producitur ab utroque. Consequentia patet, quia, sicut intellectus non habet modum
+              producendi libere, sed naturaliter, ita voluntas non habet modum producendi
+              naturaliter, sed libere, et ideo, sicut in divinis illud producitur naturaliter et non
+              libere cuius principium productivum est intellectus vel natura divina quia est
+              intellectus, ita illud producitur libere et non naturaliter cuius principium
+              productivum est voluntas vel natura divina quia est voluntas. Antecedens probatur sic:
+              quia Spiritus Sanctus est amor productus a Patre et Filio, igitur eius principium
+              productivum in utroque est voluntas vel natura divina, quia est voluntas. Antecedens
+              est <name>beati Augustini</name> XV <title>De Trinitate</title>, capitulis 46, 42, 47,
+              56 et 61, in quibus ostendit quod sicut Filius proprie dicitur sapientia genita, ita
+              Spiritus Sanctus proprie dicitur caritas et amor productus. Et specialiter probat hoc
+              capitulo 47 auctoritate <name>Iohanni</name> in <title>Canonica</title> sua dicens
+              quod “Deus ex Deo est dilectio”, et allegat cum <name>Magister</name>, distinctione
+              19, capitulo 30. Consequentia probatur, quia, sicut se habet sapientia genita ad
+              intellectum, ita amor productus ad voluntatem, sed in divinis principium productivum
+              sapientie genite est intellectus vel natura divina quia est intellectus, quia Pater
+              cognoscendo se generat notitiam suam que est verbum, ut patet per <name>beatum
+                Augustinum</name> V <title>De Trinitate</title>, capitulis 30 et 31, igitur
+              principium productivum amoris producti erit voluntas vel natura divina quia est
+              voluntas.</p>
+            <p xml:id="atv-l1d11et12q1-d1e3963">Secundo ad principale sic: Spiritus Sanctus non producitur quomodo natus, igitur non
+              naturaliter, igitur libere. Antecedens est <name>beati Augustini</name> [102rb] V
+                <title>De Trinitate</title>, capitulo 32, ubi vult expresse quod Spiritus Sanctus
+              non procedit quomodo natus, sed quomodo datus et ideo non est Filius. Prima
+              consequentia patet, quia quicquid producitur naturaliter in eadem natura cum
+              producente producitur ut natum, igitur ex opposito quod non producitur ut natum non
+              producitur naturaliter. Et secunda consequentia videtur clara, quia omne quod non
+              producitur naturaliter libere producitur.</p>
+          </div>
+          <div xml:id="atv-l1d11et12q1-Dd1e3974">
+            <head xml:id="atv-l1d11et12q1-Hd1e3976"><supplied>Conclusio quarta</supplied></head>
+            <p xml:id="atv-l1d11et12q1-d1e3980">Quarta conclusio est quod Spiritus Sanctus procedit a Patre et Filio tanquam ab uno
+              libero principio et hoc sequitur ex dictis. Et sic patet de secundo.</p>
+          </div>
+        </div>
+        <div xml:id="atv-l1d11et12q1-Dd1e3985" type="articulus">
+          <head xml:id="atv-l1d11et12q1-Hd1e3987">Tertius et quartus articulus</head>
+          <p xml:id="atv-l1d11et12q1-d1e3990"><supplied>Q</supplied>uantum ad tertium et quartum articulos simul contra conclusiones
+            istas movenda et dissolvenda sunt dubia. </p>
+          <p xml:id="atv-l1d11et12q1-d1e3995">Et primo contra primam conclusionem potest argui sic: nullum productum producitur
+            naturaliter a duobus nisi alterum illorum superfluat vel utrumque sit insufficiens; sed
+            nihil in Deo superfluum, nec aliqua persona est insufficiens.</p>
+          <p xml:id="atv-l1d11et12q1-d1e3998">Preterea, Pater sine Filio potest producere Spiritum Sanctum, ergo producit. Patet
+            consequentia, quia in perpetuis non differt esse a posse. Antecedens probatur, quia
+            quicquid habet ex se principium productivum alicuius potest illud producere, omni alio
+            circumscripto; sed Pater habet ex se principium sufficiens productivum Spiritus Sancti;
+            ergo etc.</p>
+          <p xml:id="atv-l1d11et12q1-d1e4001">Preterea, impossibile est aliquid productum a duobus producentibus totalibus produci.
+            Hoc patet, quia tunc produceretur ab aliquo, quo non producente nec existente, nihil
+            minus esset; sed Spiritus Sanctus totaliter producitur a Patre et totaliter a Filio, si
+            ponatur produci ab ipso; igitur impossibile est ipsum ab utroque produci.</p>
+          <p xml:id="atv-l1d11et12q1-d1e4005">Preterea, illa conclusio non videtur velut articulus fidei tenenda cuius oppositum
+            asseritur a multis, quorum doctrina admittitur et vita commendatur ab Ecclesia. Hoc
+            patet, quia, si sit articulus fidei, quicumque asserit oppositum est hereticus. Doctrina
+            autem heretici non debet admitti nec eius vita ab Ecclesia commendari; sed Spiritum
+            Sanctum non procedere a Filio asserunt multi Grecorum, quorum doctrina, etc. Unde
+              <name>Damascenus</name>, libro primo, capitulo 4: "Credimus in unum Spiritum Sanctum
+            Deum et in vivificantem, ex Patre procedentem, et in Filio quiescentem." Et capitulo 11:
+            "Patrem non dicimus ex aliquo, dicimus autem cum Filii Patrem; Filium autem dicimus ex
+            Patre, et Filium Patris nominamus; ex Filio vero Spiritum Sanctum non dicimus, sed
+            Spiritum Filii nominamus.”</p>
+          <p xml:id="atv-l1d11et12q1-d1e4011">Item, <name>beatus Andreas</name> predicavit in Asia Spiritum Sanctum procedere a Patre
+            et in Filio permanere, sicut dicunt Greci. Unde in sua legenda dicitur: "Pax vobis et
+            universis qui credunt in unum Deum Patrem, et in unum Filium eius Dominum nostrum Ihesum
+            Christum, et in unum Spiritum Sanctum procedentem ex Patre et in Filio permanentem." Et
+            posset ex istis argui sic: nihil procedit ab eo in quo permanet; sed Spiritus Sanctus
+            permanet in Filio, ut patet ex dictis; ergo etc.</p>
+          <p xml:id="atv-l1d11et12q1-d1e4017">Item, in Symbolo Constantinopolitane synodi sic legitur: "Credimus in Spiritum Sanctum
+            Dominum et vivificantem, ex Patre procedentem, cum Patre et Filio adorandum et
+            glorificandum." Et in Symbolo quod cantatur in missa quod fuit editum in Niceno non
+            continetur quod Spiritus Sanctus procedat a Filio. Quod enim secundum nos ibi dicitur:
+            "Qui ex Patre Filioque procedit," alterum a Latinis est editum, scilicet "Filioque," et
+            tamen in fine illius Symboli subiunctum est quod "qui aliud docuerit anathema sit";
+            igitur debuit a nobis addi quod procedat a Filio. </p>
+          <p xml:id="atv-l1d11et12q1-d1e4020">Ad primum istorum potest dici dupliciter. </p>
+          <p xml:id="atv-l1d11et12q1-d1e4023">Primo, quod nullum productum producitur naturaliter a duobus ut duo sunt nisi alterum
+            illorum superfluat, vel utrumque sit insufficiens. Potest tamen aliquod productum
+            produci a duobus ut unum sunt. Nec propter hoc sequitur quod alterum superfluat, nec
+            quod utrumque sit insufficiens. Et sic est in proposito, ut patet ex secunda
+            conclusione.</p>
+          <p xml:id="atv-l1d11et12q1-d1e4026">Secundo potest dici quod maior non est vera si utrumque simpliciter habeat idem
+            principium productivum, et nulli eorum repugnat producere, sicut est in proposito.</p>
+          <p xml:id="atv-l1d11et12q1-d1e4030">Ad secundum, nego antecedens. Ad probationem, dico quod maior est vera, circumscripto
+            omni eo quod non habet ita [102va] perfecte principium productivum, et sic non est de
+            Filio, quia ita perfecte habet voluntatem et essentiam divinam, que est principium
+            productivum quo, sicut Pater, et sibi non repugnat formaliter spirare; igitur etc.</p>
+          <p xml:id="atv-l1d11et12q1-d1e4033">Ad tertium, dico quod maior est vera ubi sunt diversa principia productiva et diverse
+            productiones, quod in proposito dici non potest, quia in Patre et in Filio idem est
+            principium sive eadem vis spirativa in numero et spiratio activa eadem numero. Unde, si
+            eadem anima est in diversis hominibus, idem actus intelligendi et volendi posset causari
+            ab utroque totaliter, quia non causaretur ab eis inquantum plures, sed inquantum unus.
+            Similiter potest dici ad istas rationes, quia si aliquid probarent, scilicet probarent
+            Filium et Spiritum Sanctum non posse creare, et tamen est falsum, et contra omnes, sicut
+            Filium non posse spirare. Deductio est evidens.</p>
+          <p xml:id="atv-l1d11et12q1-d1e4036"><name>Sanctus Thomas</name> ubi supra</p>
+          <p xml:id="atv-l1d11et12q1-d1e4041">Ad quartum a diversis diversimode respondetur. Dicunt enim aliqui quod “Spiritum
+            Sanctum non procedere a Filio primo fuit a Nectorianis introductum, ut patet in quodam
+            symbolo Nestorianorum damnato in Ephisino synodo. Et hunc errorem secutus est
+              <name>Theodoricus Nestorianus</name> et plures post eum, inter quos, ut dicunt, fuit
+              <name>Damascenus</name>. Unde in hoc eius sententie non est standum.”</p>
+          <p xml:id="atv-l1d11et12q1-d1e4050"><name>Scotus</name> ubi supra</p>
+          <p xml:id="atv-l1d11et12q1-d1e4055">Alii vero dicunt quod inter Grecos et Latinos non est realis contradictio, sed vocalis
+            tantum. Unde “si duo sapientes, unus Grecus, alius Latinus, uterque amator veritatis, de
+            hac visa contrarietate disquireret, pateret,” ut dicunt, “ipsam contrarietatem non esse
+            veraciter realem sicut est vocalis. Alioquin vel ipsi Greci vel nos Latini vere sumus
+            heretici. Sed quis audeat dicere <name>Iohannem Damascenum</name>, <name>Basilem</name>,
+              <name>Gregorium</name>, <name>Theodoricum</name>, <name>Gregorium Nacanzenum</name>,
+            et <name>Cyrillum</name>, et consimiles patres Grecos esse <unclear>hereticos</unclear>
+            Quis iterum diceret beatos <name>Hieronymum</name>, <name>Augustinum</name>,
+              <name>Hilarium</name>, et consimiles Latinos. Verisimile igitur est quod non subest
+            dictis verbis contrariis contrariorum sanctorum sententia. Multipliciter enim dicitur,
+            sicut hoc huius, ita ex illo, qua multitudine intellecta pateret forte,” ut dicunt,
+            “contrariorum verborum non discors sententia.” Nulla tamen istarum. </p>
+          <p xml:id="atv-l1d11et12q1-d1e4090">Contra <name>Sanctum Thomam</name> et <name>Scotum</name></p>
+          <p xml:id="atv-l1d11et12q1-d1e4098">Solutio non sufficit, ut mihi videtur. Non quidem prima, quia <name>Iohannes
+              Damascenus</name>, si hunc errorem secutus est, vere fuit hereticus, quod non videtur
+            bene dictum. Et confirmatur, quia librum illum <name>Damasceni</name> recepit papa
+            Eugenius, sicut patet in eius titulo, quod non est verisimile si in ipso talis et tantus
+            error continetur expresse.</p>
+          <p xml:id="atv-l1d11et12q1-d1e4107">Nec secunda, quia absolute et sine distinctione dicit quod inter Latinos et Grecos non
+            est realis contradictio, sed vocalis tantum, cuius oppositum patet per
+              <name>Anselmum</name>
+            <title>De processione Spiritus Sancti</title>, capitulo 4 in principio capituli, ubi
+            loquens de quibusdam que premiserat in principio, sic inquit: "Hoc – supplere prius
+            dicta – pariter credimus indubitanter et confitemur et nos qui dicimus Spiritum Sanctum
+            a Filio procedere, et Greci, qui nobiscum de hac re non consentiunt Ecclesie," ubi
+            expresse dicit <name>Anselmus</name> quod Greci de hac re non sentiunt nobiscum, et per
+            consequens inter nos et ipsos est contradictio realis et non tantum vocalis.</p>
+          <p xml:id="atv-l1d11et12q1-d1e4119">Et confirmatur, quia Greci nos anathematos dicunt quia dicimus Spiritum Sanctum
+            procedere a Filio, quod non esset verisimile si inter nos et ipsos non esset realis sed
+            tantummodo vocalis contradictio.</p>
+          <p xml:id="atv-l1d11et12q1-d1e4122">Dimissis igitur his omnibus, dico quod doctores Grecorum et antiqui, et consequenter
+            omnes Greci qui precesserunt divisionem et separationem horum ab Ecclesia, verissime
+            senserunt Spiritum Sanctum a Patre Filioque procedere, et inter istos et nos non est
+            realis contradictio, sed vocalis tantum. Et quantum ad hos bene dicebat secunda solutio.
+            Greci tamen qui fuerunt post divisionem et separationem predictam non crediderunt ipsum
+            ab utroque procedere, sed a solo Patre, et inter istos et nos non est tantum vocalis
+            contradictio, sed realis.</p>
+          <p xml:id="atv-l1d11et12q1-d1e4125">Secundum istorum patet ex his quae dicta sunt contra secundam solutionem. Primo vero
+            probatur primum, quia si detur oppositum, sequitur quod doctores illi Graeci erraverunt
+            in fide et vere fuerunt haeretici, quod non videtur bene dictum, sicut deducebat secunda
+            solutio. [102vb]</p>
+          <p xml:id="atv-l1d11et12q1-d1e4129">Secundo, quia, si in tantam heresim fuissent prolapsi, non est verisimile quin
+              <name>beatus Augustinus</name>, qui fuit validissimus malleus hereticorum et pugil
+            fidei, de eis fecisset mentionem. Et quando conatum suum potuisset ad extirpandam eam,
+            sicut fecit de omnibus heresibus que ante tempora sua vel suo tempore fuerunt, quod
+            tamen fecisse non invenitur, immo absolute tanquam ab omnibus universaliter concessum
+            asserit Spiritum Sanctum ab utroque procedere, ubicumque de materia ista loquitur, ut
+            patet videntibus dicta sua; igitur etc.</p>
+          <p xml:id="atv-l1d11et12q1-d1e4135">Tertio, quia <name>Magister</name> in littera, distinctione 11, capitulo 4,
+            auctoritatibus <name>Athanasii</name>, <name>Didimi</name>, <name>Cirilli</name>, et
+              <name>Iohannis Crisostomi</name>, qui inter doctores Grecos fuerunt multum solemnes,
+            ostendit Spiritum Sanctum etiam a Filio procedere. Et per hoc probat eos et alios
+            tempore eorum nobiscum in eandem fidem convenire.</p>
+          <p xml:id="atv-l1d11et12q1-d1e4153">Et, si queratur cur Greci nunc in tantam heresim sunt prolapsi, nec doctores suos
+            sequuntur, dicitur communiter quod tempore quo translatum est imperium de Grecis ad
+            Germanos, tempore Caroli Magni, Greci indignati inobedientes facti sunt et Ecclesiae et
+            imperatori et, ut viderentur recedere rationabiliter ab obedientia Ecclesie Romane,
+            imposuerunt Latinis heresim, dicentes esse hereticum quod Spiritus Sanctus procedat a
+            Filio, et ita accipientes non causam ut causam seu pro causa in hunc errorem prolapsi
+            sunt.</p>
+          <p xml:id="atv-l1d11et12q1-d1e4156">His premissis, nego minorem. Et ad probationem primam <name>Damasceni</name>, dicitur
+            communiter quod iste prepositiones 'ex' et ‘a', ut patet per <name>Linconiensem</name>
+            <title>Super epistolam Damasceni ‘De trisagio’</title>, non solum denotant apud Grecos
+            originem, sed principalitatem quandam secundum quam producens habet a se et non ab alio
+            principium seu potentiam producendi seu generandi. Et isto modo, ut inducit
+              <name>Linconiensis</name> ibidem, <name>Damascenus</name> et alii doctores Grecorum
+            dicunt Spiritum Sanctum non procedere a Filio sive ex Filio, sed a solo Patre, quia
+            quamvis Spiritus Sanctus procedat a Filio, non tamen principaliter modo predicto, quia
+            Filius non habet a se, sed a Patre virtutem spirandi. Non igitur vult
+              <name>Damascenus</name> quod Spiritus Sanctus non procedat a Filio, sed quod non eque
+            principaliter sicut a Patre modo posito.</p>
+          <p xml:id="atv-l1d11et12q1-d1e4178">Et istum sensum profert <name>beatus Augustinus</name> XV <title>De Trinitate</title>,
+            capitulo 45, de parvis, "Non frustra": "In hac Trinitate non dicitur Verbum Dei nisi
+            Filius, nec Donum nisi Spiritus Sanctus, nec de quo genitum est Verbum et de quo
+            procedit principaliter Spiritus Sanctus nisi Deus Pater." Et subdit: "Principaliter,
+            ideo autem addidi ‘principaliter’ quia et de Filio Spiritus Sanctus procedere reperitur.
+            Sed hoc quoque illi Pater dedit." Hec <name>Augustinus</name>.</p>
+          <p xml:id="atv-l1d11et12q1-d1e4190">Ad secundam vero patet quod ex verbis illis <name>beati Andreae</name>
+            <name>Augustinus</name> non habet quod Spiritus Sanctus non procedat a Filio, quia
+            quando predicabat Spiritum Sanctum procedere a Patre non addit "solum modo." Et quando
+            dicitur quod nihil procedit ab eo in quo permanet, negatur. Constat enim quod Filius
+            procedit a Patre, et tamen dicitur permanere in Patre iuxta illud: "Ego in Patre et
+            Pater in me manet."</p>
+          <p xml:id="atv-l1d11et12q1-d1e4200">Ad tertiam, respondet <name>Magister</name> in littera, distinctione XI, capitulo 3,
+            dicens: "Nos autem illa verba ita declaramus: 'Qui aliud docuerit vel aliud
+            predicaverit', id est contrarium docuerit vel contrarium predicaverit, 'anathema sit'.
+            Aliud ergo ponit pro opposito, sicut <name>Apostolus</name>
+            <title>ad Galatas</title>: "Si quis aliud evangelizaverit', id est contrarium, 'anathema
+            sit'. Non dicit: 'Si quis addiderit, nam si illud diceret, sibi ipsi contradiceret, ut
+            ostendit <name>beatus Augustinus</name>."</p>
+          <p xml:id="atv-l1d11et12q1-d1e4215">Ex quibus verbis clare patet quod, non obstante determinatione illa ad hoc potuit a
+            nobis addi quod procedit a Filio, quia hec additio non contrariatur determinationi
+            priori.</p>
+          <p xml:id="atv-l1d11et12q1-d1e4218">Contra secundam conclusionem posset argui: verum, quia conclusio illa non est
+            catholicis dubia, cum sit per Ecclesiam determinata, pertranseo.</p>
+          <p xml:id="atv-l1d11et12q1-d1e4221">Contra tertiam vero occurrit quedam specialis difficultas, eo quod Spiritus Sanctus
+            producitur necessario et necessitas repugnat libertati. Isti tamen difficultati
+            responsum fuit super prima distinctione, questione 6, ubi fuit ostensum quod non omnis
+            necessitas repugnat libertati communiter dicte, licet repugnet libertati contradictionis
+            et contingentie.</p>
+          <p xml:id="atv-l1d11et12q1-d1e4224">Contra quartam vero non oportet instare in speciali, quia dependet ex tribus personis,
+            etc.</p>
+        </div>
+        <div xml:id="atv-l1d11et12q1-Dd1e4228">
+          <head xml:id="atv-l1d11et12q1-Hd1e4230">Ad rationes principales</head>
+          <p xml:id="atv-l1d11et12q1-d1e4233">[103ra] Ad primum nego antecedens. Et ad probationem, non est verum quod quicquid
+            producitur libere producatur contingenter, ut patet ex prima distinctione, questione
+            preallegata. Secundam rationem concedo concludere.</p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>
