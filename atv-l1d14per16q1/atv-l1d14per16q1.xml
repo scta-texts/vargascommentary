@@ -1,288 +1,288 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title>Liber I, Distinctio 14, 15, et 16, Quaestio 1</title>
-				<author>Alphonsus Toletanus Vargas</author>
-				<editor>Luciana Cioca</editor>
-				<respStmt>
-					<name>Jeffrey C. Witt</name>
-					<resp>TEI Encoder</resp>
-				</respStmt>
-			</titleStmt>
-			<editionStmt>
-				<edition n="0.0.0-dev">
-					<date when="2016-09-02">September 02, 2016</date>
-				</edition>
-			</editionStmt>
-			<publicationStmt>
-				<authority>THESIS project</authority>
-				<availability status="free">
-					<p>Public Domain</p>
-				</availability>
-			</publicationStmt>
-			<sourceDesc>
-				<listWit>
-					<witness xml:id="P" n="Paris1490">Paris1490</witness>
-				</listWit>
-			</sourceDesc>
-		</fileDesc>
-		<encodingDesc>
-			<variantEncoding method="parallel-segmentation" location="internal"/>
-			<schemaRef n="lbp-critical-1.0.0" target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/1.0/critical.rng"> </schemaRef>
-			<editorialDecl>
-				<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-					guidelines for a critical edition</p>
-			</editorialDecl>
-		</encodingDesc>
-		<revisionDesc status="draft">
-			<listChange>
-				<change when="2016-09-02" who="#JW" status="draft" n="0.0.0">
-					<p>Created file for the first time.</p>
-				</change>
-			</listChange>
-		</revisionDesc>
-	</teiHeader>
-	<text xml:lang="la">
-		<front>
-			<div xml:id="include-list">
-			  
-			</div>
-			<div xml:id="starts-on">
-				<pb ed="#P" n=""/>
-				<cb ed="#P" n=""/>
-			</div>
-		</front>
-		<body>
-			<div xml:id="atv-l1d14per16q1">
-				<head xml:id="atv-l1d14per16q1-Hd1e3505">Liber I, Distinctio 14, 15, 16, Quaestio 1</head>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber I, Distinctio 14, 15, et 16, Quaestio 1</title>
+        <author>Alphonsus Toletanus Vargas</author>
+        <editor>Luciana Cioca</editor>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2016-09-02">September 02, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>THESIS project</authority>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="Paris1490">Paris1490</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <variantEncoding method="parallel-segmentation" location="internal"/>
+      <schemaRef n="lbp-critical-1.0.0" target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/1.0/critical.rng"> </schemaRef>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2016-09-02" who="#JW" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#P" n=""/>
+        <cb ed="#P" n=""/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="atv-l1d14per16q1">
+        <head xml:id="atv-l1d14per16q1-Hd1e3505">Liber I, Distinctio 14, 15, 16, Quaestio 1</head>
 
-				<p xml:id="atv-l1d14per16q1-d1e3508">Preterea, diligenter advertendum est etc, quia <name>Magister</name> in hac 14
-					distinctione et duabus sequentibus agit de temporali processione Spiritus Sancti que
-					aliquando visibiliter, aliquando invisibiliter temperaliter ad nos mittitur. </p>
-				<p xml:id="atv-l1d14per16q1-d1e3514">Idcirco iuxta materiam istarum trium distinctionum simul quero: utrum cuilibet persone
-					divine vere conveniat missio. </p>
-				<div xml:id="atv-l1d14per16q1-Dd1e3517" type="rationes-principales">
-					<p xml:id="atv-l1d14per16q1-d1e3519">Et videtur primo quod non, quia <name ref="#Lombard">Magister</name> dicit in littera,
-						distinctione 15, quod idem est personam divinam mitti quod da-[105va]-ri et procedere,
-						sed constat quod non cuilibet persone divine convenit quod alia persona procedat ab ea;
-						igitur nec competit cuilibet ut mittat.</p>
-					<p xml:id="atv-l1d14per16q1-d1e3525">Contra: illud competit cuilibet persone divine quod alicui potest convenire in ordine
-						ad se ipsum. Missio est huiusmodi. Nam Filius dat se ipsum, ut patet per <name>beatum
-							Augustinum</name>, libro III De Scriptura Sacra, capitulo 2 et similiter <quote xml:id="atv-l1d14per16q1-Qd1e3530">Spiritus
-						Sanctus se ipsum dat et mittit</quote>, ut tenet per eundem XV <title>De Trinitate</title>,
-						capitulo 16, ergo videtur quod mittere convenit cuilibet persone divine.</p>
-				</div>
-				<div xml:id="atv-l1d14per16q1-Dd1e3538">
-					<head xml:id="atv-l1d14per16q1-Hd1e3540">Divisio quaestionis</head>
-					<p xml:id="atv-l1d14per16q1-d1e3543">In ista questione primo ponam unius termini declarationem, secundo quadruplicem
-						conclusionem. Tertio movebo dubia. Quarto respondebo. </p>
-				</div>
-				<div xml:id="atv-l1d14per16q1-Dd1e3548" type="articulus">
-					<head xml:id="atv-l1d14per16q1-Hd1e3550">Primus articulus</head>
+        <p xml:id="atv-l1d14per16q1-d1e3508">Preterea, diligenter advertendum est etc, quia <name>Magister</name> in hac 14
+          distinctione et duabus sequentibus agit de temporali processione Spiritus Sancti que
+          aliquando visibiliter, aliquando invisibiliter temperaliter ad nos mittitur. </p>
+        <p xml:id="atv-l1d14per16q1-d1e3514">Idcirco iuxta materiam istarum trium distinctionum simul quero: utrum cuilibet persone
+          divine vere conveniat missio. </p>
+        <div xml:id="atv-l1d14per16q1-Dd1e3517" type="rationes-principales">
+          <p xml:id="atv-l1d14per16q1-d1e3519">Et videtur primo quod non, quia <name ref="#Lombard">Magister</name> dicit in littera,
+            distinctione 15, quod idem est personam divinam mitti quod da-[105va]-ri et procedere,
+            sed constat quod non cuilibet persone divine convenit quod alia persona procedat ab ea;
+            igitur nec competit cuilibet ut mittat.</p>
+          <p xml:id="atv-l1d14per16q1-d1e3525">Contra: illud competit cuilibet persone divine quod alicui potest convenire in ordine
+            ad se ipsum. Missio est huiusmodi. Nam Filius dat se ipsum, ut patet per <name>beatum
+              Augustinum</name>, libro III De Scriptura Sacra, capitulo 2 et similiter <quote xml:id="atv-l1d14per16q1-Qd1e3530">Spiritus
+            Sanctus se ipsum dat et mittit</quote>, ut tenet per eundem XV <title>De Trinitate</title>,
+            capitulo 16, ergo videtur quod mittere convenit cuilibet persone divine.</p>
+        </div>
+        <div xml:id="atv-l1d14per16q1-Dd1e3538">
+          <head xml:id="atv-l1d14per16q1-Hd1e3540">Divisio quaestionis</head>
+          <p xml:id="atv-l1d14per16q1-d1e3543">In ista questione primo ponam unius termini declarationem, secundo quadruplicem
+            conclusionem. Tertio movebo dubia. Quarto respondebo. </p>
+        </div>
+        <div xml:id="atv-l1d14per16q1-Dd1e3548" type="articulus">
+          <head xml:id="atv-l1d14per16q1-Hd1e3550">Primus articulus</head>
 
-					<p xml:id="atv-l1d14per16q1-d1e3553">Quantum ad primum terminus declarandus est missio circa quem terminum dixerunt
-						aliqui…</p>
-					<p xml:id="atv-l1d14per16q1-d1e3556"><name>Sanctus Thomas</name>, parte I, questione 3, articulo 1</p>
-					<p xml:id="atv-l1d14per16q1-d1e3561">…quod in omni missionis ratione duo importantur, quorum unum est habitudo missi ad eum
-						a quo mittitur, aliud est habitudo missi ad terminum ad quem. Primum patet, quia per hoc
-						quod aliquis mittitur ostenditur processio quedam missi admittentem vel secundum
-						imperium, sicut dicens mittit servum vel secundum consilium, ut si consiliarius dicatur
-						mittere regem ad bellandum vel secundum originem, ut si dicatur quod flos mittitur ab
-						arbore.</p>
-					<p xml:id="atv-l1d14per16q1-d1e3564">Secundum patet, quia oportet quod missus aliquo modo incipiat esse in termino ad quem
-						mittitur, vel quia prius ibi omnino non erat, vel quia ibi incipiat aliquo modo esse quo
-						prius non erat et, licet missio primo modo non convenit alicui persone divine, quia
-						nullibi incipit esse de novo ubi prius, non omnino erat.</p>
-					<p xml:id="atv-l1d14per16q1-d1e3568">Secundo modo missio potest convenire persone divine, sicut Filius dicitur missus a
-						Patre in mundum, quia incipit esse in mundo visibiliter per carnem assumptam, licet
-						antea esset in mundo, ut <name>Iohannes</name> 1 capitulo dicitur.</p>
+          <p xml:id="atv-l1d14per16q1-d1e3553">Quantum ad primum terminus declarandus est missio circa quem terminum dixerunt
+            aliqui…</p>
+          <p xml:id="atv-l1d14per16q1-d1e3556"><name>Sanctus Thomas</name>, parte I, questione 3, articulo 1</p>
+          <p xml:id="atv-l1d14per16q1-d1e3561">…quod in omni missionis ratione duo importantur, quorum unum est habitudo missi ad eum
+            a quo mittitur, aliud est habitudo missi ad terminum ad quem. Primum patet, quia per hoc
+            quod aliquis mittitur ostenditur processio quedam missi admittentem vel secundum
+            imperium, sicut dicens mittit servum vel secundum consilium, ut si consiliarius dicatur
+            mittere regem ad bellandum vel secundum originem, ut si dicatur quod flos mittitur ab
+            arbore.</p>
+          <p xml:id="atv-l1d14per16q1-d1e3564">Secundum patet, quia oportet quod missus aliquo modo incipiat esse in termino ad quem
+            mittitur, vel quia prius ibi omnino non erat, vel quia ibi incipiat aliquo modo esse quo
+            prius non erat et, licet missio primo modo non convenit alicui persone divine, quia
+            nullibi incipit esse de novo ubi prius, non omnino erat.</p>
+          <p xml:id="atv-l1d14per16q1-d1e3568">Secundo modo missio potest convenire persone divine, sicut Filius dicitur missus a
+            Patre in mundum, quia incipit esse in mundo visibiliter per carnem assumptam, licet
+            antea esset in mundo, ut <name>Iohannes</name> 1 capitulo dicitur.</p>
 
-					<p xml:id="atv-l1d14per16q1-d1e3574"><name>Aureolus</name> in I, distinctione 15, questione 2, articulo 1</p>
-					<p xml:id="atv-l1d14per16q1-d1e3579">Sed iste modus dicendi impugnatur ab aliquibus quantum ad quamlibet sui partem. Primo
-						quantum ad hoc quod dicit missionem importare processionem secundum originem eo modo quo
-						dicitur quod flos emittitur ab arbore. Secundo quantum ad hoc quod dicat quod de ratione
-						missionis est quod missus in termino ad quem mittitur aliquo modo incipiat esse de novo.
-						Primum enim istorum impugnatur sic: missio, prout hec de ea loquimur, non est idem quod
-						productio, nec missus idem quod productus, immo missio sumitur pro legatione et missus
-						dicitur legatus, sicut de Filio dicitur <name>Abdie</name> 1 capitulo: auditum audivimus
-						a domino et legatum ad gentes misit. Sed flos non dicitur legari ab arbore, nec oriri
-						est legari, igitur missio uno modo, prout hoc accipitur, non importat habitudinem
-						originis.</p>
-					<p xml:id="atv-l1d14per16q1-d1e3585">Preterea, si Filius deberetur mitti a Patre secundum rationem illam qua flos mittitur
-						ab arbore, missio Filii erit ab eterno, nam Filius est a Patre ut radius solis a sole et
-						flos sive ramus ab arbore. Sed nullus dicit quod Filii missio sit eterna, non igitur
-						accipitur missio secundum illam rationem. Secundum autem impugnatur, quia ad hoc quod
-						aliquis vere dicatur missus sufficit quod ibi prius existens de novo auctoritatem
-						accipiat vel ibi prius existens et auctoritatem habens de novo auctoritate uti incipiat,
-						sicut patet in humanis. Nam existenti Parisius potest Papa committere auctoritatem
-						causam aliquam discutiendi et talis vere dicetur legatus, non quia de novo veniret
-						Parisius, sed quia ille ibi existens de novo auctoritatem recipit. Similiter etiam, si
-						dicatur quod auctoritate accepta non est dubium quod videretur quodammodo legari de
-						novo, sic igitur in proposito non est de ratione persone divine quando legatur quod de
-						novo esse incipiat, sed quod accepta auctoritate de novo utatur. Et ideo dicunt isti
-						quod mittere active, prout accipitur in divinis, non est aliud quam auctoritatem
-						transfundere in potestatem etiam alicuius operationis et determinare ad usum illius.
-						Mitti vero passive non est aliud quam auctoritatem accipere et determinari ad utendum
-						ea.</p>
-					<p xml:id="atv-l1d14per16q1-d1e3588">Contra <name>Aureolum</name></p>
-					<p xml:id="atv-l1d14per16q1-d1e3593">Sed ista impugnatio non est magni vigoris quicquid sit de veritate alterius positionis,
-						quia precedens opi-[105vb]-nio contra quam introducitur non dicit quod de ratione
-						missionis sit precise habitudo missi admittentem secundum originem, sed dicit quod
-						missio est processio, quia per hoc quod aliquis mittitur ostenditur processio missi a
-						mittente. Processio autem in plus se habet quam origo vel originativa productio, nam
-						aliquid potest ab aliquo procedere vel secundum imperium, vel secundum originem, vel
-						secundum consilium, ut dicit opinio, igitur dicere missio non est semper origo vel
-						originativa processio, igitur missio non est processio est fallacia consequentis, quia
-						proceditur a pluribus causis veritatis ad unam.</p>
-					<p xml:id="atv-l1d14per16q1-d1e3597">Preterea, secundum istos mittere est auctoritatem transfundere et mitti est
-						auctoritatem accipere, sed in divinis datio et acceptatio non sunt termini secundum
-						originem, quia in divinis non est alius modus communicandi auctoritatem, quia quicquid
-						habet Filius nascendo accepit et quicquid habet Spiritum Sanctum oritur procedendo,
-						iuxta doctrinam <name>beati Augustini</name>, ergo secundum eos mittere personam divinam
-						est ipsam originative producere et mitti est originative produci, cuius contrarium
-						intenditur.</p>
-					<p xml:id="atv-l1d14per16q1-d1e3603">Preterea, istimet dicunt quod processio missio et datio differunt circa personas
-						divinas, quia processio et missio inducunt emanationem ex parte persone procedentis et
-						misse propterea quod trinitas secundum eas mitti non dicitur, nec procedere datio, nec
-						ex parte persone date originem non includit, quia quelibet potest dare se ipsum, licet
-						non possit originare se ipsum, tunc arguitur sic: illud est de ratione missionis per
-						quod missio distinguitur a datione, sed emanatio vel originatio est huiusmodi secundum
-						eos; et sic videtur in dictis repugnantia.</p>
-					<p xml:id="atv-l1d14per16q1-d1e3606">Iterum, ista impugnatio deficit in secundo puncto, quia existens Parisius, si de novo
-						accipiat auctoritatem vel usum auctoritatis, incipit aliquo modo esse Parisius quo prius
-						non erat, licet non incipiat esse ubi omnino non erat. Et hec sunt verba alterius
-						opinionis, ut patet, igitur impugnatio una. Et ideo supposito quod de ratione missionis
-						sit duplex respectus predictus distinguo de missione visibili et invisibili. Missio
-						visibilis dicitur cum persona divina apparet in aliqua visibili creatura, ut patet per
-							<name>beatum Augustinum</name> IV<title>De Trinitate</title>, capitulo 18. Invisibilis
-						vero dicitur dum percipitur et cognoscitur mente et quelibet istarum potest accipi
-						active et passive.</p>
-					<p xml:id="atv-l1d14per16q1-d1e3615">His premissis patet intellectus questionis, quia potest intelligi de missione activa
-						vel passiva et hoc est querere utrum cuilibet persone divine conveniat mittere aut
-						mitti. </p>
-				</div>
-				<div xml:id="atv-l1d14per16q1-Dd1e3619">
-					<head xml:id="atv-l1d14per16q1-Hd1e3621">Secundus articulus</head>
-					<div xml:id="atv-l1d14per16q1-Dd1e3624">
-						<head xml:id="atv-l1d14per16q1-Hd1e3626"><supplied>Conclusio prima</supplied></head>
-						<p xml:id="atv-l1d14per16q1-d1e3630">Quantum ad secundum articulum est prima conclusio hec quod Spiritus Sanctus mittit
-							Filium et mittitur a Filio. Ista conclusio quantum ad primam partem patet auctoritate
-								<name>beati Augustini</name> II <title>De Trinitate</title>, capitulo 11, ubi dicit:
-							“mitti a Patre Filius sine Spiritu Sancto non potuit. Nam Pater videtur eum misisse,
-							quia ex femina eum fecit quod non utique sine Spiritu Sancto. Et
-								<name>Ambrosius</name> II libro <name>De Spiritu Sancto</name> exponens illud Isaie
-							20 misit me Dominus etc., dicit: quis est qui dicit misit me Dominus et eius nisi qui
-							venit a Patre ut salvos faceret peccatores Christus, ergo Pater misit Filium et
-							Spiritum Sanctum. Ad hoc etiam <name ref="#Lombard">Magister</name> adducit plures
-							auctoritates in littera, distinctione 3, capitulo 4. </p>
-						<p xml:id="atv-l1d14per16q1-d1e3648">Quantum ad secundam partem: conclusio nulli est dubia, scilicet quod Spiritus Sanctus
-							mittitur a Filio, quia omnis persona procedens ab alia potest mitti ab illa et constat
-							quod Spiritus Sanctus procedit a Filio etc. </p>
-					</div>
-					<div xml:id="atv-l1d14per16q1-Dd1e3652">
-						<head xml:id="atv-l1d14per16q1-Hd1e3654"><supplied>Conclusio secunda</supplied></head>
-						<p xml:id="atv-l1d14per16q1-d1e3658">Secunda conclusio est quod persona divina missa ab alia etiam mittitur a se ipsa.
-							Ista conclusio patet de Spiritu Sancto per <name>beatum Augustinum</name> III
-								<title>De Trinitate</title>, capitulo 19, ubi expresse dicit quod <quote xml:id="atv-l1d14per16q1-Qd1e3666">Spiritus Sanctus
-							dat et mittit se ipsum</quote>, sicut inquit corpus carnis nihil aliud est quam caro. Sic
-							donum Spiritus Sancti nil aliud est quam Spiritus Sanctus in tantum, ergo donum est
-							Dei inquantum datur eis quibus datur quod Deus est et si nemini datur, quia Deus erat
-							Patri et Filio coeternus antequam cuiquam daretur, nec quia illi dant et ipse datur,
-							ideo minor est illis. Ita enim datur sicut donum Dei etiam ut se ipsum det sicut Deus.
-							Hec <name>beatus Augustinus</name>. Patet igitur conclusio de Filio per <name>beatum
-								Augustinum</name> II <title>De Trinitate</title>, capitulo 4, ubi ex intentione
-							ostendit quod mittitur a se ipso et arguit contra se dicens, sed diceret aliquis
-							quomodo Pater eum misit si ipse se misit, cui [106ra] respondeo querens ut dicat
-							quomodo Pater eum sanctificavit si ipse se sanctificavit. Hec <name>Augustinus</name>.
-						</p>
-					</div>
-					<div xml:id="atv-l1d14per16q1-Dd1e3684">
-						<head xml:id="atv-l1d14per16q1-Hd1e3686"><supplied>Conclusio tertia</supplied></head>
-						<p xml:id="atv-l1d14per16q1-d1e3690">Tertia conclusio est quod mittere competit cuilibet persone divine. Ista conclusio
-							patet ex dictis, quia nulli est dubium quin mittere conveniat Patri, et ex dictis
-							patet quod convenit Filio et Spiritum Sanctum mittere, ergo convenit toti trinitati.
-							Responsio huius est et precedentis quam deducit <name>Magister</name> in littera,
-							distinctione 3. </p>
-						<p xml:id="atv-l1d14per16q1-d1e3696">Primo est ista: opera trinitatis ad extra sunt indivisa, sed missio persone divine
-							est operatio Dei ad extra; igitur est a tota trinitate active, unde quelibet persona
-							divina operata est incarnationem Filii secundum quam dicitur missus, igitur cuilibet
-							persone divine convenit mittere.</p>
-					</div>
-					<div xml:id="atv-l1d14per16q1-Dd1e3700">
-						<head xml:id="atv-l1d14per16q1-Hd1e3702"><supplied>Conclusio quarta</supplied></head>
-						<p xml:id="atv-l1d14per16q1-d1e3706">Quarta conclusio est quod mitti non convenit cuilibet persone divine. Ista conclusio
-							est nota, quia Pater non mittitur, ergo mitti non convenit cuilibet persone divine.
-							Consequentia patet. Antecedens est <name>beati Gregorii</name> IV <title>De
-								Trinitate</title>, capitulo ultimo dicens quod Pater non dicitur missus. Patet etiam
-							per <name>Magistrum</name> in littera.</p>
-					</div>
-				</div>
-				<div xml:id="atv-l1d14per16q1-Dd1e3720">
-					<head xml:id="atv-l1d14per16q1-Hd1e3722">Tertius et quartus articulus</head>
-					<p xml:id="atv-l1d14per16q1-d1e3725">Quantum ad tertium et quartum articulos simul contra tres primas conclusiones est una
-						opinio que dicit <name>Scotus</name> in I, distinctionibus 14 et 16, questione 1,
-						articulo 2, quod mitti convenit tantum persone producte et mittere tantum persone
-						producenti, et ita sunt tantum due persone mittentes, scilicet Pater et Filius et due
-						tantum misse, scilicet Filius et Spiritus Sanctus, nec aliqua persona se ipsam mittit,
-						nec producta producentem. Hec autem opinio multipliciter confirmatur. </p>
-					<p xml:id="atv-l1d14per16q1-d1e3731">Primo, quia mittere et mitti sunt relative opposita, sed mitti includit produci; ergo
-						mittere includit situm corporum quod est producere. </p>
-					<p xml:id="atv-l1d14per16q1-d1e3734">Secundo, quia, sicut oppositum de opposito, ita propositum de proposito, sed mittere et
-						mitti sunt opposita; ergo mittere erit originare, cum mitti sit originari. </p>
-					<p xml:id="atv-l1d14per16q1-d1e3737">Tertio, quia mittere et mitti videntur eandem rem significare secundum diversos modos
-						grammaticales, sed mitti significat respectum originis adintra cum connotatione termini
-						ad extra, ergo et mittere significat respectum originis adintra, unde mittere significat
-						illud idem active quod mitti passive ex quo includit originari et mittere includit
-						originare.</p>
-					<p xml:id="atv-l1d14per16q1-d1e3741">Quarto, quia mittere secundum auctoritates sanctorum est auctoritatem dare, sed
-						auctoritatem non potest dare persona divina nisi secundum originem, igitur omnis persona
-						que aliam mittit originat ipsam.</p>
-					<p xml:id="atv-l1d14per16q1-d1e3744">Quinto, quia, si de ratione mittentis non est quod missam originet, sed Spiritus
-						Sanctus potest mittere Filium vel se ipsum, pari ratione Filius poterit mittere Patrem.
-						Sicut enim Spiritus Sanctus producitur a Filio, sic Filius a Patre, igitur, si non
-						repugnat Filio mitti a Spiritu Sancto, nec Patri mitti a Filio, quod est contra
-							<name>beatum Augustinum</name> IV <title>De Trinitate</title>, superius allegatum.</p>
-					<p xml:id="atv-l1d14per16q1-d1e3753">Ad rationes <name>Scoti</name></p>
-					<p xml:id="atv-l1d14per16q1-d1e3758">Pro solutione istarum rationum et declarationem conclusionum notandum quod mittere
-						potest intelligi dupliciter. Uno modo, principaliter et auctive, alio communiter et
-						determinative. Primo modo, mittere solet ille qui tribuit potestatem legato sive misso.
-						Secundo modo, mittunt omnes qui talem legatum ad usum et ad executionem accepte
-						potestatis determinant. Si primo modo, accipitur missio verum est quod soli persone
-						producenti convenit mittere in divinis, quia mittere sic sumptum nihil aliud est quam
-						auctoritatem dare quod solum persone producenti convenit. Sic de missione non loquimur
-						in proposito, quia nunc loquimur de missione temporali et missio sic sumpta non est
-						temporalis, sed eterna. Pater enim ab eterno omnem autoritatem et potestatem dedit Filio
-						ipsum producendo et Pater et Filius similiter Spiritus Sanctus. Si vero accipiatur
-						secundo modo, sic mittere convenit trinitati, quia auctoritas illa data ab eterno non
-						ponitur in executione ad extra nisi de communi voluntate et determinatione communium
-						trium personarum, cum opera trinitatis ad extra sicut indivisa. Et sic de missione
-						loquimur ad presens, scilicet de missione temporali et sola talis est temporalis.</p>
-					<p xml:id="atv-l1d14per16q1-d1e3761">His premissis facile est respondere ad rationes. Procedunt [106rb] enim de missione
-						primo modo dicta, ut patet discurrenti per eas, et non secundo modo de qua posui
-						conclusiones. </p>
-					<p xml:id="atv-l1d14per16q1-d1e3764">Ad primam igitur patet quod mitti non includit produci nisi prout opponitur missioni
-						active primo modo dicte et de tali conceditur quod includit producere.</p>
-					<p xml:id="atv-l1d14per16q1-d1e3768">Ad secundam et tertiam eodem modo, quia mitti non est originari nisi accipiatur ut
-						prius.</p>
-					<p xml:id="atv-l1d14per16q1-d1e3771">Ad quartam patet evidenter quod loquitur de missione activa primo modo dicta. </p>
-					<p xml:id="atv-l1d14per16q1-d1e3774">Ad ultimam nego consequentiam, quia, licet non sit de ratione mittentis, quia originet
-						missam, est tamen de ratione persone misse quod habeat auctoritatem ab illo, quod Patri
-						non potest competere in divinis; et ideo non sequitur repugnat omnino Filio mitti a
-						Spiritu Sancto, igitur nec Patri mitti a Filio.</p>
-					<p xml:id="atv-l1d14per16q1-d1e3777">Contra quartam conclusionem posset argui, sed, quia non est apud aliquos opinabilis,
-						transeo.</p>
-				</div>
-				<div xml:id="atv-l1d14per16q1-Dd1e3781">
-					<head xml:id="atv-l1d14per16q1-Hd1e3783">Ad argumenta principalia</head>
-					<p xml:id="atv-l1d14per16q1-d1e3786">Ad primum dico quod <name>Magister</name> in verbis illis non accipit dationem et
-						processionem pro datione eterna, sed pro temporali, ut patet per eum in principio
-						distinctionis 16. Et isto modo cuilibet persone divine convenit quod alia procedat ab
-						ea, ipso dicens ubi supra quod Spiritus Sanctus a Patre et Filio ac se ipso duobus modi
-						procedere sive mitti, sive dari, sive uno modo visibiliter, alio modo invisibiliter.</p>
-					<p xml:id="atv-l1d14per16q1-d1e3792">Secundam rationem concedo concludere de missione secundo modo de qua nunc loquimur.</p>
-				</div>
-			</div>
-		</body>
-	</text>
+          <p xml:id="atv-l1d14per16q1-d1e3574"><name>Aureolus</name> in I, distinctione 15, questione 2, articulo 1</p>
+          <p xml:id="atv-l1d14per16q1-d1e3579">Sed iste modus dicendi impugnatur ab aliquibus quantum ad quamlibet sui partem. Primo
+            quantum ad hoc quod dicit missionem importare processionem secundum originem eo modo quo
+            dicitur quod flos emittitur ab arbore. Secundo quantum ad hoc quod dicat quod de ratione
+            missionis est quod missus in termino ad quem mittitur aliquo modo incipiat esse de novo.
+            Primum enim istorum impugnatur sic: missio, prout hec de ea loquimur, non est idem quod
+            productio, nec missus idem quod productus, immo missio sumitur pro legatione et missus
+            dicitur legatus, sicut de Filio dicitur <name>Abdie</name> 1 capitulo: auditum audivimus
+            a domino et legatum ad gentes misit. Sed flos non dicitur legari ab arbore, nec oriri
+            est legari, igitur missio uno modo, prout hoc accipitur, non importat habitudinem
+            originis.</p>
+          <p xml:id="atv-l1d14per16q1-d1e3585">Preterea, si Filius deberetur mitti a Patre secundum rationem illam qua flos mittitur
+            ab arbore, missio Filii erit ab eterno, nam Filius est a Patre ut radius solis a sole et
+            flos sive ramus ab arbore. Sed nullus dicit quod Filii missio sit eterna, non igitur
+            accipitur missio secundum illam rationem. Secundum autem impugnatur, quia ad hoc quod
+            aliquis vere dicatur missus sufficit quod ibi prius existens de novo auctoritatem
+            accipiat vel ibi prius existens et auctoritatem habens de novo auctoritate uti incipiat,
+            sicut patet in humanis. Nam existenti Parisius potest Papa committere auctoritatem
+            causam aliquam discutiendi et talis vere dicetur legatus, non quia de novo veniret
+            Parisius, sed quia ille ibi existens de novo auctoritatem recipit. Similiter etiam, si
+            dicatur quod auctoritate accepta non est dubium quod videretur quodammodo legari de
+            novo, sic igitur in proposito non est de ratione persone divine quando legatur quod de
+            novo esse incipiat, sed quod accepta auctoritate de novo utatur. Et ideo dicunt isti
+            quod mittere active, prout accipitur in divinis, non est aliud quam auctoritatem
+            transfundere in potestatem etiam alicuius operationis et determinare ad usum illius.
+            Mitti vero passive non est aliud quam auctoritatem accipere et determinari ad utendum
+            ea.</p>
+          <p xml:id="atv-l1d14per16q1-d1e3588">Contra <name>Aureolum</name></p>
+          <p xml:id="atv-l1d14per16q1-d1e3593">Sed ista impugnatio non est magni vigoris quicquid sit de veritate alterius positionis,
+            quia precedens opi-[105vb]-nio contra quam introducitur non dicit quod de ratione
+            missionis sit precise habitudo missi admittentem secundum originem, sed dicit quod
+            missio est processio, quia per hoc quod aliquis mittitur ostenditur processio missi a
+            mittente. Processio autem in plus se habet quam origo vel originativa productio, nam
+            aliquid potest ab aliquo procedere vel secundum imperium, vel secundum originem, vel
+            secundum consilium, ut dicit opinio, igitur dicere missio non est semper origo vel
+            originativa processio, igitur missio non est processio est fallacia consequentis, quia
+            proceditur a pluribus causis veritatis ad unam.</p>
+          <p xml:id="atv-l1d14per16q1-d1e3597">Preterea, secundum istos mittere est auctoritatem transfundere et mitti est
+            auctoritatem accipere, sed in divinis datio et acceptatio non sunt termini secundum
+            originem, quia in divinis non est alius modus communicandi auctoritatem, quia quicquid
+            habet Filius nascendo accepit et quicquid habet Spiritum Sanctum oritur procedendo,
+            iuxta doctrinam <name>beati Augustini</name>, ergo secundum eos mittere personam divinam
+            est ipsam originative producere et mitti est originative produci, cuius contrarium
+            intenditur.</p>
+          <p xml:id="atv-l1d14per16q1-d1e3603">Preterea, istimet dicunt quod processio missio et datio differunt circa personas
+            divinas, quia processio et missio inducunt emanationem ex parte persone procedentis et
+            misse propterea quod trinitas secundum eas mitti non dicitur, nec procedere datio, nec
+            ex parte persone date originem non includit, quia quelibet potest dare se ipsum, licet
+            non possit originare se ipsum, tunc arguitur sic: illud est de ratione missionis per
+            quod missio distinguitur a datione, sed emanatio vel originatio est huiusmodi secundum
+            eos; et sic videtur in dictis repugnantia.</p>
+          <p xml:id="atv-l1d14per16q1-d1e3606">Iterum, ista impugnatio deficit in secundo puncto, quia existens Parisius, si de novo
+            accipiat auctoritatem vel usum auctoritatis, incipit aliquo modo esse Parisius quo prius
+            non erat, licet non incipiat esse ubi omnino non erat. Et hec sunt verba alterius
+            opinionis, ut patet, igitur impugnatio una. Et ideo supposito quod de ratione missionis
+            sit duplex respectus predictus distinguo de missione visibili et invisibili. Missio
+            visibilis dicitur cum persona divina apparet in aliqua visibili creatura, ut patet per
+              <name>beatum Augustinum</name> IV<title>De Trinitate</title>, capitulo 18. Invisibilis
+            vero dicitur dum percipitur et cognoscitur mente et quelibet istarum potest accipi
+            active et passive.</p>
+          <p xml:id="atv-l1d14per16q1-d1e3615">His premissis patet intellectus questionis, quia potest intelligi de missione activa
+            vel passiva et hoc est querere utrum cuilibet persone divine conveniat mittere aut
+            mitti. </p>
+        </div>
+        <div xml:id="atv-l1d14per16q1-Dd1e3619">
+          <head xml:id="atv-l1d14per16q1-Hd1e3621">Secundus articulus</head>
+          <div xml:id="atv-l1d14per16q1-Dd1e3624">
+            <head xml:id="atv-l1d14per16q1-Hd1e3626"><supplied>Conclusio prima</supplied></head>
+            <p xml:id="atv-l1d14per16q1-d1e3630">Quantum ad secundum articulum est prima conclusio hec quod Spiritus Sanctus mittit
+              Filium et mittitur a Filio. Ista conclusio quantum ad primam partem patet auctoritate
+                <name>beati Augustini</name> II <title>De Trinitate</title>, capitulo 11, ubi dicit:
+              “mitti a Patre Filius sine Spiritu Sancto non potuit. Nam Pater videtur eum misisse,
+              quia ex femina eum fecit quod non utique sine Spiritu Sancto. Et
+                <name>Ambrosius</name> II libro <name>De Spiritu Sancto</name> exponens illud Isaie
+              20 misit me Dominus etc., dicit: quis est qui dicit misit me Dominus et eius nisi qui
+              venit a Patre ut salvos faceret peccatores Christus, ergo Pater misit Filium et
+              Spiritum Sanctum. Ad hoc etiam <name ref="#Lombard">Magister</name> adducit plures
+              auctoritates in littera, distinctione 3, capitulo 4. </p>
+            <p xml:id="atv-l1d14per16q1-d1e3648">Quantum ad secundam partem: conclusio nulli est dubia, scilicet quod Spiritus Sanctus
+              mittitur a Filio, quia omnis persona procedens ab alia potest mitti ab illa et constat
+              quod Spiritus Sanctus procedit a Filio etc. </p>
+          </div>
+          <div xml:id="atv-l1d14per16q1-Dd1e3652">
+            <head xml:id="atv-l1d14per16q1-Hd1e3654"><supplied>Conclusio secunda</supplied></head>
+            <p xml:id="atv-l1d14per16q1-d1e3658">Secunda conclusio est quod persona divina missa ab alia etiam mittitur a se ipsa.
+              Ista conclusio patet de Spiritu Sancto per <name>beatum Augustinum</name> III
+                <title>De Trinitate</title>, capitulo 19, ubi expresse dicit quod <quote xml:id="atv-l1d14per16q1-Qd1e3666">Spiritus Sanctus
+              dat et mittit se ipsum</quote>, sicut inquit corpus carnis nihil aliud est quam caro. Sic
+              donum Spiritus Sancti nil aliud est quam Spiritus Sanctus in tantum, ergo donum est
+              Dei inquantum datur eis quibus datur quod Deus est et si nemini datur, quia Deus erat
+              Patri et Filio coeternus antequam cuiquam daretur, nec quia illi dant et ipse datur,
+              ideo minor est illis. Ita enim datur sicut donum Dei etiam ut se ipsum det sicut Deus.
+              Hec <name>beatus Augustinus</name>. Patet igitur conclusio de Filio per <name>beatum
+                Augustinum</name> II <title>De Trinitate</title>, capitulo 4, ubi ex intentione
+              ostendit quod mittitur a se ipso et arguit contra se dicens, sed diceret aliquis
+              quomodo Pater eum misit si ipse se misit, cui [106ra] respondeo querens ut dicat
+              quomodo Pater eum sanctificavit si ipse se sanctificavit. Hec <name>Augustinus</name>.
+            </p>
+          </div>
+          <div xml:id="atv-l1d14per16q1-Dd1e3684">
+            <head xml:id="atv-l1d14per16q1-Hd1e3686"><supplied>Conclusio tertia</supplied></head>
+            <p xml:id="atv-l1d14per16q1-d1e3690">Tertia conclusio est quod mittere competit cuilibet persone divine. Ista conclusio
+              patet ex dictis, quia nulli est dubium quin mittere conveniat Patri, et ex dictis
+              patet quod convenit Filio et Spiritum Sanctum mittere, ergo convenit toti trinitati.
+              Responsio huius est et precedentis quam deducit <name>Magister</name> in littera,
+              distinctione 3. </p>
+            <p xml:id="atv-l1d14per16q1-d1e3696">Primo est ista: opera trinitatis ad extra sunt indivisa, sed missio persone divine
+              est operatio Dei ad extra; igitur est a tota trinitate active, unde quelibet persona
+              divina operata est incarnationem Filii secundum quam dicitur missus, igitur cuilibet
+              persone divine convenit mittere.</p>
+          </div>
+          <div xml:id="atv-l1d14per16q1-Dd1e3700">
+            <head xml:id="atv-l1d14per16q1-Hd1e3702"><supplied>Conclusio quarta</supplied></head>
+            <p xml:id="atv-l1d14per16q1-d1e3706">Quarta conclusio est quod mitti non convenit cuilibet persone divine. Ista conclusio
+              est nota, quia Pater non mittitur, ergo mitti non convenit cuilibet persone divine.
+              Consequentia patet. Antecedens est <name>beati Gregorii</name> IV <title>De
+                Trinitate</title>, capitulo ultimo dicens quod Pater non dicitur missus. Patet etiam
+              per <name>Magistrum</name> in littera.</p>
+          </div>
+        </div>
+        <div xml:id="atv-l1d14per16q1-Dd1e3720">
+          <head xml:id="atv-l1d14per16q1-Hd1e3722">Tertius et quartus articulus</head>
+          <p xml:id="atv-l1d14per16q1-d1e3725">Quantum ad tertium et quartum articulos simul contra tres primas conclusiones est una
+            opinio que dicit <name>Scotus</name> in I, distinctionibus 14 et 16, questione 1,
+            articulo 2, quod mitti convenit tantum persone producte et mittere tantum persone
+            producenti, et ita sunt tantum due persone mittentes, scilicet Pater et Filius et due
+            tantum misse, scilicet Filius et Spiritus Sanctus, nec aliqua persona se ipsam mittit,
+            nec producta producentem. Hec autem opinio multipliciter confirmatur. </p>
+          <p xml:id="atv-l1d14per16q1-d1e3731">Primo, quia mittere et mitti sunt relative opposita, sed mitti includit produci; ergo
+            mittere includit situm corporum quod est producere. </p>
+          <p xml:id="atv-l1d14per16q1-d1e3734">Secundo, quia, sicut oppositum de opposito, ita propositum de proposito, sed mittere et
+            mitti sunt opposita; ergo mittere erit originare, cum mitti sit originari. </p>
+          <p xml:id="atv-l1d14per16q1-d1e3737">Tertio, quia mittere et mitti videntur eandem rem significare secundum diversos modos
+            grammaticales, sed mitti significat respectum originis adintra cum connotatione termini
+            ad extra, ergo et mittere significat respectum originis adintra, unde mittere significat
+            illud idem active quod mitti passive ex quo includit originari et mittere includit
+            originare.</p>
+          <p xml:id="atv-l1d14per16q1-d1e3741">Quarto, quia mittere secundum auctoritates sanctorum est auctoritatem dare, sed
+            auctoritatem non potest dare persona divina nisi secundum originem, igitur omnis persona
+            que aliam mittit originat ipsam.</p>
+          <p xml:id="atv-l1d14per16q1-d1e3744">Quinto, quia, si de ratione mittentis non est quod missam originet, sed Spiritus
+            Sanctus potest mittere Filium vel se ipsum, pari ratione Filius poterit mittere Patrem.
+            Sicut enim Spiritus Sanctus producitur a Filio, sic Filius a Patre, igitur, si non
+            repugnat Filio mitti a Spiritu Sancto, nec Patri mitti a Filio, quod est contra
+              <name>beatum Augustinum</name> IV <title>De Trinitate</title>, superius allegatum.</p>
+          <p xml:id="atv-l1d14per16q1-d1e3753">Ad rationes <name>Scoti</name></p>
+          <p xml:id="atv-l1d14per16q1-d1e3758">Pro solutione istarum rationum et declarationem conclusionum notandum quod mittere
+            potest intelligi dupliciter. Uno modo, principaliter et auctive, alio communiter et
+            determinative. Primo modo, mittere solet ille qui tribuit potestatem legato sive misso.
+            Secundo modo, mittunt omnes qui talem legatum ad usum et ad executionem accepte
+            potestatis determinant. Si primo modo, accipitur missio verum est quod soli persone
+            producenti convenit mittere in divinis, quia mittere sic sumptum nihil aliud est quam
+            auctoritatem dare quod solum persone producenti convenit. Sic de missione non loquimur
+            in proposito, quia nunc loquimur de missione temporali et missio sic sumpta non est
+            temporalis, sed eterna. Pater enim ab eterno omnem autoritatem et potestatem dedit Filio
+            ipsum producendo et Pater et Filius similiter Spiritus Sanctus. Si vero accipiatur
+            secundo modo, sic mittere convenit trinitati, quia auctoritas illa data ab eterno non
+            ponitur in executione ad extra nisi de communi voluntate et determinatione communium
+            trium personarum, cum opera trinitatis ad extra sicut indivisa. Et sic de missione
+            loquimur ad presens, scilicet de missione temporali et sola talis est temporalis.</p>
+          <p xml:id="atv-l1d14per16q1-d1e3761">His premissis facile est respondere ad rationes. Procedunt [106rb] enim de missione
+            primo modo dicta, ut patet discurrenti per eas, et non secundo modo de qua posui
+            conclusiones. </p>
+          <p xml:id="atv-l1d14per16q1-d1e3764">Ad primam igitur patet quod mitti non includit produci nisi prout opponitur missioni
+            active primo modo dicte et de tali conceditur quod includit producere.</p>
+          <p xml:id="atv-l1d14per16q1-d1e3768">Ad secundam et tertiam eodem modo, quia mitti non est originari nisi accipiatur ut
+            prius.</p>
+          <p xml:id="atv-l1d14per16q1-d1e3771">Ad quartam patet evidenter quod loquitur de missione activa primo modo dicta. </p>
+          <p xml:id="atv-l1d14per16q1-d1e3774">Ad ultimam nego consequentiam, quia, licet non sit de ratione mittentis, quia originet
+            missam, est tamen de ratione persone misse quod habeat auctoritatem ab illo, quod Patri
+            non potest competere in divinis; et ideo non sequitur repugnat omnino Filio mitti a
+            Spiritu Sancto, igitur nec Patri mitti a Filio.</p>
+          <p xml:id="atv-l1d14per16q1-d1e3777">Contra quartam conclusionem posset argui, sed, quia non est apud aliquos opinabilis,
+            transeo.</p>
+        </div>
+        <div xml:id="atv-l1d14per16q1-Dd1e3781">
+          <head xml:id="atv-l1d14per16q1-Hd1e3783">Ad argumenta principalia</head>
+          <p xml:id="atv-l1d14per16q1-d1e3786">Ad primum dico quod <name>Magister</name> in verbis illis non accipit dationem et
+            processionem pro datione eterna, sed pro temporali, ut patet per eum in principio
+            distinctionis 16. Et isto modo cuilibet persone divine convenit quod alia procedat ab
+            ea, ipso dicens ubi supra quod Spiritus Sanctus a Patre et Filio ac se ipso duobus modi
+            procedere sive mitti, sive dari, sive uno modo visibiliter, alio modo invisibiliter.</p>
+          <p xml:id="atv-l1d14per16q1-d1e3792">Secundam rationem concedo concludere de missione secundo modo de qua nunc loquimur.</p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>
