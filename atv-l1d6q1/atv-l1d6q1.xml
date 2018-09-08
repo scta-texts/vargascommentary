@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber I, distinctio 6, quaestio unica</title>
+        <author>Alphonsus Toletanus Vargas</author>
+        <editor>Luciana Cioca</editor>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <name>Luciana Cioca</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-11-08">November 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://www.thesis-project.ro/">ERC-THESIS project n° 313339</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="Venice1490">Venice1490</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <variantEncoding method="parallel-segmentation" location="internal"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"> </schemaRef>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-11-08" who="#LC" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="87-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="atv-l1d6q1"> 
+        <head xml:id="atv-l1d6q1-Hd1e115">Liber I, distinctio 6, questio unica</head>
+        <p xml:id="atv-l1d6q1-d1e118">Preterea queri solet etc. Circa distinctionem istam sextam <name>Magister</name> inquirit utrum Pater genuit Filium voluntate an necessitate. Et, quia questionem istam multum pulchre pertractat in littera, dimitto eam, et iuxta materiam istius imperscrutabilis generationis quero utrum in divinis possunt esse plures Filii. </p>
+        <p xml:id="atv-l1d6q1-d1e124">Et videtur primo quod sic, quia Filius potest generare dicente <name>beato Augustino</name> <title>Contra Maximinum</title>, libro III, capitulo 13, quod “Filius non genuit non quia non potuit, sed quia non oportuit”, ergo potuit, sed non potest generare se Filium, quia nulla res est que se ipsam gignet, ut sit I <title>De Trinitate</title>, capitulo 1, igitur alium Filium. Quo posito sequitur quod in divinis possunt esse plures Filii.</p>
+        <p xml:id="atv-l1d6q1-d1e136">Contra: in divinis non sunt plures Filii, igitur nec esse possunt. Antecendes est fidei et consequentia est bona, quia in divinis ad intra quicquid est possibile est necessarium; ergo etc.</p>
+        <p xml:id="atv-l1d6q1-d1e139">Respondeo. In ista questione erunt quattuor articuli. In primo ponam dubitationis materiam et occasionem, in secundo quadruplicem est conclusionem. Tertio movebo dubia et quarto respondebo.</p>
+        
+        <div xml:id="atv-l1d6q1-Dd1e143" type="articulus">
+          <head xml:id="atv-l1d6q1-Hd1e145">Primus articulus</head>
+          <p xml:id="atv-l1d6q1-d1e148">Quantum ad primum articulum duo sunt que possunt aliquem movere ad credendum quod in divinis possunt esse plures Filii. Primum, si crederet quod Pater potest alium Filium generare. Secundum, si crederet quod Filius vel Spiritus Sanctus possunt generare, quia quocumque istorum dato sequitur quod possunt esse plures Filii. </p>
+          <p xml:id="atv-l1d6q1-d1e151">Et hec de primo.</p>
+        </div> 
+        
+        <div xml:id="atv-l1d6q1-Dd1e155" type="articulus">
+          <head xml:id="atv-l1d6q1-Hd1e157">Secundus articulus</head>
+          <p xml:id="atv-l1d6q1-d1e160">Quantum ad secundum articulum, quia Filius non posset generare nisi esset in eo potentia generandi quibusdam videtur necessario sequi quod possit generare, quod non reputo esse bene dictum. </p>
+          
+          <div xml:id="atv-l1d6q1-Dd1e163">
+            <head xml:id="atv-l1d6q1-Hd1e165"><supplied>Conclusio prima</supplied></head>
+            <p xml:id="atv-l1d6q1-d1e169">Idcirco prima conclusio est quod potentia generandi est in Filio. Ista conclusio patet ex his que dicta fuerunt distinctione quarta. </p>
+            <p xml:id="atv-l1d6q1-d1e172">Potest tamen confirmari primo sic: omnis potentia que est in Patre est in Filio, aliter Filius non esset omnipotens sicut Pater, sed potentia generandi est aliqua potentia et est in Patre, quia, si Pater non haberet potentiam generandi, non esset omnipotens, ut patet per <name>beatum Augustinum</name> <title>Contra Maximinum</title>, libro III, capitulo 7; ergo etc.</p>
+            <p xml:id="atv-l1d6q1-d1e181">Secundo sic: sicut patet per <name>Magistrum</name> in littera, distinctione 7: “eadem est potentia per quam Pater potest generare et per quam Filius potest generari”, sed potentia per quam Filius potest generari est in Filio, igitur et illa per quam Pater potest generare erit in Filio.</p>
+            <p xml:id="atv-l1d6q1-d1e187">Tertio sic: perfectio simpliciter est communis tribus personis, sed potentia generandi in divinis est perfectio simpliciter, ut patet per <name>Hylarium</name> IV <title>De Trinitate</title>, ubi ex immensa perfectione Filii probat quod potentia generandi sit infinita perfectio. Infinita autem perfectio est perfectio simpliciter et per ea que dicta sunt super quarta distinctione; ergo etc.</p>
+            <p xml:id="atv-l1d6q1-d1e197">Et potest ulterius confirmari, quia non minoris perfectionis est potentia productiva Dei et creatoris, sicut tangebatur ibidem, quam sit potentia productiva creature, sed potentia productiva creature est perfectio simpliciter, licet actualis productio ipsarum non dicat perfectionem simpliciter. Hoc patet, quia, si Deus non haberet potentiam creandi, non esset omnipotens, nec per consequens simpliciter esset universaliter perfectus, ita potentia productiva Dei et creato-
+              <pb ed="#V" n="87-r"/>
+              <cb ed="#V" n="b"/>
+              -ris est perfectio simpliciter, sed potentia generandi in divinis est potentia productiva Filii, ut patet ex quarta distinctione qui est vere Deus et creator; ergo etc.</p>
+            <p xml:id="atv-l1d6q1-d1e204">Sed forte dicetur quod Filius non est genitus a Patre inquantum Deus, nec ratione deitatis, sed solum inquantum Filius et ratione filiationis et, quia filiatio non dicit perfectionem simpliciter, ideo non oportet quod potentia generandi que tantum est productiva Filii, ut Filius est sit perfectio simpliciter. Hec autem evasio, si daretur, non tolleret rationem. </p>
+            <p xml:id="atv-l1d6q1-d1e207">Primo, quia contradicit dictis <name>Hylarii</name> et his que ex dictis <name>beati Augustini</name> et <name>Magistri</name> deducta fuerunt super quartam distinctionem. </p>
+            <p xml:id="atv-l1d6q1-d1e219">Secundo, quia, licet Filius non sit genitus ratione deitatis sic quod deitas sit genita vel producta, est tamen in Filio per actum generationis vere communicata, quia quicquid habet Filius nascendo accepit secundum <name>Augustinum</name>, sed deitas non posset communicari Filio per actum generationis nisi potentia generandi sit perfectio simpliciter infinita; igitur etc.</p>
+            <p xml:id="atv-l1d6q1-d1e225">Tertio, quia non est bona consequentia. Terminus productus non dicit perfectionem simpliciter, igitur nec potentia productiva, quia constat quod essentia creature utputa lapidis vel asini non est perfectio simpliciter et tamen potentia productiva ipsius est perfectio simpliciter et potest sic reduci ratio. Potentia productiva creature est perfectio simpliciter non obstante quod creatura productiva non sit perfectio simpliciter, igitur multo magis potentia productiva Dei et creatoris erit perfectio simpliciter etiam supposito quod terminus productus non dicat perfectionem simpliciter, igitur evacuatio nulla, et per consequens huiusmodi potentia vere est in Filio.</p>
+            <p xml:id="atv-l1d6q1-d1e228">Et confirmatur, quia potentia generandi Deo Patri est essentia vel natura divina, ut declarabitur questione sequenti, igitur vere et realiter communicatur Filio. Et hec est expressa sententia <name>Magistri</name>, distinctione sequenti, et ideo pertranseo.</p>
+          </div> 
+          
+          <div xml:id="atv-l1d6q1-Dd1e235">
+            <head xml:id="atv-l1d6q1-Hd1e237"><supplied>Conclusio secunda</supplied></head>
+            <p xml:id="atv-l1d6q1-d1e241">Secunda conclusio est quod Filius in divinis non potest generare. Ista conclusio communis est omnibus, sed modus probandi eam est difformis, quia quidam dicunt…</p>
+            
+            <div xml:id="atv-l1d6q1-Dd1e244">
+              <head xml:id="atv-l1d6q1-Hd1e246"><name>Sanctus Thomas</name> parte prima, questione 41, articulo 6</head>
+              <p xml:id="atv-l1d6q1-d1e251">…quod Filius non potest generare, quia potentia generandi non est in eo, sed isti deficiunt in supposito, ut patet ex conclusione precedenti. Et ideo quidam alii probant dictam conclusionem quadrupliciter. </p>
+              <p xml:id="atv-l1d6q1-d1e254">Primo ex parte relationum quibus persone divine distinguuntur, quia, cum persone divine sint ipse relationes subsistentes, non possent esse plures patres in divinis, nec plures filii nisi essent plures paternitates et plures filiationes. Hoc autem esse non posset nisi secundum eorum materialem distinctionem, quia forme unius speciei non multiplicantur nisi secundum materiam que non est in divinis unde in divinis non potest esse nisi una tantum filiatio per se subsistens, sicut albedo subsistens non posset esse nisi una.</p>
+              <p xml:id="atv-l1d6q1-d1e257">Secunda ex parte processionum, quia Deus omnia intelligit et vult uno simplici actu unde non potest esse nisi una persona procedens per modum verbi que est Filius et una per modum amoris que est Spiritus Sanctus.</p>
+              <p xml:id="atv-l1d6q1-d1e260">Tertio ex modo procedendi, quia persone divine procedunt naturaliter. Natura autem determinatur ad unum.</p>
+              <p xml:id="atv-l1d6q1-d1e264">Quarto ex perfectione divinarum personarum est hoc est perfectus Filius, quia tota filiatio divina in eo continetur et quod est unus tantum Filius. Sed, licet conclusio sit vera et omnino tenenda, iste tamen rationes non concludunt.</p>
+            </div>
+            
+            <div xml:id="atv-l1d6q1-Dd1e268">
+              <head xml:id="atv-l1d6q1-Hd1e270">Contra <name>Sanctum Thomam</name></head>
+              <p xml:id="atv-l1d6q1-d1e275">Non quidem prima, quia non concludit nisi forte deformis eductis de potentia materie cuiusmodi non est filiatio in divinis. Assumptum probatur primo auctoritate trium articulorum condemnatorum parisius, quorum primus dicit quod quia intelligentie non bene materiam Deus non posset facere plures eiusdem speciei error. </p>
+              <p xml:id="atv-l1d6q1-d1e278">Secundus di-
+                <pb ed="#V" n="87-v"/>
+                <cb ed="#V" n="a"/>
+                -cit quod Deus non possit multiplicare individua sub una specie sine materia error.</p>
+              <p xml:id="atv-l1d6q1-d1e285">Tertius dicit quod forme non recipiant divisionem nisi per materiam error nisi intelligatur de formis eductis de potentia materie.</p>
+              <p xml:id="atv-l1d6q1-d1e288">Hoc idem secundo probatur ratione, quia Deus potest creare plures animas rationales separatas, sicut et plures angelos, et tamen constat quod anime rationales omnes sunt in eadem specie quicquid sit de angelis et carent materia etiam secundum eos. Nec valet si dicatur quod hoc esset ex respectu vel habitudine ad corpus propter duo. </p>
+              <p xml:id="atv-l1d6q1-d1e292">Primo, quia anime sic create cum non sint nec fuerint in corpore non videntur habere respectum, nec habitudinem ad corpus. </p>
+              <p xml:id="atv-l1d6q1-d1e295">Secundo, quia respectus nunquam distinguitur suum fundamentum, immo presupponit ipsum esse distinctum in creaturis.</p>
+              <p xml:id="atv-l1d6q1-d1e298">Secunda ratio etiam non valet. Nam si non potest esse nisi una persona procedens per modum verbi et una per modum amoris, quia Deus omnia intelligit et vult uno simplici actu, sequitur quod in divinis non sunt due persone producte, sed una tantum, quia, si ex unitate actus concluditur unitas persone producte per actum, cum actus intelligendi et volendi in Deo non sint duo actus, sed unus simplex et indistinctus omnino ex parte rei etiam per eum, non poterit esse nisi una persona producta per illum actum. Nec valet si dicatur quod actus intelligendi et volendi in Deo distinguuntur ratione, licet sint idem realiter; et ideo erunt due persone producte, quia productio personarum in divinis precedit omnem distinctionem rationis, igitur earum distinctio non potest concludi ex distinctione rationis. Et confirmatur, quia ex distinctione rationis in principiis productis non potest concludi nisi distinctio rationis in principiatis, licet aliquando forte possit esse realis, igitur ex distinctione rationis inter actum intelligendi et volendi non potest concludi nisi distinctio rationis inter Filium et Spiritum Sanctum. Et ulterius, si distinctio rationis in actu productivo sufficit ad realem distinctionem predictorum, dicetur ei quod actus intelligendi in Patre secundum rationem distinguuntur ab actu intelligendi in Filio vel Spiritu Sancto. Poterit igitur Filius vel Spiritus Sanctus per actum intelligendi producere verbum non obstante simplicitate et unitate realis actus predicti.</p>
+              <p xml:id="atv-l1d6q1-d1e301">Tertia ratio non concludit, quia vel intelligit quod natura sit determinata ad unum productibile numero, vel ad unum modum producendi. Si detur primum, falsum est quod assumitur, quia oppositum patet etiam in natura limitata. Videmus enim quod unus ignis per naturam suam potest plures ignes producere. Si detur secundum, in divinis non esset duo modi procedendi, sed unus cuius oppositum iste doctor intelligit et fides.</p>
+              <p xml:id="atv-l1d6q1-d1e304">Quarta ratio etiam non concludit, quia ita potest dici quod ex hoc est perfectum productivum in divinis, quia tota productio divina continetur in eo et qui est unum tantum, et sic non essent due persone producte, sed una tantum. Et ideo diceretur quod, si in divinis essent plures Filii, non essent magis perfecti quam unus tantum sicut nec plures persone sunt magis perfecte quam una tantum.</p>
+              <p xml:id="atv-l1d6q1-d1e307">Et ideo quidam alii noviores…</p>
+            </div>
+            
+            <div xml:id="atv-l1d6q1-Dd1e311">
+              <head xml:id="atv-l1d6q1-Hd1e313"><name>Ockham</name> in I, distinctione 3, questione 3, articulo 3</head>
+              <p xml:id="atv-l1d6q1-d1e318">…dicunt quod magis tenendum est propter auctoritatem Sacre Scripture quod Filius non possit generare quod propter rationem. Adducunt autem tres rationes. </p>
+              <p xml:id="atv-l1d6q1-d1e321">Prima est quod impossibile est in eodem fundamento esse plures relationes omnino eiusdem rationis nisi per diversitatem absolutorum in creaturis. Patet inductive, ut dicunt, sed in divinis non sunt diversa absoluta, igitur nec diverse tales relationes, scilicet diverse filiationes vel diverse paternitates.</p>
+              <p xml:id="atv-l1d6q1-d1e324">Preterea, idem agens et producens naturale et totale de eodem non potest producere nisi unum unius rationis, nec esse principium productivum nisi unius et eiusdem rationis omnino, igitur essentia non potest esse tale productivum plurium personarum filiorum.</p>
+              <p xml:id="atv-l1d6q1-d1e327">Preterea, quando aliqua sunt omnino eiusdem rationis nihil est compossibile uni quin aliquid simile sit compossibile al-
+                <pb ed="#V" n="87-v"/>
+                <cb ed="#V" n="b"/>
+                -teri, sicut nihil est compossibile isti calori quin aliquid sit vel fuerit compossibile alteri eiusdem rationis, sed, si Filius generaret, tunc illi paternitati esset compossibilis filiatio, igitur alia filiatio esset compossibilis primo Patri vel prime paternitati; et per consequens primus Pater esset Filius, quod est impossibile, quia non esset tunc primus Pater.</p>
+            </div>
+            
+            <div xml:id="atv-l1d6q1-Dd1e336">
+              <head xml:id="atv-l1d6q1-Hd1e338">Ad rationes <name>Ockham</name></head>
+              <p xml:id="atv-l1d6q1-d1e343">Sed nec iste rationes concludunt. </p>
+              <p xml:id="atv-l1d6q1-d1e346">Non quidem primo, quia multis videtur quod plures relationes omnino eiusdem rationis etiam in creaturis possunt esse in eodem fundamento sine aliqua diversitate absolutorum, sicut plures similitudines in eodem albo respectu diversorum eiusdem rationis et etiam plures paternitates in eodem Patre respectu diversorum filiorum. Sed, quia forte dicetur quod huiusmodi relationes non sunt alie res a rebus absolutis vel quod eadem paternitate non diversis, idem Pater refertur ad filios plures, et sic de similitudine de qua alias. Idcirco contra maiorem istam arguo ex dictis suis. </p>
+              <p xml:id="atv-l1d6q1-d1e349">Primo sic: non est maior repugnantia plures relationes omnino eiusdem rationis esse in eodem fundamento quam plura accidentia absoluta omnino eiusdem rationis esse simul omnino in uno subiecto. Patet de se, sed per eum in eadem questionem in eadem voluntate sunt multi habitus omnino eiusdem rationis absque diversitate diversorum absolutorum, quia voluntas, ut dicit, simul diversis habitibus afficitur ad diversa etiam obiecta eiusdem speciei et per hoc probat quod forme unius speciei non necessario multiplicantur secundum <choice><sic>numerum</sic><corr>materiam</corr></choice>; ergo etc.</p>
+              <p xml:id="atv-l1d6q1-d1e358">Preterea, non sunt magis incompossibiles relationes eiusdem rationis quam relationes opposite, sicut etiam in absolutis non sunt magis incompossibiles due forme eiusdem rationis quam due forme opposite, ut patet de albedine et nigredine et duabus albedinis, sed tamen incompossibilitate non absolute in divinis plures relationes opposite sunt in eodem fundamento absque diversitate absolutorum per eum; igitur et plures relationes eiusdem rationis poterunt etc. Et confirmatur, quia vel intelligit quod impossibile sit etc solum de facto et secundum ordinem qui nunc est vel de potentia Dei absoluta. Si primo modo, nihil concludit, quia hoc non obstante Deus poterit oppositum de potentia sui absoluta, et per consequens non sequitur propter hoc quod Filius non possit generare. Si secundo modo, non videtur verum, quia, si ponatur in esse, non sequitur aliqua contradictio. Et ulterius, si ponantur modi absoluti in divinis, ut asserit doctor noster <name>Iacobus de Viterbio</name>, minor assumpta non erit vera. Tales tamen modo reputat impossibiles.</p>
+              <p xml:id="atv-l1d6q1-d1e365">Secunda ratio etiam non valet, quia maior est falsa. Videmus enim quod idem ignis numero per unum et eundem calorem potest producere plures ignes eiusdem rationis et tamen constat quod est agens naturale et totale supposita Dei influentia generali. Et confirmatur, quia vel repugnat principio productivo naturali et totali producere plura eiusdem rationis, vel quia principium totale, vel quia naturale. Non quia totale, quia constat quod essentia divina potest esse principium productivum totale plurium creaturarum eiusdem rationis. Nec quia naturale per eum in eadem questione. </p>
+              <p xml:id="atv-l1d6q1-d1e368">Respondendo. Ad tertiam rationem scit <name>Homer</name>. Arguebat enim <name>Sanctus Thomas</name> sic: “persone divine procedunt naturaliter, nam autem determinatur ad unum”. Ad hoc respondet dicens quod ex hoc non sequitur nisi quod Filius necessario producatur non quia plures Filii non producantur, quia natura sine omni diversitate potest in plura. Ideo patet per eum quod non repugnat eidem principio naturali producere plura omnio eiusdem rationis.</p>
+              <p xml:id="atv-l1d6q1-d1e377">Tertia ratio nihil concludit, quia per eam probaretur quod nullus filiorum Adae potuit generare, quia, si aliquis filiorum Adae generavit, illius paternitati fuit compossibilis filiatio, igitur per rationes illam alia filiatio fuit compossibilis paternitati ipius Adae; et per consequens primus Pater inter omnes esset Filius, quod est impossibile, quia tunc non esset primus Pater. Et ideo quamvis aliqua sint eiusdem rationis et nihil est compossibile uni, quia non repugnet alteri inquantum tale, potest tamen aliquid esse compossibi-
+                <pb ed="#V" n="88-r"/>
+                <cb ed="#V" n="a"/>
+                -le uni et repugnare alteri ratione alicuius adiuncti, sicut in proposito, quia, licet filiatio non repugnet primo homini, quia Pater vel inquantum Pater, quia tunc repugnaret omni Patri. Repugnat tamen sibi inquantum primus Pater et sic suo modo diceretur in divinis, et sic ratio sua nulla.</p>
+              <p xml:id="atv-l1d6q1-d1e384">Dimissis igitur huiusmodi rationibus aliter posset declarari propositum pro cuius declaratione premitto aliquas propositiones. </p>
+              <p xml:id="atv-l1d6q1-d1e387">Prima est quod potentia generandi in divinis non est potentia respectu generationis active, sed solum respectu termini producti vel generati. Hoc patet, quia omnis potentia que sic est productiva termini que non est elicitiva actus, sic est potentia respectu termini producti quod tamen non est potentia respectu actus, sed potentia generandi in divinis sic est productiva termini quod non est elicitiva generationis active, ut patet ex hiis que dicta sunt super quarta distinctione, ergo. </p>
+              <p xml:id="atv-l1d6q1-d1e390">Secunda est quod quicquid habet Filius accepit a Patre. Hec est <name>beati Augustini</name> V <title>De Trinitate</title>, capitulo 35, dicens quod “quicquid habet Filius nascendo accepit”. </p>
+              <p xml:id="atv-l1d6q1-d1e400">Tertia est quod Filius non accepit a Patre illud in quo opponitur Patri. Hec patet, quia quicquid Filius accepit a Patre est idem Filio. Sed nihil in quo Filius opponitur Patri est idem Filio, igitur nihil in quo Filius oponitur Patri Filius accepit a Patre. </p>
+              <p xml:id="atv-l1d6q1-d1e403">Quarta est: Pater non communicat Filio generationem activam. Hec sequitur ad precedentem, quia generatio activa opponitur passive, et per consequens Pater generatione activa opponitur Filio de cuius ratione est generatio passiva, sed Filius non accepit a Patre in quo opponitur ei, ut patet in propositione precedenti; igitur.</p>
+              <p xml:id="atv-l1d6q1-d1e406">Quinta est quod Filius non habet generationem activam nec potest eam elicere. Ista propositio quantum ad primam partem patet, quia quicquid habet Filius accepit a Patre, ut patet ex secunda, sed generationem activam non accepit a Patre, ut patet ex quarta. Quantum ad secundam partem etiam patet, quia illud suppositum non potest elicere generationem activam in quo non est potentia generationis active. Oppositum predicati infert oppositum subiecti, sed in Filio non est potentia respectu generationis active, quia, si sic, hec esset potentia generandi. Hec autem non est potentia respectu generationis active, ut patet ex prima propositione, cum sic sit productiva termini quod non sit elicitiva actus; ergo.</p>
+              <p xml:id="atv-l1d6q1-d1e409">Ex istis videtur sequi conclusio principalis, scilicet quod Filius in divinis non potest generare, licet in ipso sit potentia generandi. Hec patet, quia illud non potest generare quod non habet generationem activam, nec potest causa elicere. Patet ex terminis, sed Filius in divinis non habet generationem activam, nec potest eam elicere non obstante quod in ipso sit perfecta potentia generandi, ut patet, ergo. Ideo tota ratio quare Filius non potest generare, licet in ipso potentia generandi est, quia non habet generationem activam sine qua non est possibilis generatio nec potest eam elicere et idem omnino est dicendum de Spiritu Sancto. </p>
+            </div>
+          </div>
+          
+          <div xml:id="atv-l1d6q1-Dd1e414">
+            <head xml:id="atv-l1d6q1-Hd1e416"><supplied>Conclusio tertia</supplied></head>
+            <p xml:id="atv-l1d6q1-d1e420">Tertia conclusio est quod Pater in divinis non potest alium Filium generare. Istam conclusionem quidam...</p>
+            
+            <div xml:id="atv-l1d6q1-Dd1e423">
+              <head xml:id="atv-l1d6q1-Hd1e425"><name>Aureolus</name> in I, distinctione 7, questione 2, articulo 3</head>
+              <p xml:id="atv-l1d6q1-d1e430">…deducunt dicens quod precise ratio quare Pater non potest generare alium Filium et quare Filius in divinis non potest multiplicari est, quia filiatio est tota natura et tota quantitas subsistens, sicut deitas est tota natura et tota quantitas subsistens, et ideo multiplicari non potest. </p>
+              <p xml:id="atv-l1d6q1-d1e433">Et confirmatur sic: nulla res que est tota natura et tota quantitas subsistens potest plurificari, sed filiatio in Deo est tota natura et tota quantitas subsistens et similiter paternitas et spiratio; ergo. Probatur minor.</p>
+              <p xml:id="atv-l1d6q1-d1e436">Primo, quia quicquid recipitur in aliquo recipitur per modum recipientis, ut dicit <name>Commentator</name> III <title>De anima</title>, commento 8, sed filiatio paternitas et spiratio recipiuntur in divinitate et divinitas non est particularis res, sed natura simpliciter et quantitas tota subsistens; igitur quelibet istarum proprie totum est quantitas simpliciter et nullo modo particu-
+                <pb ed="#V" n="88-r"/>
+                <cb ed="#V" n="b"/>
+                -laris res.</p>
+              <p xml:id="atv-l1d6q1-d1e449">Secundo: idem apparet per simile in anima nostra. Anima enim se ipsam dicens et in esse conspicuo ponens non est dubium quod sistit. Non enim illud esse conspicuum ponit se in alio et sic in infinitum. Multo ergo fortius Pater se ipsum dicendo sistit in uno verbo, quod non esset si esset aliqua particularis res, igitur est tota entitas subsistens.</p>
+            </div>
+            
+            <div xml:id="atv-l1d6q1-Dd1e453">
+              <head xml:id="atv-l1d6q1-Hd1e455">Contra <name>Aureolum</name></head>
+              <p xml:id="atv-l1d6q1-d1e460">Sed illa ratio non concludit. </p>
+              <p xml:id="atv-l1d6q1-d1e463">Primo, quia, si ratio esset bona, sequeretur quod persona non posset in divinis multiplicari, quod est falsum. Consequentia patet arguendo sic: nulla res que est tota natura et tota quantitas subsistens potest plurificari. Persona in divinis est huiusmodi secundum eum; ergo etc.</p>
+              <p xml:id="atv-l1d6q1-d1e466">Secundo, quia quod non est omnis entitas, nec continet omnem entitatem formaliter, nec virtualiter, non est tota entitas subsistens, sed filiatio non est etc, quia non est paternitas, nec continet paternitatem formaliter, nec virtualiter; ergo etc. Nec valet si dicatur quod filiatio est omnis entitas formaliter vel eminentis non quia est filiatio, sed quia est essentia, quia, si sic dicatur, non sequitur nisi quod Filii in divinis non possunt plurificari in divinitate, quod non est ad propositum. Nec rationes sue concludunt. </p>
+              <p xml:id="atv-l1d6q1-d1e469">Non quidem prima, quia per eam probaretur quod filiatio esset perfectior simpliciter et ad se et non ad aliud et quicquid verificatur de divinitate. Si maior sit universalis arguendo sic: quicquid recipitur in aliquo recipitur per modum recipientis, sed filiatio secundum eum recipitur in divinitate et deitas est perfectio simpliciter et ad se et non ad aliud, et sic de aliis, igitur et filiatio. Si vero maior sit particularis patet quod nihil probatur.</p>
+              <p xml:id="atv-l1d6q1-d1e473">Nec secunda propter duo. Primo, quia falsum est quod assumitur, ut in tertia distinctione fuit declaratum. Secundo, quia, si esset verum, esset contra eum, quia, si talis supposita intentionalia essent possibilia in eis, procederetur in infinitum, ut in eadem distinctione fuit ostensum.</p>
+              <p xml:id="atv-l1d6q1-d1e476">Dimisso ergo isto modo dicendi et aliis quam plurimis videtur mihi quod tota ratio quare Pater non potest generare alium Filium est, quia potentia generandi in ipso est coniuncta actui sibi totaliter adequato, et ideo isto stante non potest in alium. Et potest sic ratio formari: potentia generandi in Patre est coniuncta actui generationis sibi totaliter adequato et semper stante, igitur Pater non potest nisi unum solum Filium generare. Antecedens patet, quia, si actus generationis in Patre non esset adequatus potentie generandi, id est Filius genitus non esset adequatus Patri in omnibus et, si non semper staret Filius, posset non esse, quorum quodlibet est impossibile. Consequentia probatur, quia, si Pater posset alium Filium generare, vel per istum actum, vel per alium. Non per alium, quia isto stante non potest habere alium, aliter iste non esset adequatus nec per istum, quia vel producti Filii essent equales Patri, vel non. Si non, non essent dii, quod est impossibile. Si sic, quilibet eorum adequaretur illi actui, et per consequens idem actus generandi haberet duos per se terminos, quorum quilibet esset ei adequatus, quod est impossibile.</p>
+            </div>
+          </div>
+          
+          <div xml:id="atv-l1d6q1-Dd1e482">
+            <head xml:id="atv-l1d6q1-Hd1e484"><supplied>Conclusio tertia</supplied></head>
+            <p xml:id="atv-l1d6q1-d1e488">Quarta conclusione est quod in divinis non possunt esse plures Filii. Et hoc sequitur ex precedentibus, quia nec Pater potest alium Filium generare, ut patet ex conclusione statim deducta, nec Filius, nec Spiritus Sanctus, ut patet ex illa; igitur etc. </p>
+            <p xml:id="atv-l1d6q1-d1e491">Et hoc de secundo.</p>
+          </div>
+        </div>
+        
+        <div xml:id="atv-l1d6q1-Dd1e496" type="articulus">
+          <head xml:id="atv-l1d6q1-Hd1e498">Tertius et quartus articulus</head>
+          <p xml:id="atv-l1d6q1-d1e501">Quantum ad tertium et quartum articulum simul movenda et dissolvenda sunt dubia contra conclusiones istas. Et primo contra primam conclusionem quidam doctor…</p>
+          
+          <div xml:id="atv-l1d6q1-Dd1e504">
+            <head xml:id="atv-l1d6q1-Hd1e506"><name>Garro</name> in I, distinctione 7, questione 3, articulo 1</head>
+            <p xml:id="atv-l1d6q1-d1e511">…arguit ex secunda sic: Filius non potest generare, ergo potentia generandi non est in ipso. Antecedens est secunda conclusio mea et consequentiam probat multipliciter. </p>
+            <p xml:id="atv-l1d6q1-d1e514">Primo sic: ratio potentie accipitur per comparationem ad actum, sicut ratio paternitas per comparationem ad filiationem, sed tollere comparationem paternitatis ad filiationem est destruere rationem potentie, igitur, si in Filio non esset possibilitas ad actum generationis nec potentia generadi, vel si est in ipso potentia 
+              <pb ed="#V" n="88-v"/>
+              <cb ed="#V" n="a"/> 
+              generandi erit in ipso possibilitas etc.</p>
+            <p xml:id="atv-l1d6q1-d1e521">Preterea, <name>Commentator</name> I <title>Celo et mundo</title>, capitulo 13, dicit quod “natura fecisset ens ociosum si esset sine actione”. Et in II, capitulo 58, dicit quod “natura fecisset frustra stellas mobiles si non dedisset eis instrumenta per que possent moveri”. Ex hoc arguitur sic: si potentia generandi esset in Filio et non posset exire in actum, tunc esset ibi frustra, ut patet ex dictis, sed hoc est absurdum; igitur etc.</p>
+            <p xml:id="atv-l1d6q1-d1e530">Preterea, <name>Philosophus</name> IV <title>Physicorum</title> dicit quod, si non est numerans, tamen potest esse numerabile tamen si impossibile est esse numerabile, impossibile est quod sit numerans, igitur eadem ratione, licet potentia possit fieri sine actu tamen si impossibile est esse actum, impossibile est esse potentiam, sed per me potentia non potest exire in actum; ergo etc.</p>
+            <p xml:id="atv-l1d6q1-d1e540">Preterea, potentia non includit alium respectum formaliter ad complementum potentie nisi respectum ad actum removere, ergo a potentia talem respectum est destruere ipsum; ergo etc.</p>
+            <p xml:id="atv-l1d6q1-d1e543">Preterea, ad idem potest sic argui, secundum <name>Augustinum</name> VII <title>De Trinitate</title>, capitulo 1: “sicut se habet essentia ad esse, ita potentia ad posse et sapientia ad sapere”, sed in quocumque est essentia illud habet esse et in quocumque est sapientia illud habet sapere, igitur in quocumque est potentia, illud habet posse, sed in Filio per me est potentia generandi, igitur poterit generare.</p>
+          </div>
+          
+          <div xml:id="atv-l1d6q1-Dd1e553">
+            <head xml:id="atv-l1d6q1-Hd1e555">Responsio ad rationes <name>Garronis</name></head>
+            <p xml:id="atv-l1d6q1-d1e560">Pro solutione istarum rationum distinguo de potentia, quia quedam est potentia in ordine ad actum et ad terminum productum et quedam solum in ordine ad terminum, sed non in ordine ad actum. Ista distinctio patet ex precedentibus, quia potentia elicitiva sui actus dicitur potentia in ordine ad actum et ad terminum productum. Potentia vero que non est elicitva actus, sed productiva termini sic est potentia in ordine ad terminum quod non est potentia in ordine ad actum. De prima loquuntur philosophi communiter, non de secunda, quia potentia secundo modo dicta non reperitur in creaturis.</p>
+            <p xml:id="atv-l1d6q1-d1e563">His premissis dico ad primum quod, licet ratio potentie primo modo sumpte accipiatur per comparationem ad actum, non tamen ratio potentie secundo modo dicte; et talis est potentia in divinis cum non sit elicitiva generationis active.</p>
+            <p xml:id="atv-l1d6q1-d1e566">Ad secundum dico quod potentia generandi est ipsamet essentia divina, ut declarabitur questione sequenti, et ideo non est frustra in Filio, quia, licet non possit exire in actum generationis, quia non est in ipso coniuncta generationi active, nec potest eam elicere, dat tamen sibi esse divinum, ut per ipsam potest exire in actum creationis, igitur non est in eo frustra nec sine omni actione, nec natura humana esset frustra in Socrate et sine omni actione posito quod Socrate non possit generare. Et ideo patet quod auctoritates non sunt ad propositum. Non quidem prima, quia potentia generandi in Filio non est sine omni actione, nec secunda, quia mobilitas solum ordinatur ad motum, et ideo frustra esset in steliis nisi possent moveri. Essentia autem divina que est potentia generandi non solum ordinatur ad actum generationis.</p>
+            <p xml:id="atv-l1d6q1-d1e569">Ad tertium patet quod procedit de potentia primo modo sumpta, quia talis ordinatur ad actum sicut numerans ad numerabile.</p>
+            <p xml:id="atv-l1d6q1-d1e573">Ad quartum eodem modo, quia potentia secundo modo dicta non includit respectum ad actum, igitur rationes equivocatur de potentia.</p>
+            <p xml:id="atv-l1d6q1-d1e576">Ad quintum etiam dico quod <name>beatus Augustinus</name> loquitur de potentia primo modo, quia illa se habet ad agere sicut essentia ad esse et sapientia ad sapere, et ideo non est ad propositum. </p>
+            <p xml:id="atv-l1d6q1-d1e582">Contra secundam conclusionem posset argui ex prima sicut contra primam argutum fuit ex ipsa. Verum, quia ad hoc patet quid dicendum. Posset aliter argui primo per argumentum Maximini heretici et ponitur in littera distinctionis sequenti. Queritur si Filius non posset generare Pater esse potentior eo. Consequens est erroneum, igitur et antecedens. Consequentia probatur, quia stante supposito Pater potest quicquid potest Filius et potest aliquid quod non potest Filius, quia Pater potest generare, Filius autem non; ergo etc.</p>
+            <p xml:id="atv-l1d6q1-d1e585">Et confirmatur, quia plus est posse generare Filium quam posse creare mundum, sed, si Filius non posset creare mundum, non 
+              <pb ed="#V" n="88-v"/>
+              <cb ed="#V" n="b"/>  
+              esset omnipotens, igitur multo fortius si non posset generare Filium non erit omnipotens, et per consequens Pater erit omnipotentior ipso; ergo etc.</p>
+            <p xml:id="atv-l1d6q1-d1e592">Item cuicumque persone communicatur generatio activa, illa potest generare, sed Filio communicatur; ergo. Maior patet, tum quia in quocumque est generatio activa illud potest generare, tum quia per me tota causa quare Filius non potest generare est, quia non habet generationem activam nec potest eam elicere. Minor probatur, quia, si generatio activa non communicaretur Filio, aut hoc esset, quia in Filio esset opposita relatio, aut quia de se esset incommunicabilis. Si detur primum, sequitur quod communicaretur Spiritui Sancto, cum in ipso non sit opposita relatio, et per consequens Spiritus Sanctus posset generare et si Spiritus Sanctus et Filius, quod est propositum. Si detur secundum, pari ratione spiratio activa esset de se incommunicabilis, quod est erroneum. Consequentia patet, quia non videtur quod plus repugnet generationi active de se communicari quam spirationi active; ergo etc.</p>
+            <p xml:id="atv-l1d6q1-d1e595">Preterea, illud non est negandum a Filio in creato quod est signum perfectionis in creato, aliter Filius increatus non esset simpliciter et universaliter perfectus, quod est evidenter falsum. Sed posse generare est signum perfectionis in Filio quocumque creato, quia secundum <name>Philosophum</name> “signum perfectionis est posse generare vel producere sibi simile’. Tunc enim unumquodque perfectum esse dicimus etc; igitur etc.</p>
+            <p xml:id="atv-l1d6q1-d1e602">Preterea, in omni perfecta intellectione debet emanare verbum, sed constat quod intellectio Filii est perfecta, immo perfectissima, igitur Filius intelligendo producet verbum, et per consequens generabit Filium. Et confirmatur, quia Pater intelligendo se producit verbum, cum igitur ita perfectum intelligere sit in Filio sicut in Patre; sequitur quod Filius intelligendo se producet verbum. Et similiter potest argui de Spiritu Sancto.</p>
+            <p xml:id="atv-l1d6q1-d1e605">Istis tamen et similibus sophismatibus non obstantibus dicendum est absolute quod Filius non potest generare, quia, si sic, pari ratione et Filius Filii posset generare, et sic in infinitum, quod est impossibile, sicut deducit <name>beatus Augustinus</name> <title>Contra Maximinum</title> libro III, capitulo 13.</p>
+            <p xml:id="atv-l1d6q1-d1e614">Ad primam igitur nego consequentiam. Et ad probationem dico quod, si Filius non posset generare, quia in ipso non esset potentia generandi, bene sequeretur quod non esset omnipotens et quod Pater esset potentior ipso, sicut fuit ostensum in deductione prime conclusionis, sed illud non est verum, ut patet ex eadem conclusione, sed, si Filius non potest generare, quia non habet generationem activam nec potest eam elicere, ut patet ex secunda conclusione, non sequitur quod Pater sit potentior ipso, quia generatio activa non est aliqua potentia. Et per hoc patet quid dicendum ad formam, quia non sequitur Pater potest quicquid Filius potest et aliquid quod non potest Filius, igitur est potentior Filio nisi posse negaretur a Filio propter negationem vel carentiam alicuius potentie que non negatur a Patre vel qua non caret Pater, quod in proposito dici non potest sicut patet ex dictis. </p>
+            <p xml:id="atv-l1d6q1-d1e617">Et per hoc patet etiam quid dicendum ad confirmationem, quia posse creare mundum non posset negari a Filio nisi quia careret potentia creandi, quia creatio activa non magis repugnat uni persone quam alteri quantum est ex se. Posse vero generare potest negari, vel quia caret potentia generandi vel quia non habet generationem activam, nec potest eam elicere, igitur bene sequitur Filius non potest creare mundum, ergo non est omnipotens, sed non sequitur non potest generare, igitur non est omnipotens.</p>
+            <p xml:id="atv-l1d6q1-d1e620">Ad secundum nego minorem. Et ad probationem concedo quod generatio activa non communicatur Filio, quia in ipso est opposita relatio, ut patet ex deductione secunde conclusionis. Et quando dicitur quod tunc communicaretur Spiritui Sancto, cum in ipsa non sit opposita relatio, nego, quia non est eadem relatio utrobique. Filio enim non communicatur propter causam predictam, sed de Spiritu Sancto est alia ratio, quia Spiritus Sanctus non procedit a solo Patre, sed a Patre simul et Filio, et ideo nihil potest sibi communicari nisi illud sit in Filio et quia generatio activa non est in Filio non potest communicari Spiritui Sancto.</p>
+            <p xml:id="atv-l1d6q1-d1e623">Ad tertium dico quod posse 
+              <pb ed="#V" n="89-r"/>
+              <cb ed="#V" n="a"/>  
+              generare simile est in Filio creato. Est enim signum perfectionis secundum quid, non autem simpliciter. Est enim signum perfectionis supplentis imperfectionem quod patet etiam per <name>Philosophum</name>, quia <name>Philosophum</name> non posuit hoc nisi in his que non possunt permanere semper in proprio esse naturali, et ideo ad supplendam illam perfectionem previdit natura, ut in talibus illud quod producitur possit producere sibi simile ut saltem maneat in suo simili, quod non potest in se permanere. Et ideo non sequitur ex dictis <name>Philosophi</name> quod hoc non possit negari a Filio increato sine imperfectione, quia Filius increatus semper manet in suo esse, cum sit necesse esse. </p>
+            <p xml:id="atv-l1d6q1-d1e640">Ad formam igitur dico quod illud non est negandum a Filio increato quod est signum imperfectionis simpliciter et absolute in Filio creato, illud tamen potest negari a filio creato, quod est signum perfectionis in Filio creato secundum quid et supplentis imperfectionem, ut declaratum est in proposito.</p>
+            <p xml:id="atv-l1d6q1-d1e643">Ad quartum dico quod ratio bene concluderet si intellectio Filii esset alia ab intellectione Patris, sed quia in divinis non est nisi unica perfecta intellectio que communis est Patri, Filio et Spiritus Sancto. Sic non est nisi unicum verbum; et posset poni exemplum adhuc quod emanat a solo Patre, licet obiciatur omnibus tribus. Et per hec patet quid dicendum ad confirmationem, quia, licet in Filio sit perfectum intelligere, tamen, quia non est nisi unicum intelligere, non erit nisi unicum verbum. Et posset poni exemplum adhuc, quia, si potentia visiva creature per actum videndi sibi totaliter adequatum aliquid produceret et actus ille semper staret, quantumcumque alteri communicaretur eadem potentia visiva illud non posset per actum videndi aliud producere. Ratio huius est, quia non haberet nisi unum actum videndi. Et sic suo modo est in Deo. Filius enim sive verbum producitur per actum intellectionis sibi totaliter adequatum, cum igitur ille actus semper stet et idem intellectus communicetur Filio impossibile erit Filium per illum actum aliud verbum producere.</p>
+            <p xml:id="atv-l1d6q1-d1e646">Contra tertiam et quartam conclusiones posset argui, sed quia non sunt opiniabiles, sed necessario tenende et difficiliora que circa illam materiam possunt adduci sunt aliqualiter facta. Pertranseo pro nunc.</p>
+          </div>
+          
+          <div xml:id="atv-l1d6q1-Dd1e650">
+            <head xml:id="atv-l1d6q1-Hd1e652">Ad rationes principales</head>
+            <p xml:id="atv-l1d6q1-d1e655">Ad primam nego antecedens. Oppositum enim patet ex secunda conclusione. Et ad probationem respondet <name>Magister</name> distinctione sequenti dicens quod “non quia non potuit est dictum, quod non ex impotentia fuit quod concedo, quia potentia generandi est in Filio”, ut patet ex dictis. Secundo concedo et credo eam concludere etc.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
