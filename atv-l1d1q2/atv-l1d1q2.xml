@@ -162,8 +162,8 @@
             <p xml:id="atv-l1d1q2-d1e3923">Tertio, quia sola dilectione remota non manet fruitio consumata et perfecta, etiam si
               sine dilectione esset possibilis delectatio, aliter circumscripta dilectione maneret
               visio et frutio consumpta et perfecta, et sic beatitudo, quod est impossibile.</p>
-            <p xml:id="atv-l1d1q2-d1e3927">Confirmatur tamen dupliciter. Primo, quia, secundum <name>beatum Augustinum</name>
-              <title>83 Questiones</title>, questione 30: <quote xml:id="atv-l1d1q2-Qd1e3935">Omnis perversitas voluntatis que vitium
+            <p xml:id="atv-l1d1q2-d1e3927">Confirmatur tamen dupliciter. Primo, quia, secundum <ref><name>beatum Augustinum</name>
+              <title>83 Questiones</title>, questione 30</ref>: <quote xml:id="atv-l1d1q2-Qd1e3935" source="http://scta.info/resource/a83-q30-d1e108">Omnis perversitas voluntatis que vitium
               nominatii est uti fruendis, vel frui utendis</quote>, igitur omnis actus voluntatis perversus
               et vitiosus distinctus ab usu est essentialiter fruitio vel aliquid eius essentialiter
               et intrinsece. Sed dilectio creature propter se est actus voluntatis perversus et
@@ -268,8 +268,8 @@
             dilectionem precise, pro qua quidam doctor arguit primo sic:
             <note><name>Franciscus de Ma<supplied>y</supplied>ronis</name> in I, distinctione 1,
               questione 2, articulo 42</note>
-          <name>Augustinus</name>
-            <title>83 Questiones</title>, questione 30, dicit quod <quote xml:id="atv-l1d1q2-Qd1e4074">summa perversitas est uti
+          <ref><name>Augustinus</name>
+              <title>83 Questiones</title>, questione 30</ref>, dicit quod <quote xml:id="atv-l1d1q2-Qd1e4074" source="http://scta.info/resource/a83-q30-d1e108" type="paraphrase">summa perversitas est uti
             fruendis et frui utendis</quote>. Perversitas autem peccati consistit in solo actu demeritorio. </p>
           <p xml:id="atv-l1d1q2-d1e4078">Preterea, idem I <title>De doctrina christiana</title> dicit quod <quote xml:id="atv-l1d1q2-Qd1e4083">frui est amore
             inherere alicui propter se</quote>. Actus autem amoris est dilectio non delectatio.</p>
